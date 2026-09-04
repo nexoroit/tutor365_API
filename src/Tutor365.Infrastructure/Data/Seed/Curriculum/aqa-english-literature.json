@@ -1,0 +1,39 @@
+{
+  "subject": "ELT", "board": "AQA", "qualificationCode": "8702", "qualificationName": "GCSE English Literature", "hasTiers": false,
+  "specUrl": "https://www.aqa.org.uk/subjects/english/gcse/english-literature-8702",
+  "referenceBook": "CGP GCSE English Literature AQA Revision Guides (Text Guides)", "referenceIsbn": "",
+  "topics": [
+    { "code": "ELT-01", "name": "Shakespeare: Macbeth (Paper 1 Section A)", "spec": "P1-A", "year": 10, "examWeight": 8, "subTopics": [
+      { "code": "ELT-01-01", "name": "Macbeth: plot and structure", "spec": "AO1", "ref": "CGP Text Guide: Macbeth - Plot Summary" },
+      { "code": "ELT-01-02", "name": "Macbeth: characters", "spec": "AO1-AO2", "ref": "CGP Text Guide: Macbeth - Characters" },
+      { "code": "ELT-01-03", "name": "Macbeth: themes", "spec": "AO1-AO3", "ref": "CGP Text Guide: Macbeth - Themes" },
+      { "code": "ELT-01-04", "name": "Macbeth: context and setting", "spec": "AO3", "ref": "CGP Text Guide: Macbeth - Context" },
+      { "code": "ELT-01-05", "name": "Macbeth: language, form and dramatic techniques", "spec": "AO2", "ref": "CGP Text Guide: Macbeth - Writer's Techniques" } ] },
+    { "code": "ELT-02", "name": "19th-century novel: A Christmas Carol (Paper 1 Section B)", "spec": "P1-B", "year": 10, "examWeight": 8, "subTopics": [
+      { "code": "ELT-02-01", "name": "A Christmas Carol: plot and structure", "spec": "AO1", "ref": "CGP Text Guide: A Christmas Carol - Plot Summary" },
+      { "code": "ELT-02-02", "name": "A Christmas Carol: characters", "spec": "AO1-AO2", "ref": "CGP Text Guide: A Christmas Carol - Characters" },
+      { "code": "ELT-02-03", "name": "A Christmas Carol: themes", "spec": "AO1-AO3", "ref": "CGP Text Guide: A Christmas Carol - Themes" },
+      { "code": "ELT-02-04", "name": "A Christmas Carol: context", "spec": "AO3", "ref": "CGP Text Guide: A Christmas Carol - Context" },
+      { "code": "ELT-02-05", "name": "A Christmas Carol: language and narrative techniques", "spec": "AO2", "ref": "CGP Text Guide: A Christmas Carol - Writer's Techniques" } ] },
+    { "code": "ELT-03", "name": "Modern text: An Inspector Calls (Paper 2 Section A)", "spec": "P2-A", "year": 11, "examWeight": 8, "subTopics": [
+      { "code": "ELT-03-01", "name": "An Inspector Calls: plot and structure", "spec": "AO1", "ref": "CGP Text Guide: An Inspector Calls - Plot Summary" },
+      { "code": "ELT-03-02", "name": "An Inspector Calls: characters", "spec": "AO1-AO2", "ref": "CGP Text Guide: An Inspector Calls - Characters" },
+      { "code": "ELT-03-03", "name": "An Inspector Calls: themes", "spec": "AO1-AO3", "ref": "CGP Text Guide: An Inspector Calls - Themes" },
+      { "code": "ELT-03-04", "name": "An Inspector Calls: context", "spec": "AO3", "ref": "CGP Text Guide: An Inspector Calls - Context" },
+      { "code": "ELT-03-05", "name": "An Inspector Calls: dramatic techniques", "spec": "AO2", "ref": "CGP Text Guide: An Inspector Calls - Writer's Techniques" } ] },
+    { "code": "ELT-04", "name": "Poetry anthology: Power and Conflict (Paper 2 Section B)", "spec": "P2-B", "year": 11, "examWeight": 8, "subTopics": [
+      { "code": "ELT-04-01", "name": "Power of nature: Ozymandias, Storm on the Island, Extract from The Prelude", "spec": "AO1-AO3", "ref": "CGP Anthology Guide: Power and Conflict - Power of Nature" },
+      { "code": "ELT-04-02", "name": "Power of humans: London, My Last Duchess, Tissue, Checking Out Me History", "spec": "AO1-AO3", "ref": "CGP Anthology Guide: Power and Conflict - Power of Humans" },
+      { "code": "ELT-04-03", "name": "Reality of conflict: Charge of the Light Brigade, Exposure, Bayonet Charge, Remains", "spec": "AO1-AO3", "ref": "CGP Anthology Guide: Power and Conflict - Effects of Conflict" },
+      { "code": "ELT-04-04", "name": "Effects of conflict: Poppies, War Photographer, Kamikaze, The Emigree", "spec": "AO1-AO3", "ref": "CGP Anthology Guide: Power and Conflict - Loss, Memory and Identity" },
+      { "code": "ELT-04-05", "name": "Comparing poems", "spec": "AO1-AO3", "ref": "CGP Anthology Guide: Power and Conflict - Comparing Poems, Exam Skills" } ] },
+    { "code": "ELT-05", "name": "Unseen poetry (Paper 2 Section C)", "spec": "P2-C", "year": 11, "examWeight": 6, "subTopics": [
+      { "code": "ELT-05-01", "name": "Analysing an unseen poem", "spec": "AO1-AO2", "ref": "CGP Unseen Poetry Guide - Reading and Analysing" },
+      { "code": "ELT-05-02", "name": "Comparing two unseen poems", "spec": "AO2", "ref": "CGP Unseen Poetry Guide - Comparing Poems" } ] },
+    { "code": "ELT-06", "name": "Literature exam skills", "spec": "AO1-AO4", "year": 9, "examWeight": 7, "subTopics": [
+      { "code": "ELT-06-01", "name": "Understanding the assessment objectives", "spec": "AO1-AO4", "ref": "CGP Text Guides - Exam Skills" },
+      { "code": "ELT-06-02", "name": "Planning and structuring an essay", "spec": "AO1", "ref": "CGP Text Guides - Planning and Structure" },
+      { "code": "ELT-06-03", "name": "Using quotations and analysing language", "spec": "AO2", "ref": "CGP Text Guides - Using Quotes, Analysing Language" },
+      { "code": "ELT-06-04", "name": "Writing about context", "spec": "AO3", "ref": "CGP Text Guides - Context" } ] }
+  ]
+}

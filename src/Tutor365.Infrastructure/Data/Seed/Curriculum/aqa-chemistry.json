@@ -1,0 +1,49 @@
+{
+  "subject": "CHE", "board": "AQA", "qualificationCode": "8462", "qualificationName": "GCSE Chemistry", "hasTiers": true,
+  "specUrl": "https://www.aqa.org.uk/subjects/science/gcse/chemistry-8462",
+  "referenceBook": "CGP GCSE Chemistry AQA Revision Guide (Grade 9-1)", "referenceIsbn": "9781782945574",
+  "topics": [
+    { "code": "CHE-01", "name": "Atomic structure and the periodic table", "spec": "4.1", "year": 9, "examWeight": 8, "subTopics": [
+      { "code": "CHE-01-01", "name": "A simple model of the atom, symbols, relative atomic mass, electronic charge and isotopes", "spec": "4.1.1", "ref": "Topic 1: Atomic Structure - Atoms, Elements, Compounds, Mixtures, Isotopes" },
+      { "code": "CHE-01-02", "name": "The periodic table", "spec": "4.1.2", "ref": "Topic 1: The Periodic Table - Groups 0, 1, 7" },
+      { "code": "CHE-01-03", "name": "Properties of transition metals", "spec": "4.1.3", "ref": "Topic 1: The Periodic Table - Transition Metals" } ] },
+    { "code": "CHE-02", "name": "Bonding, structure and the properties of matter", "spec": "4.2", "year": 9, "examWeight": 8, "subTopics": [
+      { "code": "CHE-02-01", "name": "Chemical bonds: ionic, covalent and metallic", "spec": "4.2.1", "ref": "Topic 2: Bonding - Ionic, Covalent, Metallic Bonding" },
+      { "code": "CHE-02-02", "name": "How bonding and structure are related to the properties of substances", "spec": "4.2.2", "ref": "Topic 2: Bonding - States of Matter, Properties" },
+      { "code": "CHE-02-03", "name": "Structure and bonding of carbon", "spec": "4.2.3", "ref": "Topic 2: Bonding - Giant Covalent Structures, Allotropes of Carbon" },
+      { "code": "CHE-02-04", "name": "Bulk and surface properties of matter including nanoparticles", "spec": "4.2.4", "ref": "Topic 2: Bonding - Nanoparticles" } ] },
+    { "code": "CHE-03", "name": "Quantitative chemistry", "spec": "4.3", "year": 10, "examWeight": 8, "subTopics": [
+      { "code": "CHE-03-01", "name": "Chemical measurements, conservation of mass and balanced equations", "spec": "4.3.1", "ref": "Topic 3: Quantitative Chemistry - Relative Formula Mass, Conservation of Mass" },
+      { "code": "CHE-03-02", "name": "Use of amount of substance in relation to masses of pure substances", "spec": "4.3.2", "ref": "Topic 3: Quantitative Chemistry - The Mole, Reacting Masses, Limiting Reactants" },
+      { "code": "CHE-03-03", "name": "Yield and atom economy of chemical reactions", "spec": "4.3.3", "ref": "Topic 3: Quantitative Chemistry - Percentage Yield, Atom Economy" },
+      { "code": "CHE-03-04", "name": "Using concentrations of solutions in mol/dm3", "spec": "4.3.4", "ref": "Topic 3: Quantitative Chemistry - Concentration, Titrations" },
+      { "code": "CHE-03-05", "name": "Use of amount of substance in relation to volumes of gases", "spec": "4.3.5", "ref": "Topic 3: Quantitative Chemistry - Gas Volumes" } ] },
+    { "code": "CHE-04", "name": "Chemical changes", "spec": "4.4", "year": 10, "examWeight": 8, "subTopics": [
+      { "code": "CHE-04-01", "name": "Reactivity of metals", "spec": "4.4.1", "ref": "Topic 4: Chemical Changes - Reactivity Series, Extraction, Redox" },
+      { "code": "CHE-04-02", "name": "Reactions of acids", "spec": "4.4.2", "ref": "Topic 4: Chemical Changes - Acids and Bases, pH, Making Salts, Strong and Weak Acids" },
+      { "code": "CHE-04-03", "name": "Electrolysis", "spec": "4.4.3", "ref": "Topic 4: Chemical Changes - Electrolysis" } ] },
+    { "code": "CHE-05", "name": "Energy changes", "spec": "4.5", "year": 10, "examWeight": 5, "subTopics": [
+      { "code": "CHE-05-01", "name": "Exothermic and endothermic reactions", "spec": "4.5.1", "ref": "Topic 5: Energy Changes - Exothermic and Endothermic Reactions, Bond Energies" },
+      { "code": "CHE-05-02", "name": "Chemical cells and fuel cells", "spec": "4.5.2", "ref": "Topic 5: Energy Changes - Cells and Batteries, Fuel Cells" } ] },
+    { "code": "CHE-06", "name": "The rate and extent of chemical change", "spec": "4.6", "year": 10, "examWeight": 6, "subTopics": [
+      { "code": "CHE-06-01", "name": "Rate of reaction", "spec": "4.6.1", "ref": "Topic 6: Rates of Reaction - Rates, Collision Theory, Catalysts" },
+      { "code": "CHE-06-02", "name": "Reversible reactions and dynamic equilibrium", "spec": "4.6.2", "ref": "Topic 6: Rates of Reaction - Reversible Reactions, Le Chatelier's Principle" } ] },
+    { "code": "CHE-07", "name": "Organic chemistry", "spec": "4.7", "year": 11, "examWeight": 6, "subTopics": [
+      { "code": "CHE-07-01", "name": "Carbon compounds as fuels and feedstock", "spec": "4.7.1", "ref": "Topic 7: Organic Chemistry - Crude Oil, Alkanes, Cracking" },
+      { "code": "CHE-07-02", "name": "Reactions of alkenes and alcohols", "spec": "4.7.2", "ref": "Topic 7: Organic Chemistry - Alkenes, Alcohols, Carboxylic Acids" },
+      { "code": "CHE-07-03", "name": "Synthetic and naturally occurring polymers", "spec": "4.7.3", "ref": "Topic 7: Organic Chemistry - Polymers, DNA, Proteins" } ] },
+    { "code": "CHE-08", "name": "Chemical analysis", "spec": "4.8", "year": 11, "examWeight": 5, "subTopics": [
+      { "code": "CHE-08-01", "name": "Purity, formulations and chromatography", "spec": "4.8.1", "ref": "Topic 8: Chemical Analysis - Purity, Formulations, Chromatography" },
+      { "code": "CHE-08-02", "name": "Identification of common gases", "spec": "4.8.2", "ref": "Topic 8: Chemical Analysis - Tests for Gases" },
+      { "code": "CHE-08-03", "name": "Identification of ions by chemical and spectroscopic means", "spec": "4.8.3", "ref": "Topic 8: Chemical Analysis - Tests for Ions, Flame Tests, Flame Emission Spectroscopy" } ] },
+    { "code": "CHE-09", "name": "Chemistry of the atmosphere", "spec": "4.9", "year": 11, "examWeight": 4, "subTopics": [
+      { "code": "CHE-09-01", "name": "The composition and evolution of the Earth's atmosphere", "spec": "4.9.1", "ref": "Topic 9: Chemistry of the Atmosphere - Evolution of the Atmosphere" },
+      { "code": "CHE-09-02", "name": "Carbon dioxide and methane as greenhouse gases", "spec": "4.9.2", "ref": "Topic 9: Chemistry of the Atmosphere - Greenhouse Gases, Climate Change, Carbon Footprints" },
+      { "code": "CHE-09-03", "name": "Common atmospheric pollutants and their sources", "spec": "4.9.3", "ref": "Topic 9: Chemistry of the Atmosphere - Air Pollution" } ] },
+    { "code": "CHE-10", "name": "Using resources", "spec": "4.10", "year": 11, "examWeight": 5, "subTopics": [
+      { "code": "CHE-10-01", "name": "Using the Earth's resources and obtaining potable water", "spec": "4.10.1", "ref": "Topic 10: Using Resources - Finite Resources, Potable Water, Waste Water" },
+      { "code": "CHE-10-02", "name": "Life cycle assessment and recycling", "spec": "4.10.2", "ref": "Topic 10: Using Resources - Life Cycle Assessments, Recycling" },
+      { "code": "CHE-10-03", "name": "Using materials", "spec": "4.10.3", "ref": "Topic 10: Using Resources - Corrosion, Alloys, Ceramics, Polymers, Composites" },
+      { "code": "CHE-10-04", "name": "The Haber process and the use of NPK fertilisers", "spec": "4.10.4", "ref": "Topic 10: Using Resources - The Haber Process, Fertilisers" } ] }
+  ]
+}

@@ -1,0 +1,14 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+.DS_Store
+Logs/
+**/Logs/
+*.log
+appsettings.Production.json
+appsettings.*.local.json
+TestResults/
+publish/

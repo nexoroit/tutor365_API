@@ -1,0 +1,58 @@
+{
+  "subject": "MAT", "board": "AQA", "qualificationCode": "8300", "qualificationName": "GCSE Mathematics", "hasTiers": true,
+  "specUrl": "https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300",
+  "referenceBook": "CGP GCSE Maths AQA Revision Guide (Grade 9-1)", "referenceIsbn": "9781782943952",
+  "topics": [
+    { "code": "MAT-01", "name": "Number", "spec": "N", "year": 9, "examWeight": 8, "subTopics": [
+      { "code": "MAT-01-01", "name": "Place value, ordering and the four operations", "spec": "N1-N2", "ref": "Section 1: Number - Calculating Tips, Ordering Numbers" },
+      { "code": "MAT-01-02", "name": "Factors, multiples and primes", "spec": "N4", "ref": "Section 1: Number - Multiples, Factors and Prime Factors, LCM and HCF" },
+      { "code": "MAT-01-03", "name": "Fractions", "spec": "N2, N8", "ref": "Section 1: Number - Fractions" },
+      { "code": "MAT-01-04", "name": "Decimals and fractions, decimals and percentages", "spec": "N10", "ref": "Section 1: Number - Fractions, Decimals and Percentages, Recurring Decimals" },
+      { "code": "MAT-01-05", "name": "Percentages", "spec": "N12, R9", "ref": "Section 1: Number - Percentages" },
+      { "code": "MAT-01-06", "name": "Powers, roots and indices", "spec": "N6-N7", "ref": "Section 1: Number - Powers and Roots, Indices" },
+      { "code": "MAT-01-07", "name": "Standard form", "spec": "N9", "ref": "Section 1: Number - Standard Form" },
+      { "code": "MAT-01-08", "name": "Rounding, estimation and bounds", "spec": "N14-N16", "ref": "Section 1: Number - Rounding Numbers, Estimating, Bounds" },
+      { "code": "MAT-01-09", "name": "Surds", "spec": "N8", "tier": "Higher", "ref": "Section 1: Number - Surds" } ] },
+    { "code": "MAT-02", "name": "Algebra", "spec": "A", "year": 9, "examWeight": 9, "subTopics": [
+      { "code": "MAT-02-01", "name": "Algebraic notation and simplifying expressions", "spec": "A1-A3", "ref": "Section 2: Algebra - Algebra Basics" },
+      { "code": "MAT-02-02", "name": "Expanding and factorising", "spec": "A4", "ref": "Section 2: Algebra - Multiplying Out Brackets, Factorising" },
+      { "code": "MAT-02-03", "name": "Formulae and substitution", "spec": "A5", "ref": "Section 2: Algebra - Formulas, Rearranging Formulas" },
+      { "code": "MAT-02-04", "name": "Solving linear equations", "spec": "A17", "ref": "Section 2: Algebra - Solving Equations" },
+      { "code": "MAT-02-05", "name": "Linear inequalities", "spec": "A22", "ref": "Section 2: Algebra - Inequalities" },
+      { "code": "MAT-02-06", "name": "Simultaneous equations", "spec": "A19", "ref": "Section 2: Algebra - Simultaneous Equations" },
+      { "code": "MAT-02-07", "name": "Quadratic equations", "spec": "A18", "ref": "Section 2: Algebra - Quadratic Equations, The Quadratic Formula, Completing the Square" },
+      { "code": "MAT-02-08", "name": "Sequences", "spec": "A23-A25", "ref": "Section 2: Algebra - Sequences" },
+      { "code": "MAT-02-09", "name": "Straight-line graphs", "spec": "A9-A10", "ref": "Section 3: Graphs - Straight Lines, Gradients, y = mx + c" },
+      { "code": "MAT-02-10", "name": "Quadratic, cubic and other graphs", "spec": "A11-A12", "ref": "Section 3: Graphs - Quadratic Graphs, Harder Graphs" },
+      { "code": "MAT-02-11", "name": "Real-life graphs and rates of change", "spec": "A14-A15", "ref": "Section 3: Graphs - Real-Life Graphs, Distance-Time and Velocity-Time Graphs" },
+      { "code": "MAT-02-12", "name": "Algebraic fractions and proof", "spec": "A4, A6", "tier": "Higher", "ref": "Section 2: Algebra - Algebraic Fractions, Proof" },
+      { "code": "MAT-02-13", "name": "Functions and iteration", "spec": "A7, A20", "tier": "Higher", "ref": "Section 2: Algebra - Functions, Iterative Methods" } ] },
+    { "code": "MAT-03", "name": "Ratio, proportion and rates of change", "spec": "R", "year": 10, "examWeight": 7, "subTopics": [
+      { "code": "MAT-03-01", "name": "Ratio", "spec": "R4-R8", "ref": "Section 4: Ratio, Proportion and Rates of Change - Ratios" },
+      { "code": "MAT-03-02", "name": "Direct and inverse proportion", "spec": "R10, R13", "ref": "Section 4: Ratio, Proportion and Rates of Change - Direct and Inverse Proportion" },
+      { "code": "MAT-03-03", "name": "Percentage change, compound interest and growth and decay", "spec": "R9, R16", "ref": "Section 4: Ratio, Proportion and Rates of Change - Percentages, Compound Growth and Decay" },
+      { "code": "MAT-03-04", "name": "Units, compound measures and speed, density and pressure", "spec": "R1, R11, R14", "ref": "Section 4: Ratio, Proportion and Rates of Change - Unit Conversions, Speed, Density and Pressure" } ] },
+    { "code": "MAT-04", "name": "Geometry and measures", "spec": "G", "year": 10, "examWeight": 8, "subTopics": [
+      { "code": "MAT-04-01", "name": "Angles and polygons", "spec": "G1, G3", "ref": "Section 5: Geometry and Measures - Geometry, Parallel Lines, Polygons" },
+      { "code": "MAT-04-02", "name": "Congruence and similarity", "spec": "G5-G6, G19", "ref": "Section 5: Geometry and Measures - Congruent and Similar Shapes" },
+      { "code": "MAT-04-03", "name": "Constructions and loci", "spec": "G2", "ref": "Section 5: Geometry and Measures - Constructions, Loci" },
+      { "code": "MAT-04-04", "name": "Perimeter, area and circles", "spec": "G16-G18", "ref": "Section 5: Geometry and Measures - Perimeter and Area, Circles, Arcs and Sectors" },
+      { "code": "MAT-04-05", "name": "Volume and surface area", "spec": "G16-G17", "ref": "Section 5: Geometry and Measures - 3D Shapes, Surface Area, Volume" },
+      { "code": "MAT-04-06", "name": "Pythagoras' theorem", "spec": "G20", "ref": "Section 6: Pythagoras and Trigonometry - Pythagoras' Theorem" },
+      { "code": "MAT-04-07", "name": "Trigonometry", "spec": "G20-G21", "ref": "Section 6: Pythagoras and Trigonometry - Trigonometry, Exact Values" },
+      { "code": "MAT-04-08", "name": "Sine and cosine rules", "spec": "G22-G23", "tier": "Higher", "ref": "Section 6: Pythagoras and Trigonometry - The Sine and Cosine Rules, 3D Trigonometry" },
+      { "code": "MAT-04-09", "name": "Transformations", "spec": "G7-G8, G24", "ref": "Section 5: Geometry and Measures - Transformations, Enlargements" },
+      { "code": "MAT-04-10", "name": "Circle theorems", "spec": "G10", "tier": "Higher", "ref": "Section 5: Geometry and Measures - Circle Geometry" },
+      { "code": "MAT-04-11", "name": "Vectors", "spec": "G25", "ref": "Section 6: Pythagoras and Trigonometry - Vectors" } ] },
+    { "code": "MAT-05", "name": "Probability", "spec": "P", "year": 11, "examWeight": 5, "subTopics": [
+      { "code": "MAT-05-01", "name": "Basic probability and sample spaces", "spec": "P1-P7", "ref": "Section 7: Probability and Statistics - Probability Basics, Listing Outcomes" },
+      { "code": "MAT-05-02", "name": "Combined events, tree diagrams and conditional probability", "spec": "P8-P9", "ref": "Section 7: Probability and Statistics - Tree Diagrams, Conditional Probability" },
+      { "code": "MAT-05-03", "name": "Venn diagrams and sets", "spec": "P6", "ref": "Section 7: Probability and Statistics - Sets and Venn Diagrams" } ] },
+    { "code": "MAT-06", "name": "Statistics", "spec": "S", "year": 11, "examWeight": 5, "subTopics": [
+      { "code": "MAT-06-01", "name": "Data collection and sampling", "spec": "S1", "ref": "Section 7: Probability and Statistics - Sampling and Bias" },
+      { "code": "MAT-06-02", "name": "Averages and range", "spec": "S4", "ref": "Section 7: Probability and Statistics - Mean, Median, Mode and Range, Frequency Tables" },
+      { "code": "MAT-06-03", "name": "Charts and diagrams", "spec": "S2", "ref": "Section 7: Probability and Statistics - Bar Charts, Pie Charts, Frequency Polygons" },
+      { "code": "MAT-06-04", "name": "Scatter graphs and correlation", "spec": "S6", "ref": "Section 7: Probability and Statistics - Scatter Graphs" },
+      { "code": "MAT-06-05", "name": "Cumulative frequency, box plots and histograms", "spec": "S3-S4", "tier": "Higher", "ref": "Section 7: Probability and Statistics - Cumulative Frequency, Box Plots, Histograms" } ] }
+  ]
+}

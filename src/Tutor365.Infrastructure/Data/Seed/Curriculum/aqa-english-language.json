@@ -1,0 +1,32 @@
+{
+  "subject": "ENL", "board": "AQA", "qualificationCode": "8700", "qualificationName": "GCSE English Language", "hasTiers": false,
+  "specUrl": "https://www.aqa.org.uk/subjects/english/gcse/english-language-8700",
+  "referenceBook": "CGP GCSE English Language AQA Revision Guide (Grade 9-1)", "referenceIsbn": "9781782943693",
+  "topics": [
+    { "code": "ENL-01", "name": "Reading fiction (Paper 1 Section A)", "spec": "P1-A", "year": 9, "examWeight": 8, "subTopics": [
+      { "code": "ENL-01-01", "name": "Retrieving and interpreting information", "spec": "AO1", "ref": "Section 3: Paper 1 - Question 1, Finding Information" },
+      { "code": "ENL-01-02", "name": "Analysing language in fiction", "spec": "AO2", "ref": "Section 3: Paper 1 - Question 2, Analysing Language" },
+      { "code": "ENL-01-03", "name": "Analysing structure", "spec": "AO2", "ref": "Section 3: Paper 1 - Question 3, Analysing Structure" },
+      { "code": "ENL-01-04", "name": "Evaluating texts critically", "spec": "AO4", "ref": "Section 3: Paper 1 - Question 4, Evaluating Texts" } ] },
+    { "code": "ENL-02", "name": "Creative writing (Paper 1 Section B)", "spec": "P1-B", "year": 9, "examWeight": 8, "subTopics": [
+      { "code": "ENL-02-01", "name": "Descriptive writing", "spec": "AO5-AO6", "ref": "Section 4: Paper 1 - Descriptive Writing" },
+      { "code": "ENL-02-02", "name": "Narrative writing", "spec": "AO5-AO6", "ref": "Section 4: Paper 1 - Narrative Writing, Story Structure" },
+      { "code": "ENL-02-03", "name": "Planning, structuring and openings and endings", "spec": "AO5", "ref": "Section 4: Paper 1 - Planning, Paragraphs, Openings and Endings" },
+      { "code": "ENL-02-04", "name": "Vocabulary, imagery and sentence craft", "spec": "AO5-AO6", "ref": "Section 2: Writing Skills - Vocabulary, Sentence Structure, Language Techniques" } ] },
+    { "code": "ENL-03", "name": "Reading non-fiction (Paper 2 Section A)", "spec": "P2-A", "year": 10, "examWeight": 8, "subTopics": [
+      { "code": "ENL-03-01", "name": "Identifying true statements and explicit information", "spec": "AO1", "ref": "Section 5: Paper 2 - Question 1, True or False" },
+      { "code": "ENL-03-02", "name": "Summarising and synthesising two texts", "spec": "AO1", "ref": "Section 5: Paper 2 - Question 2, Summarising" },
+      { "code": "ENL-03-03", "name": "Analysing language in non-fiction", "spec": "AO2", "ref": "Section 5: Paper 2 - Question 3, Analysing Language" },
+      { "code": "ENL-03-04", "name": "Comparing writers' viewpoints and perspectives", "spec": "AO3", "ref": "Section 5: Paper 2 - Question 4, Comparing Viewpoints" } ] },
+    { "code": "ENL-04", "name": "Writing to present a viewpoint (Paper 2 Section B)", "spec": "P2-B", "year": 10, "examWeight": 8, "subTopics": [
+      { "code": "ENL-04-01", "name": "Writing articles", "spec": "AO5-AO6", "ref": "Section 6: Paper 2 - Writing Articles" },
+      { "code": "ENL-04-02", "name": "Writing letters and leaflets", "spec": "AO5-AO6", "ref": "Section 6: Paper 2 - Writing Letters, Leaflets" },
+      { "code": "ENL-04-03", "name": "Writing speeches and essays", "spec": "AO5-AO6", "ref": "Section 6: Paper 2 - Writing Speeches, Essays" },
+      { "code": "ENL-04-04", "name": "Persuasive and rhetorical devices", "spec": "AO5", "ref": "Section 6: Paper 2 - Persuasive Techniques, Tone and Register" } ] },
+    { "code": "ENL-05", "name": "Technical accuracy", "spec": "AO6", "year": 11, "examWeight": 6, "subTopics": [
+      { "code": "ENL-05-01", "name": "Spelling and commonly confused words", "spec": "AO6", "ref": "Section 2: Writing Skills - Spelling" },
+      { "code": "ENL-05-02", "name": "Punctuation", "spec": "AO6", "ref": "Section 2: Writing Skills - Punctuation, Apostrophes, Speech Marks" },
+      { "code": "ENL-05-03", "name": "Grammar and sentence types", "spec": "AO6", "ref": "Section 2: Writing Skills - Grammar, Sentence Types" },
+      { "code": "ENL-05-04", "name": "Paragraphing and cohesion", "spec": "AO5", "ref": "Section 2: Writing Skills - Paragraphs, Linking Ideas" } ] }
+  ]
+}
