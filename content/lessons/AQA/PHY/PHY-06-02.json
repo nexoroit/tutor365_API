@@ -1,0 +1,633 @@
+{
+  "subTopicCode": "PHY-06-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-PHY-06-02-L1",
+      "title": "Electromagnetic waves",
+      "summary": "Learn the order of the electromagnetic spectrum, how each part is used and what makes some of it dangerous, explain refraction, draw ray diagrams for lenses and calculate magnification, and explain why objects appear coloured.",
+      "objectives": [
+        "I can list the electromagnetic spectrum in order of wavelength and frequency and state what all EM waves have in common.",
+        "I can explain refraction at a boundary in terms of a change in wave speed (Higher).",
+        "I can describe uses and hazards of each part of the EM spectrum, including radiation dose.",
+        "I can draw ray diagrams for convex and concave lenses and calculate magnification.",
+        "I can explain specular and diffuse reflection and why objects appear to have a colour."
+      ],
+      "estimatedMinutes": 45,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "The electromagnetic spectrum",
+          "minutes": 4,
+          "content": "## A family of waves\n\n**Electromagnetic (EM) waves** are **transverse** waves that transfer energy from a **source** to an **absorber**. Unlike sound they need no medium, and in a **vacuum they all travel at the same speed**: 3.0 × 10⁸ m/s.\n\nThey form a **continuous spectrum** that we split into seven regions. From **longest wavelength / lowest frequency** to **shortest wavelength / highest frequency**:\n\n| Region | Typical wavelength |\n|---|---|\n| Radio waves | > 1 m (up to km) |\n| Microwaves | cm |\n| Infrared | ~ 10⁻⁵ m |\n| Visible light | 4 × 10⁻⁷ m (violet) to 7 × 10⁻⁷ m (red) |\n| Ultraviolet | ~ 10⁻⁸ m |\n| X-rays | ~ 10⁻¹⁰ m |\n| Gamma rays | < 10⁻¹² m |\n\nA memory aid: **R**oaring **M**onkeys **I**nvade **V**illages **U**sing **X**tra **G**rapes.\n\nOur eyes detect only the narrow **visible** band, from red (longest) through orange, yellow, green, blue to violet (shortest).\n\nBecause $v = f\\lambda$ and $v$ is fixed, **shorter wavelength means higher frequency**, and higher-frequency EM waves carry more energy per photon. That is why the right-hand end of the table is the dangerous end."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-PHY-06-02-L1-Q1",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put these parts of the electromagnetic spectrum in order of INCREASING frequency (lowest first).",
+            "hint": "Radio waves have the lowest frequency; gamma rays the highest.",
+            "explanation": "Increasing frequency means decreasing wavelength: radio, microwaves, infrared, visible, ultraviolet, X-rays, gamma.",
+            "order": [
+              "Radio waves",
+              "Microwaves",
+              "Infrared",
+              "Visible light",
+              "Ultraviolet",
+              "X-rays",
+              "Gamma rays"
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Refraction",
+          "minutes": 5,
+          "content": "## Bending at a boundary\n\nWhen an EM wave passes from one material into another, its **speed changes**. If it crosses the boundary at an angle, the change of speed makes it **change direction**. This is **refraction**. Light entering glass from air slows down and bends **towards the normal**; leaving glass it speeds up and bends **away from the normal**. A wave hitting the boundary **along the normal** changes speed but does **not** change direction.\n\n(The **normal** is a construction line drawn at right angles to the surface at the point where the ray hits it. Angles are always measured from the normal, not the surface.)\n\n### Explaining refraction with wave fronts (Higher)\nPicture a set of parallel wave fronts approaching glass at an angle. The **part of each wave front that enters the glass first slows down** while the rest is still moving quickly in air. This makes the wave front **swing round**, like a line of marching soldiers where one end steps into mud. The wavelength in glass is shorter (same frequency, lower speed), so the wave fronts bunch up.\n\n### Required practical: refraction through a glass block\n1. Place a rectangular glass block on paper and draw round it.\n2. Shine a ray from a ray box at an angle onto one face. Mark the incident ray and the ray leaving the far side with small crosses.\n3. Remove the block, join the dots, draw the normals and measure the **angle of incidence** and **angle of refraction** with a protractor.\n4. Repeat for several angles of incidence. The angle of refraction is always **smaller** than the angle of incidence going into glass.\n\nYou can also use a semicircular block or a Perspex block and compare materials."
+        },
+        {
+          "type": "Question",
+          "title": "Refraction",
+          "question": {
+            "key": "AQA-PHY-06-02-L1-Q2",
+            "type": "MultipleChoice",
+            "difficulty": 3,
+            "marks": 1,
+            "tier": "Higher",
+            "text": "A ray of light travels from air into a glass block at an angle to the normal. Which statement correctly explains why the ray changes direction?",
+            "hint": "Think about which part of the wave front reaches the glass first and what happens to its speed.",
+            "explanation": "Light travels more slowly in glass. The edge of the wave front that reaches the glass first slows down while the rest is still moving fast in air, so the wave front turns towards the normal. Frequency is unchanged; the wavelength gets shorter.",
+            "options": [
+              {
+                "text": "The part of the wave front entering the glass first slows down, so the wave front turns towards the normal",
+                "correct": true
+              },
+              {
+                "text": "The frequency of the light increases in the glass",
+                "correct": false,
+                "feedback": "Frequency never changes at a boundary."
+              },
+              {
+                "text": "Light speeds up in glass and bends away from the normal",
+                "correct": false
+              },
+              {
+                "text": "The glass absorbs the light and re-emits it in a new direction",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Producing EM waves and their dangers",
+          "minutes": 5,
+          "content": "## Where EM waves come from\n\nDifferent parts of the spectrum are produced in different ways:\n- **Radio waves** can be produced by **oscillations (alternating currents) in electrical circuits**. The frequency of the radio wave matches the frequency of the alternating current in the transmitting aerial. (Higher) When the radio wave is absorbed by a receiving aerial it creates an alternating current of the same frequency, which is how a radio picks up the signal.\n- **Gamma rays** are emitted from the **nuclei** of radioactive atoms as they lose energy.\n- **X-rays** come from fast-moving electrons striking a metal target.\n- **Infrared** is emitted by every warm object; **visible** light and **UV** come from very hot objects like the Sun and from some lamps.\n\nChanges in atoms and their nuclei can **generate** EM waves over a wide range of frequencies, and **absorbing** EM waves can cause changes in atoms too.\n\n## Hazards\nUltraviolet, X-rays and gamma rays are **ionising radiation**: they carry enough energy to knock electrons out of atoms, which can damage cells and DNA.\n\n| Radiation | Main hazard |\n|---|---|\n| Microwaves | internal heating of body tissue |\n| Infrared | skin burns |\n| Ultraviolet | premature skin ageing, sunburn, skin cancer, eye damage |\n| X-rays and gamma rays | mutation of genes, cancer |\n\n**Radiation dose** measures the risk of harm from exposure to ionising radiation. Its unit is the **sievert (Sv)**; because doses are usually small they are quoted in **millisieverts (mSv)**: 1000 mSv = 1 Sv. A chest X-ray gives about 0.02 mSv; a CT scan of the abdomen about 10 mSv."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: radiation dose",
+          "minutes": 3,
+          "content": "**A patient needs a dental X-ray (0.005 mSv) and later a CT scan of the head (2 mSv). The average annual background dose in the UK is about 2.7 mSv. Compare the total medical dose with the background dose.**\n\nTotal medical dose = 0.005 + 2 = 2.005 mSv ≈ 2 mSv\n\nThis is roughly **three-quarters** of a year's background dose ($2 / 2.7 \\approx 0.74$). Doctors only order the scan if the benefit of the diagnosis outweighs this small extra risk.\n\n**Converting units.** A radiation worker's dose limit is 20 mSv per year. In sieverts:\n\n$20 \\text{ mSv} = 20 \\div 1000 = 0.02$ Sv\n\n**Frequency check.** A radio station transmits at a wavelength of 1500 m. Its frequency is\n\n$f = \\dfrac{v}{\\lambda} = \\dfrac{3.0 \\times 10^8}{1500} = 2.0 \\times 10^5$ Hz = 200 kHz\n\nThe alternating current in the transmitter must also oscillate at 200 kHz."
+        },
+        {
+          "type": "Question",
+          "title": "EM wave calculation",
+          "question": {
+            "key": "AQA-PHY-06-02-L1-Q3",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "A microwave oven uses microwaves of frequency 2.45 × 10⁹ Hz. Electromagnetic waves travel at 3.0 × 10⁸ m/s. Calculate the wavelength of the microwaves. Give your answer in metres to 2 significant figures.",
+            "hint": "λ = v ÷ f.",
+            "explanation": "λ = 3.0 × 10⁸ ÷ 2.45 × 10⁹ = 0.122 m ≈ 0.12 m.",
+            "answers": [
+              {
+                "numeric": 0.122,
+                "tolerance": 0.004,
+                "unit": "m",
+                "marks": 3
+              }
+            ],
+            "metadata": {
+              "unitsRequired": true
+            }
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Uses of the EM spectrum",
+          "minutes": 4,
+          "content": "## Each region has jobs it suits\n\n| Region | Uses | Why it suits the job |\n|---|---|---|\n| **Radio waves** | television and radio broadcasting | travel long distances through air, diffract round hills, reflect off the ionosphere |\n| **Microwaves** | satellite communication, cooking food | pass through the atmosphere to reach satellites; absorbed by water molecules in food, heating it |\n| **Infrared** | electric heaters, cooking (grills), infrared cameras, TV remotes | emitted by warm objects and absorbed easily by surfaces, transferring energy as heat |\n| **Visible light** | fibre optic communication, photography, seeing | can be carried along thin glass fibres by total internal reflection with little loss |\n| **Ultraviolet** | energy-efficient (fluorescent) lamps, sun tanning, detecting forged banknotes | makes certain chemicals fluoresce (glow) |\n| **X-rays** | medical imaging of bones, airport security scanners | pass through soft tissue but are absorbed by bone and metal |\n| **Gamma rays** | sterilising medical equipment and food, treating cancer (radiotherapy), medical tracers | very penetrating and kill cells or microbes |\n\nNotice the pattern: the use always depends on **how the wave interacts with matter**, that is whether it is reflected, transmitted or absorbed by a particular material.\n\nX-rays and gamma rays are both ionising, so operators stand behind lead screens and patients' exposure is kept as low as possible."
+        },
+        {
+          "type": "Question",
+          "title": "Match the use",
+          "question": {
+            "key": "AQA-PHY-06-02-L1-Q4",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each use to the region of the electromagnetic spectrum.",
+            "hint": "Think about how each wave interacts with the material involved.",
+            "explanation": "Satellites communicate using microwaves, which pass through the atmosphere. Optical fibres carry visible light (or infrared). Bones absorb X-rays. Gamma rays penetrate sealed packaging and kill microbes.",
+            "pairs": [
+              {
+                "left": "Communicating with satellites",
+                "right": "Microwaves"
+              },
+              {
+                "left": "Sending signals along optical fibres",
+                "right": "Visible light"
+              },
+              {
+                "left": "Imaging a broken bone",
+                "right": "X-rays"
+              },
+              {
+                "left": "Sterilising sealed surgical instruments",
+                "right": "Gamma rays"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Lenses",
+          "minutes": 5,
+          "content": "## Convex and concave lenses\n\nA **lens** forms an image by **refracting** light.\n\n- A **convex (converging)** lens is fatter in the middle. Parallel rays entering it are brought together at the **principal focus**, F. The distance from the lens centre to F is the **focal length**.\n- A **concave (diverging)** lens is thinner in the middle. Parallel rays spread out as if they came from a principal focus on the *same* side as the incoming light.\n\n### Ray diagram rules (convex lens)\n1. A ray **parallel** to the axis refracts through **F** on the far side.\n2. A ray through the **centre** of the lens carries straight on.\n3. Where the two rays cross is the top of the image.\n\n### What image does a convex lens make?\n| Object position | Image |\n|---|---|\n| further than 2F | real, inverted, smaller (camera) |\n| between F and 2F | real, inverted, larger (projector) |\n| closer than F | **virtual**, upright, larger (magnifying glass) |\n\nA **real** image can be projected onto a screen because the rays actually meet there. A **virtual** image cannot; the rays only *appear* to come from it. A concave lens always gives a virtual, upright, smaller image.\n\n### Magnification\n$$\\text{magnification} = \\frac{\\text{image height}}{\\text{object height}}$$\n\nMagnification has **no units**. A value greater than 1 means the image is enlarged; less than 1 means it is diminished. Use the **same units** for both heights.\n\nOn diagrams, a convex lens is drawn as a line with outward arrowheads ⟷ and a concave lens with inward arrowheads."
+        },
+        {
+          "type": "Question",
+          "title": "Magnification",
+          "question": {
+            "key": "AQA-PHY-06-02-L1-Q5",
+            "type": "FormulaCalculation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A magnifying glass produces an image 2.4 cm tall of a beetle that is 6 mm long. Calculate the magnification.",
+            "hint": "Convert both heights to the same unit before dividing: 2.4 cm = 24 mm.",
+            "explanation": "Magnification = image height ÷ object height = 24 ÷ 6 = 4. No units.",
+            "answers": [
+              {
+                "numeric": 4,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Visible light and colour",
+          "minutes": 4,
+          "content": "## Reflection from surfaces\n- **Specular reflection**: from a smooth, flat surface such as a mirror. Parallel rays stay parallel after reflecting, so you see a clear image.\n- **Diffuse reflection**: from a rough surface such as paper. Each tiny part of the surface faces a different way, so parallel rays scatter in all directions. You see the surface but no image.\n\n## Why objects have colours\nEach colour of visible light has its own narrow band of **wavelength and frequency**. When white light (all colours mixed) hits an object, some wavelengths are **absorbed** and the rest are **reflected**. The colour you see is the colour that is **reflected**.\n\n- A **red** jumper reflects red light and absorbs the other colours.\n- A **white** surface reflects all colours equally.\n- A **black** surface absorbs all colours.\n\nShine only blue light on a red jumper and it looks **black**: there is no red light to reflect.\n\n## Transparent, translucent and opaque\n- **Opaque** objects do not transmit light; their colour depends on which wavelengths they reflect.\n- **Transparent** objects transmit light so you can see clearly through them.\n- **Translucent** objects transmit light but scatter it, so you see only a blur.\n\n## Colour filters\nA **filter** is a transparent sheet that **transmits** one colour and **absorbs** the rest. A green filter lets green light through and absorbs red, blue and every other colour. Put a red filter in front of a green one and almost no light gets through at all."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-PHY-06-02-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 6,
+            "examStyle": true,
+            "text": "Ultraviolet, X-rays and gamma rays are at the high-frequency end of the electromagnetic spectrum.\n\n(a) State ONE property that all electromagnetic waves have in common. (1 mark)\n\n(b) Explain why ultraviolet, X-rays and gamma rays are more hazardous to the human body than radio waves. (2 marks)\n\n(c) A radiographer receives a dose of 0.4 mSv from a procedure. State the unit of radiation dose and convert this dose to sieverts. (2 marks)\n\n(d) Give one medical use of gamma rays. (1 mark)",
+            "hint": "For (b), think about the word 'ionising' and what it does to cells.",
+            "explanation": "(a) All EM waves are transverse / travel at the same speed in a vacuum / transfer energy. (b) UV, X-rays and gamma rays have high frequency and high energy, so they are ionising: they can knock electrons off atoms, damaging cells and DNA and causing mutations or cancer. (c) The sievert (Sv); 0.4 mSv = 0.0004 Sv. (d) Sterilising equipment, treating cancer or as a tracer.",
+            "markScheme": [
+              {
+                "criterion": "All transverse / same speed in a vacuum / transfer energy from source to absorber",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "transverse",
+                    "same speed",
+                    "3 × 10",
+                    "3 x 10",
+                    "vacuum",
+                    "transfer energy"
+                  ]
+                ]
+              },
+              {
+                "criterion": "They are ionising / have enough energy to remove electrons from atoms",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "ionis",
+                    "ioniz",
+                    "remove electron",
+                    "knock electron",
+                    "high energy",
+                    "higher energy",
+                    "high frequency"
+                  ]
+                ]
+              },
+              {
+                "criterion": "This can damage cells / DNA / cause mutations or cancer",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "cell",
+                    "dna",
+                    "mutation",
+                    "cancer",
+                    "tissue"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Unit is the sievert",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "sievert",
+                    "sv"
+                  ]
+                ]
+              },
+              {
+                "criterion": "0.4 mSv = 0.0004 Sv",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "0.0004",
+                    "4 × 10",
+                    "4 x 10",
+                    "4e-4"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Medical use: sterilising equipment / treating cancer / medical tracer",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "steril",
+                    "cancer",
+                    "tumour",
+                    "radiotherapy",
+                    "tracer",
+                    "imaging"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- EM waves are **transverse**, need no medium and all travel at **3 × 10⁸ m/s in a vacuum**. Order of increasing frequency: **radio, micro, IR, visible, UV, X, gamma**.\n- **Refraction** happens because the wave **changes speed** at a boundary; the side of the wave front entering first slows down and the wave front turns (Higher).\n- Radio waves come from **oscillating currents**; gamma rays come from **nuclei**. UV, X-rays and gamma are **ionising**; dose is measured in **sieverts**.\n- Uses depend on how each wave is **absorbed, reflected or transmitted**: microwaves for satellites, IR for heating, visible for optical fibres, X-rays for bones, gamma for sterilising.\n- **Convex** lenses converge light and can give real or virtual images; **concave** lenses diverge light. **Magnification = image height ÷ object height** (no units).\n- Colour: objects **reflect** the colour they appear and **absorb** the rest. **Filters transmit** one colour. Specular reflection = smooth; diffuse = rough."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-PHY-06-02-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which part of the electromagnetic spectrum has the longest wavelength?",
+          "hint": "Remember the order starting from radio.",
+          "explanation": "Radio waves have the longest wavelength and the lowest frequency.",
+          "options": [
+            {
+              "text": "Radio waves",
+              "correct": true
+            },
+            {
+              "text": "Gamma rays",
+              "correct": false,
+              "feedback": "Gamma rays have the shortest wavelength."
+            },
+            {
+              "text": "Visible light",
+              "correct": false
+            },
+            {
+              "text": "Ultraviolet",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: all electromagnetic waves travel at the same speed in a vacuum.",
+          "hint": "Think about what makes them a single 'family' of waves.",
+          "explanation": "True. Every EM wave travels at 3.0 × 10⁸ m/s in a vacuum; they differ in wavelength and frequency, not speed.",
+          "options": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P3",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Red light has a wavelength of 7.0 × 10⁻⁷ m. Calculate its frequency. Use v = 3.0 × 10⁸ m/s.",
+          "hint": "f = v ÷ λ.",
+          "explanation": "f = 3.0 × 10⁸ ÷ 7.0 × 10⁻⁷ = 4.3 × 10¹⁴ Hz.",
+          "answers": [
+            {
+              "numeric": 429000000000000.0,
+              "tolerance": 5000000000000.0,
+              "unit": "Hz",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P4",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentences about how EM waves are produced.",
+          "metadata": {
+            "blanksText": "Radio waves can be produced by oscillations in electrical ___. Gamma rays are emitted from the ___ of atoms."
+          },
+          "hint": "One is a piece of electrical equipment; the other is the central part of an atom.",
+          "explanation": "Radio waves are produced by oscillations (alternating currents) in electrical circuits. Gamma rays come from the nucleus.",
+          "answers": [
+            {
+              "text": "circuits",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "nucleus",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P5",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which THREE of these are hazards of ultraviolet radiation?",
+          "hint": "UV is the reason we wear sunscreen and sunglasses.",
+          "explanation": "UV can cause sunburn, premature skin ageing, skin cancer and eye damage. Internal heating is a microwave hazard.",
+          "options": [
+            {
+              "text": "Sunburn",
+              "correct": true
+            },
+            {
+              "text": "Premature ageing of the skin",
+              "correct": true
+            },
+            {
+              "text": "Increased risk of skin cancer",
+              "correct": true
+            },
+            {
+              "text": "Internal heating of body organs",
+              "correct": false,
+              "feedback": "That is the main hazard of microwaves."
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P6",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A patient receives a dose of 0.15 mSv from an X-ray. Convert this to sieverts.",
+          "hint": "1 Sv = 1000 mSv, so divide by 1000.",
+          "explanation": "0.15 ÷ 1000 = 0.00015 Sv (1.5 × 10⁻⁴ Sv).",
+          "answers": [
+            {
+              "numeric": 0.00015,
+              "tolerance": 1e-06,
+              "unit": "Sv",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P7",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A projector forms an image 1.8 m tall of a slide that is 36 mm tall. Calculate the magnification.",
+          "hint": "Convert to the same unit: 1.8 m = 1800 mm.",
+          "explanation": "Magnification = 1800 ÷ 36 = 50.",
+          "answers": [
+            {
+              "numeric": 50,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P8",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Match each description to the correct type of image or lens.",
+          "hint": "A real image can be caught on a screen; a virtual one cannot.",
+          "explanation": "A convex lens with the object inside F gives a virtual, upright, magnified image (magnifying glass). A concave lens always gives a virtual, upright, diminished image. A convex lens with the object beyond 2F gives a real, inverted, diminished image (camera).",
+          "pairs": [
+            {
+              "left": "Object closer than F to a convex lens",
+              "right": "Virtual, upright, magnified image"
+            },
+            {
+              "left": "Any object in front of a concave lens",
+              "right": "Virtual, upright, diminished image"
+            },
+            {
+              "left": "Object further than 2F from a convex lens",
+              "right": "Real, inverted, diminished image"
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P9",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "White light passes through a green filter. What happens?",
+          "hint": "A filter transmits one colour and absorbs the rest.",
+          "explanation": "The green filter transmits green light and absorbs all the other wavelengths.",
+          "options": [
+            {
+              "text": "Only green light is transmitted; the other colours are absorbed",
+              "correct": true
+            },
+            {
+              "text": "All colours pass through but are tinted green",
+              "correct": false
+            },
+            {
+              "text": "Green light is absorbed and the rest is transmitted",
+              "correct": false
+            },
+            {
+              "text": "The light is reflected as green",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Explain why you can see your reflection in a polished metal tray but not in a sheet of white paper, even though both reflect light.",
+          "hint": "One surface is smooth, the other is rough at a microscopic level.",
+          "explanation": "The polished tray is smooth so it gives specular reflection: parallel rays stay parallel and form an image. Paper is rough, so it gives diffuse reflection: rays scatter in all directions and no image forms.",
+          "markScheme": [
+            {
+              "criterion": "Metal is smooth giving specular reflection / rays stay parallel",
+              "marks": 1,
+              "keywords": [
+                [
+                  "specular",
+                  "smooth",
+                  "parallel"
+                ]
+              ]
+            },
+            {
+              "criterion": "Paper is rough giving diffuse reflection / rays scattered in all directions",
+              "marks": 1,
+              "keywords": [
+                [
+                  "diffuse",
+                  "rough",
+                  "scatter",
+                  "all directions",
+                  "different directions"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "tier": "Higher",
+          "text": "A student shines a ray of light into a rectangular glass block at an angle of 40° to the normal.\n\n(a) Describe how the student should find the angle of refraction. (2 marks)\n\n(b) Explain, using ideas about wave fronts, why the ray bends towards the normal as it enters the glass. (2 marks)",
+          "hint": "For (a), think about marking the ray path, removing the block and using a protractor.",
+          "explanation": "(a) Mark the incident and emerging rays with crosses, remove the block, join the marks to draw the path through the block, draw the normal at the entry point and measure the angle between the refracted ray and the normal with a protractor. (b) Light travels more slowly in glass. The part of each wave front that enters the glass first slows down while the rest continues quickly in air, so the wave front rotates towards the normal.",
+          "markScheme": [
+            {
+              "criterion": "Mark the ray path with crosses / draw round the block and join the marks after removing it",
+              "marks": 1,
+              "keywords": [
+                [
+                  "mark",
+                  "cross",
+                  "dots",
+                  "draw round",
+                  "join"
+                ]
+              ]
+            },
+            {
+              "criterion": "Draw the normal and measure the angle between the refracted ray and the normal with a protractor",
+              "marks": 1,
+              "keywords": [
+                [
+                  "normal"
+                ],
+                [
+                  "protractor",
+                  "measure"
+                ]
+              ]
+            },
+            {
+              "criterion": "Light slows down in glass",
+              "marks": 1,
+              "keywords": [
+                [
+                  "slow",
+                  "slower",
+                  "speed decreases",
+                  "less speed",
+                  "lower speed"
+                ]
+              ]
+            },
+            {
+              "criterion": "The part of the wave front entering first slows first, so the wave front turns / changes direction",
+              "marks": 1,
+              "keywords": [
+                [
+                  "first",
+                  "one side",
+                  "one edge",
+                  "part of"
+                ],
+                [
+                  "turn",
+                  "rotate",
+                  "swing",
+                  "change direction",
+                  "bend"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-06-02-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A blue book is viewed in a room lit only by red light. What colour does the book appear?",
+          "hint": "The book can only reflect blue light. Is there any blue light in the room?",
+          "explanation": "A blue object reflects blue light and absorbs other colours. Under red light there is no blue to reflect, and the red is absorbed, so the book appears black.",
+          "options": [
+            {
+              "text": "Black",
+              "correct": true
+            },
+            {
+              "text": "Blue",
+              "correct": false,
+              "feedback": "There is no blue light available to reflect."
+            },
+            {
+              "text": "Red",
+              "correct": false,
+              "feedback": "A blue object absorbs red light."
+            },
+            {
+              "text": "Purple",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

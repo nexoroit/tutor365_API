@@ -1,0 +1,685 @@
+{
+  "subTopicCode": "BIO-07-01",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-BIO-07-01-L1",
+      "title": "Adaptations, interdependence and competition",
+      "summary": "Learn the language of ecology, find out what plants and animals compete for, see how abiotic and biotic factors shape a community, and explore the adaptations that let organisms survive – even in boiling springs and frozen deserts.",
+      "objectives": [
+        "I can define ecosystem, community, population and habitat and use the terms correctly.",
+        "I can describe what plants and animals compete for and explain why species in a community are interdependent.",
+        "I can give examples of abiotic and biotic factors and explain how a change in one can affect a community.",
+        "I can classify adaptations as structural, behavioural or functional and explain how they help survival.",
+        "I can describe extremophiles and give examples of the extreme conditions they tolerate."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 2,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "The language of ecology",
+          "minutes": 4,
+          "content": "## Four words you must get right\n\n**Ecology** is the study of how living things interact with each other and with their surroundings. Four terms come up in almost every question:\n\n| Term | Meaning | Example |\n|---|---|---|\n| **Habitat** | the place where an organism lives | a rock pool, a hedgerow, the bark of an oak tree |\n| **Population** | all the organisms of **one species** living in a habitat | all the limpets in a rock pool |\n| **Community** | all the populations of **different species** living together in a habitat | the limpets, seaweed, crabs, anemones and shrimps in the rock pool |\n| **Ecosystem** | the community **plus** the non-living parts of the environment it interacts with | the rock pool community with its water, rock, temperature and light |\n\nA way to remember the order: *habitat* is the place, *population* is one species, *community* is every species, *ecosystem* adds the non-living surroundings.\n\n**Stable communities**\n\nIn a **stable community**, all the species and environmental factors are in balance, so population sizes stay roughly **constant**. A mature woodland or a tropical rainforest that has been undisturbed for centuries is stable in this sense: numbers of each species rise and fall a little from year to year but do not change dramatically. Because the species are interdependent, removing one of them can upset the whole community – a theme we return to below."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-BIO-07-01-L1-Q1",
+            "type": "Matching",
+            "difficulty": 1,
+            "marks": 4,
+            "text": "Match each ecological term to its meaning.",
+            "hint": "Population = one species; community = all species; ecosystem includes the non-living parts.",
+            "explanation": "A habitat is where an organism lives; a population is all of one species in a habitat; a community is all the populations of different species; an ecosystem is the community together with the non-living factors.",
+            "pairs": [
+              {
+                "left": "Habitat",
+                "right": "The place where an organism lives"
+              },
+              {
+                "left": "Population",
+                "right": "All the individuals of one species in an area"
+              },
+              {
+                "left": "Community",
+                "right": "All the populations of different species living together"
+              },
+              {
+                "left": "Ecosystem",
+                "right": "A community and the non-living parts of its environment"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Competition",
+          "minutes": 4,
+          "content": "## Not enough to go round\n\nResources in a habitat are limited, so organisms **compete** for them. Competition happens **within** a species (two blackbirds fighting over a worm) and **between** species (blackbirds and thrushes both eating the worms).\n\n**Plants compete for**\n\n- **light** – for photosynthesis;\n- **space** – to spread their leaves and roots;\n- **water** – from the soil;\n- **mineral ions** – such as nitrates from the soil.\n\n**Animals compete for**\n\n- **food**;\n- **mates** – to reproduce;\n- **territory** – an area with enough food, water and shelter to raise young.\n\nThe best competitors survive and reproduce, so competition drives natural selection.\n\n**Interdependence**\n\nWithin a community, every species depends on others for **food**, **shelter**, **pollination** and **seed dispersal**. Bees depend on flowers for nectar; the flowers depend on bees for pollination; the birds that eat the bees depend on both. If one species is removed – say a disease wipes out the bees – the effects ripple through the whole community: fewer flowers set seed, so fewer plants grow next year, so there is less food for the caterpillars that feed on them, and so on. This is **interdependence**, and it is why ecologists worry about losing even a single species."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: predicting the ripple effect",
+          "minutes": 3,
+          "content": "**A hedgerow community includes hawthorn bushes, aphids that suck sap from the hawthorn, ladybirds that eat the aphids, and blue tits that eat both aphids and ladybirds. A farmer sprays the hedgerow with an insecticide that kills all the aphids. Predict what happens to the other populations.**\n\n**Step 1 – who depends on the aphids?** Ladybirds eat aphids, so the **ladybird population falls** through lack of food. Blue tits eat aphids too, so their food supply is reduced.\n\n**Step 2 – second-order effects.** With fewer ladybirds, blue tits lose *another* food source, so the **blue tit population may fall further** or the birds move elsewhere.\n\n**Step 3 – the plant.** With no aphids taking sap, the **hawthorn may grow better** in the short term.\n\n**Step 4 – the surprise.** If the aphids recover (a few survive and breed rapidly) but the ladybirds have already gone, the aphids could multiply with no predator to control them, and the hawthorn could end up worse off than before.\n\n**Exam technique:** state the direction of each change (increase / decrease) and give the reason (more or less food, fewer predators). Do not just say \"it will be affected\"."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-BIO-07-01-L1-Q2",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Which resources do plants in a woodland compete with each other for? Select all that apply.",
+            "hint": "Plants make their own food, so they do not compete for food or mates – think about what photosynthesis and growth need.",
+            "explanation": "Plants compete for light, water, space and mineral ions. Food and mates are things animals compete for.",
+            "options": [
+              {
+                "text": "Light",
+                "correct": true
+              },
+              {
+                "text": "Mineral ions from the soil",
+                "correct": true
+              },
+              {
+                "text": "Mates",
+                "correct": false,
+                "feedback": "Plants do not compete for mates – that is an animal resource."
+              },
+              {
+                "text": "Food",
+                "correct": false,
+                "feedback": "Plants make their own food by photosynthesis."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Abiotic factors",
+          "minutes": 4,
+          "content": "## Non-living influences\n\n**Abiotic** factors are the **non-living** parts of an environment. A change in any of them can change the size of a population or the make-up of a community.\n\n| Abiotic factor | Example of its effect |\n|---|---|\n| **Light intensity** | less light in the shade of a new building → plants beneath it photosynthesise less and grow more slowly |\n| **Temperature** | a warmer climate lets a species spread further north, or drives it out of a habitat that becomes too hot |\n| **Moisture level** | drought reduces plant growth, so herbivores have less food |\n| **Soil pH and mineral content** | acidic soil suits heathers but not many other plants; low nitrate levels limit growth |\n| **Wind intensity and direction** | strong winds increase water loss from leaves and shape the growth of coastal trees |\n| **Carbon dioxide level** | affects the rate of photosynthesis in plants |\n| **Oxygen level** | important for aquatic animals: warm or polluted water holds less dissolved oxygen, so fish die |\n\n**Answering \"explain the effect\" questions**\n\nAlways link the factor to a *process* and then to a *population*: *less light → less photosynthesis → less glucose for growth → smaller plants → less food for herbivores → herbivore numbers fall.* Chains like this are worth several marks, and they show that you understand interdependence as well as abiotic factors."
+        },
+        {
+          "type": "Explanation",
+          "title": "Biotic factors",
+          "minutes": 3,
+          "content": "## Living influences\n\n**Biotic** factors are the **living** parts of the environment that affect a community.\n\n- **Availability of food** – if a food source disappears, the populations that depend on it decline.\n- **New predators arriving** – a predator introduced to an island where the prey have no defences can wipe out species. For example, cats and rats brought by ships have driven several ground-nesting island birds to extinction.\n- **New pathogens** – a disease can spread quickly through a population that has never met it before and has no resistance.\n- **Competition** – one species may **out-compete** another so that its numbers become too small for it to breed successfully. Grey squirrels, introduced to Britain from North America, out-compete native red squirrels for food and habitat, so red squirrels have disappeared from most of England.\n\n**Abiotic or biotic?** The quick test is *alive or not alive*. Temperature, rain, light and soil are abiotic. Predators, prey, diseases and competitors are biotic. A trap to avoid: *water* is abiotic, but *the fish in the water* are biotic."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-BIO-07-01-L1-Q3",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Grey squirrels were introduced to Britain from North America. Since then, the number of native red squirrels has fallen sharply. Explain how the arrival of grey squirrels has affected the red squirrel population.",
+            "hint": "Both species need the same resources. What happens when one is the better competitor?",
+            "explanation": "The two species compete for the same food and habitat. Grey squirrels are larger and better competitors, so they take most of the resources. Red squirrels get less food, fewer survive and breed, so their population falls and they disappear from many areas.",
+            "markScheme": [
+              {
+                "criterion": "The species compete for the same resources (food / habitat)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "compet"
+                  ],
+                  [
+                    "food",
+                    "habitat",
+                    "resource",
+                    "territory",
+                    "space",
+                    "nuts",
+                    "seeds"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Grey squirrels are better competitors / out-compete reds",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "out-compete",
+                    "outcompete",
+                    "better competitor",
+                    "more successful",
+                    "bigger",
+                    "larger",
+                    "win"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Red squirrels have less food so fewer survive / reproduce and population falls",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "less food",
+                    "fewer",
+                    "starve",
+                    "cannot breed",
+                    "fall",
+                    "decrease",
+                    "decline",
+                    "die"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Adaptations",
+          "minutes": 5,
+          "content": "## Built to survive\n\nAn **adaptation** is a feature that helps an organism survive in the conditions of its habitat. There are three kinds:\n\n- **Structural** – physical features of the body. A polar bear's **thick fur** and **layer of fat** insulate it; its **white** colour camouflages it on snow; **small ears** reduce heat loss.\n- **Behavioural** – things an organism *does*. Desert lizards **hide in burrows** during the hottest part of the day; swallows **migrate** to warmer countries in winter; penguins **huddle** to share warmth.\n- **Functional** – processes inside the body. A camel produces **very concentrated urine** and **little sweat** to save water; some frogs make **antifreeze chemicals** so their cells survive being frozen; hibernating animals **lower their metabolic rate**.\n\n**Plants are adapted too.** A cactus has:\n\n- **spines** instead of leaves – a small surface area cuts water loss and deters animals (structural);\n- a **thick, waxy stem** that stores water (structural);\n- **shallow, wide-spreading roots** to catch rain quickly, or very deep roots to reach water below (structural);\n- stomata that **open at night** so less water is lost in the daytime heat (functional).\n\n**Linking the adaptation to the benefit** is what earns marks. \"Big ears\" is worth nothing on its own; \"large ears give a large surface area for heat loss, so the fennec fox stays cool in the desert\" is a full answer."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: adaptations of a hot-desert animal",
+          "minutes": 3,
+          "content": "**A kangaroo rat lives in a hot, dry desert. It has large hind legs, comes out only at night, and never needs to drink because it gets all its water from the seeds it eats and from respiration. Describe how each feature helps it survive, and classify each adaptation.**\n\n| Feature | How it helps survival | Type |\n|---|---|---|\n| Comes out only at **night** | avoids the daytime heat, so it loses less water by evaporation and does not overheat | behavioural |\n| **Never drinks**; gets water from food and respiration | it can survive where there is no liquid water available | functional |\n| Produces very **concentrated urine** (a further known adaptation) | loses as little water as possible | functional |\n| **Large hind legs** | lets it jump quickly away from predators such as snakes and owls in open ground | structural |\n\n**Notice the pattern:** desert adaptations are mostly about **saving water** and **avoiding heat**; Arctic adaptations are mostly about **keeping heat in**. If you can state the *problem* the habitat poses, you can usually work out what the adaptation is for, even for an animal you have never heard of."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-BIO-07-01-L1-Q4",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete the sentences about types of adaptation.",
+            "metadata": {
+              "blanksText": "A polar bear's thick fur is a ___ adaptation. A bird migrating south for the winter is a ___ adaptation. A camel producing concentrated urine is a ___ adaptation."
+            },
+            "hint": "Physical features, actions, and internal processes – in that order.",
+            "explanation": "Fur is a physical feature (structural), migrating is a behaviour (behavioural), and concentrating urine is an internal body process (functional).",
+            "answers": [
+              {
+                "text": "structural",
+                "blankIndex": 0,
+                "marks": 1
+              },
+              {
+                "text": "behavioural",
+                "blankIndex": 1,
+                "marks": 1
+              },
+              {
+                "text": "functional",
+                "blankIndex": 2,
+                "marks": 1
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Extremophiles",
+          "minutes": 3,
+          "content": "## Life at the limits\n\nSome organisms live in conditions that would kill almost everything else. They are called **extremophiles**, and most of them are **bacteria** or other microorganisms. They are adapted to:\n\n- **very high temperatures** – bacteria in hot springs and around deep-sea **hydrothermal vents** survive water above 80 °C thanks to enzymes that do not denature at those temperatures;\n- **very high pressure** – organisms on the deep ocean floor cope with pressure hundreds of times greater than at the surface;\n- **very high salt concentration** – microbes in salt lakes such as the Dead Sea are adapted so that they do not lose water by osmosis;\n- extremes of **pH**, **cold** or **radiation**.\n\nExtremophiles matter for two reasons. First, they show how far adaptation can go – life may be possible in environments on other planets that we once thought were lifeless. Second, their heat-stable enzymes are useful in industry and in the laboratory, for example in the process used to copy DNA.\n\nThe key exam point is simple: *extremophiles are organisms adapted to live in extreme conditions – name a condition and an example.*"
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-BIO-07-01-L1-Q5",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "A pond contains pondweed, water snails that graze on the pondweed, and sticklebacks (small fish) that eat the snails. During a hot summer the water temperature rises and the level of dissolved oxygen in the pond falls.\n\n(a) Name **two** abiotic factors mentioned in the passage. **(1 mark)**\n\n(b) Explain why the stickleback population is likely to decrease. **(2 marks)**\n\n(c) Predict and explain the effect of the fall in stickleback numbers on the pondweed. **(2 marks)**",
+            "hint": "Fish get oxygen from the water. Then follow the food chain: fewer sticklebacks means more of what they eat, which means less of what *that* eats.",
+            "explanation": "(a) Temperature and dissolved oxygen concentration. (b) Fish need dissolved oxygen for respiration; with less oxygen in the warm water, fewer sticklebacks can respire enough to survive, so the population decreases. (c) With fewer sticklebacks to eat them, the snail population increases; more snails graze on the pondweed, so the amount of pondweed decreases.",
+            "markScheme": [
+              {
+                "criterion": "Two abiotic factors: temperature and oxygen level",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "temperature",
+                    "warm",
+                    "heat"
+                  ],
+                  [
+                    "oxygen"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Sticklebacks need dissolved oxygen for respiration",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "oxygen"
+                  ],
+                  [
+                    "respir",
+                    "breathe",
+                    "need",
+                    "survive"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Less oxygen so fewer survive / more die, population falls",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "less oxygen",
+                    "low oxygen",
+                    "not enough oxygen",
+                    "lack of oxygen",
+                    "die",
+                    "fewer survive",
+                    "suffocate"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Snail population increases because fewer are eaten",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "snail"
+                  ],
+                  [
+                    "increase",
+                    "rise",
+                    "more",
+                    "grow",
+                    "fewer eaten",
+                    "not eaten"
+                  ]
+                ]
+              },
+              {
+                "criterion": "More snails eat more pondweed, so pondweed decreases",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "pondweed",
+                    "plant",
+                    "weed"
+                  ],
+                  [
+                    "decrease",
+                    "fall",
+                    "less",
+                    "reduce",
+                    "eaten",
+                    "drop"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Habitat** = where an organism lives; **population** = one species; **community** = all species; **ecosystem** = community + non-living environment. A **stable community** has roughly constant populations.\n- Plants compete for **light, space, water, mineral ions**; animals compete for **food, mates, territory**.\n- Species are **interdependent** (food, shelter, pollination, seed dispersal) so removing one affects the rest.\n- **Abiotic** (non-living) factors: light, temperature, moisture, soil pH/minerals, wind, CO₂, O₂. **Biotic** (living) factors: food availability, new predators, new pathogens, competition.\n- **Adaptations** are **structural** (body features), **behavioural** (actions) or **functional** (internal processes). Always link the feature to how it helps survival.\n- **Extremophiles** (mostly bacteria) live in extreme heat, pressure or salt concentration."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-BIO-07-01-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: a community is all the organisms of a single species living in a habitat.",
+          "hint": "Which word means all of one species, and which means all the species together?",
+          "explanation": "False. That describes a population. A community is all the populations of different species living together.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of the following is an abiotic factor?",
+          "hint": "Abiotic means non-living.",
+          "explanation": "Light intensity is a non-living, abiotic factor. Predators, pathogens and competing species are all living, so they are biotic.",
+          "options": [
+            {
+              "text": "Light intensity",
+              "correct": true
+            },
+            {
+              "text": "A new predator",
+              "correct": false
+            },
+            {
+              "text": "A pathogen",
+              "correct": false
+            },
+            {
+              "text": "A competing species",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P3",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Which of the following do animals compete for? Select all that apply.",
+          "hint": "Think about what an animal needs to survive and reproduce.",
+          "explanation": "Animals compete for food, mates and territory. Light and mineral ions are resources that plants compete for.",
+          "options": [
+            {
+              "text": "Mates",
+              "correct": true
+            },
+            {
+              "text": "Territory",
+              "correct": true
+            },
+            {
+              "text": "Light",
+              "correct": false,
+              "feedback": "Plants compete for light."
+            },
+            {
+              "text": "Mineral ions",
+              "correct": false,
+              "feedback": "Plants compete for mineral ions from the soil."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P4",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Match each adaptation to its type.",
+          "hint": "Structural = body feature, behavioural = action, functional = body process.",
+          "explanation": "A thick layer of blubber is a physical feature (structural); huddling is a behaviour (behavioural); producing antifreeze in cells is an internal process (functional).",
+          "pairs": [
+            {
+              "left": "A seal's thick layer of blubber",
+              "right": "Structural"
+            },
+            {
+              "left": "Penguins huddling together in the cold",
+              "right": "Behavioural"
+            },
+            {
+              "left": "A fish producing antifreeze proteins in its blood",
+              "right": "Functional"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P5",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence.",
+          "metadata": {
+            "blanksText": "Organisms such as bacteria that live in extreme conditions like very high temperature, pressure or salt concentration are called ___. In a ___ community, the population sizes stay roughly constant."
+          },
+          "hint": "The first word starts with 'extrem'; the second means balanced and not changing.",
+          "explanation": "Extremophiles live in extreme conditions. A stable community has populations in balance.",
+          "answers": [
+            {
+              "text": "extremophiles",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "stable",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P6",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Why do fish die when a river becomes warmer and polluted?",
+          "hint": "What gas do fish take from the water?",
+          "explanation": "Warm and polluted water holds less dissolved oxygen, and fish need oxygen for respiration.",
+          "options": [
+            {
+              "text": "The water contains less dissolved oxygen for respiration",
+              "correct": true
+            },
+            {
+              "text": "The water contains too much carbon dioxide for photosynthesis",
+              "correct": false,
+              "feedback": "Fish do not photosynthesise."
+            },
+            {
+              "text": "The fish cannot see their food in warm water",
+              "correct": false
+            },
+            {
+              "text": "The warm water makes the fish grow too quickly",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P7",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "In a stable woodland, a population of wood mice was counted over three years: 420, 395 and 445. Calculate the mean population size.",
+          "hint": "Add the three counts and divide by 3.",
+          "explanation": "420 + 395 + 445 = 1260. 1260 ÷ 3 = 420.",
+          "answers": [
+            {
+              "numeric": 420,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P8",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A field is heavily shaded by a new building. Put the events in the order in which they are likely to happen.",
+          "hint": "Start with the abiotic change, then follow the chain to the animals.",
+          "explanation": "Less light reaches the plants, so they photosynthesise less, produce less glucose and grow less; herbivores then have less food and their population falls.",
+          "order": [
+            "Light intensity reaching the field decreases",
+            "The rate of photosynthesis in the plants falls",
+            "The plants grow less and produce less biomass",
+            "Herbivores have less food available",
+            "The herbivore population decreases"
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P9",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A cactus has spines instead of broad leaves. Explain how this adaptation helps the cactus survive in a desert.",
+          "hint": "Think about what leaves lose to the air, and about hungry animals.",
+          "explanation": "Spines have a very small surface area so the plant loses much less water by evaporation and transpiration. Spines also protect the water-filled stem from being eaten by animals.",
+          "markScheme": [
+            {
+              "criterion": "Small surface area reduces water loss / transpiration / evaporation",
+              "marks": 1,
+              "keywords": [
+                [
+                  "water loss",
+                  "lose less water",
+                  "loses less water",
+                  "transpiration",
+                  "evaporat",
+                  "reduce water",
+                  "less water"
+                ]
+              ]
+            },
+            {
+              "criterion": "Spines deter / protect from animals eating the plant",
+              "marks": 1,
+              "keywords": [
+                [
+                  "animal",
+                  "eaten",
+                  "herbivore",
+                  "protect",
+                  "deter",
+                  "predator"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "Arctic foxes have small ears, thick white fur in winter and a layer of fat under the skin.\n\n(a) Explain how **two** of these features help the fox survive in the Arctic. **(2 marks)**\n\n(b) An Arctic fox's fur turns brown in summer. Suggest why this change is an advantage. **(2 marks)**",
+          "hint": "Every Arctic adaptation is about keeping heat in or staying hidden. In summer the snow melts – what colour is the ground?",
+          "explanation": "(a) Small ears have a small surface area so less heat is lost; thick fur traps a layer of air that insulates the body; the fat layer insulates and acts as an energy store. (b) In summer the snow melts and the ground is brown or green, so brown fur camouflages the fox against the ground, helping it sneak up on prey and hide from predators.",
+          "markScheme": [
+            {
+              "criterion": "First feature linked to reducing heat loss / insulation",
+              "marks": 1,
+              "keywords": [
+                [
+                  "heat",
+                  "warm",
+                  "insulat"
+                ]
+              ]
+            },
+            {
+              "criterion": "Second, different feature linked to a benefit (heat loss, insulation, energy store, camouflage)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "ears",
+                  "fur",
+                  "fat",
+                  "blubber"
+                ],
+                [
+                  "surface area",
+                  "trap",
+                  "insulat",
+                  "energy",
+                  "camouflage",
+                  "store"
+                ]
+              ]
+            },
+            {
+              "criterion": "Brown fur provides camouflage against the summer ground / no snow",
+              "marks": 1,
+              "keywords": [
+                [
+                  "camouflage",
+                  "blend",
+                  "hidden",
+                  "hide",
+                  "harder to see",
+                  "not seen"
+                ]
+              ]
+            },
+            {
+              "criterion": "So it can catch prey / avoid predators more easily",
+              "marks": 1,
+              "keywords": [
+                [
+                  "prey",
+                  "predator",
+                  "hunt",
+                  "food",
+                  "eaten",
+                  "catch"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 3,
+          "examStyle": true,
+          "text": "Bacteria living around deep-sea hydrothermal vents survive at temperatures above 80 °C. Most other organisms would die at this temperature.\n\n(a) What name is given to organisms that live in such extreme conditions? **(1 mark)**\n\n(b) Explain why most organisms cannot survive at 80 °C and suggest how the vent bacteria are adapted to cope. **(2 marks)**",
+          "hint": "Think about what happens to enzymes at high temperature.",
+          "explanation": "(a) Extremophiles. (b) At high temperatures the enzymes of most organisms denature – their active sites change shape so they stop working and the cells' reactions fail. Vent bacteria have enzymes with a more stable structure that do not denature at 80 °C, so their metabolism continues.",
+          "markScheme": [
+            {
+              "criterion": "Extremophiles",
+              "marks": 1,
+              "keywords": [
+                [
+                  "extremophile"
+                ]
+              ]
+            },
+            {
+              "criterion": "Enzymes in most organisms denature at high temperature / stop working",
+              "marks": 1,
+              "keywords": [
+                [
+                  "enzyme",
+                  "protein"
+                ],
+                [
+                  "denature",
+                  "stop working",
+                  "change shape",
+                  "destroyed",
+                  "damaged"
+                ]
+              ]
+            },
+            {
+              "criterion": "Vent bacteria have heat-stable enzymes / enzymes with a higher optimum that do not denature",
+              "marks": 1,
+              "keywords": [
+                [
+                  "stable",
+                  "optimum",
+                  "not denature",
+                  "don't denature",
+                  "do not denature",
+                  "withstand",
+                  "adapted enzymes",
+                  "different enzymes",
+                  "work at high"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

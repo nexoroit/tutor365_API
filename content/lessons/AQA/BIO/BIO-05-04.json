@@ -1,0 +1,676 @@
+{
+  "subTopicCode": "BIO-05-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-BIO-05-04-L1",
+      "title": "Plant hormones",
+      "summary": "Find out how plants respond to light and gravity using auxin, investigate tropisms with seedlings, and see how growers use auxins, gibberellins and ethene to control crops.",
+      "objectives": [
+        "I can describe phototropism and gravitropism and explain why each response helps a plant survive.",
+        "I can explain how the unequal distribution of auxin causes a shoot to bend towards light and a root to grow downwards.",
+        "I can describe how to investigate the effect of light or gravity on the growth of seedlings.",
+        "I can describe the roles of gibberellins and ethene in plants.",
+        "I can describe how auxins, gibberellins and ethene are used in horticulture and the food industry."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Plants respond too",
+          "minutes": 4,
+          "content": "## Tropisms\n\nPlants have no nervous system, but they still sense and respond to their surroundings. Their responses are slow **growth responses** controlled by **hormones**, and a growth response towards or away from a stimulus is called a **tropism**.\n\n- **Phototropism** – a response to **light**.\n- **Gravitropism** (also called **geotropism**) – a response to **gravity**.\n\nIf the plant grows *towards* the stimulus the tropism is **positive**; if it grows *away* it is **negative**.\n\n| Part of plant | Light | Gravity |\n|---|---|---|\n| **Shoot** | grows **towards** light (positive phototropism) | grows **away** from gravity, i.e. upwards (negative gravitropism) |\n| **Root** | grows **away** from light (negative phototropism) | grows **towards** gravity, i.e. downwards (positive gravitropism) |\n\n**Why does this matter?** A shoot that grows towards light gets more light for **photosynthesis**, so it makes more glucose for growth. A root that grows downwards anchors the plant firmly and reaches **water** and **mineral ions** in the soil. Each tropism gives the plant a better chance of surviving and growing wherever a seed happens to land."
+        },
+        {
+          "type": "Explanation",
+          "title": "Auxin: the growth hormone",
+          "minutes": 5,
+          "content": "## How the bending happens\n\nThe hormone behind tropisms is **auxin**. It is made in the **tips** of shoots and roots and moves back from the tip into the region just behind it, where the cells are still able to grow.\n\nThe key idea is that auxin has **opposite effects** in the two parts of the plant:\n\n- In **shoots**, auxin **stimulates** cell elongation (cells get longer).\n- In **roots**, auxin **inhibits** cell elongation.\n\n**Shoot in light from one side**\n1. Light causes auxin to move to the **shaded side** of the shoot tip.\n2. Cells on the shaded side receive more auxin and **elongate more**.\n3. The shaded side grows faster, so the shoot **bends towards the light**.\n\n**Shoot placed horizontally**\n1. Gravity makes auxin collect on the **lower side**.\n2. In a shoot, more auxin means faster growth, so the lower side grows more and the shoot **bends upwards**.\n\n**Root placed horizontally**\n1. Again auxin gathers on the **lower side**.\n2. In a root, auxin **slows** growth, so the upper side grows faster and the root **bends downwards**.\n\nThe secret to every tropism question is the same sentence: *auxin is unequally distributed, so one side grows faster than the other, and the organ bends.* Then say which side grows faster and why."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: explaining a bending shoot",
+          "minutes": 3,
+          "content": "**A seedling on a windowsill is lit from the right. After two days its shoot has curved to the right. Explain why.**\n\nA full-mark answer contains four ideas in order:\n\n1. **Auxin** is produced in the shoot tip.\n2. Light from the right causes auxin to move to the **left (shaded) side** of the shoot.\n3. In a shoot, auxin **stimulates cell elongation**, so cells on the left side **grow longer** than cells on the right.\n4. Because the left side grows faster, the shoot **bends towards the right**, i.e. towards the light.\n\n**Common slip:** students write that the shoot \"grows towards the light because it wants light\". That describes the result, not the mechanism. Always mention **auxin**, **which side** it collects on, and **unequal growth**.\n\n**Now a twist:** if the tip of the shoot is cut off before the experiment, the shoot does not bend at all. That is because the tip is where auxin is made – with no tip, there is no auxin gradient and no unequal growth."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-BIO-05-04-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "A shoot is lit from the left. On which side of the shoot does auxin build up, and what happens there?",
+            "hint": "Auxin moves away from the light, and in shoots it speeds up growth.",
+            "explanation": "Auxin gathers on the shaded (right) side. In shoots auxin stimulates elongation, so the right side grows faster and the shoot bends to the left, towards the light.",
+            "options": [
+              {
+                "text": "The right (shaded) side, where it makes cells elongate faster",
+                "correct": true
+              },
+              {
+                "text": "The left (lit) side, where it makes cells elongate faster",
+                "correct": false,
+                "feedback": "Auxin moves to the shaded side, not the lit side."
+              },
+              {
+                "text": "The right (shaded) side, where it stops cells elongating",
+                "correct": false,
+                "feedback": "Auxin inhibits elongation in roots, but in shoots it stimulates it."
+              },
+              {
+                "text": "Both sides equally, so the shoot grows straight",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-BIO-05-04-L1-Q2",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each response to the correct description.",
+            "hint": "Positive means growing towards the stimulus. Shoots go up and towards light; roots go down.",
+            "explanation": "Shoots show positive phototropism (towards light) and negative gravitropism (away from gravity). Roots show positive gravitropism (towards gravity) and negative phototropism (away from light).",
+            "pairs": [
+              {
+                "left": "Shoot growing towards light",
+                "right": "Positive phototropism"
+              },
+              {
+                "left": "Shoot growing upwards",
+                "right": "Negative gravitropism"
+              },
+              {
+                "left": "Root growing downwards",
+                "right": "Positive gravitropism"
+              },
+              {
+                "left": "Root growing away from light",
+                "right": "Negative phototropism"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Required practical: investigating tropisms",
+          "minutes": 4,
+          "content": "## Effect of light or gravity on seedlings\n\nA simple way to see tropisms is to grow **cress or mustard seedlings** and change one stimulus at a time.\n\n**Method for light**\n1. Put equal numbers of seeds on damp cotton wool in three identical dishes.\n2. Place one dish in an **all-round light**, one in a box with a **slit on one side**, and one in **darkness**.\n3. Keep everything else the same: temperature, amount of water, number of seeds.\n4. After 3–5 days, measure the **height** of the seedlings and the **angle** of bending from vertical, and describe their colour.\n\n**Expected results**\n- All-round light: straight, short, green shoots.\n- Light from one side: shoots **bend towards the slit**.\n- Darkness: tall, pale, spindly shoots as the plant stretches in search of light.\n\n**Method for gravity**\n- Grow seedlings in dishes, then lay some dishes on their **side** and keep others upright. After a few days the shoots in the sideways dish have turned to grow **upwards** and the roots **downwards**.\n\n**Good practice points examiners look for**\n- **Repeats**: several seedlings per dish, then calculate a **mean** angle or height.\n- **Control variables**: same seed type, water volume, temperature and time.\n- Take measurements with a **ruler** (mm) and **protractor** (degrees) rather than just describing what you see."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-BIO-05-04-L1-Q3",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A student measures the angle of bending of five seedlings lit from one side: 32°, 28°, 35°, 30° and 25°. Calculate the mean angle of bending.",
+            "hint": "Add the five values and divide by 5.",
+            "explanation": "32 + 28 + 35 + 30 + 25 = 150. 150 ÷ 5 = 30°.",
+            "answers": [
+              {
+                "numeric": 30,
+                "tolerance": 0,
+                "unit": "°",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-BIO-05-04-L1-Q4",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "In the tropism experiment, one dish of seedlings was kept in complete darkness. Explain why this dish was included.",
+            "hint": "What does a scientist compare their results against?",
+            "explanation": "The dish in darkness is a control. It shows what the seedlings do without any light stimulus, so any bending in the other dishes can be attributed to the direction of light rather than something else.",
+            "markScheme": [
+              {
+                "criterion": "Identifies it as a control",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "control",
+                    "comparison",
+                    "compare"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Explains it shows the effect of light / that bending is due to light",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "light"
+                  ],
+                  [
+                    "due to",
+                    "caused by",
+                    "because of",
+                    "effect of",
+                    "without"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Gibberellins and ethene (Higher)",
+          "minutes": 4,
+          "content": "## Two more plant hormones *(Higher tier)*\n\nAuxin is not the only hormone plants use.\n\n**Gibberellins**\n- Their main natural job is to start **seed germination**. A seed lies dormant until conditions are right; gibberellins trigger the seed to break dormancy and begin to grow.\n- They also promote **stem growth** and **flowering**.\n\n**Ethene**\n- Ethene is a **gas** that plants release. It controls **cell division** and, most famously, the **ripening of fruit**.\n- Because it is a gas, ripening fruit releases ethene into the air and speeds up the ripening of fruit nearby. That is why a bruised apple in a bowl makes the others go soft faster.\n\n**Quick comparison**\n\n| Hormone | Natural role | Where you meet it |\n|---|---|---|\n| Auxin | tropisms, cell elongation | shoot and root tips |\n| Gibberellins | germination, stem growth, flowering | seeds, growing stems |\n| Ethene | fruit ripening, cell division | ripening fruit |\n\nYou do not need the chemistry of these hormones. You do need to link each one to the process it controls and, in the next section, to how humans make use of it."
+        },
+        {
+          "type": "Explanation",
+          "title": "Using plant hormones (Higher)",
+          "minutes": 5,
+          "content": "## Hormones at work in farming and food *(Higher tier)*\n\nBecause plant hormones can be made cheaply, growers use them to control plants precisely.\n\n**Auxins**\n- **Weedkillers**: selective weedkillers contain auxin that makes broad-leaved weeds grow so fast and unevenly that they die, while narrow-leaved grasses and cereal crops are barely affected.\n- **Rooting powders**: dipping a cutting into auxin powder makes it quickly grow **roots**, so many identical plants can be produced from one parent.\n- **Tissue culture**: in the lab, auxins are added to a growth medium so tiny pieces of plant tissue develop roots and grow into clones.\n\n**Ethene**\n- Fruit such as bananas is picked **unripe** and green so it can be transported without bruising. At the warehouse, ethene gas is pumped in to **ripen** the fruit just before it reaches the shops. Growers can also **slow** ripening by removing ethene from the storage air.\n\n**Gibberellins**\n- **Ending seed dormancy** so seeds germinate together and at the right time for the grower.\n- **Promoting flowering** so plants flower earlier or outside their normal season.\n- **Increasing fruit size**, for example producing larger seedless grapes.\n\n**Exam tip:** the question usually gives a scenario (a farmer wants uniform germination; a supermarket wants ripe avocados on Friday) and asks which hormone to use and why. Name the hormone, state what it does, and explain the benefit to the grower or seller."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: choosing the right hormone",
+          "minutes": 3,
+          "content": "**Three growers each have a problem. Which hormone should each use?**\n\n**Grower A** takes cuttings from a prize rose bush but most of them die before they produce roots.\n\n→ **Auxin** (as rooting powder). Auxin stimulates root formation, so the cuttings establish quickly and A gets many genetically identical roses.\n\n**Grower B** imports mangoes by ship. Ripe mangoes bruise and rot on the two-week journey.\n\n→ **Ethene**. Pick the mangoes unripe, ship them hard and green, then expose them to ethene in a ripening room so they are perfectly ripe when they reach the shop.\n\n**Grower C** sows barley but the seeds germinate at different times, so the field cannot be harvested in one go.\n\n→ **Gibberellins**. Treating the seeds ends dormancy and makes them germinate together, so the whole crop is ready at the same time.\n\n**Bonus point:** a lawn owner troubled by dandelions but not wanting to harm the grass would use a **selective auxin weedkiller**, because broad-leaved weeds respond to the auxin but grasses do not."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-BIO-05-04-L1-Q5",
+            "type": "MultipleAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "tier": "Higher",
+            "text": "Which of the following are uses of gibberellins? Select all that apply.",
+            "hint": "Gibberellins are about starting growth: germination, flowering and bigger fruit.",
+            "explanation": "Gibberellins are used to end seed dormancy and to promote flowering (and to increase fruit size). Ripening fruit is done with ethene; rooting cuttings uses auxin.",
+            "options": [
+              {
+                "text": "Ending seed dormancy so seeds germinate together",
+                "correct": true
+              },
+              {
+                "text": "Promoting flowering",
+                "correct": true
+              },
+              {
+                "text": "Ripening bananas in a warehouse",
+                "correct": false,
+                "feedback": "That is ethene."
+              },
+              {
+                "text": "Making cuttings grow roots",
+                "correct": false,
+                "feedback": "That is auxin in rooting powder."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-BIO-05-04-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "A germinating bean is laid on its side in a dark box. After three days, the root has curved downwards and the shoot has curved upwards.\n\n(a) Name the type of response shown by the root. **(1 mark)**\n\n(b) Explain, in terms of auxin, why the root curves downwards. **(3 marks)**\n\n(c) Suggest why growing downwards helps the plant survive. **(1 mark)**",
+            "hint": "The box is dark, so this is about gravity, not light. Remember auxin has the opposite effect in roots compared with shoots.",
+            "explanation": "(a) Positive gravitropism (geotropism). (b) Gravity causes auxin to collect on the lower side of the root. In roots auxin inhibits cell elongation, so the lower side grows more slowly than the upper side, and the root bends downwards. (c) Growing down anchors the plant and reaches water and mineral ions in the soil.",
+            "markScheme": [
+              {
+                "criterion": "Positive gravitropism / geotropism",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "gravitropism",
+                    "geotropism",
+                    "gravitropic",
+                    "geotropic"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Auxin accumulates on the lower side of the root",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "auxin"
+                  ],
+                  [
+                    "lower",
+                    "bottom",
+                    "underside",
+                    "under side"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Auxin inhibits elongation / growth in root cells",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "inhibit",
+                    "slows",
+                    "slow",
+                    "stops",
+                    "reduces",
+                    "less growth",
+                    "prevents"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Upper side grows faster so root bends downwards",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "upper",
+                    "top",
+                    "faster",
+                    "more",
+                    "unequal"
+                  ],
+                  [
+                    "bend",
+                    "curve",
+                    "down",
+                    "grows"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Anchors the plant / reaches water or mineral ions",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "anchor",
+                    "water",
+                    "mineral",
+                    "nutrients",
+                    "support",
+                    "soil"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- A **tropism** is a growth response to a stimulus: **phototropism** (light) and **gravitropism/geotropism** (gravity).\n- Shoots: positive phototropism, negative gravitropism. Roots: positive gravitropism, negative phototropism.\n- **Auxin** is made in tips and is unequally distributed: it **stimulates** elongation in shoots but **inhibits** it in roots, so one side grows faster and the organ bends.\n- Investigate tropisms with seedlings in one-sided light or laid on their side; use repeats, a control, and measure angles/heights.\n- *(HT)* **Gibberellins** start germination and promote flowering and fruit growth; **ethene** is a gas that controls ripening.\n- *(HT)* Uses: auxin in weedkillers, rooting powder and tissue culture; ethene to ripen fruit in the food industry; gibberellins to end dormancy, promote flowering and increase fruit size."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-BIO-05-04-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: plant shoots grow towards light.",
+          "hint": "Where does a houseplant on a windowsill lean?",
+          "explanation": "True. Shoots show positive phototropism, growing towards the light to get more light for photosynthesis.",
+          "options": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-04-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "What is the name of the plant hormone responsible for tropisms?",
+          "hint": "It is made in the tips of shoots and roots.",
+          "explanation": "Auxin is made in the tips and controls cell elongation, producing tropisms.",
+          "options": [
+            {
+              "text": "Auxin",
+              "correct": true
+            },
+            {
+              "text": "Insulin",
+              "correct": false,
+              "feedback": "Insulin is an animal hormone that controls blood glucose."
+            },
+            {
+              "text": "Ethene",
+              "correct": false
+            },
+            {
+              "text": "Adrenaline",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-04-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence about auxin.",
+          "metadata": {
+            "blanksText": "In a shoot, auxin ___ cell elongation, but in a root it ___ cell elongation."
+          },
+          "hint": "The two words are opposites.",
+          "explanation": "Auxin stimulates elongation in shoots and inhibits it in roots, which is why the same hormone makes shoots bend up and roots bend down.",
+          "answers": [
+            {
+              "text": "stimulates",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "inhibits",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-04-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Why is it an advantage for a root to show positive gravitropism?",
+          "hint": "Think about what a root needs to find.",
+          "explanation": "Growing downwards takes the root into the soil, anchoring the plant and finding water and mineral ions.",
+          "options": [
+            {
+              "text": "It reaches water and mineral ions in the soil and anchors the plant",
+              "correct": true
+            },
+            {
+              "text": "It allows the root to photosynthesise",
+              "correct": false,
+              "feedback": "Roots do not photosynthesise; they are underground."
+            },
+            {
+              "text": "It helps the root absorb carbon dioxide",
+              "correct": false
+            },
+            {
+              "text": "It keeps the root warm",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-04-L1-P5",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Put the steps in the correct order to explain how a shoot bends towards light.",
+          "hint": "Start with where auxin is made and finish with the bending.",
+          "explanation": "Auxin is made in the tip, moves to the shaded side, stimulates elongation there, so the shaded side grows faster and the shoot bends towards light.",
+          "order": [
+            "Auxin is produced in the shoot tip",
+            "Auxin moves to the shaded side of the shoot",
+            "Cells on the shaded side elongate more",
+            "The shaded side grows faster than the lit side",
+            "The shoot bends towards the light"
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-04-L1-P6",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A student investigates the effect of light on cress seedlings. Which variables should be kept the same in every dish? Select all that apply.",
+          "hint": "Only the light should differ between dishes.",
+          "explanation": "Water volume and temperature must be controlled so that only the light differs. The direction of light is the independent variable, and the angle of bending is what is measured.",
+          "options": [
+            {
+              "text": "The volume of water given",
+              "correct": true
+            },
+            {
+              "text": "The temperature",
+              "correct": true
+            },
+            {
+              "text": "The direction the light comes from",
+              "correct": false,
+              "feedback": "That is the independent variable – the thing deliberately changed."
+            },
+            {
+              "text": "The angle the seedlings bend",
+              "correct": false,
+              "feedback": "That is the dependent variable – what is measured."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-04-L1-P7",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A seedling was 18 mm tall at the start of an experiment and 45 mm tall after 3 days. Calculate the mean growth rate in mm per day.",
+          "hint": "Find the increase in height, then divide by the number of days.",
+          "explanation": "Increase = 45 − 18 = 27 mm. Rate = 27 ÷ 3 = 9 mm per day.",
+          "answers": [
+            {
+              "numeric": 9,
+              "tolerance": 0,
+              "unit": "mm/day",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-04-L1-P8",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 3,
+          "tier": "Higher",
+          "text": "Match each plant hormone to one of its commercial uses.",
+          "hint": "Think rooting powder, ripening rooms and seed germination.",
+          "explanation": "Auxin is used in rooting powders and weedkillers; ethene ripens fruit during transport and storage; gibberellins end seed dormancy and promote flowering.",
+          "pairs": [
+            {
+              "left": "Auxin",
+              "right": "Rooting powder for cuttings"
+            },
+            {
+              "left": "Ethene",
+              "right": "Ripening fruit in the food industry"
+            },
+            {
+              "left": "Gibberellins",
+              "right": "Ending seed dormancy"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-04-L1-P9",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "tier": "Higher",
+          "text": "Bananas are picked while green and shipped to the UK. Explain how and why ethene is used once they arrive.",
+          "hint": "Unripe fruit travels better. What is needed before it goes on sale?",
+          "explanation": "The bananas are exposed to ethene gas in a ripening room. Ethene stimulates ripening, so the fruit is ripe and ready to sell when it reaches the shops, while having travelled unripe and undamaged.",
+          "markScheme": [
+            {
+              "criterion": "Bananas are exposed to ethene (gas) which stimulates ripening",
+              "marks": 1,
+              "keywords": [
+                [
+                  "ethene"
+                ],
+                [
+                  "ripen"
+                ]
+              ]
+            },
+            {
+              "criterion": "So fruit can be transported unripe without damage and be ripe when sold",
+              "marks": 1,
+              "keywords": [
+                [
+                  "transport",
+                  "ship",
+                  "damage",
+                  "bruis",
+                  "sold",
+                  "shops",
+                  "sale",
+                  "ready"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-04-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "tier": "Higher",
+          "text": "A gardener wants to remove dandelions (broad-leaved weeds) from a lawn without killing the grass.\n\n(a) Name the plant hormone found in the weedkiller the gardener should use. **(1 mark)**\n\n(b) Explain how this weedkiller kills the dandelions but not the grass. **(2 marks)**\n\n(c) Give one other commercial use of the same hormone. **(1 mark)**",
+          "hint": "Selective weedkillers make some plants grow uncontrollably. Which hormone controls growth?",
+          "explanation": "(a) Auxin. (b) The weedkiller is selective: broad-leaved plants such as dandelions absorb the auxin and grow so rapidly and unevenly that they die, whereas narrow-leaved grasses are not affected in the same way. (c) Rooting powder for cuttings, or tissue culture.",
+          "markScheme": [
+            {
+              "criterion": "Auxin",
+              "marks": 1,
+              "keywords": [
+                [
+                  "auxin"
+                ]
+              ]
+            },
+            {
+              "criterion": "Broad-leaved weeds absorb it and grow too rapidly / uncontrollably and die",
+              "marks": 1,
+              "keywords": [
+                [
+                  "rapid",
+                  "fast",
+                  "uncontroll",
+                  "too much",
+                  "excess",
+                  "over"
+                ]
+              ]
+            },
+            {
+              "criterion": "Grass / narrow-leaved plants are not affected",
+              "marks": 1,
+              "keywords": [
+                [
+                  "grass",
+                  "narrow"
+                ],
+                [
+                  "not affected",
+                  "unaffected",
+                  "does not respond",
+                  "do not respond",
+                  "doesn't respond",
+                  "survive"
+                ]
+              ]
+            },
+            {
+              "criterion": "Rooting powder or tissue culture",
+              "marks": 1,
+              "keywords": [
+                [
+                  "rooting",
+                  "root",
+                  "cutting",
+                  "tissue culture",
+                  "clone"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-04-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 3,
+          "examStyle": true,
+          "text": "A student cuts the tip off one cress shoot and leaves another shoot intact. Both are placed in light from one side. Predict what happens to each shoot and explain the difference.",
+          "hint": "Where is auxin made?",
+          "explanation": "The intact shoot bends towards the light because auxin made in the tip moves to the shaded side and stimulates extra elongation there. The shoot without a tip does not bend (it grows straight or stops growing) because the tip is where auxin is produced, so there is no auxin and no unequal growth.",
+          "markScheme": [
+            {
+              "criterion": "Intact shoot bends towards the light",
+              "marks": 1,
+              "keywords": [
+                [
+                  "intact",
+                  "with tip",
+                  "with the tip",
+                  "normal",
+                  "second",
+                  "other"
+                ],
+                [
+                  "bend",
+                  "towards",
+                  "curve"
+                ]
+              ]
+            },
+            {
+              "criterion": "Shoot without tip does not bend / grows straight",
+              "marks": 1,
+              "keywords": [
+                [
+                  "not bend",
+                  "straight",
+                  "no bending",
+                  "doesn't bend",
+                  "does not bend",
+                  "won't bend",
+                  "will not bend"
+                ]
+              ]
+            },
+            {
+              "criterion": "Because auxin is produced in the tip",
+              "marks": 1,
+              "keywords": [
+                [
+                  "auxin"
+                ],
+                [
+                  "tip"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

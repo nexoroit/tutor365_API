@@ -1,0 +1,679 @@
+{
+  "subTopicCode": "BIO-05-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-BIO-05-03-L1",
+      "title": "Hormonal coordination and control",
+      "summary": "Meet the endocrine system, see how insulin and glucagon keep blood glucose steady, compare the two types of diabetes, and follow the hormones of the menstrual cycle through to contraception and fertility treatment.",
+      "objectives": [
+        "I can describe the endocrine system as glands that release hormones into the blood, and name the main glands and what they control.",
+        "I can explain how insulin (and glucagon) keep blood glucose concentration within a narrow range by negative feedback.",
+        "I can compare the causes and treatments of Type 1 and Type 2 diabetes.",
+        "I can describe the roles of FSH, LH, oestrogen and progesterone in the menstrual cycle.",
+        "I can evaluate hormonal and non-hormonal methods of contraception and describe how hormones are used to treat infertility."
+      ],
+      "estimatedMinutes": 45,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "The endocrine system",
+          "minutes": 4,
+          "content": "## Chemical messengers\n\nThe nervous system sends fast electrical impulses. The **endocrine system** works differently: it is a set of **glands** that release chemicals called **hormones** directly into the **bloodstream**. The blood carries each hormone around the whole body, but only its **target organs** respond to it.\n\nCompared with a nerve impulse, a hormone response is usually **slower to start** but **lasts longer** – think of growth or the changes of puberty rather than a blink.\n\n| Gland | Where | Hormone(s) and job |\n|---|---|---|\n| **Pituitary** | base of the brain | the *master gland*: releases several hormones that switch on other glands (e.g. FSH, LH, growth hormone) |\n| **Thyroid** | neck | thyroxine – controls metabolic rate, growth and development |\n| **Pancreas** | behind the stomach | insulin and glucagon – blood glucose |\n| **Adrenal glands** | on top of the kidneys | adrenaline – fight-or-flight |\n| **Ovaries** | female pelvis | oestrogen and progesterone |\n| **Testes** | male | testosterone |\n\nThe pituitary is called the master gland because many of its hormones act on *other glands*, telling them to release their own hormones. That two-step chain lets one small gland coordinate a lot of the body.\n\n| Feature | Nervous | Hormonal |\n|---|---|---|\n| Signal | electrical impulse | chemical in blood |\n| Speed | very fast | slower |\n| Duration | short | longer lasting |"
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-BIO-05-03-L1-Q1",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each gland to the hormone it releases.",
+            "hint": "Think about where blood glucose, metabolic rate and fight-or-flight are controlled.",
+            "explanation": "The pancreas releases insulin, the thyroid releases thyroxine, the adrenal glands release adrenaline, and the testes release testosterone.",
+            "pairs": [
+              {
+                "left": "Pancreas",
+                "right": "Insulin"
+              },
+              {
+                "left": "Thyroid",
+                "right": "Thyroxine"
+              },
+              {
+                "left": "Adrenal gland",
+                "right": "Adrenaline"
+              },
+              {
+                "left": "Testes",
+                "right": "Testosterone"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Controlling blood glucose",
+          "minutes": 5,
+          "content": "## Keeping glucose in range\n\nCells need a steady supply of glucose for respiration, but too much glucose in the blood damages tissues. The **pancreas** monitors blood glucose concentration and keeps it within a narrow range using **negative feedback**: whichever way the level drifts, the response pushes it back.\n\n**After a meal – glucose rises**\n1. The pancreas detects the rise and releases **insulin** into the blood.\n2. Insulin makes body cells (especially **liver** and **muscle** cells) take glucose out of the blood.\n3. The liver and muscles convert the extra glucose into **glycogen**, an insoluble store.\n4. Blood glucose falls back towards normal.\n\n**Between meals or during exercise – glucose falls** *(Higher tier)*\n1. The pancreas releases a different hormone, **glucagon**.\n2. Glucagon makes the liver break **glycogen back down into glucose** and release it into the blood.\n3. Blood glucose rises back towards normal.\n\nA memory tip: **insulin** is released when glucose is **in** excess and it moves glucose **in**to cells; **glucagon** acts when glucose is **gone**.\n\nBecause insulin and glucagon have opposite effects and are released under opposite conditions, the two together form a self-correcting cycle – the classic example of negative feedback in GCSE Biology."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-BIO-05-03-L1-Q2",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put these events in the correct order after a sugary drink is absorbed into the blood.",
+            "hint": "Start with the change that the pancreas has to detect.",
+            "explanation": "Glucose rises → pancreas detects it → insulin is released → cells absorb glucose and the liver stores glycogen → glucose returns to normal.",
+            "order": [
+              "Blood glucose concentration rises",
+              "The pancreas detects the rise",
+              "The pancreas releases insulin into the blood",
+              "Liver and muscle cells absorb glucose and store it as glycogen",
+              "Blood glucose concentration falls back to normal"
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Diabetes",
+          "minutes": 4,
+          "content": "## When glucose control fails\n\n**Diabetes** is a condition in which blood glucose is not controlled properly. There are two main types with very different causes.\n\n| | Type 1 | Type 2 |\n|---|---|---|\n| Cause | the pancreas produces **little or no insulin** | body cells **no longer respond** properly to insulin |\n| Usual onset | often in childhood or teens | usually in adults; risk rises with age |\n| Main risk factor | not linked to lifestyle; the immune system attacks pancreas cells | **obesity** and an inactive lifestyle |\n| Treatment | **insulin injections**, usually several times a day, timed around meals and exercise | **carbohydrate-controlled diet**, regular **exercise**, weight loss; medicines if needed |\n\nIn both types, untreated blood glucose stays high after meals and can be lost in the urine. Symptoms include thirst, tiredness and frequent urination.\n\n**Why injections rather than tablets for Type 1?** Insulin is a protein. If swallowed, it would be digested in the stomach before it could reach the blood, so it has to be injected.\n\n**Why doesn't extra insulin cure Type 2?** The problem is not a shortage of insulin but cells ignoring it. Reducing sugar intake and increasing exercise lowers blood glucose without relying on the faulty response, and losing weight can make cells sensitive to insulin again.\n\nWhen you are asked to *compare* the two types, always name both the cause and the treatment for each."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-BIO-05-03-L1-Q3",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "A doctor explains that a 55-year-old patient who is overweight has developed diabetes and does not need insulin injections. Identify the type of diabetes, explain its cause and describe one suitable treatment.",
+            "hint": "The patient's age and weight are big clues. Think about what the body's cells are doing wrong.",
+            "explanation": "This is Type 2 diabetes. The pancreas still makes insulin, but the patient's body cells no longer respond to it properly. It is treated with a carbohydrate-controlled diet, more exercise and weight loss rather than insulin injections.",
+            "markScheme": [
+              {
+                "criterion": "Identifies Type 2 diabetes",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "type 2",
+                    "type two",
+                    "type-2"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Explains that body cells do not respond to / are resistant to insulin",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "not respond",
+                    "no longer respond",
+                    "resistant",
+                    "resistance",
+                    "ignore",
+                    "stop responding",
+                    "don't respond",
+                    "do not respond"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Describes a suitable treatment: controlled diet, exercise or weight loss",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "diet",
+                    "exercise",
+                    "weight",
+                    "carbohydrate",
+                    "sugar intake"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Negative feedback: thyroxine and adrenaline (Higher)",
+          "minutes": 4,
+          "content": "## Two more hormones *(Higher tier)*\n\n**Adrenaline** is released by the **adrenal glands** in times of fear or stress. It prepares the body for *fight or flight* by:\n\n- increasing **heart rate** and breathing rate, so more oxygen and glucose reach the muscles;\n- causing the liver to release stored glucose;\n- widening the pupils and diverting blood away from the digestive system towards the muscles.\n\nAdrenaline is a *rapid* hormonal response, and it is **not** controlled by negative feedback – the level simply drops once the stress passes.\n\n**Thyroxine** is released by the **thyroid gland**. It controls the **basal metabolic rate** (how fast the body's cells use energy) and is important for **growth and development**. Thyroxine *is* controlled by negative feedback:\n\n1. The pituitary releases **TSH** (thyroid stimulating hormone).\n2. TSH makes the thyroid release thyroxine.\n3. If the blood thyroxine level rises too high, it **inhibits** the release of TSH from the pituitary.\n4. Less TSH → less thyroxine → the level falls back to normal.\n5. If thyroxine drops too low, the inhibition is lifted, more TSH is released and thyroxine rises again.\n\nThe pattern to remember: *a rise in the output switches off the signal that made it, so the level stays roughly constant.*"
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-BIO-05-03-L1-Q4",
+            "type": "MultipleAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "Which of the following are effects of adrenaline? Select all that apply.",
+            "hint": "Adrenaline gets the body ready to run or fight. What would help with that?",
+            "explanation": "Adrenaline raises heart rate and breathing rate so muscles get more oxygen and glucose. It does not lower blood glucose (that is insulin) and it does not build glycogen stores.",
+            "options": [
+              {
+                "text": "Increases heart rate",
+                "correct": true
+              },
+              {
+                "text": "Increases breathing rate",
+                "correct": true
+              },
+              {
+                "text": "Lowers blood glucose concentration",
+                "correct": false,
+                "feedback": "That is insulin's job. Adrenaline raises blood glucose to fuel the muscles."
+              },
+              {
+                "text": "Converts glucose into glycogen in the liver",
+                "correct": false,
+                "feedback": "Adrenaline does the opposite – it triggers release of glucose from stores."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Hormones in reproduction",
+          "minutes": 5,
+          "content": "## Puberty and the menstrual cycle\n\nAt **puberty**, reproductive hormones cause the secondary sex characteristics to develop. In males, **testosterone** from the testes stimulates **sperm production**. In females, **oestrogen** from the ovaries is the main hormone and, from puberty, eggs begin to mature and be released roughly every 28 days in the **menstrual cycle**.\n\nFour hormones run the cycle:\n\n| Hormone | Made in | Main job |\n|---|---|---|\n| **FSH** (follicle stimulating hormone) | pituitary | causes an **egg to mature** in the ovary; stimulates the ovary to make oestrogen |\n| **Oestrogen** | ovary | causes the **uterus lining to thicken**; *(HT)* inhibits FSH and stimulates LH |\n| **LH** (luteinising hormone) | pituitary | triggers **ovulation** – release of the mature egg, around **day 14** |\n| **Progesterone** | ovary (from the empty follicle) | **maintains** the thick uterus lining; *(HT)* inhibits FSH and LH |\n\n**The cycle in four stages**\n1. Days 1–5: **menstruation** – the old lining breaks down and is lost.\n2. Days 5–13: the lining builds up again (oestrogen).\n3. Day 14: **ovulation** (LH peak).\n4. Days 15–28: the lining is maintained (progesterone). If no fertilised egg implants, progesterone falls and the cycle restarts.\n\n*(Higher tier)* The hormones interact: FSH → oestrogen ↑ → oestrogen inhibits FSH (so only one egg matures) but stimulates the LH surge → ovulation → progesterone ↑ → progesterone inhibits FSH and LH so no new egg is released while the lining is being maintained."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: reading a hormone graph",
+          "minutes": 3,
+          "content": "**A graph shows the levels of four hormones during one menstrual cycle. How do you identify each line?**\n\nUse the timing and shape of each curve rather than trying to memorise a picture.\n\n- The line with a **sharp spike at about day 14** is **LH** – the surge that triggers ovulation.\n- The line that **rises steadily during the first half** and peaks *just before* the LH spike is **oestrogen** – it builds the lining and (HT) stimulates the LH surge.\n- The line that **rises in the second half** (after day 14), then falls near day 28, is **progesterone** – produced by the empty follicle to maintain the lining.\n- **FSH** is highest **early in the cycle** (days 1–5), when it is causing an egg to mature, and is kept low later (HT: inhibited by oestrogen and progesterone).\n\n**Typical follow-up question:** *Explain why the uterus lining breaks down at the end of the cycle.*\n\n**Answer:** No fertilised egg has implanted, so the empty follicle stops producing progesterone. Progesterone was maintaining the lining, so as its level falls the lining breaks down and menstruation begins."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-BIO-05-03-L1-Q5",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete the sentences about the menstrual cycle.",
+            "metadata": {
+              "blanksText": "___ from the pituitary gland causes an egg to mature in the ovary. Ovulation is triggered by a surge of ___ around day 14. After ovulation, ___ maintains the thickened uterus lining."
+            },
+            "hint": "Two of the answers are three-letter abbreviations; the third is the hormone made by the empty follicle.",
+            "explanation": "FSH matures the egg, LH triggers ovulation and progesterone maintains the lining.",
+            "answers": [
+              {
+                "text": "FSH",
+                "blankIndex": 0,
+                "marks": 1
+              },
+              {
+                "text": "LH",
+                "blankIndex": 1,
+                "marks": 1
+              },
+              {
+                "text": "progesterone",
+                "blankIndex": 2,
+                "marks": 1
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Contraception and fertility treatment",
+          "minutes": 5,
+          "content": "## Using hormones to prevent or help pregnancy\n\n**Hormonal contraception** uses the cycle's own control system against it.\n\n- **The combined pill** contains oestrogen and progesterone. Taken daily, it keeps the hormone levels high enough to **inhibit FSH**, so no egg matures. Very reliable, but must be remembered every day and can have side effects such as headaches or raised blood pressure.\n- **Progesterone-only** methods (mini-pill, **injection** every 3 months, **implant** lasting ~3 years, hormonal **IUD/coil**) thicken cervical mucus so sperm cannot reach an egg, and can stop ovulation. Implants and injections do not rely on daily memory.\n\n**Non-hormonal methods**\n\n- **Barrier methods** – condom and diaphragm – physically stop sperm reaching the egg. Condoms are the only method that also protects against **sexually transmitted infections**.\n- **Copper IUD** – prevents implantation and may kill sperm; lasts several years.\n- **Spermicides** – chemicals that kill sperm; not very effective alone.\n- **Abstinence** or avoiding intercourse around ovulation – natural but unreliable, as cycle timing varies.\n- **Surgical sterilisation** – cutting the sperm ducts or oviducts; permanent and difficult to reverse.\n\n**Treating infertility** *(Higher tier)*\n\n- A **fertility drug** containing FSH and LH can be given to stimulate egg maturation and ovulation in women whose FSH levels are too low.\n- **IVF** (in vitro fertilisation): the mother is given FSH and LH so **several eggs** mature; eggs are collected and fertilised with the father's sperm **in the laboratory**; the embryos grow for a few days, then one or two are placed in the uterus.\n\nIVF gives couples a chance of a baby, but it is **emotionally and physically stressful**, **success rates are low** (often under a third per cycle), and it can lead to **multiple births**, which are riskier for mother and babies. Exams love asking you to weigh those points up."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-BIO-05-03-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "A person eats a large bowl of pasta. Their blood glucose concentration rises, and within an hour it has returned to normal.\n\n(a) Describe how the body returns the blood glucose concentration to normal after the meal. **(3 marks)**\n\n(b) Explain why this is an example of negative feedback. **(2 marks)**",
+            "hint": "For (a) name the gland, the hormone and what happens to the glucose. For (b) say what negative feedback means and link it to the change being reversed.",
+            "explanation": "(a) The pancreas detects the rise and releases insulin into the blood. Insulin causes liver and muscle cells to take up glucose from the blood, and the glucose is converted into glycogen for storage, so blood glucose falls. (b) Negative feedback means a change is detected and a response is produced that reverses the change. Here a rise in glucose triggers insulin release, which brings glucose back down to the normal level and then insulin release reduces.",
+            "markScheme": [
+              {
+                "criterion": "Pancreas releases insulin",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "pancreas"
+                  ],
+                  [
+                    "insulin"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Glucose moves from the blood into cells (liver / muscle)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "taken up",
+                    "take up",
+                    "absorb",
+                    "into cells",
+                    "into the cells",
+                    "into liver",
+                    "into muscle",
+                    "enter"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Glucose converted to / stored as glycogen",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "glycogen"
+                  ]
+                ]
+              },
+              {
+                "criterion": "States that the response reverses / counteracts the original change",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "reverse",
+                    "opposite",
+                    "counteract",
+                    "back to normal",
+                    "back towards",
+                    "returns to normal",
+                    "brings it back"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Links the falling glucose level to reduced insulin release / stable level being maintained",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "less insulin",
+                    "insulin release stops",
+                    "stops releasing",
+                    "reduces insulin",
+                    "constant",
+                    "steady",
+                    "narrow range",
+                    "stable"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- The **endocrine system** = glands that secrete **hormones** into the blood; slower but longer-lasting than nerves. The **pituitary** is the master gland.\n- **Insulin** (pancreas) lowers blood glucose: cells take up glucose and store it as **glycogen**. *(HT)* **Glucagon** raises it by breaking glycogen down. Together this is **negative feedback**.\n- **Type 1** diabetes: little/no insulin → insulin injections. **Type 2**: cells stop responding → diet, exercise, weight loss.\n- *(HT)* **Adrenaline** raises heart rate for fight-or-flight; **thyroxine** controls metabolic rate and is kept steady by negative feedback via TSH.\n- Menstrual cycle: **FSH** matures the egg, **oestrogen** builds the lining, **LH** triggers ovulation (day 14), **progesterone** maintains the lining.\n- Contraception can be hormonal (pill, implant, injection) or non-hormonal (condom, IUD, sterilisation); only condoms stop STIs.\n- *(HT)* Fertility drugs (FSH + LH) and **IVF** help infertile couples but are stressful, expensive and often unsuccessful."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-BIO-05-03-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: hormones are carried around the body in the blood.",
+          "hint": "Think about how a hormone made in the neck can affect cells in the leg.",
+          "explanation": "True. Hormones are released by glands into the bloodstream and carried to their target organs.",
+          "options": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-03-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which gland is known as the master gland because it controls other glands?",
+          "hint": "It sits at the base of the brain.",
+          "explanation": "The pituitary gland releases hormones such as FSH, LH and TSH that act on other glands, so it is called the master gland.",
+          "options": [
+            {
+              "text": "Pituitary gland",
+              "correct": true
+            },
+            {
+              "text": "Thyroid gland",
+              "correct": false
+            },
+            {
+              "text": "Pancreas",
+              "correct": false
+            },
+            {
+              "text": "Adrenal gland",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-03-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence about glucose storage.",
+          "metadata": {
+            "blanksText": "When blood glucose is too high, the pancreas releases ___, which causes the liver to convert glucose into an insoluble store called ___."
+          },
+          "hint": "The store has a name that sounds like glucose but is a different substance.",
+          "explanation": "Insulin causes glucose to be converted into glycogen in the liver and muscles.",
+          "answers": [
+            {
+              "text": "insulin",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "glycogen",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-03-L1-P4",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Which statements about Type 1 diabetes are correct? Select all that apply.",
+          "hint": "Type 1 is about the supply of insulin, not the response to it.",
+          "explanation": "In Type 1 diabetes the pancreas makes little or no insulin, so the person needs insulin injections. Obesity is a risk factor for Type 2, not Type 1, and diet alone cannot replace missing insulin.",
+          "options": [
+            {
+              "text": "The pancreas produces little or no insulin",
+              "correct": true
+            },
+            {
+              "text": "It is treated with insulin injections",
+              "correct": true
+            },
+            {
+              "text": "It is mainly caused by obesity",
+              "correct": false,
+              "feedback": "Obesity is a risk factor for Type 2 diabetes."
+            },
+            {
+              "text": "It can be cured by changing diet alone",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-03-L1-P5",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each hormone of the menstrual cycle to its main effect.",
+          "hint": "One matures the egg, one releases it, one builds the lining and one keeps it.",
+          "explanation": "FSH matures an egg; LH triggers ovulation; oestrogen thickens the uterus lining; progesterone maintains it.",
+          "pairs": [
+            {
+              "left": "FSH",
+              "right": "Causes an egg to mature in the ovary"
+            },
+            {
+              "left": "LH",
+              "right": "Triggers release of the egg (ovulation)"
+            },
+            {
+              "left": "Oestrogen",
+              "right": "Causes the uterus lining to thicken"
+            },
+            {
+              "left": "Progesterone",
+              "right": "Maintains the uterus lining"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-03-L1-P6",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "In a typical 28-day menstrual cycle, on which day does ovulation usually occur?",
+          "hint": "It is roughly halfway through the cycle.",
+          "explanation": "Ovulation is triggered by the LH surge around day 14.",
+          "answers": [
+            {
+              "numeric": 14,
+              "tolerance": 0,
+              "unit": "day"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-03-L1-P7",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Explain how the combined contraceptive pill prevents pregnancy.",
+          "hint": "The pill contains hormones. What effect do high levels of those hormones have on FSH?",
+          "explanation": "The pill contains oestrogen and progesterone. Keeping these levels high inhibits the release of FSH from the pituitary, so no egg matures and ovulation does not happen.",
+          "markScheme": [
+            {
+              "criterion": "Contains oestrogen and/or progesterone which inhibit FSH",
+              "marks": 1,
+              "keywords": [
+                [
+                  "oestrogen",
+                  "progesterone",
+                  "estrogen"
+                ],
+                [
+                  "inhibit",
+                  "stop",
+                  "prevent",
+                  "block",
+                  "suppress"
+                ]
+              ]
+            },
+            {
+              "criterion": "So no egg matures / no ovulation occurs",
+              "marks": 1,
+              "keywords": [
+                [
+                  "egg",
+                  "ovulation",
+                  "ovulate"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-03-L1-P8",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Put the stages of IVF treatment in the correct order.",
+          "hint": "Hormones come first; the embryos go back into the mother last.",
+          "explanation": "The mother is given FSH and LH so several eggs mature; the eggs are collected; they are fertilised with sperm in the lab; the embryos develop for a few days; one or two are implanted into the uterus.",
+          "order": [
+            "The mother is given FSH and LH to stimulate several eggs to mature",
+            "Eggs are collected from the ovaries",
+            "Eggs are fertilised by sperm in the laboratory",
+            "The fertilised eggs develop into embryos",
+            "One or two embryos are inserted into the mother's uterus"
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-03-L1-P9",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "tier": "Higher",
+          "text": "Blood thyroxine levels rise above normal. What happens next in the negative feedback loop?",
+          "hint": "High output should switch off the signal that produced it.",
+          "explanation": "High thyroxine inhibits the release of TSH from the pituitary. With less TSH, the thyroid releases less thyroxine and the level falls back to normal.",
+          "options": [
+            {
+              "text": "The pituitary releases less TSH, so the thyroid makes less thyroxine",
+              "correct": true
+            },
+            {
+              "text": "The pituitary releases more TSH, so the thyroid makes more thyroxine",
+              "correct": false,
+              "feedback": "That would push the level even higher – positive, not negative, feedback."
+            },
+            {
+              "text": "The pancreas releases glucagon",
+              "correct": false
+            },
+            {
+              "text": "The adrenal glands release adrenaline",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-03-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A couple are considering IVF treatment.\n\n(a) Describe the role of the hormones FSH and LH in IVF treatment. **(2 marks)**\n\n(b) Give two disadvantages of IVF treatment. **(2 marks)**",
+          "hint": "For (a), think about what has to happen to the eggs before they can be collected. For (b), consider success rate, cost, stress and the risk of twins or triplets.",
+          "explanation": "(a) FSH and LH are given to the mother to stimulate several eggs to mature and be released so that they can be collected. (b) Disadvantages include low success rates, the emotional and physical stress of the treatment, the cost, and the risk of multiple births, which are dangerous for mother and babies.",
+          "markScheme": [
+            {
+              "criterion": "FSH/LH given to the mother to stimulate egg maturation",
+              "marks": 1,
+              "keywords": [
+                [
+                  "mature",
+                  "maturation",
+                  "develop",
+                  "stimulate"
+                ]
+              ]
+            },
+            {
+              "criterion": "So that several / multiple eggs are produced and can be collected",
+              "marks": 1,
+              "keywords": [
+                [
+                  "several",
+                  "many",
+                  "multiple",
+                  "more than one",
+                  "number of eggs",
+                  "collect"
+                ]
+              ]
+            },
+            {
+              "criterion": "One disadvantage (low success rate, stress, cost, multiple births)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "success",
+                  "stress",
+                  "expensive",
+                  "cost",
+                  "multiple births",
+                  "twins",
+                  "triplets",
+                  "emotional",
+                  "physical"
+                ]
+              ]
+            },
+            {
+              "criterion": "A second, different disadvantage",
+              "marks": 1,
+              "keywords": [
+                [
+                  "success rate",
+                  "stressful",
+                  "cost",
+                  "multiple",
+                  "twins",
+                  "risk",
+                  "unsuccessful",
+                  "fail"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-05-03-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 3,
+          "examStyle": true,
+          "tier": "Higher",
+          "text": "A person has not eaten for several hours and their blood glucose concentration starts to fall. Explain how the body responds to return the concentration to normal.",
+          "hint": "This is the opposite situation to after a meal, so a different pancreatic hormone is involved.",
+          "explanation": "The pancreas detects the fall and releases glucagon. Glucagon causes the liver to break down its stored glycogen into glucose, which is released into the blood, raising the concentration back to normal.",
+          "markScheme": [
+            {
+              "criterion": "Pancreas releases glucagon",
+              "marks": 1,
+              "keywords": [
+                [
+                  "glucagon"
+                ]
+              ]
+            },
+            {
+              "criterion": "Glycogen in the liver is broken down / converted into glucose",
+              "marks": 1,
+              "keywords": [
+                [
+                  "glycogen"
+                ],
+                [
+                  "broken down",
+                  "break down",
+                  "converted",
+                  "breaks down",
+                  "into glucose"
+                ]
+              ]
+            },
+            {
+              "criterion": "Glucose is released into the blood so concentration rises back to normal",
+              "marks": 1,
+              "keywords": [
+                [
+                  "into the blood",
+                  "released",
+                  "rises",
+                  "increases",
+                  "back to normal",
+                  "back up"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
