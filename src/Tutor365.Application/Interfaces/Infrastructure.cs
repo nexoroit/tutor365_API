@@ -51,11 +51,23 @@ public interface IDateTimeProvider
 /// <summary>Abstraction over the AI provider. The default implementation is a stub until a provider is chosen.</summary>
 public interface IAiProvider
 {
-    bool IsEnabled { get; }
+    Task<bool> IsEnabledAsync(CancellationToken ct = default);
     string ProviderName { get; }
+    /// <summary>Purpose: "tutor" or "marking" (selects the configured model).</summary>
     Task<AiCompletion> CompleteAsync(AiRequest request, CancellationToken ct = default);
 }
 
 public record AiChatMessage(string Role, string Content);
-public record AiRequest(string SystemPrompt, IReadOnlyList<AiChatMessage> Messages, int MaxTokens = 800, decimal Temperature = 0.4m);
-public record AiCompletion(string Content, int InputTokens, int OutputTokens, bool IsStub = false);
+public record AiRequest(string SystemPrompt, IReadOnlyList<AiChatMessage> Messages, int MaxTokens = 800, string Purpose = "tutor");
+public record AiCompletion(string Content, int InputTokens, int OutputTokens, bool IsStub = false, string? Model = null)
+{
+    public string Reply() => Content;
+}
+
+/// <summary>AI marking of written answers against the stored mark scheme. Returns null when unavailable so callers fall back to rule marking.</summary>
+public interface IAiMarker
+{
+    Task<AiMarkResult?> MarkAsync(Question question, string answerText, CancellationToken ct = default);
+}
+
+public record AiMarkResult(decimal Score, decimal MaxScore, bool Correct, string Feedback, IReadOnlyList<string> MissingCriteria, string Model);

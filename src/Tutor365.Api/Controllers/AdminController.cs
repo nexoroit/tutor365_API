@@ -81,6 +81,26 @@ public class AdminController : ApiControllerBase
         return OkMessage($"Test email sent to {request.ToEmail}.");
     }
 
+    // ---- AI settings (stored in SystemSettings, key encrypted and only shown as a hint) ----
+    [HttpGet("ai-settings")]
+    [ProducesResponseType(typeof(ApiResponse<AiSettingsDto>), 200)]
+    public async Task<IActionResult> AiSettings([FromServices] IAiSettingsService ai, CancellationToken ct) => Ok(await ai.GetAsync(ct));
+
+    /// <summary>Update AI settings. Leave apiKey empty to keep the existing key.</summary>
+    [HttpPut("ai-settings")]
+    [ProducesResponseType(typeof(ApiResponse<AiSettingsDto>), 200)]
+    public async Task<IActionResult> UpdateAiSettings([FromServices] IAiSettingsService ai, [FromBody] UpdateAiSettingsRequest request, CancellationToken ct) => Ok(await ai.UpdateAsync(request, ct));
+
+    /// <summary>Round-trip a short prompt through the configured provider.</summary>
+    [HttpPost("ai-settings/test")]
+    [ProducesResponseType(typeof(ApiResponse<AiTestResponse>), 200)]
+    public async Task<IActionResult> TestAi([FromServices] Application.Interfaces.IAiProvider provider, [FromServices] IAiSettingsService ai, CancellationToken ct)
+    {
+        var cfg = await ai.GetConfigAsync(ct);
+        var r = await provider.CompleteAsync(new Application.Interfaces.AiRequest("You are tutor365's GCSE tutor. Reply in one short sentence.", new[] { new Application.Interfaces.AiChatMessage("user", "Say hello to a Year 10 student starting a chemistry lesson.") }, 120, "tutor"), ct);
+        return Ok(new AiTestResponse(!r.IsStub, provider.ProviderName, r.Model ?? cfg.TutorModel, r.Reply(), r.InputTokens, r.OutputTokens));
+    }
+
     // ---- curriculum ----
     /// <summary>Full curriculum for a subject including draft/archived items (admin view).</summary>
     [HttpGet("curriculum")]

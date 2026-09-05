@@ -24,16 +24,26 @@ public class AiTutorService : IAiTutorService
     private readonly IAccessService _access;
     private readonly IAiProvider _ai;
     private readonly IMarkingService _marking;
+    private readonly IAiSettingsService _settings;
 
-    public AiTutorService(IAppDbContext db, IAccessService access, IAiProvider ai, IMarkingService marking)
+    public AiTutorService(IAppDbContext db, IAccessService access, IAiProvider ai, IMarkingService marking, IAiSettingsService settings)
     {
-        _db = db; _access = access; _ai = ai; _marking = marking;
+        _db = db; _access = access; _ai = ai; _marking = marking; _settings = settings;
     }
 
     public async Task<AiTutorResponse> AskAsync(AiTutorRequest request, CancellationToken ct = default)
     {
         var studentId = await _access.GetCurrentStudentIdAsync(ct);
         var intent = (request.Intent ?? "message").ToLowerInvariant();
+        var aiEnabled = await _ai.IsEnabledAsync(ct);
+        if (aiEnabled)
+        {
+            var cfg = await _settings.GetConfigAsync(ct);
+            var since = DateTime.UtcNow.Date;
+            var usedToday = await _db.AIConversationMessages.CountAsync(m => m.Conversation.StudentId == studentId && m.Role == AiMessageRole.Student && m.CreatedAt >= since, ct);
+            if (usedToday >= cfg.DailyMessageLimit)
+                throw new BusinessRuleException("AI_DAILY_LIMIT", $"You've used today's {cfg.DailyMessageLimit} tutor messages. Use the hints and explanations in the lesson, and try again tomorrow.");
+        }
         var student = await _db.Students.Include(s => s.User).Include(s => s.YearGroup).Include(s => s.ExamBoard).FirstAsync(s => s.Id == studentId, ct);
 
         StudySession? session = null;
@@ -76,13 +86,13 @@ public class AiTutorService : IAiTutorService
         _db.AIConversationMessages.Add(studentMsg); if (!conversation.Messages.Contains(studentMsg)) conversation.Messages.Add(studentMsg);
 
         string reply; bool isStub;
-        if (_ai.IsEnabled)
+        if (aiEnabled)
         {
             var system = BuildSystemPrompt(student, lesson, question, lastAnswer, mastery, intent);
             var history = conversation.Messages.OrderBy(m => m.CreatedAt).TakeLast(12)
                 .Select(m => new AiChatMessage(m.Role == AiMessageRole.Student ? "user" : "assistant", m.Message)).ToList();
-            var completion = await _ai.CompleteAsync(new AiRequest(system, history), ct);
-            reply = Sanitise(completion.Content, question);
+            var completion = await _ai.CompleteAsync(new AiRequest(system, history, 700, "tutor"), ct);
+            reply = completion.IsStub ? FallbackReply(intent, question, lesson, lastAnswer, student.User.FirstName) : Sanitise(completion.Content, question);
             isStub = completion.IsStub;
             conversation.TotalTokens += completion.InputTokens + completion.OutputTokens;
         }
@@ -152,10 +162,35 @@ public class AiTutorService : IAiTutorService
             if (question.MarkScheme.Count > 0) sb.AppendLine("Mark scheme: " + string.Join("; ", question.MarkScheme.Select(m => $"[{m.Marks}] {m.CriterionText}")));
         }
         if (lastAnswer != null)
-            sb.AppendLine($"Student's last answer: \"{lastAnswer.AnswerText}\" scored {lastAnswer.Score}/{lastAnswer.MaxScore}. Missing: {lastAnswer.MissingCriteriaJson}");
+            sb.AppendLine($"Student's last answer: \"{DescribeAnswer(lastAnswer, question)}\" scored {lastAnswer.Score:0.##}/{lastAnswer.MaxScore:0.##}.{(string.IsNullOrWhiteSpace(lastAnswer.MissingCriteriaJson) ? "" : " Missing: " + lastAnswer.MissingCriteriaJson)}");
         if (mastery.HasValue) sb.AppendLine($"Topic mastery: {Math.Round(mastery.Value * 100)}%.");
         sb.AppendLine($"Intent: {intent}. Rules: give hints before answers; never give the final answer to an unanswered question; ask a guiding question back; keep replies under 150 words; encourage; stay on the learning topic; if asked about anything unrelated to GCSE study, politely steer back.");
         return sb.ToString();
+    }
+
+    /// <summary>Human-readable version of a stored answer (option texts for choice questions, pairs for matching, raw text otherwise).</summary>
+    private static string DescribeAnswer(StudentAnswer a, Question? q)
+    {
+        if (!string.IsNullOrWhiteSpace(a.AnswerText)) return a.AnswerText;
+        if (string.IsNullOrWhiteSpace(a.AnswerJson) || q == null) return "(no answer)";
+        try
+        {
+            using var doc = System.Text.Json.JsonDocument.Parse(a.AnswerJson);
+            var root = doc.RootElement;
+            if (root.TryGetProperty("selectedOptionIds", out var ids) && ids.ValueKind == System.Text.Json.JsonValueKind.Array)
+            {
+                var texts = ids.EnumerateArray().Select(e => Guid.TryParse(e.GetString(), out var g) ? q.Options.FirstOrDefault(o => o.Id == g)?.Text : null).Where(t => t != null).ToList();
+                return texts.Count == 0 ? "(no option selected)" : string.Join("; ", texts);
+            }
+            if (root.TryGetProperty("blanks", out var blanks) && blanks.ValueKind == System.Text.Json.JsonValueKind.Array)
+                return string.Join(" | ", blanks.EnumerateArray().Select(e => e.GetString()));
+            if (root.TryGetProperty("pairs", out var pairs) && pairs.ValueKind == System.Text.Json.JsonValueKind.Array)
+                return string.Join("; ", pairs.EnumerateArray().Select(p => $"{(p.TryGetProperty("optionId", out var oid) && Guid.TryParse(oid.GetString(), out var g) ? q.Options.FirstOrDefault(o => o.Id == g)?.Text : "?")} -> {(p.TryGetProperty("matchKey", out var mk) ? mk.GetString() : "?")}"));
+            if (root.TryGetProperty("order", out var order) && order.ValueKind == System.Text.Json.JsonValueKind.Array)
+                return string.Join(" -> ", order.EnumerateArray().Select(e => Guid.TryParse(e.GetString(), out var g) ? q.Options.FirstOrDefault(o => o.Id == g)?.Text ?? "?" : "?"));
+            return a.AnswerJson;
+        }
+        catch { return a.AnswerJson; }
     }
 
     private static string Sanitise(string content, Question? question)

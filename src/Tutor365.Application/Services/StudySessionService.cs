@@ -33,10 +33,11 @@ public class StudySessionService : IStudySessionService
     private readonly IMarkingService _marking;
     private readonly IProgressService _progress;
     private readonly IAuditService _audit;
+    private readonly IAiMarker _aiMarker;
 
-    public StudySessionService(IAppDbContext db, ICurrentUser current, IAccessService access, IMarkingService marking, IProgressService progress, IAuditService audit)
+    public StudySessionService(IAppDbContext db, ICurrentUser current, IAccessService access, IMarkingService marking, IProgressService progress, IAuditService audit, IAiMarker aiMarker)
     {
-        _db = db; _current = current; _access = access; _marking = marking; _progress = progress; _audit = audit;
+        _db = db; _current = current; _access = access; _marking = marking; _progress = progress; _audit = audit; _aiMarker = aiMarker;
     }
 
     // =====================================================================
@@ -275,6 +276,12 @@ public class StudySessionService : IStudySessionService
         var previous = session.Answers.Where(a => a.QuestionId == question.Id).OrderByDescending(a => a.AttemptNumber).FirstOrDefault();
         var attemptNumber = (previous?.AttemptNumber ?? 0) + 1;
         var result = _marking.Mark(question, request.AnswerText, request.AnswerJson);
+        // Written answers: prefer AI marking against the mark scheme when configured; keyword marking remains the fallback.
+        if (question.QuestionType is QuestionType.ShortAnswer or QuestionType.LongAnswer or QuestionType.ExamQuestion && !string.IsNullOrWhiteSpace(request.AnswerText))
+        {
+            var ai = await _aiMarker.MarkAsync(question, request.AnswerText!, ct);
+            if (ai != null) result = new MarkingResult(ai.Correct, ai.Score, ai.MaxScore, ai.Feedback, ai.MissingCriteria, null, MarkingSource.AI);
+        }
 
         var answer = new StudentAnswer
         {
