@@ -13,7 +13,9 @@ public class StudySession : BaseEntity
     public Guid? AssessmentId { get; set; }
     public Assessment? Assessment { get; set; }
     public Guid SubjectId { get; set; }
+    public Subject Subject { get; set; } = default!;
     public Guid? TopicId { get; set; }
+    public Topic? Topic { get; set; }
     public Guid? SubTopicId { get; set; }
     public Guid? StudyPlanItemId { get; set; }
     public Guid? DailyStudySlotId { get; set; }

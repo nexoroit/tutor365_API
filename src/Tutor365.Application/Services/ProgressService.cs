@@ -368,16 +368,12 @@ public class ProgressService : IProgressService
         return await q.OrderByDescending(s => s.LastActivityAt ?? s.CreatedAt).Select(SessionSummaryProjection).ToPagedResultAsync(paging, ct);
     }
 
+    /// <summary>Server-translatable projection (uses the Subject/Topic navigations on StudySession).</summary>
     public static readonly System.Linq.Expressions.Expression<Func<StudySession, SessionSummaryDto>> SessionSummaryProjection = s =>
         new SessionSummaryDto(s.Id, s.Type.ToString(), s.Status.ToString(), s.SubjectId,
-            _subjectName(s), _subjectColour(s),
-            s.TopicId, s.TopicId != null ? _topicName(s) : null, s.LessonId, s.Lesson != null ? s.Lesson.Title : null, s.AttemptNumber,
+            s.Subject.Name, s.Subject.ColourHex,
+            s.TopicId, s.Topic != null ? s.Topic.Name : null, s.LessonId, s.Lesson != null ? s.Lesson.Title : null, s.AttemptNumber,
             s.StartedAt, s.CompletedAt, s.ElapsedSeconds, s.ProgressPercentage, s.ScorePercent, s.QuestionsAnswered, s.QuestionsCorrect, s.Passed);
-
-    // EF-translatable helpers via navigation through Lesson or Assessment; fall back to subject lookup in the service when null.
-    private static string _subjectName(StudySession s) => s.Lesson != null ? s.Lesson.SubTopic.Topic.Subject.Name : s.Assessment != null ? s.Assessment.Subject.Name : "";
-    private static string? _subjectColour(StudySession s) => s.Lesson != null ? s.Lesson.SubTopic.Topic.Subject.ColourHex : s.Assessment != null ? s.Assessment.Subject.ColourHex : null;
-    private static string? _topicName(StudySession s) => s.Lesson != null ? s.Lesson.SubTopic.Topic.Name : null;
 
     public async Task<IReadOnlyList<WeeklyPointDto>> GetWeeklyTrendAsync(Guid studentId, int weeks, CancellationToken ct = default)
     {

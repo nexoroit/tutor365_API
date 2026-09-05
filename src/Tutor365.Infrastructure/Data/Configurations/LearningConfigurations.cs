@@ -12,6 +12,8 @@ public class StudySessionConfig : IEntityTypeConfiguration<StudySession>
         b.HasOne(x => x.Student).WithMany().HasForeignKey(x => x.StudentId).OnDelete(DeleteBehavior.Cascade);
         b.HasOne(x => x.Lesson).WithMany().HasForeignKey(x => x.LessonId).OnDelete(DeleteBehavior.Restrict);
         b.HasOne(x => x.Assessment).WithMany().HasForeignKey(x => x.AssessmentId).OnDelete(DeleteBehavior.Restrict);
+        b.HasOne(x => x.Subject).WithMany().HasForeignKey(x => x.SubjectId).OnDelete(DeleteBehavior.Restrict);
+        b.HasOne(x => x.Topic).WithMany().HasForeignKey(x => x.TopicId).OnDelete(DeleteBehavior.Restrict);
         b.HasIndex(x => new { x.StudentId, x.Status });
         b.HasIndex(x => new { x.StudentId, x.CompletedAt });
         b.HasIndex(x => new { x.StudentId, x.LessonId });
