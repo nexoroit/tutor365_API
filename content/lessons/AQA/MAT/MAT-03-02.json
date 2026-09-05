@@ -1,0 +1,535 @@
+{
+  "subTopicCode": "MAT-03-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-03-02-L1",
+      "title": "Direct and inverse proportion",
+      "summary": "Recognise and solve problems involving direct and inverse proportion, use the unitary method, and write and use proportion formulae with a constant of proportionality, including square and square-root relationships.",
+      "objectives": [
+        "I can recognise direct and inverse proportion from a description, a table or a graph.",
+        "I can solve direct proportion problems using the unitary method or scaling.",
+        "I can solve inverse proportion problems using the product rule.",
+        "I can write a formula such as $y = kx$ or $y = \\frac{k}{x}$ and find the constant $k$.",
+        "I can work with proportion to squares, cubes and square roots (Higher)."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Direct proportion",
+          "minutes": 5,
+          "content": "## Two quantities that grow together\n\nTwo quantities are in **direct proportion** if, when one is multiplied by a number, the other is multiplied by the **same** number. Double one, and the other doubles; halve one, and the other halves.\n\nExamples: cost and number of identical items; distance and time at a steady speed; centimetres and inches.\n\n## Spotting it\n\n- **In a table**: dividing $y$ by $x$ always gives the same value.\n- **On a graph**: a **straight line through the origin**.\n- **In words**: \"the cost is proportional to the mass\".\n\n## The unitary method\n\nFind the value of **one** unit, then scale up.\n\n*8 identical pens cost £6.40. Find the cost of 13 pens.*\n\nOne pen: $6.40 \\div 8 = £0.80$. Thirteen pens: $0.80 \\times 13 = £10.40$.\n\n## Scaling directly\n\nSometimes a multiplier is quicker: 5 kg of apples cost £7.50, so 15 kg (three times as much) cost $3 \\times £7.50 = £22.50$.\n\n## Best-buy comparisons\n\nTo compare deals, work out the cost of one unit (or the amount per pound) for each and compare like with like. Show your working: the mark is for the comparison, not just the choice.\n\nThe symbol $\\propto$ means \"is proportional to\": $y \\propto x$."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-03-02-L1-Q1",
+            "type": "NumericalAnswer",
+            "difficulty": 1,
+            "marks": 2,
+            "text": "A recipe uses 300 g of flour to make 12 biscuits. How many grams of flour are needed for 30 biscuits?",
+            "hint": "Find the flour for one biscuit first, or notice that 30 is 2.5 times 12.",
+            "explanation": "One biscuit needs $300 \\div 12 = 25$ g. Thirty biscuits need $25 \\times 30 = 750$ g.",
+            "answers": [
+              {
+                "numeric": 750,
+                "tolerance": 0,
+                "unit": "g",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Inverse proportion",
+          "minutes": 5,
+          "content": "## One goes up, the other comes down\n\nTwo quantities are in **inverse proportion** if, when one is multiplied by a number, the other is **divided** by the same number. Double one and the other halves.\n\nExamples: the number of workers and the time to finish a job; speed and journey time for a fixed distance; the number of people sharing a prize and each share.\n\n## Spotting it\n\n- **In a table**: multiplying $x$ by $y$ always gives the same value (the **product is constant**).\n- **On a graph**: a curve that falls steeply then flattens, never touching either axis.\n\n## The product method\n\n*It takes 6 painters 10 days to paint a building. How long would it take 4 painters?*\n\nTotal work $= 6 \\times 10 = 60$ painter-days. With 4 painters: $60 \\div 4 = 15$ days.\n\nSanity check: fewer painters, so it should take **longer**. 15 > 10 ✓. If your answer moves the wrong way, you have used direct proportion by mistake.\n\n*A journey takes 3 hours at 40 mph. How long at 60 mph?*\n\nDistance $= 3 \\times 40 = 120$ miles. At 60 mph: $120 \\div 60 = 2$ hours.\n\n## Direct or inverse?\n\nAsk: if I increase this, does the other **increase** (direct) or **decrease** (inverse)? Then check whether the ratio or the product stays constant."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-03-02-L1-Q2",
+            "type": "NumericalAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A water tank can be emptied by 3 identical pumps in 24 minutes. How many minutes would it take 8 of these pumps?",
+            "hint": "The product of pumps and minutes is constant: $3 \\times 24$.",
+            "explanation": "$3 \\times 24 = 72$ pump-minutes. $72 \\div 8 = 9$ minutes. More pumps, less time ✓.",
+            "answers": [
+              {
+                "numeric": 9,
+                "tolerance": 0,
+                "unit": "minutes",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-03-02-L1-Q3",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Select **all** the situations that show **inverse** proportion.",
+            "hint": "Ask whether the second quantity goes down when the first goes up.",
+            "explanation": "More builders means less time, and higher speed means shorter time: both inverse. Cost rises with the number of tickets, and distance rises with time at a steady speed: both direct.",
+            "options": [
+              {
+                "text": "Number of builders and the time to build a wall",
+                "correct": true
+              },
+              {
+                "text": "Speed of a car and the time for a fixed journey",
+                "correct": true
+              },
+              {
+                "text": "Total cost of tickets and the number of tickets bought",
+                "correct": false,
+                "feedback": "Cost increases with the number of tickets: direct proportion."
+              },
+              {
+                "text": "Distance travelled and time at a constant speed",
+                "correct": false,
+                "feedback": "Distance increases with time: direct proportion."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: proportion formulae",
+          "minutes": 5,
+          "content": "## Writing a formula\n\n\"$y$ is directly proportional to $x$\" is written $y \\propto x$, which becomes the formula\n\n$y = kx$\n\nwhere $k$ is the **constant of proportionality**. For inverse proportion, $y \\propto \\frac{1}{x}$ becomes $y = \\dfrac{k}{x}$.\n\n## Three-step method\n\n1. Write the formula with $k$.\n2. Substitute the pair of values you are given to find $k$.\n3. Rewrite the formula with the value of $k$ and use it.\n\n**$y$ is directly proportional to $x$. When $x = 4$, $y = 30$. Find $y$ when $x = 10$.**\n\n$y = kx$. Then $30 = 4k$, so $k = 7.5$ and $y = 7.5x$.\n\nWhen $x = 10$: $y = 75$.\n\n**$p$ is inversely proportional to $q$. When $q = 5$, $p = 12$. Find $p$ when $q = 20$.**\n\n$p = \\dfrac{k}{q}$. Then $12 = \\dfrac{k}{5}$, so $k = 60$ and $p = \\dfrac{60}{q}$.\n\nWhen $q = 20$: $p = 3$.\n\nYou can also go backwards: find $q$ when $p = 4$ by solving $4 = \\frac{60}{q}$, so $q = 15$.\n\nWriting the formula with $k$ earns a method mark even if you slip later, so always write it down."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-03-02-L1-Q4",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "$y$ is directly proportional to $x$. When $x = 6$, $y = 21$. Find the value of $y$ when $x = 16$.",
+            "hint": "$y = kx$; find $k$ from $21 = 6k$.",
+            "explanation": "$k = 21 \\div 6 = 3.5$, so $y = 3.5x$. When $x = 16$, $y = 56$.",
+            "answers": [
+              {
+                "numeric": 56,
+                "tolerance": 0,
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-03-02-L1-Q5",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "$m$ is inversely proportional to $n$. When $n = 8$, $m = 4.5$. Find the value of $n$ when $m = 12$.",
+            "hint": "$m = \\frac{k}{n}$; $k = 8 \\times 4.5$.",
+            "explanation": "$k = 36$, so $m = \\frac{36}{n}$. When $m = 12$: $12 = \\frac{36}{n}$, so $n = 3$.",
+            "answers": [
+              {
+                "numeric": 3,
+                "tolerance": 0,
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Squares, cubes and roots (Higher)",
+          "minutes": 5,
+          "content": "## Proportion to a power\n\nThe method is the same; only the formula changes.\n\n| Statement | Formula |\n|---|---|\n| $y$ is proportional to the square of $x$ | $y = kx^2$ |\n| $y$ is proportional to the cube of $x$ | $y = kx^3$ |\n| $y$ is proportional to the square root of $x$ | $y = k\\sqrt{x}$ |\n| $y$ is inversely proportional to the square of $x$ | $y = \\dfrac{k}{x^2}$ |\n\n**The area $A$ of a circle is proportional to the square of its radius $r$. When $r = 3$, $A = 28.3$. Find $A$ when $r = 6$.**\n\n$A = kr^2$, so $28.3 = 9k$ and $k = 3.14$ (it is $\\pi$, of course). When $r = 6$: $A = 3.14 \\times 36 = 113$ (3 s.f.).\n\nNotice: doubling $r$ multiplies $A$ by $2^2 = 4$.\n\n**$F$ is inversely proportional to $d^2$. When $d = 2$, $F = 50$. Find $F$ when $d = 5$.**\n\n$F = \\dfrac{k}{d^2}$, so $50 = \\dfrac{k}{4}$ and $k = 200$. When $d = 5$: $F = \\dfrac{200}{25} = 8$.\n\n## Graph shapes\n\n- $y = kx$: straight line through the origin.\n- $y = kx^2$: U-shaped curve through the origin.\n- $y = \\frac{k}{x}$: reciprocal curve, never touching the axes.\n\nIf a question describes a curve through the origin that gets steeper, think $x^2$ or $x^3$, not a straight line."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-03-02-L1-Q6",
+            "type": "FormulaCalculation",
+            "difficulty": 4,
+            "marks": 3,
+            "tier": "Higher",
+            "text": "$y$ is proportional to the square of $x$. When $x = 4$, $y = 48$. Find $y$ when $x = 7$.",
+            "hint": "$y = kx^2$; $48 = 16k$.",
+            "explanation": "$k = 3$, so $y = 3x^2$. When $x = 7$: $y = 3 \\times 49 = 147$.",
+            "answers": [
+              {
+                "numeric": 147,
+                "tolerance": 0,
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Using direct proportion for an inverse situation.** More workers should mean *less* time. Check the direction of your answer.\n- **Adding instead of multiplying.** If 3 items cost £6, 6 items cost £12, not £9.\n- **Forgetting $k$.** \"$y$ is proportional to $x$\" is $y = kx$, not $y = x$.\n- **Finding $k$ and then forgetting to use it.** The question usually wants a new value of $y$ or $x$, not $k$ itself.\n- **Squares and roots.** $y \\propto x^2$ means square $x$ *before* multiplying by $k$. Doubling $x$ quadruples $y$.\n- **Units in best-buy questions.** Convert to the same units (all grams, all pence) before comparing.\n- **Rounding $k$ too early.** Keep it exact (as a fraction) until the final calculation."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-03-02-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "The time $T$ (hours) taken to tile a floor is inversely proportional to the number of tilers $n$.\n\nWhen 4 tilers work, the job takes 9 hours.\n\n(a) Write a formula for $T$ in terms of $n$.\n\n(b) How long would the job take with 6 tilers?\n\n(c) The company needs the job finished in 3 hours. How many tilers are needed?",
+            "hint": "(a) $T = \\frac{k}{n}$; use $n = 4$, $T = 9$ to find $k$.",
+            "explanation": "(a) $T = \\frac{k}{n}$; $9 = \\frac{k}{4}$, so $k = 36$ and $T = \\frac{36}{n}$. (b) $T = \\frac{36}{6} = 6$ hours. (c) $3 = \\frac{36}{n}$, so $n = 12$ tilers.",
+            "markScheme": [
+              {
+                "criterion": "Writes T = k/n (inverse proportion form with a constant)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "k/n",
+                    "k / n",
+                    "k ÷ n",
+                    "t = k",
+                    "t=k"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Finds k = 36",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "36"
+                  ]
+                ]
+              },
+              {
+                "criterion": "States the formula T = 36/n",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "36/n",
+                    "36 / n",
+                    "36 ÷ n"
+                  ]
+                ]
+              },
+              {
+                "criterion": "6 tilers take 6 hours",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "6 hours",
+                    "6 h",
+                    "= 6",
+                    "6hrs"
+                  ]
+                ]
+              },
+              {
+                "criterion": "12 tilers needed",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "12"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Direct proportion**: both quantities scale by the same factor; $\\frac{y}{x}$ is constant; straight-line graph through the origin; $y = kx$.\n- **Inverse proportion**: one scales up as the other scales down; $x \\times y$ is constant; $y = \\frac{k}{x}$.\n- Solve with the unitary method (find one unit) or by scaling.\n- Formula method: write the formula with $k$, substitute known values to find $k$, then use the formula.\n- **Higher**: $y = kx^2$, $y = kx^3$, $y = k\\sqrt{x}$, $y = \\frac{k}{x^2}$ work the same way.\n- Always check the direction of your answer makes sense."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-MAT-03-02-L1-P1",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "5 litres of paint cover 40 m². How many square metres will 8 litres cover?",
+          "hint": "Find the coverage of 1 litre first.",
+          "explanation": "$40 \\div 5 = 8$ m² per litre. $8 \\times 8 = 64$ m².",
+          "answers": [
+            {
+              "numeric": 64,
+              "tolerance": 0,
+              "unit": "m²"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P2",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A 750 g box of cereal costs £2.70. A 1.2 kg box of the same cereal costs £4.20. Work out the cost per 100 g of the larger box, in pence.",
+          "hint": "1.2 kg = 1200 g = 12 lots of 100 g.",
+          "explanation": "$420 \\div 12 = 35$ p per 100 g. (The small box is $270 \\div 7.5 = 36$ p per 100 g, so the large box is better value.)",
+          "answers": [
+            {
+              "numeric": 35,
+              "tolerance": 0,
+              "unit": "p",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P3",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "It takes 5 people 12 hours to pack a delivery. How many hours would it take 4 people working at the same rate?",
+          "hint": "Total work = 5 × 12 person-hours.",
+          "explanation": "$60 \\div 4 = 15$ hours. Fewer people, longer time ✓.",
+          "answers": [
+            {
+              "numeric": 15,
+              "tolerance": 0,
+              "unit": "hours",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which table shows $y$ inversely proportional to $x$?",
+          "hint": "For inverse proportion, $x \\times y$ is the same for every pair.",
+          "explanation": "In the table x: 2, 4, 8 and y: 12, 6, 3, the product is always 24. The others have constant ratios or neither.",
+          "options": [
+            {
+              "text": "x: 2, 4, 8 and y: 12, 6, 3",
+              "correct": true
+            },
+            {
+              "text": "x: 2, 4, 8 and y: 6, 12, 24",
+              "correct": false,
+              "feedback": "That is direct proportion: $y = 3x$."
+            },
+            {
+              "text": "x: 2, 4, 8 and y: 10, 8, 6",
+              "correct": false
+            },
+            {
+              "text": "x: 2, 4, 8 and y: 4, 16, 64",
+              "correct": false,
+              "feedback": "That is $y = x^2$."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P5",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: the graph of two quantities in direct proportion is a straight line that passes through the origin.",
+          "hint": "When one quantity is zero, what is the other?",
+          "explanation": "True. $y = kx$ gives a straight line, and when $x = 0$, $y = 0$.",
+          "options": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P6",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "$y$ is directly proportional to $x$. When $x = 12$, $y = 9$. Find $x$ when $y = 30$.",
+          "hint": "$k = 9 \\div 12 = 0.75$, so $y = 0.75x$.",
+          "explanation": "$30 = 0.75x$, so $x = 40$.",
+          "answers": [
+            {
+              "numeric": 40,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P7",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "$a$ is inversely proportional to $b$. When $b = 3$, $a = 20$. Write a formula for $a$ in terms of $b$. Type your answer like a=12/b.",
+          "hint": "$a = \\frac{k}{b}$ and $k = 3 \\times 20$.",
+          "explanation": "$k = 60$, so $a = \\frac{60}{b}$.",
+          "answers": [
+            {
+              "text": "a=60/b",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P8",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentences.",
+          "metadata": {
+            "blanksText": "If y is directly proportional to x, then y ÷ x is always the same, and the formula is y = kx where k is called the constant of ___. If y is inversely proportional to x, then x × y is always the ___."
+          },
+          "hint": "The letter $k$ has a special name; and for inverse proportion the product never changes.",
+          "explanation": "$k$ is the constant of proportionality; for inverse proportion the product $xy$ is constant (the same).",
+          "answers": [
+            {
+              "text": "proportionality",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "same",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P9",
+          "type": "FormulaCalculation",
+          "difficulty": 4,
+          "marks": 3,
+          "tier": "Higher",
+          "text": "$y$ is inversely proportional to the square of $x$. When $x = 3$, $y = 8$. Find $y$ when $x = 6$.",
+          "hint": "$y = \\frac{k}{x^2}$; $8 = \\frac{k}{9}$.",
+          "explanation": "$k = 72$, so $y = \\frac{72}{x^2}$. When $x = 6$: $y = \\frac{72}{36} = 2$. Doubling $x$ divides $y$ by 4.",
+          "answers": [
+            {
+              "numeric": 2,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Ben says: \"If 3 machines take 8 hours to finish a job, then 6 machines will take 16 hours.\" Explain why Ben is wrong and give the correct time.",
+          "hint": "More machines should make the job quicker. What stays constant?",
+          "explanation": "This is inverse proportion: doubling the machines halves the time. $3 \\times 8 = 24$ machine-hours, so 6 machines take $24 \\div 6 = 4$ hours.",
+          "markScheme": [
+            {
+              "criterion": "Explains that more machines means less time (inverse proportion), so the time should decrease",
+              "marks": 1,
+              "keywords": [
+                [
+                  "inverse",
+                  "less time",
+                  "quicker",
+                  "faster",
+                  "halve",
+                  "decrease",
+                  "shorter"
+                ]
+              ]
+            },
+            {
+              "criterion": "Correct time 4 hours",
+              "marks": 1,
+              "keywords": [
+                [
+                  "4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "tier": "Higher",
+          "text": "The distance $d$ metres that a ball falls is proportional to the square of the time $t$ seconds. In 2 seconds the ball falls 20 m.\n\n(a) Find a formula for $d$ in terms of $t$.\n\n(b) How far does the ball fall in 5 seconds?\n\n(c) How long does it take to fall 125 m?",
+          "hint": "(a) $d = kt^2$ with $20 = 4k$. (c) Solve $125 = 5t^2$ and take the positive root.",
+          "explanation": "(a) $k = 5$, so $d = 5t^2$. (b) $5 \\times 25 = 125$ m. (c) $t^2 = 25$, so $t = 5$ seconds.",
+          "markScheme": [
+            {
+              "criterion": "Writes d = kt² and finds k = 5",
+              "marks": 1,
+              "keywords": [
+                [
+                  "kt^2",
+                  "kt²",
+                  "k t^2",
+                  "k = 5",
+                  "k=5"
+                ]
+              ]
+            },
+            {
+              "criterion": "Formula d = 5t²",
+              "marks": 1,
+              "keywords": [
+                [
+                  "5t^2",
+                  "5t²",
+                  "5 t^2",
+                  "5t^{2}"
+                ]
+              ]
+            },
+            {
+              "criterion": "Distance in 5 seconds = 125 m",
+              "marks": 1,
+              "keywords": [
+                [
+                  "125"
+                ]
+              ]
+            },
+            {
+              "criterion": "Time to fall 125 m = 5 seconds",
+              "marks": 1,
+              "keywords": [
+                [
+                  "5 s",
+                  "5 seconds",
+                  "t = 5",
+                  "t=5",
+                  "5sec"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

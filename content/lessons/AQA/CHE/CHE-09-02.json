@@ -1,0 +1,626 @@
+{
+  "subTopicCode": "CHE-09-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-CHE-09-02-L1",
+      "title": "Greenhouse gases and climate change",
+      "summary": "Understand how greenhouse gases keep the Earth warm, why human activity is increasing them, what the consequences of a warming climate are, and how the carbon footprint of a product or activity can be reduced.",
+      "objectives": [
+        "I can name the main greenhouse gases and describe how they keep the Earth warm.",
+        "I can describe human activities that increase carbon dioxide and methane in the atmosphere.",
+        "I can evaluate evidence for climate change and explain why predictions are uncertain.",
+        "I can describe the potential effects of global climate change.",
+        "I can explain what a carbon footprint is and describe ways to reduce it."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "The greenhouse effect",
+          "minutes": 5,
+          "content": "## Why the Earth is warm enough for life\n\nWithout its atmosphere the Earth's average temperature would be about −18 °C. It is actually about +15 °C. The difference is the **greenhouse effect**, and it is caused by a small group of gases called **greenhouse gases**:\n\n- **water vapour, H₂O**\n- **carbon dioxide, CO₂**\n- **methane, CH₄**\n\n### How it works\n\n1. The Sun sends out energy mostly as **short-wavelength radiation** (visible light and ultraviolet). This passes straight through the atmosphere and is **absorbed by the Earth's surface**, warming it.\n2. The warm surface gives out energy again, but as **long-wavelength infrared radiation**.\n3. Greenhouse gas molecules **absorb** this infrared radiation and then **re-radiate** it in all directions, including back **towards the surface**.\n4. Some of the energy that would have escaped into space is trapped, so the atmosphere stays warmer.\n\nThe key point for exams is the difference in wavelength: the atmosphere is **transparent to the short-wavelength radiation coming in** but **absorbs the long-wavelength radiation going out**.\n\nNitrogen and oxygen, which make up almost all the air, do not absorb infrared radiation, which is why they are not greenhouse gases.\n\nThe natural greenhouse effect is a good thing. The problem is that human activity is **strengthening** it."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-CHE-09-02-L1-Q1",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put the steps of the greenhouse effect in the correct order.",
+            "hint": "Start with the Sun. The wavelength changes when the Earth re-emits the energy.",
+            "explanation": "Short-wavelength radiation from the Sun passes through the atmosphere and warms the surface; the surface emits long-wavelength infrared; greenhouse gases absorb this and re-radiate some back, warming the atmosphere.",
+            "order": [
+              "Short-wavelength radiation from the Sun passes through the atmosphere",
+              "The Earth's surface absorbs the radiation and warms up",
+              "The surface emits long-wavelength infrared radiation",
+              "Greenhouse gases absorb the infrared radiation",
+              "Energy is re-radiated in all directions, including back to the surface"
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Human activity and greenhouse gases",
+          "minutes": 4,
+          "content": "## More carbon dioxide, more methane\n\nSince the start of the Industrial Revolution around 1750, the concentration of carbon dioxide in the atmosphere has risen from about **280 ppm** to over **420 ppm**. Methane has more than doubled. The main human causes are below.\n\n### Carbon dioxide\n\n- **Burning fossil fuels** (coal, oil, natural gas) for electricity, transport, heating and industry. The carbon in these fuels was locked away millions of years ago and is now being released.\n- **Deforestation**: trees remove CO₂ by photosynthesis. Cutting them down means less is removed, and burning them releases the carbon they stored.\n- **Cement production**, which heats limestone and releases CO₂.\n\n### Methane\n\n- **Livestock farming**: cattle and sheep produce methane as they digest grass.\n- **Rice paddies**: flooded fields produce methane from decaying plant material in waterlogged soil.\n- **Landfill sites**: rotting rubbish releases methane.\n- **Leaks** from natural gas pipelines and oil wells.\n\nMethane is present in much smaller amounts than carbon dioxide, but each molecule traps far more heat, so it matters.\n\n### The link to temperature\n\nRecords going back over 150 years show that as greenhouse gas levels have risen, the **average global temperature has risen** too, by more than 1 °C. Most scientists agree that the increase in greenhouse gases from human activity is the **main cause** of this warming."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-09-02-L1-Q2",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each human activity to the greenhouse gas it mainly releases.",
+            "hint": "Fossil fuels and forests are about carbon dioxide; animals and rubbish are about methane.",
+            "explanation": "Burning fossil fuels and deforestation increase carbon dioxide; cattle farming and landfill sites release methane.",
+            "pairs": [
+              {
+                "left": "burning coal in a power station",
+                "right": "carbon dioxide (from combustion)"
+              },
+              {
+                "left": "clearing rainforest",
+                "right": "carbon dioxide (less removed by photosynthesis)"
+              },
+              {
+                "left": "cattle farming",
+                "right": "methane (from digestion)"
+              },
+              {
+                "left": "landfill sites",
+                "right": "methane (from decaying waste)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Evidence and uncertainty",
+          "minutes": 4,
+          "content": "## How sure are we?\n\nScience does not work by opinion. Scientists gather evidence, publish it, and other scientists check it through **peer review**. On climate change, the evidence includes:\n\n- Direct **temperature measurements** from thousands of weather stations, ships and satellites since the 1800s.\n- **Ice cores**: bubbles trapped in ancient ice record past CO₂ levels, showing they are now higher than at any time in the last 800 000 years.\n- **Sea level** measurements and records of **glacier** retreat.\n- Laboratory measurements showing exactly how much infrared radiation CO₂ absorbs.\n\nPutting this together, there is a strong **correlation** between rising greenhouse gases and rising temperature, and a well-understood **mechanism** that explains it. That is why most scientists are confident that human activity is the main cause.\n\n### Why predictions are still uncertain\n\nThe **climate is enormously complex**. It involves oceans, ice, clouds, living things and the Sun, all interacting. Models have to **simplify** this, so predictions of exactly how much warming will happen, and where, come with a range of uncertainty.\n\n### Why the public can be confused\n\n- The media may **simplify** or **exaggerate** findings, or present a lone dissenting voice as if the science were evenly balanced.\n- Some information is **biased** by political or commercial interests.\n- Reports are sometimes **speculative** and are then quoted as fact.\n\nIn an exam, be able to explain both why scientists are confident about the cause and why the details of the future are uncertain."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: evaluating a claim",
+          "minutes": 3,
+          "content": "**A newspaper headline says: \"Scientists prove that the world will be 3 °C warmer by 2100.\" Comment on this headline.**\n\n**What is reasonable:** the direction of the claim matches the evidence. Greenhouse gas levels are rising, and most models predict continued warming through this century.\n\n**What is misleading:**\n\n- **\"Prove\"** is the wrong word. Science provides evidence that supports a conclusion; a prediction about the future cannot be proved in advance.\n- **\"3 °C\"** sounds precise. Models actually give a **range** of possible values, depending on how much greenhouse gas we release in the meantime and on the simplifications in the models.\n- The headline gives **no source**. Was this one study, or the combined conclusion of many? Was it peer reviewed?\n\n**A better sentence:** \"Climate models suggest global temperatures could rise by around 1.5–4 °C by 2100, depending on future emissions.\"\n\n**The general lesson:** look for the source, ask whether the evidence has been peer reviewed, notice when a range has been turned into a single number, and beware of words like \"prove\", \"always\" or \"never\"."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-09-02-L1-Q3",
+            "type": "MultipleAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "Why is it difficult to make precise predictions about future global climate change? Select all that apply.",
+            "hint": "Think about the system being modelled and how models are built.",
+            "explanation": "The climate is very complex with many interacting factors, and models must simplify it, so precise predictions are hard. The greenhouse effect itself is well understood, and temperature records do exist.",
+            "options": [
+              {
+                "text": "The climate is a very complex system with many interacting factors.",
+                "correct": true
+              },
+              {
+                "text": "Climate models have to simplify the real system.",
+                "correct": true
+              },
+              {
+                "text": "Scientists do not understand how greenhouse gases absorb radiation.",
+                "correct": false,
+                "feedback": "This is well understood from laboratory measurements."
+              },
+              {
+                "text": "There are no records of past temperatures.",
+                "correct": false,
+                "feedback": "Direct records go back over 150 years and ice cores go back much further."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Effects of climate change",
+          "minutes": 4,
+          "content": "## What a warmer world means\n\nAn average rise of one or two degrees does not sound much, but it changes the whole climate system. Potential effects include:\n\n### Sea level rise\n\nWater **expands** as it warms, and **ice sheets and glaciers melt**, adding water to the oceans. Sea levels have already risen about 20 cm. Coastal towns, low-lying islands and farmland face **flooding** and **erosion**, and some communities may have to move.\n\n### Extreme weather\n\nA warmer atmosphere holds more water vapour and carries more energy, so many regions experience **more frequent and more severe storms**, heavier rainfall and flooding, while others suffer **longer droughts** and **heatwaves**.\n\n### Changes to rainfall and farming\n\nShifting weather patterns alter where crops can be grown. Some areas may become too hot or dry for the crops grown there now, affecting **food supplies** and prices.\n\n### Effects on wildlife\n\nSpecies that cannot adapt or move may face **extinction**. Coral reefs bleach and die as oceans warm and become more acidic from dissolved CO₂. Habitats and migration patterns change.\n\n### Human health and economies\n\nHeat stress, the spread of tropical diseases into new areas, and the cost of repairing storm damage all place a burden on societies.\n\nNotice that these effects are **not evenly spread**: the poorest countries often face the greatest risks while having contributed least to the emissions."
+        },
+        {
+          "type": "Explanation",
+          "title": "Carbon footprints",
+          "minutes": 4,
+          "content": "## Measuring your impact\n\nThe **carbon footprint** of a product, service or event is the **total amount of carbon dioxide and other greenhouse gases emitted over its full life cycle**. For a pair of trainers, that includes growing or making the materials, manufacturing, transport to the shop, use, and disposal.\n\nCarbon footprints are usually given as a mass of **CO₂ equivalent**, so that methane and other gases can be included.\n\n### Reducing a carbon footprint\n\n| Approach | Examples |\n|---|---|\n| Use less energy | insulation, efficient appliances, walking or cycling, turning things off |\n| Switch to low-carbon energy | solar, wind, nuclear, hydroelectric |\n| Capture the carbon | carbon capture and storage (CCS): CO₂ from power stations pumped underground into old oil and gas fields |\n| Reduce methane | change diets to eat less meat, capture methane from landfill, reduce gas leaks |\n| Government action | carbon taxes, licences, laws limiting emissions, subsidies for renewables |\n\n### Why it is hard\n\n- Renewable and low-carbon technologies can be **expensive** to set up.\n- Individuals may not want to **change their lifestyle**.\n- Countries **disagree** about who should cut emissions and by how much, since developing countries argue they need to industrialise.\n- Carbon capture is still being developed and is costly.\n- **Lack of information** and public understanding.\n\nA good exam answer offers a specific method and then a specific problem with it."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: two ways to cut a footprint",
+          "minutes": 3,
+          "content": "**A school wants to reduce its carbon footprint. Compare two options: installing solar panels, or encouraging staff and students to walk or cycle.**\n\n**Solar panels**\n\n- *Reduces* emissions by replacing electricity generated from fossil fuels.\n- *Problem:* high initial cost; panels only generate in daylight, so the school still needs grid electricity at other times; the panels themselves have a carbon footprint from manufacture and transport.\n\n**Walking and cycling**\n\n- *Reduces* emissions from car journeys, which also cuts other pollutants.\n- *Problem:* depends on people changing their habits; not practical for those who live far away; may need investment in bike sheds and safe routes.\n\n**Judgement:** the school could do both. Solar panels give a large, reliable saving once installed; travel changes cost little but depend on cooperation.\n\n**Structure to reuse:** for each option state (1) how it reduces emissions and (2) a limitation, then give a conclusion. That pattern answers most \"evaluate\" questions on this topic."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-09-02-L1-Q4",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A family's car produces 2.4 tonnes of CO₂ per year. By switching some journeys to cycling they reduce their car mileage by 35%. Assuming emissions fall in proportion, calculate the new annual CO₂ emissions from the car in tonnes.",
+            "hint": "Find 65% of 2.4.",
+            "explanation": "A 35% reduction leaves 65%: 0.65 × 2.4 = 1.56 tonnes.",
+            "answers": [
+              {
+                "numeric": 1.56,
+                "tolerance": 0.02,
+                "unit": "tonnes",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-09-02-L1-Q5",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete the sentences.",
+            "metadata": {
+              "blanksText": "The three main greenhouse gases are water vapour, carbon dioxide and ___. Greenhouse gases absorb ___ radiation given out by the Earth's surface. The total greenhouse gas emissions over the full life cycle of a product is called its carbon ___."
+            },
+            "hint": "The third gas comes from cattle and landfill. The radiation is the long-wavelength type. The last word is the same as the mark your shoe leaves.",
+            "explanation": "Methane; infrared (long-wavelength) radiation; carbon footprint.",
+            "answers": [
+              {
+                "text": "methane",
+                "blankIndex": 0,
+                "marks": 1
+              },
+              {
+                "text": "infrared",
+                "blankIndex": 1,
+                "marks": 1
+              },
+              {
+                "text": "footprint",
+                "blankIndex": 2,
+                "marks": 1
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-CHE-09-02-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 6,
+            "examStyle": true,
+            "text": "The concentration of carbon dioxide in the atmosphere has increased from about 280 ppm in 1750 to over 420 ppm today.\n\n(a) Describe two human activities that have caused this increase.\n\n(b) Explain how an increase in carbon dioxide leads to an increase in the Earth's average temperature.\n\n(c) Describe two possible consequences of global climate change.\n\n(d) Suggest one action a government could take to reduce carbon dioxide emissions, and give one reason why it might be difficult to implement.",
+            "hint": "Fossil fuels and forests. Infrared absorption. Sea levels and weather. Laws or taxes, and their cost or unpopularity.",
+            "explanation": "(a) Burning fossil fuels; deforestation. (b) The Earth's surface emits long-wavelength infrared radiation; carbon dioxide absorbs it and re-radiates some back towards the surface, so less energy escapes and the atmosphere warms. (c) Rising sea levels causing flooding; more extreme weather; changes to rainfall and crop growth; loss of habitats and species. (d) A carbon tax or a law limiting emissions; difficult because it is expensive, unpopular with voters or industry, or because other countries may not do the same.",
+            "markScheme": [
+              {
+                "criterion": "Burning fossil fuels (coal, oil, gas)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "fossil fuel",
+                    "coal",
+                    "oil",
+                    "petrol",
+                    "burning"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Deforestation / cutting down trees",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "deforest",
+                    "trees",
+                    "forest"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Carbon dioxide absorbs (long-wavelength) infrared radiation emitted by the Earth's surface",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "absorb"
+                  ],
+                  [
+                    "infrared",
+                    "long wavelength",
+                    "long-wavelength",
+                    "heat radiation"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Re-radiates energy back towards the surface so less escapes / atmosphere warms",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "re-radiat",
+                    "reradiat",
+                    "back",
+                    "trapped",
+                    "less escapes"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Two consequences: sea level rise/flooding, extreme weather, changed rainfall/crops, species extinction/habitat loss",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "sea level",
+                    "flood",
+                    "storm",
+                    "extreme weather",
+                    "drought"
+                  ],
+                  [
+                    "crop",
+                    "food",
+                    "extinct",
+                    "habitat",
+                    "heatwave"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Government action (tax, law, subsidy) with a difficulty (cost, unpopular, international disagreement)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "tax",
+                    "law",
+                    "subsid",
+                    "ban",
+                    "limit"
+                  ],
+                  [
+                    "expensive",
+                    "cost",
+                    "unpopular",
+                    "other countries",
+                    "disagree"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Greenhouse gases**: water vapour, carbon dioxide, methane. They let **short-wavelength** solar radiation in, but **absorb long-wavelength infrared** from the Earth's surface and re-radiate it, keeping the Earth warm.\n- **Human activity** raises CO₂ (burning fossil fuels, deforestation) and methane (livestock, rice, landfill).\n- Strong evidence links rising greenhouse gases to **global warming**; most scientists agree human activity is the main cause, but precise predictions are **uncertain** because the climate is complex and models are simplified.\n- **Effects**: sea level rise and flooding, extreme weather, changed rainfall and crop yields, habitat loss and extinction.\n- **Carbon footprint** = total greenhouse gas emissions over the full life cycle of a product, service or event.\n- **Reduce it** by using less energy, renewables, carbon capture, cutting methane, taxes and laws. Barriers: cost, lifestyle change, international disagreement.\n- Be critical of media reports: check sources, look for peer review, and beware of single numbers where a range is honest."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-CHE-09-02-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of these gases is NOT a greenhouse gas?",
+          "hint": "It makes up most of the air and does not absorb infrared radiation.",
+          "explanation": "Nitrogen does not absorb infrared radiation, so it is not a greenhouse gas. Water vapour, carbon dioxide and methane all are.",
+          "options": [
+            {
+              "text": "nitrogen",
+              "correct": true
+            },
+            {
+              "text": "methane",
+              "correct": false
+            },
+            {
+              "text": "carbon dioxide",
+              "correct": false
+            },
+            {
+              "text": "water vapour",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: without any greenhouse effect the Earth would be much colder than it is now.",
+          "hint": "The natural greenhouse effect is what keeps the planet habitable.",
+          "explanation": "True. Without greenhouse gases the average temperature would be around −18 °C instead of about +15 °C.",
+          "options": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P3",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which activity mainly increases the amount of methane in the atmosphere?",
+          "hint": "Think of cows.",
+          "explanation": "Cattle produce methane during digestion. The other activities release mainly carbon dioxide or no greenhouse gas.",
+          "options": [
+            {
+              "text": "rearing cattle",
+              "correct": true
+            },
+            {
+              "text": "burning petrol in cars",
+              "correct": false,
+              "feedback": "This releases carbon dioxide."
+            },
+            {
+              "text": "making cement",
+              "correct": false,
+              "feedback": "This releases carbon dioxide."
+            },
+            {
+              "text": "generating electricity from wind",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P4",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Carbon dioxide concentration rose from 280 ppm to 420 ppm. Calculate the percentage increase.",
+          "hint": "Increase ÷ original × 100.",
+          "explanation": "(420 − 280) ÷ 280 × 100 = 50%.",
+          "answers": [
+            {
+              "numeric": 50,
+              "tolerance": 0.5,
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P5",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence.",
+          "metadata": {
+            "blanksText": "Cutting down forests increases carbon dioxide levels because fewer trees are removing carbon dioxide by ___, and burning the trees ___ the carbon they stored."
+          },
+          "hint": "The process plants use to make food; what happens to stored carbon when wood burns.",
+          "explanation": "Fewer trees means less photosynthesis, and burning releases the stored carbon as carbon dioxide.",
+          "answers": [
+            {
+              "text": "photosynthesis",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "releases",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P6",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Match each way of reducing a carbon footprint to a problem with it.",
+          "hint": "Think about cost, habits and technology readiness.",
+          "explanation": "Renewables have high set-up costs; changing diets relies on people being willing; carbon capture is still expensive and being developed.",
+          "pairs": [
+            {
+              "left": "building wind farms",
+              "right": "high initial cost and needs the right location"
+            },
+            {
+              "left": "eating less meat",
+              "right": "relies on people choosing to change their lifestyle"
+            },
+            {
+              "left": "carbon capture and storage",
+              "right": "technology is still being developed and is expensive"
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P7",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Which of the following are potential effects of global climate change? Select all that apply.",
+          "hint": "Think about oceans, weather and living things.",
+          "explanation": "Rising sea levels and more extreme weather are widely expected consequences. Climate change does not increase the oxygen content of the air or lower the average global temperature.",
+          "options": [
+            {
+              "text": "rising sea levels",
+              "correct": true
+            },
+            {
+              "text": "more frequent extreme weather events",
+              "correct": true
+            },
+            {
+              "text": "a large increase in atmospheric oxygen",
+              "correct": false
+            },
+            {
+              "text": "a fall in average global temperature",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P8",
+          "type": "NumericalAnswer",
+          "difficulty": 4,
+          "marks": 2,
+          "text": "A factory emits 1200 tonnes of CO₂ per year. It installs carbon capture that removes 85% of its emissions. Calculate the mass of CO₂ still released each year, in tonnes.",
+          "hint": "15% is still released.",
+          "explanation": "0.15 × 1200 = 180 tonnes.",
+          "answers": [
+            {
+              "numeric": 180,
+              "tolerance": 1,
+              "unit": "tonnes",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P9",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "examStyle": true,
+          "text": "Explain why nitrogen and oxygen are not greenhouse gases, but carbon dioxide is.",
+          "hint": "It is about which gases absorb infrared radiation.",
+          "explanation": "Greenhouse gases absorb the long-wavelength infrared radiation emitted by the Earth's surface and re-radiate it. Carbon dioxide molecules absorb infrared radiation; nitrogen and oxygen molecules do not, so they let the radiation pass through into space.",
+          "markScheme": [
+            {
+              "criterion": "Greenhouse gases absorb infrared / long-wavelength radiation emitted by the Earth",
+              "marks": 1,
+              "keywords": [
+                [
+                  "absorb"
+                ],
+                [
+                  "infrared",
+                  "long wavelength",
+                  "long-wavelength"
+                ]
+              ]
+            },
+            {
+              "criterion": "Carbon dioxide molecules absorb this radiation (and re-radiate it)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "carbon dioxide",
+                  "co2",
+                  "co₂"
+                ],
+                [
+                  "absorb",
+                  "re-radiat",
+                  "trap"
+                ]
+              ]
+            },
+            {
+              "criterion": "Nitrogen and oxygen do not absorb infrared radiation so it passes through",
+              "marks": 1,
+              "keywords": [
+                [
+                  "do not absorb",
+                  "does not absorb",
+                  "don't absorb",
+                  "doesn't absorb",
+                  "pass through"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A website claims that 'there is no real evidence that humans are causing climate change'.\n\n(a) Describe two pieces of evidence that scientists use to link human activity to climate change.\n\n(b) Explain why scientists are confident about the cause of recent warming even though they cannot predict its future effects precisely.\n\n(c) Suggest one reason why information about climate change in the media may not be reliable.",
+          "hint": "Records of CO₂ and temperature; ice cores; correlation plus mechanism; bias or simplification.",
+          "explanation": "(a) Rising CO₂ concentration measured directly and from ice cores, alongside rising global temperature records; laboratory evidence that CO₂ absorbs infrared radiation. (b) There is a clear correlation between greenhouse gas levels and temperature and a well-understood mechanism, backed by peer-reviewed evidence; predictions are uncertain because the climate is complex and models are simplified, but that does not undermine the evidence for the cause. (c) Reports may be simplified, exaggerated, biased by political or commercial interests, or based on speculation rather than peer-reviewed evidence.",
+          "markScheme": [
+            {
+              "criterion": "Evidence 1: rising CO₂ levels (direct measurement / ice cores) alongside rising temperature records",
+              "marks": 1,
+              "keywords": [
+                [
+                  "ice core",
+                  "carbon dioxide levels",
+                  "co2 levels",
+                  "temperature record",
+                  "measurements"
+                ]
+              ]
+            },
+            {
+              "criterion": "Evidence 2: another valid piece (sea level rise, glacier retreat, infrared absorption by CO₂, correlation between fossil fuel use and CO₂)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "sea level",
+                  "glacier",
+                  "absorb",
+                  "correlation",
+                  "fossil fuel"
+                ]
+              ]
+            },
+            {
+              "criterion": "Confident because of correlation plus an understood mechanism / peer-reviewed evidence; uncertain future because the climate is complex and models simplified",
+              "marks": 1,
+              "keywords": [
+                [
+                  "peer",
+                  "mechanism",
+                  "correlation",
+                  "evidence"
+                ],
+                [
+                  "complex",
+                  "simplif",
+                  "model",
+                  "uncertain"
+                ]
+              ]
+            },
+            {
+              "criterion": "Media may be simplified, exaggerated, biased or speculative",
+              "marks": 1,
+              "keywords": [
+                [
+                  "bias",
+                  "simplif",
+                  "exaggerat",
+                  "speculat",
+                  "opinion"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

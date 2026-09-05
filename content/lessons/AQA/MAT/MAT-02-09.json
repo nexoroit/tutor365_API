@@ -1,0 +1,100 @@
+{
+  "subTopicCode": "MAT-02-09",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-02-09-L1",
+      "title": "Straight-line graphs",
+      "summary": "Plot straight lines from equations, find gradients and intercepts, write equations in the form y = mx + c, find the equation of a line through two points, and work with parallel and perpendicular lines.",
+      "objectives": [
+        "I can plot a straight line from its equation using a table of values.",
+        "I can find the gradient of a line from two points or from a graph.",
+        "I can identify the gradient and y-intercept from an equation in the form $y = mx + c$, rearranging first if needed.",
+        "I can find the equation of a line from its gradient and a point, or from two points.",
+        "I can recognise parallel lines and (Higher) find the gradient of a perpendicular line."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Plotting lines and special lines", "minutes": 4, "content": "## Drawing a line from its equation\n\nAn equation such as $y = 2x - 1$ links every $x$ value to a $y$ value. To draw it:\n\n1. Choose three $x$ values (three, so that a mistake shows up as a point off the line).\n2. Work out $y$ for each and write them in a table.\n3. Plot the points and join them with a ruler, extending across the grid.\n\n| $x$ | −1 | 0 | 2 |\n|---|---|---|---|\n| $y = 2x - 1$ | −3 | −1 | 3 |\n\n## Lines you should recognise instantly\n\n- **$x = 3$** is a **vertical** line through 3 on the $x$-axis (every point has $x$-coordinate 3).\n- **$y = -2$** is a **horizontal** line through −2 on the $y$-axis.\n- **$y = x$** is the diagonal through the origin going up to the right.\n- **$y = -x$** is the diagonal through the origin going down to the right.\n- The **$x$-axis** is the line $y = 0$; the **$y$-axis** is $x = 0$.\n\nStudents often mix up $x = 3$ and $y = 3$. Remember: $x = 3$ means \"$x$ is always 3\", which fixes the horizontal position, so the line is vertical.\n\nTo find where a line crosses the axes: put $x = 0$ for the $y$-intercept and $y = 0$ for the $x$-intercept." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-09-L1-Q1", "type": "MultipleChoice", "difficulty": 1, "marks": 1,
+          "text": "Which of these points lies on the line $y = 3x - 4$?",
+          "hint": "Substitute the $x$-coordinate and see whether you get the $y$-coordinate.",
+          "explanation": "For (2, 2): $3(2) - 4 = 2$ ✓. For (1, 1): $3 - 4 = -1$, not 1. For (0, 4): $-4$, not 4. For (3, 4): $9 - 4 = 5$, not 4.",
+          "options": [
+            { "text": "(2, 2)", "correct": true },
+            { "text": "(1, 1)", "correct": false },
+            { "text": "(0, 4)", "correct": false, "feedback": "At $x = 0$, $y = -4$." },
+            { "text": "(3, 4)", "correct": false } ] } },
+        { "type": "Explanation", "title": "Gradient and y = mx + c", "minutes": 5, "content": "## Gradient measures steepness\n\n$\\text{gradient} = \\dfrac{\\text{change in } y}{\\text{change in } x} = \\dfrac{y_2 - y_1}{x_2 - x_1}$\n\nFor the points (1, 2) and (4, 11): gradient $= \\dfrac{11 - 2}{4 - 1} = \\dfrac{9}{3} = 3$.\n\n- A **positive** gradient slopes **up** from left to right.\n- A **negative** gradient slopes **down** from left to right.\n- A gradient of 3 means $y$ goes up by 3 every time $x$ goes up by 1.\n- Bigger size means steeper. Horizontal lines have gradient 0.\n\nFrom a graph, draw a right-angled triangle under the line using two clear grid points, then divide the vertical distance by the horizontal distance. Check the sign by looking at the direction of the slope.\n\n## The form $y = mx + c$\n\nWhen the equation is written as $y = mx + c$:\n\n- $m$ is the **gradient**.\n- $c$ is the **$y$-intercept**, where the line crosses the $y$-axis at (0, $c$).\n\nSo $y = -2x + 5$ has gradient −2 and crosses the $y$-axis at (0, 5).\n\n**Rearranging first.** $2y + 6x = 8$ is not in the right form. Make $y$ the subject: $2y = -6x + 8$, so $y = -3x + 4$. Gradient −3, intercept 4. Do not read off $-6$ as the gradient." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-09-L1-Q2", "type": "NumericalAnswer", "difficulty": 2, "marks": 2,
+          "text": "Find the gradient of the line through (−2, 7) and (4, −5).",
+          "hint": "Gradient $= \\dfrac{y_2 - y_1}{x_2 - x_1}$. Be careful with the negatives.",
+          "explanation": "$\\dfrac{-5 - 7}{4 - (-2)} = \\dfrac{-12}{6} = -2$.",
+          "answers": [ { "numeric": -2, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-09-L1-Q3", "type": "Matching", "difficulty": 2, "marks": 3,
+          "text": "Match each equation to its gradient and y-intercept.",
+          "hint": "Rearrange into $y = mx + c$ first where necessary.",
+          "explanation": "$y = 4 - 3x$: gradient −3, intercept 4. $2y = x + 6$ gives $y = 0.5x + 3$. $3x + y = 2$ gives $y = -3x + 2$.",
+          "pairs": [
+            { "left": "y = 4 − 3x", "right": "gradient −3, y-intercept 4" },
+            { "left": "2y = x + 6", "right": "gradient 0.5, y-intercept 3" },
+            { "left": "3x + y = 2", "right": "gradient −3, y-intercept 2" } ] } },
+        { "type": "Example", "title": "Worked example: finding the equation of a line", "minutes": 5, "content": "## From gradient and a point\n\n**A line has gradient 4 and passes through (2, 11). Find its equation.**\n\nStart with $y = 4x + c$. Substitute the point: $11 = 8 + c$, so $c = 3$.\n\nEquation: $y = 4x + 3$.\n\n## From two points\n\n**Find the equation of the line through (1, 9) and (3, 3).**\n\n1. Gradient: $\\dfrac{3 - 9}{3 - 1} = \\dfrac{-6}{2} = -3$.\n2. So $y = -3x + c$. Use either point: $9 = -3 + c$, so $c = 12$.\n3. Equation: $y = -3x + 12$.\n\nCheck with the other point: $-9 + 12 = 3$ ✓.\n\n## From a graph\n\nRead the $y$-intercept directly, then find the gradient from a triangle between two grid points. If a line crosses the $y$-axis at −1 and rises 2 for every 1 across, its equation is $y = 2x - 1$.\n\n## Other forms\n\nAn answer may be requested as $ax + by = c$ or $ax + by + c = 0$. From $y = -3x + 12$: $3x + y = 12$, or $3x + y - 12 = 0$. Multiply through to clear fractions if needed: $y = \\frac{1}{2}x + 3$ becomes $x - 2y + 6 = 0$." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-09-L1-Q4", "type": "Equation", "difficulty": 3, "marks": 3,
+          "text": "Find the equation of the straight line through (2, 1) and (5, 10). Type your answer in the form y=mx+c, like y=2x-3.",
+          "hint": "Gradient first: $\\dfrac{10 - 1}{5 - 2}$. Then substitute a point to find $c$.",
+          "explanation": "Gradient $= 9 \\div 3 = 3$. $y = 3x + c$; using (2, 1): $1 = 6 + c$, so $c = -5$. Equation: $y = 3x - 5$.",
+          "answers": [ { "text": "y=3x-5", "caseSensitive": false, "marks": 3 } ] } },
+        { "type": "Explanation", "title": "Parallel and perpendicular lines", "minutes": 5, "content": "## Parallel lines\n\nLines are **parallel** when they have the **same gradient**. $y = 2x + 1$ and $y = 2x - 7$ never meet.\n\n**Find the line parallel to $y = 5x - 2$ through (1, 8).** Gradient 5, so $y = 5x + c$; $8 = 5 + c$ gives $c = 3$. Answer: $y = 5x + 3$.\n\nBe careful with disguised equations: $2y = 10x + 4$ is also parallel to $y = 5x - 2$ because it rearranges to $y = 5x + 2$.\n\n## Perpendicular lines (Higher tier)\n\nTwo lines are **perpendicular** (at right angles) when their gradients multiply to **−1**. The perpendicular gradient is the **negative reciprocal**: flip the fraction and change the sign.\n\n| Gradient | Perpendicular gradient |\n|---|---|\n| 2 | $-\\frac{1}{2}$ |\n| $-\\frac{3}{4}$ | $\\frac{4}{3}$ |\n| $\\frac{1}{5}$ | −5 |\n\n**Find the line perpendicular to $y = 2x + 3$ through (4, 1).** Gradient $= -\\frac{1}{2}$. $1 = -2 + c$, so $c = 3$. Answer: $y = -\\frac{1}{2}x + 3$.\n\n## Midpoints\n\nThe midpoint of two points is the average of the coordinates: for (2, 5) and (8, 1) it is $\\left(\\frac{2+8}{2}, \\frac{5+1}{2}\\right) = (5, 3)$. This comes up when finding the perpendicular bisector of a line segment." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-09-L1-Q5", "type": "MultipleAnswer", "difficulty": 3, "marks": 2,
+          "text": "Select **all** the lines that are parallel to $y = 3x + 1$.",
+          "hint": "Rearrange each into $y = mx + c$ and compare gradients.",
+          "explanation": "$y = 3x - 8$ has gradient 3. $2y = 6x + 5$ gives $y = 3x + 2.5$, gradient 3. Both are parallel to $y = 3x + 1$. $y = -3x + 1$ has gradient −3, and $3y = x + 1$ has gradient $\\frac{1}{3}$, so neither is parallel.",
+          "options": [
+            { "text": "y = 3x − 8", "correct": true },
+            { "text": "2y = 6x + 5", "correct": true },
+            { "text": "y = −3x + 1", "correct": false, "feedback": "Gradient −3 is not the same as 3." },
+            { "text": "3y = x + 1", "correct": false, "feedback": "This rearranges to gradient $\\frac{1}{3}$." } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-09-L1-Q6", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "tier": "Higher",
+          "text": "Write down the gradient of a line perpendicular to $y = 4x - 7$. Give your answer as a decimal.",
+          "hint": "Negative reciprocal: flip 4 to $\\frac{1}{4}$ and change the sign.",
+          "explanation": "$4 \\times (-\\frac{1}{4}) = -1$, so the perpendicular gradient is $-\\frac{1}{4} = -0.25$.",
+          "answers": [ { "numeric": -0.25, "tolerance": 0.001, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Reading the gradient from an equation that is not in $y = mx + c$ form.** Rearrange $3y = 6x + 9$ to $y = 2x + 3$ first: the gradient is 2, not 6.\n- **Gradient upside down.** It is change in $y$ **over** change in $x$. A line rising 2 for every 4 across has gradient $\\frac{1}{2}$, not 2.\n- **Losing the sign.** A line sloping down has a negative gradient, whatever the triangle tells you.\n- **Mixing up $x = a$ and $y = a$.** $x = 2$ is vertical; $y = 2$ is horizontal.\n- **Not substituting a point** to find $c$. The intercept is only visible on a graph if the line actually crosses the $y$-axis in view.\n- **Perpendicular gradients:** flip **and** change the sign. The perpendicular to gradient $-2$ is $+\\frac{1}{2}$.\n- **Scales.** Read both axes carefully; they are often different." },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-02-09-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 5, "examStyle": true,
+          "text": "Line L passes through the points A(−1, 3) and B(3, 11).\n\n(a) Find the equation of line L in the form $y = mx + c$.\n\n(b) Line M is parallel to L and passes through (0, −4). Write down the equation of M.\n\n(c) Find the midpoint of AB.",
+          "hint": "(a) Gradient $= \\dfrac{11 - 3}{3 - (-1)}$. (b) Same gradient, intercept −4. (c) Average the coordinates.",
+          "explanation": "(a) Gradient $= 8 \\div 4 = 2$. Using (3, 11): $11 = 6 + c$, so $c = 5$; $y = 2x + 5$. (b) $y = 2x - 4$. (c) Midpoint $= \\left(\\frac{-1 + 3}{2}, \\frac{3 + 11}{2}\\right) = (1, 7)$.",
+          "markScheme": [
+            { "criterion": "Gradient of L = 2", "marks": 1, "keywords": [ ["gradient 2", "gradient = 2", "gradient is 2", "m = 2", "m=2", "8/4", "8 ÷ 4"] ] },
+            { "criterion": "Equation of L: y = 2x + 5", "marks": 1, "keywords": [ ["y = 2x + 5", "y=2x+5", "2x + 5", "2x+5"] ] },
+            { "criterion": "Equation of M: y = 2x − 4", "marks": 1, "keywords": [ ["y = 2x - 4", "y=2x-4", "2x - 4", "2x-4", "y = 2x − 4", "2x − 4"] ] },
+            { "criterion": "Midpoint x-coordinate 1", "marks": 1, "keywords": [ ["(1,", "(1 ,", "x = 1", "1, 7"] ] },
+            { "criterion": "Midpoint y-coordinate 7", "marks": 1, "keywords": [ [", 7)", ",7)", "y = 7", "1, 7"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Plot with a table of three $x$ values; $x = a$ is vertical, $y = a$ is horizontal.\n- Gradient $= \\dfrac{\\text{change in } y}{\\text{change in } x}$; positive slopes up, negative slopes down.\n- In $y = mx + c$, $m$ is the gradient and $c$ the $y$-intercept. **Rearrange first** if the equation is in another form.\n- Equation from a point: put the gradient in, substitute the point, solve for $c$.\n- **Parallel**: same gradient. **Perpendicular** (Higher): gradients multiply to −1 (negative reciprocal).\n- Midpoint: average the $x$-coordinates and the $y$-coordinates." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-02-09-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Write down the gradient of the line $y = 7 - 5x$.", "hint": "The gradient is the number multiplying $x$, including its sign.", "explanation": "$y = -5x + 7$, so the gradient is −5.", "answers": [ { "numeric": -5, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-09-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "The line $y = 3x - 6$ crosses the $x$-axis at one point. Write down the $x$-coordinate of that point.", "hint": "On the $x$-axis, $y = 0$.", "explanation": "$0 = 3x - 6$, so $x = 2$.", "answers": [ { "numeric": 2, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-09-L1-P3", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "Which equation describes a vertical line through (−3, 0)?", "hint": "On a vertical line every point has the same $x$-coordinate.", "explanation": "All points on the line have $x = -3$, so the equation is $x = -3$.", "options": [ { "text": "x = −3", "correct": true }, { "text": "y = −3", "correct": false, "feedback": "That is a horizontal line." }, { "text": "y = −3x", "correct": false }, { "text": "x + y = −3", "correct": false } ] },
+        { "key": "AQA-MAT-02-09-L1-P4", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "Find the gradient of the line through (3, −2) and (7, 10).", "hint": "Change in $y$ over change in $x$.", "explanation": "$\\dfrac{10 - (-2)}{7 - 3} = \\dfrac{12}{4} = 3$.", "answers": [ { "numeric": 3, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-09-L1-P5", "type": "Equation", "difficulty": 2, "marks": 2, "text": "Rearrange $4x + 2y = 10$ into the form $y = mx + c$. Type your answer like y=2x+3.", "hint": "Subtract $4x$ from both sides, then divide everything by 2.", "explanation": "$2y = -4x + 10$, so $y = -2x + 5$.", "answers": [ { "text": "y=-2x+5", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-09-L1-P6", "type": "Equation", "difficulty": 3, "marks": 2, "text": "A line has gradient −2 and passes through (3, 4). Find its equation in the form y=mx+c.", "hint": "$y = -2x + c$; substitute $x = 3$, $y = 4$.", "explanation": "$4 = -6 + c$, so $c = 10$. Equation: $y = -2x + 10$.", "answers": [ { "text": "y=-2x+10", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-09-L1-P7", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: the lines $y = 4x + 2$ and $4y = x + 2$ are parallel.", "hint": "Rearrange the second equation.", "explanation": "False. $4y = x + 2$ gives $y = \\frac{1}{4}x + \\frac{1}{2}$, gradient $\\frac{1}{4}$, not 4.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-02-09-L1-P8", "type": "Ordering", "difficulty": 2, "marks": 2, "text": "Put the steps in order to find the equation of the line through (2, 3) and (6, 11).", "hint": "You need the gradient before you can find $c$.", "explanation": "Gradient $= 8 \\div 4 = 2$; then $3 = 4 + c$ gives $c = -1$; so $y = 2x - 1$; check with (6, 11).", "order": [ "Work out the gradient: (11 − 3) ÷ (6 − 2) = 2", "Write y = 2x + c", "Substitute (2, 3): 3 = 4 + c, so c = −1", "Write the equation y = 2x − 1 and check with (6, 11)" ] },
+        { "key": "AQA-MAT-02-09-L1-P9", "type": "Equation", "difficulty": 4, "marks": 3, "tier": "Higher", "text": "Find the equation of the line perpendicular to $y = \\frac{1}{3}x + 2$ that passes through (2, 5). Type your answer like y=-2x+7.", "hint": "The perpendicular gradient is the negative reciprocal of $\\frac{1}{3}$.", "explanation": "Perpendicular gradient $= -3$. $5 = -6 + c$, so $c = 11$. Equation: $y = -3x + 11$.", "answers": [ { "text": "y=-3x+11", "caseSensitive": false, "marks": 3 } ] },
+        { "key": "AQA-MAT-02-09-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Amara says the gradient of the line $5y = 10x - 15$ is 10. Explain why she is wrong and state the correct gradient.", "hint": "Is the equation in the form $y = mx + c$?", "explanation": "The equation is not in the form $y = mx + c$. Dividing by 5 gives $y = 2x - 3$, so the gradient is 2.", "markScheme": [ { "criterion": "Explains that the equation must be rearranged to y = mx + c (divide by 5) first", "marks": 1, "keywords": [ ["rearrange", "divide by 5", "y = mx + c", "y=mx+c", "make y the subject", "not in the form"] ] }, { "criterion": "States the correct gradient is 2", "marks": 1, "keywords": [ ["gradient is 2", "gradient = 2", "gradient of 2", "= 2", "2x"] ] } ] },
+        { "key": "AQA-MAT-02-09-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "A straight line crosses the $y$-axis at (0, 6) and the $x$-axis at (4, 0).\n\n(a) Find the equation of the line in the form $y = mx + c$.\n\n(b) Does the point (10, −9) lie on the line? Show how you decide.", "hint": "The gradient from (0, 6) to (4, 0) is $\\dfrac{0 - 6}{4 - 0}$.", "explanation": "(a) Gradient $= -6 \\div 4 = -1.5$; intercept 6; $y = -1.5x + 6$. (b) At $x = 10$: $y = -15 + 6 = -9$, so yes, the point lies on the line.", "markScheme": [ { "criterion": "Gradient −1.5 (or −3/2)", "marks": 1, "keywords": [ ["-1.5", "−1.5", "-3/2", "−3/2", "-6/4"] ] }, { "criterion": "Equation y = −1.5x + 6", "marks": 1, "keywords": [ ["-1.5x + 6", "-1.5x+6", "−1.5x + 6", "-3/2x + 6", "-3x/2 + 6", "6 - 1.5x", "6 − 1.5x"] ] }, { "criterion": "Substitutes x = 10 to get y = −9 and concludes yes, the point is on the line", "marks": 1, "keywords": [ ["-9", "−9"], ["yes", "lies on", "on the line", "does lie"] ] } ] }
+      ]
+    }
+  ]
+}

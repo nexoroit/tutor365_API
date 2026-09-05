@@ -1,0 +1,531 @@
+{
+  "subTopicCode": "MAT-02-12",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-02-12-L1",
+      "title": "Algebraic fractions and proof",
+      "summary": "Simplify, multiply, divide, add and subtract algebraic fractions, solve equations containing them, and write clear algebraic proofs about odd, even and consecutive numbers.",
+      "objectives": [
+        "I can simplify an algebraic fraction by factorising and cancelling common factors.",
+        "I can multiply and divide algebraic fractions.",
+        "I can add and subtract algebraic fractions using a common denominator.",
+        "I can solve equations that contain algebraic fractions.",
+        "I can write an algebraic proof using expressions such as $2n$, $2n + 1$ and $n + 1$."
+      ],
+      "estimatedMinutes": 44,
+      "difficulty": 4,
+      "tier": "Higher",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Simplifying algebraic fractions",
+          "minutes": 5,
+          "content": "## Factorise, then cancel\n\nAn **algebraic fraction** has letters in the numerator, the denominator or both. The rules are the same as for ordinary fractions, and the golden rule is:\n\n> You can only cancel **factors** (things that are multiplied), never terms (things that are added).\n\n$\\dfrac{6x^2}{9x} = \\dfrac{2x}{3}$ because 3 and $x$ are common factors of top and bottom.\n\nBut $\\dfrac{x + 6}{x + 3}$ does **not** simplify to 2. The 6 and 3 are terms, not factors.\n\n## Fractions with brackets\n\nFactorise both parts fully first, then cancel whole brackets.\n\n$\\dfrac{x^2 - 9}{x^2 + 5x + 6} = \\dfrac{(x - 3)(x + 3)}{(x + 2)(x + 3)} = \\dfrac{x - 3}{x + 2}$\n\n$\\dfrac{2x^2 + 6x}{4x} = \\dfrac{2x(x + 3)}{4x} = \\dfrac{x + 3}{2}$\n\n$\\dfrac{3x - 12}{x^2 - 16} = \\dfrac{3(x - 4)}{(x - 4)(x + 4)} = \\dfrac{3}{x + 4}$\n\nLook out for the difference of two squares ($a^2 - b^2 = (a - b)(a + b)$) and for common factors; they appear constantly in these questions.\n\n## Multiplying and dividing\n\n- **Multiply**: multiply the tops, multiply the bottoms, cancelling first wherever you can.\n- **Divide**: flip the second fraction and multiply.\n\n$\\dfrac{x}{x + 1} \\div \\dfrac{x^2}{3} = \\dfrac{x}{x + 1} \\times \\dfrac{3}{x^2} = \\dfrac{3}{x(x + 1)}$"
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-02-12-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Simplify fully $\\dfrac{x^2 - 4}{x^2 + 2x}$.",
+            "hint": "Factorise the top as a difference of two squares and take $x$ out of the bottom.",
+            "explanation": "$\\dfrac{(x - 2)(x + 2)}{x(x + 2)} = \\dfrac{x - 2}{x}$.",
+            "options": [
+              {
+                "text": "(x − 2)/x",
+                "correct": true
+              },
+              {
+                "text": "−4/(2x)",
+                "correct": false,
+                "feedback": "You cannot cancel the $x^2$ terms; they are not factors of the whole expression."
+              },
+              {
+                "text": "(x + 2)/x",
+                "correct": false
+              },
+              {
+                "text": "x − 2",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-12-L1-Q2",
+            "type": "Equation",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "Simplify fully $\\dfrac{x^2 + 7x + 10}{x^2 - 25}$. Type your answer like (x+1)/(x-2).",
+            "hint": "Factorise both quadratics; one of them is a difference of two squares.",
+            "explanation": "$\\dfrac{(x + 2)(x + 5)}{(x - 5)(x + 5)} = \\dfrac{x + 2}{x - 5}$.",
+            "answers": [
+              {
+                "text": "(x+2)/(x-5)",
+                "caseSensitive": false,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Adding and subtracting",
+          "minutes": 5,
+          "content": "## Common denominators\n\nJust as $\\frac{1}{3} + \\frac{1}{4} = \\frac{4}{12} + \\frac{3}{12}$, algebraic fractions need a **common denominator** before adding or subtracting. The simplest choice is usually the product of the denominators.\n\n**$\\dfrac{2}{x} + \\dfrac{3}{x + 1}$**\n\nCommon denominator $x(x + 1)$. Multiply each numerator by whatever its denominator was missing:\n\n$\\dfrac{2(x + 1)}{x(x + 1)} + \\dfrac{3x}{x(x + 1)} = \\dfrac{2x + 2 + 3x}{x(x + 1)} = \\dfrac{5x + 2}{x(x + 1)}$\n\n**$\\dfrac{4}{x - 2} - \\dfrac{1}{x + 3}$**\n\n$\\dfrac{4(x + 3) - 1(x - 2)}{(x - 2)(x + 3)} = \\dfrac{4x + 12 - x + 2}{(x - 2)(x + 3)} = \\dfrac{3x + 14}{(x - 2)(x + 3)}$\n\nWhen subtracting, put the second numerator in **brackets** so the minus sign reaches every term: $-(x - 2) = -x + 2$.\n\n## Numerical denominators\n\n$\\dfrac{x + 1}{3} + \\dfrac{2x - 1}{4} = \\dfrac{4(x + 1) + 3(2x - 1)}{12} = \\dfrac{10x + 1}{12}$\n\n## Leaving the answer\n\nUsually leave the denominator factorised, e.g. $(x - 2)(x + 3)$, and expand and simplify the numerator. Check whether the final fraction cancels further; it often does not."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-12-L1-Q3",
+            "type": "Equation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Write $\\dfrac{3}{x + 2} + \\dfrac{2}{x - 1}$ as a single fraction in its simplest form. Type your answer like (5x+1)/((x+2)(x-1)).",
+            "hint": "Common denominator $(x + 2)(x - 1)$. Numerator: $3(x - 1) + 2(x + 2)$.",
+            "explanation": "$\\dfrac{3(x - 1) + 2(x + 2)}{(x + 2)(x - 1)} = \\dfrac{3x - 3 + 2x + 4}{(x + 2)(x - 1)} = \\dfrac{5x + 1}{(x + 2)(x - 1)}$.",
+            "answers": [
+              {
+                "text": "(5x+1)/((x+2)(x-1))",
+                "caseSensitive": false,
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: equations with algebraic fractions",
+          "minutes": 5,
+          "content": "## Clear the fractions first\n\n**Solve $\\dfrac{x}{2} + \\dfrac{x + 1}{3} = 4$.**\n\nMultiply every term by the lowest common denominator, 6:\n\n$3x + 2(x + 1) = 24$\n\n$5x + 2 = 24$, so $x = 4.4$.\n\n**Solve $\\dfrac{3}{x} + \\dfrac{1}{x + 2} = 1$.**\n\nMultiply every term by $x(x + 2)$:\n\n$3(x + 2) + x = x(x + 2)$\n\n$3x + 6 + x = x^2 + 2x$\n\n$0 = x^2 - 2x - 6$\n\nThis is a quadratic that does not factorise, so use the formula: $x = \\dfrac{2 \\pm \\sqrt{4 + 24}}{2} = 1 \\pm \\sqrt{7}$, giving $x = 3.65$ or $x = -1.65$ (to 2 d.p.).\n\n**Solve $\\dfrac{5}{x - 1} = \\dfrac{2}{x + 3}$.**\n\nCross-multiply: $5(x + 3) = 2(x - 1)$, so $5x + 15 = 2x - 2$ and $x = -\\dfrac{17}{3}$.\n\n## Checking\n\nA value that makes any denominator zero is not allowed. In the second example, $x = 0$ or $x = -2$ would be rejected; neither solution is, so both stand."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-12-L1-Q4",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Solve $\\dfrac{4}{x + 1} = \\dfrac{3}{x - 2}$.",
+            "hint": "Cross-multiply: $4(x - 2) = 3(x + 1)$.",
+            "explanation": "$4x - 8 = 3x + 3$, so $x = 11$. Check: $\\frac{4}{12} = \\frac{3}{9} = \\frac{1}{3}$ ✓.",
+            "answers": [
+              {
+                "numeric": 11,
+                "tolerance": 0,
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Algebraic proof",
+          "minutes": 5,
+          "content": "## Proving a statement is always true\n\nTesting a few numbers is not a proof. A **proof** uses algebra to cover *every* case at once.\n\n## The standard expressions\n\nLet $n$ be any integer. Then:\n\n| Description | Expression |\n|---|---|\n| any even number | $2n$ |\n| any odd number | $2n + 1$ (or $2n - 1$) |\n| consecutive integers | $n, n + 1, n + 2$ |\n| consecutive even numbers | $2n, 2n + 2$ |\n| consecutive odd numbers | $2n + 1, 2n + 3$ |\n| a multiple of 5 | $5n$ |\n\nTwo different unknown odd numbers must use different letters: $2n + 1$ and $2m + 1$.\n\n## Writing the proof\n\n**Prove that the sum of any two odd numbers is even.**\n\nLet the numbers be $2n + 1$ and $2m + 1$.\n\nSum $= 2n + 2m + 2 = 2(n + m + 1)$.\n\nThis is 2 × an integer, so it is **even**. ∎\n\n**Prove that $(n + 4)^2 - (n + 2)^2$ is always a multiple of 4.**\n\n$(n^2 + 8n + 16) - (n^2 + 4n + 4) = 4n + 12 = 4(n + 3)$, which is a multiple of 4. ∎\n\nThe finishing line matters: factorise to **show the structure** (2 × something, 4 × something) and then **say in words** what it proves.\n\n## Disproving\n\nTo show a statement is **false**, one **counter-example** is enough. \"$n^2 + n + 1$ is always prime\" fails at $n = 4$: $21 = 3 \\times 7$."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-12-L1-Q5",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each description to the correct algebraic expression, where $n$ is an integer.",
+            "hint": "Even numbers are multiples of 2; consecutive means one after another.",
+            "explanation": "Even: $2n$. Odd: $2n + 1$. Consecutive integers: $n$ and $n + 1$. Consecutive odd numbers differ by 2: $2n + 1$ and $2n + 3$.",
+            "pairs": [
+              {
+                "left": "Any even number",
+                "right": "2n"
+              },
+              {
+                "left": "Any odd number",
+                "right": "2n + 1"
+              },
+              {
+                "left": "Two consecutive integers",
+                "right": "n and n + 1"
+              },
+              {
+                "left": "Two consecutive odd numbers",
+                "right": "2n + 1 and 2n + 3"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-12-L1-Q6",
+            "type": "Ordering",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "Put the lines of this proof in order. Statement: the product of two consecutive integers is always even.",
+            "hint": "Define the numbers, form the expression, then argue about odd and even.",
+            "explanation": "Let the integers be $n$ and $n + 1$; the product is $n(n + 1)$; one of $n$, $n + 1$ must be even; even × anything is even.",
+            "order": [
+              "Let the two consecutive integers be n and n + 1",
+              "Their product is n(n + 1)",
+              "One of n and n + 1 must be even, because consecutive integers alternate odd and even",
+              "An even number multiplied by any integer is even, so the product is always even"
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Cancelling terms.** $\\dfrac{x + 6}{x + 3} \\ne 2$. Only cancel after factorising.\n- **Forgetting to multiply every term** when clearing fractions from an equation, including the number on the right.\n- **Dropping brackets when subtracting.** $-(x - 2)$ is $-x + 2$.\n- **Multiplying by the wrong denominator.** Use the product of the *different* denominators.\n- **Solutions that break a denominator.** Any value giving a zero denominator must be rejected.\n- **Proof by example.** Checking $n = 1, 2, 3$ proves nothing. Use algebra for all $n$.\n- **Same letter, different numbers.** Two arbitrary odd numbers are $2n + 1$ and $2m + 1$, not both $2n + 1$.\n- **No conclusion.** After factorising to $2(\\ldots)$, write \"which is even\" or \"which is a multiple of 2\" to complete the proof."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-02-12-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 4,
+            "examStyle": true,
+            "text": "Prove that the difference between the squares of any two consecutive odd numbers is always a multiple of 8.",
+            "hint": "Let the numbers be $2n + 1$ and $2n + 3$. Expand both squares, subtract, and factorise.",
+            "explanation": "$(2n + 3)^2 - (2n + 1)^2 = (4n^2 + 12n + 9) - (4n^2 + 4n + 1) = 8n + 8 = 8(n + 1)$, which is a multiple of 8 for every integer $n$.",
+            "markScheme": [
+              {
+                "criterion": "Defines consecutive odd numbers as 2n + 1 and 2n + 3 (or equivalent)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "2n + 1",
+                    "2n+1",
+                    "2n - 1",
+                    "2n-1"
+                  ],
+                  [
+                    "2n + 3",
+                    "2n+3"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Expands both squares correctly (4n² + 12n + 9 and 4n² + 4n + 1)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "12n + 9",
+                    "12n+9",
+                    "4n + 1",
+                    "4n+1"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Subtracts to get 8n + 8",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "8n + 8",
+                    "8n+8"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Factorises to 8(n + 1) and states it is a multiple of 8",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "8(n + 1)",
+                    "8(n+1)"
+                  ],
+                  [
+                    "multiple of 8",
+                    "divisible by 8"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Simplify**: factorise top and bottom fully, then cancel common **factors** only.\n- **Multiply**: tops together, bottoms together. **Divide**: flip the second and multiply.\n- **Add/subtract**: common denominator (product of the denominators), adjust numerators, use brackets when subtracting.\n- **Equations**: multiply every term by the common denominator, then solve; reject values that make a denominator zero.\n- **Proof**: use $2n$, $2n + 1$, $n + 1$ etc., expand, factorise, then state the conclusion in words.\n- One counter-example disproves a statement; examples never prove one."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-MAT-02-12-L1-P1",
+          "type": "Equation",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Simplify $\\dfrac{12x^3}{4x}$. Type your answer like 3x^2.",
+          "hint": "Cancel the numbers, then subtract the indices.",
+          "explanation": "$12 \\div 4 = 3$ and $x^3 \\div x = x^2$, giving $3x^2$.",
+          "answers": [
+            {
+              "text": "3x^2",
+              "caseSensitive": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P2",
+          "type": "Equation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Simplify fully $\\dfrac{5x + 20}{x^2 + 4x}$. Type your answer like 3/x.",
+          "hint": "Take out common factors: $5(x + 4)$ and $x(x + 4)$.",
+          "explanation": "$\\dfrac{5(x + 4)}{x(x + 4)} = \\dfrac{5}{x}$.",
+          "answers": [
+            {
+              "text": "5/x",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P3",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: $\\dfrac{x + 8}{x + 4}$ simplifies to 2.",
+          "hint": "Are 8 and 4 factors or terms?",
+          "explanation": "False. The 8 and 4 are terms being added, not factors, so nothing cancels. Try $x = 1$: $\\frac{9}{5} \\ne 2$.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P4",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Simplify $\\dfrac{x^2 - 1}{2x} \\times \\dfrac{4x}{x + 1}$. Type your answer like 2(x-1).",
+          "hint": "Factorise $x^2 - 1$, then cancel $(x + 1)$ and $x$.",
+          "explanation": "$\\dfrac{(x - 1)(x + 1) \\times 4x}{2x(x + 1)} = 2(x - 1)$.",
+          "answers": [
+            {
+              "text": "2(x-1)",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P5",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Write $\\dfrac{5}{x} - \\dfrac{2}{x + 3}$ as a single fraction in its simplest form. Type your answer like (3x+15)/(x(x+3)).",
+          "hint": "Common denominator $x(x + 3)$; numerator $5(x + 3) - 2x$.",
+          "explanation": "$\\dfrac{5(x + 3) - 2x}{x(x + 3)} = \\dfrac{5x + 15 - 2x}{x(x + 3)} = \\dfrac{3x + 15}{x(x + 3)}$.",
+          "answers": [
+            {
+              "text": "(3x+15)/(x(x+3))",
+              "caseSensitive": false,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P6",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Solve $\\dfrac{x}{3} + \\dfrac{x}{4} = 7$.",
+          "hint": "Multiply every term by 12.",
+          "explanation": "$4x + 3x = 84$, so $7x = 84$ and $x = 12$.",
+          "answers": [
+            {
+              "numeric": 12,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P7",
+          "type": "NumericalAnswer",
+          "difficulty": 4,
+          "marks": 3,
+          "text": "Solve $\\dfrac{4}{x} + \\dfrac{1}{x - 1} = 3$, given that $x$ is a positive integer.",
+          "hint": "Multiply every term by $x(x - 1)$: $4(x - 1) + x = 3x(x - 1)$.",
+          "explanation": "$4x - 4 + x = 3x^2 - 3x$, so $3x^2 - 8x + 4 = 0$, which factorises to $(3x - 2)(x - 2) = 0$. $x = \\frac{2}{3}$ or $x = 2$; the positive integer solution is $x = 2$. Check: $\\frac{4}{2} + \\frac{1}{1} = 3$ ✓.",
+          "answers": [
+            {
+              "numeric": 2,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P8",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which expression represents a number that is **one less than a multiple of 3**, for any integer $n$?",
+          "hint": "A multiple of 3 is $3n$.",
+          "explanation": "$3n - 1$ is one less than the multiple of 3, $3n$.",
+          "options": [
+            {
+              "text": "3n − 1",
+              "correct": true
+            },
+            {
+              "text": "3n + 1",
+              "correct": false,
+              "feedback": "That is one *more* than a multiple of 3."
+            },
+            {
+              "text": "n − 3",
+              "correct": false
+            },
+            {
+              "text": "3(n − 1)",
+              "correct": false,
+              "feedback": "That is itself a multiple of 3."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P9",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the proof that the sum of three consecutive integers is a multiple of 3.",
+          "metadata": {
+            "blanksText": "Let the integers be n, n + 1 and n + 2. Their sum is 3n + ___ = 3(n + ___), which is a multiple of 3."
+          },
+          "hint": "Add the constants: $0 + 1 + 2$.",
+          "explanation": "$n + (n + 1) + (n + 2) = 3n + 3 = 3(n + 1)$.",
+          "answers": [
+            {
+              "text": "3",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "1",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Zara says: \"For every integer $n$, the value of $n^2 - n + 11$ is a prime number.\" Show that Zara is wrong.",
+          "hint": "Try $n = 11$.",
+          "explanation": "One counter-example is enough. $n = 11$: $121 - 11 + 11 = 121 = 11 \\times 11$, which is not prime.",
+          "markScheme": [
+            {
+              "criterion": "Gives a valid counter-example value of n (e.g. n = 11 gives 121, or n = 12 gives 143)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "121",
+                  "143",
+                  "n = 11",
+                  "n=11",
+                  "n = 12",
+                  "n=12"
+                ]
+              ]
+            },
+            {
+              "criterion": "States the result is not prime (with a factor shown)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "not prime",
+                  "isn't prime",
+                  "11 × 11",
+                  "11 x 11",
+                  "11×11",
+                  "11 * 11",
+                  "13 × 11",
+                  "13 x 11",
+                  "factor"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 3,
+          "examStyle": true,
+          "text": "Prove that $(3n + 1)^2 - (3n - 1)^2$ is always a multiple of 12 for any integer $n$.",
+          "hint": "Expand both brackets carefully, or use the difference of two squares.",
+          "explanation": "$(9n^2 + 6n + 1) - (9n^2 - 6n + 1) = 12n$, which is $12 \\times n$, a multiple of 12 for every integer $n$.",
+          "markScheme": [
+            {
+              "criterion": "Expands (3n + 1)² = 9n² + 6n + 1 and (3n − 1)² = 9n² − 6n + 1 (or uses difference of two squares (2)(6n))",
+              "marks": 1,
+              "keywords": [
+                [
+                  "9n^2 + 6n + 1",
+                  "9n² + 6n + 1",
+                  "9n^2+6n+1",
+                  "9n²+6n+1",
+                  "(6n)(2)",
+                  "2 × 6n",
+                  "6n × 2",
+                  "2(6n)"
+                ]
+              ]
+            },
+            {
+              "criterion": "Simplifies the difference to 12n",
+              "marks": 1,
+              "keywords": [
+                [
+                  "12n"
+                ]
+              ]
+            },
+            {
+              "criterion": "Concludes that 12n is a multiple of 12 for any integer n",
+              "marks": 1,
+              "keywords": [
+                [
+                  "multiple of 12",
+                  "divisible by 12",
+                  "12 × n",
+                  "12 times"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

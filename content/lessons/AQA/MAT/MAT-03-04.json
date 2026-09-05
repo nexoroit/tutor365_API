@@ -1,0 +1,103 @@
+{
+  "subTopicCode": "MAT-03-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-03-04-L1",
+      "title": "Units, compound measures and speed, density and pressure",
+      "summary": "Convert between metric units of length, area, volume and mass, and use the compound measures speed, density and pressure, including converting between units such as m/s and km/h.",
+      "objectives": [
+        "I can convert between metric units of length, mass, capacity and time.",
+        "I can convert units of area and volume, such as cm² to m² and cm³ to m³.",
+        "I can use speed = distance ÷ time, including with times in hours and minutes.",
+        "I can use density = mass ÷ volume and pressure = force ÷ area.",
+        "I can convert compound units, such as m/s to km/h, and solve multi-step problems."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Metric conversions", "minutes": 5, "content": "## The basic facts\n\n| Length | Mass | Capacity |\n|---|---|---|\n| 10 mm = 1 cm | 1000 mg = 1 g | 1000 ml = 1 litre |\n| 100 cm = 1 m | 1000 g = 1 kg | 100 cl = 1 litre |\n| 1000 m = 1 km | 1000 kg = 1 tonne | 1 ml = 1 cm³ |\n\n**Rule of thumb:** going to a **smaller** unit means **more** of them, so **multiply**; going to a larger unit, **divide**.\n\n$3.2$ km $= 3.2 \\times 1000 = 3200$ m. $450$ g $= 450 \\div 1000 = 0.45$ kg.\n\n## Time\n\n60 seconds = 1 minute, 60 minutes = 1 hour, 24 hours = 1 day. Time is **not** decimal: 1.5 hours is 1 hour 30 minutes, and 2 hours 15 minutes is $2\\frac{15}{60} = 2.25$ hours.\n\n## Area and volume conversions\n\nThis is where mistakes happen. Because $1$ m $= 100$ cm:\n\n- $1$ m² $= 100 \\times 100 = 10\\,000$ cm²\n- $1$ m³ $= 100 \\times 100 \\times 100 = 1\\,000\\,000$ cm³\n\nSimilarly $1$ cm² $= 100$ mm² and $1$ cm³ $= 1000$ mm³.\n\nSo $2.5$ m² $= 25\\,000$ cm², and $40\\,000$ cm³ $= 0.04$ m³.\n\nThink of a square metre as a square with sides 100 cm: it holds $100 \\times 100$ centimetre squares. The conversion factor for area is the length factor **squared**; for volume it is **cubed**.\n\n## Imperial approximations you may be given\n\n5 miles ≈ 8 km, 1 inch ≈ 2.5 cm, 1 kg ≈ 2.2 pounds. These are usually stated in the question." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-03-04-L1-Q1", "type": "NumericalAnswer", "difficulty": 2, "marks": 1,
+          "text": "Convert 3.6 m² to cm².",
+          "hint": "1 m² = 100 × 100 cm².",
+          "explanation": "$3.6 \\times 10\\,000 = 36\\,000$ cm².",
+          "answers": [ { "numeric": 36000, "tolerance": 0, "unit": "cm²" } ] } },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-03-04-L1-Q2", "type": "Matching", "difficulty": 2, "marks": 4,
+          "text": "Match each measurement to its equivalent.",
+          "hint": "Check whether it is a length, area, volume or capacity conversion.",
+          "explanation": "2.4 km = 2 400 m. 750 ml = 0.75 litres. 5 cm³ = 5 000 mm³. 0.5 m² = 5 000 cm².",
+          "pairs": [
+            { "left": "2.4 km", "right": "2 400 m" },
+            { "left": "750 ml", "right": "0.75 litres" },
+            { "left": "5 cm³", "right": "5 000 mm³" },
+            { "left": "0.5 m²", "right": "5 000 cm²" } ] } },
+        { "type": "Explanation", "title": "Speed", "minutes": 5, "content": "## A compound measure\n\nA **compound measure** combines two units. **Speed** combines distance and time:\n\n$\\text{speed} = \\dfrac{\\text{distance}}{\\text{time}}$, so $\\text{distance} = \\text{speed} \\times \\text{time}$ and $\\text{time} = \\dfrac{\\text{distance}}{\\text{speed}}$.\n\nThe unit tells you the calculation: **km/h** means kilometres **divided by** hours. Miles per hour, metres per second work the same way.\n\n**A coach travels 210 km in 2 hours 30 minutes. Find its average speed.**\n\n2 h 30 min $= 2.5$ h. Speed $= 210 \\div 2.5 = 84$ km/h.\n\n**How long does 126 km take at 84 km/h?**\n\nTime $= 126 \\div 84 = 1.5$ h $= 1$ hour 30 minutes.\n\n## Converting time carefully\n\nIf a calculation gives 2.35 hours, that is **not** 2 h 35 min. Multiply the decimal part by 60: $0.35 \\times 60 = 21$ minutes, so 2 h 21 min.\n\n## Average speed over a whole journey\n\n$\\text{average speed} = \\dfrac{\\text{total distance}}{\\text{total time}}$\n\nYou cannot just average two speeds. A cyclist going 30 km at 15 km/h (2 hours) and returning at 10 km/h (3 hours) covers 60 km in 5 hours: average speed **12 km/h**, not 12.5.\n\n## Converting m/s to km/h\n\n$1$ m/s $= 3600$ m per hour $= 3.6$ km/h. So multiply by 3.6 to go from m/s to km/h, and divide by 3.6 to go back. 20 m/s = 72 km/h." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-03-04-L1-Q3", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
+          "text": "A train travels 264 km in 2 hours 24 minutes. Work out its average speed in km/h.",
+          "hint": "24 minutes is $\\frac{24}{60} = 0.4$ hours.",
+          "explanation": "$264 \\div 2.4 = 110$ km/h.",
+          "answers": [ { "numeric": 110, "tolerance": 0, "unit": "km/h", "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-03-04-L1-Q4", "type": "FormulaCalculation", "difficulty": 3, "marks": 2,
+          "text": "A sprinter runs at 9.5 m/s. Convert this speed to km/h.",
+          "hint": "Multiply by 3.6, or work out metres per hour first and divide by 1000.",
+          "explanation": "$9.5 \\times 3600 = 34\\,200$ m per hour $= 34.2$ km/h.",
+          "answers": [ { "numeric": 34.2, "tolerance": 0.05, "unit": "km/h", "marks": 2 } ] } },
+        { "type": "Example", "title": "Worked example: density", "minutes": 5, "content": "## Mass packed into a volume\n\n$\\text{density} = \\dfrac{\\text{mass}}{\\text{volume}}$\n\nUnits are usually **g/cm³** or **kg/m³**. Water has a density of 1 g/cm³ (which is 1000 kg/m³); gold is about 19.3 g/cm³.\n\n**A metal block has volume 40 cm³ and mass 312 g. Find its density.**\n\n$312 \\div 40 = 7.8$ g/cm³.\n\n**A cylinder of the same metal has volume 250 cm³. Find its mass.**\n\n$\\text{mass} = \\text{density} \\times \\text{volume} = 7.8 \\times 250 = 1950$ g $= 1.95$ kg.\n\n**A piece of oak has density 0.75 g/cm³ and mass 600 g. Find its volume.**\n\n$\\text{volume} = \\text{mass} \\div \\text{density} = 600 \\div 0.75 = 800$ cm³.\n\n## Density of a mixture\n\nTo find the density of two substances combined, add the **masses** and add the **volumes**, then divide. Never average the two densities.\n\n*100 cm³ of liquid A (density 1.2 g/cm³) is mixed with 300 cm³ of liquid B (density 0.8 g/cm³).*\n\nMass of A $= 120$ g; mass of B $= 240$ g. Total mass 360 g; total volume 400 cm³.\n\nDensity of mixture $= 360 \\div 400 = 0.9$ g/cm³.\n\n## Matching units\n\nIf density is in g/cm³, the volume must be in cm³ and the mass in g. Convert first if the question gives litres or kilograms." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-03-04-L1-Q5", "type": "FormulaCalculation", "difficulty": 3, "marks": 3,
+          "text": "A solid cuboid measures 5 cm by 4 cm by 10 cm and has a mass of 1.7 kg. Work out its density in g/cm³.",
+          "hint": "Volume $= 5 \\times 4 \\times 10$ cm³. Convert the mass to grams.",
+          "explanation": "Volume $= 200$ cm³. Mass $= 1700$ g. Density $= 1700 \\div 200 = 8.5$ g/cm³.",
+          "answers": [ { "numeric": 8.5, "tolerance": 0.01, "unit": "g/cm³", "marks": 3 } ] } },
+        { "type": "Explanation", "title": "Pressure and the formula triangles", "minutes": 4, "content": "## Pressure\n\n$\\text{pressure} = \\dfrac{\\text{force}}{\\text{area}}$\n\nForce is measured in **newtons (N)**, area in m² or cm², so pressure is in **N/m²** (also called pascals) or N/cm².\n\n**A box weighing 480 N rests on a base of area 0.6 m². Find the pressure on the floor.**\n\n$480 \\div 0.6 = 800$ N/m².\n\nThe same box standing on a smaller end of area 0.2 m² exerts $480 \\div 0.2 = 2400$ N/m²: a smaller area means greater pressure. That is why sharp knives cut and snowshoes stop you sinking.\n\n**A pressure of 50 N/cm² is applied over 12 cm². Find the force.**\n\n$\\text{force} = \\text{pressure} \\times \\text{area} = 50 \\times 12 = 600$ N.\n\n## The three formulas together\n\n| Measure | Formula | Typical units |\n|---|---|---|\n| speed | distance ÷ time | m/s, km/h, mph |\n| density | mass ÷ volume | g/cm³, kg/m³ |\n| pressure | force ÷ area | N/m², N/cm² |\n\nEach has the same shape: one quantity divided by another. To rearrange, remember: the top of the fraction equals the measure times the bottom. The unit of the measure always tells you which is which: *per* means *divided by*.\n\n## Other compound measures\n\nRates such as **litres per minute**, **price per kilogram** or **people per km²** (population density) all work exactly the same way." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-03-04-L1-Q6", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
+          "text": "A force of 900 N acts on an area of 1.5 m². Work out the pressure in N/m².",
+          "hint": "Pressure = force ÷ area.",
+          "explanation": "$900 \\div 1.5 = 600$ N/m².",
+          "answers": [ { "numeric": 600, "tolerance": 0, "unit": "N/m²", "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-03-04-L1-Q7", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "A time calculation gives an answer of 3.4 hours. What is this in hours and minutes?",
+          "hint": "Multiply the decimal part by 60.",
+          "explanation": "$0.4 \\times 60 = 24$ minutes, so 3 hours 24 minutes.",
+          "options": [
+            { "text": "3 hours 24 minutes", "correct": true },
+            { "text": "3 hours 40 minutes", "correct": false, "feedback": "0.4 of an hour is not 40 minutes; hours are not decimal." },
+            { "text": "3 hours 4 minutes", "correct": false },
+            { "text": "3 hours 34 minutes", "correct": false } ] } },
+        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Area and volume conversions.** 1 m² is 10 000 cm², not 100. 1 m³ is 1 000 000 cm³.\n- **Decimal time.** 1.25 hours is 1 h 15 min. Convert minutes to hours by dividing by 60 *before* calculating speed.\n- **Mixed units.** If speed is in km/h, distance must be in km and time in hours. Convert before you divide.\n- **Averaging speeds.** Use total distance ÷ total time.\n- **Averaging densities.** Add masses and volumes separately.\n- **Rounding too early**, especially with time in hours as a recurring decimal such as 0.333...\n- **Units in the answer.** A number without a unit can lose a mark. Write km/h, g/cm³ or N/m² as appropriate.\n- **Which way to rearrange.** Check with the units: g/cm³ = grams ÷ cm³, so mass = density × volume." },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-03-04-L1-Q8", "type": "ExamQuestion", "difficulty": 4, "marks": 5, "examStyle": true,
+          "text": "A metal bar is a cuboid measuring 2 cm by 3 cm by 25 cm. The metal has a density of 8.9 g/cm³.\n\n(a) Work out the mass of the bar in kilograms.\n\n(b) The bar stands upright on its 2 cm by 3 cm end. Its weight is 13.4 N. Work out the pressure it exerts on the surface, in N/cm².\n\n(c) The bar is transported 150 km at an average speed of 60 km/h. How long does the journey take? Give your answer in hours and minutes.",
+          "hint": "(a) Volume first, then mass = density × volume, then convert to kg. (b) Force ÷ area with area = 2 × 3. (c) Time = distance ÷ speed, then convert the decimal.",
+          "explanation": "(a) Volume $= 150$ cm³; mass $= 8.9 \\times 150 = 1335$ g $= 1.335$ kg. (b) Area $= 6$ cm²; pressure $= 13.4 \\div 6 = 2.23$ N/cm² (3 s.f.). (c) $150 \\div 60 = 2.5$ h $= 2$ hours 30 minutes.",
+          "markScheme": [
+            { "criterion": "Volume = 150 cm³", "marks": 1, "keywords": [ ["150"] ] },
+            { "criterion": "Mass = 1335 g = 1.335 kg", "marks": 1, "keywords": [ ["1.335", "1335"] ] },
+            { "criterion": "Pressure = 13.4 ÷ 6 ≈ 2.23 N/cm²", "marks": 1, "keywords": [ ["2.23", "2.2", "13.4/6", "13.4 ÷ 6"] ] },
+            { "criterion": "Time = 2.5 hours", "marks": 1, "keywords": [ ["2.5"] ] },
+            { "criterion": "Converts to 2 hours 30 minutes", "marks": 1, "keywords": [ ["2 hours 30", "2 h 30", "2h 30", "2hr 30", "2 hrs 30", "30 min"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Length: × or ÷ by 10, 100, 1000. **Area**: square the factor (1 m² = 10 000 cm²). **Volume**: cube it (1 m³ = 1 000 000 cm³).\n- Time is not decimal: convert minutes to hours by ÷ 60, and decimal hours to minutes by × 60.\n- **Speed** = distance ÷ time; **density** = mass ÷ volume; **pressure** = force ÷ area. The unit tells you the formula (\"per\" means divide).\n- Average speed uses total distance ÷ total time; mixture density uses total mass ÷ total volume.\n- m/s to km/h: × 3.6.\n- Match units before calculating and give units with every answer." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-03-04-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Convert 4.25 kg to grams.", "hint": "1 kg = 1000 g.", "explanation": "$4.25 \\times 1000 = 4250$ g.", "answers": [ { "numeric": 4250, "tolerance": 0, "unit": "g" } ] },
+        { "key": "AQA-MAT-03-04-L1-P2", "type": "NumericalAnswer", "difficulty": 2, "marks": 1, "text": "Convert 2 500 000 cm³ to m³.", "hint": "1 m³ = 1 000 000 cm³.", "explanation": "$2\\,500\\,000 \\div 1\\,000\\,000 = 2.5$ m³.", "answers": [ { "numeric": 2.5, "tolerance": 0, "unit": "m³" } ] },
+        { "key": "AQA-MAT-03-04-L1-P3", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: 1 m² = 100 cm².", "hint": "How many centimetre squares fit along each side of a metre square?", "explanation": "False. A square metre is 100 cm by 100 cm, so it contains $100 \\times 100 = 10\\,000$ cm².", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-03-04-L1-P4", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "A cyclist rides for 1 hour 45 minutes at an average speed of 16 km/h. How far does she travel, in km?", "hint": "1 h 45 min = 1.75 h. Distance = speed × time.", "explanation": "$16 \\times 1.75 = 28$ km.", "answers": [ { "numeric": 28, "tolerance": 0, "unit": "km", "marks": 2 } ] },
+        { "key": "AQA-MAT-03-04-L1-P5", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "A car travels 63 miles at an average speed of 42 mph. How many minutes does the journey take?", "hint": "Time in hours = 63 ÷ 42, then convert to minutes.", "explanation": "$63 \\div 42 = 1.5$ hours $= 90$ minutes.", "answers": [ { "numeric": 90, "tolerance": 0, "unit": "minutes", "marks": 2 } ] },
+        { "key": "AQA-MAT-03-04-L1-P6", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "A stone has a mass of 156 g and a volume of 60 cm³. Work out its density in g/cm³.", "hint": "Density = mass ÷ volume.", "explanation": "$156 \\div 60 = 2.6$ g/cm³.", "answers": [ { "numeric": 2.6, "tolerance": 0.01, "unit": "g/cm³", "marks": 2 } ] },
+        { "key": "AQA-MAT-03-04-L1-P7", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "Silver has a density of 10.5 g/cm³. Work out the volume of a silver ring with mass 4.2 g, in cm³.", "hint": "Volume = mass ÷ density.", "explanation": "$4.2 \\div 10.5 = 0.4$ cm³.", "answers": [ { "numeric": 0.4, "tolerance": 0.005, "unit": "cm³", "marks": 2 } ] },
+        { "key": "AQA-MAT-03-04-L1-P8", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "A pressure of 250 N/m² is exerted by a force of 75 N. Work out the area in m².", "hint": "Area = force ÷ pressure.", "explanation": "$75 \\div 250 = 0.3$ m².", "answers": [ { "numeric": 0.3, "tolerance": 0.001, "unit": "m²", "marks": 2 } ] },
+        { "key": "AQA-MAT-03-04-L1-P9", "type": "Ordering", "difficulty": 2, "marks": 2, "text": "Put these speeds in order from slowest to fastest.", "hint": "Convert everything to the same unit: m/s × 3.6 = km/h; 5 miles ≈ 8 km.", "explanation": "10 m/s = 36 km/h; 25 mph ≈ 40 km/h; 45 km/h; 15 m/s = 54 km/h.", "order": [ "10 m/s", "25 mph", "45 km/h", "15 m/s" ] },
+        { "key": "AQA-MAT-03-04-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Jo drives 60 km at 30 km/h and then 60 km at 60 km/h. She says her average speed is 45 km/h. Explain why Jo is wrong and give the correct average speed.", "hint": "Work out the time for each part.", "explanation": "The first part takes 2 hours and the second takes 1 hour: 120 km in 3 hours. Average speed $= 120 \\div 3 = 40$ km/h. You cannot average the speeds because she spent longer at the slower speed.", "markScheme": [ { "criterion": "Explains that average speed is total distance ÷ total time (or that more time is spent at the slower speed), so speeds cannot simply be averaged", "marks": 1, "keywords": [ ["total distance", "total time", "longer at", "more time", "cannot average", "can't average", "different times"] ] }, { "criterion": "Correct average speed 40 km/h", "marks": 1, "keywords": [ ["40"] ] } ] },
+        { "key": "AQA-MAT-03-04-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "200 cm³ of liquid X with density 1.1 g/cm³ is mixed with 300 cm³ of liquid Y with density 0.9 g/cm³.\n\nWork out the density of the mixture. Give your answer in g/cm³.", "hint": "Find the mass of each liquid, add the masses, add the volumes, then divide.", "explanation": "Mass of X $= 220$ g; mass of Y $= 270$ g. Total mass 490 g; total volume 500 cm³. Density $= 490 \\div 500 = 0.98$ g/cm³.", "markScheme": [ { "criterion": "Mass of X = 220 g", "marks": 1, "keywords": [ ["220"] ] }, { "criterion": "Mass of Y = 270 g", "marks": 1, "keywords": [ ["270"] ] }, { "criterion": "Total mass 490 g and total volume 500 cm³", "marks": 1, "keywords": [ ["490"], ["500"] ] }, { "criterion": "Density 0.98 g/cm³", "marks": 1, "keywords": [ ["0.98"] ] } ] }
+      ]
+    }
+  ]
+}

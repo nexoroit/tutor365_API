@@ -1,0 +1,580 @@
+{
+  "subTopicCode": "MAT-04-11",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-04-11-L1",
+      "title": "Vectors",
+      "summary": "Represent vectors as column vectors and with letters, add, subtract and multiply vectors by scalars, find resultant vectors, and use vectors in geometry to express one vector in terms of others and to prove points are collinear or lines are parallel.",
+      "objectives": [
+        "I can write a vector as a column vector and draw it on a grid.",
+        "I can add and subtract column vectors and multiply a vector by a scalar.",
+        "I can find the magnitude of a column vector using Pythagoras.",
+        "I can express a vector in a diagram in terms of given vectors such as $\\mathbf{a}$ and $\\mathbf{b}$, including using midpoints and ratios.",
+        "I can use vectors to show that two lines are parallel or that three points lie on a straight line (Higher)."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 4,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What a vector is",
+          "minutes": 5,
+          "content": "## Size and direction\n\nA **vector** has both a **magnitude** (size) and a **direction**. Displacement, velocity and force are vectors; distance and speed are not, because they have no direction (they are **scalars**).\n\n## Column vectors\n\n$\\begin{pmatrix} 4 \\\\ -3 \\end{pmatrix}$ means 4 to the right and 3 down. The top number is the horizontal part ($x$), the bottom number the vertical part ($y$). Positive is right/up, negative is left/down.\n\nA vector is drawn as an arrow. The **same** vector can be drawn anywhere on the grid; what matters is the length and direction, not the starting point.\n\n## Notation\n\n- $\\overrightarrow{AB}$ is the vector from A to B.\n- In print, vectors are written in **bold** ($\\mathbf{a}$); when handwriting, underline them ($\\underline{a}$).\n- $\\overrightarrow{BA} = -\\overrightarrow{AB}$: the same length, opposite direction.\n\n## Adding and subtracting\n\nAdd or subtract the components separately:\n\n$\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix} + \\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix}$, $\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix} - \\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 6 \\end{pmatrix}$\n\nOn a diagram, adding means placing the arrows **nose to tail**; the sum (the **resultant**) goes from the start of the first to the end of the last.\n\n## Multiplying by a scalar\n\n$3\\begin{pmatrix} 2 \\\\ -1 \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ -3 \\end{pmatrix}$: three times as long, same direction. A negative scalar reverses the direction: $-\\mathbf{a}$ points the opposite way to $\\mathbf{a}$."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-04-11-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "Work out $2\\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix} + \\begin{pmatrix} -4 \\\\ 5 \\end{pmatrix}$.",
+            "hint": "Multiply first, then add each component.",
+            "explanation": "$\\begin{pmatrix} 6 \\\\ -2 \\end{pmatrix} + \\begin{pmatrix} -4 \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$.",
+            "options": [
+              {
+                "text": "(2, 3) as a column vector",
+                "correct": true
+              },
+              {
+                "text": "(10, −7) as a column vector",
+                "correct": false,
+                "feedback": "Check the signs when adding −4 and 5."
+              },
+              {
+                "text": "(−1, 4) as a column vector",
+                "correct": false,
+                "feedback": "You forgot to double the first vector."
+              },
+              {
+                "text": "(2, −7) as a column vector",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-04-11-L1-Q2",
+            "type": "FormulaCalculation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Work out the magnitude of the vector $\\begin{pmatrix} 8 \\\\ -6 \\end{pmatrix}$.",
+            "hint": "Magnitude $= \\sqrt{x^2 + y^2}$ (Pythagoras).",
+            "explanation": "$\\sqrt{8^2 + (-6)^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10$.",
+            "answers": [
+              {
+                "numeric": 10,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Vectors in diagrams",
+          "minutes": 5,
+          "content": "## Routes around a shape\n\nMost exam questions give a diagram where some sides are labelled with vectors $\\mathbf{a}$ and $\\mathbf{b}$ and ask you to write another vector in terms of $\\mathbf{a}$ and $\\mathbf{b}$.\n\nThe method is always the same: **find a route** from the start point to the end point along vectors you know, and add them up. Going **against** an arrow means using the **negative** of that vector.\n\n**Example.** In parallelogram OABC, $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OC} = \\mathbf{c}$.\n\n- $\\overrightarrow{OB} = \\overrightarrow{OA} + \\overrightarrow{AB} = \\mathbf{a} + \\mathbf{c}$ (because AB is parallel and equal to OC).\n- $\\overrightarrow{AC} = \\overrightarrow{AO} + \\overrightarrow{OC} = -\\mathbf{a} + \\mathbf{c} = \\mathbf{c} - \\mathbf{a}$.\n- $\\overrightarrow{CA} = \\mathbf{a} - \\mathbf{c}$.\n\nThe pattern \"$\\overrightarrow{XY} = -\\overrightarrow{OX} + \\overrightarrow{OY}$\" (go back to O, then out to Y) works for any two points X and Y once you know their vectors from O.\n\n## Midpoints and ratios\n\nIf M is the **midpoint** of AB, then $\\overrightarrow{AM} = \\frac{1}{2}\\overrightarrow{AB}$.\n\nIf P divides AB in the ratio **1 : 3**, then P is $\\frac{1}{4}$ of the way along, so $\\overrightarrow{AP} = \\frac{1}{4}\\overrightarrow{AB}$. In general, for ratio $m : n$, the point is $\\frac{m}{m + n}$ of the way from A.\n\n**Example.** In triangle OAB, $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$, and M is the midpoint of AB. Find $\\overrightarrow{OM}$.\n\n$\\overrightarrow{AB} = \\mathbf{b} - \\mathbf{a}$, so $\\overrightarrow{AM} = \\frac{1}{2}(\\mathbf{b} - \\mathbf{a})$.\n\n$\\overrightarrow{OM} = \\overrightarrow{OA} + \\overrightarrow{AM} = \\mathbf{a} + \\frac{1}{2}\\mathbf{b} - \\frac{1}{2}\\mathbf{a} = \\frac{1}{2}\\mathbf{a} + \\frac{1}{2}\\mathbf{b} = \\frac{1}{2}(\\mathbf{a} + \\mathbf{b})$.\n\nAlways simplify fully by collecting the $\\mathbf{a}$ terms and the $\\mathbf{b}$ terms."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-11-L1-Q3",
+            "type": "Equation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "In triangle OPQ, $\\overrightarrow{OP} = \\mathbf{p}$ and $\\overrightarrow{OQ} = \\mathbf{q}$. Write $\\overrightarrow{PQ}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$. Type your answer like q-p.",
+            "hint": "Go from P back to O, then from O to Q.",
+            "explanation": "$\\overrightarrow{PQ} = \\overrightarrow{PO} + \\overrightarrow{OQ} = -\\mathbf{p} + \\mathbf{q} = \\mathbf{q} - \\mathbf{p}$.",
+            "answers": [
+              {
+                "text": "q-p",
+                "caseSensitive": false,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-11-L1-Q4",
+            "type": "Equation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "In triangle OAB, $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OB} = \\mathbf{b}$. Point N lies on AB such that AN : NB = 2 : 1. Write $\\overrightarrow{ON}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$, simplified. Type your answer like (1/3)a+(2/3)b.",
+            "hint": "N is $\\frac{2}{3}$ of the way from A to B. $\\overrightarrow{ON} = \\mathbf{a} + \\frac{2}{3}(\\mathbf{b} - \\mathbf{a})$.",
+            "explanation": "$\\overrightarrow{AN} = \\frac{2}{3}(\\mathbf{b} - \\mathbf{a})$. $\\overrightarrow{ON} = \\mathbf{a} + \\frac{2}{3}\\mathbf{b} - \\frac{2}{3}\\mathbf{a} = \\frac{1}{3}\\mathbf{a} + \\frac{2}{3}\\mathbf{b}$.",
+            "answers": [
+              {
+                "text": "(1/3)a+(2/3)b",
+                "caseSensitive": false,
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: parallel vectors and straight lines (Higher)",
+          "minutes": 5,
+          "content": "## Parallel vectors\n\nTwo vectors are **parallel** if one is a **multiple** of the other. $2\\mathbf{a} + 4\\mathbf{b}$ is parallel to $\\mathbf{a} + 2\\mathbf{b}$ because $2\\mathbf{a} + 4\\mathbf{b} = 2(\\mathbf{a} + 2\\mathbf{b})$.\n\nTo **show** two lines are parallel, write both vectors in terms of $\\mathbf{a}$ and $\\mathbf{b}$, then factorise one to show it is a scalar times the other.\n\n## Collinear points\n\nThree points lie on a **straight line** (are **collinear**) if the vectors joining them are parallel **and** share a point. For points A, B and C: show $\\overrightarrow{AC} = k\\overrightarrow{AB}$ for some number $k$. Since both vectors start at A, they must lie along the same line.\n\n**Example.** $\\overrightarrow{OA} = 2\\mathbf{a}$ and $\\overrightarrow{OB} = 2\\mathbf{b}$. P is the point on AB such that AP : PB = 1 : 2, and R is a point with $\\overrightarrow{OR} = 4\\mathbf{a} + 2\\mathbf{b}$. Show that O, P and R lie on a straight line.\n\n$\\overrightarrow{AB} = 2\\mathbf{b} - 2\\mathbf{a}$, so $\\overrightarrow{AP} = \\frac{1}{3}(2\\mathbf{b} - 2\\mathbf{a})$.\n\n$\\overrightarrow{OP} = 2\\mathbf{a} + \\frac{2}{3}\\mathbf{b} - \\frac{2}{3}\\mathbf{a} = \\frac{4}{3}\\mathbf{a} + \\frac{2}{3}\\mathbf{b} = \\frac{2}{3}(2\\mathbf{a} + \\mathbf{b})$.\n\n$\\overrightarrow{OR} = 4\\mathbf{a} + 2\\mathbf{b} = 2(2\\mathbf{a} + \\mathbf{b})$.\n\nBoth are multiples of $2\\mathbf{a} + \\mathbf{b}$, so OP and OR are parallel; they share the point O, so **O, P and R lie on a straight line**. Moreover $\\overrightarrow{OR} = 3\\overrightarrow{OP}$, so OP : PR = 1 : 2.\n\n## Writing the conclusion\n\nThe two sentences \"the vectors are multiples of each other, so they are parallel\" and \"they have a common point, so the points are collinear\" are what earn the final marks. Do not stop at the algebra."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-11-L1-Q5",
+            "type": "MultipleChoice",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "Which vector is parallel to $3\\mathbf{a} - 6\\mathbf{b}$?",
+            "hint": "Factorise $3\\mathbf{a} - 6\\mathbf{b} = 3(\\mathbf{a} - 2\\mathbf{b})$ and look for another multiple of $\\mathbf{a} - 2\\mathbf{b}$.",
+            "explanation": "$-\\mathbf{a} + 2\\mathbf{b} = -(\\mathbf{a} - 2\\mathbf{b})$, a multiple of $\\mathbf{a} - 2\\mathbf{b}$, so it is parallel (pointing the opposite way). The others are not multiples.",
+            "options": [
+              {
+                "text": "−a + 2b",
+                "correct": true
+              },
+              {
+                "text": "3a + 6b",
+                "correct": false,
+                "feedback": "The signs do not match: this is $3(\\mathbf{a} + 2\\mathbf{b})$."
+              },
+              {
+                "text": "a − 6b",
+                "correct": false
+              },
+              {
+                "text": "6a − 3b",
+                "correct": false,
+                "feedback": "The ratio of coefficients is different."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-11-L1-Q6",
+            "type": "Matching",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "OABC is a parallelogram with $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OC} = \\mathbf{c}$. M is the midpoint of AB. Match each vector to its expression.",
+            "hint": "AB is equal and parallel to OC, so $\\overrightarrow{AB} = \\mathbf{c}$.",
+            "explanation": "$\\overrightarrow{OB} = \\mathbf{a} + \\mathbf{c}$. $\\overrightarrow{CA} = \\mathbf{a} - \\mathbf{c}$. $\\overrightarrow{OM} = \\mathbf{a} + \\frac{1}{2}\\mathbf{c}$.",
+            "pairs": [
+              {
+                "left": "OB",
+                "right": "a + c"
+              },
+              {
+                "left": "CA",
+                "right": "a − c"
+              },
+              {
+                "left": "OM",
+                "right": "a + ½c"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Direction.** $\\overrightarrow{BA}$ is $-\\overrightarrow{AB}$. Going against an arrow means a minus sign.\n- **Column vectors vs coordinates.** $\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$ is a movement, not a position; do not write it as (3, 2).\n- **Not simplifying.** $\\mathbf{a} + \\frac{1}{2}(\\mathbf{b} - \\mathbf{a})$ should be finished as $\\frac{1}{2}\\mathbf{a} + \\frac{1}{2}\\mathbf{b}$.\n- **Ratios.** For AP : PB = 1 : 2, P is $\\frac{1}{3}$ of the way along, not $\\frac{1}{2}$.\n- **Magnitude.** Use Pythagoras on the components; the magnitude of $\\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix}$ is 5, never negative.\n- **Parallel vs collinear.** Parallel needs one vector to be a multiple of the other. Collinear needs that **plus** a shared point.\n- **Missing conclusion.** State clearly \"therefore parallel\" or \"therefore on a straight line\".\n- **Arithmetic with fractions.** Write $\\frac{2}{3}\\mathbf{b} - \\frac{2}{3}\\mathbf{a}$ carefully; most errors are sign slips here."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-04-11-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "In triangle OAB, $\\overrightarrow{OA} = 6\\mathbf{a}$ and $\\overrightarrow{OB} = 6\\mathbf{b}$. M is the midpoint of OA and N is the midpoint of OB.\n\n(a) Find $\\overrightarrow{AB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.\n\n(b) Find $\\overrightarrow{MN}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.\n\n(c) Use your answers to show that MN is parallel to AB, and state the ratio MN : AB.",
+            "hint": "$\\overrightarrow{OM} = 3\\mathbf{a}$ and $\\overrightarrow{ON} = 3\\mathbf{b}$. Then compare $\\overrightarrow{MN}$ with $\\overrightarrow{AB}$.",
+            "explanation": "(a) $\\overrightarrow{AB} = -6\\mathbf{a} + 6\\mathbf{b} = 6\\mathbf{b} - 6\\mathbf{a}$. (b) $\\overrightarrow{MN} = -3\\mathbf{a} + 3\\mathbf{b} = 3\\mathbf{b} - 3\\mathbf{a}$. (c) $\\overrightarrow{AB} = 2(3\\mathbf{b} - 3\\mathbf{a}) = 2\\overrightarrow{MN}$, so AB is a multiple of MN and they are parallel. MN : AB = 1 : 2.",
+            "markScheme": [
+              {
+                "criterion": "AB = 6b − 6a (or −6a + 6b)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "6b - 6a",
+                    "6b-6a",
+                    "-6a + 6b",
+                    "-6a+6b",
+                    "6b − 6a",
+                    "−6a + 6b",
+                    "6(b - a)",
+                    "6(b-a)"
+                  ]
+                ]
+              },
+              {
+                "criterion": "OM = 3a and ON = 3b used",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "3a"
+                  ],
+                  [
+                    "3b"
+                  ]
+                ]
+              },
+              {
+                "criterion": "MN = 3b − 3a (or −3a + 3b)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "3b - 3a",
+                    "3b-3a",
+                    "-3a + 3b",
+                    "-3a+3b",
+                    "3b − 3a",
+                    "−3a + 3b",
+                    "3(b - a)",
+                    "3(b-a)"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Shows AB = 2MN so the vectors are multiples and the lines are parallel",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "multiple",
+                    "parallel",
+                    "2mn",
+                    "2 × mn",
+                    "twice"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Ratio MN : AB = 1 : 2",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "1 : 2",
+                    "1:2",
+                    "half",
+                    "1/2"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- A vector has magnitude and direction; column vector $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ = $x$ across, $y$ up.\n- Add/subtract component by component; multiply by a scalar to scale; negative reverses direction.\n- Magnitude $= \\sqrt{x^2 + y^2}$.\n- In diagrams, find a route along known vectors; against an arrow means minus. $\\overrightarrow{XY} = \\overrightarrow{OY} - \\overrightarrow{OX}$.\n- Midpoint: half the vector; ratio $m : n$: $\\frac{m}{m + n}$ of the vector.\n- **Parallel**: one vector is a multiple of the other. **Collinear**: parallel and sharing a point. Always write the conclusion in words."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-MAT-04-11-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Work out $\\begin{pmatrix} -2 \\\\ 7 \\end{pmatrix} - \\begin{pmatrix} 4 \\\\ -3 \\end{pmatrix}$.",
+          "hint": "Subtract each component; $7 - (-3) = 10$.",
+          "explanation": "$(-2 - 4, 7 + 3) = (-6, 10)$ as a column vector.",
+          "options": [
+            {
+              "text": "(−6, 10) as a column vector",
+              "correct": true
+            },
+            {
+              "text": "(2, 4) as a column vector",
+              "correct": false,
+              "feedback": "That is the sum, not the difference."
+            },
+            {
+              "text": "(−6, 4) as a column vector",
+              "correct": false
+            },
+            {
+              "text": "(6, −10) as a column vector",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P2",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Work out the magnitude of $\\begin{pmatrix} 5 \\\\ 12 \\end{pmatrix}$.",
+          "hint": "$\\sqrt{25 + 144}$.",
+          "explanation": "$\\sqrt{169} = 13$.",
+          "answers": [
+            {
+              "numeric": 13,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P3",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: the vector $\\overrightarrow{BA}$ is the same as $\\overrightarrow{AB}$.",
+          "hint": "Think about direction.",
+          "explanation": "False. They have the same length but opposite directions: $\\overrightarrow{BA} = -\\overrightarrow{AB}$.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P4",
+          "type": "Equation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Point A has position vector $\\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$ and point B has position vector $\\begin{pmatrix} 6 \\\\ 1 \\end{pmatrix}$. Find $\\overrightarrow{AB}$ as a column vector. Type your answer like (5,-3) with the x component first.",
+          "hint": "$\\overrightarrow{AB} = \\overrightarrow{OB} - \\overrightarrow{OA}$.",
+          "explanation": "$(6 - 1, 1 - 4) = (5, -3)$.",
+          "answers": [
+            {
+              "text": "(5,-3)",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P5",
+          "type": "Equation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "In triangle OAB, $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OB} = \\mathbf{b}$. M is the midpoint of OB. Write $\\overrightarrow{AM}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$. Type your answer like (1/2)b-a.",
+          "hint": "$\\overrightarrow{OM} = \\frac{1}{2}\\mathbf{b}$. Go from A to O, then O to M.",
+          "explanation": "$\\overrightarrow{AM} = -\\mathbf{a} + \\frac{1}{2}\\mathbf{b} = \\frac{1}{2}\\mathbf{b} - \\mathbf{a}$.",
+          "answers": [
+            {
+              "text": "(1/2)b-a",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P6",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "$\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OB} = \\mathbf{b}$. Point P lies on AB with AP : PB = 3 : 1. Write $\\overrightarrow{OP}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$, simplified. Type your answer like (1/4)a+(3/4)b.",
+          "hint": "P is $\\frac{3}{4}$ of the way from A to B.",
+          "explanation": "$\\overrightarrow{OP} = \\mathbf{a} + \\frac{3}{4}(\\mathbf{b} - \\mathbf{a}) = \\frac{1}{4}\\mathbf{a} + \\frac{3}{4}\\mathbf{b}$.",
+          "answers": [
+            {
+              "text": "(1/4)a+(3/4)b",
+              "caseSensitive": false,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P7",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Select **all** the vectors that are parallel to $2\\mathbf{a} + 3\\mathbf{b}$.",
+          "hint": "A parallel vector is a multiple: the ratio of the $\\mathbf{a}$ and $\\mathbf{b}$ coefficients must be 2 : 3.",
+          "explanation": "$4\\mathbf{a} + 6\\mathbf{b} = 2(2\\mathbf{a} + 3\\mathbf{b})$ and $-\\mathbf{a} - 1.5\\mathbf{b} = -\\frac{1}{2}(2\\mathbf{a} + 3\\mathbf{b})$ are parallel. $3\\mathbf{a} + 2\\mathbf{b}$ and $2\\mathbf{a} - 3\\mathbf{b}$ are not multiples.",
+          "options": [
+            {
+              "text": "4a + 6b",
+              "correct": true
+            },
+            {
+              "text": "−a − 1.5b",
+              "correct": true
+            },
+            {
+              "text": "3a + 2b",
+              "correct": false,
+              "feedback": "The coefficients are swapped, so the ratio is different."
+            },
+            {
+              "text": "2a − 3b",
+              "correct": false,
+              "feedback": "The sign of the b term differs."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P8",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Put the steps in order to prove that points X, Y and Z are collinear using vectors.",
+          "hint": "You need both vectors before you can compare them.",
+          "explanation": "Find XY and XZ in terms of a and b, factorise to show one is a multiple of the other, state they are parallel, then note the common point X.",
+          "order": [
+            "Write XY in terms of a and b",
+            "Write XZ in terms of a and b",
+            "Factorise to show XZ = k × XY for some number k",
+            "State that XY and XZ are parallel and share point X, so X, Y and Z lie on a straight line"
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P9",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "$\\overrightarrow{PQ} = \\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix}$ and $\\overrightarrow{PR} = \\begin{pmatrix} 12 \\\\ -8 \\end{pmatrix}$. P, Q and R lie on a straight line. Work out the value of $k$ such that $\\overrightarrow{PR} = k\\overrightarrow{PQ}$.",
+          "hint": "Compare the top components.",
+          "explanation": "$12 \\div 3 = 4$ and $-8 \\div -2 = 4$, so $k = 4$. PR is four times PQ in the same direction.",
+          "answers": [
+            {
+              "numeric": 4,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Vectors $\\overrightarrow{AB} = 2\\mathbf{a} - \\mathbf{b}$ and $\\overrightarrow{CD} = -6\\mathbf{a} + 3\\mathbf{b}$. Show that AB and CD are parallel.",
+          "hint": "Factorise $\\overrightarrow{CD}$.",
+          "explanation": "$-6\\mathbf{a} + 3\\mathbf{b} = -3(2\\mathbf{a} - \\mathbf{b}) = -3\\overrightarrow{AB}$. Since CD is a multiple of AB, the lines are parallel.",
+          "markScheme": [
+            {
+              "criterion": "Writes CD = −3(2a − b) or CD = −3AB",
+              "marks": 1,
+              "keywords": [
+                [
+                  "-3(2a - b)",
+                  "-3(2a-b)",
+                  "−3(2a − b)",
+                  "-3ab",
+                  "-3 × ab",
+                  "-3 x ab",
+                  "−3ab",
+                  "3(−2a + b)",
+                  "-3 times"
+                ]
+              ]
+            },
+            {
+              "criterion": "States that because one is a multiple of the other they are parallel",
+              "marks": 1,
+              "keywords": [
+                [
+                  "multiple",
+                  "scalar"
+                ],
+                [
+                  "parallel"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 5,
+          "marks": 4,
+          "examStyle": true,
+          "tier": "Higher",
+          "text": "OABC is a parallelogram with $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OC} = \\mathbf{c}$. M is the midpoint of AB, and N is the point on OC such that ON : NC = 1 : 2.\n\n(a) Find $\\overrightarrow{NM}$ in terms of $\\mathbf{a}$ and $\\mathbf{c}$.\n\n(b) Point D is such that $\\overrightarrow{ND} = 3\\mathbf{a} + \\frac{1}{2}\\mathbf{c}$. Show that N, M and D lie on a straight line.",
+          "hint": "$\\overrightarrow{ON} = \\frac{1}{3}\\mathbf{c}$ and $\\overrightarrow{OM} = \\mathbf{a} + \\frac{1}{2}\\mathbf{c}$.",
+          "explanation": "(a) $\\overrightarrow{NM} = -\\frac{1}{3}\\mathbf{c} + \\mathbf{a} + \\frac{1}{2}\\mathbf{c} = \\mathbf{a} + \\frac{1}{6}\\mathbf{c}$. (b) $\\overrightarrow{ND} = 3\\mathbf{a} + \\frac{1}{2}\\mathbf{c} = 3(\\mathbf{a} + \\frac{1}{6}\\mathbf{c}) = 3\\overrightarrow{NM}$. The vectors are parallel and share point N, so N, M and D are collinear.",
+          "markScheme": [
+            {
+              "criterion": "OM = a + ½c and ON = ⅓c",
+              "marks": 1,
+              "keywords": [
+                [
+                  "1/2c",
+                  "½c",
+                  "0.5c",
+                  "1/2 c",
+                  "c/2"
+                ],
+                [
+                  "1/3c",
+                  "⅓c",
+                  "1/3 c",
+                  "c/3"
+                ]
+              ]
+            },
+            {
+              "criterion": "NM = a + (1/6)c",
+              "marks": 1,
+              "keywords": [
+                [
+                  "1/6",
+                  "⅙",
+                  "c/6"
+                ]
+              ]
+            },
+            {
+              "criterion": "Shows ND = 3NM (ND = 3(a + (1/6)c))",
+              "marks": 1,
+              "keywords": [
+                [
+                  "3nm",
+                  "3 × nm",
+                  "3 x nm",
+                  "3(a",
+                  "three times",
+                  "multiple"
+                ]
+              ]
+            },
+            {
+              "criterion": "Concludes parallel with common point N so collinear / straight line",
+              "marks": 1,
+              "keywords": [
+                [
+                  "parallel"
+                ],
+                [
+                  "straight line",
+                  "collinear",
+                  "same line",
+                  "common point",
+                  "share"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

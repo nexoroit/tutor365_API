@@ -1,0 +1,601 @@
+{
+  "subTopicCode": "CHE-10-01",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-CHE-10-01-L1",
+      "title": "Earth's resources and potable water",
+      "summary": "Explore how humans use natural and synthetic resources, what sustainable development means, and how safe drinking water is produced from fresh water, sea water and waste water.",
+      "objectives": [
+        "I can distinguish between finite and renewable resources and give examples of each.",
+        "I can explain what sustainable development means and why it matters.",
+        "I can describe how potable water is produced from fresh water by filtration and sterilisation.",
+        "I can describe desalination by distillation and reverse osmosis and explain why it is expensive.",
+        "I can describe the main stages of waste water treatment."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Natural and synthetic resources",
+          "minutes": 4,
+          "content": "## What we take from the Earth\n\nHumans use the Earth's resources for **warmth, shelter, food and transport**. Everything you own is made from something that was dug up, grown or pumped out of the ground.\n\n### Natural resources\n\nThese come from the land, sea and air. Some are **living**: wood, cotton, wool, food crops. Some are **not**: metal ores, crude oil, limestone, salt, water.\n\n### Synthetic resources\n\nChemistry lets us make **synthetic** (artificial) alternatives that supplement or replace natural ones:\n\n| Natural | Synthetic alternative |\n|---|---|\n| wool, cotton | polyester, nylon, acrylic |\n| rubber from trees | synthetic rubber from crude oil |\n| natural manure | manufactured fertilisers |\n| wood | plastics |\n\nSynthetic materials are often cheaper, more consistent and can be designed for a purpose, but they usually come from **crude oil**, which will run out.\n\n### Finite or renewable?\n\n- **Finite** resources are being used up faster than they form. Fossil fuels took millions of years to form; metal ores are not replaced at all. Once gone, they are gone.\n- **Renewable** resources can be replaced at the same rate we use them, or faster: timber, cotton, crops, and energy from wind, solar and tides.\n\nSomething can be renewable in principle but be used unsustainably: cutting a forest faster than it regrows makes timber effectively finite."
+        },
+        {
+          "type": "Explanation",
+          "title": "Sustainable development",
+          "minutes": 3,
+          "content": "## Meeting needs without stealing from the future\n\n**Sustainable development** means **meeting the needs of people today without preventing future generations from meeting their own needs**.\n\nThat single sentence is a definition you should be able to write from memory.\n\n### What it looks like in chemistry\n\n- **Using less** of finite resources, for example lighter cars that use less metal and fuel.\n- **Recycling** metals, glass and plastics so that raw materials are not dug up again.\n- **Replacing** finite resources with renewable ones: bioplastics from plants instead of plastics from oil.\n- **Improving processes** so they use less energy and produce less waste, for example new ways of extracting copper from low-grade ores.\n\n### Why chemists matter\n\nChemists design the materials, choose the processes and measure the environmental impact. Each improvement, such as a catalyst that lowers the temperature of an industrial reaction, saves energy and makes the process more sustainable.\n\n### A balance\n\nSustainable choices can cost more in the short term or be less convenient. Decisions usually involve weighing **economic**, **social** and **environmental** factors together. An exam answer that mentions all three is usually a strong one."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-CHE-10-01-L1-Q1",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Which of the following are finite resources? Select all that apply.",
+            "hint": "Finite resources cannot be replaced as fast as they are used.",
+            "explanation": "Crude oil and copper ore are finite: they formed over millions of years or not at all. Timber regrows and wind energy is constantly available, so they are renewable.",
+            "options": [
+              {
+                "text": "crude oil",
+                "correct": true
+              },
+              {
+                "text": "copper ore",
+                "correct": true
+              },
+              {
+                "text": "timber from a managed forest",
+                "correct": false,
+                "feedback": "Trees regrow, so managed timber is renewable."
+              },
+              {
+                "text": "wind energy",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-10-01-L1-Q2",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Complete the definition.",
+            "metadata": {
+              "blanksText": "Sustainable development means meeting the needs of the ___ generation without preventing ___ generations from meeting their own needs."
+            },
+            "hint": "Now versus later.",
+            "explanation": "The definition contrasts the present generation with future generations.",
+            "answers": [
+              {
+                "text": "present",
+                "blankIndex": 0,
+                "marks": 1
+              },
+              {
+                "text": "future",
+                "blankIndex": 1,
+                "marks": 1
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Potable water from fresh water",
+          "minutes": 5,
+          "content": "## Water safe enough to drink\n\n**Potable water** is water that is **safe to drink**. It is not pure water in the chemical sense: it contains small amounts of dissolved minerals and salts. What matters is that it has **low levels of dissolved substances** and **low levels of microbes**.\n\n### Where it comes from in the UK\n\nRain falls, collects in **rivers, lakes and reservoirs**, or soaks into the ground to become **groundwater** in rocks called aquifers. This is **fresh water** with little dissolved salt, so it is the cheapest source to treat.\n\n### The treatment steps\n\n1. **Choose a good source** of fresh water with as little contamination as possible.\n2. **Screening and sedimentation**: large objects are removed by grids, and the water is left to stand so that solids settle.\n3. **Filtration**: the water passes through beds of **sand and gravel**, which trap the remaining small solid particles.\n4. **Sterilisation**: the water is treated to **kill microbes** (bacteria and viruses) using one of:\n   - **chlorine** gas (the most common in the UK)\n   - **ozone**, O₃\n   - **ultraviolet (UV) light**\n\nAfter this the water is stored and piped to homes.\n\n### Testing the water\n\nIn the laboratory you can check a sample of water by measuring its **pH** and by **evaporating** a known volume to dryness and weighing the solid left behind: the mass tells you how much dissolved solid it contained."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: analysing a water sample",
+          "minutes": 3,
+          "content": "**A student evaporates 50 cm³ of water from three sources and weighs the residue.**\n\n| Source | Mass of residue (g) | pH |\n|---|---|---|\n| tap water | 0.02 | 7.2 |\n| sea water | 1.75 | 8.1 |\n| distilled water | 0.00 | 7.0 |\n\n**Which is the purest, and which is potable?**\n\n**Distilled water** leaves no residue, so it is the **purest** (chemically pure H₂O). It is safe to drink, but it tastes flat because it has no dissolved minerals.\n\n**Tap water** leaves a tiny residue: it contains a low level of dissolved solids and a pH close to neutral. It has also been sterilised, so it is **potable**.\n\n**Sea water** leaves nearly 2 g of solid from just 50 cm³. That is about 35 g per dm³ of dissolved salt, far too much to drink. It is **not potable** without desalination.\n\n**A follow-up:** the student could **distil** a sample of the sea water, collect the distillate and repeat the evaporation. No residue would show the salt has been removed.\n\n**Exam tip:** pure and potable are different. Potable water is not pure; pure water is not the target."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-10-01-L1-Q3",
+            "type": "Ordering",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "Put the stages of producing potable water from a reservoir in the correct order.",
+            "hint": "Big things are removed first; killing microbes is the last step.",
+            "explanation": "Screening removes large debris, sedimentation lets solids settle, sand filtration removes fine particles, and sterilisation with chlorine (or ozone or UV) kills microbes.",
+            "order": [
+              "Screen out large objects such as leaves and twigs",
+              "Allow solid particles to settle in a sedimentation tank",
+              "Pass the water through sand and gravel filter beds",
+              "Sterilise with chlorine, ozone or ultraviolet light"
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Desalination: water from the sea",
+          "minutes": 4,
+          "content": "## When there is not enough fresh water\n\nIn hot, dry countries with little rain, fresh water is scarce but **sea water** is plentiful. Removing the salt is called **desalination**. There are two main methods.\n\n### Distillation\n\nSea water is **heated** so that the water **evaporates**, leaving the salt behind. The steam is **cooled and condensed** to give pure water.\n\n### Reverse osmosis\n\nSea water is forced at **high pressure** through a **partially permeable membrane**. The membrane has tiny holes that let water molecules through but hold back the larger salt ions. Fresh water collects on the other side.\n\n### The problem: cost\n\nBoth methods need a **great deal of energy**: distillation to boil the water, reverse osmosis to generate the pressure. Energy is expensive and, unless it comes from renewables, releases carbon dioxide. That is why desalination is only used where there is no cheaper alternative, for example in the Middle East and on some islands.\n\nThe salty waste (brine) also has to be disposed of carefully, because dumping it back into the sea can harm marine life near the outlet.\n\n### Comparing sources\n\n| Source | Treatment | Cost |\n|---|---|---|\n| fresh water (rivers, groundwater) | filter and sterilise | low |\n| sea water | desalination | high |"
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: choosing a water source",
+          "minutes": 3,
+          "content": "**A small island has a river, a spring and the sea. Its population is growing and the river alone no longer supplies enough water. Advise the island council.**\n\n**Option 1: use the spring as well as the river.** Groundwater and river water are fresh, so they only need **filtering and sterilising**. This is cheap and quick. The council should check that the spring is not being drained faster than rain refills it, or it will not be sustainable.\n\n**Option 2: build a desalination plant.** The sea will never run out, so supply is guaranteed. But **reverse osmosis or distillation needs a lot of energy**, so water would be expensive, and the brine waste must be handled. If the island has plenty of sunshine, solar power could reduce the running cost and carbon footprint.\n\n**Recommendation:** use the spring first, because it is cheaper. Plan a small desalination plant, ideally solar powered, as a backup for dry periods and future growth.\n\n**What earns marks here:** naming the correct treatment for each source, linking desalination to energy cost, and giving a justified decision."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-10-01-L1-Q4",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A desalination plant uses 3.5 kWh of energy to produce 1 m³ of fresh water. A town needs 12 000 m³ of water each day. Calculate the energy needed per day in kWh.",
+            "hint": "Multiply the energy per cubic metre by the number of cubic metres.",
+            "explanation": "3.5 × 12 000 = 42 000 kWh per day.",
+            "answers": [
+              {
+                "numeric": 42000,
+                "tolerance": 0,
+                "unit": "kWh",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Waste water treatment",
+          "minutes": 4,
+          "content": "## Cleaning up what goes down the drain\n\nEvery time you flush a toilet, empty a sink or run a washing machine, you produce **waste water**. So do farms and factories. It contains **organic matter** (food, human waste), **harmful microbes** and sometimes **harmful chemicals**. It must be treated before it is released back into rivers or the sea.\n\n### The stages at a sewage works\n\n1. **Screening and grit removal**: grids catch large solids such as rags and plastic; grit settles out.\n2. **Sedimentation**: the water sits in large tanks. Heavy solids sink to form **sludge**; the liquid above is the **effluent**.\n3. **Sludge treatment**: the sludge is digested **anaerobically** (without oxygen) by bacteria. This breaks down the organic matter and produces **methane (biogas)**, which can be burned to generate electricity. The digested sludge can be used as **fertiliser**.\n4. **Effluent treatment**: the effluent is treated **aerobically**. Air is bubbled through it so that bacteria can break down the remaining organic matter and harmful microbes.\n5. The treated effluent is tested and released into a river or the sea, or treated further to make potable water.\n\n### Why not just make potable water from sewage?\n\nIt is possible, and some cities do it, but it needs **many more treatment stages** than fresh water and is therefore more expensive. Fresh water is the cheapest source, sea water is more expensive, and waste water is the most difficult of all."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-10-01-L1-Q5",
+            "type": "Matching",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Match each stage of waste water treatment to its description.",
+            "hint": "Sludge is treated without oxygen; effluent is treated with air.",
+            "explanation": "Screening removes large solids; sedimentation separates sludge from effluent; sludge is digested anaerobically producing methane; effluent is treated aerobically with air bubbled through it.",
+            "pairs": [
+              {
+                "left": "screening",
+                "right": "grids remove large solids such as rags"
+              },
+              {
+                "left": "sedimentation",
+                "right": "solids settle to form sludge, leaving effluent above"
+              },
+              {
+                "left": "anaerobic digestion",
+                "right": "bacteria break down sludge without oxygen, producing methane"
+              },
+              {
+                "left": "aerobic treatment",
+                "right": "air is bubbled through effluent so bacteria break down organic matter"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-CHE-10-01-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 6,
+            "examStyle": true,
+            "text": "A country with a hot, dry climate needs to increase its supply of potable water.\n\n(a) Explain what is meant by potable water.\n\n(b) Describe how potable water is produced from fresh water in the UK.\n\n(c) The country has very little fresh water. Describe one method it could use to produce potable water from sea water, and explain why this is more expensive than treating fresh water.\n\n(d) Suggest one way the country could reduce the cost or environmental impact of this method.",
+            "hint": "Safe to drink, not pure. Filter then sterilise. Distillation or reverse osmosis both need lots of energy. Renewable energy.",
+            "explanation": "(a) Water that is safe to drink, with low levels of dissolved substances and microbes. (b) Fresh water from rivers, lakes or groundwater is passed through filter beds of sand and gravel to remove solids and then sterilised with chlorine, ozone or UV light to kill microbes. (c) Desalination by distillation (boil and condense the water) or reverse osmosis (force water through a membrane under pressure); both require a large amount of energy, which is expensive. (d) Use solar or other renewable energy to power the plant.",
+            "markScheme": [
+              {
+                "criterion": "Potable water is safe to drink (low levels of dissolved substances and microbes); not necessarily pure",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "safe to drink",
+                    "safe for drinking",
+                    "drinkable",
+                    "safe"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Filtration through sand/gravel to remove solids",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "filter",
+                    "filtration",
+                    "sand",
+                    "gravel"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Sterilisation with chlorine, ozone or UV to kill microbes",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "chlorine",
+                    "ozone",
+                    "ultraviolet",
+                    "uv",
+                    "sterilis"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Desalination by distillation (evaporate and condense) or reverse osmosis (membrane under pressure)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "distil",
+                    "evaporat",
+                    "reverse osmosis",
+                    "membrane",
+                    "desalin"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Requires a large amount of energy, which is expensive",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "energy",
+                    "heat",
+                    "electricity",
+                    "pressure"
+                  ],
+                  [
+                    "expensive",
+                    "cost",
+                    "costly"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Use renewable / solar energy to power the process (or dispose of brine carefully)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "solar",
+                    "renewable",
+                    "wind",
+                    "brine"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Humans use **natural** resources (living and non-living) and **synthetic** alternatives made by chemistry.\n- **Finite** resources (fossil fuels, metal ores) will run out; **renewable** ones (timber, crops, wind) can be replaced.\n- **Sustainable development**: meeting present needs without compromising future generations.\n- **Potable water** is safe to drink, not chemically pure: low dissolved solids, low microbes.\n- From **fresh water**: choose a source, **filter** through sand and gravel, **sterilise** with chlorine, ozone or UV.\n- From **sea water**: **desalination** by **distillation** or **reverse osmosis**; both need lots of energy so are expensive.\n- **Waste water**: screening, **sedimentation** (sludge and effluent), **anaerobic** digestion of sludge (methane, fertiliser), **aerobic** treatment of effluent.\n- Test water purity by measuring **pH** and by **evaporating** to find the mass of dissolved solids."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-CHE-10-01-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: potable water must be chemically pure water.",
+          "hint": "Think about what tap water contains.",
+          "explanation": "False. Potable water is safe to drink but contains low levels of dissolved minerals; it is not pure H₂O.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of these is used to sterilise water in the UK?",
+          "hint": "It is a green gas that you can smell at swimming pools.",
+          "explanation": "Chlorine is added to kill microbes. Ozone and ultraviolet light are alternatives. Sand filters remove solids but do not sterilise.",
+          "options": [
+            {
+              "text": "chlorine",
+              "correct": true
+            },
+            {
+              "text": "sand",
+              "correct": false,
+              "feedback": "Sand filters remove solids but do not kill microbes."
+            },
+            {
+              "text": "sodium chloride",
+              "correct": false
+            },
+            {
+              "text": "carbon dioxide",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence about reverse osmosis.",
+          "metadata": {
+            "blanksText": "In reverse osmosis, sea water is forced under high ___ through a partially permeable ___ that allows water molecules through but holds back salt ions."
+          },
+          "hint": "What pushes the water, and what does it pass through?",
+          "explanation": "High pressure forces the water through a partially permeable membrane.",
+          "answers": [
+            {
+              "text": "pressure",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "membrane",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Why is desalination not used to supply most of the UK's drinking water?",
+          "hint": "Compare the cost with treating rain water that has collected in rivers.",
+          "explanation": "The UK has plenty of fresh water in rivers, lakes and aquifers, which is much cheaper to treat than sea water because desalination needs large amounts of energy.",
+          "options": [
+            {
+              "text": "The UK has plenty of fresh water, which is much cheaper to treat.",
+              "correct": true
+            },
+            {
+              "text": "The UK has no coastline.",
+              "correct": false
+            },
+            {
+              "text": "Desalinated water is not safe to drink.",
+              "correct": false
+            },
+            {
+              "text": "Sea water cannot be distilled.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P5",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A student evaporates 25 cm³ of sea water and obtains 0.875 g of solid. Calculate the mass of dissolved solids in grams per dm³ of this sea water.",
+          "hint": "1 dm³ = 1000 cm³, which is 40 times 25 cm³.",
+          "explanation": "1000 ÷ 25 = 40, so 0.875 × 40 = 35 g/dm³.",
+          "answers": [
+            {
+              "numeric": 35,
+              "tolerance": 0.2,
+              "unit": "g/dm³",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P6",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Match each natural resource to a synthetic alternative.",
+          "hint": "Think about clothing, tyres and farming.",
+          "explanation": "Polyester replaces cotton in clothing; synthetic rubber replaces natural rubber; manufactured fertilisers replace manure.",
+          "pairs": [
+            {
+              "left": "cotton",
+              "right": "polyester"
+            },
+            {
+              "left": "natural rubber",
+              "right": "synthetic rubber from crude oil"
+            },
+            {
+              "left": "manure",
+              "right": "manufactured fertiliser"
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P7",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Which statements about sludge from waste water treatment are correct? Select all that apply.",
+          "hint": "Sludge is the solid that settles. Think about what bacteria do to it without oxygen.",
+          "explanation": "Sludge is digested anaerobically, producing methane that can be used as a fuel, and the digested sludge can be used as fertiliser. Sludge is not released straight into rivers and is not sterilised with chlorine.",
+          "options": [
+            {
+              "text": "It is broken down by anaerobic digestion.",
+              "correct": true
+            },
+            {
+              "text": "Methane produced from it can be used as a fuel.",
+              "correct": true
+            },
+            {
+              "text": "It is released directly into rivers.",
+              "correct": false
+            },
+            {
+              "text": "It is treated by bubbling chlorine through it.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P8",
+          "type": "NumericalAnswer",
+          "difficulty": 4,
+          "marks": 2,
+          "text": "A reverse osmosis plant recovers 45% of the sea water it takes in as fresh water; the rest is returned as brine. If the plant takes in 20 000 m³ of sea water per day, calculate the volume of brine returned to the sea per day in m³.",
+          "hint": "55% of the intake becomes brine.",
+          "explanation": "0.55 × 20 000 = 11 000 m³ of brine.",
+          "answers": [
+            {
+              "numeric": 11000,
+              "tolerance": 0,
+              "unit": "m³",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P9",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "examStyle": true,
+          "text": "Describe how you could compare the amount of dissolved solids in two samples of water in the school laboratory.",
+          "hint": "Use equal volumes, get rid of the water, weigh what is left.",
+          "explanation": "Measure the same volume of each sample, evaporate each to dryness in a weighed evaporating basin, then weigh the residue. The sample leaving the greater mass of solid contains more dissolved solids.",
+          "markScheme": [
+            {
+              "criterion": "Use the same measured volume of each sample",
+              "marks": 1,
+              "keywords": [
+                [
+                  "same volume",
+                  "equal volume",
+                  "measured volume",
+                  "known volume",
+                  "measuring cylinder"
+                ]
+              ]
+            },
+            {
+              "criterion": "Evaporate the water (heat to dryness)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "evaporat",
+                  "heat",
+                  "dryness",
+                  "boil"
+                ]
+              ]
+            },
+            {
+              "criterion": "Weigh the solid residue and compare; larger mass means more dissolved solids",
+              "marks": 1,
+              "keywords": [
+                [
+                  "weigh",
+                  "mass",
+                  "balance"
+                ],
+                [
+                  "residue",
+                  "solid",
+                  "left",
+                  "compare"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "Waste water from homes must be treated before it can be released into rivers.\n\n(a) Give two substances found in domestic waste water that make it harmful.\n\n(b) Describe how sludge and effluent are separated, and describe how each is then treated.\n\n(c) Explain why it is more expensive to produce potable water from waste water than from fresh water.",
+          "hint": "Organic matter and microbes. Sedimentation. Anaerobic for sludge, aerobic for effluent. More stages.",
+          "explanation": "(a) Organic matter and harmful microbes (or harmful chemicals). (b) Sedimentation lets solids settle as sludge with effluent above; sludge is digested anaerobically by bacteria, effluent is treated aerobically by bubbling air through it. (c) Waste water needs many more treatment stages to remove organic matter, microbes and chemicals, so it uses more energy and costs more.",
+          "markScheme": [
+            {
+              "criterion": "Two of: organic matter, harmful microbes/bacteria, harmful chemicals",
+              "marks": 1,
+              "keywords": [
+                [
+                  "organic",
+                  "microbe",
+                  "bacteria",
+                  "chemical",
+                  "pathogen"
+                ]
+              ]
+            },
+            {
+              "criterion": "Sedimentation: solids settle to form sludge, liquid effluent above",
+              "marks": 1,
+              "keywords": [
+                [
+                  "sediment",
+                  "settle",
+                  "sink"
+                ]
+              ]
+            },
+            {
+              "criterion": "Sludge digested anaerobically; effluent treated aerobically (air bubbled through)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "anaerobic",
+                  "without oxygen",
+                  "digest"
+                ],
+                [
+                  "aerobic",
+                  "air",
+                  "oxygen"
+                ]
+              ]
+            },
+            {
+              "criterion": "More treatment stages / more energy needed for waste water so higher cost",
+              "marks": 1,
+              "keywords": [
+                [
+                  "more stages",
+                  "more steps",
+                  "more treatment",
+                  "more processes",
+                  "more energy"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

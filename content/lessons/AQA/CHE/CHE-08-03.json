@@ -1,0 +1,611 @@
+{
+  "subTopicCode": "CHE-08-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-CHE-08-03-L1",
+      "title": "Identifying ions",
+      "summary": "Learn the laboratory tests that reveal which metal ions and which negative ions are present in an unknown compound, and how instruments such as flame emission spectroscopy do the same job faster.",
+      "objectives": [
+        "I can describe flame tests and state the flame colours for lithium, sodium, potassium, calcium and copper ions.",
+        "I can describe the sodium hydroxide test for metal ions and state the colours of the hydroxide precipitates.",
+        "I can describe the tests for carbonate, halide and sulfate ions, including the reagents and results.",
+        "I can write balanced equations for the precipitation reactions used in ion tests (Higher).",
+        "I can explain the advantages of instrumental methods and interpret flame emission spectroscopy data."
+      ],
+      "estimatedMinutes": 44,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Flame tests for metal ions",
+          "minutes": 4,
+          "content": "## Colours in the flame\n\nSome metal ions give a characteristic colour when heated in a blue Bunsen flame. This is a quick way to identify the **positive ion (cation)** in a compound.\n\n### Method\n\n1. Dip a clean **nichrome or platinum wire loop** in **concentrated hydrochloric acid**, then hold it in the flame until it burns with no colour. This cleans off any old sample.\n2. Dip the loop in the acid again and then into the solid sample so a few grains stick.\n3. Hold the loop in the **hottest part** of a roaring blue flame and note the colour.\n\n### Results to learn\n\n| Metal ion | Flame colour |\n|---|---|\n| lithium, Li⁺ | crimson (deep red) |\n| sodium, Na⁺ | yellow |\n| potassium, K⁺ | lilac |\n| calcium, Ca²⁺ | orange-red |\n| copper, Cu²⁺ | green |\n\nA memory aid: **Li**ttle **crimson**, **Na**ughty **yellow**, **K**ind **lilac**, **Ca**lm **orange**, **Cu** **green**.\n\n### Limitations\n\n- If a sample contains a **mixture** of ions, the colours can **mask** each other. Sodium's strong yellow in particular hides other colours.\n- Some ions give no distinctive colour at all.\n- The test only works on a few metals, and you cannot tell how much of the metal is present.\n\nThat is why chemists back up flame tests with other tests, or use instruments."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-CHE-08-03-L1-Q1",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 5,
+            "text": "Match each metal ion to its flame colour.",
+            "hint": "Lithium and calcium are both reddish, but one is crimson and one is orange-red.",
+            "explanation": "Li⁺ crimson, Na⁺ yellow, K⁺ lilac, Ca²⁺ orange-red, Cu²⁺ green.",
+            "pairs": [
+              {
+                "left": "lithium",
+                "right": "crimson"
+              },
+              {
+                "left": "sodium",
+                "right": "yellow"
+              },
+              {
+                "left": "potassium",
+                "right": "lilac"
+              },
+              {
+                "left": "calcium",
+                "right": "orange-red"
+              },
+              {
+                "left": "copper",
+                "right": "green"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "The sodium hydroxide test",
+          "minutes": 5,
+          "content": "## Precipitates tell the story\n\nMany metal ions form **insoluble hydroxides**. If you add a few drops of **sodium hydroxide solution** to a solution of the unknown compound, a solid **precipitate** may form, and its colour identifies the metal ion.\n\n### Coloured precipitates\n\n| Metal ion | Precipitate colour |\n|---|---|\n| copper(II), Cu²⁺ | blue |\n| iron(II), Fe²⁺ | green |\n| iron(III), Fe³⁺ | brown |\n\nThese three are easy: the colour gives the answer straight away.\n\n### White precipitates\n\n| Metal ion | Precipitate colour | Add excess NaOH |\n|---|---|---|\n| calcium, Ca²⁺ | white | stays white |\n| magnesium, Mg²⁺ | white | stays white |\n| aluminium, Al³⁺ | white | **dissolves** to give a colourless solution |\n\nAluminium is the special case. Its white hydroxide **redissolves in excess** sodium hydroxide. That lets you tell aluminium apart from calcium and magnesium. To separate calcium from magnesium you would use a flame test: calcium gives orange-red, magnesium gives nothing.\n\n### Equations (Higher)\n\nThe metal ion joins with hydroxide ions to make the solid. The sodium ions are spectators, so ionic equations are neatest:\n\n- Cu²⁺(aq) + 2OH⁻(aq) → Cu(OH)₂(s)\n- Fe³⁺(aq) + 3OH⁻(aq) → Fe(OH)₃(s)\n- Ca²⁺(aq) + 2OH⁻(aq) → Ca(OH)₂(s)\n\nThe number of OH⁻ always matches the charge on the metal ion."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: identifying a metal ion",
+          "minutes": 3,
+          "content": "**A student has a solution of an unknown salt. She adds sodium hydroxide solution drop by drop.**\n\n**Observation 1:** a white precipitate forms.\n\nThis rules out copper (blue), iron(II) (green) and iron(III) (brown). The ion is calcium, magnesium or aluminium.\n\n**Observation 2:** she keeps adding sodium hydroxide until it is in excess. The precipitate **dissolves** and the solution becomes colourless.\n\nOnly aluminium hydroxide redissolves in excess, so the metal ion is **Al³⁺**.\n\n**Higher: write the equation for the precipitate forming.**\n\nAl³⁺(aq) + 3OH⁻(aq) → Al(OH)₃(s)\n\nThree hydroxide ions are needed to balance the 3+ charge.\n\n**A second unknown gives a white precipitate that does NOT dissolve in excess.** It is calcium or magnesium. A flame test giving an **orange-red** flame would confirm calcium; no colour would point to magnesium.\n\n**Exam tip:** \"a white precipitate forms\" is an observation. \"The ion is calcium\" is a conclusion. Give both when asked what you would see and what it shows."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-08-03-L1-Q2",
+            "type": "MultipleChoice",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "A solution gives a green precipitate with sodium hydroxide solution. Which ion is present?",
+            "hint": "Green hydroxide precipitate is one of the iron ions.",
+            "explanation": "Iron(II) hydroxide is green. Iron(III) hydroxide is brown and copper(II) hydroxide is blue. Copper gives a green flame, not a green precipitate.",
+            "options": [
+              {
+                "text": "iron(II), Fe²⁺",
+                "correct": true
+              },
+              {
+                "text": "iron(III), Fe³⁺",
+                "correct": false,
+                "feedback": "Iron(III) gives a brown precipitate."
+              },
+              {
+                "text": "copper(II), Cu²⁺",
+                "correct": false,
+                "feedback": "Copper(II) gives a blue precipitate; green is its flame colour."
+              },
+              {
+                "text": "calcium, Ca²⁺",
+                "correct": false,
+                "feedback": "Calcium gives a white precipitate."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Tests for negative ions: carbonate and sulfate",
+          "minutes": 4,
+          "content": "## Finding the anion\n\nOnce you know the metal, you need the **negative ion (anion)**. Each test uses a different reagent.\n\n### Carbonate ions, CO₃²⁻\n\nAdd **dilute acid** (hydrochloric acid is usual). Carbonates fizz as **carbon dioxide** is released. Bubble the gas through **limewater** and it turns **cloudy**.\n\nCO₃²⁻ + 2H⁺ → CO₂ + H₂O\n\n### Sulfate ions, SO₄²⁻\n\n1. Add a few drops of **dilute hydrochloric acid** first.\n2. Then add **barium chloride solution**.\n\nA **white precipitate** of **barium sulfate** shows sulfate ions are present.\n\nBa²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s)\n\n**Why add the acid first?** Carbonate ions would also give a white precipitate with barium chloride (barium carbonate). The acid reacts with and removes any carbonate ions, so a white precipitate that still forms must be barium sulfate.\n\n### Watch the order\n\nThe acid must go in **before** the barium chloride. Adding it afterwards would not stop barium carbonate forming first, and although the acid might dissolve it, the result would be confusing."
+        },
+        {
+          "type": "Explanation",
+          "title": "Tests for negative ions: halides",
+          "minutes": 4,
+          "content": "## Chloride, bromide and iodide\n\nThe halide ions are all tested the same way, and the colour of the precipitate tells you which one you have.\n\n1. Add a few drops of **dilute nitric acid** first.\n2. Then add **silver nitrate solution**.\n\n| Halide ion | Precipitate | Colour |\n|---|---|---|\n| chloride, Cl⁻ | silver chloride, AgCl | **white** |\n| bromide, Br⁻ | silver bromide, AgBr | **cream** |\n| iodide, I⁻ | silver iodide, AgI | **yellow** |\n\nAg⁺(aq) + Cl⁻(aq) → AgCl(s)\n\nAg⁺(aq) + Br⁻(aq) → AgBr(s)\n\nAg⁺(aq) + I⁻(aq) → AgI(s)\n\n**Why nitric acid, not hydrochloric?** Hydrochloric acid contains chloride ions, which would give a white precipitate with silver nitrate whatever the sample contained. Nitric acid does not interfere. It is there to remove carbonate ions, which would otherwise form silver carbonate, another white solid.\n\n### Keeping the acids straight\n\n| Test | Acid to add first | Reagent |\n|---|---|---|\n| sulfate | hydrochloric acid | barium chloride |\n| halide | nitric acid | silver nitrate |\n\nUse hydrochloric acid with barium chloride (both contain chloride, no problem). Use nitric acid with silver nitrate (both contain nitrate, no problem). Mixing them up would introduce the very ion you are trying to detect."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-08-03-L1-Q3",
+            "type": "FillInTheBlank",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Complete the sentences about the halide test.",
+            "metadata": {
+              "blanksText": "To test for halide ions, add dilute ___ acid and then silver nitrate solution. A chloride gives a white precipitate, a bromide gives a ___ precipitate and an iodide gives a ___ precipitate."
+            },
+            "hint": "The acid must not contain chloride ions. The colours get darker from chloride to iodide.",
+            "explanation": "Nitric acid is used because it does not contain halide ions. AgCl is white, AgBr is cream and AgI is yellow.",
+            "answers": [
+              {
+                "text": "nitric",
+                "blankIndex": 0,
+                "marks": 1
+              },
+              {
+                "text": "cream",
+                "blankIndex": 1,
+                "marks": 1
+              },
+              {
+                "text": "yellow",
+                "blankIndex": 2,
+                "marks": 1
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: a full identification",
+          "minutes": 4,
+          "content": "**An unknown white solid is tested. Identify it from the results.**\n\n| Test | Result |\n|---|---|\n| flame test | lilac flame |\n| dissolve, add NaOH solution | no precipitate |\n| add dilute HCl | no fizzing |\n| add HCl then barium chloride | no precipitate |\n| add HNO₃ then silver nitrate | yellow precipitate |\n\n**Metal ion:** the lilac flame means **potassium, K⁺**. No precipitate with sodium hydroxide fits, because potassium hydroxide is soluble.\n\n**Negative ion:** no fizzing rules out carbonate. No precipitate with barium chloride rules out sulfate. A yellow precipitate with silver nitrate means **iodide, I⁻**.\n\n**The compound is potassium iodide, KI.**\n\n**Higher: the equation for the final test.**\n\nAg⁺(aq) + I⁻(aq) → AgI(s)\n\n**Why test for carbonate before sulfate and halide?** If the compound were a carbonate, the later tests could give misleading white precipitates. Doing the acid test first tells you whether you need to worry about that, and the acid added at the start of the sulfate and halide tests deals with any carbonate anyway."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-08-03-L1-Q4",
+            "type": "MultipleAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "Which statements about the sulfate test are correct? Select all that apply.",
+            "hint": "Think about the order of the reagents and why the acid is used.",
+            "explanation": "Dilute hydrochloric acid is added first to remove carbonate ions, then barium chloride is added and a white precipitate of barium sulfate confirms sulfate. Nitric acid and silver nitrate are for halides; the precipitate is white, not yellow.",
+            "options": [
+              {
+                "text": "Dilute hydrochloric acid is added before barium chloride solution.",
+                "correct": true
+              },
+              {
+                "text": "A white precipitate of barium sulfate is the positive result.",
+                "correct": true
+              },
+              {
+                "text": "Silver nitrate solution is used as the reagent.",
+                "correct": false,
+                "feedback": "Silver nitrate is used for halides, not sulfates."
+              },
+              {
+                "text": "A yellow precipitate confirms sulfate ions.",
+                "correct": false,
+                "feedback": "Barium sulfate is white."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Instrumental methods: flame emission spectroscopy",
+          "minutes": 4,
+          "content": "## Letting a machine do the test\n\nThe tests you have learned are quick but limited. Modern laboratories often use **instrumental methods** instead. These have three big advantages:\n\n- **Accuracy**: they give reliable, repeatable results.\n- **Sensitivity**: they can detect tiny amounts of a substance.\n- **Speed**: many samples can be analysed rapidly, often automatically.\n\n### Flame emission spectroscopy\n\nThis is the instrumental version of the flame test. A sample solution is put into a flame, and the **light given out** is passed through a **spectroscope** that splits it into its wavelengths. The output is a **line spectrum**: a pattern of lines at particular positions.\n\n- Each metal ion gives its **own unique pattern of lines**, so the pattern identifies the ion, even in a mixture where flame colours would be masked.\n- The **intensity** (brightness) of the lines tells you the **concentration** of the ion. Brighter lines mean more of that ion.\n\n### Reading the data\n\nAn exam might show you the line spectra of several known ions and the spectrum of an unknown mixture. Match the lines: if the unknown contains all of the lines of calcium and all of the lines of sodium, it contains both. A reference graph of intensity against concentration lets you read off how much is present.\n\nThe method is used to analyse blood, drinking water, soil and industrial products."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-CHE-08-03-L1-Q5",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A student tests a solution containing sulfate ions with excess barium chloride solution and collects 0.02 mol of barium sulfate precipitate. Calculate the mass of the precipitate in grams. (Mr of BaSO₄ = 233)",
+            "hint": "mass = moles × Mr.",
+            "explanation": "0.02 × 233 = 4.66 g.",
+            "answers": [
+              {
+                "numeric": 4.66,
+                "tolerance": 0.05,
+                "unit": "g",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-CHE-08-03-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 6,
+            "examStyle": true,
+            "text": "A student is given a solution that contains one metal ion and one negative ion. Tests give these results:\n\n- Sodium hydroxide solution: a blue precipitate forms.\n- Dilute hydrochloric acid: no bubbles.\n- Dilute nitric acid then silver nitrate solution: a cream precipitate forms.\n\n(a) Identify the metal ion and the negative ion, and give the name of the compound.\n\n(b) Explain why nitric acid is added before the silver nitrate solution.\n\n(c) **Higher tier:** Write the ionic equation for the formation of the blue precipitate.\n\n(d) Give two advantages of using flame emission spectroscopy rather than a flame test to identify metal ions.",
+            "hint": "Blue hydroxide precipitate is copper. Cream silver halide is bromide. Nitric acid removes an interfering ion. Think about mixtures and amounts.",
+            "explanation": "(a) Cu²⁺ and Br⁻: copper(II) bromide. (b) The nitric acid removes carbonate ions, which would otherwise give a white precipitate with silver nitrate; nitric acid is used rather than hydrochloric because hydrochloric acid contains chloride ions. (c) Cu²⁺ + 2OH⁻ → Cu(OH)₂. (d) It works on mixtures where colours would be masked; it measures concentration; it is more sensitive and accurate; it is faster.",
+            "markScheme": [
+              {
+                "criterion": "Copper(II) ion, Cu²⁺, from the blue precipitate",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "copper",
+                    "cu²⁺",
+                    "cu2+"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Bromide ion, Br⁻, from the cream precipitate; compound is copper bromide",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "bromide",
+                    "br⁻",
+                    "br-"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Nitric acid removes carbonate ions that would give a (white) precipitate with silver nitrate",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "carbonate"
+                  ],
+                  [
+                    "remove",
+                    "react",
+                    "interfere",
+                    "false",
+                    "get rid"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Ionic equation Cu²⁺ + 2OH⁻ → Cu(OH)₂",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "2oh",
+                    "2 oh"
+                  ],
+                  [
+                    "cu(oh)₂",
+                    "cu(oh)2"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Advantage 1: works for mixtures / can measure concentration",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "mixture",
+                    "concentration",
+                    "how much",
+                    "amount",
+                    "masked"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Advantage 2: more sensitive / more accurate / faster",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "sensitive",
+                    "accurate",
+                    "fast",
+                    "quick",
+                    "small amount"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Flame tests**: Li⁺ crimson, Na⁺ yellow, K⁺ lilac, Ca²⁺ orange-red, Cu²⁺ green. Colours can be masked in mixtures.\n- **Sodium hydroxide test**: Cu²⁺ blue, Fe²⁺ green, Fe³⁺ brown; Ca²⁺, Mg²⁺ and Al³⁺ white, but **Al(OH)₃ dissolves in excess**.\n- **Carbonate**: add acid → fizzing, CO₂ turns limewater cloudy.\n- **Sulfate**: HCl then **barium chloride** → white precipitate of BaSO₄.\n- **Halides**: HNO₃ then **silver nitrate** → Cl⁻ white, Br⁻ cream, I⁻ yellow.\n- The acid added first removes carbonate ions; choose the acid that does not contain the ion you are testing for.\n- **Instrumental methods** are accurate, sensitive and fast. **Flame emission spectroscopy** gives a line spectrum: line positions identify the ion, line intensity gives concentration."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-CHE-08-03-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which metal ion gives a yellow flame colour?",
+          "hint": "It is the metal in table salt.",
+          "explanation": "Sodium ions give a strong yellow flame.",
+          "options": [
+            {
+              "text": "sodium",
+              "correct": true
+            },
+            {
+              "text": "potassium",
+              "correct": false,
+              "feedback": "Potassium gives a lilac flame."
+            },
+            {
+              "text": "copper",
+              "correct": false,
+              "feedback": "Copper gives a green flame."
+            },
+            {
+              "text": "lithium",
+              "correct": false,
+              "feedback": "Lithium gives a crimson flame."
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: iron(III) ions give a brown precipitate with sodium hydroxide solution.",
+          "hint": "Iron(II) is green; what about iron(III)?",
+          "explanation": "True. Iron(III) hydroxide is a brown precipitate; iron(II) hydroxide is green.",
+          "options": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence about the sulfate test.",
+          "metadata": {
+            "blanksText": "To test for sulfate ions, add dilute hydrochloric acid and then ___ chloride solution; a ___ precipitate shows sulfate ions are present."
+          },
+          "hint": "The reagent contains a group 2 metal; the precipitate has no colour.",
+          "explanation": "Barium chloride gives a white precipitate of barium sulfate.",
+          "answers": [
+            {
+              "text": "barium",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "white",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which observation would show that a solution contains aluminium ions rather than magnesium ions?",
+          "hint": "Both give a white precipitate at first. What happens with more sodium hydroxide?",
+          "explanation": "Both give a white precipitate, but only aluminium hydroxide dissolves when excess sodium hydroxide is added.",
+          "options": [
+            {
+              "text": "The white precipitate dissolves in excess sodium hydroxide solution.",
+              "correct": true
+            },
+            {
+              "text": "A blue precipitate forms.",
+              "correct": false
+            },
+            {
+              "text": "The solution fizzes when acid is added.",
+              "correct": false
+            },
+            {
+              "text": "The flame test gives a lilac colour.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P5",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Match each metal ion to the colour of the precipitate it forms with sodium hydroxide solution.",
+          "hint": "Copper compounds are often blue.",
+          "explanation": "Cu²⁺ blue, Fe²⁺ green, Fe³⁺ brown.",
+          "pairs": [
+            {
+              "left": "copper(II)",
+              "right": "blue"
+            },
+            {
+              "left": "iron(II)",
+              "right": "green"
+            },
+            {
+              "left": "iron(III)",
+              "right": "brown"
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P6",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Put the steps of a flame test in the correct order.",
+          "hint": "The wire must be clean before the sample goes on.",
+          "explanation": "Clean the wire in acid and flame, dip in acid then sample, hold in the flame, observe the colour.",
+          "order": [
+            "Dip the wire loop in concentrated hydrochloric acid and heat until the flame shows no colour",
+            "Dip the loop in the acid again and then into the sample",
+            "Hold the loop in the hottest part of a blue Bunsen flame",
+            "Observe and record the flame colour"
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P7",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Which of these are advantages of instrumental methods of analysis compared with chemical tests? Select all that apply.",
+          "hint": "Think about how much sample is needed, how quickly results come, and how reliable they are.",
+          "explanation": "Instrumental methods are more sensitive (detect tiny amounts), more accurate and faster. They are generally more expensive and need trained operators, so cost is not an advantage.",
+          "options": [
+            {
+              "text": "They can detect very small amounts of a substance.",
+              "correct": true
+            },
+            {
+              "text": "They are faster and more accurate.",
+              "correct": true
+            },
+            {
+              "text": "The equipment is cheaper than test tubes and reagents.",
+              "correct": false,
+              "feedback": "Instruments are usually expensive."
+            },
+            {
+              "text": "They never need calibrating.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P8",
+          "type": "NumericalAnswer",
+          "difficulty": 4,
+          "marks": 2,
+          "text": "Higher tier. Silver nitrate solution is added to a solution containing 0.03 mol of chloride ions. Using Ag⁺ + Cl⁻ → AgCl, calculate the mass of silver chloride precipitate formed in grams. (Mr of AgCl = 143.5)",
+          "hint": "The ratio is 1 : 1, so moles of AgCl = moles of Cl⁻.",
+          "explanation": "0.03 mol × 143.5 = 4.305 g, about 4.3 g.",
+          "answers": [
+            {
+              "numeric": 4.305,
+              "tolerance": 0.05,
+              "unit": "g",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P9",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Explain why a flame test may not be able to identify the metal ions in a sample that contains a mixture of two different metal compounds.",
+          "hint": "What happens when two colours appear in the same flame?",
+          "explanation": "Each ion produces its own flame colour, but when both are present the colours mix or one strong colour (such as sodium's yellow) masks the other, so the individual ions cannot be identified.",
+          "markScheme": [
+            {
+              "criterion": "Both ions produce a colour in the same flame",
+              "marks": 1,
+              "keywords": [
+                [
+                  "both",
+                  "two colours",
+                  "mix",
+                  "combine",
+                  "each ion"
+                ]
+              ]
+            },
+            {
+              "criterion": "One colour masks / hides the other so they cannot be distinguished",
+              "marks": 1,
+              "keywords": [
+                [
+                  "mask",
+                  "hide",
+                  "hidden",
+                  "cover",
+                  "cannot tell"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A student wants to find out whether a white powder is calcium carbonate or calcium sulfate.\n\n(a) Describe a test the student could carry out to show that the powder contains calcium ions, and give the result.\n\n(b) Describe a test that would tell carbonate ions from sulfate ions, giving the result in each case.\n\n(c) **Higher tier:** Write the ionic equation for the reaction between barium ions and sulfate ions.",
+          "hint": "Calcium has a flame colour. Carbonates react with acid; sulfates react with barium chloride.",
+          "explanation": "(a) Flame test: calcium gives an orange-red flame. (Or sodium hydroxide gives a white precipitate that does not dissolve in excess.) (b) Add dilute hydrochloric acid: a carbonate fizzes and gives carbon dioxide that turns limewater cloudy; a sulfate does not fizz, but gives a white precipitate when barium chloride is added after the acid. (c) Ba²⁺ + SO₄²⁻ → BaSO₄.",
+          "markScheme": [
+            {
+              "criterion": "Flame test gives an orange-red flame (or NaOH gives a white precipitate insoluble in excess)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "flame",
+                  "sodium hydroxide",
+                  "naoh"
+                ],
+                [
+                  "orange",
+                  "red",
+                  "white precipitate"
+                ]
+              ]
+            },
+            {
+              "criterion": "Add dilute acid: carbonate fizzes / gives carbon dioxide which turns limewater cloudy",
+              "marks": 1,
+              "keywords": [
+                [
+                  "acid"
+                ],
+                [
+                  "fizz",
+                  "bubbl",
+                  "carbon dioxide",
+                  "limewater",
+                  "effervesc"
+                ]
+              ]
+            },
+            {
+              "criterion": "Sulfate: add HCl then barium chloride gives a white precipitate (carbonate does not fizz / sulfate does not fizz)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "barium"
+                ],
+                [
+                  "white"
+                ]
+              ]
+            },
+            {
+              "criterion": "Ba²⁺ + SO₄²⁻ → BaSO₄",
+              "marks": 1,
+              "keywords": [
+                [
+                  "baso₄",
+                  "baso4"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

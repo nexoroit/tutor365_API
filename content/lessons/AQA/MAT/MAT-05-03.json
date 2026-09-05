@@ -1,0 +1,107 @@
+{
+  "subTopicCode": "MAT-05-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-05-03-L1",
+      "title": "Venn diagrams and sets",
+      "summary": "Use set notation including union, intersection, complement and the universal set, complete Venn diagrams from worded information, and use Venn diagrams to calculate probabilities including conditional probabilities.",
+      "objectives": [
+        "I can list the elements of a set and use the notation for union, intersection, complement and the universal set.",
+        "I can complete a two-set Venn diagram from a description, working from the overlap outwards.",
+        "I can complete a three-set Venn diagram from given information.",
+        "I can calculate probabilities from a Venn diagram.",
+        "I can calculate conditional probabilities from a Venn diagram."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Sets and notation", "minutes": 5, "content": "## What a set is\n\nA **set** is a collection of items, called **elements**, written inside curly brackets: $A = \\{2, 4, 6, 8\\}$. The **universal set**, written $\\xi$ (the Greek letter xi), contains every element being considered, for example $\\xi = \\{1, 2, 3, \\ldots, 10\\}$.\n\n## The notation you must know\n\n| Symbol | Name | Meaning |\n|---|---|---|\n| $A \\cup B$ | union | in A **or** B or both |\n| $A \\cap B$ | intersection | in **both** A **and** B |\n| $A'$ | complement | **not** in A |\n| $\\xi$ | universal set | everything |\n| $n(A)$ | number of elements in A | |\n| $\\in$ | is an element of | $4 \\in A$ |\n| $\\varnothing$ or $\\{\\}$ | empty set | no elements |\n\nA way to remember: the **U**nion symbol $\\cup$ looks like a U (and a cup that holds everything); the intersection $\\cap$ looks like a bridge joining the two.\n\n**Example.** $\\xi = \\{1, 2, \\ldots, 10\\}$, $A = \\{\\text{even numbers}\\} = \\{2, 4, 6, 8, 10\\}$, $B = \\{\\text{multiples of 3}\\} = \\{3, 6, 9\\}$.\n\n- $A \\cap B = \\{6\\}$\n- $A \\cup B = \\{2, 3, 4, 6, 8, 9, 10\\}$\n- $B' = \\{1, 2, 4, 5, 7, 8, 10\\}$\n- $n(A \\cup B) = 7$\n\n## Venn diagrams\n\nA **Venn diagram** shows sets as overlapping circles inside a rectangle (the universal set). Each region holds the elements, or the number of elements, that belong there. The region outside both circles but inside the rectangle holds elements in neither set. Never leave it empty without checking: the total of all regions must equal $n(\\xi)$." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-05-03-L1-Q1", "type": "Matching", "difficulty": 1, "marks": 4,
+          "text": "Match each set expression to its meaning.",
+          "hint": "The union symbol looks like a U; the intersection is the overlap.",
+          "explanation": "$A \\cup B$: in A or B or both. $A \\cap B$: in both. $A'$: not in A. $\\xi$: the universal set.",
+          "pairs": [
+            { "left": "A ∪ B", "right": "In A or B or both" },
+            { "left": "A ∩ B", "right": "In both A and B" },
+            { "left": "A′", "right": "Not in A" },
+            { "left": "ξ", "right": "Every element being considered" } ] } },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-05-03-L1-Q2", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "$\\xi = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$, $P = \\{1, 2, 3, 4\\}$ and $Q = \\{3, 4, 5, 6\\}$. Which set is $P \\cap Q'$?",
+          "hint": "First find $Q'$ (everything not in Q), then keep only the elements that are also in P.",
+          "explanation": "$Q' = \\{1, 2, 7, 8\\}$. The elements of that which are in P are $\\{1, 2\\}$.",
+          "options": [
+            { "text": "{1, 2}", "correct": true },
+            { "text": "{3, 4}", "correct": false, "feedback": "That is $P \\cap Q$." },
+            { "text": "{1, 2, 7, 8}", "correct": false, "feedback": "That is $Q'$ on its own." },
+            { "text": "{5, 6}", "correct": false, "feedback": "That is $Q \\cap P'$." } ] } },
+        { "type": "Example", "title": "Worked example: filling in a two-set Venn diagram", "minutes": 5, "content": "## Work from the middle outwards\n\n**In a class of 32 students, 18 play football, 14 play hockey and 7 play both. Complete a Venn diagram and find how many play neither.**\n\n1. **Overlap first**: 7 play both, so write 7 in the intersection.\n2. **Football only**: $18 - 7 = 11$ in the football circle outside the overlap.\n3. **Hockey only**: $14 - 7 = 7$ in the hockey circle outside the overlap.\n4. **Neither**: $32 - (11 + 7 + 7) = 32 - 25 = 7$ outside both circles.\n\nCheck the total: $11 + 7 + 7 + 7 = 32$ ✓.\n\nThe classic error is to write 18 in the football circle. The 18 is the **whole circle**, including the overlap, so the football-only region gets $18 - 7$.\n\n## When the overlap is unknown\n\nIf 18 play football, 14 play hockey, 7 play neither, and there are 32 students, then $18 + 14 = 32$ counts the overlap twice. Number playing at least one sport $= 32 - 7 = 25$. Overlap $= 18 + 14 - 25 = 7$.\n\nIn general: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.\n\n## Probabilities from the diagram\n\nA student is chosen at random.\n\n- $P(\\text{both}) = \\frac{7}{32}$\n- $P(\\text{football only}) = \\frac{11}{32}$\n- $P(\\text{at least one}) = \\frac{25}{32}$\n- $P(\\text{neither}) = \\frac{7}{32}$\n\nThe denominator is the total in the universal set unless a condition is given." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-05-03-L1-Q3", "type": "NumericalAnswer", "difficulty": 2, "marks": 2,
+          "text": "In a group of 50 people, 30 drink tea, 24 drink coffee and 12 drink both. How many drink neither?",
+          "hint": "Tea only = 30 − 12; coffee only = 24 − 12.",
+          "explanation": "Tea only 18, coffee only 12, both 12: total $42$. Neither $= 50 - 42 = 8$.",
+          "answers": [ { "numeric": 8, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-05-03-L1-Q4", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
+          "text": "In a year group of 120 students, 75 have a bicycle, 48 have a skateboard and 20 have neither. How many have both?",
+          "hint": "At least one $= 120 - 20$. Then use $n(A) + n(B) - n(\\text{both})$.",
+          "explanation": "At least one $= 100$. $75 + 48 - \\text{both} = 100$, so both $= 23$.",
+          "answers": [ { "numeric": 23, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Three-set Venn diagrams", "minutes": 5, "content": "## Eight regions\n\nWith three overlapping circles there are eight regions: the centre (all three), three regions in exactly two sets, three regions in exactly one set, and the outside.\n\nThe method is the same: **start at the centre and work outwards**, subtracting as you go.\n\n**Example.** 100 people were asked which of three streaming services (A, B, C) they use.\n\n- 10 use all three.\n- 25 use A and B; 18 use A and C; 22 use B and C.\n- 50 use A; 45 use B; 40 use C.\n- Some use none.\n\n1. Centre: **10**.\n2. A and B only: $25 - 10 = 15$. A and C only: $18 - 10 = 8$. B and C only: $22 - 10 = 12$.\n3. A only: $50 - 15 - 8 - 10 = 17$. B only: $45 - 15 - 12 - 10 = 8$. C only: $40 - 8 - 12 - 10 = 10$.\n4. Total inside the circles: $10 + 15 + 8 + 12 + 17 + 8 + 10 = 80$. None: $100 - 80 = 20$.\n\n## Reading the wording\n\n- \"25 use A and B\" includes those who also use C, so subtract the centre.\n- \"15 use A and B **only**\" or \"**but not C**\" is already the region between A and B outside C.\n- \"50 use A\" is the whole A circle.\n\n## Shading regions\n\nYou may be asked to shade $A \\cap B'$ (inside A but outside B) or $(A \\cup B)'$ (everything outside both circles). Work out what each symbol means step by step, and remember that $A' \\cap B'$ is the same region as $(A \\cup B)'$." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-05-03-L1-Q5", "type": "NumericalAnswer", "difficulty": 3, "marks": 3,
+          "text": "60 students were asked about three activities. 6 do all three. 14 do art and drama, 11 do art and music, 9 do drama and music. 30 do art in total. How many do **art only**?",
+          "hint": "Art and drama only = 14 − 6; art and music only = 11 − 6. Subtract these and the centre from 30.",
+          "explanation": "Art and drama only 8; art and music only 5; centre 6. Art only $= 30 - 8 - 5 - 6 = 11$.",
+          "answers": [ { "numeric": 11, "tolerance": 0, "marks": 3 } ] } },
+        { "type": "Explanation", "title": "Conditional probability from Venn diagrams", "minutes": 4, "content": "## Restricting to one circle\n\n\"Given that the person plays football\" means you should only look **inside the football circle**. Its total becomes the denominator.\n\nUsing the earlier class (football only 11, both 7, hockey only 7, neither 7):\n\n- $P(\\text{hockey} | \\text{football}) = \\dfrac{7}{18}$ (the overlap out of the whole football circle).\n- $P(\\text{football} | \\text{hockey}) = \\dfrac{7}{14} = \\dfrac{1}{2}$.\n- $P(\\text{football} | \\text{does not play hockey})$: the non-hockey group is $11 + 7 = 18$, of whom 11 play football: $\\dfrac{11}{18}$.\n\n## Probabilities in the regions\n\nSome Venn diagrams show **probabilities** rather than counts. The regions then add to 1, and conditional probabilities are found by dividing: $P(A | B) = \\dfrac{P(A \\cap B)}{P(B)}$.\n\nIf $P(A \\cap B) = 0.15$ and $P(B) = 0.4$, then $P(A | B) = \\dfrac{0.15}{0.4} = 0.375$.\n\n## Independence check\n\nA and B are independent if $P(A \\cap B) = P(A) \\times P(B)$. With $P(A) = 0.5$, $P(B) = 0.4$ and $P(A \\cap B) = 0.15$: $0.5 \\times 0.4 = 0.2 \\ne 0.15$, so they are **not** independent.\n\n## Set notation in probability questions\n\n$P(A \\cup B)$ is the probability of being in the union; $P(A')$ is $1 - P(A)$. Translate each symbol into a region before counting." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-05-03-L1-Q6", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
+          "text": "A Venn diagram shows: 9 in S only, 6 in both S and T, 10 in T only, and 5 in neither. A person who is in T is chosen at random. Work out the probability that they are also in S. Give your answer as a decimal to 3 decimal places.",
+          "hint": "The condition restricts you to the T circle: $6 + 10$.",
+          "explanation": "$P(S | T) = \\frac{6}{16} = 0.375$.",
+          "answers": [ { "numeric": 0.375, "tolerance": 0.001, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-05-03-L1-Q7", "type": "MultipleAnswer", "difficulty": 2, "marks": 2,
+          "text": "$\\xi = \\{1, 2, \\ldots, 12\\}$, $E = \\{\\text{even numbers}\\}$ and $F = \\{\\text{factors of 12}\\}$. Select **all** the statements that are true.",
+          "hint": "$E = \\{2, 4, 6, 8, 10, 12\\}$ and $F = \\{1, 2, 3, 4, 6, 12\\}$.",
+          "explanation": "$E \\cap F = \\{2, 4, 6, 12\\}$, so $n(E \\cap F) = 4$. $E \\cup F = \\{1, 2, 3, 4, 6, 8, 10, 12\\}$, so $n(E \\cup F) = 8$. $9 \\notin E$ so $9 \\in E'$. $5 \\notin F$, so \"5 ∈ F\" is false.",
+          "options": [
+            { "text": "n(E ∩ F) = 4", "correct": true },
+            { "text": "9 ∈ E′", "correct": true },
+            { "text": "n(E ∪ F) = 12", "correct": false, "feedback": "The union has 8 elements; the union is not the whole universal set." },
+            { "text": "5 ∈ F", "correct": false, "feedback": "5 is not a factor of 12." } ] } },
+        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Writing the whole-set total in the 'only' region.** \"18 play football\" includes the overlap; subtract it first.\n- **Forgetting the outside region.** Check the regions add up to the universal set total.\n- **Mixing up $\\cup$ and $\\cap$.** Union is the bigger set (or/both); intersection is the overlap (and).\n- **Complement of a union.** $(A \\cup B)'$ is the outside only; it is not $A' \\cup B'$.\n- **Conditional probabilities with the whole total.** \"Given that\" changes the denominator to the circle (or region) named.\n- **Three-set diagrams filled from the outside in.** Always start at the centre.\n- **\"A and B\" vs \"A and B only\".** The first includes the centre; the second does not.\n- **Listing sets with repeats.** Each element appears once." },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-05-03-L1-Q8", "type": "ExamQuestion", "difficulty": 4, "marks": 5, "examStyle": true,
+          "text": "80 people at a gym were asked whether they use the pool (P) and whether they use the weights room (W). 46 use the pool, 38 use the weights room and 15 use neither.\n\n(a) Work out how many people use both the pool and the weights room.\n\n(b) Draw or describe the completed Venn diagram, giving the number in each of the four regions.\n\n(c) A person who uses the pool is chosen at random. Work out the probability that they also use the weights room.",
+          "hint": "(a) At least one $= 80 - 15 = 65$; then $46 + 38 - \\text{both} = 65$. (c) Denominator is 46.",
+          "explanation": "(a) $65$ use at least one; both $= 46 + 38 - 65 = 19$. (b) Pool only $= 46 - 19 = 27$; both $= 19$; weights only $= 38 - 19 = 19$; neither $= 15$. Check: $27 + 19 + 19 + 15 = 80$ ✓. (c) $P(W | P) = \\frac{19}{46} = 0.41$ (2 d.p.).",
+          "markScheme": [
+            { "criterion": "Finds 65 use at least one (80 − 15)", "marks": 1, "keywords": [ ["65"] ] },
+            { "criterion": "Both = 19", "marks": 1, "keywords": [ ["19"] ] },
+            { "criterion": "Pool only = 27", "marks": 1, "keywords": [ ["27"] ] },
+            { "criterion": "Weights only = 19 and neither = 15 (all four regions correct)", "marks": 1, "keywords": [ ["15"], ["19"] ] },
+            { "criterion": "P(W | P) = 19/46 ≈ 0.41", "marks": 1, "keywords": [ ["19/46", "0.41", "0.413"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- $A \\cup B$ = union (or), $A \\cap B$ = intersection (and), $A'$ = complement (not), $\\xi$ = universal set.\n- Fill Venn diagrams **from the overlap outwards**; the whole-circle total includes the overlap.\n- Check every region adds up to $n(\\xi)$, including the outside.\n- $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.\n- Probability = region ÷ total; **given that** means divide by the circle or region named instead.\n- Independence: $P(A \\cap B) = P(A) \\times P(B)$." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-05-03-L1-P1", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "$A = \\{1, 3, 5, 7\\}$ and $B = \\{5, 7, 9\\}$. What is $A \\cap B$?", "hint": "Intersection means elements in both.", "explanation": "5 and 7 are in both sets.", "options": [ { "text": "{5, 7}", "correct": true }, { "text": "{1, 3, 5, 7, 9}", "correct": false, "feedback": "That is the union." }, { "text": "{1, 3}", "correct": false }, { "text": "{9}", "correct": false } ] },
+        { "key": "AQA-MAT-05-03-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "$A = \\{1, 3, 5, 7\\}$ and $B = \\{5, 7, 9\\}$. Work out $n(A \\cup B)$.", "hint": "List every element that is in at least one set, without repeats.", "explanation": "$A \\cup B = \\{1, 3, 5, 7, 9\\}$, so $n(A \\cup B) = 5$.", "answers": [ { "numeric": 5, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-05-03-L1-P3", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "In a club of 40 members, 22 play chess, 17 play draughts and 9 play both. How many play chess only?", "hint": "Subtract the overlap from the chess total.", "explanation": "$22 - 9 = 13$.", "answers": [ { "numeric": 13, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-05-03-L1-P4", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "In a club of 40 members, 22 play chess, 17 play draughts and 9 play both. A member is chosen at random. Work out the probability that they play neither game, as a decimal.", "hint": "Chess only 13, draughts only 8, both 9.", "explanation": "$13 + 8 + 9 = 30$, so 10 play neither: $\\frac{10}{40} = 0.25$.", "answers": [ { "numeric": 0.25, "tolerance": 0.001, "marks": 2 } ] },
+        { "key": "AQA-MAT-05-03-L1-P5", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: $(A \\cup B)'$ is the region outside both circles on a Venn diagram.", "hint": "The complement of the union is everything not in A or B.", "explanation": "True. Anything not in the union is in neither set, which is the region outside both circles.", "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ] },
+        { "key": "AQA-MAT-05-03-L1-P6", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the rule for the number of elements in a union.", "metadata": { "blanksText": "n(A ∪ B) = n(A) + n(B) − n(A ___ B), because adding the two sets counts the ___ twice." }, "hint": "The elements in both sets get counted in A and again in B.", "explanation": "$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$; the intersection (overlap) is counted twice.", "answers": [ { "text": "∩", "blankIndex": 0, "marks": 1 }, { "text": "overlap", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-05-03-L1-P7", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "A Venn diagram shows probabilities: $P(A \\text{ only}) = 0.3$, $P(A \\cap B) = 0.2$, $P(B \\text{ only}) = 0.35$. Work out the probability of being in neither A nor B.", "hint": "The four regions add to 1.", "explanation": "$1 - 0.3 - 0.2 - 0.35 = 0.15$.", "answers": [ { "numeric": 0.15, "tolerance": 0.001, "marks": 2 } ] },
+        { "key": "AQA-MAT-05-03-L1-P8", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "A Venn diagram shows probabilities: $P(A \\text{ only}) = 0.3$, $P(A \\cap B) = 0.2$, $P(B \\text{ only}) = 0.35$. Work out $P(A | B)$ as a decimal to 3 decimal places.", "hint": "$P(B) = 0.2 + 0.35$.", "explanation": "$P(A | B) = \\frac{0.2}{0.55} = 0.364$.", "answers": [ { "numeric": 0.364, "tolerance": 0.002, "marks": 2 } ] },
+        { "key": "AQA-MAT-05-03-L1-P9", "type": "NumericalAnswer", "difficulty": 4, "marks": 3, "text": "90 students were surveyed about three clubs. 5 are in all three. 12 are in coding and chess, 9 are in coding and choir, 11 are in chess and choir. 35 are in coding, 30 in chess, 28 in choir. How many students are in none of the clubs?", "hint": "Fill in from the centre: pairs-only are 7, 4 and 6. Then find each 'only' region.", "explanation": "Coding and chess only 7; coding and choir only 4; chess and choir only 6. Coding only $= 35 - 7 - 4 - 5 = 19$; chess only $= 30 - 7 - 6 - 5 = 12$; choir only $= 28 - 4 - 6 - 5 = 13$. Inside circles: $5 + 7 + 4 + 6 + 19 + 12 + 13 = 66$. None $= 90 - 66 = 24$.", "answers": [ { "numeric": 24, "tolerance": 0, "marks": 3 } ] },
+        { "key": "AQA-MAT-05-03-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "A Venn diagram shows 20 students in the 'plays guitar' circle only, 8 in the overlap with 'plays piano', 12 in 'plays piano' only and 10 in neither. Priya says $P(\\text{piano} | \\text{guitar}) = \\frac{8}{50}$. Explain her mistake and give the correct probability.", "hint": "\"Given guitar\" restricts to the guitar circle, which has $20 + 8$ students.", "explanation": "She used the whole group (50) as the denominator. Given that the student plays guitar, only the 28 in the guitar circle count, so $P = \\frac{8}{28} = \\frac{2}{7}$.", "markScheme": [ { "criterion": "Explains that the denominator should be the number who play guitar (28), not the whole group", "marks": 1, "keywords": [ ["28", "guitar circle", "only those who play guitar", "not 50", "restrict"] ] }, { "criterion": "Correct probability 8/28 = 2/7 (≈ 0.29)", "marks": 1, "keywords": [ ["8/28", "2/7", "0.29", "0.286"] ] } ] },
+        { "key": "AQA-MAT-05-03-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "$\\xi = \\{$integers from 1 to 20$\\}$. $M = \\{$multiples of 4$\\}$ and $S = \\{$square numbers$\\}$.\n\n(a) List the elements of $M \\cap S$.\n\n(b) Work out $n(M \\cup S)$.\n\n(c) A number is chosen at random from $\\xi$. Work out $P(M' \\cap S')$.", "hint": "$M = \\{4, 8, 12, 16, 20\\}$ and $S = \\{1, 4, 9, 16\\}$.", "explanation": "(a) $M \\cap S = \\{4, 16\\}$. (b) $M \\cup S = \\{1, 4, 8, 9, 12, 16, 20\\}$, so $n = 7$. (c) $M' \\cap S'$ is everything outside both: $20 - 7 = 13$ numbers, so $P = \\frac{13}{20} = 0.65$.", "markScheme": [ { "criterion": "M ∩ S = {4, 16}", "marks": 1, "keywords": [ ["4"], ["16"] ] }, { "criterion": "n(M ∪ S) = 7", "marks": 1, "keywords": [ ["7"] ] }, { "criterion": "Identifies M′ ∩ S′ as numbers in neither set: 13 of them", "marks": 1, "keywords": [ ["13", "neither", "outside"] ] }, { "criterion": "P = 13/20 = 0.65", "marks": 1, "keywords": [ ["13/20", "0.65", "65%"] ] } ] }
+      ]
+    }
+  ]
+}

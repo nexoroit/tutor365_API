@@ -1,0 +1,96 @@
+{
+  "subTopicCode": "MAT-02-08",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-02-08-L1",
+      "title": "Sequences",
+      "summary": "Recognise arithmetic, geometric, quadratic, Fibonacci-type and other special sequences, find and use nth-term rules, and decide whether a number belongs to a sequence.",
+      "objectives": [
+        "I can continue a sequence using a term-to-term rule and recognise arithmetic, geometric, triangular, square and Fibonacci-type sequences.",
+        "I can find the nth term of an arithmetic (linear) sequence and use it to generate terms.",
+        "I can decide whether a given number is a term of a sequence.",
+        "I can find the nth term of a quadratic sequence using first and second differences.",
+        "I can generate terms of a sequence from an nth-term rule involving powers or fractions."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Types of sequence", "minutes": 5, "content": "## Spotting the pattern\n\nA **sequence** is an ordered list of numbers. Each number is a **term**; the position of a term is $n$ (so the 1st term has $n = 1$). A **term-to-term rule** tells you how to get from one term to the next.\n\n| Type | Rule | Example |\n|---|---|---|\n| **Arithmetic (linear)** | add or subtract the same amount (the **common difference**) | 4, 9, 14, 19, … (+5) |\n| **Geometric** | multiply by the same amount (the **common ratio**) | 3, 6, 12, 24, … (×2) |\n| **Quadratic** | first differences change, second differences are constant | 2, 5, 10, 17, … |\n| **Fibonacci-type** | each term is the sum of the previous two | 1, 1, 2, 3, 5, 8, … |\n\nSome special sequences are worth memorising:\n\n- **Square numbers**: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100 ($n^2$)\n- **Cube numbers**: 1, 8, 27, 64, 125 ($n^3$)\n- **Triangular numbers**: 1, 3, 6, 10, 15, 21, 28 (add 2, then 3, then 4, …)\n- **Powers of 2**: 2, 4, 8, 16, 32, 64\n\nA geometric ratio can be a fraction or negative: 80, 40, 20, 10 has ratio $\\frac{1}{2}$; 2, −6, 18, −54 has ratio −3. Surd ratios also appear, such as $1, \\sqrt{2}, 2, 2\\sqrt{2}$.\n\nWhen asked to describe a sequence, give **both** the type and the rule: \"geometric, multiply by 3 each time\"." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-08-L1-Q1", "type": "Matching", "difficulty": 1, "marks": 4,
+          "text": "Match each sequence to its type.",
+          "hint": "Look at differences between terms, and at ratios.",
+          "explanation": "7, 11, 15, 19 adds 4 (arithmetic). 5, 10, 20, 40 doubles (geometric). 2, 3, 5, 8, 13 adds the previous two (Fibonacci-type). 1, 3, 6, 10 are triangular numbers.",
+          "pairs": [
+            { "left": "7, 11, 15, 19, …", "right": "Arithmetic" },
+            { "left": "5, 10, 20, 40, …", "right": "Geometric" },
+            { "left": "2, 3, 5, 8, 13, …", "right": "Fibonacci-type" },
+            { "left": "1, 3, 6, 10, 15, …", "right": "Triangular numbers" } ] } },
+        { "type": "Explanation", "title": "The nth term of an arithmetic sequence", "minutes": 5, "content": "## A rule for any position\n\nThe **nth term** is a formula that gives any term directly from its position $n$. For an arithmetic sequence the nth term has the form\n\n$an + b$\n\nwhere $a$ is the **common difference**.\n\n**Find the nth term of 5, 8, 11, 14, …**\n\n1. The difference is $+3$, so the rule starts $3n$.\n2. Compare with the 3 times table (3, 6, 9, 12): each term is 2 more.\n3. nth term $= 3n + 2$.\n\nCheck: $n = 4$ gives $12 + 2 = 14$ ✓.\n\n**Find the nth term of 20, 17, 14, 11, …**\n\nDifference $-3$, so start with $-3n$: $-3, -6, -9, -12$. Each term is 23 more, so the nth term is $23 - 3n$.\n\n## Using the rule\n\n- **Find the 50th term** of $3n + 2$: substitute $n = 50$ to get 152.\n- **Is 98 in the sequence $3n + 2$?** Solve $3n + 2 = 98$: $3n = 96$, $n = 32$. That is a whole number, so **yes**, it is the 32nd term.\n- **Is 100 in it?** $3n = 98$, $n = 32.67$. Not a whole number, so **no**.\n\nThe shortcut for the constant: $b$ is what you would get for the \"zero-th\" term, one step back from the first term." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-08-L1-Q2", "type": "Equation", "difficulty": 2, "marks": 2,
+          "text": "Find the nth term of the sequence 9, 13, 17, 21, … Type your answer like 3n+2.",
+          "hint": "The common difference is 4. Compare with 4, 8, 12, 16.",
+          "explanation": "The difference is 4, so start with $4n$. Each term is 5 more than the 4 times table, giving $4n + 5$.",
+          "answers": [ { "text": "4n+5", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-08-L1-Q3", "type": "NumericalAnswer", "difficulty": 2, "marks": 2,
+          "text": "The nth term of a sequence is $7n - 3$. Which term of the sequence is 137?",
+          "hint": "Solve $7n - 3 = 137$.",
+          "explanation": "$7n = 140$, so $n = 20$. 137 is the 20th term.",
+          "answers": [ { "numeric": 20, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Example", "title": "Worked example: is it in the sequence?", "minutes": 4, "content": "## Showing a number is or is not a term\n\n**The nth term of a sequence is $6n - 1$. Explain whether 200 is a term.**\n\nSet the rule equal to 200: $6n - 1 = 200$, so $6n = 201$ and $n = 33.5$.\n\n$n$ must be a positive whole number, and 33.5 is not, so **200 is not a term**. The 33rd term is 197 and the 34th is 203, so 200 falls between them.\n\n**Find the first term of $6n - 1$ that is greater than 500.**\n\n$6n - 1 > 500$, so $6n > 501$ and $n > 83.5$. The first whole number is $n = 84$: the term is $6(84) - 1 = 503$.\n\n**Two sequences.** Sequence A has nth term $4n + 1$ (5, 9, 13, 17, 21, …). Sequence B has nth term $6n - 3$ (3, 9, 15, 21, 27, …). Numbers in both sequences: 9, 21, 33, … These themselves form an arithmetic sequence with difference 12 (the lowest common multiple of 4 and 6), so the nth term of the common terms is $12n - 3$.\n\nIn an exam, always show the equation you solved and comment on whether $n$ is a whole number. The comment is where the mark is." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-08-L1-Q4", "type": "MultipleChoice", "difficulty": 3, "marks": 1,
+          "text": "The nth term of a sequence is $5n + 3$. Which of these numbers is a term of the sequence?",
+          "hint": "Subtract 3 from each option and check whether the result is a multiple of 5.",
+          "explanation": "$5n + 3 = 128$ gives $5n = 125$, $n = 25$, a whole number. For the others, $n$ is not a whole number: 97 → $n = 18.8$; 104 → $n = 20.2$; 150 → $n = 29.4$.",
+          "options": [
+            { "text": "128", "correct": true },
+            { "text": "97", "correct": false, "feedback": "$94 \\div 5$ is not a whole number." },
+            { "text": "104", "correct": false },
+            { "text": "150", "correct": false } ] } },
+        { "type": "Explanation", "title": "Quadratic sequences", "minutes": 5, "content": "## Constant second differences\n\nIf the differences between terms are not constant, look at the **differences of the differences**. When the **second difference** is constant, the sequence is quadratic and its nth term has the form $an^2 + bn + c$.\n\nThe key fact: **$a$ = half the second difference.**\n\n**Find the nth term of 3, 8, 15, 24, 35, …**\n\nFirst differences: 5, 7, 9, 11. Second differences: 2, 2, 2.\n\nSo $a = 2 \\div 2 = 1$, and the rule starts $n^2$.\n\nWrite out $n^2$: 1, 4, 9, 16, 25. Subtract from the sequence: 2, 4, 6, 8, 10. That leftover is a linear sequence with nth term $2n$.\n\nnth term $= n^2 + 2n$. Check $n = 3$: $9 + 6 = 15$ ✓.\n\n**Find the nth term of 4, 13, 28, 49, …**\n\nFirst differences: 9, 15, 21. Second differences: 6, 6. So $a = 3$.\n\n$3n^2$: 3, 12, 27, 48. Subtract from the sequence: 1, 1, 1, 1. The leftover is just the constant 1.\n\nnth term $= 3n^2 + 1$.\n\n## Other rules\n\nYou may be given rules like $2^n$ (2, 4, 8, 16), $\\frac{n}{n + 1}$ ($\\frac{1}{2}, \\frac{2}{3}, \\frac{3}{4}$) or $n^2 - n$. Just substitute $n = 1, 2, 3, \\ldots$ carefully." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-08-L1-Q5", "type": "Equation", "difficulty": 4, "marks": 3,
+          "text": "Find the nth term of the quadratic sequence 5, 11, 21, 35, 53, … Type your answer like 2n^2+n+3.",
+          "hint": "First differences 6, 10, 14, 18; second difference 4, so start with $2n^2$.",
+          "explanation": "$2n^2$ gives 2, 8, 18, 32, 50. Subtracting from the sequence leaves 3, 3, 3, 3, 3. nth term $= 2n^2 + 3$.",
+          "answers": [ { "text": "2n^2+3", "caseSensitive": false, "marks": 3 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-08-L1-Q6", "type": "NumericalAnswer", "difficulty": 2, "marks": 1,
+          "text": "The nth term of a sequence is $n^2 - 3n$. Work out the 8th term.",
+          "hint": "Substitute $n = 8$.",
+          "explanation": "$64 - 24 = 40$.",
+          "answers": [ { "numeric": 40, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Writing $n + 3$ for \"add 3 each time\".** The difference goes in front of $n$: the rule is $3n + b$, not $n + 3$.\n- **Getting the constant wrong.** Compare the sequence with the times table, or go back one step from the first term to find the \"zero-th\" term.\n- **Decreasing sequences.** A difference of −2 gives $-2n + b$, often written as $b - 2n$.\n- **Testing membership.** Solve the equation properly; do not just guess. State clearly that $n$ is not a whole number.\n- **Quadratic sequences.** $a$ is **half** the second difference, not the second difference itself. Always subtract $an^2$ and deal with what is left.\n- **Geometric sequences.** Check ratios, not differences. Dividing consecutive terms should give the same answer every time.\n- **Fibonacci-type with letters.** If a sequence starts $a, b, a + b, a + 2b, 2a + 3b, \\ldots$, you may need to form equations from given terms." },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-02-08-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true,
+          "text": "Here are the first four terms of an arithmetic sequence: 11, 18, 25, 32.\n\n(a) Find an expression for the nth term.\n\n(b) Explain whether 300 is a term of the sequence.\n\n(c) The first three terms of a different sequence are 2, 6, 18. The sequence is geometric. Write down the 6th term.",
+          "hint": "(a) Difference 7. (b) Set the rule equal to 300 and solve. (c) Keep multiplying by 3.",
+          "explanation": "(a) $7n + 4$. (b) $7n + 4 = 300$ gives $7n = 296$, $n = 42.29$, not a whole number, so 300 is not a term. (c) The ratio is 3: 2, 6, 18, 54, 162, 486. The 6th term is 486.",
+          "markScheme": [
+            { "criterion": "nth term 7n + 4", "marks": 1, "keywords": [ ["7n + 4", "7n+4", "4 + 7n", "4+7n"] ] },
+            { "criterion": "Sets 7n + 4 = 300 and finds n is not a whole number (n ≈ 42.3)", "marks": 1, "keywords": [ ["42.", "296", "not a whole", "not an integer", "not whole", "decimal"] ] },
+            { "criterion": "Concludes 300 is not a term", "marks": 1, "keywords": [ ["not a term", "not in the sequence", "isn't a term", "is not"] ] },
+            { "criterion": "6th term of geometric sequence is 486", "marks": 1, "keywords": [ ["486"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Arithmetic**: constant difference; nth term $= (\\text{difference}) \\times n + (\\text{zero-th term})$.\n- **Geometric**: constant ratio; multiply to get the next term.\n- Special sequences: square, cube, triangular, Fibonacci-type.\n- To test if a number is a term, set the nth term equal to it and check whether $n$ is a positive whole number.\n- **Quadratic**: constant second difference; $a$ = half the second difference; subtract $an^2$ and find the linear remainder.\n- Always check your rule against a term you know." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-02-08-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Write down the next term of the sequence 3, 10, 17, 24, …", "hint": "What is added each time?", "explanation": "The difference is 7, so the next term is $24 + 7 = 31$.", "answers": [ { "numeric": 31, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-08-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Write down the next term of the geometric sequence 4, 12, 36, 108, …", "hint": "Each term is multiplied by the same number.", "explanation": "Ratio 3: $108 \\times 3 = 324$.", "answers": [ { "numeric": 324, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-08-L1-P3", "type": "Equation", "difficulty": 2, "marks": 2, "text": "Find the nth term of the sequence 25, 21, 17, 13, … Type your answer like 30-2n.", "hint": "The difference is −4. What is the zero-th term?", "explanation": "$-4n$ gives −4, −8, −12, −16. Each term is 29 more, so the nth term is $29 - 4n$.", "answers": [ { "text": "29-4n", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-08-L1-P4", "type": "NumericalAnswer", "difficulty": 2, "marks": 1, "text": "The nth term of a sequence is $\\dfrac{2n + 1}{n + 3}$. Work out the 5th term as a decimal.", "hint": "Substitute $n = 5$ into the top and bottom separately.", "explanation": "$\\dfrac{11}{8} = 1.375$.", "answers": [ { "numeric": 1.375, "tolerance": 0.001 } ] },
+        { "key": "AQA-MAT-02-08-L1-P5", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: 83 is a term of the sequence with nth term $4n - 1$.", "hint": "Solve $4n - 1 = 83$.", "explanation": "True. $4n = 84$, so $n = 21$, a whole number. 83 is the 21st term.", "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ] },
+        { "key": "AQA-MAT-02-08-L1-P6", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentences about quadratic sequences.", "metadata": { "blanksText": "In a quadratic sequence the ___ differences are constant, and the coefficient of n² is ___ of that constant difference." }, "hint": "You need to find differences twice.", "explanation": "The second differences are constant, and the coefficient of $n^2$ is half the second difference.", "answers": [ { "text": "second", "blankIndex": 0, "marks": 1 }, { "text": "half", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-02-08-L1-P7", "type": "Equation", "difficulty": 3, "marks": 3, "text": "Find the nth term of the quadratic sequence 6, 9, 14, 21, 30, … Type your answer like n^2+2n+3.", "hint": "First differences 3, 5, 7, 9; second difference 2, so start with $n^2$.", "explanation": "$n^2$: 1, 4, 9, 16, 25. Subtract: 5, 5, 5, 5, 5. nth term $= n^2 + 5$.", "answers": [ { "text": "n^2+5", "caseSensitive": false, "marks": 3 } ] },
+        { "key": "AQA-MAT-02-08-L1-P8", "type": "MultipleChoice", "difficulty": 3, "marks": 1, "text": "A sequence has nth term $2^n + 1$. Which of these is the first five terms?", "hint": "Work out $2^1, 2^2, 2^3, \\ldots$ and add 1 to each.", "explanation": "$2^n$ gives 2, 4, 8, 16, 32; adding 1 gives 3, 5, 9, 17, 33.", "options": [ { "text": "3, 5, 9, 17, 33", "correct": true }, { "text": "3, 5, 7, 9, 11", "correct": false, "feedback": "That is $2n + 1$, not $2^n + 1$." }, { "text": "2, 4, 8, 16, 32", "correct": false }, { "text": "1, 3, 5, 9, 17", "correct": false } ] },
+        { "key": "AQA-MAT-02-08-L1-P9", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "Find the first term of the sequence with nth term $9n - 7$ that is greater than 250.", "hint": "Solve $9n - 7 > 250$ and round $n$ up to the next whole number.", "explanation": "$9n > 257$, so $n > 28.6$. The first whole number is $n = 29$, giving $9(29) - 7 = 254$.", "answers": [ { "numeric": 254, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-08-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "The nth term of a sequence is $8n + 5$. Show that 190 is not a term of this sequence.", "hint": "Set $8n + 5 = 190$ and solve for $n$.", "explanation": "$8n = 185$, so $n = 23.125$. Since $n$ is not a whole number, 190 is not a term.", "markScheme": [ { "criterion": "Sets 8n + 5 = 190 and solves to n = 23.125 (or 8n = 185)", "marks": 1, "keywords": [ ["23.125", "23.1", "185"] ] }, { "criterion": "States n is not a whole number/integer so 190 is not a term", "marks": 1, "keywords": [ ["not a whole", "not an integer", "not whole", "decimal", "not a positive integer"] ] } ] },
+        { "key": "AQA-MAT-02-08-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "A Fibonacci-type sequence starts $a, b, a + b, a + 2b, \\ldots$ where each term is the sum of the two before it.\n\nThe 3rd term is 10 and the 5th term is 26.\n\n(a) Write the 5th term in terms of $a$ and $b$.\n\n(b) Find the values of $a$ and $b$.", "hint": "The 5th term is the 3rd term plus the 4th term: $(a + b) + (a + 2b)$.", "explanation": "(a) 5th term $= 2a + 3b$. (b) $a + b = 10$ and $2a + 3b = 26$. Doubling the first: $2a + 2b = 20$. Subtract: $b = 6$, so $a = 4$.", "markScheme": [ { "criterion": "5th term is 2a + 3b", "marks": 1, "keywords": [ ["2a + 3b", "2a+3b", "3b + 2a", "3b+2a"] ] }, { "criterion": "Forms the equations a + b = 10 and 2a + 3b = 26", "marks": 1, "keywords": [ ["a + b = 10", "a+b=10"], ["2a + 3b = 26", "2a+3b=26"] ] }, { "criterion": "b = 6", "marks": 1, "keywords": [ ["b = 6", "b=6"] ] }, { "criterion": "a = 4", "marks": 1, "keywords": [ ["a = 4", "a=4"] ] } ] }
+      ]
+    }
+  ]
+}
