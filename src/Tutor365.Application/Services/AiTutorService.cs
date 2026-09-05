@@ -51,6 +51,8 @@ public class AiTutorService : IAiTutorService
         {
             session = await _db.StudySessions.FirstOrDefaultAsync(s => s.Id == request.SessionId && s.StudentId == studentId, ct)
                 ?? throw new NotFoundException("SESSION_NOT_FOUND", "Study session could not be found.", true);
+            if (session.Type is StudySessionType.Assessment or StudySessionType.Mock && session.Status != StudySessionStatus.Completed)
+                throw new BusinessRuleException("NO_TUTOR_IN_ASSESSMENT", "The tutor isn't available during a test. You can ask about any question once you've submitted it.");
         }
         var questionId = request.QuestionId ?? session?.CurrentQuestionId;
         Question? question = questionId.HasValue

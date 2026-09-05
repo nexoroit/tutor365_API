@@ -35,7 +35,12 @@ public record TopicProgressDto(
     DateTime? NextReviewAt,
     bool ReviewDue,
     int ReviewCount,
-    decimal ConfidencePercent);
+    decimal ConfidencePercent,
+    /// <summary>All lessons passed and the topic test not yet passed.</summary>
+    bool ReadyForTest = false,
+    decimal? LastAssessmentPercent = null,
+    int AssessmentAttempts = 0,
+    DateTime? AssessmentPassedAt = null);
 
 public record LessonProgressDto(
     Guid LessonId,
@@ -143,6 +148,7 @@ public record StudyPlanItemDto(
     Guid? LessonId,
     string? LessonTitle,
     Guid? AssessmentId,
+    string ItemType,
     string Priority,
     DateOnly? DueDate,
     int? QuestionCount,

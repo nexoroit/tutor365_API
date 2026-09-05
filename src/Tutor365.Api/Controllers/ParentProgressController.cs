@@ -101,6 +101,11 @@ public class ParentProgressController : ApiControllerBase
         return Ok(await _planner.RegenerateWeekAsync(studentId, weekStart ?? today.AddDays(-(((int)today.DayOfWeek + 6) % 7)), ct));
     }
 
+    [HttpGet("assessments")]
+    [ProducesResponseType(typeof(ApiResponse<AssessmentsOverviewDto>), 200)]
+    public async Task<IActionResult> Assessments(Guid studentId, [FromServices] IAssessmentService assessments, CancellationToken ct)
+    { await _access.GetAccessibleStudentAsync(studentId, false, ct); return Ok(await assessments.GetOverviewAsync(studentId, ct)); }
+
     [HttpGet("recommendations")]
     [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<RecommendationDto>>), 200)]
     public async Task<IActionResult> Recommendations(Guid studentId, [FromQuery] int count = 5, CancellationToken ct = default)

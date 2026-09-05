@@ -43,10 +43,13 @@ public class StudyPlanService : IStudyPlanService
             if (!await _db.Subjects.AnyAsync(s => s.Id == i.SubjectId, ct)) throw new NotFoundException("Subject", i.SubjectId);
             if (i.TopicId.HasValue && !await _db.Topics.AnyAsync(t => t.Id == i.TopicId && t.SubjectId == i.SubjectId, ct)) throw new NotFoundException("Topic", i.TopicId);
             if (i.LessonId.HasValue && !await _db.Lessons.AnyAsync(l => l.Id == i.LessonId && l.SubTopic.Topic.SubjectId == i.SubjectId, ct)) throw new NotFoundException("Lesson", i.LessonId);
+            var itemType = Enum.TryParse<StudyPlanItemType>(i.ItemType, true, out var it) ? it : i.LessonId.HasValue ? StudyPlanItemType.Lesson : i.TopicId.HasValue ? StudyPlanItemType.TopicReview : StudyPlanItemType.Lesson;
+            if (itemType == StudyPlanItemType.Lesson && !i.LessonId.HasValue) throw new AppValidationException("lessonId", "Choose a lesson for a lesson item.");
+            if (itemType is StudyPlanItemType.TopicReview or StudyPlanItemType.TopicTest && !i.TopicId.HasValue) throw new AppValidationException("topicId", "Choose a topic for a review or test item.");
             plan.Items.Add(new StudyPlanItem
             {
-                SubjectId = i.SubjectId, TopicId = i.TopicId, LessonId = i.LessonId, DueDate = i.DueDate, QuestionCount = i.QuestionCount, Notes = i.Notes, SortOrder = ++order,
-                Priority = Enum.TryParse<StudyPlanPriority>(i.Priority, true, out var p) ? p : StudyPlanPriority.Normal
+                SubjectId = i.SubjectId, TopicId = i.TopicId, LessonId = itemType == StudyPlanItemType.Lesson ? i.LessonId : null, DueDate = i.DueDate, QuestionCount = i.QuestionCount, Notes = i.Notes, SortOrder = ++order,
+                ItemType = itemType, Priority = Enum.TryParse<StudyPlanPriority>(i.Priority, true, out var p) ? p : StudyPlanPriority.Normal
             });
         }
         _db.StudyPlans.Add(plan);

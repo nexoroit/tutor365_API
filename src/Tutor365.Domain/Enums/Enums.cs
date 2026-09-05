@@ -41,7 +41,7 @@ public enum QuestionType
 
 public enum StudySessionStatus { NotStarted = 0, Active = 1, Paused = 2, Completed = 3, Abandoned = 4 }
 
-public enum StudySessionType { Lesson = 1, Assessment = 2, Review = 3, Practice = 4 }
+public enum StudySessionType { Lesson = 1, Assessment = 2, Review = 3, Practice = 4, Mock = 5 }
 
 public enum SessionActivityStatus { Pending = 0, Current = 1, Completed = 2, Skipped = 3 }
 
@@ -52,6 +52,8 @@ public enum MasteryStatus { NotStarted = 0, NeedsPractice = 1, Developing = 2, S
 public enum LessonProgressStatus { Locked = 0, Available = 1, InProgress = 2, Completed = 3, Passed = 4 }
 
 public enum StudyPlanStatus { Active = 1, Completed = 2, Cancelled = 3 }
+
+public enum StudyPlanItemType { Lesson = 1, TopicReview = 2, TopicTest = 3, MockExam = 4 }
 
 public enum StudyPlanItemStatus { Pending = 0, InProgress = 1, Completed = 2, Overdue = 3, Cancelled = 4 }
 

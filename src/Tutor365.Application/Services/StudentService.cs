@@ -61,7 +61,7 @@ public class StudentService : IStudentService
         return await q.OrderBy(i => i.DueDate).ThenByDescending(i => i.Priority).ThenBy(i => i.SortOrder)
             .Select(i => new StudyPlanItemDto(i.Id, i.StudyPlanId, i.StudyPlan.Title, i.SubjectId, i.Subject.Name, i.TopicId,
                 i.TopicId != null ? _db.Topics.Where(t => t.Id == i.TopicId).Select(t => t.Name).FirstOrDefault() : null,
-                i.LessonId, i.Lesson != null ? i.Lesson.Title : null, i.AssessmentId, i.Priority.ToString(), i.DueDate, i.QuestionCount, i.Notes, i.Status.ToString(), i.CompletedAt))
+                i.LessonId, i.Lesson != null ? i.Lesson.Title : null, i.AssessmentId, i.ItemType.ToString(), i.Priority.ToString(), i.DueDate, i.QuestionCount, i.Notes, i.Status.ToString(), i.CompletedAt))
             .ToListAsync(ct);
     }
 }

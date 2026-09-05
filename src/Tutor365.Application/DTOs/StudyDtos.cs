@@ -10,7 +10,7 @@ public record StartSessionRequest(
     Guid? SubjectId,
     Guid? DailyStudySlotId,
     Guid? StudyPlanItemId,
-    /// <summary>"Lesson" (default), "Review" (topic review from question pool) or "Practice".</summary>
+    /// <summary>"Lesson" (default), "Review" (topic review), "Practice", "Assessment" (timed topic test, needs topicId) or "Mock" (timed subject mock, needs subjectId).</summary>
     string? Type,
     int? QuestionCount,
     bool ForceNew = false);
@@ -59,7 +59,9 @@ public record AnswerResultDto(
     string MarkedBy,
     int AttemptNumber,
     string NextAction,
-    SessionProgressDto Session);
+    SessionProgressDto Session,
+    /// <summary>True in assessments: the answer is recorded but correctness and feedback are withheld until the test is submitted.</summary>
+    bool FeedbackDeferred = false);
 
 // ---------- session state ----------
 
@@ -115,7 +117,12 @@ public record StudySessionDto(
     SessionProgressDto Progress,
     SessionActivityDto? CurrentActivity,
     IReadOnlyList<SessionActivityDto> Activities,
-    JsonElement? ClientState);
+    JsonElement? ClientState,
+    /// <summary>Assessment/Mock: timed, no hints or AI help, feedback after submission.</summary>
+    bool IsAssessment = false,
+    int? TimeLimitMinutes = null,
+    /// <summary>Seconds left before auto-submit (assessments only).</summary>
+    int? SecondsRemaining = null);
 
 public record SessionSummaryDto(
     Guid Id,
@@ -154,7 +161,9 @@ public record SessionResultDto(
     string? NextLessonTitle,
     IReadOnlyList<PerformanceBandDto> Performance,
     IReadOnlyList<MistakeDto> Mistakes,
-    string Message);
+    string Message,
+    int? EstimatedGrade = null,
+    bool IsAssessment = false);
 
 public record PerformanceBandDto(string Area, decimal Percent, string Rating);
 

@@ -117,6 +117,12 @@ public class StudentsController : ApiControllerBase
     public async Task<IActionResult> Mistakes([FromQuery] PagingQuery paging, [FromQuery] Guid? subjectId, CancellationToken ct)
         => Ok(await _progress.GetMistakesAsync(await _access.GetCurrentStudentIdAsync(ct), subjectId, null, paging, ct));
 
+    /// <summary>Topic tests ready to take, mock-exam readiness per subject, and past results.</summary>
+    [HttpGet("me/assessments")]
+    [ProducesResponseType(typeof(ApiResponse<AssessmentsOverviewDto>), 200)]
+    public async Task<IActionResult> Assessments([FromServices] IAssessmentService assessments, CancellationToken ct)
+        => Ok(await assessments.GetOverviewAsync(await _access.GetCurrentStudentIdAsync(ct), ct));
+
     [HttpGet("me/assigned-work")]
     [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<StudyPlanItemDto>>), 200)]
     public async Task<IActionResult> AssignedWork([FromQuery] bool includeCompleted = false, CancellationToken ct = default)

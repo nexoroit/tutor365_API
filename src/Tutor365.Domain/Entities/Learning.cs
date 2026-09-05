@@ -41,6 +41,8 @@ public class StudySession : BaseEntity
     public decimal? ScorePercent { get; set; }
     public int PassThresholdPercent { get; set; } = 70;
     public bool? Passed { get; set; }
+    /// <summary>Assessments only: hard time limit; the server auto-submits once exceeded.</summary>
+    public int? TimeLimitMinutes { get; set; }
     /// <summary>Free-form JSON state the client can store (e.g. scroll position, draft answer).</summary>
     public string? ClientStateJson { get; set; }
 
@@ -125,6 +127,9 @@ public class StudentTopicProgress : BaseEntity
     public decimal ConfidenceLevel { get; set; }
     public MasteryStatus Status { get; set; } = MasteryStatus.NotStarted;
     public int StudyTimeMinutes { get; set; }
+    public decimal? LastAssessmentPercent { get; set; }
+    public int AssessmentAttempts { get; set; }
+    public DateTime? AssessmentPassedAt { get; set; }
 }
 
 public class StudentSubjectProgress : BaseEntity
@@ -188,6 +193,7 @@ public class StudyPlanItem : BaseEntity
     public Lesson? Lesson { get; set; }
     public Guid? AssessmentId { get; set; }
     public Assessment? Assessment { get; set; }
+    public StudyPlanItemType ItemType { get; set; } = StudyPlanItemType.Lesson;
     public StudyPlanPriority Priority { get; set; } = StudyPlanPriority.Normal;
     public DateOnly? DueDate { get; set; }
     public int? QuestionCount { get; set; }

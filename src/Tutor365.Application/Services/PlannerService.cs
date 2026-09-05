@@ -60,7 +60,13 @@ public class PlannerService : IPlannerService
                     new RecommendationDto(s.SubjectId, s.Subject.Name, s.Subject.ColourHex, t.TopicId, t.TopicName, null, null, "Review", reason, 1, 30)));
             }
 
-            // 2) Next lesson in sequence
+            // 2) Topic tests that are ready (every lesson passed, test not yet passed)
+            foreach (var t in topics.Where(t => t.SubjectId == s.SubjectId && t.ReadyForTest).Take(2))
+                candidates.Add((baseScore + 18 + (t.AssessmentAttempts == 0 ? 4 : 0),
+                    new RecommendationDto(s.SubjectId, s.Subject.Name, s.Subject.ColourHex, t.TopicId, t.TopicName, null, null, "Assessment",
+                        t.AssessmentAttempts == 0 ? $"You've passed every lesson in {t.TopicName}: take the topic test." : $"Re-sit the {t.TopicName} topic test (last score {Math.Round(t.LastAssessmentPercent ?? 0)}%).", 1, AssessmentService.TopicTestMinutes)));
+
+            // 3) Next lesson in sequence
             var next = await _progress.GetNextLessonAsync(studentId, s.SubjectId, null, ct);
             if (next != null)
             {
@@ -215,6 +221,17 @@ public class PlannerService : IPlannerService
         if (due != null && !plannedReview)
             return new RecommendationDto(subjectId, subject.Name, subject.ColourHex, due.TopicId, due.TopicName, null, null, "Review",
                 due.MasteryPercent < 50 ? $"{due.TopicName} is a weak topic and is due for review." : $"Spaced review of {due.TopicName} to keep it secure.", 1, 30);
+
+        // Topic test once every lesson in a topic is passed (and not yet passed the test).
+        var ready = topics.FirstOrDefault(t => t.ReadyForTest);
+        if (ready != null)
+        {
+            var plannedTest = await _db.DailyStudySlots.AnyAsync(s => s.StudentId == studentId && s.SessionType == StudySessionType.Assessment && s.TopicId == ready.TopicId
+                && s.Date >= DateOnly.FromDateTime(DateTime.UtcNow) && s.Status == DailySlotStatus.Scheduled, ct);
+            if (!plannedTest)
+                return new RecommendationDto(subjectId, subject.Name, subject.ColourHex, ready.TopicId, ready.TopicName, null, null, "Assessment",
+                    ready.AssessmentAttempts == 0 ? $"You've passed every lesson in {ready.TopicName}: time for the topic test." : $"Re-sit the {ready.TopicName} topic test (last score {Math.Round(ready.LastAssessmentPercent ?? 0)}%).", 1, AssessmentService.TopicTestMinutes);
+        }
 
         // Next lessons in sequence, skipping ones already planned this week.
         var student = await _db.Students.Include(s => s.YearGroup).FirstAsync(s => s.Id == studentId, ct);

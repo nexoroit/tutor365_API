@@ -34,11 +34,14 @@ public class StudySessionService : IStudySessionService
     private readonly IProgressService _progress;
     private readonly IAuditService _audit;
     private readonly IAiMarker _aiMarker;
+    private readonly IAssessmentService _assessments;
 
-    public StudySessionService(IAppDbContext db, ICurrentUser current, IAccessService access, IMarkingService marking, IProgressService progress, IAuditService audit, IAiMarker aiMarker)
+    public StudySessionService(IAppDbContext db, ICurrentUser current, IAccessService access, IMarkingService marking, IProgressService progress, IAuditService audit, IAiMarker aiMarker, IAssessmentService assessments)
     {
-        _db = db; _current = current; _access = access; _marking = marking; _progress = progress; _audit = audit; _aiMarker = aiMarker;
+        _db = db; _current = current; _access = access; _marking = marking; _progress = progress; _audit = audit; _aiMarker = aiMarker; _assessments = assessments;
     }
+
+    private static bool IsAssessment(StudySession s) => s.Type is StudySessionType.Assessment or StudySessionType.Mock;
 
     // =====================================================================
     // Start
@@ -86,6 +89,8 @@ public class StudySessionService : IStudySessionService
         var lessonId = request.LessonId ?? slot?.LessonId ?? planItem?.LessonId;
         var topicId = request.TopicId ?? slot?.TopicId ?? planItem?.TopicId;
         var subjectId = request.SubjectId ?? slot?.SubjectId ?? planItem?.SubjectId;
+        if (planItem != null && string.IsNullOrEmpty(request.Type) && slot == null)
+            type = planItem.ItemType switch { StudyPlanItemType.TopicReview => StudySessionType.Review, StudyPlanItemType.TopicTest => StudySessionType.Assessment, StudyPlanItemType.MockExam => StudySessionType.Mock, _ => StudySessionType.Lesson };
 
         // Lesson sessions: resolve lesson (explicit, or next recommended in subject/topic).
         Lesson? lesson = null;
@@ -125,13 +130,26 @@ public class StudySessionService : IStudySessionService
                 slot!.LessonId = lesson.Id; slot.TopicId = topicId; slot.Reason = $"Re-attempt {lesson.Title} before moving on.";
             }
         }
+        else if (type == StudySessionType.Mock)
+        {
+            if (!subjectId.HasValue) throw new AppValidationException("subjectId", "A subject is required for a mock exam.");
+            var existingMock = await _db.StudySessions.FirstOrDefaultAsync(x => x.StudentId == studentId && x.Type == StudySessionType.Mock && x.SubjectId == subjectId && (x.Status == StudySessionStatus.Active || x.Status == StudySessionStatus.Paused), ct);
+            if (existingMock != null && !request.ForceNew) { if (existingMock.Status == StudySessionStatus.Paused) await ResumeInternalAsync(existingMock, ct); return await BuildSessionDtoAsync(existingMock.Id, ct); }
+            if (existingMock != null) existingMock.Status = StudySessionStatus.Abandoned;
+        }
         else
         {
-            if (!topicId.HasValue && !lessonId.HasValue) throw new AppValidationException("topicId", "A topic is required for a review or practice session.");
+            if (!topicId.HasValue && !lessonId.HasValue) throw new AppValidationException("topicId", "A topic is required for a review, practice or test session.");
             if (lessonId.HasValue && !topicId.HasValue)
                 topicId = await _db.Lessons.Where(l => l.Id == lessonId).Select(l => l.SubTopic.TopicId).FirstOrDefaultAsync(ct);
             subjectId = await _db.Topics.Where(t => t.Id == topicId).Select(t => (Guid?)t.SubjectId).FirstOrDefaultAsync(ct)
                 ?? throw new NotFoundException("Topic", topicId!);
+            if (type == StudySessionType.Assessment)
+            {
+                var existingTest = await _db.StudySessions.FirstOrDefaultAsync(x => x.StudentId == studentId && x.Type == StudySessionType.Assessment && x.TopicId == topicId && (x.Status == StudySessionStatus.Active || x.Status == StudySessionStatus.Paused), ct);
+                if (existingTest != null && !request.ForceNew) { if (existingTest.Status == StudySessionStatus.Paused) await ResumeInternalAsync(existingTest, ct); return await BuildSessionDtoAsync(existingTest.Id, ct); }
+                if (existingTest != null) existingTest.Status = StudySessionStatus.Abandoned;
+            }
         }
 
         // Only one live session at a time: pause any other active session.
@@ -156,9 +174,20 @@ public class StudySessionService : IStudySessionService
             PassThresholdPercent = await _progress.GetPassThresholdAsync(studentId, subjectId.Value, ct)
         };
 
-        var activities = lesson != null
-            ? await BuildLessonActivitiesAsync(session, lesson, studentId, attempt, ct)
-            : await BuildQuestionSetActivitiesAsync(session, studentId, topicId!.Value, lessonId, request.QuestionCount ?? 10, ct);
+        List<SessionActivity> activities;
+        if (lesson != null) activities = await BuildLessonActivitiesAsync(session, lesson, studentId, attempt, ct);
+        else if (type is StudySessionType.Assessment or StudySessionType.Mock)
+        {
+            var (paper, questions) = type == StudySessionType.Mock
+                ? await _assessments.BuildMockAsync(studentId, subjectId.Value, ct)
+                : await _assessments.BuildTopicTestAsync(studentId, topicId!.Value, ct);
+            session.AssessmentId = paper.Id;
+            session.TimeLimitMinutes = paper.TimeLimitMinutes;
+            session.PassThresholdPercent = paper.PassMarkPercent;
+            var order = 0;
+            activities = questions.Select(q => new SessionActivity { SessionId = session.Id, QuestionId = q.Id, SortOrder = ++order }).ToList();
+        }
+        else activities = await BuildQuestionSetActivitiesAsync(session, studentId, topicId!.Value, lessonId, request.QuestionCount ?? 10, ct);
         foreach (var a in activities) session.Activities.Add(a);
 
         var questionIds = activities.Where(a => a.QuestionId.HasValue).Select(a => a.QuestionId!.Value).ToList();
@@ -253,6 +282,7 @@ public class StudySessionService : IStudySessionService
     public async Task<string?> GetHintAsync(Guid sessionId, Guid questionId, CancellationToken ct = default)
     {
         var session = await LoadAsync(sessionId, requireOwner: true, ct);
+        if (IsAssessment(session)) throw new BusinessRuleException("NO_HINTS_IN_ASSESSMENT", "Hints aren't available during a test.");
         if (!session.Activities.Any(a => a.QuestionId == questionId)) throw new NotFoundException("Question", questionId);
         return await _db.Questions.Where(q => q.Id == questionId).Select(q => q.Hint).FirstOrDefaultAsync(ct)
             ?? "Re-read the explanation above and break the question into smaller steps.";
@@ -267,6 +297,11 @@ public class StudySessionService : IStudySessionService
         var session = await LoadAsync(sessionId, requireOwner: true, ct);
         if (session.Status == StudySessionStatus.Paused) await ResumeInternalAsync(session, ct);
         if (session.Status != StudySessionStatus.Active) throw new BusinessRuleException("SESSION_NOT_ACTIVE", "This session is not active.");
+        if (IsAssessment(session) && TimeIsUp(session))
+        {
+            await CompleteInternalAsync(session, force: true, ct);
+            throw new BusinessRuleException("TIME_UP", "Time is up. Your test has been submitted with the answers you gave.");
+        }
 
         var activity = session.Activities.FirstOrDefault(a => a.QuestionId == request.QuestionId)
             ?? throw new NotFoundException("QUESTION_NOT_IN_SESSION", "That question is not part of this session.", true);
@@ -274,6 +309,7 @@ public class StudySessionService : IStudySessionService
             .FirstAsync(q => q.Id == request.QuestionId, ct);
 
         var previous = session.Answers.Where(a => a.QuestionId == question.Id).OrderByDescending(a => a.AttemptNumber).FirstOrDefault();
+        if (previous != null && IsAssessment(session)) throw new BusinessRuleException("ALREADY_ANSWERED", "You have already answered this question in the test.");
         var attemptNumber = (previous?.AttemptNumber ?? 0) + 1;
         var result = _marking.Mark(question, request.AnswerText, request.AnswerJson);
         // Written answers: prefer AI marking against the mark scheme when configured; keyword marking remains the fallback.
@@ -318,6 +354,13 @@ public class StudySessionService : IStudySessionService
         await _db.SaveChangesAsync(ct);
 
         var isLast = !session.Activities.Any(a => a.Status is SessionActivityStatus.Pending or SessionActivityStatus.Current);
+        if (IsAssessment(session))
+        {
+            // Tests: record only; correctness, feedback and model answers come with the results.
+            var hidden = ToProgress(session) with { CurrentScore = 0, QuestionsCorrect = 0 };
+            return new AnswerResultDto(answer.Id, question.Id, false, 0, result.MaxScore, "Answer recorded.", Array.Empty<string>(), null, null, result.MarkedBy.ToString(), attemptNumber,
+                isLast ? "Complete" : "Continue", hidden, FeedbackDeferred: true);
+        }
         var nextAction = isLast ? "Complete" : !result.Correct && attemptNumber == 1 ? "ReviewOrContinue" : "Continue";
         var showModel = attemptNumber >= 1;
         return new AnswerResultDto(answer.Id, question.Id, result.Correct, result.Score, result.MaxScore, result.Feedback, result.MissingCriteria,
@@ -375,6 +418,7 @@ public class StudySessionService : IStudySessionService
     {
         var session = await LoadAsync(sessionId, requireOwner: true, ct);
         if (session.Status != StudySessionStatus.Active) return ToProgress(session);
+        if (IsAssessment(session) && TimeIsUp(session)) { await CompleteInternalAsync(session, force: true, ct); return ToProgress(session); }
         var now = DateTime.UtcNow;
         var sinceLast = (int)Math.Max(0, (now - (session.LastActivityAt ?? session.StartedAt ?? now)).TotalSeconds);
         if (request.ElapsedSeconds.HasValue)
@@ -398,6 +442,7 @@ public class StudySessionService : IStudySessionService
     public async Task<StudySessionDto> PauseAsync(Guid sessionId, CancellationToken ct = default)
     {
         var session = await LoadAsync(sessionId, requireOwner: true, ct);
+        if (IsAssessment(session)) throw new BusinessRuleException("NO_PAUSE_IN_ASSESSMENT", "A test can't be paused. Submit it when you're done.");
         if (session.Status == StudySessionStatus.Active) { PauseInternal(session); await _db.SaveChangesAsync(ct); }
         else if (session.Status != StudySessionStatus.Paused) throw new BusinessRuleException("SESSION_NOT_ACTIVE", "Only an active session can be paused.");
         return await BuildSessionDtoAsync(session.Id, ct);
@@ -435,7 +480,12 @@ public class StudySessionService : IStudySessionService
         var session = await LoadAsync(sessionId, requireOwner: true, ct);
         if (session.Status == StudySessionStatus.Completed) return await GetResultAsync(sessionId, ct);
         if (session.Status is StudySessionStatus.Abandoned) throw new BusinessRuleException("SESSION_ABANDONED", "This session was abandoned.");
+        await CompleteInternalAsync(session, force, ct);
+        return await GetResultAsync(sessionId, ct);
+    }
 
+    private async Task CompleteInternalAsync(StudySession session, bool force, CancellationToken ct)
+    {
         var unanswered = session.Activities.Count(a => a.QuestionId.HasValue && a.Status != SessionActivityStatus.Completed);
         if (unanswered > 0 && !force)
             throw new BusinessRuleException("SESSION_INCOMPLETE", $"There {(unanswered == 1 ? "is 1 question" : $"are {unanswered} questions")} still to answer. Finish them or complete with force=true to submit as-is.");
@@ -453,9 +503,14 @@ public class StudySessionService : IStudySessionService
         await _db.SaveChangesAsync(ct);
 
         await _progress.RecordSessionCompletionAsync(session, ct);
-        await _audit.LogAsync("Session.Complete", "StudySession", session.Id.ToString(), new { session.ScorePercent, session.Passed, session.ElapsedSeconds }, true, ct);
-        return await GetResultAsync(sessionId, ct);
+        if (IsAssessment(session)) await _assessments.RecordResultAsync(session, ct);
+        await _audit.LogAsync("Session.Complete", "StudySession", session.Id.ToString(), new { session.Type, session.ScorePercent, session.Passed, session.ElapsedSeconds }, true, ct);
     }
+
+    private static bool TimeIsUp(StudySession s) => s.TimeLimitMinutes.HasValue && s.StartedAt.HasValue && (DateTime.UtcNow - s.StartedAt.Value).TotalMinutes > s.TimeLimitMinutes.Value + 0.5;
+
+    private static int? SecondsRemaining(StudySession s) => s.TimeLimitMinutes.HasValue && s.StartedAt.HasValue
+        ? Math.Max(0, (int)(s.TimeLimitMinutes.Value * 60 - (DateTime.UtcNow - s.StartedAt.Value).TotalSeconds)) : null;
 
     public async Task<SessionResultDto> GetResultAsync(Guid sessionId, CancellationToken ct = default)
     {
@@ -502,12 +557,18 @@ public class StudySessionService : IStudySessionService
         }
         else { unlocked = true; canRetry = true; }
 
-        var message = passed
-            ? scorePercent >= 90 ? "Outstanding! You have mastered this material." : "Well done, you passed! Keep the momentum going."
-            : $"You scored {Math.Round(scorePercent)}%, below the {session.PassThresholdPercent}% needed to move on. Review your mistakes and try again, you're closer than you think.";
+        var isAssessment = IsAssessment(session);
+        var grade = GradeHelper.EstimateGrade(scorePercent);
+        var message = isAssessment
+            ? (passed ? $"Test passed with {Math.Round(scorePercent)}%, an estimated grade {grade}. {(scorePercent >= 85 ? "Excellent work." : "Solid work; keep reviewing the weaker points.")}"
+                      : $"You scored {Math.Round(scorePercent)}% (estimated grade {grade}), below the {session.PassThresholdPercent}% pass mark. Review the mistakes below, revisit the lessons, and re-sit when you're ready.")
+            : passed
+                ? scorePercent >= 90 ? "Outstanding! You have mastered this material." : "Well done, you passed! Keep the momentum going."
+                : $"You scored {Math.Round(scorePercent)}%, below the {session.PassThresholdPercent}% needed to move on. Review your mistakes and try again, you're closer than you think.";
+        if (isAssessment) { canRetry = true; unlocked = true; }
 
         return new SessionResultDto(summary, session.CurrentScore, session.MaxScore, scorePercent, passed, session.PassThresholdPercent, session.AttemptNumber,
-            canRetry, unlocked, nextId, nextTitle, bands, mistakes, message);
+            canRetry, unlocked, nextId, nextTitle, bands, mistakes, message, grade, isAssessment);
     }
 
     private static string Rate(decimal pct) => pct >= 85 ? "Strong" : pct >= 65 ? "Secure" : pct >= 45 ? "Developing" : "Needs practice";
@@ -604,18 +665,23 @@ public class StudySessionService : IStudySessionService
                 qdto = RenderQuestion(q, s.Id);
                 var last = s.Answers.Where(x => x.QuestionId == q.Id).OrderByDescending(x => x.AttemptNumber).FirstOrDefault();
                 var first = s.Answers.Where(x => x.QuestionId == q.Id).OrderBy(x => x.AttemptNumber).FirstOrDefault();
-                if (first != null) ans = new AnswerSummaryDto(first.Id, first.IsCorrect, first.Score, first.MaxScore, first.Feedback, first.AnswerText, ProgressService.ParseJson(first.AnswerJson), last!.AttemptNumber);
+                var hide = IsAssessment(s) && s.Status != StudySessionStatus.Completed;
+                if (first != null) ans = new AnswerSummaryDto(first.Id, hide ? false : first.IsCorrect, hide ? 0 : first.Score, first.MaxScore, hide ? "Answer recorded." : first.Feedback, first.AnswerText, ProgressService.ParseJson(first.AnswerJson), last!.AttemptNumber);
             }
             var la = a.LessonActivity;
             var type = la?.Type.ToString() ?? "Question";
-            var title = la?.Title ?? (s.Type == StudySessionType.Review ? $"Review question {a.SortOrder}" : $"Practice question {a.SortOrder}");
+            var title = la?.Title ?? (s.Type == StudySessionType.Review ? $"Review question {a.SortOrder}" : IsAssessment(s) ? $"Question {a.SortOrder}" : $"Practice question {a.SortOrder}");
             activities.Add(new SessionActivityDto(a.Id, a.SortOrder, type, title, a.Status.ToString(), la?.ContentMarkdown, la?.EstimatedMinutes ?? 3, la?.IsCheckpoint ?? false, qdto, ans));
         }
         var current = activities.FirstOrDefault(a => a.Id == s.CurrentActivityId);
-        var estimated = s.Lesson?.EstimatedMinutes ?? Math.Max(10, s.TotalQuestions * 3);
+        var estimated = s.TimeLimitMinutes ?? s.Lesson?.EstimatedMinutes ?? Math.Max(10, s.TotalQuestions * 3);
+        var progress = ToProgress(s);
+        if (IsAssessment(s) && s.Status != StudySessionStatus.Completed) progress = progress with { CurrentScore = 0, QuestionsCorrect = 0 };
+        var sessionTitle = s.Lesson?.Title ?? (s.AssessmentId.HasValue ? await _db.Assessments.Where(a => a.Id == s.AssessmentId).Select(a => a.Title).FirstOrDefaultAsync(ct) : null);
         return new StudySessionDto(s.Id, s.Type.ToString(), s.Status.ToString(), s.AttemptNumber, s.StudentId, s.SubjectId, subject.Name, subject.ColourHex,
-            s.TopicId, topic, s.SubTopicId, subTopic, s.LessonId, s.Lesson?.Title, estimated, s.PassThresholdPercent,
-            s.StartedAt, s.PausedAt, s.CompletedAt, s.LastActivityAt, ToProgress(s), current, activities, ProgressService.ParseJson(s.ClientStateJson));
+            s.TopicId, topic, s.SubTopicId, subTopic, s.LessonId, sessionTitle, estimated, s.PassThresholdPercent,
+            s.StartedAt, s.PausedAt, s.CompletedAt, s.LastActivityAt, progress, current, activities, ProgressService.ParseJson(s.ClientStateJson),
+            IsAssessment(s), s.TimeLimitMinutes, s.Status == StudySessionStatus.Active ? SecondsRemaining(s) : null);
     }
 
     /// <summary>Renders a question for the client without revealing answers. Ordering/matching options are shuffled deterministically per session.</summary>

@@ -1,7 +1,8 @@
 namespace Tutor365.Application.DTOs;
 
 public record CreateStudyPlanRequest(string Title, string? Notes, DateOnly? StartDate, DateOnly? EndDate, IReadOnlyList<StudyPlanItemInput> Items);
-public record StudyPlanItemInput(Guid SubjectId, Guid? TopicId, Guid? LessonId, string? Priority, DateOnly? DueDate, int? QuestionCount, string? Notes);
+/// <summary>ItemType: Lesson (needs lessonId) | TopicReview (topicId) | TopicTest (topicId) | MockExam (subject only).</summary>
+public record StudyPlanItemInput(Guid SubjectId, Guid? TopicId, Guid? LessonId, string? Priority, DateOnly? DueDate, int? QuestionCount, string? Notes, string? ItemType = null);
 public record StudyPlanDto(Guid Id, Guid StudentId, string StudentName, string Title, string? Notes, DateOnly? StartDate, DateOnly? EndDate, string Status, bool IsSystemGenerated,
     Guid? CreatedByUserId, DateTime CreatedAt, IReadOnlyList<StudyPlanItemDto> Items, int CompletedItems, int TotalItems);
 

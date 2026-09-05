@@ -95,6 +95,7 @@ public class ProgressService : IProgressService
         // ---- notifications ----
         var subjectName = await _db.Subjects.Where(s => s.Id == session.SubjectId).Select(s => s.Name).FirstAsync(ct);
         var lessonTitle = session.LessonId.HasValue ? await _db.Lessons.Where(l => l.Id == session.LessonId).Select(l => l.Title).FirstOrDefaultAsync(ct) : null;
+        if (session.Type is StudySessionType.Assessment or StudySessionType.Mock) return; // assessment notifications are sent by AssessmentService
         var what = lessonTitle ?? (session.Type == StudySessionType.Review ? "a review session" : "a practice session");
         await _notifications.NotifyParentsOfStudentAsync(student.Id, NotificationType.ChildActivity,
             $"{student.User.FirstName} completed {subjectName}",
@@ -267,10 +268,12 @@ public class ProgressService : IProgressService
         return topics.Select(t =>
         {
             var p = progress.FirstOrDefault(x => x.TopicId == t.Id);
+            var passedCount = passedByTopic.FirstOrDefault(x => x.TopicId == t.Id)?.Count ?? 0;
             return new TopicProgressDto(t.Id, t.Code, t.Name, t.SubjectId, t.SubjectName, Math.Round((p?.MasteryScore ?? 0) * 100, 1),
                 (p?.Status ?? MasteryStatus.NotStarted).ToString(), p?.QuestionsAttempted ?? 0, p?.QuestionsCorrect ?? 0,
-                passedByTopic.FirstOrDefault(x => x.TopicId == t.Id)?.Count ?? 0, t.LessonsTotal, p?.LastAttemptedAt, p?.NextReviewAt,
-                p?.NextReviewAt != null && p.NextReviewAt <= now, p?.ReviewCount ?? 0, Math.Round((p?.ConfidenceLevel ?? 0) * 100, 1));
+                passedCount, t.LessonsTotal, p?.LastAttemptedAt, p?.NextReviewAt,
+                p?.NextReviewAt != null && p.NextReviewAt <= now, p?.ReviewCount ?? 0, Math.Round((p?.ConfidenceLevel ?? 0) * 100, 1),
+                t.LessonsTotal > 0 && passedCount >= t.LessonsTotal && p?.AssessmentPassedAt == null, p?.LastAssessmentPercent, p?.AssessmentAttempts ?? 0, p?.AssessmentPassedAt);
         }).ToList();
     }
 
