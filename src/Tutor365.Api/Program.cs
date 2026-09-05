@@ -115,6 +115,12 @@ using (var scope = app.Services.CreateScope())
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     await db.Database.MigrateAsync();
     await scope.ServiceProvider.GetRequiredService<DatabaseSeeder>().SeedAsync();
+    var appOptions = scope.ServiceProvider.GetRequiredService<IOptions<AppOptions>>().Value;
+    if (appOptions.ImportContentOnStartup)
+    {
+        var contentPath = Path.IsPathRooted(appOptions.ContentPath) ? appOptions.ContentPath : Path.GetFullPath(Path.Combine(app.Environment.ContentRootPath, appOptions.ContentPath));
+        await scope.ServiceProvider.GetRequiredService<ContentSeeder>().ImportDirectoryAsync(contentPath);
+    }
 }
 
 // ---- pipeline ----

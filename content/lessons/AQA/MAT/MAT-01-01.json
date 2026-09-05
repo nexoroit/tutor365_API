@@ -1,0 +1,96 @@
+{
+  "subTopicCode": "MAT-01-01",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-01-01-L1",
+      "title": "Place value, ordering and the four operations",
+      "summary": "Read and order whole numbers and decimals using place value, then add, subtract, multiply and divide confidently without a calculator, including with negative numbers.",
+      "objectives": [
+        "I can state the value of any digit in a whole number or decimal.",
+        "I can order positive and negative numbers and decimals from smallest to largest.",
+        "I can add, subtract, multiply and divide whole numbers and decimals using written methods.",
+        "I can use the rules for adding, subtracting, multiplying and dividing negative numbers.",
+        "I can apply the correct order of operations (BIDMAS) to a calculation."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 2,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Place value", "minutes": 4, "content": "## Place value\n\nEvery digit in a number has a **value that depends on its position**. Moving one column to the left multiplies the value by 10; moving one column to the right divides it by 10.\n\n| Thousands | Hundreds | Tens | Units | . | Tenths | Hundredths | Thousandths |\n|---|---|---|---|---|---|---|---|\n| 1000 | 100 | 10 | 1 | . | 0.1 | 0.01 | 0.001 |\n\nIn the number **4 726.385**:\n\n- the 4 is worth 4 000\n- the 7 is worth 700\n- the 2 is worth 20\n- the 6 is worth 6\n- the 3 is worth 0.3 (three tenths)\n- the 8 is worth 0.08 (eight hundredths)\n- the 5 is worth 0.005 (five thousandths)\n\n**Multiplying and dividing by powers of 10** simply slides the digits along the columns. Multiplying by 100 moves every digit two places to the left, so $3.7 \\times 100 = 370$. Dividing by 1000 moves every digit three places to the right, so $52 \\div 1000 = 0.052$.\n\nThe decimal point never moves; it is the **digits** that move. Zeros are used to fill any empty columns." },
+        { "type": "Example", "title": "Worked example: reading place value", "minutes": 3, "content": "**Question:** In the number 30 519.47, what is the value of the digit 5, and what is $30\\,519.47 \\div 100$?\n\n**Value of the 5**\n\nCount the columns from the units: 9 is units, 1 is tens, 5 is hundreds. So the 5 is worth **500**.\n\n**Dividing by 100**\n\nDividing by 100 moves every digit two places to the right:\n\n```\n30519.47  ÷ 100\n  305.1947\n```\n\nSo $30\\,519.47 \\div 100 = 305.1947$.\n\n**Check:** the answer should be about a hundred times smaller. 30 000 ÷ 100 = 300, and 305 is close to 300, so it looks right." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-01-L1-Q1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1,
+          "text": "Work out $0.0468 \\times 1000$.",
+          "hint": "Multiplying by 1000 moves every digit three places to the left.",
+          "explanation": "Each digit moves three places to the left: 0.0468 becomes 46.8.",
+          "answers": [ { "numeric": 46.8, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "Ordering numbers", "minutes": 4, "content": "## Ordering numbers\n\nTo order **whole numbers**, compare the number of digits first (more digits means larger), then compare from the left-hand digit onwards.\n\nTo order **decimals**, line up the decimal points and compare column by column from the left. It helps to write extra zeros so every number has the same number of decimal places.\n\nFor example, to order 0.72, 0.7, 0.725 and 0.69:\n\n| Number | Written with 3 d.p. |\n|---|---|\n| 0.72 | 0.720 |\n| 0.7 | 0.700 |\n| 0.725 | 0.725 |\n| 0.69 | 0.690 |\n\nSmallest to largest: **0.69, 0.7, 0.72, 0.725**.\n\n**Negative numbers** are always smaller than positive numbers, and the further a negative number is from zero, the smaller it is. So $-8 < -3 < 0 < 2$.\n\nA number line is a great tool: numbers to the left are smaller, numbers to the right are larger.\n\nThe symbols to remember:\n\n- $<$ means *less than*\n- $>$ means *greater than*\n- $\\le$ and $\\ge$ include *or equal to*" },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-01-L1-Q2", "type": "Ordering", "difficulty": 2, "marks": 1,
+          "text": "Put these numbers in order from smallest to largest.",
+          "hint": "Negative numbers come first. Rewrite the decimals with the same number of decimal places before comparing.",
+          "explanation": "Negatives first: −4.5 is further from zero than −4.05, so −4.5 is smallest. Then 0.3, then 0.35 (0.350) which is less than 0.4 (0.400).",
+          "order": [ "-4.5", "-4.05", "0.3", "0.35", "0.4" ] } },
+        { "type": "Explanation", "title": "Adding, subtracting and multiplying without a calculator", "minutes": 5, "content": "## Written methods\n\n**Column addition and subtraction**\n\nLine up the digits by place value (decimal points under each other). Add or subtract each column starting from the right, carrying or borrowing as needed.\n\n```\n   4 8 . 3 5\n +   9 . 8\n -----------\n   5 8 . 1 5\n```\n\n**Long multiplication**\n\nFor $347 \\times 26$, split 26 into 20 and 6:\n\n```\n    3 4 7\n  ×   2 6\n  -------\n  2 0 8 2   (347 × 6)\n  6 9 4 0   (347 × 20)\n  -------\n  9 0 2 2\n```\n\nSo $347 \\times 26 = 9\\,022$.\n\n**Multiplying decimals**\n\nIgnore the decimal points, multiply the whole numbers, then count the total number of decimal places in the question and put that many in the answer.\n\n$0.6 \\times 0.03$: work out $6 \\times 3 = 18$. There are 1 + 2 = 3 decimal places altogether, so the answer is $0.018$.\n\nA good habit is to **estimate first**: $0.6 \\times 0.03$ is a bit more than half of 0.03, so 0.018 is sensible." },
+        { "type": "Example", "title": "Worked example: multiplying decimals", "minutes": 3, "content": "**Question:** Work out $2.4 \\times 1.35$.\n\n**Step 1 – Remove the decimal points.** Work out $24 \\times 135$.\n\n```\n    1 3 5\n  ×   2 4\n  -------\n    5 4 0   (135 × 4)\n  2 7 0 0   (135 × 20)\n  -------\n  3 2 4 0\n```\n\n**Step 2 – Count the decimal places.** 2.4 has one, 1.35 has two, so the answer needs **three**.\n\n3240 with three decimal places is 3.240, so $2.4 \\times 1.35 = 3.24$.\n\n**Step 3 – Check by estimating.** $2.4 \\times 1.35$ is roughly $2 \\times 1.5 = 3$, so 3.24 is sensible." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-01-L1-Q3", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
+          "text": "Work out $3.8 \\times 0.45$ without a calculator.",
+          "hint": "Work out 38 × 45 first, then count the decimal places in the question.",
+          "explanation": "38 × 45 = 1710. There are 1 + 2 = 3 decimal places in the question, so the answer is 1.710 = 1.71.",
+          "answers": [ { "numeric": 1.71, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Division and negative numbers", "minutes": 5, "content": "## Division\n\n**Short division** (bus-stop method) works for dividing by a single digit or a small number. For larger divisors use **long division** or chunking.\n\n**Dividing decimals:** make the divisor a whole number by multiplying *both* numbers by 10, 100 or 1000. The answer does not change because you have scaled both by the same amount.\n\n$8.4 \\div 0.4 = 84 \\div 4 = 21$\n\n## Negative numbers\n\n**Adding and subtracting**\n\n- Adding a negative is the same as subtracting: $5 + (-3) = 5 - 3 = 2$\n- Subtracting a negative is the same as adding: $5 - (-3) = 5 + 3 = 8$\n\n**Multiplying and dividing**\n\n| Signs | Result |\n|---|---|\n| same signs (+ +) or (− −) | positive |\n| different signs (+ −) or (− +) | negative |\n\nSo $(-6) \\times (-4) = 24$ and $18 \\div (-3) = -6$.\n\n## Order of operations: BIDMAS\n\n**B**rackets, **I**ndices, **D**ivision and **M**ultiplication (left to right), **A**ddition and **S**ubtraction (left to right).\n\n$3 + 4 \\times 2^2 = 3 + 4 \\times 4 = 3 + 16 = 19$" },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-01-L1-Q4", "type": "NumericalAnswer", "difficulty": 2, "marks": 1,
+          "text": "Work out $(-7) \\times (-3) + 12 \\div (-4)$.",
+          "hint": "Do the multiplication and the division first, then add. Remember: same signs give a positive, different signs give a negative.",
+          "explanation": "(−7) × (−3) = 21. 12 ÷ (−4) = −3. Then 21 + (−3) = 18.",
+          "answers": [ { "numeric": 18, "tolerance": 0 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-01-L1-Q5", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "Which calculation has the answer 5?",
+          "hint": "Use BIDMAS: indices before multiplication, multiplication before subtraction.",
+          "explanation": "20 − 3 × 5 = 20 − 15 = 5. The other options give 85, 27 and 13 respectively.",
+          "options": [
+            { "text": "$20 - 3 \\times 5$", "correct": true },
+            { "text": "$(20 - 3) \\times 5$", "correct": false, "feedback": "The brackets change the order: 17 × 5 = 85." },
+            { "text": "$30 - 3 \\times 1$", "correct": false, "feedback": "3 × 1 = 3, so this is 30 − 3 = 27." },
+            { "text": "$1 + 2^2 \\times 3$", "correct": false, "feedback": "2² = 4, then 4 × 3 = 12, then 1 + 12 = 13." } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-01-L1-Q6", "type": "Matching", "difficulty": 2, "marks": 4,
+          "text": "Match each calculation to its answer.",
+          "hint": "Make the divisor a whole number before dividing decimals, and check the signs carefully.",
+          "explanation": "7.2 ÷ 0.9 = 72 ÷ 9 = 8. (−5) − (−9) = −5 + 9 = 4. 0.4 × 0.4 = 0.16. (−36) ÷ 4 = −9.",
+          "pairs": [
+            { "left": "$7.2 \\div 0.9$", "right": "8" },
+            { "left": "$(-5) - (-9)$", "right": "4" },
+            { "left": "$0.4 \\times 0.4$", "right": "0.16" },
+            { "left": "$(-36) \\div 4$", "right": "-9" } ] } },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-01-01-L1-Q7", "type": "ExamQuestion", "difficulty": 3, "marks": 3, "examStyle": true,
+          "text": "A school orders 24 boxes of exercise books. Each box holds 36 books and each book costs £1.15.\n\n(a) Work out the total number of books ordered.\n\n(b) Work out the total cost of the order. Show your working.",
+          "hint": "First multiply 24 by 36, then multiply the number of books by 1.15. You could work out 864 × 115 and then place the decimal point.",
+          "explanation": "(a) 24 × 36 = 864 books. (b) 864 × £1.15: 864 × 1 = 864, 864 × 0.15 = 129.60, total = £993.60.",
+          "markScheme": [
+            { "criterion": "Correct number of books: 864", "marks": 1, "keywords": [ ["864 books", "= 864", "864"] ] },
+            { "criterion": "Correct method for the cost, e.g. 864 × 1.15 or 864 × 115 with decimal placed afterwards", "marks": 1, "keywords": [ ["864 × 1.15", "864 x 1.15", "864 × 115", "864 x 115", "1.15 × 864"] ] },
+            { "criterion": "Correct total cost: £993.60", "marks": 1, "keywords": [ ["993.60", "993.6"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- The **value of a digit** depends on its column; multiplying or dividing by 10, 100 or 1000 slides the digits, not the decimal point.\n- To **order decimals**, line up the decimal points and pad with zeros. Negative numbers are smaller the further they are from zero.\n- **Multiply decimals** by ignoring the points, multiplying, then counting decimal places.\n- **Divide by a decimal** by scaling both numbers up to make the divisor a whole number.\n- Same signs give a **positive** product or quotient; different signs give a **negative**.\n- **BIDMAS**: brackets, indices, division/multiplication, addition/subtraction." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-01-01-L1-P1", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "What is the value of the digit 7 in the number 2 073.16?", "hint": "Count the columns to the left of the decimal point: units, tens, hundreds...", "explanation": "The 7 is in the tens column, so it is worth 70.", "options": [ { "text": "70", "correct": true }, { "text": "700", "correct": false }, { "text": "7", "correct": false }, { "text": "0.7", "correct": false } ] },
+        { "key": "AQA-MAT-01-01-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Work out $63.9 \\div 100$.", "hint": "Dividing by 100 moves every digit two places to the right.", "explanation": "63.9 ÷ 100 = 0.639.", "answers": [ { "numeric": 0.639, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-01-L1-P3", "type": "Ordering", "difficulty": 2, "marks": 1, "text": "Arrange these numbers from largest to smallest.", "hint": "Largest first this time. Write the decimals with two decimal places to compare them.", "explanation": "1.2 (1.20) is the largest, then 1.05, then 0.9 (0.90), then −0.5, then −2.", "order": [ "1.2", "1.05", "0.9", "-0.5", "-2" ] },
+        { "key": "AQA-MAT-01-01-L1-P4", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "Work out $416 \\times 37$ without a calculator.", "hint": "Split 37 into 30 and 7, multiply 416 by each, then add.", "explanation": "416 × 7 = 2 912. 416 × 30 = 12 480. 2 912 + 12 480 = 15 392.", "answers": [ { "numeric": 15392, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-01-L1-P5", "type": "NumericalAnswer", "difficulty": 2, "marks": 1, "text": "Work out $5.6 \\div 0.07$.", "hint": "Multiply both numbers by 100 so you are dividing by a whole number.", "explanation": "5.6 ÷ 0.07 = 560 ÷ 7 = 80.", "answers": [ { "numeric": 80, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-01-L1-P6", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: $-3 - (-8) = -11$.", "hint": "Subtracting a negative is the same as adding.", "explanation": "False. −3 − (−8) = −3 + 8 = 5.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-01-01-L1-P7", "type": "NumericalAnswer", "difficulty": 3, "marks": 1, "text": "Work out $(2 + 3)^2 - 24 \\div 6 \\times 2$.", "hint": "Brackets first, then the index, then division and multiplication from left to right, then subtract.", "explanation": "(2 + 3)² = 25. 24 ÷ 6 = 4, then 4 × 2 = 8. 25 − 8 = 17.", "answers": [ { "numeric": 17, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-01-L1-P8", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentences about multiplying and dividing negative numbers.", "metadata": { "blanksText": "When two numbers with different signs are multiplied, the answer is ___. When two negative numbers are divided, the answer is ___." }, "hint": "Same signs and different signs give different results.", "explanation": "Different signs give a negative answer; the same signs (two negatives) give a positive answer.", "answers": [ { "text": "negative", "blankIndex": 0, "marks": 1 }, { "text": "positive", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-01-01-L1-P9", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "The temperature in a freezer is $-18\\,°C$. It rises by 3.5 °C every hour after the power fails. What is the temperature after 4 hours? Give your answer in °C.", "hint": "Find the total rise first, then add it to −18.", "explanation": "Total rise = 4 × 3.5 = 14 °C. −18 + 14 = −4 °C.", "answers": [ { "numeric": -4, "tolerance": 0, "unit": "°C", "marks": 2 } ] },
+        { "key": "AQA-MAT-01-01-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Priya says that $0.3 \\times 0.3 = 0.9$. Explain why Priya is wrong and give the correct answer.", "hint": "How many decimal places should the answer have?", "explanation": "3 × 3 = 9, but there are two decimal places in the question (one in each 0.3), so the answer is 0.09. Priya only used one decimal place.", "markScheme": [ { "criterion": "Identifies the error: the answer needs two decimal places (one from each factor)", "marks": 1, "keywords": [ ["two decimal places", "2 decimal places", "decimal places", "one decimal place", "1 decimal place"] ] }, { "criterion": "Gives the correct answer 0.09", "marks": 1, "keywords": [ ["0.09", "= 0.09"] ] } ] },
+        { "key": "AQA-MAT-01-01-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "A lift has a maximum safe load of 620 kg. Seven people with a mean mass of 78.5 kg get into the lift together with a trolley of mass 84.6 kg.\n\nShow that the lift is overloaded, and work out by how many kilograms.", "hint": "Find the total mass of the people first (7 × 78.5), add the trolley, then compare with 620.", "explanation": "Mass of the people = 7 × 78.5 = 549.5 kg. Total load = 549.5 + 84.6 = 634.1 kg. This is more than 620 kg, so the lift is overloaded by 634.1 − 620 = 14.1 kg.", "markScheme": [ { "criterion": "Correct mass of the seven people: 549.5 kg", "marks": 1, "keywords": [ ["549.5", "549.50"] ] }, { "criterion": "Correct total load: 634.1 kg, which is greater than 620 kg", "marks": 1, "keywords": [ ["634.1", "634.10"] ] }, { "criterion": "Overloaded by 14.1 kg", "marks": 1, "keywords": [ ["14.1", "14.10"] ] } ] }
+      ]
+    }
+  ]
+}

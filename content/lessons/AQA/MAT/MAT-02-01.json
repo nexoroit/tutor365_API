@@ -1,0 +1,94 @@
+{
+  "subTopicCode": "MAT-02-01",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-02-01-L1",
+      "title": "Algebraic notation and simplifying expressions",
+      "summary": "Learn how algebra is written, how to collect like terms, and how to multiply and divide terms using the index laws.",
+      "objectives": [
+        "I can read and write expressions using correct algebraic notation.",
+        "I can simplify expressions by collecting like terms.",
+        "I can multiply and divide algebraic terms, including powers of the same letter.",
+        "I can tell the difference between an expression, an equation, a formula and an identity."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 2,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "How algebra is written", "minutes": 4, "content": "## The rules of algebraic notation\n\nAlgebra uses letters to stand for numbers we do not know yet. To keep things short, mathematicians leave out some symbols:\n\n| In words | Written as | Never write |\n|---|---|---|\n| 3 multiplied by $n$ | $3n$ | $3 \\times n$ or $n3$ |\n| $a$ multiplied by $b$ | $ab$ | $a \\times b$ |\n| $y$ multiplied by $y$ | $y^2$ | $yy$ |\n| $p$ divided by 4 | $\\frac{p}{4}$ | $p \\div 4$ |\n| 1 multiplied by $x$ | $x$ | $1x$ |\n\nSome extra conventions:\n\n- The number always goes **in front** of the letter: $5k$, not $k5$.\n- Letters are usually written in **alphabetical order**: $3ab$ rather than $3ba$.\n- $2n + 5$ means \"double $n$, then add 5\". The multiplication happens first, following BIDMAS.\n- $\\frac{n+5}{2}$ means \"add 5 to $n$, then halve the result\". The fraction bar acts like a bracket.\n\nA **term** is a single piece of an expression, such as $4x$, $-7$ or $2y^2$. The number in front of a letter is its **coefficient**: in $4x$ the coefficient is 4, and in $-y$ the coefficient is $-1$." },
+        { "type": "Example", "title": "Worked example: turning words into algebra", "minutes": 3, "content": "**A gym charges a joining fee of £15 plus £8 for each session. Write an expression for the cost of $s$ sessions.**\n\nEach session costs £8, so $s$ sessions cost $8 \\times s = 8s$. Add the joining fee:\n\n$$8s + 15$$\n\n**Write an expression for \"a number is trebled, then 6 is subtracted, then the result is halved\".**\n\nCall the number $m$.\n\n1. Treble it: $3m$\n2. Subtract 6: $3m - 6$\n3. Halve the whole thing: $\\frac{3m - 6}{2}$\n\nNotice that $\\frac{3m-6}{2}$ is different from $3m - \\frac{6}{2}$. The fraction bar tells you the *whole* of $3m - 6$ is being halved." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-01-L1-Q1", "type": "MultipleChoice", "difficulty": 1, "marks": 1,
+          "text": "Which of these is the correct way to write $4 \\times y \\times y$?",
+          "hint": "Multiplying a letter by itself gives a power, and the number goes at the front.",
+          "explanation": "$y \\times y = y^2$, and the 4 is written in front: $4y^2$. Writing $4yy$ or $y4y$ breaks the notation rules, and $(4y)^2$ would be $16y^2$.",
+          "options": [
+            { "text": "$4y^2$", "correct": true },
+            { "text": "$4yy$", "correct": false, "feedback": "A letter multiplied by itself is written as a power." },
+            { "text": "$(4y)^2$", "correct": false, "feedback": "This squares the 4 as well, giving $16y^2$." },
+            { "text": "$y4y$", "correct": false, "feedback": "Numbers go at the front of a term." } ] } },
+        { "type": "Explanation", "title": "Collecting like terms", "minutes": 5, "content": "## Like terms\n\n**Like terms** have exactly the same letters raised to exactly the same powers. Only the coefficient can differ.\n\n- $3x$, $-7x$ and $\\frac{1}{2}x$ are like terms.\n- $5y^2$ and $2y^2$ are like terms.\n- $4x$ and $4x^2$ are **not** like terms, because the powers are different.\n- $3ab$ and $3a$ are **not** like terms.\n\nTo **simplify** an expression, add or subtract the coefficients of like terms. Unlike terms stay separate.\n\n### Method\n\n1. Underline or colour each group of like terms.\n2. Keep the sign that sits **in front** of each term attached to it.\n3. Add the coefficients within each group.\n4. Write the answer, usually with the highest power first.\n\nFor example, $6p + 2 - 4p + 9 = 2p + 11$.\n\nA common slip is to lose a minus sign. In $8m - 5m - 2m$, the $-5$ and the $-2$ *both* take away from 8, giving $1m$, which we write as $m$. Constants (plain numbers) are like terms with each other, so $7 - 3 + 1 = 5$." },
+        { "type": "Example", "title": "Worked example: simplifying with several letters", "minutes": 3, "content": "**Simplify $5x + 3y - 2x + y - 4$.**\n\nGroup the terms, keeping each sign with its term:\n\n- $x$ terms: $5x - 2x = 3x$\n- $y$ terms: $3y + y = 4y$ (remember $y$ means $1y$)\n- Constants: $-4$\n\nAnswer: $3x + 4y - 4$\n\n**Simplify $2a^2 + 7a - a^2 + 3a - a$.**\n\n- $a^2$ terms: $2a^2 - a^2 = a^2$\n- $a$ terms: $7a + 3a - a = 9a$\n\nAnswer: $a^2 + 9a$\n\nThe $a^2$ and $a$ terms cannot be combined because they have different powers. An expression like $a^2 + 9a$ is as simple as it gets." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-01-L1-Q2", "type": "Equation", "difficulty": 2, "marks": 2,
+          "text": "Simplify fully $7a + 4b - 3a - 6b$.",
+          "hint": "Deal with the $a$ terms and the $b$ terms separately. Type your answer without spaces, letters in alphabetical order, e.g. 2a-5b.",
+          "explanation": "$a$ terms: $7a - 3a = 4a$. $b$ terms: $4b - 6b = -2b$. So the simplified expression is $4a - 2b$.",
+          "answers": [ { "text": "4a-2b", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Multiplying and dividing terms", "minutes": 5, "content": "## Multiplying terms\n\nWhen you multiply terms, multiply the numbers together and multiply the letters together.\n\n$$3a \\times 4b = 12ab$$\n\nWhen the **same letter** appears in both terms, use the index law: **add the powers**.\n\n$$x^2 \\times x^5 = x^{7} \\qquad 2p^3 \\times 5p^4 = 10p^7$$\n\nRemember a plain letter has power 1, so $y \\times y^4 = y^5$.\n\n## Dividing terms\n\nDivide the numbers, and for the same letter **subtract the powers**.\n\n$$\\frac{12x^5}{4x^2} = 3x^3 \\qquad \\frac{20m^6n}{5m^2} = 4m^4n$$\n\n## Raising a term to a power\n\nApply the power to **everything** inside the bracket. For the letter, **multiply** the powers.\n\n$$(2k^3)^2 = 2^2 \\times k^{6} = 4k^6$$\n\n### Summary of index laws\n\n| Rule | Example |\n|---|---|\n| $a^m \\times a^n = a^{m+n}$ | $a^3 \\times a^2 = a^5$ |\n| $a^m \\div a^n = a^{m-n}$ | $a^8 \\div a^2 = a^6$ |\n| $(a^m)^n = a^{mn}$ | $(a^4)^3 = a^{12}$ |\n| $a^1 = a$ and $a^0 = 1$ | $t \\div t = 1$ |" },
+        { "type": "Example", "title": "Worked example: index laws in action", "minutes": 3, "content": "**Simplify $3p^2 \\times 4p^5$.**\n\nNumbers: $3 \\times 4 = 12$. Letters: $p^2 \\times p^5 = p^{2+5} = p^7$.\n\nAnswer: $12p^7$\n\n**Simplify $\\frac{15m^6}{5m^2}$.**\n\nNumbers: $15 \\div 5 = 3$. Letters: $m^{6-2} = m^4$.\n\nAnswer: $3m^4$\n\n**Simplify $(5x^2y)^2$.**\n\nSquare each part: $5^2 = 25$, $(x^2)^2 = x^4$, $y^2$.\n\nAnswer: $25x^4y^2$\n\n**Simplify $2a \\times 3a \\times a$.**\n\nNumbers: $2 \\times 3 \\times 1 = 6$. Letters: $a \\times a \\times a = a^3$.\n\nAnswer: $6a^3$" },
+        { "type": "Question", "title": "Match them up", "question": {
+          "key": "AQA-MAT-02-01-L1-Q3", "type": "Matching", "difficulty": 2, "marks": 4,
+          "text": "Match each expression on the left with its simplified form on the right.",
+          "hint": "Multiply or divide the numbers first, then deal with the powers of the letters.",
+          "explanation": "$2x \\times 5x = 10x^2$; $x^3 \\times x^4 = x^7$; $18x^6 \\div 3x^2 = 6x^4$; $(3x^2)^2 = 9x^4$.",
+          "pairs": [
+            { "left": "$2x \\times 5x$", "right": "$10x^2$" },
+            { "left": "$x^3 \\times x^4$", "right": "$x^7$" },
+            { "left": "$18x^6 \\div 3x^2$", "right": "$6x^4$" },
+            { "left": "$(3x^2)^2$", "right": "$9x^4$" } ] } },
+        { "type": "Question", "title": "Put the steps in order", "question": {
+          "key": "AQA-MAT-02-01-L1-Q4", "type": "Ordering", "difficulty": 2, "marks": 1,
+          "text": "A student wants to simplify $4t \\times 3t^2 + 5t^3$. Put the steps in the correct order.",
+          "hint": "BIDMAS: multiplication comes before addition.",
+          "explanation": "First multiply $4t \\times 3t^2$ to get $12t^3$ (multiply the numbers, add the powers). Only then can you collect the like terms $12t^3 + 5t^3 = 17t^3$.",
+          "order": [
+            "Multiply the coefficients: 4 × 3 = 12",
+            "Add the powers of t: t × t² = t³",
+            "Write the product as 12t³",
+            "Collect like terms: 12t³ + 5t³ = 17t³" ] } },
+        { "type": "Explanation", "title": "Expression, equation, formula or identity?", "minutes": 4, "content": "## Four words you must know\n\nExam questions often ask you to say which type of statement something is.\n\n| Word | Meaning | Example |\n|---|---|---|\n| **Expression** | A collection of terms with **no equals sign** | $3x + 2y - 1$ |\n| **Equation** | Has an equals sign and is true for **particular values** only. You can solve it. | $3x + 2 = 11$ (true only when $x = 3$) |\n| **Formula** | A rule connecting two or more variables, with a subject on one side | $A = \\pi r^2$, $v = u + at$ |\n| **Identity** | True for **every** value of the letters. Often written with $\\equiv$ | $2(x + 3) \\equiv 2x + 6$ |\n\n### How to tell them apart\n\n- No equals sign? It is an **expression**.\n- Equals sign and more than one letter, describing a real relationship? Probably a **formula**.\n- Equals sign with one unknown that you could find? An **equation**.\n- Both sides simplify to the same thing? An **identity**.\n\nTest for an identity by trying a value: $x = 1$ gives $2(1+3) = 8$ and $2(1) + 6 = 8$. Try $x = 5$: $16$ and $16$. It works every time, so it is an identity." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-01-L1-Q5", "type": "NumericalAnswer", "difficulty": 2, "marks": 1,
+          "text": "When $3x \\times 2x \\times 4$ is simplified, what is the coefficient of $x^2$?",
+          "hint": "Multiply all the numbers together; the letters give $x^2$.",
+          "explanation": "$3 \\times 2 \\times 4 = 24$ and $x \\times x = x^2$, so the term is $24x^2$ and the coefficient is 24.",
+          "answers": [ { "numeric": 24, "tolerance": 0 } ] } },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-02-01-L1-Q6", "type": "ExamQuestion", "difficulty": 3, "marks": 3, "examStyle": true,
+          "text": "A rectangle has length $5n$ cm and width $3n$ cm.\n\n(a) Write and simplify an expression for the perimeter of the rectangle. **(2 marks)**\n\n(b) Write a simplified expression for the area of the rectangle. **(1 mark)**",
+          "hint": "Perimeter adds all four sides; area multiplies length by width.",
+          "explanation": "(a) Perimeter $= 5n + 3n + 5n + 3n = 16n$ cm. (b) Area $= 5n \\times 3n = 15n^2$ cm².",
+          "markScheme": [
+            { "criterion": "Adds all four sides, e.g. 5n + 3n + 5n + 3n or 2(5n + 3n)", "marks": 1, "keywords": [ ["5n+3n", "5n + 3n", "2(5n", "2(3n", "8n"] ] },
+            { "criterion": "Perimeter simplified to 16n", "marks": 1, "keywords": [ ["16n", "16 n"] ] },
+            { "criterion": "Area = 15n²", "marks": 1, "keywords": [ ["15n^2", "15n²", "15n2", "15 n^2"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Leave out multiplication signs: $3 \\times a \\times b$ is written $3ab$, and $y \\times y = y^2$.\n- **Like terms** share the same letters and powers; add their coefficients to simplify, keeping each sign with its term.\n- Multiply terms: multiply the numbers and **add** the powers. Divide terms: divide the numbers and **subtract** the powers. Raise to a power: **multiply** the powers.\n- An **expression** has no equals sign; an **equation** is true for some values; a **formula** links variables; an **identity** is true for all values." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-02-01-L1-P1", "type": "Equation", "difficulty": 1, "marks": 1, "text": "Simplify $9k - 4k + 2k$.", "hint": "All three are like terms. Type your answer like 5k.", "explanation": "$9 - 4 + 2 = 7$, so the answer is $7k$.", "answers": [ { "text": "7k", "caseSensitive": false } ] },
+        { "key": "AQA-MAT-02-01-L1-P2", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: $3x$ and $3x^2$ are like terms.", "hint": "Look at the powers of $x$.", "explanation": "False. Like terms must have the same letter raised to the same power. $x$ and $x^2$ are different powers.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-02-01-L1-P3", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "Which expression means \"add 4 to a number $n$, then multiply the result by 3\"?", "hint": "The addition must happen first, so it needs to be inside a bracket.", "explanation": "Adding first and then multiplying the whole result by 3 gives $3(n + 4)$. Without the bracket, $3n + 4$ multiplies only the $n$.", "options": [ { "text": "$3(n + 4)$", "correct": true }, { "text": "$3n + 4$", "correct": false, "feedback": "This multiplies $n$ by 3 first and then adds 4." }, { "text": "$n + 12$", "correct": false }, { "text": "$\\frac{n + 4}{3}$", "correct": false, "feedback": "This divides rather than multiplies." } ] },
+        { "key": "AQA-MAT-02-01-L1-P4", "type": "Equation", "difficulty": 2, "marks": 2, "text": "Simplify fully $6p + 2q - p - 5q + 3$.", "hint": "Collect the $p$ terms, then the $q$ terms; the 3 stays on its own. Type your answer without spaces, e.g. 2p-3q+1.", "explanation": "$6p - p = 5p$; $2q - 5q = -3q$; constant $+3$. Answer: $5p - 3q + 3$.", "answers": [ { "text": "5p-3q+3", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-01-L1-P5", "type": "Equation", "difficulty": 2, "marks": 1, "text": "Simplify $4m^3 \\times 2m^2$.", "hint": "Multiply the numbers and add the powers. Type your answer like 8m^5.", "explanation": "$4 \\times 2 = 8$ and $m^3 \\times m^2 = m^5$, giving $8m^5$.", "answers": [ { "text": "8m^5", "caseSensitive": false } ] },
+        { "key": "AQA-MAT-02-01-L1-P6", "type": "NumericalAnswer", "difficulty": 3, "marks": 1, "text": "$\\frac{24x^8}{6x^3}$ simplifies to $ax^b$. Work out the value of $a + b$.", "hint": "Divide the numbers and subtract the powers.", "explanation": "$24 \\div 6 = 4$ and $x^{8-3} = x^5$, so $a = 4$, $b = 5$ and $a + b = 9$.", "answers": [ { "numeric": 9, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-01-L1-P7", "type": "Matching", "difficulty": 3, "marks": 4, "text": "Match each statement to the correct description.", "hint": "Look for an equals sign first, then ask whether it is true for every value.", "explanation": "$2x + 7$ has no equals sign, so it is an expression. $2x + 7 = 15$ is only true when $x = 4$, so it is an equation. $P = 2l + 2w$ links variables, so it is a formula. $3(x - 2) \\equiv 3x - 6$ is true for all $x$, so it is an identity.", "pairs": [ { "left": "$2x + 7$", "right": "Expression" }, { "left": "$2x + 7 = 15$", "right": "Equation" }, { "left": "$P = 2l + 2w$", "right": "Formula" }, { "left": "$3(x - 2) \\equiv 3x - 6$", "right": "Identity" } ] },
+        { "key": "AQA-MAT-02-01-L1-P8", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentence about index laws.", "metadata": { "blanksText": "When multiplying powers of the same letter you ___ the powers, and when dividing you ___ the powers." }, "hint": "$x^2 \\times x^3 = x^5$ and $x^5 \\div x^3 = x^2$.", "explanation": "Multiplying adds the powers ($2 + 3 = 5$); dividing subtracts them ($5 - 3 = 2$).", "answers": [ { "text": "add", "blankIndex": 0, "marks": 1 }, { "text": "subtract", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-02-01-L1-P9", "type": "MultipleAnswer", "difficulty": 3, "marks": 2, "text": "Select **all** the expressions that simplify to $12y^6$.", "hint": "Check both the number and the power in each case.", "explanation": "$3y^2 \\times 4y^4 = 12y^6$ and $(2y^2)^2 \\times 3y^2 = 4y^4 \\times 3y^2 = 12y^6$. But $6y^3 + 6y^3 = 12y^3$ (adding does not change the power) and $36y^{12} \\div 3y^2 = 12y^{10}$.", "options": [ { "text": "$3y^2 \\times 4y^4$", "correct": true }, { "text": "$6y^3 + 6y^3$", "correct": false, "feedback": "Adding like terms keeps the same power: $12y^3$." }, { "text": "$(2y^2)^2 \\times 3y^2$", "correct": true }, { "text": "$36y^{12} \\div 3y^2$", "correct": false, "feedback": "Subtract the powers: $12 - 2 = 10$." } ] },
+        { "key": "AQA-MAT-02-01-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Ayesha says that $5x - 2x - x$ simplifies to $4x$. Explain the mistake she has made and give the correct answer.", "hint": "What sign is attached to the final $x$?", "explanation": "Both the $2x$ and the $x$ are subtracted. $5 - 2 - 1 = 2$, so the correct answer is $2x$. Ayesha probably added the $x$ instead of subtracting it, or ignored that $x$ has coefficient 1.", "markScheme": [ { "criterion": "Identifies that the final x is subtracted (coefficient 1), not added", "marks": 1, "keywords": [ ["subtract", "minus", "take away", "added instead", "coefficient"] ] }, { "criterion": "Gives the correct simplified answer 2x", "marks": 1, "keywords": [ ["2x", "= 2x", "2 x"] ] } ] },
+        { "key": "AQA-MAT-02-01-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "A triangle has sides of length $2x + 3$, $3x - 1$ and $x + 5$ cm.\n\n(a) Write a simplified expression for its perimeter. **(2 marks)**\n\n(b) A square has the same perimeter as the triangle. Write an expression for the side length of the square. **(1 mark)**", "hint": "Add the three sides and collect like terms. A square has four equal sides.", "explanation": "(a) $2x + 3 + 3x - 1 + x + 5 = 6x + 7$. (b) Each side of the square is $\\frac{6x + 7}{4}$.", "markScheme": [ { "criterion": "Adds the three side lengths", "marks": 1, "keywords": [ ["2x+3+3x-1+x+5", "2x + 3 + 3x", "adds", "add the", "sum"] ] }, { "criterion": "Perimeter simplified to 6x + 7", "marks": 1, "keywords": [ ["6x+7", "6x + 7"] ] }, { "criterion": "Side of square = (6x + 7)/4", "marks": 1, "keywords": [ ["/4", "÷ 4", "divided by 4", "over 4", "quarter"] ] } ] }
+      ]
+    }
+  ]
+}

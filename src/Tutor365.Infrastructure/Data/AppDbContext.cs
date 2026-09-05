@@ -61,7 +61,7 @@ public class AppDbContext : DbContext, IAppDbContext
             foreach (var prop in entity.GetProperties())
             {
                 if (prop.ClrType == typeof(decimal) || prop.ClrType == typeof(decimal?))
-                    prop.SetColumnType("decimal(9,4)");
+                    prop.SetColumnType("decimal(18,4)");
             }
         }
         base.OnModelCreating(modelBuilder);

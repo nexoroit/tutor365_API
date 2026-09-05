@@ -1,0 +1,96 @@
+{
+  "subTopicCode": "MAT-02-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-02-02-L1",
+      "title": "Expanding and factorising",
+      "summary": "Multiply out single and double brackets, then reverse the process by factorising into a single bracket, a pair of brackets, or the difference of two squares.",
+      "objectives": [
+        "I can expand a single bracket and simplify the result.",
+        "I can expand two brackets such as $(x + 3)(x - 5)$.",
+        "I can factorise an expression by taking out the highest common factor.",
+        "I can factorise quadratics of the form $x^2 + bx + c$ and recognise the difference of two squares."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Expanding a single bracket", "minutes": 4, "content": "## Multiplying out brackets\n\n**Expanding** means removing the brackets by multiplying. The term outside the bracket multiplies **every** term inside it.\n\n$$4(x + 6) = 4x + 24$$\n\nThink of it as area: a rectangle 4 tall and $(x + 6)$ wide splits into a $4 \\times x$ piece and a $4 \\times 6$ piece.\n\n### Watch the signs\n\n- $3(2y - 5) = 6y - 15$\n- $-2(p + 7) = -2p - 14$ (a negative outside changes both signs inside)\n- $-5(m - 3) = -5m + 15$ (negative times negative gives positive)\n\n### Letters outside the bracket\n\n$$x(x + 4) = x^2 + 4x \\qquad 3a(2a - b) = 6a^2 - 3ab$$\n\n### Expand and simplify\n\nIf there are two brackets added or subtracted, expand each one and then collect like terms:\n\n$$2(x + 5) + 3(x - 1) = 2x + 10 + 3x - 3 = 5x + 7$$\n\nBe extra careful when there is a minus in front of the second bracket. Expand it first, keeping the sign, and only then collect terms." },
+        { "type": "Example", "title": "Worked example: a minus in front of a bracket", "minutes": 3, "content": "**Expand and simplify $5(2t + 1) - 3(t - 4)$.**\n\nFirst bracket: $5 \\times 2t = 10t$ and $5 \\times 1 = 5$, giving $10t + 5$.\n\nSecond bracket: $-3 \\times t = -3t$ and $-3 \\times (-4) = +12$, giving $-3t + 12$.\n\nPut them together and collect like terms:\n\n$$10t + 5 - 3t + 12 = 7t + 17$$\n\nThe most common error is writing $-12$ at the end. A negative multiplied by a negative is positive, so the $-3$ and the $-4$ give $+12$.\n\n**Expand $2k(3k - 5)$.**\n\n$2k \\times 3k = 6k^2$ and $2k \\times (-5) = -10k$.\n\nAnswer: $6k^2 - 10k$." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-02-L1-Q1", "type": "Equation", "difficulty": 2, "marks": 2,
+          "text": "Expand and simplify $3(x + 4) - 2(x - 1)$.",
+          "hint": "Expand each bracket separately, taking care with $-2 \\times -1$. Type your answer without spaces, e.g. 2x+3.",
+          "explanation": "$3(x + 4) = 3x + 12$. $-2(x - 1) = -2x + 2$. Collecting terms: $3x - 2x + 12 + 2 = x + 14$.",
+          "answers": [ { "text": "x+14", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Expanding double brackets", "minutes": 5, "content": "## Two brackets multiplied together\n\nTo expand $(x + 3)(x + 5)$, every term in the first bracket must multiply every term in the second. That gives **four** products.\n\nA grid keeps things tidy:\n\n| × | $x$ | $+5$ |\n|---|---|---|\n| $x$ | $x^2$ | $5x$ |\n| $+3$ | $3x$ | $15$ |\n\nAdd the four cells and collect like terms:\n\n$$x^2 + 5x + 3x + 15 = x^2 + 8x + 15$$\n\nSome people remember the four products as **FOIL**: First, Outer, Inner, Last.\n\n### With negatives\n\n$(y - 2)(y - 6)$: the products are $y^2$, $-6y$, $-2y$ and $+12$ (negative times negative). Result: $y^2 - 8y + 12$.\n\n### Squaring a bracket\n\n$(x + 4)^2$ means $(x + 4)(x + 4)$, which is $x^2 + 8x + 16$. It is **not** $x^2 + 16$; the middle term is always there.\n\n### A quick check\n\nThe last number is the product of the two numbers in the brackets, and the coefficient of $x$ is their sum. For $(x + 3)(x + 5)$: $3 \\times 5 = 15$ and $3 + 5 = 8$." },
+        { "type": "Example", "title": "Worked example: brackets with coefficients", "minutes": 3, "content": "**Expand and simplify $(2x + 3)(x - 4)$.**\n\n| × | $x$ | $-4$ |\n|---|---|---|\n| $2x$ | $2x^2$ | $-8x$ |\n| $+3$ | $3x$ | $-12$ |\n\n$$2x^2 - 8x + 3x - 12 = 2x^2 - 5x - 12$$\n\n**Expand $(3m - 1)^2$.**\n\nWrite it as $(3m - 1)(3m - 1)$.\n\n- $3m \\times 3m = 9m^2$\n- $3m \\times (-1) = -3m$\n- $(-1) \\times 3m = -3m$\n- $(-1) \\times (-1) = +1$\n\n$$9m^2 - 6m + 1$$\n\nNotice that squaring a bracket always produces a middle term that is **double** the product of the two parts." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-02-L1-Q2", "type": "NumericalAnswer", "difficulty": 3, "marks": 1,
+          "text": "$(x + 7)(x - 3)$ expands to $x^2 + bx + c$. What is the value of $b$?",
+          "hint": "The coefficient of $x$ comes from adding the two outer and inner products: $-3x$ and $7x$.",
+          "explanation": "$(x + 7)(x - 3) = x^2 - 3x + 7x - 21 = x^2 + 4x - 21$, so $b = 4$ (and $c = -21$).",
+          "answers": [ { "numeric": 4, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "Factorising: taking out a common factor", "minutes": 4, "content": "## Factorising is expanding in reverse\n\nTo **factorise**, you put the brackets back in. The first thing to look for is the **highest common factor (HCF)** of every term.\n\n$$6x + 15 = 3(2x + 5)$$\n\nThe HCF of 6 and 15 is 3, so 3 goes outside. Inside the bracket, write what you need to multiply 3 by to get each original term.\n\n### Letters can be common factors too\n\n$$x^2 + 7x = x(x + 7) \\qquad 8p^2 - 12p = 4p(2p - 3)$$\n\nFor $8p^2 - 12p$, the HCF of 8 and 12 is 4, and both terms contain at least one $p$, so $4p$ goes outside.\n\n### Method\n\n1. Find the largest number that divides every coefficient.\n2. Find the highest power of each letter that appears in every term.\n3. Write the HCF outside the bracket.\n4. Divide each term by the HCF to fill the bracket.\n5. **Check by expanding**: you should get back exactly where you started.\n\nIf the question says \"factorise **fully**\", make sure nothing else can be taken out. Writing $2(4p^2 - 6p)$ is a partial factorisation and would not earn full marks." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-02-L1-Q3", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "Which of these is $12a^2b - 18ab$ factorised **fully**?",
+          "hint": "Find the HCF of 12 and 18, then the highest power of each letter in both terms.",
+          "explanation": "HCF of 12 and 18 is 6. Both terms contain $a$ and $b$, so $6ab$ goes outside: $6ab(2a - 3)$. The other options either miss part of the HCF or expand incorrectly.",
+          "options": [
+            { "text": "$6ab(2a - 3)$", "correct": true },
+            { "text": "$6a(2ab - 3b)$", "correct": false, "feedback": "The $b$ is common to both terms too, so it should come outside." },
+            { "text": "$3ab(4a - 6)$", "correct": false, "feedback": "You can still take a 2 out of the bracket." },
+            { "text": "$6ab(2a - 3b)$", "correct": false, "feedback": "Expand it: $6ab \\times 3b = 18ab^2$, not $18ab$." } ] } },
+        { "type": "Explanation", "title": "Factorising quadratics", "minutes": 5, "content": "## Quadratics of the form $x^2 + bx + c$\n\nExpanding $(x + p)(x + q)$ gives $x^2 + (p + q)x + pq$. To factorise, you reverse this: find two numbers that\n\n- **multiply** to give $c$ (the constant), and\n- **add** to give $b$ (the coefficient of $x$).\n\n### Example: $x^2 + 9x + 20$\n\nPairs that multiply to 20: $1 \\times 20$, $2 \\times 10$, $4 \\times 5$. Only $4 + 5 = 9$, so\n\n$$x^2 + 9x + 20 = (x + 4)(x + 5)$$\n\n### Using the signs as clues\n\n| Constant $c$ | Coefficient $b$ | Numbers are |\n|---|---|---|\n| positive | positive | both positive |\n| positive | negative | both negative |\n| negative | either | one positive, one negative |\n\nSo $x^2 - 7x + 12 = (x - 3)(x - 4)$ and $x^2 - 2x - 15 = (x - 5)(x + 3)$.\n\n## The difference of two squares\n\nExpanding $(x + a)(x - a)$ gives $x^2 - a^2$: the middle terms cancel. So any expression that is one square **minus** another factorises instantly:\n\n$$x^2 - 49 = (x + 7)(x - 7) \\qquad 9y^2 - 25 = (3y + 5)(3y - 5)$$\n\nIt only works with a **minus** sign. $x^2 + 49$ does not factorise." },
+        { "type": "Example", "title": "Worked example: factorising with a negative constant", "minutes": 3, "content": "**Factorise $x^2 + 3x - 28$.**\n\nThe constant is negative, so one number is positive and one is negative. They must multiply to $-28$ and add to $+3$.\n\n| Pair | Sum |\n|---|---|\n| $-1, 28$ | 27 |\n| $-2, 14$ | 12 |\n| $-4, 7$ | 3 ✓ |\n\n$$x^2 + 3x - 28 = (x - 4)(x + 7)$$\n\nCheck by expanding: $x^2 + 7x - 4x - 28 = x^2 + 3x - 28$. ✓\n\n**Factorise $4t^2 - 81$.**\n\nBoth $4t^2 = (2t)^2$ and $81 = 9^2$ are squares, joined by a minus sign. This is the difference of two squares:\n\n$$4t^2 - 81 = (2t + 9)(2t - 9)$$" },
+        { "type": "Question", "title": "Match them up", "question": {
+          "key": "AQA-MAT-02-02-L1-Q4", "type": "Matching", "difficulty": 3, "marks": 4,
+          "text": "Match each quadratic expression to its factorised form.",
+          "hint": "For each one, find two numbers that multiply to the constant and add to the middle coefficient. Watch for the difference of two squares.",
+          "explanation": "$x^2 + 8x + 12$: $2 + 6 = 8$, $2 \\times 6 = 12$. $x^2 - 8x + 12$: $-2$ and $-6$. $x^2 - 4x - 12$: $-6 + 2 = -4$. $x^2 - 36$ is a difference of two squares.",
+          "pairs": [
+            { "left": "$x^2 + 8x + 12$", "right": "$(x + 2)(x + 6)$" },
+            { "left": "$x^2 - 8x + 12$", "right": "$(x - 2)(x - 6)$" },
+            { "left": "$x^2 - 4x - 12$", "right": "$(x - 6)(x + 2)$" },
+            { "left": "$x^2 - 36$", "right": "$(x + 6)(x - 6)$" } ] } },
+        { "type": "Question", "title": "Put the steps in order", "question": {
+          "key": "AQA-MAT-02-02-L1-Q5", "type": "Ordering", "difficulty": 2, "marks": 1,
+          "text": "Put these steps in the correct order to factorise $x^2 - 5x - 14$.",
+          "hint": "You need to know what the numbers must multiply and add to before you can search for them.",
+          "explanation": "Identify the target product ($-14$) and sum ($-5$), list the factor pairs, pick $-7$ and $+2$, write the brackets, then expand to check.",
+          "order": [
+            "Note that the two numbers must multiply to −14 and add to −5",
+            "List the factor pairs of −14: (−1, 14), (−2, 7), (−7, 2), (−14, 1)",
+            "Choose the pair that adds to −5: −7 and +2",
+            "Write the answer as (x − 7)(x + 2)",
+            "Expand the brackets to check the result" ] } },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-02-02-L1-Q6", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true,
+          "text": "(a) Expand and simplify $(x + 5)(x - 2)$. **(2 marks)**\n\n(b) Factorise fully $3x^2 - 12$. **(2 marks)**",
+          "hint": "For (b), take out the common factor first. What is left inside the bracket?",
+          "explanation": "(a) $x^2 - 2x + 5x - 10 = x^2 + 3x - 10$. (b) $3x^2 - 12 = 3(x^2 - 4)$, and $x^2 - 4$ is the difference of two squares, so the full factorisation is $3(x + 2)(x - 2)$.",
+          "markScheme": [
+            { "criterion": "At least three of the four products correct: x², −2x, 5x, −10", "marks": 1, "keywords": [ ["-2x", "5x", "−2x", "-10"] ] },
+            { "criterion": "Simplified to x² + 3x − 10", "marks": 1, "keywords": [ ["x^2+3x-10", "x^2 + 3x - 10", "x²+3x−10", "x² + 3x − 10", "3x-10"] ] },
+            { "criterion": "Takes out the common factor 3: 3(x² − 4)", "marks": 1, "keywords": [ ["3(x^2-4)", "3(x^2 - 4)", "3(x²-4)", "3(x² − 4)", "3(x"] ] },
+            { "criterion": "Difference of two squares: 3(x + 2)(x − 2)", "marks": 1, "keywords": [ ["(x+2)(x-2)", "(x + 2)(x - 2)", "(x-2)(x+2)", "(x − 2)(x + 2)", "(x + 2)(x − 2)"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Expanding** a single bracket: multiply every term inside by the term outside. Watch negative signs.\n- **Double brackets** give four products; use a grid or FOIL, then collect like terms. $(x + a)^2$ always has a middle term $2ax$.\n- **Factorising** into a single bracket: take out the HCF of numbers and letters, then check by expanding.\n- **Quadratics** $x^2 + bx + c$: find two numbers that multiply to $c$ and add to $b$.\n- **Difference of two squares**: $a^2 - b^2 = (a + b)(a - b)$." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-02-02-L1-P1", "type": "Equation", "difficulty": 1, "marks": 1, "text": "Expand $5(2y - 3)$.", "hint": "Multiply both terms inside by 5. Type your answer like 4y-1.", "explanation": "$5 \\times 2y = 10y$ and $5 \\times (-3) = -15$, so $10y - 15$.", "answers": [ { "text": "10y-15", "caseSensitive": false } ] },
+        { "key": "AQA-MAT-02-02-L1-P2", "type": "Equation", "difficulty": 2, "marks": 1, "text": "Factorise $7m + 21$.", "hint": "What number divides both 7 and 21? Type your answer like 3(m+2).", "explanation": "The HCF is 7, so $7m + 21 = 7(m + 3)$.", "answers": [ { "text": "7(m+3)", "caseSensitive": false } ] },
+        { "key": "AQA-MAT-02-02-L1-P3", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: $(x + 3)^2 = x^2 + 9$.", "hint": "Write $(x + 3)^2$ as $(x + 3)(x + 3)$ and expand all four products.", "explanation": "False. $(x + 3)(x + 3) = x^2 + 3x + 3x + 9 = x^2 + 6x + 9$. The middle term $6x$ must not be forgotten.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-02-02-L1-P4", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "Which expression is equivalent to $-4(3p - 2)$?", "hint": "A negative outside the bracket changes the sign of every term inside.", "explanation": "$-4 \\times 3p = -12p$ and $-4 \\times (-2) = +8$, giving $-12p + 8$.", "options": [ { "text": "$-12p + 8$", "correct": true }, { "text": "$-12p - 8$", "correct": false, "feedback": "Negative times negative is positive." }, { "text": "$12p - 8$", "correct": false }, { "text": "$-12p - 2$", "correct": false, "feedback": "The $-4$ must multiply the 2 as well." } ] },
+        { "key": "AQA-MAT-02-02-L1-P5", "type": "Equation", "difficulty": 3, "marks": 2, "text": "Expand and simplify $(x - 6)(x + 2)$.", "hint": "Four products: $x \\times x$, $x \\times 2$, $-6 \\times x$, $-6 \\times 2$. Type your answer without spaces, e.g. x^2+3x-5.", "explanation": "$x^2 + 2x - 6x - 12 = x^2 - 4x - 12$.", "answers": [ { "text": "x^2-4x-12", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-02-L1-P6", "type": "NumericalAnswer", "difficulty": 3, "marks": 1, "text": "$x^2 - 11x + 24$ factorises as $(x - a)(x - b)$ where $a < b$. What is the value of $b$?", "hint": "Two negative numbers that multiply to 24 and add to $-11$.", "explanation": "$-3$ and $-8$ multiply to 24 and add to $-11$, so $(x - 3)(x - 8)$. With $a < b$, $b = 8$.", "answers": [ { "numeric": 8, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-02-L1-P7", "type": "Equation", "difficulty": 3, "marks": 2, "text": "Factorise fully $10x^2 - 15x$.", "hint": "Take out the HCF of the numbers and the highest power of $x$ common to both terms. Type your answer like 2x(3x-1).", "explanation": "HCF of 10 and 15 is 5, and both terms contain $x$, so $10x^2 - 15x = 5x(2x - 3)$.", "answers": [ { "text": "5x(2x-3)", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-02-L1-P8", "type": "MultipleAnswer", "difficulty": 3, "marks": 2, "text": "Select **all** the expressions that can be factorised using the difference of two squares.", "hint": "You need a square minus a square.", "explanation": "$y^2 - 100 = (y + 10)(y - 10)$ and $16a^2 - 1 = (4a + 1)(4a - 1)$. $y^2 + 100$ has a plus sign, and $x^2 - 10$ has a constant that is not a square number.", "options": [ { "text": "$y^2 - 100$", "correct": true }, { "text": "$y^2 + 100$", "correct": false, "feedback": "A sum of two squares does not factorise." }, { "text": "$16a^2 - 1$", "correct": true }, { "text": "$x^2 - 10$", "correct": false, "feedback": "10 is not a square number." } ] },
+        { "key": "AQA-MAT-02-02-L1-P9", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the factorisation.", "metadata": { "blanksText": "x² + 10x + 21 = (x + ___)(x + ___), with the smaller number first." }, "hint": "Two numbers that multiply to 21 and add to 10.", "explanation": "$3 \\times 7 = 21$ and $3 + 7 = 10$, so $(x + 3)(x + 7)$.", "answers": [ { "text": "3", "blankIndex": 0, "marks": 1 }, { "text": "7", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-02-02-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Jamal factorises $6x^2 + 9x$ and writes $3(2x^2 + 3x)$. Explain why his answer is not fully factorised and write the fully factorised form.", "hint": "Is there anything still common to both terms inside the bracket?", "explanation": "Both terms inside the bracket still contain $x$, so it can be taken out as well. Fully factorised: $3x(2x + 3)$.", "markScheme": [ { "criterion": "Explains that x is still a common factor inside the bracket", "marks": 1, "keywords": [ ["still", "common factor", "take out x", "x is common", "both terms"] ] }, { "criterion": "Gives 3x(2x + 3)", "marks": 1, "keywords": [ ["3x(2x+3)", "3x(2x + 3)", "3x (2x + 3)"] ] } ] },
+        { "key": "AQA-MAT-02-02-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Show that $(n + 4)^2 - (n + 2)^2$ is always a multiple of 4 for any integer $n$.", "hint": "Expand both squares carefully, subtract, then look for a factor of 4.", "explanation": "$(n + 4)^2 = n^2 + 8n + 16$ and $(n + 2)^2 = n^2 + 4n + 4$. Subtracting: $4n + 12 = 4(n + 3)$, which is 4 times an integer, so it is always a multiple of 4.", "markScheme": [ { "criterion": "Expands (n + 4)² correctly as n² + 8n + 16", "marks": 1, "keywords": [ ["8n+16", "8n + 16", "n^2+8n", "n² + 8n"] ] }, { "criterion": "Expands (n + 2)² correctly as n² + 4n + 4 and subtracts to get 4n + 12", "marks": 1, "keywords": [ ["4n+12", "4n + 12"] ] }, { "criterion": "Factorises to 4(n + 3) and concludes it is a multiple of 4", "marks": 1, "keywords": [ ["4(n+3)", "4(n + 3)", "multiple of 4", "divisible by 4"] ] } ] }
+      ]
+    }
+  ]
+}

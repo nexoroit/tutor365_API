@@ -1,0 +1,451 @@
+{
+  "subTopicCode": "ENL-02-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-02-02-L1",
+      "title": "Narrative writing: telling a story in 45 minutes",
+      "summary": "Learn how to plan and write a short, well-shaped story for Paper 1 Question 5, with a clear structure, a convincing narrative voice, characters shown through action and dialogue, and an ending that satisfies.",
+      "objectives": [
+        "I can explain what the narrative option of Paper 1 Question 5 requires and how the 40 marks are split.",
+        "I can plan a story with a small scope and a clear five-part shape.",
+        "I can choose and maintain a narrative viewpoint and tense, and reveal character through action and dialogue.",
+        "I can write an ending that resolves the story and avoids cliché."
+      ],
+      "estimatedMinutes": 44,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What the narrative task asks",
+          "minutes": 4,
+          "content": "## Paper 1, Question 5: the story option\n\nSection B of Paper 1 gives you a choice of two tasks. One is usually a **description** (often based on a picture); the other is a **narrative**, for example:\n\n> Write a story about a time when someone made a difficult decision.\n>\n> Write the opening of a story that begins: *\"The message had been sent to the wrong person.\"*\n\nEither way the task is worth **40 marks**, which is half of the whole paper:\n\n- **AO5 (24 marks)**: content and organisation. Is the story engaging, well-shaped, matched to the task, with varied vocabulary and controlled paragraphs?\n- **AO6 (16 marks)**: technical accuracy. Spelling, punctuation, sentence variety and grammar.\n\nYou have about **45 minutes**. Use them like this:\n\n| Minutes | Task |\n|---|---|\n| 5 | Plan: characters, setting, five-part shape, ending |\n| 35 | Write (around 500 to 700 words) |\n| 5 | Check spelling, punctuation and paragraphing |\n\nTwo important truths about exam stories:\n\n1. **Small stories score best.** One character, one setting, one hour of story time. Nobody can write a convincing war in 45 minutes.\n2. **The ending is planned first.** If you know where you are going, every paragraph can point towards it."
+        },
+        {
+          "type": "Example",
+          "title": "Model opening: the key in the biscuit tin",
+          "minutes": 5,
+          "content": "**Task:** *Write a story about a discovery.*\n\n> The key had been in the biscuit tin for as long as Noor could remember, under the buttons and the foreign coins and the one earring nobody would throw away. It fitted nothing in the house. She had tried.\n>\n> Her grandmother said it was \"for later\", the way she said most things.\n>\n> So it was only when the men came to clear the flat, and Noor found the tin on the windowsill with a strip of masking tape across the lid that said her own name in her grandmother's slanted hand, that she thought to look at the key properly. There was a number stamped on it. 114. And under the buttons, folded small, a ticket from a left-luggage office in a station that had closed before she was born.\n\n**What this opening does well:**\n\n- **Starts with an object, not an alarm clock.** The key is the hook; we want to know what it opens.\n- **Small, specific details** (buttons, foreign coins, the single earring) make the world feel real without slowing things down.\n- **Character through detail**: the grandmother is drawn in one line of speech, *\"for later\"*, and one habit.\n- **Withholds information**: we learn the grandmother has died only through *the men came to clear the flat*. Nothing is explained.\n- **Sentence variety**: a long, winding first sentence, then *\"She had tried.\"*\n- **Ends the opening with a question** the rest of the story will answer: what is in locker 114?\n\nThe whole story could be told in four more paragraphs: the journey, the closed station, the locker, what is inside."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: the marks",
+          "question": {
+            "key": "AQA-ENL-02-02-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "How are the 40 marks for Paper 1 Question 5 divided?",
+            "hint": "Content and organisation carry more marks than technical accuracy, but accuracy is still worth a lot.",
+            "explanation": "AO5 (content and organisation) is worth 24 marks and AO6 (technical accuracy) is worth 16 marks.",
+            "options": [
+              { "text": "24 marks for content and organisation, 16 for technical accuracy", "correct": true },
+              { "text": "20 marks for content, 20 for accuracy", "correct": false },
+              { "text": "32 marks for content, 8 for accuracy", "correct": false },
+              { "text": "16 marks for content, 24 for accuracy", "correct": false, "feedback": "The other way round." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Shaping the story: keep it small",
+          "minutes": 5,
+          "content": "## The five-part shape\n\nAlmost every satisfying short story follows the same shape. Plan yours in five lines:\n\n1. **Hook**: begin in the middle of something. An object, a line of dialogue, an action. Never *\"It was a normal day\"*.\n2. **Build**: establish the character, the place and what the character wants or fears. Add small details that will matter later.\n3. **Turning point**: something changes. A discovery, an arrival, a decision.\n4. **Climax**: the moment of greatest pressure. Slow it down: short sentences, close detail.\n5. **Resolution**: show the consequences. Often the best ending returns to an image from the opening, changed.\n\n## The 'one, one, one' rule\n\n- **One main character**, with a name and one clear want.\n- **One setting**, described through a few precise details.\n- **One short stretch of time**: an hour, an afternoon, a night.\n\nThis stops the story sprawling. If your plan has a car chase, a hospital and a funeral, cut two of them.\n\n## Opening in the middle\n\nCompare:\n\n> *I woke up and got ready for school. Then I went downstairs.*\n\n> *The envelope on the doormat had my name on it, but the handwriting was my own.*\n\nThe second starts with a puzzle. Readers, and examiners, lean forward. Aim to raise a question in your first two sentences and answer it in your last two."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: story shape",
+          "question": {
+            "key": "AQA-ENL-02-02-L1-Q2",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put the five parts of a short story in the correct order.",
+            "hint": "Start with the moment that grabs attention and finish with the consequences.",
+            "explanation": "Hook, build, turning point, climax, resolution.",
+            "order": [
+              "Hook: begin in the middle of something intriguing",
+              "Build: establish character, place and what the character wants",
+              "Turning point: something changes",
+              "Climax: the moment of greatest pressure, slowed down",
+              "Resolution: consequences, often echoing the opening"
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Voice, tense, character and dialogue",
+          "minutes": 5,
+          "content": "## Choosing a viewpoint\n\n- **First person** (*I*): close and immediate; the reader shares the narrator's thoughts. Risk: over-explaining feelings.\n- **Third person limited** (*she*, following one character): flexible and controlled; you can describe the character from outside while still sharing thoughts.\n\nEither is fine. What matters is **consistency**: pick one and stay with it.\n\n## Tense\n\n**Past tense** is the safest choice and the easiest to control. Present tense can feel urgent but slips easily into past by accident, which costs AO6 marks. Whichever you choose, check every paragraph for consistency.\n\n## Character through action\n\nDo not tell us *Sam was nervous*. Show it: *Sam checked his phone, put it away, and checked it again.* Give each character one distinctive habit, object or way of speaking and let the reader draw conclusions.\n\n## Dialogue: a little goes a long way\n\nDialogue is a powerful tool for revealing character and moving the plot, but three rules apply:\n\n1. Use it **sparingly**: two or three short exchanges, not a page of chat.\n2. Make it **do work**: each line should reveal something or change something.\n3. **Punctuate it correctly**: speech marks around the words spoken, a comma or full stop inside the closing mark, a new line for each new speaker.\n\n> \"You kept it,\" she said.\n>\n> \"I keep everything.\" He did not look up."
+        },
+        {
+          "type": "Example",
+          "title": "Weak versus improved: showing anger",
+          "minutes": 4,
+          "content": "**Weak (telling):**\n\n> Dad was really angry when he saw the dent in the car. He shouted at me and I felt bad. Then he calmed down and we went inside.\n\n*Problems:* every feeling is labelled (*angry*, *felt bad*), nothing is seen or heard, the pace is rushed and the ending is limp.\n\n**Improved (showing, with dialogue):**\n\n> Dad walked round the car twice without saying anything. On the second lap he stopped by the wing, crouched, and ran his thumb along the dent as if he could smooth it out.\n>\n> \"Who was driving?\"\n>\n> \"Me.\"\n>\n> He nodded slowly, still crouched, still looking at the dent and not at me. Somewhere down the street a lawnmower started up. When he finally stood, his knees clicked, and he put a hand on the roof of the car the way you might put a hand on a dog that had been hit.\n>\n> \"Right,\" he said. \"Kettle.\"\n\n*What changed:*\n\n- Anger is shown through **silence and action** (walking round twice, crouching, not looking).\n- **Dialogue** is short, correctly punctuated, and reveals character: *\"Right. Kettle.\"* tells us he has decided not to shout.\n- A small **background detail** (the lawnmower) stretches the awkward pause.\n- The **simile** about the dog says something about how Dad feels about the car without stating it."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: viewpoint and effect",
+          "question": {
+            "key": "AQA-ENL-02-02-L1-Q3",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each narrative choice to its typical effect.",
+            "hint": "Think about how close the reader is to the character and how much the writer can see.",
+            "explanation": "First person gives direct access to thoughts. Third person limited follows one character from outside while sharing their thoughts. Present tense creates immediacy. Past tense is easier to control and allows reflection.",
+            "pairs": [
+              { "left": "First-person narration", "right": "Reader shares the narrator's thoughts directly and closely" },
+              { "left": "Third-person limited narration", "right": "Follows one character from outside while still revealing thoughts" },
+              { "left": "Present tense", "right": "Creates urgency and immediacy, as if events are happening now" },
+              { "left": "Past tense", "right": "Easier to control and allows the narrator to reflect" }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: consistency",
+          "question": {
+            "key": "AQA-ENL-02-02-L1-Q4",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete the advice with the correct terms.",
+            "metadata": { "blanksText": "Choose one narrative ___ (first or third person) and one ___ (past or present) and keep both consistent. Reveal a character's feelings by ___ them through actions and dialogue rather than telling the reader." },
+            "hint": "The first blank is the word for who tells the story; the second is about when; the third is the opposite of 'telling'.",
+            "explanation": "Viewpoint (who is narrating) and tense (past or present) must be consistent. 'Showing' feelings through action is stronger than telling.",
+            "answers": [
+              { "text": "viewpoint", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+              { "text": "tense", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+              { "text": "showing", "blankIndex": 2, "marks": 1, "caseSensitive": false }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Endings that work (and endings that don't)",
+          "minutes": 4,
+          "content": "## Avoid these endings\n\n- **It was all a dream.** Examiners groan. It cancels everything the reader has invested in.\n- **And then I died.** A first-person narrator cannot tell you this.\n- **To be continued...** Looks like you ran out of time.\n- **The sudden explosion / alien / zombie** with no set-up. A twist only works if the reader can look back and see the clues.\n- **A rushed summary**: *\"After that everything was fine and we lived happily.\"*\n\n## Endings that work\n\n- **Cyclical**: return to the object, place or line from the opening, but now it means something different. The biscuit tin, empty. The car with the dent, still parked outside years later.\n- **Quiet resolution**: a small action that shows the change. Dad says *\"Kettle.\"* Noor puts the key in her own pocket.\n- **Reflective line**: one sentence that steps back, without preaching.\n- **Earned twist**: a reveal that the details have been quietly preparing.\n\n## Pacing the last third\n\nStudents run out of time because the build is too long. If you are 25 minutes in and the turning point has not happened, cut to it. The climax deserves close-up detail and short sentences; the resolution should be brief, a paragraph at most. Leave **five minutes** to read back for missing full stops, tense slips and paragraph breaks: that is where AO6 marks are won or lost."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: which endings to avoid",
+          "question": {
+            "key": "AQA-ENL-02-02-L1-Q5",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Which **two** of these endings should you avoid in an exam story?",
+            "hint": "Endings that cancel the story or that cannot be narrated are the ones to avoid.",
+            "explanation": "'It was all a dream' cancels the story, and a first-person narrator cannot describe their own death. A cyclical return to an opening image and a quiet action showing change are both strong endings.",
+            "options": [
+              { "text": "The narrator wakes up and realises it was all a dream", "correct": true },
+              { "text": "The story returns to the opening image, now changed in meaning", "correct": false, "feedback": "This is a cyclical ending, which works well." },
+              { "text": "The first-person narrator describes the moment of their own death", "correct": true },
+              { "text": "A single small action shows that the character has changed", "correct": false, "feedback": "A quiet resolution is a strong choice." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: write a story opening",
+          "question": {
+            "key": "AQA-ENL-02-02-L1-Q6",
+            "type": "LongAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "**Write the opening paragraph (80 to 120 words) of a story about a lost object.**\n\nYour opening should:\n- begin in the middle of something (an object, an action or a line of speech), not with waking up;\n- name your main character;\n- include one precise, specific detail about the setting;\n- show a feeling through an action rather than naming it.",
+            "hint": "Try starting with the object itself or with what the character is doing right now. Show worry with hands, breath, or a repeated action rather than the word 'worried'.",
+            "explanation": "A strong opening might begin: 'The ring was not in the soap dish. Priya checked the plughole, then the floor, then the soap dish again, as if it might have crept back while she wasn't looking. Rain ticked against the bathroom window. She had taken it off for exactly two minutes to wash paint from her hands.' This starts with the missing object, names the character, gives one precise setting detail (rain on the window) and shows anxiety through the repeated checking.",
+            "markScheme": [
+              {
+                "criterion": "Opens in the middle of the action with an object, action or speech rather than a routine start (no waking up / normal day)",
+                "marks": 1,
+                "keywords": [ ["the ", "was not", "\"", "gone", "missing"] ]
+              },
+              {
+                "criterion": "Names the main character",
+                "marks": 1,
+                "keywords": [ ["she ", "he ", "i ", "her ", "his "] ]
+              },
+              {
+                "criterion": "Includes a precise setting detail (weather, room, object, sound)",
+                "marks": 1,
+                "keywords": [ ["rain", "window", "room", "street", "kitchen"] ]
+              },
+              {
+                "criterion": "Shows a feeling through action or body detail rather than naming it",
+                "marks": 1,
+                "keywords": [ ["hand", "again", "breath", "check", "stomach"] ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style checkpoint: write a story",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-02-02-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 8,
+            "examStyle": true,
+            "text": "**Write a story that begins with the sentence: *\"The message had been sent to the wrong person.\"***\n\nWrite around 350 to 500 words. Aim to:\n\n- follow the five-part shape (hook, build, turning point, climax, resolution);\n- keep to one main character, one setting and a short stretch of time;\n- show at least one feeling through action rather than naming it;\n- include a short exchange of correctly punctuated dialogue;\n- vary your sentence lengths, using at least one deliberately short sentence;\n- end with a resolution that links back to the opening (not a dream).\n\n*(In the exam this task would be worth 40 marks. Here it is checked against eight key features.)*",
+            "hint": "Plan for two minutes first: who sent the message, who received it, what it says, and what the ending image will be. Then write the ending first in your head so every paragraph moves towards it.",
+            "explanation": "A strong response opens with the given sentence and immediately makes it specific (what the message says, who receives it). The build establishes one named character and one setting through precise detail. The turning point is a decision: to reply, to ignore, to find the intended recipient. The climax slows down with short sentences and close detail. The resolution returns to the phone or the message, now meaning something different. Feelings are shown through hands, breath or repeated actions; dialogue is short, correctly punctuated, and reveals character; paragraphs are clearly organised.",
+            "markScheme": [
+              {
+                "criterion": "Begins with the given sentence and makes the situation specific (who sent it, what it says)",
+                "marks": 1,
+                "keywords": [ ["wrong person", "message", "sent", "text", "phone"] ]
+              },
+              {
+                "criterion": "Establishes one named main character with a clear want or fear",
+                "marks": 1,
+                "keywords": [ ["she ", "he ", "i ", "wanted", "needed"] ]
+              },
+              {
+                "criterion": "Establishes the setting through precise sensory detail",
+                "marks": 1,
+                "keywords": [ ["room", "street", "kitchen", "bus", "light"] ]
+              },
+              {
+                "criterion": "Includes a clear turning point or decision that changes the situation",
+                "marks": 1,
+                "keywords": [ ["decided", "then", "until", "suddenly", "realised"] ]
+              },
+              {
+                "criterion": "Shows a feeling through physical action or body detail rather than naming it",
+                "marks": 1,
+                "keywords": [ ["hand", "breath", "heart", "stomach", "throat"] ]
+              },
+              {
+                "criterion": "Includes correctly punctuated dialogue",
+                "marks": 1,
+                "keywords": [ ["\"", "said", "asked", "replied", "whispered"] ]
+              },
+              {
+                "criterion": "Includes a climax slowed down with close detail and short sentences",
+                "marks": 1,
+                "keywords": [ ["waited", "silence", "still", "nothing", "stopped"] ]
+              },
+              {
+                "criterion": "Ends with a resolution that echoes the opening (the message, the phone, the sender) rather than a dream or cliffhanger",
+                "marks": 1,
+                "keywords": [ ["message", "phone", "screen", "sent", "reply"] ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Question 5 is worth **40 marks**: 24 for **content and organisation (AO5)**, 16 for **technical accuracy (AO6)**.\n- **Plan for five minutes**: five-part shape, one character, one setting, one stretch of time, ending decided first.\n- **Hook** in the middle of something; never start with waking up.\n- **Show** feelings through action and dialogue; keep dialogue short and correctly punctuated.\n- Keep **viewpoint and tense** consistent.\n- End with a **cyclical image or quiet resolution**; never a dream.\n- Leave **five minutes** to check."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-02-02-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: in an exam story, a big plot with many characters and locations will impress the examiner more than a small, focused one.",
+          "hint": "Think about what can be done convincingly in 45 minutes.",
+          "explanation": "False. Small, focused stories with one character, one setting and a short stretch of time are far more likely to be convincing and well controlled.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of these story openings best hooks the reader?",
+          "hint": "Look for the opening that raises a question immediately.",
+          "explanation": "The letter with the narrator's own handwriting raises an immediate puzzle. The others are routine, vague or over-explained.",
+          "options": [
+            { "text": "The letter on the doormat had my name on it, but the handwriting was my own.", "correct": true },
+            { "text": "It was a normal Monday and I woke up and got ready for school.", "correct": false, "feedback": "Routine openings give the reader no reason to continue." },
+            { "text": "This is a story about a boy called Jake who has an adventure.", "correct": false, "feedback": "This announces rather than begins." },
+            { "text": "Once upon a time there was a girl who was very brave and kind.", "correct": false, "feedback": "Fairy-tale phrasing and telling rather than showing." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P3",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each ending type to its description.",
+          "hint": "Think about what each ending does with the material of the story.",
+          "explanation": "A cyclical ending returns to the opening image; a quiet resolution shows change through a small action; an earned twist is prepared by earlier clues; a dream ending cancels the story and should be avoided.",
+          "pairs": [
+            { "left": "Cyclical ending", "right": "Returns to an image from the opening, now changed in meaning" },
+            { "left": "Quiet resolution", "right": "A small action shows that the character has changed" },
+            { "left": "Earned twist", "right": "A reveal that earlier details have quietly prepared" },
+            { "left": "Dream ending", "right": "Cancels the story; should be avoided" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P4",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the advice.",
+          "metadata": { "blanksText": "Spend about ___ minutes planning before you write, and leave about five minutes at the end to ___ your work for spelling, punctuation and tense slips." },
+          "hint": "The plan should be short but not skipped; the last stage is reading back.",
+          "explanation": "About five minutes of planning and five minutes of checking, leaving roughly 35 minutes to write.",
+          "answers": [
+            { "text": "five", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "check", "blankIndex": 1, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P5",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Which **two** of these sentences correctly punctuate dialogue?",
+          "hint": "Speech marks around the spoken words; the comma or full stop sits inside the closing speech mark; a capital letter starts the speech.",
+          "explanation": "'\"You kept it,\" she said.' and '\"I keep everything.\" He did not look up.' are both correct. The others put the comma outside the speech marks or miss the capital letter and punctuation.",
+          "options": [
+            { "text": "\"You kept it,\" she said.", "correct": true },
+            { "text": "\"You kept it\", she said.", "correct": false, "feedback": "The comma should be inside the closing speech mark." },
+            { "text": "\"I keep everything.\" He did not look up.", "correct": true },
+            { "text": "\"i keep everything\" he did not look up.", "correct": false, "feedback": "Missing capital letter and punctuation inside the speech marks." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P6",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these planning steps in the most useful order for a 45-minute story.",
+          "hint": "Decide on the ending early so that everything points towards it.",
+          "explanation": "Read the task, choose one character and setting, decide the ending, sketch the five-part shape, then write.",
+          "order": [
+            "Read the task and underline the key words",
+            "Choose one main character, one setting and a short time span",
+            "Decide the ending image or action",
+            "Sketch the five parts: hook, build, turning point, climax, resolution",
+            "Write, then leave five minutes to check"
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P7",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Which sentence contains a **tense slip**?",
+          "hint": "Look for a sentence that starts in one tense and switches to another.",
+          "explanation": "'She opened the door and sees the note' mixes past ('opened') with present ('sees'). The others keep a consistent tense.",
+          "options": [
+            { "text": "She opened the door and sees the note on the table.", "correct": true },
+            { "text": "She opened the door and saw the note on the table.", "correct": false },
+            { "text": "She opens the door and sees the note on the table.", "correct": false },
+            { "text": "She had opened the door before she saw the note.", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P8",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "**Plan a story in five short lines** for the task: *Write a story about a time when someone had to make a difficult decision.*\n\nWrite one line each for the hook, the turning point and the ending, and name your main character, the setting and the time span.",
+          "hint": "Keep it small: one person, one place, one hour. Decide the ending before the hook.",
+          "explanation": "A good plan might read: Character: Leo, 15, at the bus station at night. Hook: Leo finds a wallet stuffed with cash on the bench. Turning point: he sees the owner's photo with a child, and the last bus is leaving. Climax: he stands with one foot on the bus step. Ending: he hands the wallet to the driver and walks home in the rain, lighter than the wallet. The plan names one character, one setting, a short time span, and a clear decision with an ending image.",
+          "markScheme": [
+            {
+              "criterion": "Names a single main character and a single setting",
+              "marks": 1,
+              "keywords": [ ["character", "setting", "called", "named", "place"] ]
+            },
+            {
+              "criterion": "Identifies a clear decision as the turning point",
+              "marks": 1,
+              "keywords": [ ["decid", "choice", "choose", "whether", "turning"] ]
+            },
+            {
+              "criterion": "Gives a concrete ending image or action (not a dream or cliffhanger)",
+              "marks": 1,
+              "keywords": [ ["end", "final", "resol", "walks", "leaves"] ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P9",
+          "type": "LongAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Rewrite the following telling sentence as a short paragraph (three or four sentences) that **shows** the feeling through action and includes one line of correctly punctuated dialogue.\n\n> *Mia was terrified as she waited for the results to be read out.*",
+          "hint": "What do terrified hands, breath and eyes do? Let another character say something short to her, and punctuate it properly.",
+          "explanation": "For example: 'Mia's hands had found each other under the desk and would not let go. She counted the ceiling tiles, lost her place, and started again. \"Breathe,\" whispered Anna beside her. Mia nodded, but her breath had gone somewhere she could not find it.' Fear is shown through hands, counting and breath; the dialogue is short and correctly punctuated.",
+          "markScheme": [
+            {
+              "criterion": "Shows fear through a physical action or body detail (hands, breath, heart, stomach, shaking)",
+              "marks": 1,
+              "keywords": [ ["hand", "breath", "heart", "stomach", "shak"] ]
+            },
+            {
+              "criterion": "Includes a line of dialogue with speech marks",
+              "marks": 1,
+              "keywords": [ ["\"", "said", "whisper", "asked", "murmur"] ]
+            },
+            {
+              "criterion": "Avoids simply naming the feeling and uses more than one sentence",
+              "marks": 1,
+              "keywords": [ [". ", "then", "and", "but", "while"] ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "**Write a story about a journey that does not go as planned.**\n\nWrite around 300 to 450 words. Aim to:\n- open in the middle of the journey with a precise detail;\n- keep to one character and a short stretch of time;\n- include a clear turning point where the plan fails;\n- show a feeling through action;\n- use at least one short sentence for impact;\n- end with a resolution that links back to the opening.\n\n*(In the exam this task would be worth 40 marks. Here it is checked against six key features.)*",
+          "hint": "Small journeys work best: a bus, a walk to a hospital, a lift to a wedding. Decide what goes wrong and how the character reacts before you start.",
+          "explanation": "A strong response opens on the journey itself (a bus seat, a wet road, a ticket), names one character, and quickly establishes where they need to be and why. The turning point is specific and believable: a cancelled train, a wrong turn, a flat tyre. The character's reaction is shown through action. Short sentences mark the moment of failure. The resolution returns to the opening detail with a change: the ticket unused, the road seen differently.",
+          "markScheme": [
+            {
+              "criterion": "Opens in the middle of the journey with a precise detail (vehicle, road, ticket, weather)",
+              "marks": 1,
+              "keywords": [ ["bus", "train", "road", "ticket", "car"] ]
+            },
+            {
+              "criterion": "Establishes one named character and where they need to be",
+              "marks": 1,
+              "keywords": [ ["she ", "he ", "i ", "needed", "had to"] ]
+            },
+            {
+              "criterion": "Includes a clear turning point where the plan fails",
+              "marks": 1,
+              "keywords": [ ["cancel", "stopped", "wrong", "broke", "late"] ]
+            },
+            {
+              "criterion": "Shows a feeling through physical action or body detail",
+              "marks": 1,
+              "keywords": [ ["hand", "breath", "heart", "stomach", "fist"] ]
+            },
+            {
+              "criterion": "Uses sensory detail of the setting (sound, weather, light, smell)",
+              "marks": 1,
+              "keywords": [ ["rain", "cold", "light", "smell", "noise"] ]
+            },
+            {
+              "criterion": "Ends with a resolution that echoes the opening detail or journey",
+              "marks": 1,
+              "keywords": [ ["home", "arrived", "finally", "still", "again"] ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

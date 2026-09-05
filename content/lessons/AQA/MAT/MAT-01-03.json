@@ -1,0 +1,98 @@
+{
+  "subTopicCode": "MAT-01-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-01-03-L1",
+      "title": "Fractions",
+      "summary": "Simplify and compare fractions, convert between mixed numbers and improper fractions, add, subtract, multiply and divide fractions, and find fractions of amounts.",
+      "objectives": [
+        "I can simplify fractions and find equivalent fractions.",
+        "I can convert between mixed numbers and improper fractions.",
+        "I can add and subtract fractions with different denominators.",
+        "I can multiply and divide fractions, including mixed numbers.",
+        "I can find a fraction of an amount and solve worded fraction problems."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 2,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Equivalent fractions and simplifying", "minutes": 4, "content": "## What a fraction means\n\nIn the fraction $\\frac{3}{8}$ the **denominator** (8) tells you how many equal parts the whole is split into, and the **numerator** (3) tells you how many of those parts you have.\n\n## Equivalent fractions\n\nMultiplying or dividing the numerator *and* the denominator by the same number gives an **equivalent fraction** with the same value:\n\n$$\\frac{2}{5} = \\frac{4}{10} = \\frac{6}{15} = \\frac{20}{50}$$\n\n## Simplifying\n\nTo write a fraction in its **simplest form** (lowest terms), divide the top and bottom by their highest common factor.\n\n$$\\frac{18}{24} = \\frac{18 \\div 6}{24 \\div 6} = \\frac{3}{4}$$\n\nIf you cannot spot the HCF straight away, simplify in stages: divide by 2, then by 3, and so on, until nothing else divides into both.\n\n## Comparing fractions\n\nTo compare fractions, rewrite them with a **common denominator**. Which is bigger, $\\frac{5}{6}$ or $\\frac{7}{9}$? The LCM of 6 and 9 is 18:\n\n$$\\frac{5}{6} = \\frac{15}{18} \\qquad \\frac{7}{9} = \\frac{14}{18}$$\n\nSo $\\frac{5}{6}$ is larger." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-03-L1-Q1", "type": "Ordering", "difficulty": 2, "marks": 1,
+          "text": "Put these fractions in order from smallest to largest.",
+          "hint": "Use 24 as a common denominator.",
+          "explanation": "With denominator 24: 5/8 = 15/24, 2/3 = 16/24, 7/12 = 14/24, 3/4 = 18/24. Smallest to largest: 7/12, 5/8, 2/3, 3/4.",
+          "order": [ "7/12", "5/8", "2/3", "3/4" ] } },
+        { "type": "Explanation", "title": "Mixed numbers and improper fractions", "minutes": 3, "content": "## Two ways to write a number bigger than 1\n\nA **mixed number** has a whole-number part and a fraction part, such as $2\\frac{3}{4}$.\n\nAn **improper fraction** (top-heavy fraction) has a numerator bigger than its denominator, such as $\\frac{11}{4}$.\n\n### Mixed number → improper\n\nMultiply the whole number by the denominator, add the numerator, and keep the same denominator.\n\n$$2\\frac{3}{4} = \\frac{2 \\times 4 + 3}{4} = \\frac{11}{4}$$\n\n### Improper → mixed\n\nDivide the numerator by the denominator. The quotient is the whole number and the remainder is the new numerator.\n\n$$\\frac{23}{5}: \\quad 23 \\div 5 = 4 \\text{ remainder } 3, \\text{ so } \\frac{23}{5} = 4\\frac{3}{5}$$\n\n### When to convert\n\n- For **multiplying and dividing**, always change mixed numbers into improper fractions first.\n- For **adding and subtracting**, you can either convert to improper fractions or deal with the whole numbers and the fractions separately.\n- Give your **final answer** as a mixed number in its simplest form unless the question says otherwise." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-03-L1-Q2", "type": "FillInTheBlank", "difficulty": 1, "marks": 2,
+          "text": "Complete the conversion.",
+          "metadata": { "blanksText": "$3\\frac{5}{6}$ written as an improper fraction is $\\frac{___}{6}$, and $\\frac{29}{4}$ written as a mixed number is $7\\frac{___}{4}$." },
+          "hint": "3 × 6 + 5 for the first blank. For the second, 29 ÷ 4 = 7 remainder ...",
+          "explanation": "3 × 6 + 5 = 23, so 3 5/6 = 23/6. 29 ÷ 4 = 7 remainder 1, so 29/4 = 7 1/4.",
+          "answers": [ { "text": "23", "blankIndex": 0, "marks": 1 }, { "text": "1", "blankIndex": 1, "marks": 1 } ] } },
+        { "type": "Explanation", "title": "Adding and subtracting fractions", "minutes": 4, "content": "## Same denominator: just add the tops\n\n$$\\frac{2}{7} + \\frac{3}{7} = \\frac{5}{7}$$\n\nThe denominator tells you the *size* of the pieces, and that does not change when you put pieces together.\n\n## Different denominators: make them the same first\n\n1. Find the **lowest common denominator** (the LCM of the denominators).\n2. Write each fraction as an equivalent fraction with that denominator.\n3. Add or subtract the numerators.\n4. Simplify if possible.\n\n$$\\frac{3}{4} - \\frac{1}{6} = \\frac{9}{12} - \\frac{2}{12} = \\frac{7}{12}$$\n\n## Mixed numbers\n\nEither convert everything to improper fractions, or add the whole numbers and the fractions separately:\n\n$$2\\frac{1}{3} + 1\\frac{3}{4} = 3 + \\frac{4}{12} + \\frac{9}{12} = 3\\frac{13}{12} = 4\\frac{1}{12}$$\n\nWhen the fraction part becomes top-heavy, carry a whole one across.\n\nA common error is to add the denominators: $\\frac{1}{2} + \\frac{1}{3}$ is **not** $\\frac{2}{5}$. Picture it: half a pizza plus a third of a pizza is clearly more than two-fifths of a pizza." },
+        { "type": "Example", "title": "Worked example: subtracting mixed numbers", "minutes": 3, "content": "**Question:** Work out $4\\frac{1}{5} - 1\\frac{2}{3}$. Give your answer as a mixed number.\n\n**Method 1 – Improper fractions**\n\n$4\\frac{1}{5} = \\frac{21}{5}$ and $1\\frac{2}{3} = \\frac{5}{3}$\n\nLowest common denominator is 15:\n\n$$\\frac{21}{5} - \\frac{5}{3} = \\frac{63}{15} - \\frac{25}{15} = \\frac{38}{15} = 2\\frac{8}{15}$$\n\n**Method 2 – Whole numbers and fractions separately**\n\nWhole numbers: $4 - 1 = 3$.\n\nFractions: $\\frac{1}{5} - \\frac{2}{3} = \\frac{3}{15} - \\frac{10}{15} = -\\frac{7}{15}$\n\nSo the answer is $3 - \\frac{7}{15} = 2\\frac{8}{15}$.\n\nBoth methods agree: **$2\\frac{8}{15}$**.\n\nMethod 1 is safer when the fraction you are subtracting is bigger than the one you are subtracting from." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-03-L1-Q3", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
+          "text": "Work out $\\frac{5}{6} + \\frac{3}{8}$. Give your answer as a decimal correct to 3 decimal places (or enter the exact value).",
+          "hint": "The lowest common denominator of 6 and 8 is 24.",
+          "explanation": "5/6 = 20/24 and 3/8 = 9/24. 20/24 + 9/24 = 29/24 = 1 5/24 ≈ 1.208.",
+          "answers": [ { "numeric": 1.2083, "tolerance": 0.002, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Multiplying and dividing fractions", "minutes": 4, "content": "## Multiplying\n\nMultiply the numerators together and the denominators together. You do **not** need a common denominator.\n\n$$\\frac{2}{3} \\times \\frac{5}{7} = \\frac{10}{21}$$\n\n**Cancel first** to keep the numbers small: any numerator can cancel with any denominator.\n\n$$\\frac{4}{9} \\times \\frac{3}{8} = \\frac{\\cancel{4}^{1}}{\\cancel{9}^{3}} \\times \\frac{\\cancel{3}^{1}}{\\cancel{8}^{2}} = \\frac{1}{6}$$\n\n## Dividing\n\nDividing by a fraction is the same as multiplying by its **reciprocal** (the fraction turned upside down). Remember **keep, flip, change**: keep the first fraction, flip the second, change ÷ to ×.\n\n$$\\frac{3}{5} \\div \\frac{9}{10} = \\frac{3}{5} \\times \\frac{10}{9} = \\frac{30}{45} = \\frac{2}{3}$$\n\n## Mixed numbers\n\nConvert to improper fractions **before** multiplying or dividing.\n\n$$1\\frac{1}{2} \\times 2\\frac{2}{3} = \\frac{3}{2} \\times \\frac{8}{3} = \\frac{24}{6} = 4$$\n\n## Fraction of an amount\n\n\"Of\" means multiply. To find $\\frac{3}{8}$ of 56 kg, divide by the denominator and multiply by the numerator: $56 \\div 8 = 7$, then $7 \\times 3 = 21$ kg." },
+        { "type": "Example", "title": "Worked example: dividing mixed numbers", "minutes": 3, "content": "**Question:** A ribbon is $5\\frac{1}{4}$ m long. It is cut into pieces each $\\frac{7}{8}$ m long. How many pieces are there?\n\n**Step 1 – Write the calculation.** We need $5\\frac{1}{4} \\div \\frac{7}{8}$.\n\n**Step 2 – Convert the mixed number.** $5\\frac{1}{4} = \\frac{21}{4}$\n\n**Step 3 – Keep, flip, change.**\n\n$$\\frac{21}{4} \\div \\frac{7}{8} = \\frac{21}{4} \\times \\frac{8}{7}$$\n\n**Step 4 – Cancel and multiply.** 21 and 7 cancel (÷7), 8 and 4 cancel (÷4):\n\n$$\\frac{3}{1} \\times \\frac{2}{1} = 6$$\n\nThere are **6 pieces**.\n\n**Sense check:** $\\frac{7}{8}$ is a bit less than 1, so we expect a bit more than 5 pieces. 6 is sensible." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-03-L1-Q4", "type": "NumericalAnswer", "difficulty": 2, "marks": 1,
+          "text": "Work out $\\frac{5}{12} \\times \\frac{9}{10}$. Give your answer as a decimal.",
+          "hint": "Cancel before multiplying: 5 with 10 and 9 with 12.",
+          "explanation": "5/12 × 9/10 = 45/120 = 3/8 = 0.375.",
+          "answers": [ { "numeric": 0.375, "tolerance": 0.001 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-03-L1-Q5", "type": "MultipleChoice", "difficulty": 3, "marks": 1,
+          "text": "What is $2\\frac{2}{5} \\div 1\\frac{1}{5}$?",
+          "hint": "Convert both to improper fractions, then keep, flip, change.",
+          "explanation": "12/5 ÷ 6/5 = 12/5 × 5/6 = 60/30 = 2.",
+          "options": [
+            { "text": "2", "correct": true },
+            { "text": "$2\\frac{2}{25}$", "correct": false, "feedback": "Dividing the wholes and the fractions separately does not work. Convert to improper fractions first." },
+            { "text": "$\\frac{1}{2}$", "correct": false, "feedback": "This is 1 1/5 ÷ 2 2/5, the wrong way round." },
+            { "text": "$2\\frac{22}{25}$", "correct": false, "feedback": "This is the product 12/5 × 6/5, not the quotient." } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-03-L1-Q6", "type": "Matching", "difficulty": 2, "marks": 4,
+          "text": "Match each calculation to its answer in simplest form.",
+          "hint": "Add and subtract with a common denominator; multiply straight across; divide by flipping the second fraction.",
+          "explanation": "1/4 + 3/8 = 2/8 + 3/8 = 5/8. 7/10 − 2/5 = 7/10 − 4/10 = 3/10. 2/3 × 3/4 = 6/12 = 1/2. 4/5 ÷ 2/15 = 4/5 × 15/2 = 60/10 = 6.",
+          "pairs": [
+            { "left": "$\\frac{1}{4} + \\frac{3}{8}$", "right": "5/8" },
+            { "left": "$\\frac{7}{10} - \\frac{2}{5}$", "right": "3/10" },
+            { "left": "$\\frac{2}{3} \\times \\frac{3}{4}$", "right": "1/2" },
+            { "left": "$\\frac{4}{5} \\div \\frac{2}{15}$", "right": "6" } ] } },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-01-03-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true,
+          "text": "Maya spends $\\frac{2}{5}$ of her monthly wage on rent and $\\frac{1}{4}$ of her wage on food. She saves $\\frac{1}{3}$ of what is left.\n\n(a) Show that Maya saves $\\frac{7}{60}$ of her wage.\n\n(b) Maya saves £280 each month. Work out her monthly wage.",
+          "hint": "First add 2/5 and 1/4 using denominator 20. Subtract from 1 to find what is left, then find a third of that.",
+          "explanation": "(a) 2/5 + 1/4 = 8/20 + 5/20 = 13/20. Left: 1 − 13/20 = 7/20. Savings: 1/3 × 7/20 = 7/60. (b) 7/60 of the wage is £280, so 1/60 is £40 and the wage is 60 × £40 = £2400.",
+          "markScheme": [
+            { "criterion": "Adds the fractions correctly: 2/5 + 1/4 = 13/20", "marks": 1, "keywords": [ ["13/20", "13 / 20", "8/20 + 5/20", "0.65"] ] },
+            { "criterion": "Finds the fraction remaining: 7/20", "marks": 1, "keywords": [ ["7/20", "7 / 20", "0.35"] ] },
+            { "criterion": "Multiplies by 1/3 to obtain 7/60", "marks": 1, "keywords": [ ["1/3 × 7/20", "7/20 ÷ 3", "1/3 x 7/20", "× 1/3", "÷ 3"] ] },
+            { "criterion": "Correct wage: £2400", "marks": 1, "keywords": [ ["2400", "2 400", "£2400"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Simplify** by dividing the top and bottom by their HCF; **compare** fractions using a common denominator.\n- **Mixed ↔ improper**: multiply the whole by the denominator and add the numerator; go back by dividing and using the remainder.\n- **Add/subtract**: common denominator first, then combine the numerators.\n- **Multiply**: cancel, then multiply tops and bottoms. **Divide**: keep, flip, change.\n- Convert **mixed numbers to improper fractions** before multiplying or dividing.\n- **Fraction of an amount**: divide by the denominator, multiply by the numerator." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-01-03-L1-P1", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "Which fraction is $\\frac{42}{56}$ in its simplest form?", "hint": "Both 42 and 56 are in the 14 times table.", "explanation": "42 ÷ 14 = 3 and 56 ÷ 14 = 4, so 42/56 = 3/4.", "options": [ { "text": "$\\frac{3}{4}$", "correct": true }, { "text": "$\\frac{21}{28}$", "correct": false, "feedback": "This is equivalent but can be simplified further." }, { "text": "$\\frac{6}{7}$", "correct": false }, { "text": "$\\frac{7}{8}$", "correct": false } ] },
+        { "key": "AQA-MAT-01-03-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Find $\\frac{5}{9}$ of 63.", "hint": "Divide by 9 first, then multiply by 5.", "explanation": "63 ÷ 9 = 7, and 7 × 5 = 35.", "answers": [ { "numeric": 35, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-03-L1-P3", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: $\\frac{3}{5} + \\frac{1}{4} = \\frac{4}{9}$.", "hint": "You cannot just add the tops and the bottoms. Is 4/9 even bigger than 3/5?", "explanation": "False. 3/5 + 1/4 = 12/20 + 5/20 = 17/20. Note that 4/9 is smaller than 3/5, so it cannot be the sum.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-01-03-L1-P4", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "Work out $\\frac{7}{8} - \\frac{5}{12}$. Give your answer as a decimal correct to 3 decimal places.", "hint": "The lowest common denominator is 24.", "explanation": "7/8 = 21/24 and 5/12 = 10/24. 21/24 − 10/24 = 11/24 ≈ 0.458.", "answers": [ { "numeric": 0.4583, "tolerance": 0.001, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-03-L1-P5", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "Work out $3\\frac{1}{2} \\times 1\\frac{3}{7}$. Give your answer as a whole number or decimal.", "hint": "Convert to 7/2 and 10/7, then cancel before multiplying.", "explanation": "7/2 × 10/7 = 70/14 = 5.", "answers": [ { "numeric": 5, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-03-L1-P6", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "Work out $2\\frac{1}{4} \\div \\frac{3}{8}$.", "hint": "9/4 ÷ 3/8 = 9/4 × 8/3.", "explanation": "9/4 × 8/3 = 72/12 = 6.", "answers": [ { "numeric": 6, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-03-L1-P7", "type": "Ordering", "difficulty": 2, "marks": 1, "text": "Put the steps for working out $1\\frac{2}{3} \\div \\frac{5}{6}$ in the correct order.", "hint": "You must have improper fractions before you flip anything.", "explanation": "Convert 1 2/3 to 5/3, flip 5/6 to 6/5 and change to multiply, cancel, multiply, then simplify: 5/3 × 6/5 = 2.", "order": [ "Convert the mixed number to the improper fraction 5/3", "Flip the second fraction to 6/5 and change ÷ to ×", "Cancel common factors and multiply the numerators and denominators", "Write the answer in its simplest form" ] },
+        { "key": "AQA-MAT-01-03-L1-P8", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "A tank holds 48 litres when full. It is $\\frac{5}{8}$ full. How many more litres are needed to fill it?", "hint": "Find 5/8 of 48 first, then subtract from 48. Or find 3/8 of 48 directly.", "explanation": "3/8 of the tank is empty. 48 ÷ 8 = 6, and 6 × 3 = 18 litres.", "answers": [ { "numeric": 18, "tolerance": 0, "unit": "litres", "marks": 2 } ] },
+        { "key": "AQA-MAT-01-03-L1-P9", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Tom says that $\\frac{1}{2} \\div \\frac{1}{4}$ must be less than $\\frac{1}{2}$ because dividing makes numbers smaller. Explain why Tom is wrong and give the correct answer.", "hint": "How many quarters fit into a half?", "explanation": "Dividing by a number less than 1 makes the answer bigger. 1/2 ÷ 1/4 asks how many quarters are in a half, which is 2. So 1/2 ÷ 1/4 = 2.", "markScheme": [ { "criterion": "Explains that dividing by a number less than 1 gives a larger answer (or that the question asks how many quarters fit in a half)", "marks": 1, "keywords": [ ["less than 1", "smaller than 1", "bigger", "larger", "how many quarters"] ] }, { "criterion": "Gives the correct answer 2", "marks": 1, "keywords": [ ["= 2", "is 2", "answer is 2", "equals 2", "2"] ] } ] },
+        { "key": "AQA-MAT-01-03-L1-P10", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "A rectangular garden is $6\\frac{2}{3}$ m long and $2\\frac{1}{4}$ m wide.\n\n(a) Show that the area of the garden is exactly 15 m².\n\n(b) Turf costs £4.80 per square metre. Work out the cost of turfing the whole garden.", "hint": "Convert to 20/3 and 9/4, cancel, then multiply. For (b) multiply the area by 4.80.", "explanation": "(a) 20/3 × 9/4 = 180/12 = 15 m². (b) 15 × £4.80 = £72.", "markScheme": [ { "criterion": "Converts to improper fractions 20/3 and 9/4", "marks": 1, "keywords": [ ["20/3", "20 / 3"], ["9/4", "9 / 4"] ] }, { "criterion": "Multiplies to obtain 180/12 = 15 (or cancels to 5 × 3)", "marks": 1, "keywords": [ ["180/12", "5 × 3", "5 x 3", "= 15", "180 / 12"] ] }, { "criterion": "Correct cost: £72", "marks": 1, "keywords": [ ["72", "£72", "72.00"] ] } ] },
+        { "key": "AQA-MAT-01-03-L1-P11", "type": "MultipleAnswer", "difficulty": 2, "marks": 2, "text": "Select **all** the fractions that are equivalent to $\\frac{3}{5}$.", "hint": "Multiply the top and bottom of 3/5 by the same number and see which ones you get.", "explanation": "9/15 (×3) and 24/40 (×8) are equivalent to 3/5. 6/15 = 2/5 and 15/20 = 3/4.", "options": [ { "text": "$\\frac{9}{15}$", "correct": true }, { "text": "$\\frac{6}{15}$", "correct": false }, { "text": "$\\frac{24}{40}$", "correct": true }, { "text": "$\\frac{15}{20}$", "correct": false } ] }
+      ]
+    }
+  ]
+}

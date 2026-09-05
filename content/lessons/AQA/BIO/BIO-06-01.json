@@ -1,0 +1,596 @@
+{
+  "subTopicCode": "BIO-06-01",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-BIO-06-01-L1",
+      "title": "Reproduction, DNA and inheritance",
+      "summary": "Compare sexual and asexual reproduction, see how meiosis makes gametes, learn how DNA codes for proteins, and use Punnett squares and family trees to predict inheritance.",
+      "objectives": [
+        "I can compare sexual and asexual reproduction and give advantages and disadvantages of each.",
+        "I can describe what happens in meiosis and explain how fertilisation restores the full chromosome number.",
+        "I can describe the structure of DNA and outline how a gene codes for a protein.",
+        "I can use genetic terms correctly and complete a Punnett square to give a probability, ratio or percentage.",
+        "I can interpret a family tree and explain how polydactyly, cystic fibrosis and sex are inherited."
+      ],
+      "estimatedMinutes": 45,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Two ways to make new life",
+          "minutes": 4,
+          "content": "## Sexual and asexual reproduction\n\n**Sexual reproduction** needs two parents. Each parent makes **gametes** (sex cells) by **meiosis**: sperm and egg cells in animals, pollen and egg cells in flowering plants. At **fertilisation** the gametes fuse, so the offspring receives a **mixture of genetic information** from both parents. This is why brothers and sisters look similar but not identical: sexual reproduction produces **variation**.\n\n**Asexual reproduction** needs only **one parent**. There are no gametes and no fertilisation. The parent's cells divide by **mitosis**, so every offspring is a **clone**: genetically identical to the parent and to each other. Bacteria, many plants (strawberry runners, daffodil bulbs) and some animals reproduce this way.\n\n| | Sexual | Asexual |\n|---|---|---|\n| Parents | Two | One |\n| Cell division | Meiosis makes gametes, then fertilisation | Mitosis only |\n| Offspring | Genetically varied | Identical clones |\n| Speed | Slower, needs a mate | Fast, no mate needed |\n\n**Why does variation matter?** If the environment changes (a new disease, a drought), a varied population is more likely to contain some individuals that survive, so natural selection can act. The trade-off is that sexual reproduction costs time and energy finding a mate, while asexual reproduction can produce huge numbers of offspring quickly when conditions are good.\n\n**Exam tip:** when describing sexual reproduction always mention *gametes*, *fusion* and *mixing of genetic information*."
+        },
+        {
+          "type": "Example",
+          "title": "Organisms that switch between both",
+          "minutes": 4,
+          "content": "Some organisms use **whichever method suits the conditions**. The spec names three groups, so learn them.\n\n**1. The malaria parasite (*Plasmodium*)**\n- Reproduces **asexually** inside the human host, making thousands of copies quickly.\n- Reproduces **sexually** inside the mosquito, creating variation before it infects the next person.\n\n**2. Many fungi**\n- Release huge numbers of **asexual spores** when food is plentiful: fast colonisation.\n- Switch to **sexual reproduction** when conditions worsen, so some varied offspring may cope with the change.\n\n**3. Strawberries and daffodils**\n- Strawberries send out **runners** that root and grow into clones; daffodils split their **bulbs**. Both are asexual and keep a successful plant's exact genes.\n- Both also make **flowers and seeds** by sexual reproduction, giving varied offspring that can spread further.\n\n**How to answer: \"Explain the advantage to a fungus of producing spores asexually when food is plentiful, but sexually when it runs out.\" (3 marks)**\n\n1. Asexual: only one parent needed, so it is **fast and uses little energy** while conditions are good.\n2. Sexual: mixes genetic information, giving **variation** in the offspring.\n3. Link to survival: varied offspring are more likely to include some that **survive the changed conditions**.\n\nNotice the structure: state the feature, then say **why it helps the organism**."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-BIO-06-01-L1-Q1",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Which of the following are true of **asexual** reproduction? Select all that apply.",
+            "hint": "Think about how many parents are involved and which type of cell division happens.",
+            "explanation": "Asexual reproduction involves one parent, mitosis only, no gametes and no fertilisation, and it produces genetically identical clones. Variation in offspring is a feature of sexual reproduction.",
+            "options": [
+              {
+                "text": "Only one parent is needed",
+                "correct": true
+              },
+              {
+                "text": "Offspring are genetically identical to the parent",
+                "correct": true
+              },
+              {
+                "text": "Gametes fuse at fertilisation",
+                "correct": false,
+                "feedback": "Fertilisation only happens in sexual reproduction."
+              },
+              {
+                "text": "Cells divide by mitosis",
+                "correct": true
+              },
+              {
+                "text": "Offspring show a lot of genetic variation",
+                "correct": false,
+                "feedback": "Clones have the same genes as the parent, so there is no genetic variation."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Meiosis: making gametes",
+          "minutes": 4,
+          "content": "## Halving the chromosome number\n\nA human body cell has **46 chromosomes in 23 pairs**. If sperm and egg each had 46, the fertilised egg would have 92 and the number would double every generation. So gametes are made by a special division, **meiosis**, which happens only in the **reproductive organs** (ovaries and testes in animals; anthers and ovules in plants).\n\n**What happens in meiosis**\n1. The cell **copies all its DNA**, so every chromosome is doubled.\n2. The cell divides **once**, then **again** (two divisions in total).\n3. The result is **four gametes**, each with a **single set of chromosomes** (23 in humans, half the normal number).\n4. Chromosomes are shuffled during the divisions, so **all four gametes are genetically different** from each other.\n\n**Fertilisation** joins one sperm (23) and one egg (23) to make a **zygote** with 46 chromosomes: the full number is restored. The zygote then divides by **mitosis** over and over to build an embryo, and as it grows the cells **differentiate** into specialised types.\n\n| | Mitosis | Meiosis |\n|---|---|---|\n| Divisions | 1 | 2 |\n| Cells made | 2 | 4 |\n| Chromosomes | Same as parent | Half |\n| Genetics | Identical | All different |\n| Used for | Growth, repair, asexual reproduction | Making gametes |\n\n**Exam tip:** do not write \"meiosis makes cells with half the DNA\" and stop. Say *four* gametes, *half* the chromosome number, and *genetically different*."
+        },
+        {
+          "type": "Question",
+          "title": "Put it in order",
+          "question": {
+            "key": "AQA-BIO-06-01-L1-Q2",
+            "type": "Ordering",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "Put these events in the correct order, starting from a cell in the testis and ending with a growing embryo.",
+            "hint": "DNA has to be copied before any division, and the zygote can only form once gametes exist.",
+            "explanation": "The cell first copies its DNA, then divides twice to make four genetically different gametes. A sperm fuses with an egg at fertilisation to form a zygote with the full chromosome number, and the zygote grows by mitosis, with cells differentiating as the embryo develops.",
+            "order": [
+              "A cell in the testis copies all of its DNA",
+              "The cell divides twice to form four genetically different sperm cells",
+              "A sperm fuses with an egg cell at fertilisation",
+              "The zygote has the full number of chromosomes restored",
+              "The zygote divides repeatedly by mitosis to form an embryo",
+              "Cells in the embryo differentiate into specialised cells"
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "DNA, genes and the genome",
+          "minutes": 4,
+          "content": "## What is DNA?\n\nThe genetic material in the nucleus is **DNA** (deoxyribonucleic acid). It is a **polymer** made of many repeating units called **nucleotides**. Each nucleotide has three parts: a **sugar**, a **phosphate** and one of four **bases**: **A**, **T**, **C** and **G**. The sugars and phosphates form the two backbones, and the two strands twist into a **double helix**.\n\nThe bases on opposite strands always pair the same way (**complementary base pairing**):\n\n```\nA -- T        C -- G\nT -- A        G -- C\n```\n\nSo if one strand reads **ATGC**, the partner strand must read **TACG**.\n\n**Genes and chromosomes**\n- A **chromosome** is one very long DNA molecule.\n- A **gene** is a short section of a chromosome. The **order of bases** in a gene codes for the **order of amino acids** in one protein.\n- Every three bases code for one amino acid, so the sequence of the gene decides the shape and job of the protein (an enzyme, hormone, antibody or structural protein like keratin).\n\n**The genome** is the **entire genetic material** of an organism. The whole human genome has now been read. This matters because scientists can:\n- search for genes linked to different **diseases**,\n- understand and eventually **treat inherited disorders**,\n- trace **human migration** patterns from the past by comparing genomes.\n\n**Exam tip:** \"a gene codes for a protein\" is fine; \"a gene is a protein\" loses the mark."
+        },
+        {
+          "type": "Example",
+          "title": "From gene to protein (Higher tier)",
+          "minutes": 4,
+          "content": "**(Higher tier)** Here is the full pathway from a gene to a working enzyme, then what a mutation can do to it.\n\n**Step 1: Transcription (in the nucleus).** The gene's **template strand** is used to build a matching single-stranded copy called **mRNA** (messenger RNA). The mRNA is small enough to leave the nucleus.\n\n**Step 2: Translation (at a ribosome).** The ribosome reads the mRNA **three bases at a time**. **Carrier molecules** bring the correct **amino acid** for each triplet, and the amino acids are joined into a chain.\n\n**Step 3: Folding.** The finished chain **folds into a unique 3-D shape**, which is what makes it an enzyme, hormone or structural protein.\n\n**What a mutation does**\n\nSuppose the template strand normally reads `...GAC TTA CGA...` and one base changes to `...GAC TTG CGA...`.\n\n- If the new triplet still codes for the **same amino acid**, the protein is unchanged. This is the **most common** outcome: **most mutations have no effect**.\n- If it codes for a **different amino acid**, the chain may **fold differently**. For an enzyme, a changed **active site** may no longer fit its substrate, so the enzyme stops working.\n- Mutations in **non-coding DNA** do not change the protein, but they can change **how genes are expressed** (switched on or off).\n\n**Model answer (3 marks):** *A mutation changes the base sequence, which can change the amino acid sequence; the protein folds into a different shape; the active site no longer matches the substrate so the enzyme cannot catalyse the reaction.*"
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-BIO-06-01-L1-Q3",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Complete the sentences about DNA. For the third blank, write the complementary base sequence for the strand **GATTC** (five letters, no spaces).",
+            "metadata": {
+              "blanksText": "DNA is a polymer made of repeating units called ___. The two strands twist into a shape called a double ___. The strand that pairs with GATTC reads ___. The complete set of genetic material in an organism is called its ___."
+            },
+            "hint": "A always pairs with T and C always pairs with G. Work along the sequence one letter at a time.",
+            "explanation": "The monomers of DNA are nucleotides; the two strands form a double helix. G pairs with C, A with T, T with A, T with A, C with G, so GATTC pairs with CTAAG. The entire genetic material of an organism is its genome.",
+            "answers": [
+              {
+                "text": "nucleotides",
+                "blankIndex": 0,
+                "marks": 1
+              },
+              {
+                "text": "helix",
+                "blankIndex": 1,
+                "marks": 1
+              },
+              {
+                "text": "CTAAG",
+                "blankIndex": 2,
+                "marks": 1
+              },
+              {
+                "text": "genome",
+                "blankIndex": 3,
+                "marks": 1
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "The language of inheritance",
+          "minutes": 4,
+          "content": "## Key terms you must use accurately\n\n| Term | Meaning |\n|---|---|\n| **Gamete** | Sex cell (sperm, egg, pollen) with half the chromosome number |\n| **Chromosome** | A long DNA molecule carrying many genes |\n| **Gene** | A section of DNA coding for one protein (and so one characteristic) |\n| **Allele** | One version of a gene. You inherit two alleles for each gene, one from each parent |\n| **Dominant** | Shows its effect if just **one** copy is present (capital letter, e.g. **B**) |\n| **Recessive** | Only shows its effect if **both** copies are present (lower case, e.g. **b**) |\n| **Homozygous** | Both alleles the same: **BB** or **bb** |\n| **Heterozygous** | Two different alleles: **Bb** |\n| **Genotype** | The alleles an organism has, e.g. **Bb** |\n| **Phenotype** | The characteristic actually shown, e.g. brown eyes |\n\nMost characteristics are controlled by **many genes working together**, but the spec examples (fur colour in mice, red-green colour blindness, inherited disorders) are treated as **single-gene** characteristics.\n\n## Punnett squares\n\nA Punnett square predicts the offspring of a cross.\n1. Split each parent's genotype into its two possible **gametes**.\n2. Put one parent's gametes along the top and the other's down the side.\n3. Fill each box by combining the row and column alleles.\n4. Read off the **genotypes** and **phenotypes** as a **ratio**, **fraction**, **percentage** or **probability**.\n\nThe square gives a **prediction**, not a guarantee: fertilisation is random, so with few offspring the real results often differ."
+        },
+        {
+          "type": "Example",
+          "title": "Worked Punnett square: cystic fibrosis",
+          "minutes": 4,
+          "content": "**Cystic fibrosis** is caused by a **recessive** allele (**f**). It affects the cell membranes, producing thick sticky mucus in the lungs and digestive system. Someone with **Ff** is a **carrier**: healthy, but able to pass the allele on.\n\n**Two carriers (Ff × Ff) have a child. What is the chance the child has cystic fibrosis?**\n\n```\n            Father's gametes\n              F        f\n         +--------+--------+\n  Mother  F |  FF   |  Ff   |\n         +--------+--------+\n  gametes f |  Ff   |  ff   |\n         +--------+--------+\n```\n\n- **FF**: 1 box, unaffected.\n- **Ff**: 2 boxes, unaffected carriers.\n- **ff**: 1 box, has cystic fibrosis.\n\n**Express it four ways (the exam may ask for any):**\n- Probability of cystic fibrosis = **1 in 4** or **0.25**\n- Percentage = **25 %**\n- Ratio unaffected : affected = **3 : 1**\n- Probability of being a carrier = **2 in 4 = 50 %**\n\n**A common follow-up:** *\"The couple already have one child with cystic fibrosis. What is the chance their next child is affected?\"* Still **25 %**. Each fertilisation is an independent random event; the earlier child does not change the odds.\n\n**Another twist:** cross a carrier with an affected person (**Ff × ff**). The boxes are Ff, Ff, ff, ff, so the chance rises to **50 %**."
+        },
+        {
+          "type": "Question",
+          "title": "Calculate",
+          "question": {
+            "key": "AQA-BIO-06-01-L1-Q4",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "In mice, black fur (**B**) is dominant to brown fur (**b**). A heterozygous black mouse is crossed with a brown mouse. If the pair produce 40 offspring in total, how many would you **expect** to have brown fur?",
+            "hint": "Draw the Punnett square for Bb × bb first, find the fraction with bb, then apply that fraction to 40.",
+            "explanation": "Bb × bb gives the boxes Bb, Bb, bb, bb, so half (2 out of 4) of the offspring are expected to be bb (brown). Half of 40 = 20 brown mice. Remember this is a prediction; the actual number could differ because fertilisation is random.",
+            "answers": [
+              {
+                "numeric": 20,
+                "tolerance": 0,
+                "unit": "mice",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Inherited disorders, family trees and sex",
+          "minutes": 4,
+          "content": "## Two disorders to learn\n\n- **Polydactyly** (extra fingers or toes) is caused by a **dominant** allele. Just **one** copy is enough, so an affected person can have an unaffected parent only if a new mutation occurred; usually at least one parent is affected.\n- **Cystic fibrosis** is caused by a **recessive** allele, so a child can be affected even though **both parents are healthy carriers**.\n\n## Reading a family tree\n\n- Squares are usually **males**, circles **females**; shaded shapes are **affected**.\n- If two **unaffected** parents have an **affected** child, the disorder must be **recessive** and both parents are **heterozygous**.\n- An affected person with the recessive disorder must be **homozygous recessive**.\n\n## Embryo screening\n\nDuring IVF, a cell can be taken from an embryo and its genes tested before it is placed in the mother. Unaffected embryos are chosen. Points to weigh up:\n- **For:** prevents suffering, reduces long-term treatment costs, parents can make informed choices.\n- **Against:** embryos are destroyed, which some people find **ethically** unacceptable; it is **expensive**; it could lead to selecting embryos for other characteristics (\"designer babies\"); it may increase prejudice against people with disorders.\n\n## Sex determination\n\nOf the 23 pairs of human chromosomes, one pair is the **sex chromosomes**: females are **XX** and males are **XY**. Every egg carries an X; half of sperm carry X and half carry Y. A Punnett square gives **XX : XY = 1 : 1**, so the chance of a boy is **50 %** at every pregnancy."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style checkpoint",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-BIO-06-01-L1-Q5",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "Polydactyly is caused by a dominant allele, **D**. Ravi has polydactyly and is heterozygous. His partner Amira does not have polydactyly.\n\n(a) Give the genotype of Amira. (1 mark)\n\n(b) Draw or describe a Punnett square for a child of Ravi and Amira, and state the **percentage** chance that the child has polydactyly. (2 marks)\n\n(c) Explain why a child with cystic fibrosis can be born to two parents who do not have the disorder, but a child with polydactyly almost always has at least one affected parent. (2 marks)",
+            "hint": "Because D is dominant, an unaffected person can only have recessive alleles. For (c) compare what \"dominant\" and \"recessive\" mean for whether the allele shows in the parents.",
+            "explanation": "(a) Amira must be dd, because a single D allele would give her polydactyly. (b) Dd × dd gives Dd, Dd, dd, dd, so 2 out of 4 = 50 % chance of polydactyly. (c) Cystic fibrosis is recessive, so both parents can be heterozygous carriers who show no symptoms but each pass on a recessive allele. Polydactyly is dominant, so anyone carrying the allele shows the condition, meaning a parent who passes it on is normally affected themselves.",
+            "markScheme": [
+              {
+                "criterion": "Amira's genotype is dd (homozygous recessive)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "dd",
+                    "homozygous recessive",
+                    "two recessive"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Punnett square gives offspring Dd, Dd, dd, dd (or two Dd and two dd)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "dd",
+                    "dd and dd",
+                    "two of each",
+                    "half"
+                  ]
+                ]
+              },
+              {
+                "criterion": "50 % chance of polydactyly",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "50",
+                    "half",
+                    "1 in 2",
+                    "0.5"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Cystic fibrosis is recessive so both parents can be unaffected carriers / heterozygous",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "carrier",
+                    "heterozygous",
+                    "one copy",
+                    "recessive"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Polydactyly allele is dominant so anyone who carries it shows the condition",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "dominant",
+                    "one copy",
+                    "one allele"
+                  ],
+                  [
+                    "shows",
+                    "expressed",
+                    "affected",
+                    "has the condition",
+                    "one copy"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Sexual** reproduction: two parents, gametes made by **meiosis**, fertilisation mixes genes, offspring **vary**.\n- **Asexual** reproduction: one parent, **mitosis** only, offspring are identical **clones**. Malaria parasites, fungi, strawberries and daffodils use both.\n- **Meiosis**: DNA copied, two divisions, **four genetically different gametes** with **half** the chromosomes. Fertilisation restores the full number.\n- **DNA** is a double helix polymer of **nucleotides**; A pairs with T, C with G. A **gene** codes for one protein; the **genome** is all the DNA.\n- **(Higher)** Gene → mRNA → ribosome joins amino acids → protein folds. Mutations usually have no effect but can change a protein's shape, e.g. an enzyme's active site.\n- Dominant alleles show with one copy; recessive alleles need two. Use **Punnett squares** for probability, ratio and percentage.\n- **Polydactyly** is dominant; **cystic fibrosis** is recessive. Sex: **XX** female, **XY** male, 50 : 50."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-BIO-06-01-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which type of cell division produces gametes?",
+          "hint": "Gametes need half the usual number of chromosomes.",
+          "explanation": "Meiosis halves the chromosome number to make four genetically different gametes. Mitosis makes identical body cells.",
+          "options": [
+            {
+              "text": "Meiosis",
+              "correct": true
+            },
+            {
+              "text": "Mitosis",
+              "correct": false,
+              "feedback": "Mitosis makes two identical cells with the full chromosome number."
+            },
+            {
+              "text": "Fertilisation",
+              "correct": false
+            },
+            {
+              "text": "Differentiation",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: in DNA, the base adenine (A) always pairs with cytosine (C).",
+          "hint": "Think about the two complementary pairs.",
+          "explanation": "False. A pairs with T, and C pairs with G.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P3",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each genetic term to its correct meaning.",
+          "hint": "Homo- means the same; hetero- means different.",
+          "explanation": "An allele is a version of a gene; a heterozygous organism has two different alleles; the phenotype is the observable characteristic; a recessive allele only has an effect when two copies are present.",
+          "pairs": [
+            {
+              "left": "Allele",
+              "right": "One version of a gene"
+            },
+            {
+              "left": "Heterozygous",
+              "right": "Having two different alleles for a gene"
+            },
+            {
+              "left": "Phenotype",
+              "right": "The characteristic that is actually shown"
+            },
+            {
+              "left": "Recessive",
+              "right": "Only shows its effect when two copies are present"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P4",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A human body cell has 46 chromosomes. How many chromosomes are in a human egg cell?",
+          "hint": "Meiosis halves the number.",
+          "explanation": "Gametes have a single set of chromosomes: 46 ÷ 2 = 23.",
+          "answers": [
+            {
+              "numeric": 23,
+              "tolerance": 0,
+              "unit": "chromosomes"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P5",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Two heterozygous pea plants (Tt) are crossed, where tall (T) is dominant to dwarf (t). What **percentage** of the offspring are expected to be dwarf?",
+          "hint": "Draw the 2 × 2 Punnett square and count the tt boxes.",
+          "explanation": "Tt × Tt gives TT, Tt, Tt, tt. Only tt is dwarf: 1 out of 4 = 25 %.",
+          "answers": [
+            {
+              "numeric": 25,
+              "tolerance": 0,
+              "unit": "%",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P6",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete the sentences about sex determination.",
+          "metadata": {
+            "blanksText": "Human females have the sex chromosomes ___ and males have ___. The chance that any pregnancy produces a boy is ___ %."
+          },
+          "hint": "Every egg carries an X; sperm carry either X or Y.",
+          "explanation": "Females are XX, males are XY. Half the sperm carry Y, so the chance of a boy is 50 %.",
+          "answers": [
+            {
+              "text": "XX",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "XY",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "50",
+              "blankIndex": 2,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P7",
+          "type": "Ordering",
+          "difficulty": 4,
+          "marks": 1,
+          "text": "(Higher tier) Put these stages of protein synthesis in the correct order.",
+          "hint": "Nothing can happen at the ribosome until a copy of the gene has left the nucleus.",
+          "explanation": "The template strand is copied into mRNA in the nucleus, the mRNA travels to a ribosome, the ribosome reads three bases at a time while carrier molecules bring amino acids, the amino acids are joined into a chain, and finally the chain folds into its working shape.",
+          "order": [
+            "The template strand of the gene is used to make a strand of mRNA",
+            "The mRNA leaves the nucleus and attaches to a ribosome",
+            "Carrier molecules bring amino acids matching each three-base code",
+            "Amino acids are joined together in the correct sequence",
+            "The protein chain folds into its unique shape"
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P8",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Which statements about embryo screening are arguments **against** using it? Select all that apply.",
+          "hint": "Look for the economic, ethical and social concerns.",
+          "explanation": "Concerns include the destruction of embryos, the high cost, the risk of selecting for non-medical traits, and possible prejudice against people living with the disorder. Reducing suffering is an argument in favour.",
+          "options": [
+            {
+              "text": "Unused embryos are destroyed, which some people see as unethical",
+              "correct": true
+            },
+            {
+              "text": "It could lead to embryos being chosen for non-medical characteristics",
+              "correct": true
+            },
+            {
+              "text": "It reduces the number of children born with serious disorders",
+              "correct": false,
+              "feedback": "This is an argument in favour of screening."
+            },
+            {
+              "text": "The procedure is expensive",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P9",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "examStyle": true,
+          "text": "Describe **three** differences between mitosis and meiosis.",
+          "hint": "Compare the number of divisions, the number and type of cells made, and the chromosome number.",
+          "explanation": "Mitosis involves one division and makes two genetically identical cells with the full chromosome number, and is used for growth, repair and asexual reproduction. Meiosis involves two divisions and makes four genetically different gametes with half the chromosome number.",
+          "markScheme": [
+            {
+              "criterion": "Mitosis has one division whereas meiosis has two divisions",
+              "marks": 1,
+              "keywords": [
+                [
+                  "two divisions",
+                  "divides twice",
+                  "one division",
+                  "divides once"
+                ]
+              ]
+            },
+            {
+              "criterion": "Mitosis makes two cells whereas meiosis makes four cells",
+              "marks": 1,
+              "keywords": [
+                [
+                  "four",
+                  "4 cells",
+                  "two cells",
+                  "2 cells"
+                ]
+              ]
+            },
+            {
+              "criterion": "Mitosis keeps the same chromosome number / identical cells whereas meiosis halves it / genetically different",
+              "marks": 1,
+              "keywords": [
+                [
+                  "half",
+                  "halve",
+                  "identical",
+                  "different",
+                  "same number"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A couple, Sam and Jo, are both unaffected by cystic fibrosis. Their first child has cystic fibrosis.\n\n(a) Using **F** and **f** for the alleles, give the genotypes of Sam, Jo and their child. (2 marks)\n\n(b) The couple are told there is a 25 % chance that their next child will have cystic fibrosis. Explain how this figure is obtained and why it is only a prediction. (2 marks)",
+          "hint": "An affected child must have two recessive alleles, and got one from each parent.",
+          "explanation": "(a) The child is ff. Both parents must be Ff: they are unaffected, so each has at least one F, but each passed on an f. (b) Ff × Ff gives FF, Ff, Ff, ff, so 1 in 4 (25 %) are ff. It is a prediction because which sperm fertilises which egg is random, so the actual outcome for any one child cannot be certain.",
+          "markScheme": [
+            {
+              "criterion": "Both parents are Ff (heterozygous carriers)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "ff",
+                  "heterozygous",
+                  "carrier"
+                ]
+              ]
+            },
+            {
+              "criterion": "The child is ff (homozygous recessive)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "ff",
+                  "homozygous recessive",
+                  "two recessive"
+                ]
+              ]
+            },
+            {
+              "criterion": "Punnett square Ff x Ff gives 1 in 4 / one box out of four ff",
+              "marks": 1,
+              "keywords": [
+                [
+                  "punnett",
+                  "1 in 4",
+                  "one in four",
+                  "1/4",
+                  "one out of four"
+                ]
+              ]
+            },
+            {
+              "criterion": "Fertilisation is random / each child is an independent event",
+              "marks": 1,
+              "keywords": [
+                [
+                  "random",
+                  "chance",
+                  "independent",
+                  "each pregnancy",
+                  "not certain"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 4,
+          "marks": 1,
+          "text": "(Higher tier) A mutation changes one base in a gene for an enzyme, but the enzyme still works perfectly. Which explanation is most likely?",
+          "hint": "Not every change in the base code changes the amino acid that is added.",
+          "explanation": "Most mutations do not alter the phenotype. The changed triplet may code for the same amino acid, so the protein's sequence, shape and active site are unchanged.",
+          "options": [
+            {
+              "text": "The new three-base code still codes for the same amino acid, so the protein's shape is unchanged",
+              "correct": true
+            },
+            {
+              "text": "Enzymes are not made from proteins, so mutations cannot affect them",
+              "correct": false,
+              "feedback": "Enzymes are proteins, so their shape depends on the amino acid sequence."
+            },
+            {
+              "text": "The mutation changed the active site so that it fits the substrate better",
+              "correct": false,
+              "feedback": "A changed active site would alter the enzyme's function, but the question says it works exactly as before."
+            },
+            {
+              "text": "Mutations only ever happen in non-coding DNA",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

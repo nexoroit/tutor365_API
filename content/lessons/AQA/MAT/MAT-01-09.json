@@ -1,0 +1,93 @@
+{
+  "subTopicCode": "MAT-01-09",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-01-09-L1",
+      "title": "Surds",
+      "summary": "Simplify surds, multiply and divide them, expand brackets containing surds, and rationalise denominators.",
+      "objectives": [
+        "I can explain what a surd is and why we keep answers in surd form.",
+        "I can simplify a surd by taking out the largest square factor.",
+        "I can multiply, divide, add and subtract surds.",
+        "I can expand brackets containing surds and simplify the result.",
+        "I can rationalise the denominator of a fraction, including denominators of the form $a + \\sqrt{b}$."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 4,
+      "tier": "Higher",
+      "activities": [
+        { "type": "Explanation", "title": "What is a surd?", "minutes": 4, "content": "## Roots that will not tidy up\n\n$\\sqrt{25} = 5$ exactly. But $\\sqrt{5} = 2.2360679...$ goes on forever with no repeating pattern. It is an **irrational** number.\n\nA **surd** is a root that cannot be written as an exact fraction or decimal, such as $\\sqrt{2}$, $\\sqrt{7}$ or $\\sqrt[3]{10}$.\n\nWhy bother with them? Because $\\sqrt{5}$ is **exact**, whereas 2.236 is a rounded approximation. Exam questions that say *give your answer in surd form* or *give an exact answer* want you to leave the root in.\n\n## The two rules everything else depends on\n\n$$\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab} \\qquad \\qquad \\frac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\frac{a}{b}}$$\n\nSo $\\sqrt{3} \\times \\sqrt{12} = \\sqrt{36} = 6$, and $\\dfrac{\\sqrt{50}}{\\sqrt{2}} = \\sqrt{25} = 5$.\n\nAlso, a surd squared gives the number back: $(\\sqrt{7})^2 = 7$.\n\n**There is no rule for adding roots.** $\\sqrt{9} + \\sqrt{16} = 3 + 4 = 7$, but $\\sqrt{25} = 5$. So $\\sqrt{a} + \\sqrt{b} \\ne \\sqrt{a + b}$. This is the most common surd error." },
+        { "type": "Example", "title": "Worked example: simplifying surds", "minutes": 4, "content": "## Pull out the biggest square factor\n\n**Simplify $\\sqrt{72}$.**\n\nLook for the **largest square number** that divides 72: 4, 9, 36 all work, and 36 is the biggest.\n\n$\\sqrt{72} = \\sqrt{36 \\times 2} = \\sqrt{36} \\times \\sqrt{2} = 6\\sqrt{2}$\n\nIf you spotted only 4 at first: $\\sqrt{72} = \\sqrt{4 \\times 18} = 2\\sqrt{18}$. That is not finished, because 18 still has a square factor: $2\\sqrt{9 \\times 2} = 2 \\times 3\\sqrt{2} = 6\\sqrt{2}$. You get there in the end, but using the largest square factor is faster.\n\n**Simplify $\\sqrt{200}$.**\n\n$200 = 100 \\times 2$, so $\\sqrt{200} = 10\\sqrt{2}$.\n\n**Simplify $5\\sqrt{48}$.**\n\n$48 = 16 \\times 3$, so $\\sqrt{48} = 4\\sqrt{3}$ and $5\\sqrt{48} = 5 \\times 4\\sqrt{3} = 20\\sqrt{3}$.\n\nSquare numbers to keep in mind: 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-09-L1-Q1", "type": "Equation", "difficulty": 2, "marks": 1,
+          "text": "Simplify $\\sqrt{45}$. Type your answer like 2sqrt(3).",
+          "hint": "45 = 9 × 5.",
+          "explanation": "$\\sqrt{45} = \\sqrt{9} \\times \\sqrt{5} = 3\\sqrt{5}$.",
+          "answers": [ { "text": "3sqrt(5)", "caseSensitive": false } ] } },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-09-L1-Q2", "type": "NumericalAnswer", "difficulty": 2, "marks": 1,
+          "text": "Work out $\\sqrt{8} \\times \\sqrt{18}$.",
+          "hint": "Multiply under one root: $\\sqrt{8 \\times 18}$.",
+          "explanation": "$\\sqrt{144} = 12$.",
+          "answers": [ { "numeric": 12, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "Adding, subtracting and multiplying surds", "minutes": 4, "content": "## Like surds behave like like terms\n\nThink of $\\sqrt{3}$ as if it were a letter. You can collect $\\sqrt{3}$ terms together, but not with $\\sqrt{2}$ terms.\n\n- $4\\sqrt{3} + 2\\sqrt{3} = 6\\sqrt{3}$\n- $7\\sqrt{5} - \\sqrt{5} = 6\\sqrt{5}$\n- $\\sqrt{2} + \\sqrt{3}$ cannot be simplified.\n\nOften you must **simplify first** so the surds match:\n\n$\\sqrt{50} + \\sqrt{18} = 5\\sqrt{2} + 3\\sqrt{2} = 8\\sqrt{2}$\n\n## Multiplying\n\nMultiply the numbers outside together and the numbers inside together, then simplify.\n\n$3\\sqrt{2} \\times 5\\sqrt{6} = 15\\sqrt{12} = 15 \\times 2\\sqrt{3} = 30\\sqrt{3}$\n\n## Expanding brackets\n\nUse the same method as algebra.\n\n$\\sqrt{3}(2 + \\sqrt{3}) = 2\\sqrt{3} + 3$\n\n$(2 + \\sqrt{5})(3 - \\sqrt{5}) = 6 - 2\\sqrt{5} + 3\\sqrt{5} - 5 = 1 + \\sqrt{5}$\n\n$(1 + \\sqrt{2})^2 = 1 + 2\\sqrt{2} + 2 = 3 + 2\\sqrt{2}$ — do not forget the middle term!" },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-09-L1-Q3", "type": "Equation", "difficulty": 3, "marks": 2,
+          "text": "Simplify $\\sqrt{75} - \\sqrt{27}$. Type your answer like 2sqrt(3).",
+          "hint": "Both simplify to multiples of $\\sqrt{3}$.",
+          "explanation": "$\\sqrt{75} = 5\\sqrt{3}$ and $\\sqrt{27} = 3\\sqrt{3}$, so the difference is $2\\sqrt{3}$.",
+          "answers": [ { "text": "2sqrt(3)", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-09-L1-Q4", "type": "Equation", "difficulty": 3, "marks": 2,
+          "text": "Expand and simplify $(3 + \\sqrt{2})(3 - \\sqrt{2})$. Type your answer as a number or like 4+2sqrt(3).",
+          "hint": "This is a difference of two squares: the surd terms cancel.",
+          "explanation": "$9 - 3\\sqrt{2} + 3\\sqrt{2} - 2 = 7$.",
+          "answers": [ { "text": "7", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Rationalising the denominator", "minutes": 5, "content": "## Getting the surd off the bottom\n\nA fraction with a surd in the denominator, like $\\dfrac{5}{\\sqrt{3}}$, is not considered fully simplified. **Rationalising** means rewriting it with a whole-number denominator.\n\n**Case 1: a single surd on the bottom.** Multiply top and bottom by that surd.\n\n$$\\frac{5}{\\sqrt{3}} = \\frac{5 \\times \\sqrt{3}}{\\sqrt{3} \\times \\sqrt{3}} = \\frac{5\\sqrt{3}}{3}$$\n\nMultiplying top and bottom by the same thing is multiplying by 1, so the value does not change.\n\n$$\\frac{6}{\\sqrt{2}} = \\frac{6\\sqrt{2}}{2} = 3\\sqrt{2}$$\n\n**Case 2: the bottom is $a + \\sqrt{b}$ or $a - \\sqrt{b}$.** Multiply top and bottom by the **conjugate** — the same expression with the sign flipped. The difference of two squares makes the surd vanish.\n\n$$\\frac{4}{3 + \\sqrt{5}} = \\frac{4(3 - \\sqrt{5})}{(3 + \\sqrt{5})(3 - \\sqrt{5})} = \\frac{12 - 4\\sqrt{5}}{9 - 5} = \\frac{12 - 4\\sqrt{5}}{4} = 3 - \\sqrt{5}$$\n\nThe denominator becomes $a^2 - b$ every time: $(3 + \\sqrt{5})(3 - \\sqrt{5}) = 9 - 5 = 4$." },
+        { "type": "Example", "title": "Worked example: rationalising with a conjugate", "minutes": 4, "content": "**Write $\\dfrac{2 + \\sqrt{3}}{2 - \\sqrt{3}}$ in the form $a + b\\sqrt{3}$, where $a$ and $b$ are integers.**\n\nThe conjugate of $2 - \\sqrt{3}$ is $2 + \\sqrt{3}$. Multiply top and bottom by it.\n\n**Numerator:** $(2 + \\sqrt{3})(2 + \\sqrt{3}) = 4 + 2\\sqrt{3} + 2\\sqrt{3} + 3 = 7 + 4\\sqrt{3}$\n\n**Denominator:** $(2 - \\sqrt{3})(2 + \\sqrt{3}) = 4 - 3 = 1$\n\nSo the fraction equals $\\dfrac{7 + 4\\sqrt{3}}{1} = 7 + 4\\sqrt{3}$, giving $a = 7$ and $b = 4$.\n\n**Second example: $\\dfrac{10}{\\sqrt{5} - 1}$**\n\nMultiply by $\\dfrac{\\sqrt{5} + 1}{\\sqrt{5} + 1}$.\n\nNumerator: $10\\sqrt{5} + 10$. Denominator: $5 - 1 = 4$.\n\n$\\dfrac{10\\sqrt{5} + 10}{4} = \\dfrac{5\\sqrt{5} + 5}{2}$\n\nAlways cancel any common factor at the end, and lay out numerator and denominator separately so each step earns its mark." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-09-L1-Q5", "type": "Equation", "difficulty": 3, "marks": 2,
+          "text": "Rationalise the denominator of $\\dfrac{12}{\\sqrt{6}}$ and simplify. Type your answer like 2sqrt(3).",
+          "hint": "Multiply top and bottom by $\\sqrt{6}$, then cancel.",
+          "explanation": "$\\frac{12\\sqrt{6}}{6} = 2\\sqrt{6}$.",
+          "answers": [ { "text": "2sqrt(6)", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-09-L1-Q6", "type": "MultipleChoice", "difficulty": 3, "marks": 1,
+          "text": "To rationalise $\\dfrac{3}{4 - \\sqrt{7}}$, what should you multiply the top and bottom by?",
+          "hint": "Use the conjugate: same numbers, opposite sign.",
+          "explanation": "The conjugate of $4 - \\sqrt{7}$ is $4 + \\sqrt{7}$. Then the denominator becomes $16 - 7 = 9$.",
+          "options": [
+            { "text": "$4 + \\sqrt{7}$", "correct": true },
+            { "text": "$4 - \\sqrt{7}$", "correct": false, "feedback": "Squaring the denominator leaves a surd in it." },
+            { "text": "$\\sqrt{7}$", "correct": false, "feedback": "That works only when the denominator is a single surd." },
+            { "text": "$-4 + \\sqrt{7}$", "correct": false, "feedback": "This is just −1 times the denominator; the surd would remain." } ] } },
+        { "type": "Explanation", "title": "Common mistakes and exam tips", "minutes": 3, "content": "## Watch out for\n\n- $\\sqrt{a} + \\sqrt{b}$ is **not** $\\sqrt{a + b}$. Simplify each surd and collect like surds instead.\n- Not fully simplified: $2\\sqrt{18}$ should become $6\\sqrt{2}$. Check the number under the root has no square factor left.\n- $(a + \\sqrt{b})^2$ has **three** terms: $a^2 + 2a\\sqrt{b} + b$.\n- When rationalising with a conjugate, multiply the **numerator** by it too.\n- Give exact answers when asked. If the question says \"in the form $a + b\\sqrt{c}$\", state $a$ and $b$ clearly.\n- Surds appear in Pythagoras and trigonometry too: a right-angled triangle with legs 1 and 1 has hypotenuse $\\sqrt{2}$, and $\\sin 60° = \\dfrac{\\sqrt{3}}{2}$. Leaving those as surds keeps the answer exact." },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-01-09-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true,
+          "text": "Show that $\\dfrac{\\sqrt{8} + 6}{\\sqrt{2}}$ can be written in the form $a + b\\sqrt{2}$, where $a$ and $b$ are integers. State the values of $a$ and $b$.",
+          "hint": "Simplify $\\sqrt{8}$ first, then rationalise by multiplying top and bottom by $\\sqrt{2}$.",
+          "explanation": "$\\sqrt{8} = 2\\sqrt{2}$, so the numerator is $2\\sqrt{2} + 6$. Multiply top and bottom by $\\sqrt{2}$: numerator $= 2 \\times 2 + 6\\sqrt{2} = 4 + 6\\sqrt{2}$, denominator $= 2$. Dividing: $2 + 3\\sqrt{2}$, so $a = 2$ and $b = 3$.",
+          "markScheme": [
+            { "criterion": "Simplifies √8 to 2√2", "marks": 1, "keywords": [ ["2√2", "2sqrt(2)", "2 root 2", "2sqrt2"] ] },
+            { "criterion": "Multiplies numerator and denominator by √2 (rationalises)", "marks": 1, "keywords": [ ["multiply", "rationalis", "× √2", "x √2", "times root 2"] ] },
+            { "criterion": "Obtains numerator 4 + 6√2 over denominator 2", "marks": 1, "keywords": [ ["4 + 6√2", "4+6√2", "6√2", "6sqrt(2)"] ] },
+            { "criterion": "States a = 2 and b = 3", "marks": 1, "keywords": [ ["a = 2", "a=2"], ["b = 3", "b=3"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- A surd is an irrational root such as $\\sqrt{5}$. Keep it for exact answers.\n- $\\sqrt{a}\\sqrt{b} = \\sqrt{ab}$ and $\\dfrac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\dfrac{a}{b}}$, but roots do **not** add.\n- Simplify by taking out the largest square factor: $\\sqrt{72} = 6\\sqrt{2}$.\n- Collect like surds as if they were like terms; simplify first so they match.\n- Rationalise a single surd by multiplying top and bottom by it.\n- Rationalise $a \\pm \\sqrt{b}$ by multiplying top and bottom by the conjugate $a \\mp \\sqrt{b}$." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-01-09-L1-P1", "type": "Equation", "difficulty": 1, "marks": 1, "text": "Simplify $\\sqrt{20}$. Type your answer like 2sqrt(3).", "hint": "20 = 4 × 5.", "explanation": "$\\sqrt{20} = 2\\sqrt{5}$.", "answers": [ { "text": "2sqrt(5)", "caseSensitive": false } ] },
+        { "key": "AQA-MAT-01-09-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Work out $(2\\sqrt{3})^2$.", "hint": "Square the 2 and square the $\\sqrt{3}$.", "explanation": "$2^2 \\times (\\sqrt{3})^2 = 4 \\times 3 = 12$.", "answers": [ { "numeric": 12, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-09-L1-P3", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: $\\sqrt{16} + \\sqrt{9} = \\sqrt{25}$.", "hint": "Evaluate each side.", "explanation": "False. Left side is 4 + 3 = 7; right side is 5. Roots do not add like this.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-01-09-L1-P4", "type": "Equation", "difficulty": 2, "marks": 1, "text": "Simplify $3\\sqrt{7} + \\sqrt{63}$. Type your answer like 2sqrt(3).", "hint": "$63 = 9 \\times 7$.", "explanation": "$\\sqrt{63} = 3\\sqrt{7}$, so $3\\sqrt{7} + 3\\sqrt{7} = 6\\sqrt{7}$.", "answers": [ { "text": "6sqrt(7)", "caseSensitive": false } ] },
+        { "key": "AQA-MAT-01-09-L1-P5", "type": "Matching", "difficulty": 2, "marks": 4, "text": "Match each surd to its simplified form.", "hint": "Find the largest square factor each time.", "explanation": "$\\sqrt{32} = 4\\sqrt{2}$; $\\sqrt{98} = 7\\sqrt{2}$; $\\sqrt{12} = 2\\sqrt{3}$; $\\sqrt{300} = 10\\sqrt{3}$.", "pairs": [ { "left": "√32", "right": "4√2" }, { "left": "√98", "right": "7√2" }, { "left": "√12", "right": "2√3" }, { "left": "√300", "right": "10√3" } ] },
+        { "key": "AQA-MAT-01-09-L1-P6", "type": "Equation", "difficulty": 3, "marks": 2, "text": "Expand and simplify $(\\sqrt{5} + 2)^2$. Type your answer like 4+2sqrt(3).", "hint": "Three terms: square, double product, square.", "explanation": "$5 + 4\\sqrt{5} + 4 = 9 + 4\\sqrt{5}$.", "answers": [ { "text": "9+4sqrt(5)", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-09-L1-P7", "type": "Equation", "difficulty": 3, "marks": 2, "text": "Rationalise the denominator of $\\dfrac{5}{\\sqrt{10}}$. Type your answer like sqrt(3)/2.", "hint": "Multiply top and bottom by $\\sqrt{10}$ and cancel the 5.", "explanation": "$\\frac{5\\sqrt{10}}{10} = \\frac{\\sqrt{10}}{2}$.", "answers": [ { "text": "sqrt(10)/2", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-09-L1-P8", "type": "MultipleChoice", "difficulty": 3, "marks": 1, "text": "Which of these is equal to $\\dfrac{6}{1 + \\sqrt{3}}$?", "hint": "Multiply top and bottom by $1 - \\sqrt{3}$. The denominator becomes $1 - 3 = -2$.", "explanation": "$\\frac{6(1 - \\sqrt{3})}{(1 + \\sqrt{3})(1 - \\sqrt{3})} = \\frac{6 - 6\\sqrt{3}}{-2} = -3 + 3\\sqrt{3}$.", "options": [ { "text": "$3\\sqrt{3} - 3$", "correct": true }, { "text": "$3 + 3\\sqrt{3}$", "correct": false, "feedback": "Check the sign of the denominator: $1 - 3 = -2$." }, { "text": "$6 - 6\\sqrt{3}$", "correct": false, "feedback": "You have not divided by the new denominator." }, { "text": "$3 - 3\\sqrt{3}$", "correct": false, "feedback": "Dividing by −2 flips both signs." } ] },
+        { "key": "AQA-MAT-01-09-L1-P9", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentence.", "metadata": { "blanksText": "To rationalise a denominator of the form a − √b, multiply the numerator and denominator by its ___, which is a ___ √b." }, "hint": "Same terms, opposite sign in the middle.", "explanation": "Multiply by the conjugate $a + \\sqrt{b}$, so the denominator becomes $a^2 - b$.", "answers": [ { "text": "conjugate", "blankIndex": 0, "marks": 1 }, { "text": "+", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-01-09-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "A square has area 50 cm². Explain why its side length is exactly $5\\sqrt{2}$ cm, and state why this is better than writing 7.07 cm.", "hint": "Side = square root of the area. Simplify the surd. Think about exact versus rounded.", "explanation": "Side $= \\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$ cm. This is exact, whereas 7.07 is rounded and would introduce errors in further calculations.", "markScheme": [ { "criterion": "Shows √50 = √25 × √2 = 5√2", "marks": 1, "keywords": [ ["√25", "25 × 2", "25 x 2", "sqrt(25)", "25 and 2"] ] }, { "criterion": "States that the surd form is exact whereas 7.07 is rounded/approximate", "marks": 1, "keywords": [ ["exact", "rounded", "approximat", "not exact"] ] } ] },
+        { "key": "AQA-MAT-01-09-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Write $\\dfrac{7}{3 - \\sqrt{2}}$ in the form $a + b\\sqrt{2}$, where $a$ and $b$ are integers. Show your working.", "hint": "Multiply top and bottom by $3 + \\sqrt{2}$. The denominator becomes $9 - 2 = 7$.", "explanation": "$\\frac{7(3 + \\sqrt{2})}{(3 - \\sqrt{2})(3 + \\sqrt{2})} = \\frac{21 + 7\\sqrt{2}}{7} = 3 + \\sqrt{2}$. So $a = 3$, $b = 1$.", "markScheme": [ { "criterion": "Multiplies numerator and denominator by the conjugate 3 + √2", "marks": 1, "keywords": [ ["3 + √2", "3+√2", "3 + sqrt(2)", "conjugate"] ] }, { "criterion": "Denominator = 9 − 2 = 7", "marks": 1, "keywords": [ ["9 - 2", "9 − 2", "= 7", "9-2"] ] }, { "criterion": "Final answer 3 + √2 (a = 3, b = 1)", "marks": 1, "keywords": [ ["3 + √2", "3+√2", "3 + sqrt(2)", "a = 3", "a=3"] ] } ] }
+      ]
+    }
+  ]
+}

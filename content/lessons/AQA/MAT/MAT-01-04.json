@@ -1,0 +1,96 @@
+{
+  "subTopicCode": "MAT-01-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-01-04-L1",
+      "title": "Fractions, decimals and percentages",
+      "summary": "Convert confidently between fractions, decimals and percentages, compare mixed lists of them, and turn recurring decimals into fractions.",
+      "objectives": [
+        "I can convert a fraction to a decimal by dividing, and a decimal to a fraction using place value.",
+        "I can convert between decimals and percentages by multiplying or dividing by 100.",
+        "I can order a mixed list of fractions, decimals and percentages.",
+        "I can write a terminating decimal as a fraction in its simplest form.",
+        "I can convert a recurring decimal to a fraction using algebra."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Three ways of writing the same number", "minutes": 4, "content": "## One value, three costumes\n\nA fraction, a decimal and a percentage are just three ways of describing a **part of a whole**.\n\n| Fraction | Decimal | Percentage |\n|---|---|---|\n| $\\frac{1}{2}$ | 0.5 | 50% |\n| $\\frac{1}{4}$ | 0.25 | 25% |\n| $\\frac{3}{4}$ | 0.75 | 75% |\n| $\\frac{1}{10}$ | 0.1 | 10% |\n| $\\frac{1}{5}$ | 0.2 | 20% |\n| $\\frac{1}{8}$ | 0.125 | 12.5% |\n| $\\frac{1}{3}$ | 0.333... | 33.3...% |\n\nThe word *per cent* literally means *out of a hundred*, so a percentage is a fraction with a denominator of 100 in disguise: $37\\% = \\frac{37}{100} = 0.37$.\n\n**The conversion routes**\n\n- Decimal → percentage: **multiply by 100** (move the digits two places left).\n- Percentage → decimal: **divide by 100**.\n- Fraction → decimal: **divide the top by the bottom**.\n- Decimal → fraction: **use place value**, then simplify.\n- Fraction → percentage: go via the decimal, or scale the denominator up to 100 if you can.\n\nLearning the table above by heart saves a huge amount of time in the exam, because the same values keep appearing." },
+        { "type": "Example", "title": "Worked example: converting each way", "minutes": 4, "content": "**1. Write 0.65 as a fraction in its simplest form.**\n\n0.65 has its last digit in the hundredths column, so $0.65 = \\frac{65}{100}$.\n\nBoth 65 and 100 divide by 5: $\\frac{65}{100} = \\frac{13}{20}$.\n\n**2. Write $\\frac{7}{8}$ as a decimal and as a percentage.**\n\n$7 \\div 8$: 8 into 7.000 → 0.875 (short division, adding zeros as needed).\n\nAs a percentage: $0.875 \\times 100 = 87.5\\%$.\n\n**3. Write 4% as a decimal.**\n\n$4 \\div 100 = 0.04$. Watch out: it is *not* 0.4. Four per cent is four hundredths.\n\n**4. Write $\\frac{9}{25}$ as a percentage without a calculator.**\n\n25 goes into 100 four times, so multiply top and bottom by 4: $\\frac{9}{25} = \\frac{36}{100} = 36\\%$.\n\nWhenever the denominator is a factor of 100 (2, 4, 5, 10, 20, 25, 50) this scaling trick is faster than dividing." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-04-L1-Q1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1,
+          "text": "Write $\\frac{3}{8}$ as a decimal.",
+          "hint": "Divide 3 by 8, or halve 0.75.",
+          "explanation": "$3 \\div 8 = 0.375$. You can also see it as half of $\\frac{3}{4} = 0.75$.",
+          "answers": [ { "numeric": 0.375, "tolerance": 0 } ] } },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-04-L1-Q2", "type": "MultipleChoice", "difficulty": 1, "marks": 1,
+          "text": "Which of these is equal to 0.06?",
+          "hint": "The 6 is in the hundredths column.",
+          "explanation": "0.06 means six hundredths, which is $\\frac{6}{100} = 6\\%$. It simplifies to $\\frac{3}{50}$.",
+          "options": [
+            { "text": "6%", "correct": true },
+            { "text": "60%", "correct": false, "feedback": "60% would be 0.6, six tenths." },
+            { "text": "$\\frac{6}{10}$", "correct": false, "feedback": "That is 0.6, not 0.06." },
+            { "text": "0.6%", "correct": false, "feedback": "0.6% is 0.006 as a decimal." } ] } },
+        { "type": "Explanation", "title": "Ordering a mixed list", "minutes": 4, "content": "## Comparing fractions, decimals and percentages\n\nYou cannot easily compare $\\frac{2}{3}$, 0.7 and 65% by eye, so **convert them all to the same form** first. Decimals are usually the easiest to compare, because you can line up the place-value columns.\n\n**Method**\n1. Convert every value to a decimal (use 3 or 4 decimal places if they are close).\n2. Write them in order using the decimals.\n3. Write your final answer using the **original** forms, because that is what the question asked for.\n\n**Example:** order $\\frac{2}{3}$, 0.7, 65% and $\\frac{5}{8}$ from smallest to largest.\n\n- $\\frac{2}{3} = 0.666...$\n- $0.7 = 0.7$\n- $65\\% = 0.65$\n- $\\frac{5}{8} = 0.625$\n\nSmallest to largest: $\\frac{5}{8}$, 65%, $\\frac{2}{3}$, 0.7.\n\n**Common trap:** a shorter decimal is not automatically smaller. 0.7 is bigger than 0.666..., even though it has fewer digits. Pad with zeros if it helps: 0.700 versus 0.666." },
+        { "type": "Question", "title": "Ordering", "question": {
+          "key": "AQA-MAT-01-04-L1-Q3", "type": "Ordering", "difficulty": 2, "marks": 2,
+          "text": "Put these values in order from smallest to largest.",
+          "hint": "Convert each one to a decimal first. $\\frac{3}{5}$ is 0.6.",
+          "explanation": "As decimals: 0.55, $\\frac{3}{5} = 0.6$, 62% = 0.62, $\\frac{5}{8} = 0.625$. So the order is 0.55, $\\frac{3}{5}$, 62%, $\\frac{5}{8}$.",
+          "order": [ "0.55", "3/5", "62%", "5/8" ] } },
+        { "type": "Explanation", "title": "Terminating and recurring decimals", "minutes": 4, "content": "## Why do some fractions go on forever?\n\nWhen you divide the numerator by the denominator, one of two things happens:\n\n- The division **stops** — a **terminating** decimal, e.g. $\\frac{3}{8} = 0.375$.\n- A digit or block of digits **repeats forever** — a **recurring** decimal, e.g. $\\frac{1}{3} = 0.333...$ and $\\frac{5}{11} = 0.454545...$\n\nWe show recurring digits with **dots**: $0.\\dot{3}$ means 0.333..., and $0.\\dot{4}\\dot{5}$ means 0.454545... (a dot over the first and last digit of the repeating block). If only one digit repeats, one dot is enough: $0.1\\dot{6} = 0.16666...$\n\n**How to tell without dividing**\n\nWrite the fraction in its simplest form and look at the denominator's prime factors.\n\n- If the denominator's only prime factors are **2 and/or 5**, the decimal **terminates** (because 10 = 2 × 5).\n- If it has **any other prime factor** (3, 7, 11, ...), the decimal **recurs**.\n\nSo $\\frac{7}{40}$ terminates (40 = 2³ × 5) but $\\frac{7}{30}$ recurs (30 = 2 × 3 × 5, and the 3 spoils it)." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-04-L1-Q4", "type": "MultipleAnswer", "difficulty": 2, "marks": 2,
+          "text": "Which of these fractions give a terminating decimal? Select all that apply.",
+          "hint": "Simplify first, then check whether the denominator has any prime factor other than 2 or 5.",
+          "explanation": "$\\frac{9}{20}$: 20 = 2² × 5, terminates (0.45). $\\frac{4}{6} = \\frac{2}{3}$, recurs. $\\frac{11}{16}$: 16 = 2⁴, terminates (0.6875). $\\frac{2}{15}$: 15 = 3 × 5, recurs.",
+          "options": [
+            { "text": "$\\frac{9}{20}$", "correct": true },
+            { "text": "$\\frac{4}{6}$", "correct": false, "feedback": "Simplifies to two thirds, which is 0.666..." },
+            { "text": "$\\frac{11}{16}$", "correct": true },
+            { "text": "$\\frac{2}{15}$", "correct": false, "feedback": "15 has a factor of 3, so this recurs: 0.1333..." } ] } },
+        { "type": "Example", "title": "Worked example: recurring decimal to fraction", "minutes": 5, "content": "## The algebra trick\n\n**Write $0.\\dot{7}\\dot{2}$ as a fraction in its simplest form.**\n\n1. Let $x = 0.727272...$\n2. The repeating block has **2 digits**, so multiply by $10^2 = 100$ to shift one whole block: $100x = 72.727272...$\n3. Subtract the first line from the second. The recurring tails cancel exactly:\n\n$100x - x = 72.7272... - 0.7272...$\n\n$99x = 72$\n\n4. So $x = \\frac{72}{99} = \\frac{8}{11}$ (dividing top and bottom by 9).\n\n**A harder one: $0.2\\dot{6}$** (only the 6 repeats).\n\nLet $x = 0.2666...$\n\nMultiply by 10 to get the non-repeating digit out of the way: $10x = 2.666...$\n\nMultiply by 100 to shift one repeating block past that: $100x = 26.666...$\n\nSubtract: $100x - 10x = 26.666... - 2.666...$, so $90x = 24$ and $x = \\frac{24}{90} = \\frac{4}{15}$.\n\n**Rule of thumb:** the multiplier is 10 to the power of the length of the repeating block. If there are digits before the block, you need two multiplications so that the decimal tails line up." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-04-L1-Q5", "type": "Equation", "difficulty": 3, "marks": 2,
+          "text": "Write $0.\\dot{4}$ as a fraction in its simplest form. Type your answer like 2/7.",
+          "hint": "Let $x = 0.444...$ and multiply by 10, then subtract.",
+          "explanation": "$x = 0.444...$, $10x = 4.444...$, so $9x = 4$ and $x = \\frac{4}{9}$.",
+          "answers": [ { "text": "4/9", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-04-L1-Q6", "type": "Equation", "difficulty": 4, "marks": 3,
+          "text": "Write $0.\\dot{3}\\dot{6}$ as a fraction in its simplest form. Type your answer like 2/7.",
+          "hint": "Two digits repeat, so multiply by 100. Then simplify by looking for a common factor of 9.",
+          "explanation": "$x = 0.3636...$, $100x = 36.3636...$, so $99x = 36$ and $x = \\frac{36}{99} = \\frac{4}{11}$.",
+          "answers": [ { "text": "4/11", "caseSensitive": false, "marks": 3 } ] } },
+        { "type": "Explanation", "title": "Common mistakes and exam tips", "minutes": 3, "content": "## Watch out for\n\n- **Percentages under 10%**: 7% = 0.07, not 0.7. Count two decimal places every time.\n- **Simplest form**: an exam answer of $\\frac{45}{100}$ will lose a mark; write $\\frac{9}{20}$.\n- **Ordering**: convert everything, then answer in the original forms. Do not leave a list of decimals as your final answer.\n- **Recurring notation**: $0.\\dot{1}\\dot{2}$ = 0.121212..., but $0.1\\dot{2}$ = 0.12222... The dots tell you exactly which digits repeat.\n- **Rounding a recurring decimal** loses information: 0.33 is *not* one third. When an exact answer is required, keep the fraction.\n- **Showing working** for recurring-to-fraction questions: write the \"let $x =$\" line, the multiplied line and the subtraction. Those lines are what the marks are for." },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-01-04-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true,
+          "text": "Show that $0.\\dot{5}\\dot{4}$ can be written as $\\frac{6}{11}$. Show your working clearly.",
+          "hint": "Start with 'let x = 0.5454...' and multiply by 100 because two digits repeat.",
+          "explanation": "Let $x = 0.5454...$. Then $100x = 54.5454...$. Subtracting, $99x = 54$, so $x = \\frac{54}{99}$. Dividing top and bottom by 9 gives $\\frac{6}{11}$.",
+          "markScheme": [
+            { "criterion": "Sets up x = 0.5454... and multiplies by 100 to get 100x = 54.5454...", "marks": 1, "keywords": [ ["100x", "100 x", "54.54", "54.5454"] ] },
+            { "criterion": "Subtracts to obtain 99x = 54", "marks": 1, "keywords": [ ["99x", "99 x", "99x = 54", "99x=54"] ] },
+            { "criterion": "Simplifies 54/99 to 6/11 by dividing by 9", "marks": 1, "keywords": [ ["54/99", "6/11", "divide by 9", "÷ 9", "÷9"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Decimal → % : × 100. % → decimal: ÷ 100.\n- Fraction → decimal: divide top by bottom. Decimal → fraction: use place value, then simplify.\n- To order a mixed list, convert everything to decimals, then answer in the original forms.\n- A simplified fraction terminates only if its denominator's prime factors are just 2s and 5s.\n- Recurring → fraction: let $x$ = the decimal, multiply by $10^n$ where $n$ is the length of the repeating block, subtract, solve, simplify." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-01-04-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Write 45% as a decimal.", "hint": "Divide by 100.", "explanation": "$45 \\div 100 = 0.45$.", "answers": [ { "numeric": 0.45, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-04-L1-P2", "type": "Equation", "difficulty": 1, "marks": 1, "text": "Write 0.35 as a fraction in its simplest form. Type your answer like 2/7.", "hint": "0.35 is 35 hundredths. Then divide top and bottom by 5.", "explanation": "$0.35 = \\frac{35}{100} = \\frac{7}{20}$.", "answers": [ { "text": "7/20", "caseSensitive": false } ] },
+        { "key": "AQA-MAT-01-04-L1-P3", "type": "NumericalAnswer", "difficulty": 2, "marks": 1, "text": "Write $\\frac{17}{20}$ as a percentage.", "hint": "Scale the denominator up to 100 by multiplying top and bottom by 5.", "explanation": "$\\frac{17}{20} = \\frac{85}{100} = 85\\%$.", "answers": [ { "numeric": 85, "tolerance": 0, "unit": "%" } ] },
+        { "key": "AQA-MAT-01-04-L1-P4", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: $\\frac{3}{12}$ gives a recurring decimal.", "hint": "Simplify the fraction before checking the denominator.", "explanation": "False. $\\frac{3}{12} = \\frac{1}{4} = 0.25$, which terminates. Always simplify first: the unsimplified denominator 12 has a factor of 3, but that 3 cancels.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-01-04-L1-P5", "type": "Matching", "difficulty": 2, "marks": 4, "text": "Match each fraction to its decimal.", "hint": "Divide, or use the facts you know for eighths and thirds.", "explanation": "$\\frac{5}{8} = 0.625$, $\\frac{2}{3} = 0.\\dot{6}$, $\\frac{7}{20} = 0.35$, $\\frac{1}{6} = 0.1\\dot{6}$.", "pairs": [ { "left": "5/8", "right": "0.625" }, { "left": "2/3", "right": "0.666..." }, { "left": "7/20", "right": "0.35" }, { "left": "1/6", "right": "0.1666..." } ] },
+        { "key": "AQA-MAT-01-04-L1-P6", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "Which value is the largest?", "hint": "Convert everything to decimals with three decimal places.", "explanation": "$\\frac{7}{9} = 0.777...$, 0.76, 77% = 0.77, $\\frac{3}{4} = 0.75$. The largest is $\\frac{7}{9}$.", "options": [ { "text": "$\\frac{7}{9}$", "correct": true }, { "text": "0.76", "correct": false }, { "text": "77%", "correct": false, "feedback": "0.77 is just below 0.777..." }, { "text": "$\\frac{3}{4}$", "correct": false } ] },
+        { "key": "AQA-MAT-01-04-L1-P7", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentence about recurring decimals.", "metadata": { "blanksText": "A fraction in its simplest form gives a terminating decimal only when the prime factors of its denominator are ___ and/or ___." }, "hint": "Think about the prime factors of 10.", "explanation": "10 = 2 × 5, so denominators built only from 2s and 5s give terminating decimals.", "answers": [ { "text": "2", "blankIndex": 0, "marks": 1 }, { "text": "5", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-01-04-L1-P8", "type": "Equation", "difficulty": 3, "marks": 2, "text": "Write $0.\\dot{8}\\dot{1}$ as a fraction in its simplest form. Type your answer like 2/7.", "hint": "Multiply by 100 and subtract. Then look for a common factor of 9.", "explanation": "$x = 0.8181...$, $100x = 81.8181...$, so $99x = 81$ and $x = \\frac{81}{99} = \\frac{9}{11}$.", "answers": [ { "text": "9/11", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-04-L1-P9", "type": "Ordering", "difficulty": 3, "marks": 2, "text": "Order these from largest to smallest.", "hint": "$\\frac{4}{7}$ is about 0.571 and $\\frac{5}{9}$ is about 0.556.", "explanation": "As decimals: 58% = 0.58, $\\frac{4}{7} = 0.571...$, 0.56, $\\frac{5}{9} = 0.555...$. Largest first: 58%, $\\frac{4}{7}$, 0.56, $\\frac{5}{9}$.", "order": [ "58%", "4/7", "0.56", "5/9" ] },
+        { "key": "AQA-MAT-01-04-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Priya says that $\\frac{3}{7}$ must be a terminating decimal because 7 is smaller than 10. Explain why Priya is wrong.", "hint": "What matters is the prime factors of the denominator, not its size.", "explanation": "Whether a decimal terminates depends on the prime factors of the denominator, not on how big it is. 7 is a prime that is not 2 or 5, so $\\frac{3}{7} = 0.\\dot{4}2857\\dot{1}$ recurs.", "markScheme": [ { "criterion": "States that terminating depends on the prime factors of the denominator being only 2 and 5", "marks": 1, "keywords": [ ["prime factor", "2 and 5", "2s and 5s", "only 2", "factor of 10"] ] }, { "criterion": "Identifies that 7 is not 2 or 5, so the decimal recurs", "marks": 1, "keywords": [ ["recur", "repeat", "goes on forever", "0.428"] ] } ] },
+        { "key": "AQA-MAT-01-04-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Prove that $0.4\\dot{5}$ is equal to $\\frac{41}{90}$.", "hint": "Only the 5 repeats. Use 10x and 100x so the recurring parts line up.", "explanation": "Let $x = 0.4555...$. Then $10x = 4.555...$ and $100x = 45.555...$. Subtracting, $90x = 41$, so $x = \\frac{41}{90}$.", "markScheme": [ { "criterion": "Forms 10x = 4.555... and 100x = 45.555... (or equivalent pair with aligned recurring parts)", "marks": 1, "keywords": [ ["10x", "100x"] ] }, { "criterion": "Subtracts to get 90x = 41", "marks": 1, "keywords": [ ["90x", "90 x", "= 41"] ] }, { "criterion": "Concludes x = 41/90", "marks": 1, "keywords": [ ["41/90", "41 / 90", "41 over 90"] ] } ] }
+      ]
+    }
+  ]
+}

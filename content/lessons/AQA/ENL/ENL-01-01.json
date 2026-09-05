@@ -1,0 +1,322 @@
+{
+  "subTopicCode": "ENL-01-01",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-01-01-L1",
+      "title": "Retrieving and interpreting information (Paper 1, Question 1)",
+      "summary": "Learn how to find explicit information quickly and accurately in a fiction extract, avoid the traps that lose easy marks, and begin reading between the lines.",
+      "objectives": [
+        "I can find four pieces of explicit information from a given section of a fiction text.",
+        "I can tell the difference between explicit information and inference.",
+        "I can avoid common Question 1 mistakes such as going outside the line references or drifting off focus.",
+        "I can make a sensible inference from a short quotation and explain what it suggests."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 2,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What Question 1 asks you to do",
+          "minutes": 4,
+          "content": "## Paper 1, Question 1: the warm-up\n\nPaper 1 begins with a short fiction extract (usually from a novel) and Question 1 is designed to get you reading carefully straight away. It is worth **4 marks** and tests **AO1**: *identify and interpret explicit and implicit information and ideas*.\n\nThe question always looks something like this:\n\n> Read again the first part of the source, from **lines 1 to 6**. List **four** things from this part of the text about **the house**.\n\nNotice the three instructions hidden in there:\n\n1. **Only** use the lines you are told to read. Anything from outside them scores nothing.\n2. Give exactly **four** things. A fifth is ignored, so choose the four you are surest of.\n3. Every answer must be about the **focus** named in the question (here, *the house*). A true statement about the weather or a character does not count.\n\nYou can quote directly or put the information in your own words. Both are fine, as long as the point is clear and comes from the right lines. Spend no more than **five minutes** on this question: it is the easiest four marks on the paper, and you need the rest of the hour for the harder questions."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: four things about the house",
+          "minutes": 4,
+          "content": "**Read lines 1 to 6.**\n\n> The house at the end of Wren Lane had been empty for eleven years. Its gate hung from a single hinge, and the path beyond was lost under a tangle of nettles that came up to Mara's waist. She paused, shifting the weight of her rucksack, and looked up at the windows. Three of them were boarded; the fourth, high in the gable, still held its glass, and something in the way the evening light caught it made her think of an eye half-open. A crow lifted from the chimney and drifted away over the fields.\n\n**List four things about the house.**\n\nA full-mark answer:\n\n1. It had been empty for eleven years.\n2. Its gate hung from a single hinge.\n3. Three of its windows were boarded up.\n4. It had a chimney.\n\n**Why this scores 4/4**\n- Every point is **about the house**, not about Mara or the crow.\n- Every point is **explicit**: it is stated in the text, not guessed.\n- Every point comes from the **given lines**.\n\nAn answer such as *\"The house is creepy\"* would **not** score. That is the reader's interpretation, not something the text states. *\"Mara had a rucksack\"* is true but is about Mara, so it also scores nothing."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: true things about Mara",
+          "question": {
+            "key": "AQA-ENL-01-01-L1-Q1",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Read the extract again.\n\n> The house at the end of Wren Lane had been empty for eleven years. Its gate hung from a single hinge, and the path beyond was lost under a tangle of nettles that came up to Mara's waist. She paused, shifting the weight of her rucksack, and looked up at the windows. Three of them were boarded; the fourth, high in the gable, still held its glass, and something in the way the evening light caught it made her think of an eye half-open. A crow lifted from the chimney and drifted away over the fields. Mara pulled her sleeves down over her hands, pushed through the nettles, and knocked twice on a door that nobody had answered for a very long time.\n\nSelect the **four** statements about **Mara** that are true according to the text.",
+            "hint": "Only choose statements that the text actually says. If you have to guess or assume, it is not explicit.",
+            "explanation": "The text states that Mara shifts her rucksack, pauses and looks up at the windows, pulls her sleeves over her hands and knocks twice. It never says she has been here before, that she owns the house, that she climbs through a window, or that the crow frightens her. Those are either untrue or guesses.",
+            "options": [
+              { "text": "She shifts the weight of her rucksack.", "correct": true },
+              { "text": "She pauses and looks up at the windows.", "correct": true },
+              { "text": "She pulls her sleeves down over her hands.", "correct": true },
+              { "text": "She knocks twice on the door.", "correct": true },
+              { "text": "She has visited the house before.", "correct": false, "feedback": "The text never says this. It is a guess." },
+              { "text": "She climbs in through a window.", "correct": false, "feedback": "She knocks on the door; she does not climb in." },
+              { "text": "She is frightened by the crow.", "correct": false, "feedback": "The crow is mentioned, but her reaction to it is not." },
+              { "text": "She owns the house.", "correct": false, "feedback": "Nothing in the text tells us who owns the house." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Explicit or implicit?",
+          "minutes": 4,
+          "content": "## Two kinds of information\n\n**Explicit** information is stated openly. If the text says *\"the kitchen was cold\"*, then *the kitchen was cold* is explicit. You could point to the words on the page.\n\n**Implicit** information is suggested rather than stated. If the text says *\"she wrapped both hands around the mug and did not let go\"*, the writer never uses the word *cold*, but we can **infer** that the room, or the character, is cold. Inference means reading between the lines.\n\n**Question 1 only wants explicit information.** Examiners are checking whether you can read accurately, so the safest answers are ones you could underline in the text. Save your inferences for Questions 2, 3 and 4, where they earn marks.\n\n### What counts as a \"thing\"?\n\nA \"thing\" is any single, separate piece of information about the focus. These all count:\n\n- a **fact** (it had been empty for eleven years)\n- a **detail of appearance** (the gate hung from one hinge)\n- an **action** if the focus is a person (she knocked twice)\n- a **description** the writer gives (the path was lost under nettles)\n\nYou may quote the writer's words or paraphrase. If you quote, keep the quotation short; you do not need a whole sentence, just enough to make the point clear."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: answers that lose marks",
+          "minutes": 3,
+          "content": "Here is a student's answer to *\"List four things about the house\"* using the Wren Lane extract, with the examiner's thinking.\n\n| Student's point | Mark? | Why |\n|---|---|---|\n| The house is at the end of Wren Lane. | 1 | Explicit, about the house, from the right lines. |\n| The house looks scary. | 0 | This is an inference. The text never says *scary*. |\n| Mara's rucksack is heavy. | 0 | Off focus: the question asked about the house. Also an inference. |\n| The fourth window still had its glass. | 1 | Explicit and on focus. |\n| The door had not been answered for a long time. | 0 | True, but it comes from **outside** the given lines (1 to 6). |\n\nFinal score: **2 out of 4**. Two easy marks lost, not because the student could not read, but because they did not follow the three instructions: **right lines, right focus, explicit only**.\n\nA good habit: before you write anything, draw a bracket in the margin around the lines you are told to read, and circle the focus word in the question."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: which answer would score zero?",
+          "question": {
+            "key": "AQA-ENL-01-01-L1-Q2",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "A question asks: *\"Read lines 1 to 5. List four things about the garden.\"*\n\nLines 1 to 5 read:\n\n> The garden had not been touched since spring. Roses had climbed the fence and spilled over into the alley beyond, and the lawn, if it could still be called that, was ankle-deep and full of dandelion clocks. A child's bicycle lay on its side by the shed, one wheel slowly turning in the wind. Somewhere under the brambles a blackbird was singing.\n\nWhich of these answers would score **zero**?",
+            "hint": "Check each answer against the three rules: right lines, right focus, explicit only.",
+            "explanation": "\"The owners have gone away\" is an inference. It might be a sensible guess, but the text does not state it, so it cannot score on a retrieval question. The other three are explicit details about the garden.",
+            "options": [
+              { "text": "The owners of the house have gone away.", "correct": true },
+              { "text": "It had not been touched since spring.", "correct": false, "feedback": "This is stated directly in the first sentence." },
+              { "text": "Roses had climbed the fence.", "correct": false, "feedback": "This is an explicit detail about the garden." },
+              { "text": "The lawn was ankle-deep.", "correct": false, "feedback": "This is stated in the text." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: list four things",
+          "question": {
+            "key": "AQA-ENL-01-01-L1-Q3",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Read the extract below.\n\n> By seven the market was already loud. Stallholders shouted prices over one another, and a man with a tray of hot chestnuts moved between the crowds, leaving a thread of sweet smoke behind him. Awnings in faded red and green sagged under last night's rain. Beneath them, crates of oranges glowed like small lanterns, and a boy no older than ten weighed potatoes on a brass scale with enormous seriousness. Somewhere a radio crackled through a song nobody could name.\n\n**List four things from this extract about the market.** Write each thing on a new line.",
+            "hint": "You can quote or use your own words. Pick details that are clearly stated, and make sure each one is about the market rather than about one person.",
+            "explanation": "Any four explicit details about the market would score, for example: it was loud by seven; stallholders shouted prices; a man sold hot chestnuts; the awnings were faded red and green; the awnings sagged with rain; there were crates of oranges; a boy weighed potatoes on a brass scale; a radio was playing. Each point is stated directly in the text.",
+            "markScheme": [
+              { "criterion": "Gives an explicit detail about the noise or the stallholders (e.g. it was loud, stallholders shouted prices)", "marks": 1, "keywords": [ ["loud", "shout", "noisy", "prices", "seven"] ] },
+              { "criterion": "Gives an explicit detail about the chestnut seller or the awnings", "marks": 1, "keywords": [ ["chestnut", "smoke", "awning", "red and green", "rain"] ] },
+              { "criterion": "Gives an explicit detail about the produce (oranges, potatoes, scale)", "marks": 1, "keywords": [ ["orange", "crate", "lantern", "potato", "scale"] ] },
+              { "criterion": "Gives a further explicit detail (e.g. the radio, the boy, the crowds)", "marks": 1, "keywords": [ ["radio", "song", "boy", "crowd", "brass"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Reading between the lines",
+          "minutes": 4,
+          "content": "## Interpreting: what the text suggests\n\nAlthough Question 1 rewards explicit retrieval, the rest of Section A depends on **interpretation**, so it is worth practising the skill now while the extract is fresh.\n\nTo make an inference, ask three questions about a detail:\n\n1. **What does the text say?** (the explicit detail)\n2. **What does that suggest?** (the inference)\n3. **What in the words makes me think so?** (your evidence)\n\nFor example, in the Wren Lane extract the fourth window makes Mara *\"think of an eye half-open\"*.\n\n- **Says:** the window reminds her of a half-open eye.\n- **Suggests:** she feels watched; the house seems alive or alert, as if it is aware of her.\n- **Evidence:** *eye* makes the house seem like a living creature; *half-open* suggests it is waking up or only pretending to sleep.\n\nUseful sentence starters for interpretation:\n\n- *This suggests that…*\n- *This implies…*\n- *The reader might feel…*\n- *The word \"…\" hints that…*\n\nA strong inference is **reasonable** (most readers would agree it is possible) and **rooted in the text** (you can point to the words that led you there). \"The house is haunted by a pirate\" is not an inference; it is an invention."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: match the detail to the inference",
+          "question": {
+            "key": "AQA-ENL-01-01-L1-Q4",
+            "type": "Matching",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Match each explicit detail from the Wren Lane extract to the most sensible inference a reader could make from it.",
+            "hint": "Ask: what would this detail make most readers think or feel? Choose the inference that the words most directly support.",
+            "explanation": "A gate on one hinge suggests nobody has repaired anything, so the place is neglected. Nettles at waist height suggest nobody has walked the path for a long time. Pulling her sleeves over her hands suggests Mara is nervous or protecting herself. A door not answered for years suggests the house has been abandoned.",
+            "pairs": [
+              { "left": "Its gate hung from a single hinge", "right": "The property has been neglected and not repaired" },
+              { "left": "Nettles came up to Mara's waist", "right": "Nobody has walked up the path for a long time" },
+              { "left": "Mara pulled her sleeves down over her hands", "right": "Mara feels nervous or wants to protect herself" },
+              { "left": "A door nobody had answered for a very long time", "right": "The house has been abandoned" }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: explicit or implicit?",
+          "question": {
+            "key": "AQA-ENL-01-01-L1-Q5",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Complete the sentence using the words **explicit** or **implicit**.",
+            "metadata": { "blanksText": "Information that is stated directly in the text is ___, while information that is only suggested and has to be inferred is ___." },
+            "hint": "Think of the prefix ex- as meaning 'out in the open'.",
+            "explanation": "Explicit information is stated openly on the page. Implicit information is hidden inside the words and has to be inferred by the reader.",
+            "answers": [
+              { "text": "explicit", "blankIndex": 0, "marks": 1 },
+              { "text": "implicit", "blankIndex": 1, "marks": 1 }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-01-01-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 3,
+            "marks": 4,
+            "examStyle": true,
+            "text": "Read again the opening of the source, **lines 1 to 7**.\n\n> 1  The wind came first, flattening the long grass on the headland and snapping\n> 2  the flag on the lifeboat station straight out like a board. Then the rain,\n> 3  not falling so much as arriving sideways, hard as gravel against Jonah's\n> 4  cheek. Out beyond the harbour wall the sea had turned the colour of slate,\n> 5  and every few seconds a wave broke over the end of the pier and dragged back\n> 6  with a hiss. The gulls had given up and gone. A single fishing boat, its lights\n> 7  already on though it was barely three o'clock, was making slowly for the harbour.\n> 8  Jonah pulled his hood tighter and began to run.\n\n**List four things from this part of the text about the storm.** [4 marks]",
+            "hint": "Stay inside lines 1 to 7, keep every point about the storm or the weather, and only write what the text actually says.",
+            "explanation": "Possible answers include: the wind came first; the wind flattened the grass; the wind made the flag stick straight out; the rain arrived sideways; the rain was hard as gravel; the sea had turned the colour of slate; waves broke over the pier every few seconds; the gulls had gone; it was dark enough for the boat to need its lights at three o'clock. Line 8 is outside the given lines, so Jonah pulling his hood tighter would not score.",
+            "markScheme": [
+              { "criterion": "Gives an explicit detail about the wind (e.g. it came first, flattened the grass, snapped the flag out)", "marks": 1, "keywords": [ ["wind", "flatten", "flag", "grass", "board"] ] },
+              { "criterion": "Gives an explicit detail about the rain (e.g. it arrived sideways, hard as gravel)", "marks": 1, "keywords": [ ["rain", "sideways", "gravel", "cheek"] ] },
+              { "criterion": "Gives an explicit detail about the sea (e.g. colour of slate, waves breaking over the pier)", "marks": 1, "keywords": [ ["sea", "slate", "wave", "pier", "hiss"] ] },
+              { "criterion": "Gives a further explicit detail (e.g. the gulls had gone, the boat had its lights on at three o'clock)", "marks": 1, "keywords": [ ["gull", "boat", "lights", "three", "dark"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Question 1 is worth **4 marks** and tests **AO1**: finding information.\n- Follow the three rules: **right lines**, **right focus**, **explicit only**.\n- A \"thing\" is any separate piece of information about the focus. Quote or paraphrase; both are fine.\n- **Explicit** = stated on the page. **Implicit** = suggested; you have to infer it.\n- Save inferences (*this suggests…*) for Questions 2, 3 and 4, where they earn marks.\n- Spend about **five minutes** on Question 1, then move on."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-01-01-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: in Paper 1 Question 1, you can use information from anywhere in the extract as long as it is about the right focus.",
+          "hint": "Re-read the wording of a typical Question 1: it names specific lines.",
+          "explanation": "False. Question 1 always gives line references, and information from outside those lines scores nothing even if it is true and on focus.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "How many marks is Paper 1 Question 1 worth, and roughly how long should you spend on it?",
+          "hint": "It is the shortest question on the paper.",
+          "explanation": "Question 1 is worth 4 marks. Around five minutes is plenty; the harder questions need the rest of the time.",
+          "options": [
+            { "text": "4 marks, about 5 minutes", "correct": true },
+            { "text": "8 marks, about 10 minutes", "correct": false },
+            { "text": "4 marks, about 15 minutes", "correct": false, "feedback": "That would leave far too little time for Questions 2 to 5." },
+            { "text": "12 marks, about 5 minutes", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P3",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these steps in the best order for answering Question 1.",
+          "hint": "You need to know where to look and what to look for before you start writing.",
+          "explanation": "Mark the line references first, then circle the focus of the question, then read those lines carefully, then write four explicit points, and finally check each one against the rules.",
+          "order": [
+            "Bracket the line references in the margin",
+            "Circle the focus word in the question",
+            "Read the given lines carefully",
+            "Write four explicit points about the focus",
+            "Check each point: right lines, right focus, explicit only"
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which of these is an **inference** rather than explicit information?\n\n> Priya checked her phone for the ninth time, then turned it face down on the table and stared at the door.",
+          "hint": "Explicit information could be underlined in the text. An inference is what the details add up to.",
+          "explanation": "The text tells us she checked her phone nine times, turned it face down and stared at the door. It never says she is waiting anxiously for someone; that is what a reader infers from those actions.",
+          "options": [
+            { "text": "Priya is anxiously waiting for someone to arrive.", "correct": true },
+            { "text": "Priya checked her phone for the ninth time.", "correct": false },
+            { "text": "Priya turned her phone face down.", "correct": false },
+            { "text": "Priya stared at the door.", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P5",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Read the extract.\n\n> The waiting room smelled of wet coats. Nine plastic chairs were bolted to the floor in a row, and all but two were taken. An old man in the corner worked slowly through a crossword, his pen hovering over each clue; opposite him a toddler in yellow wellingtons was posting crisps one by one through the gap in the radiator cover while her mother scrolled through her phone. The clock above the reception desk had stopped at ten past four.\n\nSelect the **four** statements about **the waiting room** that are true according to the text.",
+          "hint": "Ignore statements about the people unless they describe the room itself, and ignore anything the text does not actually say.",
+          "explanation": "The text says the room smelled of wet coats, had nine chairs bolted to the floor, had two empty chairs, and had a clock that had stopped at ten past four. It does not say the room was warm, that it was a hospital, that the walls were green, or that the door was locked.",
+          "options": [
+            { "text": "It smelled of wet coats.", "correct": true },
+            { "text": "It had nine plastic chairs bolted to the floor.", "correct": true },
+            { "text": "Two of the chairs were empty.", "correct": true },
+            { "text": "The clock had stopped at ten past four.", "correct": true },
+            { "text": "It was a hospital waiting room.", "correct": false, "feedback": "We are never told what kind of waiting room it is." },
+            { "text": "The walls were painted green.", "correct": false, "feedback": "The colour of the walls is not mentioned." },
+            { "text": "It was very warm.", "correct": false, "feedback": "There is a radiator, but the text does not say the room was warm." },
+            { "text": "The door to the corridor was locked.", "correct": false, "feedback": "The text does not say this." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P6",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the examiner's advice.",
+          "metadata": { "blanksText": "Question 1 tests Assessment Objective ___ , and every point you give must be about the ___ named in the question." },
+          "hint": "The assessment objective is the first one on the list. The second blank is the thing the question asks about, such as 'the house' or 'the storm'.",
+          "explanation": "Question 1 tests AO1 (identify explicit and implicit information). Every point must be about the focus of the question.",
+          "answers": [
+            { "text": "AO1", "blankIndex": 0, "marks": 1 },
+            { "text": "focus", "blankIndex": 1, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P7",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Read the extract.\n\n> Aunt Ivy arrived, as she always did, without warning. She wore a coat the colour of mustard and carried a wicker basket that clinked when she set it down. Her hair, which had been red in the photographs on the landing, was now the white of a dandelion clock, and she wore it pinned up with two pencils. She kissed my father on both cheeks, told him he looked tired, and then turned to me. \"You've grown,\" she said, in a voice that suggested this was slightly rude of me.\n\n**List four things from this extract about Aunt Ivy.** Write each on a new line.",
+          "hint": "Details about what she wears, carries, looks like and does all count. Avoid guessing about her personality.",
+          "explanation": "Explicit details include: she arrived without warning; she wore a mustard-coloured coat; she carried a wicker basket; the basket clinked; her hair used to be red; her hair is now white; she pinned her hair up with two pencils; she kissed the father on both cheeks; she told him he looked tired; she said \"You've grown\". A point like \"she is bossy\" is an inference and would not score here.",
+          "markScheme": [
+            { "criterion": "Gives an explicit detail about her arrival or her coat", "marks": 1, "keywords": [ ["without warning", "mustard", "coat", "arrived"] ] },
+            { "criterion": "Gives an explicit detail about her basket", "marks": 1, "keywords": [ ["basket", "wicker", "clink"] ] },
+            { "criterion": "Gives an explicit detail about her hair", "marks": 1, "keywords": [ ["hair", "white", "red", "pencil", "dandelion"] ] },
+            { "criterion": "Gives an explicit detail about what she does or says", "marks": 1, "keywords": [ ["kiss", "cheek", "tired", "grown", "said"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P8",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Match each student answer to the reason it would score zero on a Question 1 asking: *\"Read lines 1 to 4. List four things about the dog.\"*\n\nLines 1 to 4:\n> The dog was old and mostly deaf, with a grey muzzle and one ear that never stood up properly. He slept on the porch in all weathers. Ellie had found him, years ago, tied to a fence post at the edge of the motorway.\n\n(Line 5, outside the range, reads: *He still flinched at the sound of lorries.*)",
+          "hint": "Check each answer against the three rules: lines, focus, explicit.",
+          "explanation": "\"The dog is lonely\" is an inference, not stated. \"Ellie found him years ago\" is really about Ellie's action; the focus is the dog, and it is also arguably fine, but the clearer off-focus answer is about Ellie. \"He flinched at lorries\" comes from line 5, outside the given range.",
+          "pairs": [
+            { "left": "The dog is lonely and sad.", "right": "It is an inference, not stated in the text" },
+            { "left": "Ellie lives near the motorway.", "right": "It is about the wrong focus (Ellie, not the dog)" },
+            { "left": "He still flinched at the sound of lorries.", "right": "It comes from outside the given lines" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 3,
+          "examStyle": true,
+          "text": "Read this short passage.\n\n> Every morning Mr Adeyemi polished the brass plate beside his shop door until he could see his own face in it, even though the shop had not opened for business in over a year. The shelves inside were bare. The sign in the window still said *Back in five minutes*.\n\n**What does the writer suggest about Mr Adeyemi?** Use a quotation to support your answer and explain what it implies. [3 marks]",
+          "hint": "Pick one detail, say what it suggests about him, and explain which words make you think so.",
+          "explanation": "A strong answer might say: the writer suggests Mr Adeyemi cannot let go of the past or accept that the shop has closed. The quotation \"polished the brass plate... until he could see his own face in it\" shows he still takes pride in the shop and keeps up a daily routine as if it were open, and the sign saying \"Back in five minutes\" implies he is clinging to the hope that things will return to normal.",
+          "markScheme": [
+            { "criterion": "Makes a sensible inference about Mr Adeyemi (e.g. proud, in denial, cannot accept the shop has closed, holding on to hope or routine)", "marks": 1, "keywords": [ ["proud", "pride", "denial", "accept", "hope"] ] },
+            { "criterion": "Supports the inference with a relevant quotation from the passage", "marks": 1, "keywords": [ ["polish", "brass", "five minutes", "bare", "face"] ] },
+            { "criterion": "Explains what the chosen words suggest or imply", "marks": 1, "keywords": [ ["suggest", "impl", "shows", "hint"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P10",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: on Question 1 you must quote the exact words of the text; answers in your own words do not score.",
+          "hint": "Think about what AO1 is testing: finding information, not copying.",
+          "explanation": "False. You may quote or paraphrase. As long as the information is explicit, on focus and from the right lines, either way earns the mark.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        }
+      ]
+    }
+  ]
+}

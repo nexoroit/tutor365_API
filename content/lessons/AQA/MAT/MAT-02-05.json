@@ -1,0 +1,97 @@
+{
+  "subTopicCode": "MAT-02-05",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-02-05-L1",
+      "title": "Linear inequalities",
+      "summary": "Read and write inequalities, show them on a number line, list the integers they contain, solve linear inequalities including double inequalities, and represent inequalities on graphs.",
+      "objectives": [
+        "I can use the symbols <, >, ≤ and ≥ correctly and represent an inequality on a number line.",
+        "I can list the integer values that satisfy an inequality.",
+        "I can solve linear inequalities, including those with the unknown on both sides.",
+        "I can solve double inequalities such as $-3 < 2x + 1 \\le 9$.",
+        "I can describe and shade regions on a graph defined by linear inequalities."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Inequality symbols and number lines", "minutes": 4, "content": "## Four symbols\n\n| Symbol | Meaning | Example |\n|---|---|---|\n| $<$ | less than | $x < 3$: any number below 3, not 3 itself |\n| $>$ | greater than | $x > -2$ |\n| $\\le$ | less than or equal to | $x \\le 5$: 5 is allowed |\n| $\\ge$ | greater than or equal to | $x \\ge 0$ |\n\nThe open end of the symbol always points to the **larger** value. $2 < 7$ and $7 > 2$ say the same thing.\n\nAn inequality has **many** solutions, not just one. $x > 4$ is satisfied by 4.1, 5, 100 and so on.\n\n## Number lines\n\nDraw a circle at the boundary value and an arrow or line showing the allowed side.\n\n- **Open circle** (○) for $<$ or $>$: the boundary is *not* included.\n- **Filled circle** (●) for $\\le$ or $\\ge$: the boundary *is* included.\n\n$-1 \\le x < 3$ is drawn as a filled circle at −1, an open circle at 3, and a line joining them.\n\n## Listing integers\n\n\"List the integers that satisfy $-2 < n \\le 2$.\" Integers are whole numbers, including negatives and zero. −2 is excluded, 2 is included: **−1, 0, 1, 2**." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-05-L1-Q1", "type": "MultipleChoice", "difficulty": 1, "marks": 1,
+          "text": "Which list contains all the integers $n$ such that $-3 \\le n < 1$?",
+          "hint": "−3 is included (≤) but 1 is not (<).",
+          "explanation": "Start at −3 (included) and stop before 1: −3, −2, −1, 0.",
+          "options": [
+            { "text": "−3, −2, −1, 0", "correct": true },
+            { "text": "−2, −1, 0", "correct": false, "feedback": "≤ means −3 is included." },
+            { "text": "−3, −2, −1, 0, 1", "correct": false, "feedback": "< means 1 is not included." },
+            { "text": "−2, −1, 0, 1", "correct": false } ] } },
+        { "type": "Explanation", "title": "Solving linear inequalities", "minutes": 5, "content": "## Solve them like equations — with one warning\n\nUse inverse operations on both sides exactly as you would for an equation. The answer is a **range**, written as an inequality.\n\n**Solve $3x + 5 \\le 20$.**\n\nSubtract 5: $3x \\le 15$\n\nDivide by 3: $x \\le 5$\n\n**Solve $7 - 2x > 1$ (unknown has a negative coefficient).**\n\nSafest method: add $2x$ to both sides so the $x$ term becomes positive.\n\n$7 > 1 + 2x$\n\nSubtract 1: $6 > 2x$\n\nDivide by 2: $3 > x$, which is the same as $x < 3$.\n\n## The warning\n\nIf you **multiply or divide both sides by a negative number**, you must **reverse the inequality sign**.\n\nWhy? $2 < 5$ is true. Multiply both sides by −1: $-2$ and $-5$. But $-2 > -5$, so the sign flips.\n\nSo $-2x > -6$ becomes $x < 3$ when you divide by −2. Either flip the sign, or avoid the issue by moving the $x$ term to the other side as above.\n\n**Unknowns on both sides** work the same way as equations: $5x - 4 \\ge 2x + 11$ gives $3x \\ge 15$, so $x \\ge 5$." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-05-L1-Q2", "type": "Equation", "difficulty": 2, "marks": 2,
+          "text": "Solve $4x - 9 < 15$. Type your answer like x<3.",
+          "hint": "Add 9, then divide by 4. The sign stays the same.",
+          "explanation": "$4x < 24$, so $x < 6$.",
+          "answers": [ { "text": "x<6", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-05-L1-Q3", "type": "Equation", "difficulty": 3, "marks": 2,
+          "text": "Solve $10 - 3x \\ge 1$. Type your answer like x<=3 (use <= or >=).",
+          "hint": "Add $3x$ to both sides, or divide by −3 and flip the sign.",
+          "explanation": "$10 \\ge 1 + 3x$, so $9 \\ge 3x$ and $3 \\ge x$, i.e. $x \\le 3$.",
+          "answers": [ { "text": "x<=3", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Example", "title": "Worked example: double inequalities", "minutes": 4, "content": "## Two inequalities in one\n\n**Solve $-3 < 2x + 1 \\le 9$ and list the integer solutions.**\n\nThe expression $2x + 1$ is sandwiched between −3 and 9. Do the same operation to **all three parts**.\n\nSubtract 1 from each part: $-4 < 2x \\le 8$\n\nDivide each part by 2: $-2 < x \\le 4$\n\nInteger solutions: −1, 0, 1, 2, 3, 4 (−2 is excluded, 4 is included).\n\n**Solve $1 \\le 5 - 2x < 11$.**\n\nSubtract 5: $-4 \\le -2x < 6$\n\nDivide by −2 and **flip both signs**: $2 \\ge x > -3$\n\nRewrite in the usual order, smallest on the left: $-3 < x \\le 2$.\n\n**Splitting instead:** if the sandwich method feels awkward, split it into two ordinary inequalities, $1 \\le 5 - 2x$ and $5 - 2x < 11$, solve each and combine the results. You should get exactly the same range." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-05-L1-Q4", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
+          "text": "Find the number of integers $n$ that satisfy $-7 \\le 3n - 1 < 8$.",
+          "hint": "Add 1 and divide by 3 in each part: $-2 \\le n < 3$.",
+          "explanation": "$-6 \\le 3n < 9$, so $-2 \\le n < 3$. Integers: −2, −1, 0, 1, 2 — five of them.",
+          "answers": [ { "numeric": 5, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Inequalities on graphs", "minutes": 5, "content": "## Regions instead of ranges\n\nAn inequality with $x$ and $y$ in it, such as $y < 2x + 1$, describes a **region** of the coordinate grid.\n\n**To draw it**\n1. Draw the boundary line by treating the inequality as an equation: $y = 2x + 1$.\n2. Use a **solid line** for $\\le$ or $\\ge$ (points on the line are included) and a **dashed line** for $<$ or $>$ (not included).\n3. Test a point not on the line — the origin (0, 0) is easiest if the line does not pass through it. Substitute into the inequality: if it works, shade that side; if not, shade the other.\n\nFor $y < 2x + 1$ at (0, 0): is $0 < 1$? Yes, so the origin's side is the region.\n\n**Simple boundaries**\n\n- $x > 3$ is the region to the right of the vertical line $x = 3$.\n- $y \\le -1$ is the region on or below the horizontal line $y = -1$.\n\n**Several inequalities together** define the region satisfying **all** of them at once — the overlap. Exam questions usually ask you to shade the region where they all hold, or to identify the inequalities from a shaded picture. Always label the region **R** if the question asks.\n\nWhen reading inequalities from a graph, check each boundary: its equation, whether it is solid or dashed, and which side is shaded." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-05-L1-Q5", "type": "MultipleAnswer", "difficulty": 3, "marks": 2,
+          "text": "A region on a graph is bounded by three lines: a solid vertical line through $x = 1$ with the shaded region to its right; a dashed horizontal line through $y = 4$ with the shaded region below it; and a solid line through (0, 0) and (2, 2) with the shaded region above it. Select all the inequalities that describe the region.",
+          "hint": "The diagonal line through (0,0) and (2,2) is $y = x$. Solid means ≤ or ≥.",
+          "explanation": "Right of $x = 1$, solid: $x \\ge 1$. Below $y = 4$, dashed: $y < 4$. Above $y = x$, solid: $y \\ge x$.",
+          "options": [
+            { "text": "$x \\ge 1$", "correct": true },
+            { "text": "$y < 4$", "correct": true },
+            { "text": "$y \\ge x$", "correct": true },
+            { "text": "$y \\le 4$", "correct": false, "feedback": "The line is dashed, so points on it are not included." },
+            { "text": "$x > 1$", "correct": false, "feedback": "The line is solid, so x = 1 is included." } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-05-L1-Q6", "type": "TrueFalse", "difficulty": 2, "marks": 1,
+          "text": "True or false: the point (2, 3) lies in the region $y > 3x - 5$.",
+          "hint": "Substitute $x = 2$ and $y = 3$.",
+          "explanation": "True. $3x - 5 = 1$ when $x = 2$, and $3 > 1$, so the point satisfies the inequality.",
+          "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ] } },
+        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Writing the answer as an equation.** If you solve $3x + 5 \\le 20$ and write $x = 5$, you lose the mark. The answer is $x \\le 5$.\n- **Forgetting to flip** when dividing by a negative. If in doubt, move the $x$ term to the other side instead.\n- **Circles on number lines.** Open for strict ($<$, $>$), filled for inclusive ($\\le$, $\\ge$).\n- **Integer lists.** Check both ends carefully: is the boundary in or out? Do not forget zero and negatives.\n- **Double inequalities.** Whatever you do, do it to all three parts.\n- **Graphs.** Dashed line for strict inequalities, solid for inclusive; test a point to decide the side.\n- **Reading $3 > x$:** this means $x < 3$. Rewrite with $x$ on the left to avoid confusion." },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-02-05-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true,
+          "text": "(a) Solve the inequality $5(x - 2) > 2x + 8$.\n\n(b) $n$ is an integer. Write down the smallest value of $n$ that satisfies $5(n - 2) > 2n + 8$.\n\n(c) Solve $-5 \\le 4x + 3 < 15$.",
+          "hint": "(a) Expand first. (b) Strict inequality: the boundary is not allowed. (c) Subtract 3 then divide by 4 in all three parts.",
+          "explanation": "(a) $5x - 10 > 2x + 8$, $3x > 18$, $x > 6$. (b) $n$ must be greater than 6, so the smallest integer is 7. (c) $-8 \\le 4x < 12$, so $-2 \\le x < 3$.",
+          "markScheme": [
+            { "criterion": "Expands and collects to 3x > 18", "marks": 1, "keywords": [ ["3x > 18", "3x>18", "5x - 10", "5x-10"] ] },
+            { "criterion": "Solves (a) as x > 6", "marks": 1, "keywords": [ ["x > 6", "x>6"] ] },
+            { "criterion": "States smallest integer n = 7", "marks": 1, "keywords": [ ["7", "n = 7", "n=7"] ] },
+            { "criterion": "Solves (c) as −2 ≤ x < 3", "marks": 1, "keywords": [ ["-2 ≤ x < 3", "-2 <= x < 3", "−2 ≤ x < 3", "-2≤x<3", "-2<=x<3"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- $<$ and $>$ exclude the boundary (open circle, dashed line); $\\le$ and $\\ge$ include it (filled circle, solid line).\n- Solve inequalities like equations, but **flip the sign** if you multiply or divide by a negative.\n- Answers are ranges: write $x \\le 5$, never $x = 5$.\n- Double inequalities: apply each step to all three parts.\n- On graphs: draw the boundary line, test a point, shade the correct side; the region satisfying several inequalities is the overlap." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-02-05-L1-P1", "type": "Equation", "difficulty": 1, "marks": 1, "text": "Solve $x + 8 > 3$. Type your answer like x>2.", "hint": "Subtract 8 from both sides.", "explanation": "$x > -5$.", "answers": [ { "text": "x>-5", "caseSensitive": false } ] },
+        { "key": "AQA-MAT-02-05-L1-P2", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "Which inequality is shown by a number line with a filled circle at 2 and an arrow pointing to the right?", "hint": "Filled means included; right means bigger.", "explanation": "Filled circle means 2 is included, arrow right means values above 2: $x \\ge 2$.", "options": [ { "text": "$x \\ge 2$", "correct": true }, { "text": "$x > 2$", "correct": false, "feedback": "An open circle would be used for a strict inequality." }, { "text": "$x \\le 2$", "correct": false, "feedback": "The arrow points to larger values." }, { "text": "$x < 2$", "correct": false } ] },
+        { "key": "AQA-MAT-02-05-L1-P3", "type": "NumericalAnswer", "difficulty": 2, "marks": 1, "text": "How many integers satisfy $-4 < n < 4$?", "hint": "Neither end is included.", "explanation": "−3, −2, −1, 0, 1, 2, 3: seven integers.", "answers": [ { "numeric": 7, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-05-L1-P4", "type": "Equation", "difficulty": 2, "marks": 2, "text": "Solve $\\dfrac{x}{2} - 3 \\le 4$. Type your answer like x<=3.", "hint": "Add 3, then multiply by 2.", "explanation": "$\\frac{x}{2} \\le 7$, so $x \\le 14$.", "answers": [ { "text": "x<=14", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-05-L1-P5", "type": "Equation", "difficulty": 3, "marks": 2, "text": "Solve $6x + 1 < 3x + 19$. Type your answer like x<3.", "hint": "Subtract $3x$ from both sides.", "explanation": "$3x + 1 < 19$, so $3x < 18$ and $x < 6$.", "answers": [ { "text": "x<6", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-05-L1-P6", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: to solve $-4x > 12$ you divide by −4 and the answer is $x > -3$.", "hint": "What happens to the sign when you divide by a negative?", "explanation": "False. Dividing by −4 reverses the inequality, giving $x < -3$. Check: $x = -4$ gives $16 > 12$. ✓", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-02-05-L1-P7", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentence about drawing inequalities on graphs.", "metadata": { "blanksText": "For a strict inequality such as y < 2x + 1 the boundary line is drawn ___, and for y ≤ 2x + 1 it is drawn ___." }, "hint": "One style shows the line is included, the other that it is not.", "explanation": "Strict inequalities use a dashed line; inclusive ones use a solid line.", "answers": [ { "text": "dashed", "blankIndex": 0, "marks": 1 }, { "text": "solid", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-02-05-L1-P8", "type": "Matching", "difficulty": 3, "marks": 3, "text": "Match each double inequality to its solution.", "hint": "Do the same thing to all three parts.", "explanation": "$1 < x + 3 \\le 6$ gives $-2 < x \\le 3$; $-6 \\le 2x < 4$ gives $-3 \\le x < 2$; $0 < 3x - 3 < 9$ gives $1 < x < 4$.", "pairs": [ { "left": "1 < x + 3 ≤ 6", "right": "−2 < x ≤ 3" }, { "left": "−6 ≤ 2x < 4", "right": "−3 ≤ x < 2" }, { "left": "0 < 3x − 3 < 9", "right": "1 < x < 4" } ] },
+        { "key": "AQA-MAT-02-05-L1-P9", "type": "Ordering", "difficulty": 2, "marks": 2, "text": "Put the steps in order to shade the region $y \\ge 3 - x$ on a graph.", "hint": "You need the line before you can test a point.", "explanation": "Draw the boundary line $y = 3 - x$ as a solid line, test (0, 0), find $0 \\ge 3$ is false, so shade the side away from the origin.", "order": [ "Draw the line y = 3 − x", "Make it a solid line because the inequality is ≥", "Test the point (0, 0): 0 ≥ 3 is false", "Shade the side of the line that does not contain (0, 0)" ] },
+        { "key": "AQA-MAT-02-05-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Hana solves $2x + 7 > 15$ and writes her answer as $x = 4$. Explain what is wrong with her answer and write the correct one.", "hint": "An inequality has a range of solutions, not a single value.", "explanation": "Her working gives the boundary correctly, but the solution to an inequality is a range, not one value. The correct answer is $x > 4$.", "markScheme": [ { "criterion": "Explains that the solution should be a range/inequality, not a single value", "marks": 1, "keywords": [ ["range", "inequality", "many values", "not a single", "not just one"] ] }, { "criterion": "States the correct solution x > 4", "marks": 1, "keywords": [ ["x > 4", "x>4", "greater than 4"] ] } ] },
+        { "key": "AQA-MAT-02-05-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "The perimeter of a rectangle with sides $(x + 3)$ cm and $(2x - 1)$ cm must be less than 40 cm. Form an inequality and find the largest possible integer value of $x$.", "hint": "Perimeter $= 2(x + 3) + 2(2x - 1) = 6x + 4$.", "explanation": "$6x + 4 < 40$, so $6x < 36$ and $x < 6$. The largest integer is 5.", "markScheme": [ { "criterion": "Forms the inequality 6x + 4 < 40 (or unsimplified equivalent)", "marks": 1, "keywords": [ ["6x + 4", "6x+4", "< 40", "<40"] ] }, { "criterion": "Solves to x < 6", "marks": 1, "keywords": [ ["x < 6", "x<6"] ] }, { "criterion": "States the largest integer value is 5", "marks": 1, "keywords": [ ["5", "x = 5", "x=5"] ] } ] }
+      ]
+    }
+  ]
+}

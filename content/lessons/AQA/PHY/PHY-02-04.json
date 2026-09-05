@@ -1,0 +1,96 @@
+{
+  "subTopicCode": "PHY-02-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-PHY-02-04-L1",
+      "title": "Electrical power, energy transfers and the National Grid",
+      "summary": "Calculate electrical power and energy with P = VI, P = I²R, E = Pt and E = QV, describe the energy transfers in everyday appliances, and explain how the National Grid delivers electricity efficiently.",
+      "objectives": [
+        "I can calculate electrical power using P = VI and P = I²R.",
+        "I can calculate energy transferred using E = Pt and E = QV.",
+        "I can describe the energy transfers that take place in common domestic appliances.",
+        "I can explain why the National Grid uses step-up and step-down transformers."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Electrical power", "minutes": 5, "content": "## What power means\n\n**Power** is the rate at which energy is transferred: how many joules are transferred every second. It is measured in **watts (W)**, where 1 W = 1 J/s. A 2 kW kettle transfers 2000 J to the water every second.\n\nFor an electrical appliance, the power depends on the potential difference across it and the current through it:\n\n$P = V \\times I$\n\n(power in W, p.d. in V, current in A)\n\nThis makes sense: the p.d. tells you how many joules each coulomb carries, and the current tells you how many coulombs arrive each second. Multiply them and you get joules per second.\n\nThere is a second version. Because $V = IR$, we can replace $V$ to get:\n\n$P = I^2 \\times R$\n\n(power in W, current in A, resistance in Ω)\n\nThis form is useful when you know the resistance instead of the p.d. It also shows something important: power depends on the **square** of the current. Doubling the current makes the heating effect **four** times greater. That is the key to understanding the National Grid later in this lesson.\n\n**Unit prefixes to know**: 1 kW = 1000 W; 1 MW = 1 000 000 W." },
+        { "type": "Example", "title": "Worked example: two power equations", "minutes": 4, "content": "**1. A hairdryer works from the 230 V mains and draws a current of 8 A. What is its power?**\n\n$P = VI = 230 \\times 8 = $ **1840 W** (about 1.8 kW)\n\n**2. A current of 3 A flows through a 15 Ω heating element. What is the power?**\n\n$P = I^2 R = 3^2 \\times 15 = 9 \\times 15 = $ **135 W**\n\n**3. A 60 W lamp is connected to a 12 V supply. What current does it take, and what is its resistance?**\n\nCurrent: $I = \\dfrac{P}{V} = \\dfrac{60}{12} = $ **5 A**\n\nResistance: $R = \\dfrac{V}{I} = \\dfrac{12}{5} = $ **2.4 Ω**\n\nCheck using the other equation: $P = I^2 R = 25 \\times 2.4 = 60$ W. Both agree.\n\nThe most common error with $P = I^2R$ is forgetting to square the current. Write the square out as a separate step." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-PHY-02-04-L1-Q1", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
+          "text": "A microwave oven is connected to the 230 V mains and takes a current of 4 A. Calculate its power in watts.",
+          "hint": "P = VI.",
+          "explanation": "P = 230 × 4 = 920 W.",
+          "answers": [ { "numeric": 920, "tolerance": 0, "unit": "W", "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-PHY-02-04-L1-Q2", "type": "FormulaCalculation", "difficulty": 3, "marks": 2,
+          "text": "A current of 0.5 A flows through a resistor of 48 Ω. Calculate the power dissipated in the resistor.",
+          "hint": "Use P = I²R and remember to square the current first.",
+          "explanation": "P = 0.5² × 48 = 0.25 × 48 = 12 W.",
+          "answers": [ { "numeric": 12, "tolerance": 0.1, "unit": "W", "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Energy transferred", "minutes": 5, "content": "## Two equations for energy\n\nEvery electrical appliance transfers energy. The amount depends on how powerful it is and how long it is on for:\n\n$E = P \\times t$\n\n(energy in J, power in W, time in **s**)\n\nA 2000 W kettle running for 3 minutes (180 s) transfers $2000 \\times 180 = 360\\,000$ J.\n\nYou can also think about the charge that flows. Each coulomb of charge transfers $V$ joules of energy, so:\n\n$E = Q \\times V$\n\n(energy in J, charge in C, p.d. in V)\n\n**Energy transfers in appliances**\n\nEvery appliance is designed to transfer energy from one store to another:\n\n| Appliance | Useful transfer |\n|---|---|\n| Kettle, toaster, heater | electrical → **thermal** store of the water/element |\n| Washing machine motor, fan, drill | electrical → **kinetic** store of the moving parts |\n| Lamp | electrical → light (radiation), plus some thermal |\n| Loudspeaker | electrical → sound (vibration) |\n| Phone charger | electrical → **chemical** store of the battery |\n\nIn every case some energy is **wasted**, usually as thermal energy heating the appliance and its surroundings, because of the resistance of the wires and components. The wasted energy is dissipated and the total energy is always conserved." },
+        { "type": "Example", "title": "Worked example: energy in a circuit", "minutes": 3, "content": "**A 1.5 kW electric heater is switched on for 20 minutes. How much energy is transferred?**\n\n1. Convert power: 1.5 kW = **1500 W**.\n2. Convert time: 20 min = 20 × 60 = **1200 s**.\n3. $E = Pt = 1500 \\times 1200 = $ **1 800 000 J** (1.8 MJ)\n\n**A charge of 250 C passes through a 12 V motor. How much energy is transferred?**\n\n$E = QV = 250 \\times 12 = $ **3000 J**\n\n**Linking them together: how long would the 12 V motor take to transfer 3000 J if the current is 2 A?**\n\nPower: $P = VI = 12 \\times 2 = 24$ W\n\nTime: $t = \\dfrac{E}{P} = \\dfrac{3000}{24} = $ **125 s**\n\nCheck via charge: $Q = It = 2 \\times 125 = 250$ C. Consistent with the question above." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-PHY-02-04-L1-Q3", "type": "NumericalAnswer", "difficulty": 3, "marks": 3,
+          "text": "A 2.2 kW kettle takes 2.5 minutes to boil some water. Calculate the energy transferred to the kettle. Give your answer in joules.",
+          "hint": "Convert kW to W and minutes to seconds before using E = Pt.",
+          "explanation": "P = 2200 W, t = 150 s. E = 2200 × 150 = 330 000 J.",
+          "answers": [ { "numeric": 330000, "tolerance": 0, "unit": "J", "marks": 3 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-PHY-02-04-L1-Q4", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
+          "text": "A charge of 40 C flows through a lamp connected to a 6 V battery. Calculate the energy transferred to the lamp.",
+          "hint": "E = QV.",
+          "explanation": "E = 40 × 6 = 240 J.",
+          "answers": [ { "numeric": 240, "tolerance": 0, "unit": "J", "marks": 2 } ] } },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-PHY-02-04-L1-Q5", "type": "Matching", "difficulty": 2, "marks": 3,
+          "text": "Match each appliance to its main useful energy transfer.",
+          "hint": "Ask: what is the appliance for?",
+          "explanation": "An electric drill is for moving (kinetic), an immersion heater is for heating water (thermal), and a charger stores energy chemically in a battery.",
+          "pairs": [
+            { "left": "Electric drill", "right": "Electrical to kinetic store of the drill bit" },
+            { "left": "Immersion heater", "right": "Electrical to thermal store of the water" },
+            { "left": "Laptop charger", "right": "Electrical to chemical store of the battery" } ] } },
+        { "type": "Explanation", "title": "The National Grid", "minutes": 5, "content": "## Getting electricity across the country\n\nThe **National Grid** is the network of cables and transformers that links power stations to homes, schools and factories all over the UK.\n\nThe problem: power stations generate an enormous amount of power, and carrying it along cables hundreds of kilometres long wastes energy. The cables have resistance, so they heat up. The power wasted as heat is $P = I^2R$: it depends on the **square of the current**.\n\nThe solution: keep the **current as low as possible**. Since $P = VI$, for the same power a **high p.d.** means a **low current**.\n\n**Step-up transformers** at the power station raise the p.d. to very high values (up to 400 000 V) and reduce the current. This cuts the energy wasted in the cables dramatically, so the transmission is very **efficient**.\n\n**Step-down transformers** near towns reduce the p.d. back to safe, usable values (230 V for homes) before the electricity reaches you.\n\n```\nPower station → step-up → pylons (high V, low I) → step-down → homes\n     25 kV      transformer      400 kV            transformer     230 V\n```\n\nSo the grid uses high p.d. for **efficiency** and steps it down again for **safety**." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-PHY-02-04-L1-Q6", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "Why does the National Grid transmit electricity at a very high potential difference?",
+          "hint": "Think about what wastes energy in a long cable, and which equation contains the current squared.",
+          "explanation": "For a given power, a high p.d. means a low current. Energy wasted heating the cables is I²R, so a low current wastes far less energy and the transmission is more efficient.",
+          "options": [
+            { "text": "So that the current is low, which reduces the energy wasted heating the cables", "correct": true },
+            { "text": "So that the current is high, which pushes the electricity further", "correct": false, "feedback": "A high current would waste more energy as heat." },
+            { "text": "Because homes need 400 000 V", "correct": false, "feedback": "Homes use 230 V; step-down transformers reduce the p.d." },
+            { "text": "Because cables only work with high voltages", "correct": false } ] } },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-PHY-02-04-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 6, "examStyle": true,
+          "text": "An electric oven is connected to the 230 V mains. When it is heating, the current is 12 A.\n\n(a) Calculate the power of the oven. (2 marks)\n\n(b) The oven is on for 45 minutes. Calculate the energy transferred. (2 marks)\n\n(c) Explain why the National Grid uses a step-up transformer at the power station and a step-down transformer near the user. (2 marks)",
+          "hint": "P = VI, then E = Pt with time in seconds. For (c) think about efficiency and safety.",
+          "explanation": "(a) P = 230 × 12 = 2760 W. (b) t = 2700 s, E = 2760 × 2700 = 7 452 000 J (about 7.5 MJ). (c) The step-up transformer increases the p.d. and so reduces the current, which reduces energy wasted as heat in the cables (I²R) and makes transmission efficient. The step-down transformer reduces the p.d. to 230 V so that it is safe to use in homes.",
+          "markScheme": [
+            { "criterion": "Uses P = VI = 230 × 12", "marks": 1, "keywords": [ ["230 × 12", "230 x 12", "230*12", "v × i", "vi"] ] },
+            { "criterion": "Power = 2760 W", "marks": 1, "keywords": [ ["2760", "2.76"] ] },
+            { "criterion": "Converts time to 2700 s and uses E = Pt", "marks": 1, "keywords": [ ["2700", "pt", "p × t", "p x t"] ] },
+            { "criterion": "Energy = 7 452 000 J (accept 7.45 MJ / 7.5 MJ)", "marks": 1, "keywords": [ ["7452000", "7 452 000", "7.45", "7.5", "7,452,000"] ] },
+            { "criterion": "Step-up raises the p.d. so the current is lower, reducing energy wasted as heat in the cables / more efficient", "marks": 1, "keywords": [ ["lower current", "less current", "reduce the current", "smaller current", "low current"] ] },
+            { "criterion": "Step-down lowers the p.d. to a safe value for homes", "marks": 1, "keywords": [ ["safe", "230", "usable", "safer"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Power** = energy per second, measured in watts (W).\n- $P = VI$ and $P = I^2R$. Power rises with the **square** of current.\n- $E = Pt$ (time in **seconds**) and $E = QV$.\n- Appliances transfer energy electrically to thermal, kinetic, chemical or light/sound; some is always wasted as heat.\n- **National Grid**: step-up transformers give high p.d. and low current, so little energy is wasted heating cables (**efficient**). Step-down transformers bring the p.d. down to 230 V (**safe**)." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-PHY-02-04-L1-P1", "type": "FormulaCalculation", "difficulty": 1, "marks": 1, "text": "A lamp has a p.d. of 12 V across it and a current of 2 A through it. Calculate its power in watts.", "hint": "P = VI.", "explanation": "P = 12 × 2 = 24 W.", "answers": [ { "numeric": 24, "tolerance": 0, "unit": "W" } ] },
+        { "key": "AQA-PHY-02-04-L1-P2", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "A 2 A current flows through a 30 Ω resistor. Calculate the power transferred in the resistor.", "hint": "P = I²R.", "explanation": "P = 2² × 30 = 4 × 30 = 120 W.", "answers": [ { "numeric": 120, "tolerance": 0, "unit": "W", "marks": 2 } ] },
+        { "key": "AQA-PHY-02-04-L1-P3", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "A 100 W lamp is left on for 10 minutes. Calculate the energy transferred in joules.", "hint": "Change minutes to seconds, then E = Pt.", "explanation": "t = 600 s. E = 100 × 600 = 60 000 J.", "answers": [ { "numeric": 60000, "tolerance": 0, "unit": "J", "marks": 2 } ] },
+        { "key": "AQA-PHY-02-04-L1-P4", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "A 3 kW immersion heater transfers 5 400 000 J of energy to a tank of water. Calculate how long it was switched on for, in seconds.", "hint": "t = E ÷ P, with P in watts.", "explanation": "P = 3000 W. t = 5 400 000 ÷ 3000 = 1800 s (30 minutes).", "answers": [ { "numeric": 1800, "tolerance": 0, "unit": "s", "marks": 2 } ] },
+        { "key": "AQA-PHY-02-04-L1-P5", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "A battery transfers 900 J of energy when 75 C of charge flows through a circuit. Calculate the p.d. of the battery.", "hint": "Rearrange E = QV to V = E ÷ Q.", "explanation": "V = 900 ÷ 75 = 12 V.", "answers": [ { "numeric": 12, "tolerance": 0, "unit": "V", "marks": 2 } ] },
+        { "key": "AQA-PHY-02-04-L1-P6", "type": "FormulaCalculation", "difficulty": 4, "marks": 3, "text": "A 230 V electric shower has a power of 9.2 kW. Calculate the resistance of its heating element. Give your answer in ohms to 1 decimal place.", "hint": "Find the current from I = P ÷ V first, then R = V ÷ I.", "explanation": "I = 9200 ÷ 230 = 40 A. R = 230 ÷ 40 = 5.75 Ω, which rounds to 5.8 Ω.", "answers": [ { "numeric": 5.75, "tolerance": 0.06, "unit": "Ω", "marks": 3 } ] },
+        { "key": "AQA-PHY-02-04-L1-P7", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: doubling the current in a cable doubles the power wasted as heat in it.", "hint": "Look at the power of I in P = I²R.", "explanation": "False. Power wasted is I²R, so doubling the current makes the heating four times greater.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-PHY-02-04-L1-P8", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentences about the National Grid.", "metadata": { "blanksText": "A step-___ transformer increases the potential difference before transmission, and a step-___ transformer decreases it before the electricity reaches homes." }, "hint": "Up before, down after.", "explanation": "Step-up transformers increase p.d. (and reduce current) for efficient transmission; step-down transformers reduce p.d. for safe use.", "answers": [ { "text": "up", "blankIndex": 0, "marks": 1 }, { "text": "down", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-PHY-02-04-L1-P9", "type": "MultipleAnswer", "difficulty": 3, "marks": 2, "text": "Which TWO of the following are correct statements about energy transfers in a toaster?", "hint": "Think about what a toaster is for and where the energy comes from.", "explanation": "The toaster transfers energy electrically from the mains to the thermal store of the heating elements (and the bread). Energy is conserved, not destroyed, and some is dissipated to the surroundings.", "options": [ { "text": "Energy is transferred electrically from the mains supply to the thermal store of the elements", "correct": true }, { "text": "Some energy is dissipated to the surroundings and is not useful", "correct": true }, { "text": "The toaster creates energy from electricity", "correct": false }, { "text": "The main useful transfer is to a kinetic store", "correct": false } ] },
+        { "key": "AQA-PHY-02-04-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 3, "examStyle": true, "text": "Explain how transmitting electricity at a high potential difference makes the National Grid more efficient.", "hint": "Link p.d. to current using P = VI, then link current to wasted power using P = I²R.", "explanation": "For a fixed power, P = VI means a higher p.d. gives a lower current. The power wasted as heat in the cables is I²R, so a lower current wastes much less energy. More of the generated energy reaches the user, so the system is more efficient.", "markScheme": [ { "criterion": "High p.d. means a lower current for the same power", "marks": 1, "keywords": [ ["lower current", "less current", "smaller current", "reduces the current", "low current"] ] }, { "criterion": "Less energy / power is wasted heating the cables", "marks": 1, "keywords": [ ["heat", "thermal", "wasted", "dissipat"] ] }, { "criterion": "Refers to power loss depending on current squared / I²R", "marks": 1, "keywords": [ ["i²r", "i^2", "squared", "i2r", "square"] ] } ] },
+        { "key": "AQA-PHY-02-04-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "A 12 V car battery drives a starter motor. A charge of 600 C passes through the motor in 4 seconds.\n\n(a) Calculate the energy transferred to the motor. (1 mark)\n\n(b) Calculate the current. (1 mark)\n\n(c) Calculate the power of the motor and state its unit. (2 marks)", "hint": "E = QV, I = Q ÷ t, P = VI (or P = E ÷ t).", "explanation": "(a) E = 600 × 12 = 7200 J. (b) I = 600 ÷ 4 = 150 A. (c) P = 12 × 150 = 1800 W (or 7200 ÷ 4 = 1800 W).", "markScheme": [ { "criterion": "Energy = 7200 J", "marks": 1, "keywords": [ ["7200", "7 200", "7.2 kj"] ] }, { "criterion": "Current = 150 A", "marks": 1, "keywords": [ ["150", "one hundred and fifty"] ] }, { "criterion": "Power = 1800", "marks": 1, "keywords": [ ["1800", "1 800", "1.8 kw", "1.8kw"] ] }, { "criterion": "Unit watts (W)", "marks": 1, "keywords": [ ["w", "watt", "kw"] ] } ] }
+      ]
+    }
+  ]
+}

@@ -42,8 +42,14 @@ public static class DependencyInjection
         services.AddScoped<IParentService, ParentService>();
         services.AddScoped<INotificationService, NotificationService>();
         services.AddScoped<ICurriculumService, CurriculumService>();
+        services.AddSingleton<IMarkingService, MarkingService>();
+        services.AddScoped<IProgressService, ProgressService>();
+        services.AddScoped<IStudySessionService, StudySessionService>();
+        services.AddScoped<IPlannerService, PlannerService>();
+        services.AddScoped<IStudentService, StudentService>();
 
         services.AddScoped<Data.Seed.DatabaseSeeder>();
+        services.AddScoped<Data.Seed.ContentSeeder>();
         return services;
     }
 }

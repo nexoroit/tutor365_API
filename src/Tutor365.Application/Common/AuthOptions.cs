@@ -24,4 +24,7 @@ public class AppOptions
     public string AdminEmail { get; set; } = "admin@tutor365.local";
     public string AdminPassword { get; set; } = "ChangeMe!2026";
     public bool SeedDemoData { get; set; } = false;
+    /// <summary>Directory containing lesson content JSON (relative to the content root or absolute).</summary>
+    public string ContentPath { get; set; } = "content/lessons";
+    public bool ImportContentOnStartup { get; set; } = true;
 }

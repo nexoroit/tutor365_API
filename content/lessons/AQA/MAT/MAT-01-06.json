@@ -1,0 +1,93 @@
+{
+  "subTopicCode": "MAT-01-06",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-01-06-L1",
+      "title": "Powers, roots and the laws of indices",
+      "summary": "Understand what powers and roots mean, use the laws of indices to simplify expressions, and work with zero, negative and fractional indices.",
+      "objectives": [
+        "I can evaluate square, cube and higher powers, and find square and cube roots.",
+        "I can use the laws of indices to multiply, divide and raise powers to powers.",
+        "I can explain why any number to the power zero is 1.",
+        "I can evaluate expressions with negative indices.",
+        "I can evaluate expressions with fractional indices such as $8^{\\frac{2}{3}}$."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Powers and roots", "minutes": 4, "content": "## What a power means\n\nA **power** (or **index**, plural *indices*) tells you how many times to multiply a number by itself.\n\n$$2^5 = 2 \\times 2 \\times 2 \\times 2 \\times 2 = 32$$\n\nHere 2 is the **base** and 5 is the **index** or **exponent**.\n\n- $n^2$ is *n squared*: $7^2 = 49$\n- $n^3$ is *n cubed*: $4^3 = 64$\n\nIt is worth knowing the square numbers up to $15^2 = 225$ and the cubes $1, 8, 27, 64, 125, 1000$ by heart. Powers of 2 up to $2^{10} = 1024$ are handy too.\n\n## Roots undo powers\n\n- The **square root** $\\sqrt{81} = 9$ because $9^2 = 81$.\n- The **cube root** $\\sqrt[3]{125} = 5$ because $5^3 = 125$.\n\nEvery positive number has **two** square roots: $\\sqrt{81}$ means the positive one, but the equation $x^2 = 81$ has solutions $x = 9$ and $x = -9$. Cube roots of negatives are fine: $\\sqrt[3]{-27} = -3$.\n\nBe careful with negatives and brackets: $(-3)^2 = 9$ but $-3^2 = -9$, because without the bracket only the 3 is squared." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-06-L1-Q1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1,
+          "text": "Work out $\\sqrt[3]{216} + 3^4$.",
+          "hint": "$6^3 = 216$, and $3^4 = 3 \\times 3 \\times 3 \\times 3$.",
+          "explanation": "$\\sqrt[3]{216} = 6$ and $3^4 = 81$, so the total is 87.",
+          "answers": [ { "numeric": 87, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "The laws of indices", "minutes": 5, "content": "## Three rules that do most of the work\n\nThese only apply when the **bases are the same**.\n\n**1. Multiplying: add the indices**\n\n$$a^m \\times a^n = a^{m+n}$$\n\n$3^4 \\times 3^2 = (3 \\times 3 \\times 3 \\times 3) \\times (3 \\times 3) = 3^6$. Count the threes: four plus two.\n\n**2. Dividing: subtract the indices**\n\n$$a^m \\div a^n = a^{m-n}$$\n\n$5^7 \\div 5^3 = 5^4$. Seven fives on top, three cancel with the bottom.\n\n**3. Power of a power: multiply the indices**\n\n$$(a^m)^n = a^{mn}$$\n\n$(2^3)^4 = 2^3 \\times 2^3 \\times 2^3 \\times 2^3 = 2^{12}$.\n\n## With coefficients and letters\n\nDeal with the numbers and each letter separately.\n\n$4x^2 \\times 5x^3 = 20x^5$\n\n$\\dfrac{12y^8}{3y^2} = 4y^6$\n\n$(2p^3)^4 = 2^4 \\times p^{12} = 16p^{12}$ — the 2 gets raised to the power as well!\n\n**Trap:** $2^3 \\times 2^4$ is $2^7$, **not** $4^7$. The base never changes." },
+        { "type": "Example", "title": "Worked example: simplifying with indices", "minutes": 4, "content": "**1. Simplify $\\dfrac{6a^5 \\times 2a^3}{4a^2}$.**\n\nTop: $6 \\times 2 = 12$ and $a^5 \\times a^3 = a^8$, so the numerator is $12a^8$.\n\nDivide: $12 \\div 4 = 3$ and $a^8 \\div a^2 = a^6$.\n\nAnswer: $3a^6$.\n\n**2. Write $\\dfrac{(3^4)^2}{3^5}$ as a single power of 3.**\n\n$(3^4)^2 = 3^8$. Then $3^8 \\div 3^5 = 3^3$.\n\n**3. Simplify $(5m^2n)^3$.**\n\nEverything inside the bracket is cubed: $5^3 = 125$, $(m^2)^3 = m^6$, $n^3$.\n\nAnswer: $125m^6n^3$.\n\n**4. Find the value of $k$ if $2^k = 8^2 \\times 4$.**\n\nRewrite in base 2: $8 = 2^3$ so $8^2 = 2^6$, and $4 = 2^2$.\n\n$2^6 \\times 2^2 = 2^8$, so $k = 8$.\n\nConverting everything to the same base is the standard move whenever different bases appear." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-06-L1-Q2", "type": "Equation", "difficulty": 2, "marks": 1,
+          "text": "Simplify $3x^4 \\times 4x^5$. Type your answer like 5x^3.",
+          "hint": "Multiply the numbers, add the indices.",
+          "explanation": "$3 \\times 4 = 12$ and $x^4 \\times x^5 = x^9$, so $12x^9$.",
+          "answers": [ { "text": "12x^9", "caseSensitive": false } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-06-L1-Q3", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
+          "text": "Find the value of $n$ such that $\\dfrac{7^9 \\times 7^2}{(7^3)^2} = 7^n$.",
+          "hint": "Top: add the indices. Bottom: multiply them. Then subtract.",
+          "explanation": "Top: $7^{11}$. Bottom: $7^6$. $11 - 6 = 5$, so $n = 5$.",
+          "answers": [ { "numeric": 5, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Zero and negative indices", "minutes": 4, "content": "## Why $a^0 = 1$\n\nUse the division law: $\\dfrac{5^3}{5^3} = 5^{3-3} = 5^0$. But anything divided by itself is 1, so $5^0 = 1$.\n\n**Any non-zero number to the power 0 is 1.** $17^0 = 1$, $(-4)^0 = 1$, $x^0 = 1$.\n\n## Negative indices mean \"one over\"\n\nLook at the pattern going down:\n\n| $2^3$ | $2^2$ | $2^1$ | $2^0$ | $2^{-1}$ | $2^{-2}$ |\n|---|---|---|---|---|---|\n| 8 | 4 | 2 | 1 | $\\frac{1}{2}$ | $\\frac{1}{4}$ |\n\nEach step divides by 2, so after 1 we get fractions.\n\n$$a^{-n} = \\frac{1}{a^n}$$\n\n- $3^{-2} = \\dfrac{1}{3^2} = \\dfrac{1}{9}$\n- $10^{-3} = \\dfrac{1}{1000} = 0.001$\n- $5x^{-1} = \\dfrac{5}{x}$ (only the $x$ has the negative index)\n\nA negative index **does not make the answer negative**. It makes it a reciprocal.\n\n**Fractions with negative indices:** flip the fraction, then apply the positive power.\n\n$$\\left(\\frac{2}{3}\\right)^{-2} = \\left(\\frac{3}{2}\\right)^{2} = \\frac{9}{4}$$" },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-06-L1-Q4", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "What is the value of $4^{-2}$?",
+          "hint": "A negative index means the reciprocal of the positive power.",
+          "explanation": "$4^{-2} = \\frac{1}{4^2} = \\frac{1}{16}$.",
+          "options": [
+            { "text": "$\\frac{1}{16}$", "correct": true },
+            { "text": "$-16$", "correct": false, "feedback": "A negative index does not give a negative answer." },
+            { "text": "$-8$", "correct": false, "feedback": "This multiplies 4 by −2 instead of using it as a power." },
+            { "text": "$\\frac{1}{8}$", "correct": false, "feedback": "$4^2$ is 16, not 8." } ] } },
+        { "type": "Explanation", "title": "Fractional indices", "minutes": 5, "content": "## The index $\\frac{1}{n}$ means the $n$th root\n\nUsing the multiplication law: $9^{\\frac{1}{2}} \\times 9^{\\frac{1}{2}} = 9^{1} = 9$. So $9^{\\frac{1}{2}}$ is the number that squares to give 9, which is $\\sqrt{9} = 3$.\n\n$$a^{\\frac{1}{n}} = \\sqrt[n]{a}$$\n\n- $64^{\\frac{1}{2}} = \\sqrt{64} = 8$\n- $64^{\\frac{1}{3}} = \\sqrt[3]{64} = 4$\n- $32^{\\frac{1}{5}} = 2$ because $2^5 = 32$\n\n## The index $\\frac{m}{n}$: root first, then power\n\n$$a^{\\frac{m}{n}} = \\left(\\sqrt[n]{a}\\right)^m$$\n\nThe **denominator** is the root and the **numerator** is the power. Always take the root first so the numbers stay small.\n\n$8^{\\frac{2}{3}}$: cube root of 8 is 2, then $2^2 = 4$.\n\n$27^{\\frac{4}{3}}$: cube root of 27 is 3, then $3^4 = 81$.\n\n## Putting negative and fractional together\n\n$16^{-\\frac{3}{4}}$: the minus flips it, the 4 is the root, the 3 is the power.\n\n$16^{-\\frac{3}{4}} = \\dfrac{1}{16^{\\frac{3}{4}}} = \\dfrac{1}{(\\sqrt[4]{16})^3} = \\dfrac{1}{2^3} = \\dfrac{1}{8}$\n\nOrder to work in: **flip** (if negative), **root** (denominator), **power** (numerator)." },
+        { "type": "Example", "title": "Worked example: mixed indices", "minutes": 4, "content": "**1. Evaluate $125^{\\frac{2}{3}}$.**\n\nCube root of 125 = 5. Then $5^2 = 25$.\n\n**2. Evaluate $\\left(\\dfrac{4}{25}\\right)^{-\\frac{1}{2}}$.**\n\nNegative: flip to $\\left(\\dfrac{25}{4}\\right)^{\\frac{1}{2}}$.\n\nSquare root top and bottom: $\\dfrac{5}{2}$ (or 2.5).\n\n**3. Write $\\sqrt{x^5}$ as a power of $x$.**\n\nThe square root is the power $\\frac{1}{2}$, so $\\sqrt{x^5} = (x^5)^{\\frac{1}{2}} = x^{\\frac{5}{2}}$.\n\n**4. Solve $4^{x} = \\dfrac{1}{64}$.**\n\n$64 = 4^3$, so $\\frac{1}{64} = 4^{-3}$. Therefore $x = -3$.\n\n**5. Write $\\dfrac{1}{\\sqrt[3]{y}}$ as a power of $y$.**\n\n$\\sqrt[3]{y} = y^{\\frac{1}{3}}$, and one over that is $y^{-\\frac{1}{3}}$." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-06-L1-Q5", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
+          "text": "Evaluate $81^{\\frac{3}{4}}$.",
+          "hint": "Take the fourth root of 81 first, then cube the result.",
+          "explanation": "$\\sqrt[4]{81} = 3$ because $3^4 = 81$. Then $3^3 = 27$.",
+          "answers": [ { "numeric": 27, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-06-L1-Q6", "type": "NumericalAnswer", "difficulty": 4, "marks": 2,
+          "text": "Evaluate $\\left(\\dfrac{27}{8}\\right)^{-\\frac{2}{3}}$. Give your answer as a decimal.",
+          "hint": "Flip the fraction, cube-root top and bottom, then square.",
+          "explanation": "Flip: $(\\frac{8}{27})^{\\frac{2}{3}}$. Cube roots: $\\frac{2}{3}$. Square: $\\frac{4}{9} = 0.444...$",
+          "answers": [ { "numeric": 0.4444, "tolerance": 0.001, "marks": 2 } ] } },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-01-06-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true,
+          "text": "(a) Simplify fully $\\dfrac{(2x^3)^2 \\times 3x}{6x^4}$.\n\n(b) Find the value of $k$ if $\\sqrt{2} \\times 2^3 = 2^k$.",
+          "hint": "(a) Expand the bracket first: $(2x^3)^2 = 4x^6$. (b) Write $\\sqrt{2}$ as $2^{\\frac{1}{2}}$.",
+          "explanation": "(a) $(2x^3)^2 = 4x^6$. Numerator $= 4x^6 \\times 3x = 12x^7$. Divide by $6x^4$: $2x^3$. (b) $2^{\\frac{1}{2}} \\times 2^3 = 2^{3.5}$, so $k = 3.5$ (or $\\frac{7}{2}$).",
+          "markScheme": [
+            { "criterion": "Expands (2x³)² correctly to 4x⁶ (or shows numerator 12x⁷)", "marks": 1, "keywords": [ ["4x^6", "4x⁶", "12x^7", "12x⁷"] ] },
+            { "criterion": "Simplifies part (a) to 2x³", "marks": 1, "keywords": [ ["2x^3", "2x³", "2 x^3"] ] },
+            { "criterion": "States k = 3.5 or 7/2", "marks": 1, "keywords": [ ["3.5", "7/2", "k = 3.5", "k=3.5"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- $a^m \\times a^n = a^{m+n}$, $a^m \\div a^n = a^{m-n}$, $(a^m)^n = a^{mn}$ — same base only.\n- Coefficients are handled separately, and $(2x^3)^2 = 4x^6$: the number gets the power too.\n- $a^0 = 1$ and $a^{-n} = \\dfrac{1}{a^n}$. Negative index = reciprocal, not a negative answer.\n- $a^{\\frac{1}{n}} = \\sqrt[n]{a}$ and $a^{\\frac{m}{n}} = (\\sqrt[n]{a})^m$: root first, then power.\n- Different bases? Rewrite everything as powers of the same base." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-01-06-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Work out $2^6$.", "hint": "Double 1 six times.", "explanation": "$2^6 = 64$.", "answers": [ { "numeric": 64, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-06-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Work out $\\sqrt{144} - \\sqrt[3]{27}$.", "hint": "$12^2 = 144$ and $3^3 = 27$.", "explanation": "$12 - 3 = 9$.", "answers": [ { "numeric": 9, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-06-L1-P3", "type": "Equation", "difficulty": 2, "marks": 1, "text": "Simplify $\\dfrac{20y^7}{5y^3}$. Type your answer like 3y^2.", "hint": "Divide the numbers, subtract the indices.", "explanation": "$20 \\div 5 = 4$ and $y^{7-3} = y^4$, so $4y^4$.", "answers": [ { "text": "4y^4", "caseSensitive": false } ] },
+        { "key": "AQA-MAT-01-06-L1-P4", "type": "Equation", "difficulty": 2, "marks": 2, "text": "Simplify $(3a^2b)^3$. Type your answer like 8a^3b^6.", "hint": "Cube the 3, and multiply each index by 3.", "explanation": "$3^3 = 27$, $(a^2)^3 = a^6$, $b^3$. Answer: $27a^6b^3$.", "answers": [ { "text": "27a^6b^3", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-06-L1-P5", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: $2^3 \\times 3^2 = 6^5$.", "hint": "The multiplication law only works when the bases are the same.", "explanation": "False. $2^3 \\times 3^2 = 8 \\times 9 = 72$, whereas $6^5 = 7776$. You cannot add indices with different bases.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-01-06-L1-P6", "type": "Matching", "difficulty": 2, "marks": 4, "text": "Match each expression to its value.", "hint": "Remember a negative index gives a reciprocal and $\\frac{1}{2}$ means square root.", "explanation": "$5^0 = 1$; $2^{-3} = \\frac{1}{8}$; $49^{\\frac{1}{2}} = 7$; $10^{-2} = 0.01$.", "pairs": [ { "left": "5^0", "right": "1" }, { "left": "2^(-3)", "right": "1/8" }, { "left": "49^(1/2)", "right": "7" }, { "left": "10^(-2)", "right": "0.01" } ] },
+        { "key": "AQA-MAT-01-06-L1-P7", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "Evaluate $32^{\\frac{3}{5}}$.", "hint": "Fifth root of 32 is 2.", "explanation": "$\\sqrt[5]{32} = 2$, then $2^3 = 8$.", "answers": [ { "numeric": 8, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-06-L1-P8", "type": "MultipleChoice", "difficulty": 3, "marks": 1, "text": "Which of these is equal to $\\dfrac{1}{\\sqrt{x}}$?", "hint": "Square root is the power one half; one over it makes the index negative.", "explanation": "$\\sqrt{x} = x^{\\frac{1}{2}}$, so $\\frac{1}{\\sqrt{x}} = x^{-\\frac{1}{2}}$.", "options": [ { "text": "$x^{-\\frac{1}{2}}$", "correct": true }, { "text": "$x^{\\frac{1}{2}}$", "correct": false, "feedback": "That is $\\sqrt{x}$ itself." }, { "text": "$x^{-2}$", "correct": false, "feedback": "That is $\\frac{1}{x^2}$." }, { "text": "$-x^{\\frac{1}{2}}$", "correct": false, "feedback": "A reciprocal is not the same as a negative." } ] },
+        { "key": "AQA-MAT-01-06-L1-P9", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "Solve $3^{x} = \\dfrac{1}{81}$.", "hint": "$81 = 3^4$.", "explanation": "$\\frac{1}{81} = 3^{-4}$, so $x = -4$.", "answers": [ { "numeric": -4, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-06-L1-P10", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the rule.", "metadata": { "blanksText": "For a fractional index m/n, the denominator n tells you which ___ to take and the numerator m tells you which ___ to apply." }, "hint": "Root first, then power.", "explanation": "$a^{m/n} = (\\sqrt[n]{a})^m$: the $n$ is the root, the $m$ is the power.", "answers": [ { "text": "root", "blankIndex": 0, "marks": 1 }, { "text": "power", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-01-06-L1-P11", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Explain, using the laws of indices, why $6^0 = 1$.", "hint": "Divide a power of 6 by itself in two ways.", "explanation": "$6^3 \\div 6^3 = 6^{3-3} = 6^0$ by the division law, but any number divided by itself is 1. So $6^0 = 1$.", "markScheme": [ { "criterion": "Uses the division law on a power divided by the same power, e.g. 6^3 ÷ 6^3 = 6^0", "marks": 1, "keywords": [ ["subtract", "6^3 ÷ 6^3", "6^3/6^3", "divid", "6^(3-3)"] ] }, { "criterion": "States that a number divided by itself equals 1, so the result is 1", "marks": 1, "keywords": [ ["divided by itself", "same number", "equals 1", "= 1", "is 1"] ] } ] },
+        { "key": "AQA-MAT-01-06-L1-P12", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Work out the value of $\\left(\\dfrac{16}{9}\\right)^{-\\frac{3}{2}}$. Give your answer as a fraction in its simplest form. Show your working.", "hint": "Flip the fraction, square root the top and bottom, then cube.", "explanation": "Flip: $(\\frac{9}{16})^{\\frac{3}{2}}$. Square roots: $\\frac{3}{4}$. Cube: $\\frac{27}{64}$.", "markScheme": [ { "criterion": "Deals with the negative index by taking the reciprocal, 9/16", "marks": 1, "keywords": [ ["9/16", "reciprocal", "flip", "9 over 16"] ] }, { "criterion": "Takes the square root to get 3/4", "marks": 1, "keywords": [ ["3/4", "3 over 4", "0.75"] ] }, { "criterion": "Cubes to reach 27/64", "marks": 1, "keywords": [ ["27/64", "27 over 64"] ] } ] }
+      ]
+    }
+  ]
+}

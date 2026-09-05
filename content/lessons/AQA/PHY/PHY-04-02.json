@@ -1,0 +1,532 @@
+{
+  "subTopicCode": "PHY-04-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-PHY-04-02-L1",
+      "title": "Atoms and nuclear radiation",
+      "summary": "Find out why some nuclei are unstable, compare alpha, beta and gamma radiation, write nuclear equations and use half-life to describe how activity falls over time.",
+      "objectives": [
+        "I can describe radioactive decay as a random process and define activity and count rate.",
+        "I can compare the penetration, range in air and ionising power of alpha, beta and gamma radiation.",
+        "I can complete balanced nuclear equations for alpha and beta decay.",
+        "I can use half-life to calculate remaining activity or the number of undecayed nuclei."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Unstable nuclei and radioactive decay",
+          "minutes": 4,
+          "content": "## Why do nuclei decay?\n\nMost nuclei are stable and last for ever. Some isotopes have a nucleus with an unhelpful balance of protons and neutrons, which makes it **unstable**. An unstable nucleus gets rid of excess energy by emitting **radiation**. This is called **radioactive decay**.\n\nDecay is a **random** process. You cannot predict which nucleus will decay next or exactly when, just as you cannot predict which popcorn kernel will pop next. However, with a large number of nuclei we can predict how many will decay in a given time.\n\n## Measuring radioactivity\n\n- **Activity** is the rate at which a source decays. It is measured in **becquerels (Bq)**. 1 Bq = 1 decay per second.\n- **Count rate** is the number of decays *detected* per second by a detector such as a **Geiger-Müller tube**. The count rate is always less than the activity because the detector cannot catch every emission.\n\nThe four types of nuclear radiation you need to know are **alpha particles**, **beta particles**, **gamma rays** and **neutrons**."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: activity and count rate",
+          "minutes": 3,
+          "content": "**A Geiger-Müller tube detects 120 counts in one minute from a small source. Calculate the count rate in counts per second.**\n\n1. Count rate = counts ÷ time = 120 ÷ 60 = **2 counts per second**.\n\n**The source's actual activity is 900 Bq. Explain why this is much higher than the count rate.**\n\n- Activity counts *every* decay: 900 decays every second.\n- The detector only records radiation that enters it. Radiation is emitted in all directions, so most of it misses the tube. Some is also absorbed by the air before it arrives.\n- So the count rate (2 per second) is only a small fraction of the activity (900 Bq).\n\nAlways check whether a question gives you activity in Bq or a count rate from a detector; they are not the same thing."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-PHY-04-02-L1-Q1",
+            "type": "NumericalAnswer",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "A radioactive source has an activity of 500 Bq. How many nuclei decay in 10 seconds?",
+            "hint": "1 Bq means 1 decay each second.",
+            "explanation": "Activity × time = 500 × 10 = 5000 decays.",
+            "answers": [
+              {
+                "numeric": 5000,
+                "tolerance": 0
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Alpha, beta and gamma",
+          "minutes": 5,
+          "content": "## The three main types of radiation\n\n| | Alpha (α) | Beta (β) | Gamma (γ) |\n|---|---|---|---|\n| What is it? | 2 protons + 2 neutrons (a helium nucleus) | A fast-moving **electron** from the nucleus | Electromagnetic radiation from the nucleus |\n| Charge | +2 | −1 | 0 |\n| Range in air | A few cm | About 1 m | Very long, follows the inverse square law |\n| Stopped by | A sheet of **paper** or skin | A few mm of **aluminium** | Several cm of **lead** or metres of concrete |\n| Ionising power | **Very strong** | Moderate | Weak |\n\nWhere does a beta particle come from if the nucleus has no electrons? In beta decay a **neutron turns into a proton**, and the electron created in the process is fired out at high speed.\n\n**Ionising power and penetration are linked.** Alpha particles are big, slow and doubly charged, so they knock electrons off atoms very easily. Every collision uses energy, so they stop quickly. Gamma rays have no charge and no mass, so they rarely interact and travel a long way.\n\nA **neutron** can also be emitted from some nuclei. Neutrons have no charge and can be very penetrating."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: identifying a source",
+          "minutes": 4,
+          "content": "**A student places different absorbers between a source and a detector. The background count has already been subtracted.**\n\n| Absorber | Count rate (counts/s) |\n|---|---|\n| None | 84 |\n| Paper | 83 |\n| 5 mm aluminium | 31 |\n| 5 cm lead | 2 |\n\n**Which types of radiation does the source emit?**\n\n1. Paper barely changes the count (84 → 83), so there is **no alpha** radiation; alpha would be stopped completely.\n2. Aluminium cuts the count a lot (83 → 31). Something is being absorbed by aluminium, so the source emits **beta**.\n3. After aluminium, 31 counts/s still get through. Lead reduces this almost to zero, so the remaining radiation is **gamma**.\n\n**Conclusion:** the source emits **beta and gamma**.\n\nWhen answering questions like this, always quote the numbers and say what each absorber did to the count rate."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-PHY-04-02-L1-Q2",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Match each type of radiation to the thinnest material that will stop it.",
+            "hint": "The most ionising radiation is the easiest to stop.",
+            "explanation": "Alpha is stopped by paper, beta by a few millimetres of aluminium, and gamma needs thick lead.",
+            "pairs": [
+              {
+                "left": "Alpha",
+                "right": "A sheet of paper"
+              },
+              {
+                "left": "Beta",
+                "right": "A few mm of aluminium"
+              },
+              {
+                "left": "Gamma",
+                "right": "Several cm of lead"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Nuclear equations",
+          "minutes": 5,
+          "content": "## Writing decay equations\n\nA nuclear equation shows what happens to the nucleus when it decays. The **mass numbers** (top) and **atomic numbers** (bottom) must **balance** on both sides.\n\n### Alpha decay\nThe nucleus loses 2 protons and 2 neutrons, written as $^{4}_{2}\\text{He}$ or $^{4}_{2}\\alpha$.\n\n- Mass number **decreases by 4**\n- Atomic number **decreases by 2** (so the element changes)\n\n$$^{219}_{86}\\text{Rn} \\rightarrow ^{215}_{84}\\text{Po} + ^{4}_{2}\\text{He}$$\n\n### Beta decay\nA neutron becomes a proton and an electron $^{0}_{-1}\\text{e}$ is emitted.\n\n- Mass number **stays the same** (a neutron was swapped for a proton)\n- Atomic number **increases by 1**\n\n$$^{14}_{6}\\text{C} \\rightarrow ^{14}_{7}\\text{N} + ^{0}_{-1}\\text{e}$$\n\n### Gamma emission\nGamma rays carry away energy only. The mass number and atomic number **do not change**, so the element stays the same.\n\n**Checking:** in the carbon-14 equation, the bottom numbers give 6 = 7 + (−1). The top numbers give 14 = 14 + 0. Balanced."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: completing an equation",
+          "minutes": 4,
+          "content": "**Uranium-238 decays by emitting an alpha particle. Complete the equation.**\n\n$$^{238}_{92}\\text{U} \\rightarrow ^{?}_{?}\\text{Th} + ^{4}_{2}\\text{He}$$\n\n1. Mass number: 238 − 4 = **234**.\n2. Atomic number: 92 − 2 = **90**.\n3. Result: $^{234}_{90}\\text{Th}$.\n\n**Thorium-234 then decays by beta emission. Complete this equation too.**\n\n$$^{234}_{90}\\text{Th} \\rightarrow ^{?}_{?}\\text{Pa} + ^{0}_{-1}\\text{e}$$\n\n1. Mass number stays at **234**.\n2. Atomic number: 90 − (−1) = **91**.\n3. Result: $^{234}_{91}\\text{Pa}$ (protactinium).\n\nAlways do the subtraction for both numbers separately, and remember that for beta the atomic number goes **up** by one."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-PHY-04-02-L1-Q3",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "Polonium-210 ($^{210}_{84}\\text{Po}$) decays by alpha emission to form an isotope of lead. State the mass number and the atomic number of the lead nucleus produced.",
+            "hint": "Alpha decay removes 4 from the mass number and 2 from the atomic number.",
+            "explanation": "Mass number = 210 − 4 = 206. Atomic number = 84 − 2 = 82. The product is $^{206}_{82}\\text{Pb}$.",
+            "answers": [
+              {
+                "numeric": 206,
+                "tolerance": 0,
+                "marks": 1
+              },
+              {
+                "numeric": 82,
+                "tolerance": 0,
+                "marks": 1
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Half-life",
+          "minutes": 5,
+          "content": "## What is half-life?\n\nBecause decay is random, we cannot say when one nucleus will decay. But a large sample behaves predictably: the number of undecayed nuclei **halves** in a fixed time called the **half-life**.\n\nThe **half-life** of an isotope is:\n\n- the time taken for the **number of nuclei** of the isotope in a sample to **halve**, *or*\n- the time taken for the **count rate (or activity)** from the sample to fall to **half** its starting value.\n\nBoth definitions describe the same thing, because activity is proportional to the number of undecayed nuclei.\n\nHalf-lives range from fractions of a second to billions of years. Whatever the value, it is constant for a given isotope.\n\n## Using half-life\n\nAfter 1 half-life, half remains. After 2 half-lives, a quarter remains ($\\frac{1}{2} \\times \\frac{1}{2}$). After 3, an eighth. Each half-life multiplies by $\\frac{1}{2}$ again.\n\nOn a graph of activity against time you see a curve that gets shallower and shallower but never quite reaches zero. Read the half-life by finding the time for the activity to drop from any value to half that value.\n\n**Net decline** (Higher tier) is the ratio of the amount that has decayed to the original amount, often given as a fraction or ratio."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: half-life calculations",
+          "minutes": 4,
+          "content": "**A source has an activity of 3200 Bq and a half-life of 6 hours. What is its activity after 1 day?**\n\n1. Number of half-lives = 24 ÷ 6 = **4**.\n2. Halve four times: 3200 → 1600 → 800 → 400 → **200 Bq**.\n\n**A sample's count rate drops from 640 counts/s to 80 counts/s in 45 minutes. Find the half-life.**\n\n1. 640 → 320 → 160 → 80 is **3** halvings.\n2. Half-life = 45 ÷ 3 = **15 minutes**.\n\n**Net decline after 2 half-lives (Higher):**\n\n- After 2 half-lives, $\\frac{1}{4}$ remains, so $\\frac{3}{4}$ has decayed.\n- Net decline = $\\frac{3}{4}$, which as a ratio is **3 : 4** (decayed : original).\n\nWrite out each halving step; it takes seconds and prevents counting errors."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-PHY-04-02-L1-Q4",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A radioactive isotope has a half-life of 8 days. A sample has an initial activity of 4800 Bq. Calculate the activity after 24 days.",
+            "hint": "First work out how many half-lives fit into 24 days, then halve that many times.",
+            "explanation": "24 ÷ 8 = 3 half-lives. 4800 → 2400 → 1200 → 600 Bq.",
+            "answers": [
+              {
+                "numeric": 600,
+                "tolerance": 0,
+                "unit": "Bq",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-PHY-04-02-L1-Q5",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 4,
+            "examStyle": true,
+            "text": "A teacher measures the count rate from a radioactive source. The background-corrected results are shown.\n\n| Time (minutes) | 0 | 10 | 20 | 30 | 40 |\n|---|---|---|---|---|---|\n| Count rate (counts/s) | 400 | 283 | 200 | 141 | 100 |\n\n(a) Use the data to determine the half-life of the source. (2 marks)\n\n(b) Explain why the teacher subtracted the background count rate before recording the results. (2 marks)",
+            "hint": "Look for the time taken for 400 to fall to 200, then check with another pair of values. For (b), think about where radiation might come from other than the source.",
+            "explanation": "(a) 400 falls to 200 in 20 minutes, and 200 falls to 100 in the next 20 minutes, so the half-life is 20 minutes. (b) Background radiation from rocks, cosmic rays and other sources is always present; the detector counts it as well, so it must be subtracted so the count rate represents only the source.",
+            "markScheme": [
+              {
+                "criterion": "Identifies count rate halving from 400 to 200 (or 200 to 100)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "400",
+                    "200",
+                    "halve",
+                    "half"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Half-life = 20 minutes",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "20 min",
+                    "20 minutes",
+                    "= 20",
+                    "20"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Background radiation is always present / detected as well as the source",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "background",
+                    "always present",
+                    "other sources",
+                    "cosmic",
+                    "rocks"
+                  ]
+                ]
+              },
+              {
+                "criterion": "So the count rate would be too high / not just from the source unless subtracted",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "too high",
+                    "only the source",
+                    "just the source",
+                    "from the source",
+                    "accurate"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Radioactive decay is **random**. **Activity** (Bq) = decays per second; **count rate** is what a detector records.\n- **Alpha**: helium nucleus, stopped by paper, very ionising. **Beta**: fast electron, stopped by aluminium. **Gamma**: EM wave, needs thick lead, weakly ionising.\n- Alpha decay: mass number −4, atomic number −2. Beta decay: mass number unchanged, atomic number +1. Gamma: no change.\n- **Half-life** = time for the number of nuclei (or the activity) to halve. Count half-lives, then halve repeatedly.\n- Subtract **background** radiation before analysing count rates."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-PHY-04-02-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "What is the unit of activity?",
+          "hint": "It is named after a French scientist who studied radioactivity.",
+          "explanation": "Activity is measured in becquerels (Bq), where 1 Bq is one decay per second.",
+          "options": [
+            {
+              "text": "Becquerel (Bq)",
+              "correct": true
+            },
+            {
+              "text": "Sievert (Sv)",
+              "correct": false,
+              "feedback": "The sievert measures radiation dose, not activity."
+            },
+            {
+              "text": "Hertz (Hz)",
+              "correct": false
+            },
+            {
+              "text": "Joule (J)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which type of radiation is the most strongly ionising?",
+          "hint": "The biggest, most highly charged particle interacts most with atoms it passes.",
+          "explanation": "Alpha particles have a +2 charge and a large mass, so they ionise atoms very strongly and are stopped after a few centimetres of air.",
+          "options": [
+            {
+              "text": "Alpha",
+              "correct": true
+            },
+            {
+              "text": "Beta",
+              "correct": false
+            },
+            {
+              "text": "Gamma",
+              "correct": false,
+              "feedback": "Gamma is the most penetrating but the least ionising."
+            },
+            {
+              "text": "They are all equally ionising",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P3",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Radium-226 ($^{226}_{88}\\text{Ra}$) decays by alpha emission to form radon. State the mass number and the atomic number of the radon nucleus.",
+          "hint": "Take 4 from the top number and 2 from the bottom number.",
+          "explanation": "Mass number = 226 − 4 = 222. Atomic number = 88 − 2 = 86.",
+          "answers": [
+            {
+              "numeric": 222,
+              "tolerance": 0,
+              "marks": 1
+            },
+            {
+              "numeric": 86,
+              "tolerance": 0,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P4",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Strontium-90 ($^{90}_{38}\\text{Sr}$) decays by beta emission. What is the atomic number of the nucleus formed?",
+          "hint": "In beta decay a neutron becomes a proton.",
+          "explanation": "The atomic number increases by 1: 38 + 1 = 39 (yttrium). The mass number stays at 90.",
+          "answers": [
+            {
+              "numeric": 39,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P5",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A sample contains 8000 undecayed nuclei of an isotope with a half-life of 30 seconds. How many undecayed nuclei remain after 2 minutes?",
+          "hint": "Convert 2 minutes to seconds and count the half-lives.",
+          "explanation": "120 ÷ 30 = 4 half-lives. 8000 → 4000 → 2000 → 1000 → 500.",
+          "answers": [
+            {
+              "numeric": 500,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P6",
+          "type": "NumericalAnswer",
+          "difficulty": 4,
+          "marks": 2,
+          "text": "The activity of a source falls from 1200 Bq to 150 Bq in 36 hours. Calculate the half-life of the source in hours.",
+          "hint": "How many times do you halve 1200 to reach 150?",
+          "explanation": "1200 → 600 → 300 → 150 is 3 half-lives. Half-life = 36 ÷ 3 = 12 hours.",
+          "answers": [
+            {
+              "numeric": 12,
+              "tolerance": 0,
+              "unit": "hours",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P7",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the description of beta decay.",
+          "metadata": {
+            "blanksText": "In beta decay, a ___ in the nucleus changes into a proton, and a high-speed ___ is emitted."
+          },
+          "hint": "The particle that changes has no charge. The particle emitted has a negative charge.",
+          "explanation": "A neutron changes into a proton, and the electron created is emitted as the beta particle.",
+          "answers": [
+            {
+              "text": "neutron",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "electron",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P8",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Explain why alpha radiation has a much shorter range in air than gamma radiation.",
+          "hint": "Link ionising power to how quickly energy is lost.",
+          "explanation": "Alpha particles are large and doubly charged, so they are strongly ionising. Each ionisation transfers energy away from the particle, so alpha particles lose all their energy within a few centimetres. Gamma rays have no charge, are weakly ionising and rarely interact, so they travel much further.",
+          "markScheme": [
+            {
+              "criterion": "Alpha is strongly ionising because it is large / charged",
+              "marks": 1,
+              "keywords": [
+                [
+                  "ionis",
+                  "charge",
+                  "large",
+                  "heavy"
+                ]
+              ]
+            },
+            {
+              "criterion": "Each ionisation transfers energy so alpha stops quickly, whereas gamma rarely interacts",
+              "marks": 1,
+              "keywords": [
+                [
+                  "loses energy",
+                  "transfers energy",
+                  "absorbed",
+                  "rarely interact",
+                  "weakly ionising"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 3,
+          "examStyle": true,
+          "text": "A student says that a radioactive source will have completely stopped emitting radiation after two half-lives.\n\nExplain whether the student is correct, using the idea of half-life.",
+          "hint": "What fraction remains after each half-life? Does it ever reach exactly zero?",
+          "explanation": "The student is wrong. After one half-life half the nuclei remain; after two half-lives a quarter remain. Each half-life halves what is left, so the activity keeps falling but never reaches zero within a finite number of half-lives.",
+          "markScheme": [
+            {
+              "criterion": "After each half-life the activity / number of nuclei halves",
+              "marks": 1,
+              "keywords": [
+                [
+                  "halve",
+                  "half",
+                  "halves"
+                ]
+              ]
+            },
+            {
+              "criterion": "After two half-lives a quarter remains",
+              "marks": 1,
+              "keywords": [
+                [
+                  "quarter",
+                  "1/4",
+                  "25%",
+                  "a fourth"
+                ]
+              ]
+            },
+            {
+              "criterion": "The activity never reaches zero / student is incorrect",
+              "marks": 1,
+              "keywords": [
+                [
+                  "never zero",
+                  "not zero",
+                  "never stops",
+                  "incorrect",
+                  "wrong"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P10",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Order the three types of radiation from least penetrating to most penetrating.",
+          "hint": "Paper, aluminium, lead.",
+          "explanation": "Alpha is stopped by paper, beta by aluminium and gamma only by thick lead, so the order is alpha, beta, gamma.",
+          "order": [
+            "Alpha",
+            "Beta",
+            "Gamma"
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P11",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Which TWO statements about gamma emission are correct?",
+          "hint": "Gamma rays are waves, not particles, and carry away only energy.",
+          "explanation": "Gamma rays are electromagnetic waves. They carry energy away without changing the mass number or atomic number, so the element is unchanged. They are the least ionising of the three types.",
+          "options": [
+            {
+              "text": "The mass number and atomic number of the nucleus do not change.",
+              "correct": true
+            },
+            {
+              "text": "Gamma rays are electromagnetic waves.",
+              "correct": true
+            },
+            {
+              "text": "The nucleus changes into a different element.",
+              "correct": false,
+              "feedback": "Only alpha and beta decay change the element."
+            },
+            {
+              "text": "Gamma is the most ionising type of radiation.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-04-02-L1-P12",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: during beta decay the mass number of the nucleus decreases by one.",
+          "hint": "In beta decay a neutron changes into a proton. Does the total number of nucleons change?",
+          "explanation": "False. A neutron becomes a proton, so the total of protons + neutrons is unchanged. The mass number stays the same; only the atomic number rises by one.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

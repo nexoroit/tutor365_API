@@ -1,0 +1,94 @@
+{
+  "subTopicCode": "MAT-02-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-02-04-L1",
+      "title": "Solving linear equations",
+      "summary": "Solve linear equations with the unknown on one or both sides, with brackets and with fractions, and set up equations from worded problems.",
+      "objectives": [
+        "I can solve one-step and two-step linear equations using inverse operations.",
+        "I can solve equations with the unknown on both sides.",
+        "I can solve equations involving brackets and fractions.",
+        "I can form an equation from a worded or geometric problem and solve it.",
+        "I can check a solution by substituting it back into the original equation."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Balancing an equation", "minutes": 4, "content": "## Keep both sides equal\n\nAn equation is a statement that two expressions are equal, like a set of balanced scales. Whatever you do to one side, you must do to the other so the balance is kept.\n\nTo **solve** an equation means to find the value of the letter that makes it true. The plan is to **undo** each operation, in reverse order, using the **inverse operation**:\n\n| Operation | Inverse |\n|---|---|\n| add 5 | subtract 5 |\n| subtract 5 | add 5 |\n| multiply by 3 | divide by 3 |\n| divide by 3 | multiply by 3 |\n\n**One step:** $x + 7 = 12$. Subtract 7 from both sides: $x = 5$.\n\n**Two steps:** $3x - 4 = 17$.\n\n$3x$ has been multiplied by 3, then 4 subtracted. Undo in reverse: first add 4, then divide by 3.\n\n$3x = 21$\n\n$x = 7$\n\n**Layout tip:** write each step on a new line with the $=$ signs lined up, and write what you did in the margin (e.g. \"+4\"). Clear working earns method marks even if you slip at the end.\n\n**Always check:** $3 \\times 7 - 4 = 17$. ✓" },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-04-L1-Q1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1,
+          "text": "Solve $5x + 9 = 44$.",
+          "hint": "Subtract 9 first, then divide by 5.",
+          "explanation": "$5x = 35$, so $x = 7$.",
+          "answers": [ { "numeric": 7, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "Unknowns on both sides", "minutes": 4, "content": "## Collect the letters on one side\n\nWhen $x$ appears on both sides, start by removing the **smaller** $x$ term from both sides. That keeps the $x$ coefficient positive and avoids negative-number slips.\n\n**Solve $7x - 3 = 4x + 12$.**\n\n$4x$ is smaller than $7x$, so subtract $4x$ from both sides:\n\n$3x - 3 = 12$\n\nAdd 3: $3x = 15$\n\nDivide by 3: $x = 5$\n\nCheck: left $= 35 - 3 = 32$, right $= 20 + 12 = 32$. ✓\n\n**Solve $2 - 5y = 3y + 18$.**\n\nHere $-5y$ is smaller than $3y$, so add $5y$ to both sides:\n\n$2 = 8y + 18$\n\nSubtract 18: $-16 = 8y$\n\nDivide by 8: $y = -2$\n\nA negative answer is perfectly normal — do not assume you have made a mistake. Check it: left $= 2 - (-10) = 12$, right $= -6 + 18 = 12$. ✓" },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-04-L1-Q2", "type": "NumericalAnswer", "difficulty": 2, "marks": 2,
+          "text": "Solve $9x - 14 = 4x + 21$.",
+          "hint": "Subtract $4x$ from both sides first.",
+          "explanation": "$5x - 14 = 21$, so $5x = 35$ and $x = 7$.",
+          "answers": [ { "numeric": 7, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Brackets and fractions", "minutes": 5, "content": "## Brackets: expand first\n\n**Solve $4(x + 3) = 2(x - 1) + 20$.**\n\nExpand both sides: $4x + 12 = 2x - 2 + 20$\n\nSimplify: $4x + 12 = 2x + 18$\n\nSubtract $2x$: $2x + 12 = 18$\n\nSubtract 12: $2x = 6$, so $x = 3$.\n\n(If there is only a single bracket equal to a number, you can divide first instead: $5(x - 2) = 35$ gives $x - 2 = 7$, so $x = 9$.)\n\n## Fractions: multiply through to clear them\n\n**Solve $\\dfrac{x}{4} + 2 = 7$.**\n\nSubtract 2: $\\dfrac{x}{4} = 5$. Multiply by 4: $x = 20$.\n\n**Solve $\\dfrac{2x + 1}{3} = 5$.**\n\nThe whole of $2x + 1$ is divided by 3, so multiply both sides by 3 first: $2x + 1 = 15$, then $2x = 14$, $x = 7$.\n\n**Solve $\\dfrac{x}{2} + \\dfrac{x}{3} = 10$.**\n\nMultiply every term by 6 (the LCM of 2 and 3): $3x + 2x = 60$, so $5x = 60$ and $x = 12$.\n\nClearing fractions early turns a fiddly equation into an ordinary one." },
+        { "type": "Example", "title": "Worked example: fractions on both sides", "minutes": 4, "content": "**Solve $\\dfrac{3x - 1}{2} = \\dfrac{x + 5}{4}$.**\n\nThere are two denominators, 2 and 4. Their LCM is 4, so multiply **both sides** by 4.\n\nLeft: $4 \\times \\dfrac{3x - 1}{2} = 2(3x - 1) = 6x - 2$\n\nRight: $4 \\times \\dfrac{x + 5}{4} = x + 5$\n\nNow the equation is $6x - 2 = x + 5$.\n\nSubtract $x$: $5x - 2 = 5$\n\nAdd 2: $5x = 7$\n\nDivide: $x = \\dfrac{7}{5} = 1.4$\n\nCheck: left $= \\dfrac{4.2 - 1}{2} = 1.6$; right $= \\dfrac{6.4}{4} = 1.6$. ✓\n\n**A shortcut worth knowing:** when the equation is *one fraction = one fraction*, you can **cross-multiply**: $4(3x - 1) = 2(x + 5)$. It gives the same result after expanding.\n\nNotice that the answer is a fraction. Leave it as $\\dfrac{7}{5}$ or 1.4 — both are exact and both are acceptable." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-04-L1-Q3", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
+          "text": "Solve $3(2x - 5) = 4x + 7$.",
+          "hint": "Expand the bracket: $6x - 15$.",
+          "explanation": "$6x - 15 = 4x + 7$, so $2x = 22$ and $x = 11$.",
+          "answers": [ { "numeric": 11, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-04-L1-Q4", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
+          "text": "Solve $\\dfrac{5x + 2}{4} = 8$.",
+          "hint": "Multiply both sides by 4 first.",
+          "explanation": "$5x + 2 = 32$, so $5x = 30$ and $x = 6$.",
+          "answers": [ { "numeric": 6, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Forming equations from problems", "minutes": 4, "content": "## Turning words and shapes into equations\n\nMany exam questions do not hand you the equation; you have to build it.\n\n**Method**\n1. Choose a letter for the unknown and say what it stands for.\n2. Write the other quantities in terms of that letter.\n3. Use the fact given in the question (a total, a perimeter, angles adding to 180°) to write an equation.\n4. Solve it, then answer the **actual question** — which may not be the value of the letter.\n\n**Example:** Maya is 3 years older than her brother. The sum of their ages is 29. How old is Maya?\n\nLet the brother be $b$. Maya is $b + 3$. Total: $b + (b + 3) = 29$, so $2b + 3 = 29$, $2b = 26$, $b = 13$. Maya is **16**.\n\n**Example (geometry):** a triangle has angles $x$, $2x + 10$ and $3x - 40$ (in degrees). Find the largest angle.\n\nAngles in a triangle add to 180°: $x + 2x + 10 + 3x - 40 = 180$, so $6x - 30 = 180$, $6x = 210$, $x = 35$.\n\nAngles: 35°, 80° and 65°. Largest is **80°**. Notice the answer is not $x$." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-04-L1-Q5", "type": "NumericalAnswer", "difficulty": 3, "marks": 3,
+          "text": "A rectangle has length $(3x + 2)$ cm and width $(x + 4)$ cm. Its perimeter is 44 cm. Find the length of the rectangle in cm.",
+          "hint": "Perimeter = 2 × (length + width). Solve for $x$, then find $3x + 2$.",
+          "explanation": "$2(3x + 2 + x + 4) = 44$, so $2(4x + 6) = 44$, $4x + 6 = 22$, $4x = 16$, $x = 4$. Length $= 3(4) + 2 = 14$ cm.",
+          "answers": [ { "numeric": 14, "tolerance": 0, "unit": "cm", "marks": 3 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-04-L1-Q6", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "Which equation represents this problem? \"I think of a number, double it, subtract 5 and get 31.\"",
+          "hint": "Follow the operations in order: double, then subtract 5.",
+          "explanation": "Double $n$ is $2n$; subtract 5 gives $2n - 5$; this equals 31. Solving gives $n = 18$.",
+          "options": [
+            { "text": "$2n - 5 = 31$", "correct": true },
+            { "text": "$2(n - 5) = 31$", "correct": false, "feedback": "That subtracts 5 before doubling." },
+            { "text": "$n - 5 \\times 2 = 31$", "correct": false, "feedback": "This means subtract 10 from n, not double it." },
+            { "text": "$2n + 5 = 31$", "correct": false, "feedback": "The 5 is subtracted, not added." } ] } },
+        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Doing something to one side only.** Every step must be applied to both sides.\n- **Undoing in the wrong order.** In $3x - 4 = 17$, deal with the $-4$ before the $\\times 3$.\n- **Sign slips with negatives.** $2 - 5y$ means $2 + (-5y)$; adding $5y$ to both sides removes it.\n- **Expanding brackets carelessly.** $3(2x - 5) = 6x - 15$, not $6x - 5$.\n- **Fractions.** Multiply *every* term on both sides by the denominator, including any lone number.\n- **Stopping at $x$.** If the question asks for Maya's age or the largest angle, finish the job.\n- **Not checking.** Substituting your answer back takes ten seconds and catches most errors." },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-02-04-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true,
+          "text": "Three friends share the cost of a meal. Ben pays £$x$. Chloe pays £5 more than Ben. Dev pays twice as much as Chloe. Altogether they pay £71.\n\n(a) Write an equation in terms of $x$.\n\n(b) Solve your equation to find how much Dev pays.",
+          "hint": "Chloe pays $x + 5$ and Dev pays $2(x + 5)$. Add the three amounts and set equal to 71.",
+          "explanation": "(a) $x + (x + 5) + 2(x + 5) = 71$, which simplifies to $4x + 15 = 71$. (b) $4x = 56$, $x = 14$. Chloe pays £19 and Dev pays $2 \\times 19 = £38$.",
+          "markScheme": [
+            { "criterion": "Expresses Chloe as x + 5 and Dev as 2(x + 5) or 2x + 10", "marks": 1, "keywords": [ ["x + 5", "x+5"], ["2(x + 5)", "2(x+5)", "2x + 10", "2x+10"] ] },
+            { "criterion": "Forms the equation 4x + 15 = 71 (or an unsimplified equivalent set equal to 71)", "marks": 1, "keywords": [ ["4x + 15", "4x+15", "= 71", "=71"] ] },
+            { "criterion": "Solves to get x = 14", "marks": 1, "keywords": [ ["x = 14", "x=14", "14"] ] },
+            { "criterion": "States Dev pays £38", "marks": 1, "keywords": [ ["38", "£38", "38.00"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Do the same thing to both sides; undo operations in reverse order.\n- Unknowns on both sides: remove the smaller letter term first.\n- Brackets: expand (or divide through if a lone bracket equals a number).\n- Fractions: multiply every term by the LCM of the denominators; cross-multiply when it is fraction = fraction.\n- Worded problems: define the letter, build the equation from the given fact, solve, then answer the question asked.\n- Check by substituting back." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-02-04-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Solve $x - 13 = 4$.", "hint": "Add 13 to both sides.", "explanation": "$x = 17$.", "answers": [ { "numeric": 17, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-04-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Solve $\\dfrac{x}{6} = 4$.", "hint": "Multiply both sides by 6.", "explanation": "$x = 24$.", "answers": [ { "numeric": 24, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-04-L1-P3", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "Solve $20 - 3x = 2$.", "hint": "Add $3x$ to both sides, or subtract 20 and divide by −3.", "explanation": "$20 = 2 + 3x$, so $3x = 18$ and $x = 6$.", "answers": [ { "numeric": 6, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-04-L1-P4", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "Solve $4x + 3 = 7x - 15$.", "hint": "Subtract $4x$ from both sides.", "explanation": "$3 = 3x - 15$, so $3x = 18$ and $x = 6$.", "answers": [ { "numeric": 6, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-04-L1-P5", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: $x = -3$ is the solution of $2(x + 5) = 4$.", "hint": "Substitute $-3$ in and see if both sides match.", "explanation": "True. $2(-3 + 5) = 2 \\times 2 = 4$. ✓", "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ] },
+        { "key": "AQA-MAT-02-04-L1-P6", "type": "Ordering", "difficulty": 2, "marks": 2, "text": "Put the steps in the correct order to solve $5(x - 2) = 3x + 6$.", "hint": "Expand first, then collect the letters.", "explanation": "Expand to $5x - 10 = 3x + 6$; subtract $3x$ to get $2x - 10 = 6$; add 10 to get $2x = 16$; divide by 2 to get $x = 8$.", "order": [ "Expand: 5x − 10 = 3x + 6", "Subtract 3x: 2x − 10 = 6", "Add 10: 2x = 16", "Divide by 2: x = 8" ] },
+        { "key": "AQA-MAT-02-04-L1-P7", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "Solve $\\dfrac{x}{3} + \\dfrac{x}{4} = 14$.", "hint": "Multiply every term by 12.", "explanation": "$4x + 3x = 168$, so $7x = 168$ and $x = 24$.", "answers": [ { "numeric": 24, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-04-L1-P8", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "Solve $\\dfrac{4x - 3}{5} = \\dfrac{x + 6}{2}$. Give your answer as a decimal.", "hint": "Cross-multiply: $2(4x - 3) = 5(x + 6)$.", "explanation": "$8x - 6 = 5x + 30$, so $3x = 36$ and $x = 12$.", "answers": [ { "numeric": 12, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-04-L1-P9", "type": "Matching", "difficulty": 2, "marks": 3, "text": "Match each equation to its solution.", "hint": "Solve each one, or substitute the options to check.", "explanation": "$3x + 1 = 10$ gives 3; $2x - 7 = 3$ gives 5; $6 - x = 8$ gives −2.", "pairs": [ { "left": "3x + 1 = 10", "right": "x = 3" }, { "left": "2x − 7 = 3", "right": "x = 5" }, { "left": "6 − x = 8", "right": "x = −2" } ] },
+        { "key": "AQA-MAT-02-04-L1-P10", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentence.", "metadata": { "blanksText": "To solve an equation with the unknown on both sides, first remove the ___ letter term from both sides, then use ___ operations to undo the rest." }, "hint": "Which x term is best to remove: the bigger or the smaller?", "explanation": "Remove the smaller letter term so the coefficient stays positive, then use inverse operations.", "answers": [ { "text": "smaller", "blankIndex": 0, "marks": 1 }, { "text": "inverse", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-02-04-L1-P11", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Ravi solves $3(x + 4) = 27$ like this: \"$3x + 4 = 27$, so $3x = 23$ and $x = 7.67$.\" Explain his mistake and give the correct solution.", "hint": "What happens to the 4 when the bracket is expanded?", "explanation": "He only multiplied the $x$ by 3; the bracket expands to $3x + 12$. Then $3x = 15$ and $x = 5$.", "markScheme": [ { "criterion": "Identifies that the 4 should also be multiplied by 3 (bracket expands to 3x + 12)", "marks": 1, "keywords": [ ["3x + 12", "3x+12", "multiply the 4", "both terms", "12"] ] }, { "criterion": "Gives the correct solution x = 5", "marks": 1, "keywords": [ ["x = 5", "x=5", "is 5"] ] } ] },
+        { "key": "AQA-MAT-02-04-L1-P12", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "The three angles of a triangle are $2x°$, $(x + 30)°$ and $(3x - 18)°$. Work out the size of the smallest angle. Show your working.", "hint": "The angles add up to 180°. Solve for $x$, then work out all three angles.", "explanation": "$2x + x + 30 + 3x - 18 = 180$, so $6x + 12 = 180$, $6x = 168$, $x = 28$. Angles: 56°, 58°, 66°. Smallest is 56°.", "markScheme": [ { "criterion": "Forms the equation 6x + 12 = 180 (or equivalent sum = 180)", "marks": 1, "keywords": [ ["6x + 12", "6x+12", "= 180", "=180"] ] }, { "criterion": "Solves to get x = 28", "marks": 1, "keywords": [ ["x = 28", "x=28", "28"] ] }, { "criterion": "Identifies the smallest angle as 56°", "marks": 1, "keywords": [ ["56", "56°", "56 degrees"] ] } ] }
+      ]
+    }
+  ]
+}

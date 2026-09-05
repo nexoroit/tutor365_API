@@ -1,0 +1,448 @@
+{
+  "subTopicCode": "ENL-01-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-01-02-L1",
+      "title": "Analysing language in fiction (Paper 1, Question 2)",
+      "summary": "Learn how to pick out the most powerful words and techniques in a fiction extract, explain their effect on the reader, and write the kind of tight analytical paragraph that scores highly on Question 2.",
+      "objectives": [
+        "I can identify language features such as similes, metaphors, personification and powerful verbs in a fiction extract.",
+        "I can choose short, precise quotations that are relevant to the focus of the question.",
+        "I can explain the effect of a writer's language choices on the reader, zooming in on single words.",
+        "I can structure an 8-mark language analysis answer in the time available."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What Question 2 asks you to do",
+          "minutes": 4,
+          "content": "## Paper 1, Question 2: language analysis\n\nQuestion 2 is worth **8 marks** and tests **AO2**: *explain, comment on and analyse how writers use language to achieve effects and influence readers, using relevant subject terminology*.\n\nThe question always follows the same pattern:\n\n> Look in detail at **lines 5 to 12** of the source. How does the writer use language here to describe **the fox**?\n>\n> You could include the writer's choice of:\n> - words and phrases\n> - language features and techniques\n> - sentence forms.\n\nThree things matter:\n\n1. **Stay inside the given lines.** The examiner can only reward analysis of those lines.\n2. **Stay on the focus.** If the question is about the fox, comments on the garden only count if you link them back to the fox.\n3. **Analyse, do not describe.** Retelling what happens scores nothing. Every point must explain *how* a word or technique works on the reader.\n\nThe bullet points are a menu, not a checklist. You do not have to cover all three, but the best answers usually mix at least two: a comment on a single powerful word, a comment on a technique, and perhaps a comment on sentence length.\n\nAim for about **10 minutes** and **three well-developed points**. Quality beats quantity: three precise, zoomed-in explanations will outscore six vague ones every time."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: the fox on the lawn",
+          "minutes": 5,
+          "content": "**Read lines 5 to 10.**\n\n> The fox came out of the hedge like a spilt flame. It froze on the white lawn, one paw raised, and the whole garden seemed to hold its breath. Frost had stitched every blade of grass into stiff silver, and the fox's breath hung in front of it in small grey ghosts. Then a door banged somewhere down the street and it was gone, a rust-coloured rumour, leaving nothing but a line of neat prints that filled, slowly, with the falling snow.\n\n**How does the writer use language here to describe the fox?**\n\nHere is one paragraph from a strong answer:\n\n> The writer uses the simile **\"like a spilt flame\"** to introduce the fox. The noun \"flame\" suggests its colour and the sudden way it appears, but the adjective \"spilt\" is more surprising: it implies something accidental and fluid, as if the fox has leaked out of the hedge rather than walked. This makes the fox seem less like an animal and more like a force of nature, which prepares the reader for how quickly it vanishes later.\n\nNotice what this paragraph does:\n\n- **Names the technique** (simile) and **quotes** briefly.\n- **Zooms in** on two individual words (\"flame\", \"spilt\") and explains their **connotations**.\n- **Explains the effect on the reader** using words like *suggests*, *implies*, *makes the fox seem*.\n- **Links** the point to the rest of the extract.\n\nA second paragraph might tackle the metaphor \"a rust-coloured rumour\" (the fox becomes something you half-heard, not quite real), and a third could look at the slow, comma-heavy final sentence, which mirrors the prints filling with snow."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: name the technique",
+          "question": {
+            "key": "AQA-ENL-01-02-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "In the extract about the fox, the writer says \"the whole garden seemed to hold its breath\".\n\nWhich language technique is this?",
+            "hint": "A garden cannot really breathe. What do we call it when a writer gives human actions to something non-human?",
+            "explanation": "This is personification: the garden is given the human action of holding its breath, which creates a sense of tense, silent waiting around the fox.",
+            "options": [
+              { "text": "Personification", "correct": true },
+              { "text": "Simile", "correct": false, "feedback": "A simile compares using 'like' or 'as'. There is no comparison word here." },
+              { "text": "Onomatopoeia", "correct": false, "feedback": "Onomatopoeia is a word that sounds like the noise it describes, such as 'banged'." },
+              { "text": "Alliteration", "correct": false, "feedback": "Alliteration repeats the same starting sound. Look instead at what the garden is doing." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Your language toolkit",
+          "minutes": 5,
+          "content": "## Techniques worth knowing\n\nYou need enough terminology to be precise, not a long list. These are the ones that come up most in fiction:\n\n| Technique | What it is | Typical effect |\n|---|---|---|\n| **Simile** | Comparison using *like* or *as* | Makes something unfamiliar vivid by linking it to something we know |\n| **Metaphor** | Says one thing *is* another | Stronger than a simile; can suggest a hidden quality |\n| **Personification** | Gives human qualities to non-human things | Makes settings feel alive, threatening or sympathetic |\n| **Semantic field** | A group of words from the same area of meaning | Builds a mood across a whole passage (e.g. words of decay) |\n| **Powerful verbs** | Precise action words: *lurched*, *crept*, *snapped* | Shows movement, speed and attitude |\n| **Adjectives / adverbs** | Describing words | Shape our judgement of a character or place |\n| **Alliteration / sibilance** | Repeated consonant sounds / repeated *s* sounds | Draws attention; sibilance can sound soft or sinister |\n| **Onomatopoeia** | Words that sound like their meaning | Puts the reader inside the scene |\n| **Repetition** | Same word or phrase again | Emphasis; can feel obsessive or rhythmic |\n\nThe most important skill is **connotation**: the ideas and feelings a word carries beyond its plain meaning. *Thin* and *scrawny* both mean not fat, but *scrawny* suggests weakness and neglect. When you write about a word, ask: *what does this word make me feel, and why did the writer choose it instead of a plainer one?*\n\nOnly name a technique if you are sure. Calling something a metaphor when it is a simile costs you credibility; simply writing **\"the phrase\"** or **\"the verb\"** is safe and still counts as terminology."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: match the quotation to the technique",
+          "question": {
+            "key": "AQA-ENL-01-02-L1-Q2",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each quotation to the language technique it uses most clearly.",
+            "hint": "Look for comparison words ('like'), things that cannot really act like people, repeated sounds, and words that imitate noises.",
+            "explanation": "'like a spilt flame' compares with 'like', so it is a simile. 'the wind clawed at the shutters' gives the wind a human or animal action, so it is personification. 'the hiss and spit of the fire' uses words that sound like the noises, so it is onomatopoeia. 'silent, slithering shadows' repeats the 's' sound, which is sibilance.",
+            "pairs": [
+              { "left": "like a spilt flame", "right": "Simile" },
+              { "left": "the wind clawed at the shutters", "right": "Personification" },
+              { "left": "the hiss and spit of the fire", "right": "Onomatopoeia" },
+              { "left": "silent, slithering shadows", "right": "Sibilance" }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "From feature-spotting to analysis",
+          "minutes": 5,
+          "content": "## The difference between 2 marks and 8 marks\n\nExaminers describe low-scoring answers as **feature-spotting**: the student names a technique, quotes it, and stops. \"The writer uses a simile, 'like a spilt flame'. This makes it vivid for the reader.\" That earns very little, because *vivid* could be said about any image in any text.\n\nHigh-scoring answers do four things, in roughly this order:\n\n1. **Quote** a short, precise phrase. A whole sentence is usually too much; two to five words is ideal.\n2. **Name** the technique or word class (simile, verb, adjective, repetition).\n3. **Zoom in** on one or two words inside the quotation and explore their **connotations**.\n4. **Explain the effect**: what does the reader picture, feel or understand, and how does it fit the focus of the question?\n\nUseful sentence starters for step 4: *suggests that*, *implies*, *creates a sense of*, *makes the reader feel*, *the reader is positioned to*, *this reinforces*.\n\nAvoid the empty phrases that examiners see thousands of times: *makes the reader want to read on*, *paints a picture in the reader's mind*, *makes it stand out*. They are not wrong, but they do not analyse anything.\n\nOne more tip: **layer** your ideas. A single quotation can suggest two things at once. The phrase \"rust-coloured rumour\" tells us the fox's colour, but *rust* also hints at age and decay, and *rumour* implies something half-real and unreliable. Showing that you can see more than one meaning is exactly what the top band rewards."
+        },
+        {
+          "type": "Example",
+          "title": "Weak versus strong: the same quotation",
+          "minutes": 4,
+          "content": "**Extract:**\n\n> The old dog hauled itself onto the step, joints clicking like a bag of dice, and settled with a groan that seemed to come up from the ground itself.\n\n**A weak answer (feature-spotting):**\n\n> The writer uses a simile \"like a bag of dice\" to describe the dog. This makes it stand out and helps the reader imagine the dog.\n\n*Why it is weak:* the technique is named and quoted, but nothing is explained. \"Stand out\" and \"imagine\" would fit any quotation.\n\n**A strong answer (analysis):**\n\n> The simile \"joints clicking like a bag of dice\" makes the dog's age painfully clear. \"Clicking\" is a hard, dry sound that suggests bones rubbing without cushioning, while \"a bag of dice\" implies the joints are loose, random and no longer fitting together properly. The comparison to a game also feels slightly cruel, as if the dog's body has become something to be shaken about, so the reader feels pity. This is reinforced by the verb \"hauled\", which shows the huge effort even a single step now costs the animal.\n\n*Why it is strong:* it zooms in on **three separate words**, explores their **connotations**, states a **clear effect** (pity), and links a **second quotation** to build the point."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: analysis or feature-spotting?",
+          "question": {
+            "key": "AQA-ENL-01-02-L1-Q3",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Which **two** of these sentences show genuine analysis rather than feature-spotting or empty comment?",
+            "hint": "Analysis explains what a specific word suggests and why. Look for sentences that name a word and say what it implies.",
+            "explanation": "The sentences about 'hauled' and 'groan' both pick a specific word and explain what it suggests about the dog. The other two name a technique or use a generic phrase ('makes it interesting', 'paints a picture') without explaining anything.",
+            "options": [
+              { "text": "The verb \"hauled\" suggests the dog's body has become a heavy burden it must drag around, showing how age has exhausted it.", "correct": true },
+              { "text": "The writer uses a simile to describe the dog, which makes the description more interesting.", "correct": false, "feedback": "This names a technique but does not explain what it suggests." },
+              { "text": "The \"groan\" that comes \"up from the ground\" implies the dog's tiredness is so deep it seems part of the earth, making it feel ancient.", "correct": true },
+              { "text": "The description of the dog paints a picture in the reader's mind.", "correct": false, "feedback": "This could be said about any description. There is no specific word or effect." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: complete the analysis",
+          "question": {
+            "key": "AQA-ENL-01-02-L1-Q4",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete this analytical paragraph about the phrase \"a rust-coloured rumour\" with the correct terms.",
+            "metadata": { "blanksText": "The writer describes the fox as \"a rust-coloured rumour\". This is a ___ because it says the fox *is* a rumour rather than comparing it with 'like'. The ___ of the word \"rumour\" include something half-heard and unreliable, which suggests the fox is barely real. The ___ \"rust-coloured\" tells us its colour but also hints at age and decay." },
+            "hint": "The three missing words are: the name of the technique, the term for the ideas a word carries beyond its literal meaning, and the word class of 'rust-coloured'.",
+            "explanation": "A metaphor states that one thing is another. Connotations are the associated ideas and feelings of a word. 'Rust-coloured' is an adjective describing the noun 'rumour'.",
+            "answers": [
+              { "text": "metaphor", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+              { "text": "connotations", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+              { "text": "adjective", "blankIndex": 2, "marks": 1, "caseSensitive": false }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Sentence forms and common mistakes",
+          "minutes": 4,
+          "content": "## Don't forget sentence forms\n\nThe third bullet in the question, **sentence forms**, is the one students most often ignore, yet it is an easy way to show range. Look for:\n\n- **Short, simple sentences** after longer ones: they create shock, finality or tension. *\"Then it was gone.\"*\n- **Long, list-like sentences** with many commas: they can feel breathless, overwhelming, or slow and drifting, depending on the content.\n- **Minor sentences** (no verb): *\"Drip. Drip.\"* Fragments that sound like isolated noises or thoughts.\n- **Questions or exclamations** in narration: they pull the reader into the character's head.\n\nAlways say **what** the sentence form does in *this* passage, not just that \"short sentences build tension\".\n\n## Mistakes that cost marks\n\n- **Retelling the story.** \"The fox comes out, then stops, then runs away\" is not analysis.\n- **Ignoring the focus.** If the question asks about the fox, do not spend a paragraph on the frost unless you link it to the fox.\n- **Quoting too much.** Copying three lines and underlining nothing shows you have not chosen.\n- **Wrong terminology.** If unsure, say *the phrase* or *the word*.\n- **Running out of time.** Question 2 is worth 8 marks out of 80; ten to twelve minutes is plenty."
+        },
+        {
+          "type": "Question",
+          "title": "Practice: analyse one quotation",
+          "question": {
+            "key": "AQA-ENL-01-02-L1-Q5",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Read the extract below.\n\n> The waiting room smelt of disinfectant and old coffee. A clock on the wall clicked through the seconds with a sound like a tongue being tutted, and every time the double doors swung open, twelve heads rose together like startled birds and then sank again. Dev's hands would not keep still. He folded the leaflet into a boat, then a hat, then a tight, hard square that he pushed deep into his pocket.\n\n**Choose ONE quotation and write a short analytical paragraph explaining how the writer uses language to create a sense of anxiety.** Name the technique, zoom in on a word, and explain the effect on the reader.",
+            "hint": "Good choices are the simile about the clock, the simile about the heads, or the verbs describing what Dev does to the leaflet. Pick one, name what it is, and say what individual words suggest.",
+            "explanation": "A strong answer might say: the simile \"like a tongue being tutted\" makes the clock sound disapproving, as if time itself is impatient with the people waiting; \"tutted\" suggests judgement, so the reader feels the room is not only slow but hostile. Alternatively: \"twelve heads rose together like startled birds\" shows how jumpy everyone is; \"startled\" implies fear, and comparing people to birds makes them seem small and easily frightened. Or: the list of verbs \"folded... pushed deep\" and the adjectives \"tight, hard\" show Dev's nervous energy being crushed down into something small, mirroring his attempt to control his fear.",
+            "markScheme": [
+              {
+                "criterion": "Identifies a language technique or word class accurately (e.g. simile, verb, adjective, list)",
+                "marks": 1,
+                "keywords": [ ["simile", "verb", "adjective", "list", "personif"] ]
+              },
+              {
+                "criterion": "Uses a relevant short quotation from the extract",
+                "marks": 1,
+                "keywords": [ ["tutted", "startled", "birds", "tight", "hard square"] ]
+              },
+              {
+                "criterion": "Zooms in on a single word or phrase and explores its connotations or what it suggests",
+                "marks": 1,
+                "keywords": [ ["suggests", "implies", "connotation", "the word", "sounds"] ]
+              },
+              {
+                "criterion": "Explains the effect on the reader in relation to anxiety or tension",
+                "marks": 1,
+                "keywords": [ ["reader", "anxious", "tension", "nervous", "fear"] ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: build the paragraph",
+          "question": {
+            "key": "AQA-ENL-01-02-L1-Q6",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put these steps in the best order for writing one analytical point in a Question 2 answer.",
+            "hint": "You need evidence before you can analyse it, and you should zoom in on a word before you explain the overall effect.",
+            "explanation": "Make a point and quote briefly, name the technique or word class, zoom in on a word and its connotations, then explain the effect on the reader and link it back to the question focus.",
+            "order": [
+              "Make a point and quote a short, precise phrase",
+              "Name the technique or word class used",
+              "Zoom in on a key word and explore its connotations",
+              "Explain the effect on the reader and link back to the focus"
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-01-02-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 8,
+            "examStyle": true,
+            "text": "Look in detail at this extract.\n\n> The fairground had died years ago, but nobody had told the horses. They still reared on the carousel, teeth bared in painted grins, their gilt manes flaking like old sunburn. Lena picked her way between them. The ticket booth leaned as if it were tired, its shutters hanging open like a slack jaw, and the big wheel stood against the sky with its empty cars creaking in the wind, a skeleton that had forgotten how to lie down. Somewhere beneath the boards, water dripped. Drip. Drip. The whole place was waiting for a music that would never come back.\n\n**How does the writer use language here to describe the fairground?**\n\nYou could include the writer's choice of:\n- words and phrases\n- language features and techniques\n- sentence forms.\n\n[8 marks]",
+            "hint": "Aim for three developed points. Consider the personification of the fairground as something dead or tired, the similes ('like old sunburn', 'like a slack jaw'), the metaphor of the skeleton, and the effect of the minor sentences 'Drip. Drip.'",
+            "explanation": "A top-band answer would: analyse the personification of the fairground as having 'died' and the booth being 'tired', suggesting a place that was once alive and is now a corpse; explore the similes, for example 'like old sunburn' implying peeling, damaged skin so that the horses seem sick rather than glamorous, and 'like a slack jaw' making the booth resemble a dead or unconscious face; examine the metaphor of the wheel as 'a skeleton that had forgotten how to lie down', which suggests something that should be dead but stubbornly remains upright, creating an eerie, unnatural feeling; and comment on the minor sentences 'Drip. Drip.' which isolate the only sound in the silence and slow the pace, so the reader shares Lena's unease. The final sentence's 'waiting for a music that would never come back' completes the mood of hopeless abandonment.",
+            "markScheme": [
+              {
+                "criterion": "Identifies a language technique accurately (personification, simile, metaphor, minor sentence etc.)",
+                "marks": 1,
+                "keywords": [ ["personif", "simile", "metaphor", "minor sentence", "short sentence"] ]
+              },
+              {
+                "criterion": "Uses a relevant short quotation from the extract",
+                "marks": 1,
+                "keywords": [ ["died", "grins", "sunburn", "slack jaw", "skeleton"] ]
+              },
+              {
+                "criterion": "Explains an effect on the reader using analytical language",
+                "marks": 1,
+                "keywords": [ ["reader", "suggests", "implies", "creates", "sense of"] ]
+              },
+              {
+                "criterion": "Analyses the personification of the fairground as dead, tired or once alive",
+                "marks": 1,
+                "keywords": [ ["dead", "died", "alive", "tired", "human"] ]
+              },
+              {
+                "criterion": "Analyses a simile and its connotations (e.g. sunburn suggesting peeling, damaged skin; slack jaw suggesting a lifeless face)",
+                "marks": 1,
+                "keywords": [ ["sunburn", "jaw", "peel", "skin", "face"] ]
+              },
+              {
+                "criterion": "Zooms in on a single word and explores its connotations",
+                "marks": 1,
+                "keywords": [ ["connotation", "the word", "the verb", "the adjective", "the noun"] ]
+              },
+              {
+                "criterion": "Comments on sentence forms, e.g. the minor sentences 'Drip. Drip.' slowing the pace and isolating sound",
+                "marks": 1,
+                "keywords": [ ["drip", "sentence", "pace", "fragment", "repetition"] ]
+              },
+              {
+                "criterion": "Links language choices to the overall mood of decay, abandonment or eeriness",
+                "marks": 1,
+                "keywords": [ ["eerie", "abandon", "decay", "unsettl", "neglect"] ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Question 2 is worth **8 marks** and tests **AO2**: how language creates effects.\n- Stay inside the **given lines** and on the **focus** of the question.\n- For each point: **quote briefly**, **name** the technique or word class, **zoom in** on a word's **connotations**, and explain the **effect on the reader**.\n- Avoid empty phrases like *makes the reader want to read on*.\n- Include a comment on **sentence forms** if you can.\n- Three well-developed points in **10 to 12 minutes** is the target."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-01-02-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: in Paper 1 Question 2, you must write about all three bullet points (words and phrases, language features, sentence forms) to get full marks.",
+          "hint": "Think about whether the bullets are a checklist or suggestions.",
+          "explanation": "False. The bullet points are suggestions to help you. Full marks come from perceptive, detailed analysis, which may use two of the bullets or all three.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which assessment objective does Paper 1 Question 2 test?",
+          "hint": "This is the objective about how writers use language and structure to achieve effects.",
+          "explanation": "Question 2 tests AO2: explain, comment on and analyse how writers use language to achieve effects, using relevant subject terminology.",
+          "options": [
+            { "text": "AO2", "correct": true },
+            { "text": "AO1", "correct": false, "feedback": "AO1 is about identifying and interpreting information (Question 1)." },
+            { "text": "AO4", "correct": false, "feedback": "AO4 is evaluation (Question 4)." },
+            { "text": "AO5", "correct": false, "feedback": "AO5 is your own writing (Question 5)." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P3",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each technique to its definition.",
+          "hint": "Think about whether each one compares, gives human traits, repeats sounds or groups words by meaning.",
+          "explanation": "A metaphor states that one thing is another. Personification gives human qualities to non-human things. A semantic field is a set of words linked by meaning. Alliteration repeats the same initial consonant sound.",
+          "pairs": [
+            { "left": "Metaphor", "right": "Describes one thing as if it literally is another" },
+            { "left": "Personification", "right": "Gives human qualities to something non-human" },
+            { "left": "Semantic field", "right": "A group of words linked by a shared area of meaning" },
+            { "left": "Alliteration", "right": "Repetition of the same consonant sound at the start of words" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A writer describes a character as \"scuttling\" across the room rather than \"walking\". Which set of connotations does \"scuttling\" most strongly carry?",
+          "hint": "Think about which creatures scuttle.",
+          "explanation": "'Scuttling' is associated with insects and crabs: quick, low, nervous movement. It makes the character seem small, furtive and possibly unpleasant.",
+          "options": [
+            { "text": "Quick, nervous, insect-like movement", "correct": true },
+            { "text": "Slow, dignified, graceful movement", "correct": false, "feedback": "That would suit 'gliding' or 'strolling'." },
+            { "text": "Heavy, powerful, confident movement", "correct": false, "feedback": "That would suit 'striding' or 'stomping'." },
+            { "text": "Tired, painful, reluctant movement", "correct": false, "feedback": "That would suit 'shuffling' or 'trudging'." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P5",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence about quotations.",
+          "metadata": { "blanksText": "In a language analysis answer, quotations should be ___ and precise, and you should ___ in on individual words to explain their connotations." },
+          "hint": "The first word is the opposite of 'long'. The second is what a camera does when it moves closer.",
+          "explanation": "Quotations should be short and precise. You should zoom in on individual words to explore their connotations.",
+          "answers": [
+            { "text": "short", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "zoom", "blankIndex": 1, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P6",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Which **two** of these phrases are 'empty comments' that examiners advise you to avoid?",
+          "hint": "Empty comments could be said about any piece of writing and do not explain anything specific.",
+          "explanation": "'Makes the reader want to read on' and 'paints a picture in the reader's mind' are generic and explain nothing. The other two options make a specific claim about a specific word.",
+          "options": [
+            { "text": "This makes the reader want to read on.", "correct": true },
+            { "text": "The verb \"clawed\" suggests the wind is violent and animal-like.", "correct": false, "feedback": "This is specific analysis, not an empty comment." },
+            { "text": "This paints a picture in the reader's mind.", "correct": true },
+            { "text": "\"Whispered\" implies secrecy, so the reader senses the character is hiding something.", "correct": false, "feedback": "This is specific analysis with a clear effect." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P7",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Read this sentence from a story.\n\n> The corridor swallowed the sound of her footsteps, and the strip lights buzzed overhead like something trapped.\n\n**Explain how the writer uses language to make the corridor seem threatening.** Refer to at least one technique and one specific word.",
+          "hint": "Look at the verb 'swallowed' (what does it make the corridor seem like?) and the simile 'like something trapped'.",
+          "explanation": "The verb 'swallowed' personifies the corridor as a mouth or creature that consumes sound, making it seem predatory and making the character seem small and alone. The simile 'like something trapped' turns the ordinary buzzing lights into a living, suffering thing, which suggests that anyone in this building might be trapped too. Both create an atmosphere of unease.",
+          "markScheme": [
+            {
+              "criterion": "Identifies a technique (personification / verb / simile) with a quotation",
+              "marks": 1,
+              "keywords": [ ["personif", "verb", "simile", "swallowed", "trapped"] ]
+            },
+            {
+              "criterion": "Explains what a specific word suggests (e.g. 'swallowed' implies the corridor is like a creature or mouth; 'trapped' implies suffering)",
+              "marks": 1,
+              "keywords": [ ["suggests", "implies", "creature", "mouth", "alive"] ]
+            },
+            {
+              "criterion": "Explains the threatening or unsettling effect on the reader",
+              "marks": 1,
+              "keywords": [ ["threat", "unsettl", "reader", "fear", "danger"] ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P8",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these actions in the order you should do them when you first see a Question 2.",
+          "hint": "You need to know what you are looking for before you read the lines, and you should choose quotations before writing.",
+          "explanation": "First read the question to find the focus and line numbers, then re-read only those lines with the focus in mind, then underline three or four short quotations, then write your points.",
+          "order": [
+            "Read the question and underline the focus and line numbers",
+            "Re-read only the given lines with the focus in mind",
+            "Underline three or four short, powerful quotations",
+            "Write three developed analytical points"
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P9",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A passage of long, flowing sentences ends with: \"Then nothing.\"\n\nWhat is the most likely effect of this sentence form?",
+          "hint": "Think about the contrast between the long sentences and the sudden two-word fragment.",
+          "explanation": "A minor sentence after long, flowing ones creates an abrupt stop. The sudden brevity mirrors the sudden silence or emptiness described, creating shock or finality.",
+          "options": [
+            { "text": "It creates an abrupt, shocking stop that mirrors the sudden emptiness", "correct": true },
+            { "text": "It speeds the passage up and makes it feel exciting", "correct": false, "feedback": "A single fragment after long sentences stops the flow rather than speeding it up." },
+            { "text": "It adds detailed description of the setting", "correct": false, "feedback": "Two words cannot add detail; the effect comes from what they leave out." },
+            { "text": "It shows the narrator is unreliable", "correct": false, "feedback": "Nothing here suggests unreliability." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "Look in detail at this extract.\n\n> Grandmother's kitchen was a furnace of kindness. Steam rolled off the pans and fogged the windows so that the garden outside became a green blur, and the radio muttered to itself on the shelf beside the flour. Her hands, knuckled and floury, never stopped: they pinched, patted, dusted and folded as if the dough were a small animal she was calming. The smell of cinnamon wrapped itself around Amir like a scarf. He had not felt warm, properly warm, in weeks.\n\n**How does the writer use language here to describe the kitchen and Grandmother?**\n\nYou could include the writer's choice of:\n- words and phrases\n- language features and techniques\n- sentence forms.\n\n[8 marks]",
+          "hint": "Consider the metaphor 'a furnace of kindness', the personified radio, the list of verbs for Grandmother's hands and the simile about the dough, the simile 'like a scarf', and the effect of the final short sentence with its repeated 'warm'.",
+          "explanation": "A strong answer would explore: the metaphor 'furnace of kindness', where 'furnace' suggests intense heat that could be dangerous, but paired with 'kindness' becomes overwhelming warmth and generosity; the personification of the radio that 'muttered to itself', which makes the kitchen feel companionable and lived-in; the list of verbs 'pinched, patted, dusted and folded', whose rhythm suggests constant, skilled, gentle work, reinforced by the simile of the dough as 'a small animal she was calming', which shows her tenderness; the simile 'like a scarf' turning smell into something physical that protects Amir; and the final short sentence with the repeated 'warm, properly warm', which reveals that Amir's need is emotional as well as physical, so the reader understands the kitchen as a refuge.",
+          "markScheme": [
+            {
+              "criterion": "Identifies a language technique accurately (metaphor, simile, personification, list of verbs, short sentence)",
+              "marks": 1,
+              "keywords": [ ["metaphor", "simile", "personif", "verb", "short sentence"] ]
+            },
+            {
+              "criterion": "Uses a relevant short quotation from the extract",
+              "marks": 1,
+              "keywords": [ ["furnace", "muttered", "pinched", "small animal", "scarf"] ]
+            },
+            {
+              "criterion": "Explains an effect on the reader using analytical language",
+              "marks": 1,
+              "keywords": [ ["reader", "suggests", "implies", "creates", "sense of"] ]
+            },
+            {
+              "criterion": "Analyses the metaphor 'furnace of kindness' (heat, intensity, overwhelming warmth)",
+              "marks": 1,
+              "keywords": [ ["furnace", "heat", "intense", "overwhelm", "kindness"] ]
+            },
+            {
+              "criterion": "Analyses the verbs or the simile describing Grandmother's hands as gentle, skilled or tender",
+              "marks": 1,
+              "keywords": [ ["gentle", "tender", "skill", "calm", "care"] ]
+            },
+            {
+              "criterion": "Zooms in on a single word and explores its connotations",
+              "marks": 1,
+              "keywords": [ ["connotation", "the word", "the verb", "the adjective", "the noun"] ]
+            },
+            {
+              "criterion": "Comments on sentence forms, e.g. the list or the final short sentence with repetition of 'warm'",
+              "marks": 1,
+              "keywords": [ ["sentence", "repetition", "list", "warm", "pace"] ]
+            },
+            {
+              "criterion": "Links language to the overall mood of safety, comfort or refuge",
+              "marks": 1,
+              "keywords": [ ["safe", "comfort", "refuge", "warmth", "welcom"] ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

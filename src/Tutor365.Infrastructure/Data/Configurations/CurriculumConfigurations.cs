@@ -159,6 +159,8 @@ public class QuestionAnswerConfig : IEntityTypeConfiguration<QuestionAnswer>
         b.ToTable("QuestionAnswers");
         b.Property(x => x.AnswerText).HasMaxLength(1000).IsRequired();
         b.Property(x => x.Unit).HasMaxLength(30);
+        b.Property(x => x.NumericValue).HasColumnType("decimal(28,10)");
+        b.Property(x => x.NumericTolerance).HasColumnType("decimal(28,10)");
         b.HasOne(x => x.Question).WithMany(q => q.AcceptedAnswers).HasForeignKey(x => x.QuestionId).OnDelete(DeleteBehavior.Cascade);
     }
 }

@@ -1,0 +1,67 @@
+{
+  "subTopicCode": "CHE-03-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-CHE-03-02-L1",
+      "title": "The mole and relative formula mass",
+      "summary": "Learn what a mole is, how to find relative formula mass, and how to convert between mass and moles.",
+      "objectives": [
+        "I can calculate the relative formula mass (Mr) of a compound from relative atomic masses.",
+        "I can explain what one mole of a substance is.",
+        "I can convert between mass, moles and Mr using moles = mass / Mr."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Relative formula mass", "minutes": 5, "content": "## Relative formula mass (Mr)\n\nEvery element has a **relative atomic mass (Ar)** shown on the periodic table. For example, Ar(H) = 1, Ar(O) = 16, Ar(C) = 12.\n\nThe **relative formula mass (Mr)** of a compound is the sum of the Ar values of all the atoms in its formula.\n\n**Method**\n1. Write down each element in the formula.\n2. Count how many atoms of each there are (watch out for brackets!).\n3. Multiply each count by its Ar and add them up.\n\nMr has **no units** because it is a ratio compared with carbon-12." },
+        { "type": "Example", "title": "Worked example: Mr of calcium hydroxide", "minutes": 4, "content": "**Find Mr of Ca(OH)₂.** (Ar: Ca = 40, O = 16, H = 1)\n\nThe bracket with a 2 means there are 2 OH groups: 2 oxygen atoms and 2 hydrogen atoms.\n\n| Element | Atoms | Ar | Total |\n|---|---|---|---|\n| Ca | 1 | 40 | 40 |\n| O | 2 | 16 | 32 |\n| H | 2 | 1 | 2 |\n\nMr = 40 + 32 + 2 = **74**" },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-CHE-03-02-L1-Q1", "type": "NumericalAnswer", "difficulty": 2, "marks": 1,
+          "text": "Calculate the relative formula mass of magnesium nitrate, Mg(NO₃)₂. (Ar: Mg = 24, N = 14, O = 16)",
+          "hint": "The bracket with a 2 doubles everything inside it: 2 nitrogen atoms and 6 oxygen atoms.",
+          "explanation": "Mg = 24. N: 2 × 14 = 28. O: 6 × 16 = 96. Total = 24 + 28 + 96 = 148.",
+          "answers": [ { "numeric": 148, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "What is a mole?", "minutes": 5, "content": "## The mole\n\nAtoms are far too small to count one by one, so chemists count them in a very large bundle called a **mole**.\n\nOne mole of any substance contains **6.02 × 10²³** particles. This number is the **Avogadro constant**.\n\nThe useful trick: **one mole of a substance has a mass in grams equal to its Ar or Mr.**\n\n- 1 mole of carbon atoms (Ar = 12) has a mass of 12 g.\n- 1 mole of water molecules (Mr = 18) has a mass of 18 g.\n\nSo the mole links the *mass* we can weigh to the *number of particles* we cannot see." },
+        { "type": "Example", "title": "Worked example: mass to moles", "minutes": 4, "content": "**How many moles are in 11 g of carbon dioxide, CO₂?** (Ar: C = 12, O = 16)\n\n1. Mr of CO₂ = 12 + (2 × 16) = 44\n2. moles = mass ÷ Mr = 11 ÷ 44 = **0.25 mol**\n\n**Now the other way: what is the mass of 3 moles of water, H₂O?**\n\n1. Mr of H₂O = (2 × 1) + 16 = 18\n2. mass = moles × Mr = 3 × 18 = **54 g**\n\nRemember the triangle: mass on top, moles and Mr underneath." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-CHE-03-02-L1-Q2", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "Which equation correctly links mass, moles and relative formula mass?",
+          "hint": "One mole has a mass equal to the Mr in grams, so mass grows with both moles and Mr.",
+          "explanation": "mass = moles × Mr. Rearranged: moles = mass ÷ Mr.",
+          "options": [
+            { "text": "mass = moles × Mr", "correct": true },
+            { "text": "mass = moles ÷ Mr", "correct": false, "feedback": "Dividing would make heavier substances lighter. Try again." },
+            { "text": "moles = mass × Mr", "correct": false },
+            { "text": "Mr = mass × moles", "correct": false } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-CHE-03-02-L1-Q3", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
+          "text": "Calculate the number of moles in 8.0 g of sodium hydroxide, NaOH. (Ar: Na = 23, O = 16, H = 1). Give your answer to 2 decimal places.",
+          "hint": "First find Mr of NaOH, then divide the mass by it.",
+          "explanation": "Mr = 23 + 16 + 1 = 40. moles = 8.0 ÷ 40 = 0.20 mol.",
+          "answers": [ { "numeric": 0.2, "tolerance": 0.005, "unit": "mol", "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Brackets**: in Ca(OH)₂ the subscript 2 applies to *both* O and H.\n- **Units**: mass must be in **grams**. Convert kg to g first (× 1000).\n- **Rounding**: keep full values in your calculator until the final step.\n- **Ar vs Mr**: use Ar for single elements (e.g. Mg), Mr for compounds (e.g. MgO)." },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-CHE-03-02-L1-Q4", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true,
+          "text": "A student says: \"One mole of any substance always has the same mass.\" Explain why the student is wrong.",
+          "hint": "Think about what the mass of one mole depends on.",
+          "explanation": "One mole always contains the same *number* of particles (6.02 × 10²³), but the *mass* depends on the Mr of the substance, so different substances have different molar masses.",
+          "markScheme": [
+            { "criterion": "States that one mole contains the same number of particles / 6.02 × 10²³ particles", "marks": 1, "keywords": [ ["same number", "6.02", "avogadro", "number of particles", "number of atoms", "number of molecules"] ] },
+            { "criterion": "Explains that the mass of one mole depends on the relative formula/atomic mass, which differs between substances", "marks": 1, "keywords": [ ["mr", "relative formula mass", "relative atomic mass", "ar", "molar mass", "different mass", "depends on the mass"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Mr** = sum of all Ar values in the formula (no units).\n- **1 mole** = 6.02 × 10²³ particles; its mass in grams = Ar or Mr.\n- **moles = mass ÷ Mr**, **mass = moles × Mr**.\n- Check brackets and convert masses to grams." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-CHE-03-02-L1-P1", "type": "NumericalAnswer", "difficulty": 2, "marks": 1, "text": "Calculate the Mr of sulfuric acid, H₂SO₄. (Ar: H = 1, S = 32, O = 16)", "hint": "2 hydrogens, 1 sulfur, 4 oxygens.", "explanation": "2 + 32 + 64 = 98.", "answers": [ { "numeric": 98, "tolerance": 0 } ] },
+        { "key": "AQA-CHE-03-02-L1-P2", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "What is the mass of 0.5 moles of calcium carbonate, CaCO₃? (Ar: Ca = 40, C = 12, O = 16)", "hint": "Find Mr first, then multiply by the number of moles.", "explanation": "Mr = 40 + 12 + 48 = 100. mass = 0.5 × 100 = 50 g.", "answers": [ { "numeric": 50, "tolerance": 0, "unit": "g", "marks": 2 } ] },
+        { "key": "AQA-CHE-03-02-L1-P3", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: relative formula mass is measured in grams.", "hint": "Mr is a comparison with carbon-12.", "explanation": "False. Mr is a ratio and has no units. The mass of one mole is measured in grams.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-CHE-03-02-L1-P4", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "How many moles of atoms are in 2.4 g of magnesium? (Ar: Mg = 24)", "hint": "moles = mass ÷ Ar.", "explanation": "2.4 ÷ 24 = 0.1 mol.", "options": [ { "text": "0.1 mol", "correct": true }, { "text": "1 mol", "correct": false }, { "text": "10 mol", "correct": false }, { "text": "0.01 mol", "correct": false } ] },
+        { "key": "AQA-CHE-03-02-L1-P5", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentence.", "metadata": { "blanksText": "One mole of a substance contains ___ × 10²³ particles, and this number is called the ___ constant." }, "hint": "The number starts with 6.", "explanation": "6.02 × 10²³ is the Avogadro constant.", "answers": [ { "text": "6.02", "blankIndex": 0, "marks": 1 }, { "text": "Avogadro", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-CHE-03-02-L1-P6", "type": "Ordering", "difficulty": 2, "marks": 1, "text": "Put the steps in the correct order to find the number of moles in 20 g of a compound.", "hint": "You need Mr before you can divide.", "explanation": "Write the formula, work out Mr, then divide mass by Mr.", "order": [ "Write down the chemical formula", "Add up the Ar values to find Mr", "Divide the mass in grams by Mr" ] },
+        { "key": "AQA-CHE-03-02-L1-P7", "type": "Matching", "difficulty": 3, "marks": 3, "text": "Match each compound to its relative formula mass. (Ar: H = 1, C = 12, N = 14, O = 16, Na = 23, Cl = 35.5)", "hint": "Count every atom, including those inside brackets.", "explanation": "NaCl = 58.5; NH₃ = 17; CH₄ = 16.", "pairs": [ { "left": "NaCl", "right": "58.5" }, { "left": "NH₃", "right": "17" }, { "left": "CH₄", "right": "16" } ] },
+        { "key": "AQA-CHE-03-02-L1-P8", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "A student heats 4.8 g of magnesium in air. Magnesium reacts with oxygen to form magnesium oxide, MgO.\n\n(a) Calculate the number of moles of magnesium used. (Ar: Mg = 24)\n\n(b) Using the equation 2Mg + O₂ → 2MgO, state the number of moles of MgO formed and calculate its mass. (Mr of MgO = 40)", "hint": "Moles of Mg = 4.8 ÷ 24. The equation shows 2 Mg make 2 MgO, so the moles are the same.", "explanation": "(a) 4.8 ÷ 24 = 0.2 mol. (b) 0.2 mol of MgO; mass = 0.2 × 40 = 8.0 g.", "markScheme": [ { "criterion": "Moles of Mg = 0.2 mol", "marks": 1, "keywords": [ ["0.2", "0.20"] ] }, { "criterion": "Moles of MgO = 0.2 mol (same ratio 2:2)", "marks": 1, "keywords": [ ["same", "0.2", "1:1", "2:2", "equal"] ] }, { "criterion": "Mass of MgO = 8 g", "marks": 1, "keywords": [ ["8 g", "8.0", "8g", "= 8"] ] } ] }
+      ]
+    }
+  ]
+}

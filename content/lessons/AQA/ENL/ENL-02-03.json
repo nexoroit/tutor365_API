@@ -1,0 +1,441 @@
+{
+  "subTopicCode": "ENL-02-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-02-03-L1",
+      "title": "Planning, structuring, openings and endings",
+      "summary": "Learn how to plan a piece of creative writing in five minutes, organise it into well-shaped paragraphs, and write openings and endings that work together to impress the examiner.",
+      "objectives": [
+        "I can produce a quick five-box plan for a description or a story, deciding the ending first.",
+        "I can decide when to start a new paragraph and vary paragraph length for effect.",
+        "I can write an opening that hooks the reader using one of several reliable techniques.",
+        "I can write an ending that links back to the opening and feels complete."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Why five minutes of planning wins marks",
+          "minutes": 4,
+          "content": "## Organisation is half of AO5\n\nThe 24 AO5 marks for Question 5 reward **content** (ideas, vocabulary, techniques) *and* **organisation** (structure, paragraphs, links between them). Examiners can tell within a paragraph whether a piece has been planned: planned writing has a shape, moves purposefully, and ends on purpose rather than because time ran out.\n\n## The five-box plan\n\nDraw five small boxes and give each one a job. It takes five minutes and saves you from the two disasters of exam writing: **wandering** and **running out of time**.\n\n**For a description:**\n\n| Box | Job |\n|---|---|\n| 1 | Wide opening shot: place, time, weather, mood |\n| 2 | Zoom in on one detail or person |\n| 3 | Shift: a new sense, a new part of the scene, or a small event |\n| 4 | Zoom in again on a second detail, contrasting with box 2 |\n| 5 | Ending: time or light changes; return to the opening image |\n\n**For a story:**\n\n| Box | Job |\n|---|---|\n| 1 | Hook: begin in the middle of something |\n| 2 | Build: character, place, what they want |\n| 3 | Turning point |\n| 4 | Climax, slowed down |\n| 5 | Resolution linking back to box 1 |\n\n**Decide box 5 first.** Once you know your final image, every earlier box can prepare for it, and the examiner will feel the whole piece has been designed."
+        },
+        {
+          "type": "Example",
+          "title": "Two plans in five minutes",
+          "minutes": 4,
+          "content": "**Task A: Write a description of a harbour at dawn.**\n\n1. *Wide*: grey light, boats tied in rows, gulls not yet awake, smell of diesel and salt.\n2. *Zoom*: one small red boat, rope creaking, a name half worn off.\n3. *Shift*: first sound: a van reversing, a man with a flask. Light warms from grey to gold.\n4. *Zoom*: the man's hands untying a knot, blue with cold. He does not hurry.\n5. *Ending*: sun clears the wall; the red boat is the first out; the harbour is ordinary again.\n\n**Task B: Write a story with the title 'The Last Day'.**\n\n1. *Hook*: Grandad hands me the shop keys and says, \"Don't lose them,\" though the shop closes tonight.\n2. *Build*: the empty shelves, the bell above the door, thirty years of serving the same people.\n3. *Turning point*: a woman comes in wanting the thing we've never stocked; Grandad goes to the back.\n4. *Climax*: he returns with a dusty box he has been saving for her since 1998.\n5. *Ending*: I lock the door. The keys are heavier than they were this morning.\n\nNotice that both plans are written in **fragments**, not sentences. A plan is a map, not a draft. Both also **decide the last line first**, and both have a **change** between opening and ending: grey to gold, light keys to heavy ones."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: what makes a plan useful?",
+          "question": {
+            "key": "AQA-ENL-02-03-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "Which of these is the most useful feature of an exam writing plan?",
+            "hint": "A plan should give the piece a shape and destination, quickly.",
+            "explanation": "A plan that fixes the ending and the shape of each paragraph gives the piece a direction. Full sentences waste time; a long word list is not a structure; writing without a plan is how pieces wander.",
+            "options": [
+              { "text": "It decides the ending and the job of each paragraph in a few words", "correct": true },
+              { "text": "It is written in full sentences so it can be copied into the answer", "correct": false, "feedback": "That wastes writing time; a plan is a map, not a draft." },
+              { "text": "It lists twenty impressive words to include", "correct": false, "feedback": "Vocabulary lists do not give the piece a structure." },
+              { "text": "It is skipped so that there is more time to write", "correct": false, "feedback": "Unplanned pieces wander and run out of time." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Paragraphs: when to break and how long to make them",
+          "minutes": 5,
+          "content": "## Start a new paragraph when something changes\n\nRemember **TiPToP**:\n\n- **Ti**me: *An hour later... / By dusk...*\n- **P**lace: the focus moves to a new location or a new part of the scene\n- **To**pic: a new idea, a new sense, a new mood\n- **P**erson: a new character appears, or a new speaker in dialogue\n\nA piece with no paragraphs, or one giant paragraph, loses organisation marks immediately, however good the sentences are.\n\n## Vary the length\n\nParagraph length is a structural tool:\n\n- **Long paragraphs** slow the reader down, suit description and build-up.\n- **Short paragraphs** speed things up and suit action or a sudden change.\n- **A one-sentence paragraph** is a spotlight. Used once or twice, it lands with real force: *The keys were heavier now.* Used every other line, it loses all effect.\n\n## Link paragraphs so the piece flows\n\nThe examiner looks for **cohesion**: a sense that each paragraph grows out of the last. Useful links:\n\n- **Time markers**: *By seven... / When the light finally came...*\n- **Camera moves**: *Closer, at the water's edge... / Beyond the wall...*\n- **A repeated image** that reappears changed: the red boat, the keys.\n- **A contrast**: *Inside, it was another world.*\n\nAim for **five to seven paragraphs** in 45 minutes. That is enough to show shape without spreading yourself thin."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: TiPToP",
+          "question": {
+            "key": "AQA-ENL-02-03-L1-Q2",
+            "type": "FillInTheBlank",
+            "difficulty": 1,
+            "marks": 4,
+            "text": "Complete the four reasons to start a new paragraph (TiPToP).",
+            "metadata": { "blanksText": "Start a new paragraph when there is a change of ___, a change of ___, a change of ___, or a new ___ (including a new speaker)." },
+            "hint": "Ti, P, To, P: when, where, what, who.",
+            "explanation": "Time, place, topic, person. A new speaker in dialogue always needs a new paragraph.",
+            "answers": [
+              { "text": "time", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+              { "text": "place", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+              { "text": "topic", "blankIndex": 2, "marks": 1, "caseSensitive": false },
+              { "text": "person", "blankIndex": 3, "marks": 1, "caseSensitive": false }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Openings that hook",
+          "minutes": 4,
+          "content": "## Five reliable ways to begin\n\nYou have one paragraph to convince the examiner you can write. These openings all work:\n\n1. **In the action**: something is already happening. *The rope went slack in my hands.*\n2. **Dialogue**: a line of speech that raises a question. *\"You were supposed to burn it,\" she said.*\n3. **Setting and atmosphere**: a precise, sensory shot of the place. *Fog lay on the harbour like a lid on a pan.*\n4. **An object**: a small thing that will matter. *The key had been in the biscuit tin for as long as anyone could remember.*\n5. **A striking statement**: a short, surprising sentence. *Nobody in our street had ever seen the sea.*\n\n## What to avoid\n\n- **Waking up.** *I woke up and looked at my clock.* Examiners have read it ten thousand times.\n- **Announcing**: *This story is about...*\n- **Weather-only openings** with no focus: *It was a dark and stormy night.*\n- **Explaining everything**: names, ages, family history in the first paragraph. Hold information back; let the reader work.\n\n## The first sentence and the last sentence are a pair\n\nWhile you plan, write your first and last sentences side by side. If the first mentions the fog and the last shows the fog lifting, the piece will feel designed. This single trick lifts more pieces into the top bands than any amount of fancy vocabulary."
+        },
+        {
+          "type": "Example",
+          "title": "Three openings for the same task",
+          "minutes": 4,
+          "content": "**Task: Write a story about being lost.**\n\n**Opening 1 (weak):**\n\n> One day I went on a school trip to a big city. My name is Alex and I am fourteen. It was quite a sunny day and we were all excited. Then I got lost.\n\n*Problems:* routine, tells us everything at once, no sensory detail, the interesting part (getting lost) is thrown away in four words.\n\n**Opening 2 (in the action):**\n\n> By the time Alex looked up from his phone, the yellow rucksacks had gone. Every direction was the same wall of coats and shopping bags, and the voice on the tannoy was saying something in a language that sounded like it was being played backwards.\n\n*Why it works:* starts at the moment of loss, uses a precise detail (yellow rucksacks), shows panic through what Alex sees and hears, withholds the rest.\n\n**Opening 3 (object / striking statement):**\n\n> The map had been printed the wrong way round. Alex worked this out approximately forty minutes too late.\n\n*Why it works:* two short sentences, a hint of humour, a question the reader wants answered.\n\nEither of the strong openings could end with the same image: the yellow rucksacks appearing at the end of a corridor, or the map folded into Alex's pocket, finally the right way up."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: name the opening technique",
+          "question": {
+            "key": "AQA-ENL-02-03-L1-Q3",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each opening line to the technique it uses.",
+            "hint": "Is something happening, is someone speaking, is a place being shown, or is a small thing being introduced?",
+            "explanation": "'The rope went slack' is action; the quoted line is dialogue; the fog sentence is setting and atmosphere; the key in the tin introduces an object.",
+            "pairs": [
+              { "left": "The rope went slack in my hands.", "right": "In the action" },
+              { "left": "\"You were supposed to burn it,\" she said.", "right": "Dialogue" },
+              { "left": "Fog lay on the harbour like a lid on a pan.", "right": "Setting and atmosphere" },
+              { "left": "The key had been in the biscuit tin for years.", "right": "An object" }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Endings that feel finished",
+          "minutes": 4,
+          "content": "## Four endings that work\n\n1. **Cyclical**: return to the opening image, changed. The fog lifts. The keys are heavy. The rucksacks reappear.\n2. **Zoom out**: pull the camera back from the close detail to the wide view, so the reader sees the scene whole. *Behind him, the harbour got on with its day.*\n3. **Quiet action**: a small physical act that shows the change without stating it. *She put the photograph back, face up this time.*\n4. **Reflective line**: one short sentence that steps back, without preaching. *Some things you only find by losing them.* Use with care; one line, not a paragraph of moral.\n\n## Endings that fail\n\n- **A dream**, **a death** narrated by the dead, **\"to be continued\"**, or an explosion out of nowhere.\n- **A summary**: *After that, everything went back to normal.*\n- **Stopping mid-scene** because time ran out.\n\n## If you are running out of time\n\nDo not rush the last paragraph into a summary. Instead:\n\n1. Finish the sentence you are on.\n2. Start a new paragraph.\n3. Write your planned final image in two or three sentences.\n\nA planned ending written in ninety seconds still reads as designed. That is why box 5 is decided first."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: order the description",
+          "question": {
+            "key": "AQA-ENL-02-03-L1-Q4",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "A student has planned a description of a harbour at dawn. Put the paragraph plans in the most effective structural order.",
+            "hint": "Wide shot, zoom, shift, second zoom, ending that returns to the opening with a change.",
+            "explanation": "Begin wide, narrow to one detail, introduce a shift, zoom to a contrasting detail, and end by returning to the wide view with the light changed.",
+            "order": [
+              "Wide shot: grey light over rows of tied boats, gulls silent",
+              "Zoom in on one small red boat, rope creaking, name half worn off",
+              "Shift: a van reverses; a man with a flask; light turns from grey to gold",
+              "Zoom in on the man's cold hands untying a knot without hurrying",
+              "Ending: sun clears the wall; the red boat leads out; the harbour is ordinary again"
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: strong endings",
+          "question": {
+            "key": "AQA-ENL-02-03-L1-Q5",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Which **two** of these are effective ways to end a piece of creative writing?",
+            "hint": "Effective endings show change or return to the opening; weak ones summarise or cancel the story.",
+            "explanation": "Returning to the opening image with a change (cyclical) and closing on a small action that shows change are both strong. A summary sentence and a dream both weaken the piece.",
+            "options": [
+              { "text": "Return to the opening image, now changed in some way", "correct": true },
+              { "text": "Finish with a small physical action that shows what has changed", "correct": true },
+              { "text": "Write a sentence summarising that everything turned out fine", "correct": false, "feedback": "Summaries feel rushed and tell rather than show." },
+              { "text": "Reveal that the whole thing was a dream", "correct": false, "feedback": "This cancels everything the reader has invested." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: plan in five boxes",
+          "question": {
+            "key": "AQA-ENL-02-03-L1-Q6",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "**Write a five-box plan** for the task: *Write a description of a school corridor at the end of the last day of term.*\n\nWrite one line for each box (wide opening, zoom, shift, second zoom, ending). Make sure your ending returns to your opening image with a change.",
+            "hint": "Wide: noise, lockers, light. Zoom: one dropped exercise book, one poster peeling. Shift: the final bell, the rush, then silence. Second zoom: a caretaker, a single locker still open. Ending: the same corridor, now empty and quiet, the light changed.",
+            "explanation": "A good plan: 1 Wide: corridor packed with bags and shouting, sun striping the floor through the tall windows. 2 Zoom: a locker door hanging open, a photo still taped inside. 3 Shift: the bell; a surge of bodies; doors banging; then a silence that rings. 4 Zoom: the caretaker's broom pushing a single glitter-covered card along the tiles. 5 Ending: the same stripes of sun across an empty floor; the open locker; summer beginning outside.",
+            "markScheme": [
+              {
+                "criterion": "Opens with a wide shot establishing the corridor (noise, crowd, light, lockers)",
+                "marks": 1,
+                "keywords": [ ["corridor", "locker", "noise", "crowd", "light"] ]
+              },
+              {
+                "criterion": "Includes a zoom onto one precise detail (a locker, a poster, a book, a card)",
+                "marks": 1,
+                "keywords": [ ["zoom", "one ", "single", "poster", "book"] ]
+              },
+              {
+                "criterion": "Includes a shift (the bell, the rush, silence, a new person)",
+                "marks": 1,
+                "keywords": [ ["bell", "rush", "silen", "empt", "caretaker"] ]
+              },
+              {
+                "criterion": "Ends by returning to the opening image with a change (empty, quiet, light altered)",
+                "marks": 1,
+                "keywords": [ ["same", "again", "now", "empty", "quiet"] ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style checkpoint: opening and ending",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-02-03-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 6,
+            "examStyle": true,
+            "text": "**Task: Write a story about a promise that was hard to keep.**\n\nWrite the **opening paragraph** and the **final paragraph** of this story (around 80 to 120 words each). Leave a line between them.\n\nYour opening should:\n- hook the reader using action, dialogue, setting or an object (not waking up);\n- include one precise sensory detail;\n- withhold some information so the reader has a question.\n\nYour ending should:\n- return to an image, object or line from your opening, now changed;\n- show the change through a small action rather than a summary;\n- finish on a short, deliberate final sentence.\n\n*(In the exam this task would be worth 40 marks. Here the opening and ending are checked against six key features.)*",
+            "hint": "Decide the ending first. If your opening has a photograph, a letter, a stopped clock or a spoken promise, let the ending show the same thing changed: the letter posted, the clock wound, the promise spoken again in a different voice.",
+            "explanation": "A strong response might open: 'Promise me,' Nan had said, and I had, because her hand was cold and I was nine and it seemed to cost nothing. The jar on her windowsill held eleven years of two-pence coins. It might end: I tipped the last of the coins into the machine at the pier and watched the little crane swing, miss, swing again and close on the plastic ring she had wanted since 1974. The jar went back on the windowsill, empty. Promise kept. The ending returns to the jar and the promise, shows the change through action, and closes on a two-word sentence.",
+            "markScheme": [
+              {
+                "criterion": "Opening hooks with action, dialogue, setting or an object rather than a routine start",
+                "marks": 1,
+                "keywords": [ ["\"", "the ", "had ", "was ", "said"] ]
+              },
+              {
+                "criterion": "Opening includes a precise sensory detail (touch, sound, smell, light)",
+                "marks": 1,
+                "keywords": [ ["cold", "smell", "light", "sound", "warm"] ]
+              },
+              {
+                "criterion": "Opening introduces the promise or the person it was made to",
+                "marks": 1,
+                "keywords": [ ["promise", "swore", "said", "nan", "mum"] ]
+              },
+              {
+                "criterion": "Ending returns to an image, object or line from the opening",
+                "marks": 1,
+                "keywords": [ ["again", "same", "back", "still", "now"] ]
+              },
+              {
+                "criterion": "Ending shows change through a small action rather than summarising",
+                "marks": 1,
+                "keywords": [ ["put", "placed", "closed", "opened", "held"] ]
+              },
+              {
+                "criterion": "Ending finishes on a short, deliberate final sentence",
+                "marks": 1,
+                "keywords": [ ["kept", "done", "finally", "at last", "home"] ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Spend **five minutes** on a **five-box plan**; decide the **ending first**.\n- New paragraph for a change of **Time, Place, Topic or Person** (TiPToP); vary paragraph length; use a **one-sentence paragraph** once or twice for impact.\n- Link paragraphs with **time markers, camera moves, repeated images or contrasts**.\n- Open **in the action, with dialogue, a setting, an object or a striking statement**; never with waking up.\n- End **cyclically, with a zoom out, a quiet action or one reflective line**; never with a dream or a summary.\n- Write the **first and last sentences as a pair**."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-02-03-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: a one-sentence paragraph can be an effective structural device if used once or twice in a piece.",
+          "hint": "Think about the effect of a spotlight, and what happens if you use it constantly.",
+          "explanation": "True. A single-sentence paragraph isolates a moment and gives it force. Overused, it loses its effect.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which opening should you avoid in an exam story?",
+          "hint": "Examiners see one of these thousands of times each year.",
+          "explanation": "'I woke up and looked at my alarm clock' is the classic routine opening. The others begin with an object, a striking statement and a line of dialogue.",
+          "options": [
+            { "text": "I woke up and looked at my alarm clock.", "correct": true },
+            { "text": "The envelope had been opened and resealed.", "correct": false },
+            { "text": "Nobody in our street had ever seen the sea.", "correct": false },
+            { "text": "\"Don't lose them,\" Grandad said, handing me the keys.", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P3",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each ending type to an example.",
+          "hint": "Cyclical returns to the opening; zoom out widens the view; quiet action shows change; a reflective line steps back.",
+          "explanation": "The fog lifting returns to an opening image (cyclical). The harbour getting on with its day widens the view (zoom out). Putting the photograph back face up is a quiet action. 'Some things you only find by losing them' is a reflective line.",
+          "pairs": [
+            { "left": "Cyclical", "right": "The fog that opened the piece finally lifts" },
+            { "left": "Zoom out", "right": "Behind him, the harbour got on with its day" },
+            { "left": "Quiet action", "right": "She put the photograph back, face up this time" },
+            { "left": "Reflective line", "right": "Some things you only find by losing them" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P4",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the advice.",
+          "metadata": { "blanksText": "When planning, decide your ___ first so that every paragraph can prepare for it, and write your first and last ___ as a pair." },
+          "hint": "The first is the part of the piece that comes last; the second is the smallest unit of writing.",
+          "explanation": "Decide the ending first, and write the first and last sentences as a pair.",
+          "answers": [
+            { "text": "ending", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "sentences", "blankIndex": 1, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P5",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these are good ways to link one paragraph to the next?",
+          "hint": "Links create cohesion: time, camera movement, and repeated images all work.",
+          "explanation": "Time markers, camera moves and repeated images all create cohesion. Starting every paragraph with 'Then' is repetitive and mechanical.",
+          "options": [
+            { "text": "A time marker such as 'By dusk...'", "correct": true },
+            { "text": "A camera move such as 'Closer, at the water's edge...'", "correct": true },
+            { "text": "A repeated image that reappears changed", "correct": true },
+            { "text": "Starting every paragraph with 'Then'", "correct": false, "feedback": "This is repetitive and shows no control." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P6",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A student has three minutes left and has not written the ending. Put the steps in the best order.",
+          "hint": "Do not rush into a summary; finish cleanly, then deliver the planned final image.",
+          "explanation": "Finish the current sentence, start a new paragraph, write the planned final image in two or three sentences, then use any remaining seconds to check the last paragraph's punctuation.",
+          "order": [
+            "Finish the sentence you are writing",
+            "Start a new paragraph",
+            "Write the planned final image in two or three sentences",
+            "Check the final paragraph for full stops and capital letters"
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P7",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A student's description of a beach has six paragraphs, each of exactly the same length, each beginning 'I could see...'. What is the main organisational weakness?",
+          "hint": "Think about variety and cohesion.",
+          "explanation": "Uniform paragraph length and identical openings show no structural control. Varying length and linking paragraphs with time markers, camera moves or repeated images would improve cohesion.",
+          "options": [
+            { "text": "The paragraphs lack variety in length and are not linked or varied in their openings", "correct": true },
+            { "text": "There are too many paragraphs for a description", "correct": false, "feedback": "Six paragraphs is a sensible number." },
+            { "text": "Descriptions should not use the first person", "correct": false, "feedback": "First person is acceptable in description." },
+            { "text": "The student should have used more adjectives", "correct": false, "feedback": "This is a vocabulary point, not an organisational one." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P8",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "**Write an opening of two or three sentences** for a story called *'The Visitor'*. Use dialogue or an object as your hook, include one precise sensory detail, and withhold who the visitor is.",
+          "hint": "Let a character react to the visitor before we see them, or open with the object they leave on the step.",
+          "explanation": "For example: 'The boots on the doormat were not ours. They were caked to the ankle in red mud, though it had not rained for a month, and Mum was standing in the kitchen doorway with the phone pressed flat against her chest.' The hook is an object, the mud is a precise detail, and the visitor is never named.",
+          "markScheme": [
+            {
+              "criterion": "Hooks with dialogue or an object rather than a routine start",
+              "marks": 1,
+              "keywords": [ ["\"", "the ", "on the", "was", "were"] ]
+            },
+            {
+              "criterion": "Includes a precise sensory detail (mud, sound, smell, cold, light)",
+              "marks": 1,
+              "keywords": [ ["mud", "smell", "cold", "knock", "light"] ]
+            },
+            {
+              "criterion": "Withholds the visitor's identity so the reader has a question",
+              "marks": 1,
+              "keywords": [ ["not ours", "someone", "who", "stranger", "nobody"] ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P9",
+          "type": "LongAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Here is the opening sentence of a story:\n\n> *The clock on the landing had stopped at ten past four, and nobody in the house could remember when.*\n\n**Write a final paragraph (three or four sentences) that returns to the clock, shows a change through a small action, and ends on a short sentence.**",
+          "hint": "What does someone do to the clock at the end? Wind it, take it down, set it going? Let that action carry the meaning.",
+          "explanation": "For example: 'On the way up to bed, Dad stopped on the landing. He opened the little glass door, moved the hands to nine, and wound the key until it would not turn any further. Behind him, for the first time in years, the house began to tick. It was time.' The clock returns, the winding shows change, and the last sentence is short.",
+          "markScheme": [
+            {
+              "criterion": "Returns to the clock from the opening",
+              "marks": 1,
+              "keywords": [ ["clock", "hands", "tick", "landing", "ten past"] ]
+            },
+            {
+              "criterion": "Shows change through a small physical action (winding, setting, taking down)",
+              "marks": 1,
+              "keywords": [ ["wound", "wind", "set", "moved", "took"] ]
+            },
+            {
+              "criterion": "Ends on a short final sentence",
+              "marks": 1,
+              "keywords": [ ["time.", "again.", "ticking.", "now.", "still."] ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "**Write a description of a busy market as it closes for the day.**\n\nWrite a **five-box plan** (one line per box) and then the **first two paragraphs** (around 150 to 200 words in total). Your plan should decide the ending first; your two paragraphs should open wide and then zoom in, using a time marker or camera move to link them.\n\n*(In the exam this task would be worth 40 marks. Here it is checked against six key features.)*",
+          "hint": "Wide: the noise, the last shoppers, the light lowering. Zoom: one stall, one trader, one object left unsold. Decide your final image first: the empty square, a single dropped orange, the shutters down.",
+          "explanation": "A strong response gives a plan with a clear ending (e.g. the square empty, one orange rolling into the gutter), then opens with a wide shot full of sound and lowering light, and uses a link such as 'Nearer the fish stall...' or 'By half past five...' to zoom in on one trader packing up. The paragraphs are clearly separated, sensory, and move in a controlled way.",
+          "markScheme": [
+            {
+              "criterion": "Provides a five-part plan with a decided ending image",
+              "marks": 1,
+              "keywords": [ ["ending", "5", "five", "end:", "last"] ]
+            },
+            {
+              "criterion": "First paragraph opens wide on the market with sound or crowd detail",
+              "marks": 1,
+              "keywords": [ ["shout", "voice", "crowd", "noise", "call"] ]
+            },
+            {
+              "criterion": "Includes detail of time or light changing as the market closes",
+              "marks": 1,
+              "keywords": [ ["light", "dusk", "evening", "shadow", "late"] ]
+            },
+            {
+              "criterion": "Second paragraph zooms in on one stall, trader or object",
+              "marks": 1,
+              "keywords": [ ["stall", "trader", "one ", "single", "crate"] ]
+            },
+            {
+              "criterion": "Uses a time marker or camera move to link the two paragraphs",
+              "marks": 1,
+              "keywords": [ ["by ", "nearer", "closer", "beyond", "later"] ]
+            },
+            {
+              "criterion": "Includes a sense other than sight (smell, touch, taste, sound)",
+              "marks": 1,
+              "keywords": [ ["smell", "cold", "warm", "sweet", "damp"] ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

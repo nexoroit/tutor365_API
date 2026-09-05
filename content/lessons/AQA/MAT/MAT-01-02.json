@@ -1,0 +1,99 @@
+{
+  "subTopicCode": "MAT-01-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-01-02-L1",
+      "title": "Factors, multiples and primes",
+      "summary": "Find factors, multiples and prime numbers, write any number as a product of its prime factors, and use prime factorisation to find the highest common factor and lowest common multiple.",
+      "objectives": [
+        "I can list the factors and multiples of a number and identify prime numbers.",
+        "I can write a number as a product of prime factors using a factor tree and index notation.",
+        "I can find the highest common factor (HCF) and lowest common multiple (LCM) of two numbers.",
+        "I can solve worded problems that involve HCF or LCM."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 2,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Factors, multiples and primes", "minutes": 4, "content": "## Factors\n\nA **factor** of a number divides into it exactly, with no remainder. Factors come in pairs, which makes them easy to list systematically:\n\nFactors of 36: $1 \\times 36,\\ 2 \\times 18,\\ 3 \\times 12,\\ 4 \\times 9,\\ 6 \\times 6$\n\nSo the factors of 36 are **1, 2, 3, 4, 6, 9, 12, 18, 36** (nine factors, because 6 pairs with itself).\n\n## Multiples\n\nA **multiple** of a number is what you get when you multiply it by a whole number. The multiples of 7 are 7, 14, 21, 28, 35, ... and they go on for ever.\n\n## Primes\n\nA **prime number** has exactly **two** factors: 1 and itself.\n\nThe primes below 30 are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.\n\nThree things students often forget:\n\n- **1 is not prime** (it only has one factor).\n- **2 is the only even prime.**\n- To test whether a number is prime, try dividing by the primes 2, 3, 5, 7, ... up to its square root. For example, 91 = 7 × 13, so 91 is *not* prime." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-02-L1-Q1", "type": "MultipleAnswer", "difficulty": 1, "marks": 2,
+          "text": "Select **all** the prime numbers in this list.",
+          "hint": "A prime has exactly two factors. Try dividing each number by 2, 3, 5 and 7.",
+          "explanation": "41 and 53 are prime. 1 has only one factor, 51 = 3 × 17 and 87 = 3 × 29.",
+          "options": [
+            { "text": "41", "correct": true },
+            { "text": "51", "correct": false, "feedback": "51 = 3 × 17, so it is not prime." },
+            { "text": "1", "correct": false, "feedback": "1 has only one factor, so it is not prime." },
+            { "text": "53", "correct": true },
+            { "text": "87", "correct": false, "feedback": "The digits add to 15, so 87 is divisible by 3." } ] } },
+        { "type": "Explanation", "title": "Prime factorisation", "minutes": 4, "content": "## Writing a number as a product of primes\n\nEvery whole number bigger than 1 can be written as a **product of prime factors** in exactly one way. A **factor tree** is the easiest way to find it.\n\n**Method**\n\n1. Split the number into any two factors.\n2. Circle any factor that is prime; keep splitting the others.\n3. Stop when every branch ends in a prime.\n4. Write the primes as a product, using **index notation** for repeats.\n\n```\n        84\n       /  \\\n      4    21\n     / \\   / \\\n    2   2 3   7\n```\n\nSo $84 = 2 \\times 2 \\times 3 \\times 7 = 2^2 \\times 3 \\times 7$.\n\nIt does not matter which pair you start with. Splitting 84 as 12 × 7 or 6 × 14 gives exactly the same primes at the end.\n\n**Check your answer** by multiplying back: $4 \\times 3 \\times 7 = 84$. ✓\n\nWrite the primes in ascending order and always use powers for repeated primes; examiners expect $2^3 \\times 5^2$, not $2 \\times 2 \\times 2 \\times 5 \\times 5$." },
+        { "type": "Example", "title": "Worked example: prime factorisation of 360", "minutes": 3, "content": "**Question:** Write 360 as a product of its prime factors in index form.\n\n```\n          360\n         /   \\\n       10     36\n      /  \\   /  \\\n     2    5 6    6\n           / \\  / \\\n          2  3 2   3\n```\n\nCollect the primes: 2, 5, 2, 3, 2, 3.\n\nThere are three 2s, two 3s and one 5, so\n\n$$360 = 2^3 \\times 3^2 \\times 5$$\n\n**Check:** $8 \\times 9 \\times 5 = 72 \\times 5 = 360$. ✓\n\n**Tip:** if you start with a number ending in 0, splitting off a 10 first is quick because 10 = 2 × 5." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-02-L1-Q2", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "Which of these is 300 written as a product of prime factors?",
+          "hint": "Start by splitting 300 into 3 × 100, then keep splitting 100.",
+          "explanation": "300 = 3 × 100 = 3 × 10 × 10 = 3 × 2 × 5 × 2 × 5 = 2² × 3 × 5².",
+          "options": [
+            { "text": "$2^2 \\times 3 \\times 5^2$", "correct": true },
+            { "text": "$2 \\times 3 \\times 5^2$", "correct": false, "feedback": "2 × 3 × 25 = 150, not 300." },
+            { "text": "$2^2 \\times 3^2 \\times 5$", "correct": false, "feedback": "4 × 9 × 5 = 180, not 300." },
+            { "text": "$4 \\times 3 \\times 25$", "correct": false, "feedback": "This multiplies to 300, but 4 and 25 are not prime." } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-02-L1-Q3", "type": "NumericalAnswer", "difficulty": 2, "marks": 1,
+          "text": "A number is written as $2^3 \\times 3 \\times 11$. What is the number?",
+          "hint": "Work out 2³ first, then multiply the three parts together.",
+          "explanation": "2³ = 8. 8 × 3 = 24. 24 × 11 = 264.",
+          "answers": [ { "numeric": 264, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "HCF and LCM", "minutes": 5, "content": "## Highest common factor (HCF)\n\nThe **HCF** of two numbers is the largest number that is a factor of both. For small numbers, list the factors and pick the biggest one they share.\n\n## Lowest common multiple (LCM)\n\nThe **LCM** of two numbers is the smallest number that is a multiple of both. For small numbers, list the multiples of each until one appears in both lists.\n\nMultiples of 6: 6, 12, 18, 24, 30, 36\nMultiples of 8: 8, 16, 24, 32\n\nThe LCM of 6 and 8 is **24**.\n\n## Using prime factors (the reliable method)\n\nFor bigger numbers, write both as products of primes and use a **Venn diagram**. Put shared primes in the overlap.\n\n$72 = 2^3 \\times 3^2$ and $60 = 2^2 \\times 3 \\times 5$\n\n```\n    72 only   |  both  |  60 only\n      2, 3    | 2, 2, 3 |    5\n```\n\n- **HCF** = product of the overlap = $2 \\times 2 \\times 3 = 12$\n- **LCM** = product of everything in the diagram = $2 \\times 3 \\times 2 \\times 2 \\times 3 \\times 5 = 360$\n\nA useful check: $\\text{HCF} \\times \\text{LCM} = 72 \\times 60 = 4320$, and $12 \\times 360 = 4320$. ✓" },
+        { "type": "Example", "title": "Worked example: HCF and LCM of 90 and 84", "minutes": 4, "content": "**Question:** Find the HCF and LCM of 90 and 84.\n\n**Step 1 – Prime factorise both numbers.**\n\n$90 = 2 \\times 3^2 \\times 5$\n\n$84 = 2^2 \\times 3 \\times 7$\n\n**Step 2 – Sort the primes into a Venn diagram.**\n\n| 90 only | both | 84 only |\n|---|---|---|\n| 3, 5 | 2, 3 | 2, 7 |\n\n**Step 3 – Read off the answers.**\n\n- HCF = $2 \\times 3 = 6$\n- LCM = $3 \\times 5 \\times 2 \\times 3 \\times 2 \\times 7 = 1260$\n\n**Check:** $90 \\times 84 = 7560$ and $6 \\times 1260 = 7560$. ✓\n\n**Shortcut:** once you know the HCF, $\\text{LCM} = \\dfrac{90 \\times 84}{6} = 1260$." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-02-L1-Q4", "type": "FormulaCalculation", "difficulty": 3, "marks": 2,
+          "text": "Find the highest common factor of 126 and 168.",
+          "hint": "126 = 2 × 3² × 7 and 168 = 2³ × 3 × 7. Multiply the primes that appear in both.",
+          "explanation": "126 = 2 × 3² × 7 and 168 = 2³ × 3 × 7. The shared primes are 2, 3 and 7, so HCF = 2 × 3 × 7 = 42.",
+          "answers": [ { "numeric": 42, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-02-L1-Q5", "type": "FormulaCalculation", "difficulty": 3, "marks": 2,
+          "text": "Find the lowest common multiple of 36 and 54.",
+          "hint": "36 = 2² × 3² and 54 = 2 × 3³. Take the highest power of each prime.",
+          "explanation": "36 = 2² × 3² and 54 = 2 × 3³. LCM uses the highest power of each prime: 2² × 3³ = 4 × 27 = 108.",
+          "answers": [ { "numeric": 108, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Spotting HCF and LCM problems", "minutes": 3, "content": "## Which one do I need?\n\nWorded questions rarely say \"HCF\" or \"LCM\", so you need to recognise the situation.\n\n**LCM problems** are about events that **repeat** and asking when they next **happen together**, or about finding the **smallest amount** that works for two different pack sizes.\n\n- Two buses leave a station every 12 minutes and every 20 minutes. When will they next leave together? → LCM of 12 and 20 = 60 minutes.\n- Hot-dog rolls come in packs of 6 and sausages in packs of 8. What is the smallest number of each so nothing is left over? → LCM = 24.\n\n**HCF problems** are about **sharing or splitting** things into the **largest equal groups** with nothing left over.\n\n- A florist has 48 roses and 36 tulips and wants identical bunches with none left over. What is the greatest number of bunches? → HCF of 48 and 36 = 12.\n- Tiles of the largest possible size to cover a 90 cm by 84 cm floor exactly → HCF = 6 cm.\n\nAsk yourself: *am I looking for something bigger than both numbers (LCM) or smaller than both numbers (HCF)?*" },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-02-L1-Q6", "type": "Matching", "difficulty": 3, "marks": 3,
+          "text": "Match each problem to the calculation you would use.",
+          "hint": "Splitting into the largest equal groups needs the HCF. Finding when things coincide or the smallest matching amount needs the LCM.",
+          "explanation": "Largest identical bags = HCF of 40 and 64 = 8. Lights next flash together = LCM of 15 and 18 = 90 s. Smallest number of pens and lids = LCM of 12 and 10 = 60.",
+          "pairs": [
+            { "left": "40 apples and 64 pears are split into identical bags with none left over. What is the largest number of bags?", "right": "HCF of 40 and 64" },
+            { "left": "One light flashes every 15 s and another every 18 s. They flash together now; when do they next flash together?", "right": "LCM of 15 and 18" },
+            { "left": "Pens come in packs of 12 and lids in packs of 10. What is the smallest number of each needed so every pen has a lid with none spare?", "right": "LCM of 12 and 10" } ] } },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-01-02-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true,
+          "text": "Two runners train on a circular track. Aisha completes a lap every 40 seconds and Ben completes a lap every 56 seconds. They start together at the start line.\n\n(a) Write 40 and 56 as products of their prime factors.\n\n(b) Work out how many seconds it takes until they are next at the start line together.\n\n(c) How many laps has each runner completed at that moment?",
+          "hint": "The moment they meet again is the LCM of 40 and 56. Divide the LCM by each lap time to count laps.",
+          "explanation": "(a) 40 = 2³ × 5 and 56 = 2³ × 7. (b) LCM = 2³ × 5 × 7 = 280 seconds. (c) Aisha: 280 ÷ 40 = 7 laps; Ben: 280 ÷ 56 = 5 laps.",
+          "markScheme": [
+            { "criterion": "Correct prime factorisations: 40 = 2³ × 5 and 56 = 2³ × 7", "marks": 1, "keywords": [ ["2^3 × 5", "2³ × 5", "2^3 x 5", "2 × 2 × 2 × 5", "2x2x2x5"], ["2^3 × 7", "2³ × 7", "2^3 x 7", "2 × 2 × 2 × 7", "2x2x2x7"] ] },
+            { "criterion": "Recognises that the LCM is needed or uses a valid method (e.g. listing multiples)", "marks": 1, "keywords": [ ["lcm", "lowest common multiple", "least common multiple", "multiples"] ] },
+            { "criterion": "Correct time: 280 seconds", "marks": 1, "keywords": [ ["280 s", "280 sec", "280"] ] },
+            { "criterion": "Correct laps: Aisha 7 laps and Ben 5 laps", "marks": 1, "keywords": [ ["7 laps", "7"], ["5 laps", "5"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Factors** divide exactly into a number; **multiples** are in its times table; a **prime** has exactly two factors (1 is not prime, 2 is the only even prime).\n- Use a **factor tree** to write a number as a product of primes, and use **index notation** for repeats, e.g. $360 = 2^3 \\times 3^2 \\times 5$.\n- **HCF** = product of the primes in the overlap of the Venn diagram (the largest shared factor).\n- **LCM** = product of every prime in the diagram (the smallest shared multiple).\n- Check: $\\text{HCF} \\times \\text{LCM} = $ product of the two numbers.\n- Worded problems: *largest equal groups* → HCF; *next time together / smallest amount that works* → LCM." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-01-02-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "How many factors does 28 have?", "hint": "List the factor pairs: 1 × 28, 2 × 14, ...", "explanation": "1, 2, 4, 7, 14, 28: six factors.", "answers": [ { "numeric": 6, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-02-L1-P2", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: 2 is a prime number.", "hint": "How many factors does 2 have?", "explanation": "True. 2 has exactly two factors (1 and 2), so it is prime. It is the only even prime.", "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ] },
+        { "key": "AQA-MAT-01-02-L1-P3", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "Which number is a common multiple of 4 and 6?", "hint": "Check whether each number is in both the 4 times table and the 6 times table.", "explanation": "36 = 4 × 9 and 36 = 6 × 6, so 36 is a multiple of both. 18 and 30 are not multiples of 4; 28 is not a multiple of 6.", "options": [ { "text": "36", "correct": true }, { "text": "18", "correct": false }, { "text": "28", "correct": false }, { "text": "30", "correct": false } ] },
+        { "key": "AQA-MAT-01-02-L1-P4", "type": "FillInTheBlank", "difficulty": 2, "marks": 3, "text": "Complete the prime factorisation of 150 in index form.", "metadata": { "blanksText": "$150 = 2 \\times 3 \\times 5^{___}$, so 150 has ___ different prime factors and the largest prime factor is ___." }, "hint": "150 = 2 × 75 = 2 × 3 × 25.", "explanation": "150 = 2 × 3 × 5². The different primes are 2, 3 and 5 (three of them) and the largest is 5.", "answers": [ { "text": "2", "blankIndex": 0, "marks": 1 }, { "text": "3", "blankIndex": 1, "marks": 1 }, { "text": "5", "blankIndex": 2, "marks": 1 } ] },
+        { "key": "AQA-MAT-01-02-L1-P5", "type": "Ordering", "difficulty": 2, "marks": 1, "text": "Put the steps for finding the LCM of two numbers using prime factors in the correct order.", "hint": "You cannot draw the Venn diagram until you have the prime factors.", "explanation": "Factorise, sort into the Venn diagram with shared primes in the middle, then multiply everything in the diagram.", "order": [ "Write each number as a product of prime factors", "Place the shared primes in the overlap of a Venn diagram and the rest in the outer parts", "Multiply together every prime in the whole diagram" ] },
+        { "key": "AQA-MAT-01-02-L1-P6", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "Find the HCF of 132 and 198.", "hint": "132 = 2² × 3 × 11 and 198 = 2 × 3² × 11.", "explanation": "Shared primes: one 2, one 3 and one 11. HCF = 2 × 3 × 11 = 66.", "answers": [ { "numeric": 66, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-02-L1-P7", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "Find the LCM of 24 and 45.", "hint": "24 = 2³ × 3 and 45 = 3² × 5. Take the highest power of every prime that appears.", "explanation": "LCM = 2³ × 3² × 5 = 8 × 9 × 5 = 360.", "answers": [ { "numeric": 360, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-02-L1-P8", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "A baker has 72 cupcakes and 108 biscuits. She packs them into identical boxes so that every box has the same contents and nothing is left over. What is the greatest number of boxes she can fill?", "hint": "Largest number of equal groups with nothing left over means HCF.", "explanation": "72 = 2³ × 3² and 108 = 2² × 3³. HCF = 2² × 3² = 36 boxes (each with 2 cupcakes and 3 biscuits).", "answers": [ { "numeric": 36, "tolerance": 0, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-02-L1-P9", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Leo says \"57 is a prime number because it is odd and it is not in the 5 times table.\" Explain why Leo is wrong.", "hint": "Try dividing 57 by 3. A quick test: do its digits add up to a multiple of 3?", "explanation": "57 = 3 × 19, so it has more than two factors and is not prime. Being odd and not ending in 5 or 0 does not make a number prime; you must test all primes up to its square root.", "markScheme": [ { "criterion": "Shows 57 is divisible by 3 (57 = 3 × 19)", "marks": 1, "keywords": [ ["3 × 19", "3 x 19", "divisible by 3", "19 × 3", "multiple of 3"] ] }, { "criterion": "Explains that a prime must have exactly two factors / being odd is not enough", "marks": 1, "keywords": [ ["two factors", "2 factors", "more than two", "not enough", "other factors"] ] } ] },
+        { "key": "AQA-MAT-01-02-L1-P10", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "$A = 2^4 \\times 3 \\times 5^2$ and $B = 2^2 \\times 3^3 \\times 5$.\n\n(a) Write down the HCF of $A$ and $B$ as a product of prime factors.\n\n(b) Write down the LCM of $A$ and $B$ as a product of prime factors.\n\n(c) Explain why 7 cannot be a factor of $A$.", "hint": "HCF takes the lowest power of each shared prime; LCM takes the highest power of every prime.", "explanation": "(a) HCF = 2² × 3 × 5 = 60. (b) LCM = 2⁴ × 3³ × 5² = 10 800. (c) The prime factorisation of a number is unique; 7 is not one of the primes in A's factorisation, so 7 is not a factor.", "markScheme": [ { "criterion": "HCF = 2² × 3 × 5 (= 60)", "marks": 1, "keywords": [ ["2^2 × 3 × 5", "2² × 3 × 5", "2^2 x 3 x 5", "60"] ] }, { "criterion": "LCM = 2⁴ × 3³ × 5² (= 10 800)", "marks": 1, "keywords": [ ["2^4 × 3^3 × 5^2", "2⁴ × 3³ × 5²", "2^4 x 3^3 x 5^2", "10800", "10 800"] ] }, { "criterion": "States that 7 does not appear in the prime factorisation, which is unique", "marks": 1, "keywords": [ ["not in", "does not appear", "not one of", "no 7", "unique"] ] } ] }
+      ]
+    }
+  ]
+}

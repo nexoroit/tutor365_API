@@ -1,0 +1,93 @@
+{
+  "subTopicCode": "MAT-01-07",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-01-07-L1",
+      "title": "Standard form",
+      "summary": "Write very large and very small numbers in standard form, convert back to ordinary numbers, and add, subtract, multiply and divide numbers in standard form.",
+      "objectives": [
+        "I can write a large or small number in standard form $A \\times 10^n$ with $1 \\le A < 10$.",
+        "I can convert a number in standard form back to an ordinary number.",
+        "I can order numbers written in standard form.",
+        "I can multiply and divide numbers in standard form using the laws of indices.",
+        "I can add and subtract numbers in standard form by matching the powers of 10."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "What standard form is for", "minutes": 4, "content": "## Taming huge and tiny numbers\n\nThe distance from the Earth to the Sun is about 150 000 000 km. The width of a red blood cell is about 0.000 007 m. Numbers like these are awkward to write, read and compare, so scientists use **standard form**.\n\nA number in standard form looks like\n\n$$A \\times 10^n$$\n\nwhere **$A$ is between 1 and 10** ($1 \\le A < 10$) and **$n$ is an integer** (whole number, which can be negative).\n\n- $150\\,000\\,000 = 1.5 \\times 10^8$\n- $0.000007 = 7 \\times 10^{-6}$\n\n**Which of these are in standard form?**\n\n| Number | Standard form? | Why |\n|---|---|---|\n| $3.2 \\times 10^5$ | Yes | $A = 3.2$ is between 1 and 10 |\n| $32 \\times 10^4$ | No | 32 is too big |\n| $0.32 \\times 10^6$ | No | 0.32 is less than 1 |\n| $1 \\times 10^0$ | Yes | this is just 1 |\n\nRemember your powers of 10: $10^3 = 1000$, $10^6$ is a million, $10^{-1} = 0.1$, $10^{-3} = 0.001$." },
+        { "type": "Example", "title": "Worked example: converting both ways", "minutes": 4, "content": "**1. Write 46 000 000 in standard form.**\n\nPut the decimal point after the first non-zero digit: 4.6.\n\nCount how many places the point has moved from its original position (after the last 0): 7 places.\n\n$46\\,000\\,000 = 4.6 \\times 10^7$\n\n**2. Write 0.00052 in standard form.**\n\nFirst non-zero digit is 5, so $A = 5.2$.\n\nThe point moves 4 places to the right to get from 0.00052 to 5.2. Moving right means the number was small, so the power is **negative**.\n\n$0.00052 = 5.2 \\times 10^{-4}$\n\n**3. Write $3.08 \\times 10^5$ as an ordinary number.**\n\nPositive power: move the point 5 places to the right, filling with zeros: 308 000.\n\n**4. Write $9.1 \\times 10^{-3}$ as an ordinary number.**\n\nNegative power: move the point 3 places to the left: 0.0091.\n\n**Sanity check:** a positive power gives a number 10 or bigger; a negative power gives a number smaller than 1." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-07-L1-Q1", "type": "MultipleChoice", "difficulty": 1, "marks": 1,
+          "text": "Which of these is 0.0038 written in standard form?",
+          "hint": "The first part must be between 1 and 10, and a small number needs a negative power.",
+          "explanation": "Move the point 3 places right to get 3.8, so $0.0038 = 3.8 \\times 10^{-3}$.",
+          "options": [
+            { "text": "$3.8 \\times 10^{-3}$", "correct": true },
+            { "text": "$3.8 \\times 10^{3}$", "correct": false, "feedback": "That would be 3800." },
+            { "text": "$38 \\times 10^{-4}$", "correct": false, "feedback": "38 is not between 1 and 10." },
+            { "text": "$0.38 \\times 10^{-2}$", "correct": false, "feedback": "0.38 is less than 1." } ] } },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-07-L1-Q2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1,
+          "text": "Write $6.25 \\times 10^4$ as an ordinary number.",
+          "hint": "Move the decimal point 4 places to the right.",
+          "explanation": "$6.25 \\times 10\\,000 = 62\\,500$.",
+          "answers": [ { "numeric": 62500, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "Ordering and calculator use", "minutes": 3, "content": "## Comparing numbers in standard form\n\nCompare the **powers of 10 first**. A bigger power means a bigger number, whatever the $A$ part says.\n\n$2 \\times 10^7$ is bigger than $9 \\times 10^6$, because $10^7$ is ten times $10^6$.\n\nIf the powers are the same, compare the $A$ parts.\n\nFor negative powers, remember that $10^{-2}$ is bigger than $10^{-5}$ (0.01 is bigger than 0.00001).\n\nOnly compare $A$ values when the numbers really are in standard form. $25 \\times 10^3$ looks smaller than $3 \\times 10^4$, but it is actually $2.5 \\times 10^4$, so it is not.\n\n## On the calculator\n\nUse the **×10ˣ** button (sometimes labelled EXP or EE). To enter $4.5 \\times 10^{-3}$ press 4.5, then ×10ˣ, then (−)3. Do **not** type × 10 ^ as separate keys; it usually works but goes wrong in divisions because of the order of operations.\n\nIf your calculator shows a result like 7.2E8, that means $7.2 \\times 10^8$. Write it in proper standard form on your paper — E notation loses marks." },
+        { "type": "Question", "title": "Ordering", "question": {
+          "key": "AQA-MAT-01-07-L1-Q3", "type": "Ordering", "difficulty": 2, "marks": 2,
+          "text": "Put these numbers in order from smallest to largest.",
+          "hint": "Compare the powers of 10 first. Beware: one of them is not in standard form.",
+          "explanation": "$45 \\times 10^2 = 4.5 \\times 10^3 = 4500$. $8.9 \\times 10^{-1} = 0.89$. $3.1 \\times 10^3 = 3100$. $5.2 \\times 10^4 = 52\\,000$. Order: $8.9 \\times 10^{-1}$, $3.1 \\times 10^3$, $45 \\times 10^2$, $5.2 \\times 10^4$.",
+          "order": [ "8.9 × 10^-1", "3.1 × 10^3", "45 × 10^2", "5.2 × 10^4" ] } },
+        { "type": "Explanation", "title": "Multiplying and dividing", "minutes": 5, "content": "## Numbers and powers separately\n\nBecause multiplication can be done in any order, group the $A$ parts together and the powers of 10 together.\n\n**Multiply:** multiply the $A$ parts, **add** the powers.\n\n$(3 \\times 10^4) \\times (2 \\times 10^5) = 6 \\times 10^9$\n\n**Divide:** divide the $A$ parts, **subtract** the powers.\n\n$(8 \\times 10^7) \\div (4 \\times 10^2) = 2 \\times 10^5$\n\n## Fixing the answer\n\nOften the $A$ part comes out too big or too small, so you need one more step.\n\n$(4 \\times 10^3) \\times (5 \\times 10^6) = 20 \\times 10^9$\n\n20 is not allowed. $20 = 2 \\times 10$, so $20 \\times 10^9 = 2 \\times 10^{10}$.\n\n$(3 \\times 10^2) \\div (6 \\times 10^5) = 0.5 \\times 10^{-3}$\n\n0.5 is not allowed. $0.5 = 5 \\times 10^{-1}$, so the answer is $5 \\times 10^{-4}$.\n\n**Rule of thumb:** if you make $A$ ten times smaller, make the power one bigger, and vice versa. The number stays the same, only its costume changes." },
+        { "type": "Example", "title": "Worked example: a division with adjustment", "minutes": 3, "content": "**A light year is about $9.5 \\times 10^{15}$ m. A spacecraft travels at $2.5 \\times 10^4$ m/s. How many seconds would it take to travel one light year? Give your answer in standard form.**\n\nTime = distance ÷ speed.\n\n$\\dfrac{9.5 \\times 10^{15}}{2.5 \\times 10^{4}} = \\dfrac{9.5}{2.5} \\times 10^{15-4} = 3.8 \\times 10^{11}$ seconds.\n\nHere the $A$ part came out at 3.8, which is already between 1 and 10, so no adjustment is needed.\n\n**Second example: $(7 \\times 10^{-3}) \\times (6 \\times 10^{-2})$.**\n\n$7 \\times 6 = 42$ and $10^{-3} \\times 10^{-2} = 10^{-5}$, giving $42 \\times 10^{-5}$.\n\nAdjust: $42 = 4.2 \\times 10^1$, so the answer is $4.2 \\times 10^{-4}$.\n\nWhen adding a negative power to another, be careful with the signs: $-3 + (-2) = -5$, and then $-5 + 1 = -4$." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-07-L1-Q4", "type": "Equation", "difficulty": 3, "marks": 2,
+          "text": "Work out $(6 \\times 10^5) \\times (7 \\times 10^{3})$. Give your answer in standard form. Type it like 4.2*10^8.",
+          "hint": "$6 \\times 7 = 42$, which needs adjusting.",
+          "explanation": "$42 \\times 10^8 = 4.2 \\times 10^9$.",
+          "answers": [ { "text": "4.2*10^9", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Adding and subtracting", "minutes": 4, "content": "## Match the powers first\n\nYou can only add or subtract the $A$ parts when the **powers of 10 are the same** — just as you can only add like terms in algebra.\n\n**Method A: convert to ordinary numbers** (fine when the numbers are not too big).\n\n$3.2 \\times 10^4 + 5 \\times 10^3 = 32\\,000 + 5000 = 37\\,000 = 3.7 \\times 10^4$\n\n**Method B: rewrite with the same power** (better for very large or very small numbers).\n\n$3.2 \\times 10^4 + 5 \\times 10^3$\n\nWrite $5 \\times 10^3$ as $0.5 \\times 10^4$. Now $3.2 + 0.5 = 3.7$, so the answer is $3.7 \\times 10^4$.\n\n**Subtraction example:** $8 \\times 10^{-3} - 6 \\times 10^{-4}$\n\n$6 \\times 10^{-4} = 0.6 \\times 10^{-3}$, so $8 - 0.6 = 7.4$ and the answer is $7.4 \\times 10^{-3}$.\n\nAlways finish by checking the $A$ part is between 1 and 10. If $9 \\times 10^5 + 4 \\times 10^5 = 13 \\times 10^5$, tidy it to $1.3 \\times 10^6$." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-07-L1-Q5", "type": "Equation", "difficulty": 3, "marks": 2,
+          "text": "Work out $4.6 \\times 10^6 + 8 \\times 10^5$. Give your answer in standard form. Type it like 4.2*10^8.",
+          "hint": "Write $8 \\times 10^5$ as $0.8 \\times 10^6$.",
+          "explanation": "$4.6 + 0.8 = 5.4$, so $5.4 \\times 10^6$.",
+          "answers": [ { "text": "5.4*10^6", "caseSensitive": false, "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-07-L1-Q6", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
+          "text": "$(2.4 \\times 10^{-2}) \\div (8 \\times 10^{4}) = 3 \\times 10^n$. Find the value of $n$.",
+          "hint": "$2.4 \\div 8 = 0.3$, so you will need to adjust the power by one.",
+          "explanation": "$0.3 \\times 10^{-2-4} = 0.3 \\times 10^{-6} = 3 \\times 10^{-7}$. So $n = -7$.",
+          "answers": [ { "numeric": -7, "tolerance": 0, "marks": 2 } ] } },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-01-07-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true,
+          "text": "The mass of one grain of pollen is about $2.5 \\times 10^{-8}$ g.\n\n(a) A flower releases $4 \\times 10^{6}$ grains of pollen. Work out the total mass of this pollen. Give your answer in standard form.\n\n(b) A sample of pollen has a mass of $6 \\times 10^{-3}$ g. Work out how many grains it contains. Give your answer in standard form.",
+          "hint": "(a) Multiply: $2.5 \\times 4$ and add the powers. (b) Divide the sample mass by the mass of one grain.",
+          "explanation": "(a) $2.5 \\times 4 = 10$, $10^{-8} \\times 10^{6} = 10^{-2}$, so $10 \\times 10^{-2} = 1 \\times 10^{-1}$ g (0.1 g). (b) $\\frac{6 \\times 10^{-3}}{2.5 \\times 10^{-8}} = 2.4 \\times 10^{5}$ grains.",
+          "markScheme": [
+            { "criterion": "Multiplies to get 10 × 10⁻² (or 0.1)", "marks": 1, "keywords": [ ["10 × 10^-2", "10 x 10^-2", "0.1", "10×10^-2"] ] },
+            { "criterion": "Gives (a) in standard form: 1 × 10⁻¹ g", "marks": 1, "keywords": [ ["1 × 10^-1", "1 x 10^-1", "1×10^-1", "1*10^-1", "1 × 10⁻¹"] ] },
+            { "criterion": "Divides 6 by 2.5 = 2.4 and subtracts powers −3 − (−8) = 5", "marks": 1, "keywords": [ ["2.4", "10^5", "10⁵"] ] },
+            { "criterion": "Gives (b) as 2.4 × 10⁵ grains", "marks": 1, "keywords": [ ["2.4 × 10^5", "2.4 x 10^5", "2.4×10^5", "2.4*10^5", "2.4 × 10⁵"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Standard form: $A \\times 10^n$ with $1 \\le A < 10$ and $n$ an integer.\n- Big numbers have positive powers; numbers less than 1 have negative powers.\n- To compare, look at the power of 10 first (after checking the numbers really are in standard form).\n- Multiply: multiply the $A$s, add the powers. Divide: divide the $A$s, subtract the powers. Then adjust $A$ if needed.\n- Add or subtract: make the powers the same first, then combine the $A$s.\n- Use the ×10ˣ button, and never write calculator E notation in your answer." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-01-07-L1-P1", "type": "Equation", "difficulty": 1, "marks": 1, "text": "Write 7 200 000 in standard form. Type your answer like 4.2*10^8.", "hint": "Put the point after the 7 and count the places.", "explanation": "$7.2 \\times 10^6$.", "answers": [ { "text": "7.2*10^6", "caseSensitive": false } ] },
+        { "key": "AQA-MAT-01-07-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Write $4.05 \\times 10^{-3}$ as an ordinary number.", "hint": "Move the decimal point 3 places to the left.", "explanation": "$4.05 \\div 1000 = 0.00405$.", "answers": [ { "numeric": 0.00405, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-07-L1-P3", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: $12.5 \\times 10^3$ is written in standard form.", "hint": "What range must the first number lie in?", "explanation": "False. The first part must be between 1 and 10. The correct form is $1.25 \\times 10^4$.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-01-07-L1-P4", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "Which of these numbers is the largest?", "hint": "Compare the powers of 10 first.", "explanation": "$10^5$ beats $10^4$ and $10^{-2}$ regardless of the front number. Between the two with $10^5$, 3.9 is bigger than 1.2. So $3.9 \\times 10^5$ is largest.", "options": [ { "text": "$3.9 \\times 10^5$", "correct": true }, { "text": "$9.8 \\times 10^4$", "correct": false, "feedback": "A bigger front number does not beat a bigger power." }, { "text": "$1.2 \\times 10^5$", "correct": false }, { "text": "$9.9 \\times 10^{-2}$", "correct": false, "feedback": "This is less than 1." } ] },
+        { "key": "AQA-MAT-01-07-L1-P5", "type": "Matching", "difficulty": 2, "marks": 4, "text": "Match each ordinary number to its standard form.", "hint": "Count the places the decimal point moves, and use a negative power for numbers less than 1.", "explanation": "530 000 = $5.3 \\times 10^5$; 0.053 = $5.3 \\times 10^{-2}$; 5300 = $5.3 \\times 10^3$; 0.00053 = $5.3 \\times 10^{-4}$.", "pairs": [ { "left": "530 000", "right": "5.3 × 10^5" }, { "left": "0.053", "right": "5.3 × 10^-2" }, { "left": "5300", "right": "5.3 × 10^3" }, { "left": "0.00053", "right": "5.3 × 10^-4" } ] },
+        { "key": "AQA-MAT-01-07-L1-P6", "type": "Equation", "difficulty": 2, "marks": 2, "text": "Work out $(3 \\times 10^4) \\times (2.5 \\times 10^{-7})$. Give your answer in standard form. Type it like 4.2*10^8.", "hint": "$3 \\times 2.5 = 7.5$; add the powers.", "explanation": "$7.5 \\times 10^{4 + (-7)} = 7.5 \\times 10^{-3}$.", "answers": [ { "text": "7.5*10^-3", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-07-L1-P7", "type": "Equation", "difficulty": 3, "marks": 2, "text": "Work out $(9 \\times 10^8) \\div (3 \\times 10^{-2})$. Give your answer in standard form. Type it like 4.2*10^8.", "hint": "Subtracting a negative power makes it bigger: $8 - (-2) = 10$.", "explanation": "$9 \\div 3 = 3$ and $10^{8-(-2)} = 10^{10}$, so $3 \\times 10^{10}$.", "answers": [ { "text": "3*10^10", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-07-L1-P8", "type": "Equation", "difficulty": 3, "marks": 2, "text": "Work out $7.3 \\times 10^{-4} - 5 \\times 10^{-5}$. Give your answer in standard form. Type it like 4.2*10^8.", "hint": "Rewrite $5 \\times 10^{-5}$ as $0.5 \\times 10^{-4}$.", "explanation": "$7.3 - 0.5 = 6.8$, so $6.8 \\times 10^{-4}$.", "answers": [ { "text": "6.8*10^-4", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-01-07-L1-P9", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentence.", "metadata": { "blanksText": "When multiplying numbers in standard form, multiply the front numbers and ___ the powers of 10; when dividing, divide the front numbers and ___ the powers." }, "hint": "These are the laws of indices.", "explanation": "$10^a \\times 10^b = 10^{a+b}$ and $10^a \\div 10^b = 10^{a-b}$.", "answers": [ { "text": "add", "blankIndex": 0, "marks": 1 }, { "text": "subtract", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-01-07-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Jess works out $(5 \\times 10^3) \\times (8 \\times 10^4)$ and writes the answer $40 \\times 10^7$. Explain the mistake and give the correct answer in standard form.", "hint": "Is 40 allowed as the front number?", "explanation": "The front number must be between 1 and 10, so $40 \\times 10^7$ is not in standard form. $40 = 4 \\times 10$, so the answer is $4 \\times 10^8$.", "markScheme": [ { "criterion": "Explains that 40 is not between 1 and 10, so the answer is not in standard form", "marks": 1, "keywords": [ ["between 1 and 10", "less than 10", "not in standard form", "too big", "1 and 10"] ] }, { "criterion": "Gives the correct answer 4 × 10⁸", "marks": 1, "keywords": [ ["4 × 10^8", "4 x 10^8", "4×10^8", "4*10^8", "4 × 10⁸"] ] } ] },
+        { "key": "AQA-MAT-01-07-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "The population of a country is $6.8 \\times 10^7$. The country's area is $2.4 \\times 10^5$ km². Calculate the population density in people per km². Give your answer to 2 significant figures.", "hint": "Density = population ÷ area. $6.8 \\div 2.4$ is about 2.83.", "explanation": "$\\frac{6.8 \\times 10^7}{2.4 \\times 10^5} = 2.833... \\times 10^2 = 283.3...$, which is 280 people per km² to 2 s.f.", "markScheme": [ { "criterion": "Divides population by area (6.8 ÷ 2.4 and 10⁷ ÷ 10⁵)", "marks": 1, "keywords": [ ["2.83", "2.8", "10^2", "10²"] ] }, { "criterion": "Obtains 283 (accept 283.3)", "marks": 1, "keywords": [ ["283", "283.3", "283.33"] ] }, { "criterion": "Rounds to 280 people per km²", "marks": 1, "keywords": [ ["280", "2.8 × 10^2", "2.8×10^2", "2.8 x 10^2"] ] } ] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "subTopicCode": "MAT-02-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-02-03-L1",
+      "title": "Formulae and substitution",
+      "summary": "Substitute numbers into expressions and formulae using the correct order of operations, write your own formulae from a description, and rearrange a formula to change its subject.",
+      "objectives": [
+        "I can substitute positive and negative numbers into expressions and formulae.",
+        "I can write a formula from a worded description.",
+        "I can rearrange a formula to make a different letter the subject.",
+        "I can use a formula to solve a real-life problem."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Substituting into expressions", "minutes": 4, "content": "## What substitution means\n\nTo **substitute** is to replace each letter with a number and then work out the value. The order of operations (**BIDMAS**: Brackets, Indices, Division and Multiplication, Addition and Subtraction) still applies.\n\nIf $x = 4$:\n\n- $3x + 2 = 3 \\times 4 + 2 = 14$ (multiply before adding)\n- $2x^2 = 2 \\times 4^2 = 2 \\times 16 = 32$ (square first, then double)\n- $(2x)^2 = (2 \\times 4)^2 = 8^2 = 64$ (the bracket changes everything)\n\n### Negative numbers\n\nPut negative values in **brackets** when you write them down, so that the signs are handled correctly.\n\nIf $y = -3$:\n\n- $y^2 = (-3)^2 = 9$, not $-9$\n- $5 - y = 5 - (-3) = 8$\n- $4y = 4 \\times (-3) = -12$\n\n### Fractions and decimals\n\nIf $t = \\frac{1}{2}$, then $6t - 1 = 6 \\times \\frac{1}{2} - 1 = 2$.\n\nA useful habit: **write the expression with the numbers in place before calculating**. Examiners give method marks for a correct substitution even if the arithmetic goes wrong later." },
+        { "type": "Example", "title": "Worked example: substituting into a formula", "minutes": 3, "content": "**The formula $v = u + at$ links final speed $v$, starting speed $u$, acceleration $a$ and time $t$. Find $v$ when $u = 5$, $a = -2$ and $t = 4$.**\n\nWrite the numbers in, with the negative in brackets:\n\n$$v = 5 + (-2) \\times 4$$\n\nMultiply first: $(-2) \\times 4 = -8$.\n\n$$v = 5 + (-8) = -3$$\n\n**Find the value of $\\frac{p^2 - q}{3}$ when $p = -5$ and $q = 7$.**\n\nThe fraction bar acts as a bracket, so work out the top first.\n\n$p^2 = (-5)^2 = 25$, so the numerator is $25 - 7 = 18$.\n\n$$\\frac{18}{3} = 6$$" },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-03-L1-Q1", "type": "FormulaCalculation", "difficulty": 2, "marks": 1,
+          "text": "Work out the value of $3a^2 - 4b$ when $a = -2$ and $b = 5$.",
+          "hint": "Square $-2$ first (the answer is positive), then multiply by 3, then subtract $4 \\times 5$.",
+          "explanation": "$a^2 = (-2)^2 = 4$, so $3a^2 = 12$. $4b = 20$. $12 - 20 = -8$.",
+          "answers": [ { "numeric": -8, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "Writing your own formulae", "minutes": 4, "content": "## From words to a formula\n\nA **formula** is a rule that tells you how to work out one quantity from others. The quantity on its own on the left is called the **subject**.\n\n### Example: a taxi fare\n\nA taxi charges £3 to start, plus £2 per mile. Let $C$ be the cost in pounds for $m$ miles.\n\n- Each mile adds £2, so $m$ miles add $2m$.\n- Add the starting charge of £3.\n\n$$C = 2m + 3$$\n\n### Example: perimeter of a shape\n\nA rectangle has length $l$ and width $w$. Its perimeter $P$ is two lengths plus two widths:\n\n$$P = 2l + 2w \\quad \\text{or} \\quad P = 2(l + w)$$\n\n### Tips\n\n1. Decide which letter is the subject: it is the thing you are asked to find.\n2. Identify anything that is charged **per** item, **each**, or **every**: that quantity multiplies the letter.\n3. Identify fixed amounts: these are added as constants.\n4. Test your formula with easy numbers. If $m = 1$, the taxi should cost £5. Does $2(1) + 3 = 5$? Yes.\n\nMake sure the **units** are consistent. If a rate is given in pence but the answer is wanted in pounds, convert first." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-02-03-L1-Q2", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "A plumber charges a £40 call-out fee plus £25 for each hour of work. Which formula gives the total cost $C$ pounds for $h$ hours?",
+          "hint": "Which amount is paid once, and which is paid per hour?",
+          "explanation": "The £25 is per hour, so $h$ hours cost $25h$. The £40 is paid once. $C = 25h + 40$.",
+          "options": [
+            { "text": "$C = 25h + 40$", "correct": true },
+            { "text": "$C = 40h + 25$", "correct": false, "feedback": "The call-out fee is paid once, not per hour." },
+            { "text": "$C = 65h$", "correct": false, "feedback": "This charges £65 every hour." },
+            { "text": "$C = 25 + 40h$", "correct": false } ] } },
+        { "type": "Explanation", "title": "Rearranging formulae", "minutes": 5, "content": "## Changing the subject\n\nSometimes a formula gives you $C$ but you want to find $m$. **Rearranging** (changing the subject) uses exactly the same balancing moves as solving an equation: whatever you do to one side, do to the other.\n\n### Example: make $m$ the subject of $C = 2m + 3$\n\n| Step | Working |\n|---|---|\n| Subtract 3 from both sides | $C - 3 = 2m$ |\n| Divide both sides by 2 | $\\frac{C - 3}{2} = m$ |\n\nSo $m = \\frac{C - 3}{2}$.\n\n### Undo operations in reverse order\n\nTo get from $m$ to $C$ we multiplied by 2 **then** added 3. To go back, we subtract 3 **first**, then divide by 2. Always peel away the operation furthest from the letter first.\n\n### Squares and square roots\n\nTo make $r$ the subject of $A = \\pi r^2$:\n\n1. Divide by $\\pi$: $\\frac{A}{\\pi} = r^2$\n2. Square root both sides: $r = \\sqrt{\\frac{A}{\\pi}}$\n\n### Letter in a fraction\n\nTo make $t$ the subject of $s = \\frac{d}{t}$, multiply both sides by $t$ to get $st = d$, then divide by $s$: $t = \\frac{d}{s}$." },
+        { "type": "Example", "title": "Worked example: two-step and three-step rearrangements", "minutes": 4, "content": "**Make $x$ the subject of $y = 5x - 7$.**\n\nAdd 7 to both sides: $y + 7 = 5x$.\n\nDivide by 5: $x = \\frac{y + 7}{5}$.\n\n**Make $h$ the subject of $V = \\frac{1}{3}\\pi r^2 h$.**\n\n$h$ is being multiplied by $\\frac{1}{3}\\pi r^2$, so divide both sides by that whole block:\n\n$$h = \\frac{V}{\\frac{1}{3}\\pi r^2} = \\frac{3V}{\\pi r^2}$$\n\n**Make $u$ the subject of $v^2 = u^2 + 2as$.**\n\nSubtract $2as$: $v^2 - 2as = u^2$.\n\nSquare root: $u = \\sqrt{v^2 - 2as}$.\n\nIn each case, the answer has the new subject **completely on its own** on one side, and it does not appear anywhere on the other side." },
+        { "type": "Question", "title": "Match them up", "question": {
+          "key": "AQA-MAT-02-03-L1-Q3", "type": "Matching", "difficulty": 3, "marks": 4,
+          "text": "Match each formula to the correct rearrangement with $x$ as the subject.",
+          "hint": "Undo the operations in reverse order. Check by substituting an easy number.",
+          "explanation": "$y = 3x + 2$ gives $x = \\frac{y - 2}{3}$. $y = \\frac{x}{4} - 1$ gives $x = 4(y + 1)$. $y = \\frac{6}{x}$ gives $x = \\frac{6}{y}$. $y = x^2 + 5$ gives $x = \\sqrt{y - 5}$.",
+          "pairs": [
+            { "left": "$y = 3x + 2$", "right": "$x = \\frac{y - 2}{3}$" },
+            { "left": "$y = \\frac{x}{4} - 1$", "right": "$x = 4(y + 1)$" },
+            { "left": "$y = \\frac{6}{x}$", "right": "$x = \\frac{6}{y}$" },
+            { "left": "$y = x^2 + 5$", "right": "$x = \\sqrt{y - 5}$" } ] } },
+        { "type": "Question", "title": "Put the steps in order", "question": {
+          "key": "AQA-MAT-02-03-L1-Q4", "type": "Ordering", "difficulty": 3, "marks": 1,
+          "text": "Put the steps in the correct order to make $r$ the subject of $P = 2\\pi r + 8$.",
+          "hint": "Which operation was applied to $r$ last when building the formula? Undo that one first.",
+          "explanation": "$r$ was multiplied by $2\\pi$ and then 8 was added. Undo in reverse: subtract 8 first, then divide by $2\\pi$.",
+          "order": [
+            "Subtract 8 from both sides: P − 8 = 2πr",
+            "Divide both sides by 2π: (P − 8)/(2π) = r",
+            "Write the answer with r on the left: r = (P − 8)/(2π)" ] } },
+        { "type": "Explanation", "title": "Using formulae to solve problems", "minutes": 4, "content": "## Formulae in context\n\nExam questions often give you a formula from science, finance or geometry and ask you to use it. The steps are always the same:\n\n1. **List** what you know, with units.\n2. **Decide** which letter you need to find.\n3. **Rearrange** if that letter is not already the subject (or substitute first and then solve the equation; both work).\n4. **Substitute** and calculate.\n5. **Check** the answer is sensible and has the right units.\n\n### Example\n\nThe cost of hiring a hall is given by $C = 120 + 15n$, where $n$ is the number of guests. A group has a budget of £600. How many guests can they invite?\n\nKnown: $C = 600$. Wanted: $n$.\n\n$$600 = 120 + 15n \\Rightarrow 480 = 15n \\Rightarrow n = 32$$\n\nThey can invite 32 guests.\n\n### Watch out\n\n- If the answer is a number of people, it must be a whole number. Round **down** if you have a budget limit.\n- Temperature conversion: $F = \\frac{9C}{5} + 32$. To find Celsius from Fahrenheit, rearrange: $C = \\frac{5(F - 32)}{9}$." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-02-03-L1-Q5", "type": "FormulaCalculation", "difficulty": 3, "marks": 2,
+          "text": "The formula $F = \\frac{9C}{5} + 32$ converts a temperature $C$ in degrees Celsius to $F$ in degrees Fahrenheit. A thermometer reads 77 °F. What is this temperature in degrees Celsius?",
+          "hint": "Subtract 32 first, then multiply by 5 and divide by 9.",
+          "explanation": "$77 = \\frac{9C}{5} + 32$. Subtract 32: $45 = \\frac{9C}{5}$. Multiply by 5: $225 = 9C$. Divide by 9: $C = 25$.",
+          "answers": [ { "numeric": 25, "tolerance": 0, "unit": "°C", "marks": 2 } ] } },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-02-03-L1-Q6", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true,
+          "text": "The surface area of a closed cylinder is given by $S = 2\\pi r^2 + 2\\pi r h$, where $r$ is the radius and $h$ is the height.\n\n(a) Work out $S$ when $r = 3$ cm and $h = 10$ cm. Give your answer to 3 significant figures. **(2 marks)**\n\n(b) Make $h$ the subject of the formula. **(2 marks)**",
+          "hint": "For (b), the term $2\\pi r^2$ does not contain $h$, so move it first, then divide by $2\\pi r$.",
+          "explanation": "(a) $S = 2\\pi(9) + 2\\pi(3)(10) = 18\\pi + 60\\pi = 78\\pi \\approx 245$ cm². (b) $S - 2\\pi r^2 = 2\\pi r h$, so $h = \\frac{S - 2\\pi r^2}{2\\pi r}$.",
+          "markScheme": [
+            { "criterion": "Correct substitution: 2π(3)² + 2π(3)(10) or 18π + 60π", "marks": 1, "keywords": [ ["18π", "18 pi", "60π", "60 pi", "78π"] ] },
+            { "criterion": "S = 245 cm² (accept 245.0 to 245.1)", "marks": 1, "keywords": [ ["245"] , ["245", "cm"] ] },
+            { "criterion": "Subtracts 2πr² from both sides: S − 2πr² = 2πrh", "marks": 1, "keywords": [ ["s-2πr", "s − 2πr", "s - 2πr", "s-2pir", "s - 2 pi r"] ] },
+            { "criterion": "h = (S − 2πr²)/(2πr)", "marks": 1, "keywords": [ ["/(2πr)", "/ (2πr)", "/2πr", "÷ 2πr", "over 2πr"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Substitute** by replacing letters with numbers, writing negatives in brackets, then follow BIDMAS.\n- To **write a formula**, multiply the letter by anything charged *per* item and add fixed amounts. Test it with simple numbers.\n- To **rearrange**, undo operations in reverse order, doing the same to both sides, until the new subject is alone.\n- Square roots undo squares; multiplying undoes division.\n- In context questions, list what you know, rearrange or substitute, then check the answer makes sense." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-02-03-L1-P1", "type": "FormulaCalculation", "difficulty": 1, "marks": 1, "text": "Find the value of $4p + 7$ when $p = 6$.", "hint": "Multiply first, then add.", "explanation": "$4 \\times 6 = 24$, and $24 + 7 = 31$.", "answers": [ { "numeric": 31, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-03-L1-P2", "type": "FormulaCalculation", "difficulty": 2, "marks": 1, "text": "Find the value of $x^2 - 3x$ when $x = -4$.", "hint": "$(-4)^2$ is positive, and subtracting $3 \\times (-4)$ means adding 12.", "explanation": "$(-4)^2 = 16$ and $3 \\times (-4) = -12$. $16 - (-12) = 28$.", "answers": [ { "numeric": 28, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-02-03-L1-P3", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: when $y = -5$, the value of $-y^2$ is 25.", "hint": "The square applies to $y$ only; the minus sign is applied afterwards.", "explanation": "False. $y^2 = 25$, so $-y^2 = -25$.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
+        { "key": "AQA-MAT-02-03-L1-P4", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "A rectangle has width $w$ cm and its length is 3 cm more than its width. Which formula gives its perimeter $P$?", "hint": "The length is $w + 3$. A perimeter has two lengths and two widths.", "explanation": "$P = 2w + 2(w + 3) = 4w + 6$.", "options": [ { "text": "$P = 4w + 6$", "correct": true }, { "text": "$P = 2w + 3$", "correct": false, "feedback": "This is only the width plus the length." }, { "text": "$P = w(w + 3)$", "correct": false, "feedback": "That is the area, not the perimeter." }, { "text": "$P = 4w + 3$", "correct": false, "feedback": "The extra 3 cm appears on both lengths." } ] },
+        { "key": "AQA-MAT-02-03-L1-P5", "type": "Equation", "difficulty": 2, "marks": 2, "text": "Make $x$ the subject of $y = 4x - 9$.", "hint": "Add 9 to both sides, then divide by 4. Type your answer as an expression for $x$ in the form (y+9)/4, without spaces.", "explanation": "$y + 9 = 4x$, so $x = \\frac{y + 9}{4}$.", "answers": [ { "text": "(y+9)/4", "caseSensitive": false, "marks": 2 } ] },
+        { "key": "AQA-MAT-02-03-L1-P6", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "The kinetic energy of an object is $E = \\frac{1}{2}mv^2$. Find the speed $v$ (in m/s) of a 4 kg object with kinetic energy 200 J.", "hint": "Substitute, then rearrange: $200 = 2v^2$.", "explanation": "$200 = \\frac{1}{2} \\times 4 \\times v^2 = 2v^2$. So $v^2 = 100$ and $v = 10$ m/s.", "answers": [ { "numeric": 10, "tolerance": 0, "unit": "m/s", "marks": 2 } ] },
+        { "key": "AQA-MAT-02-03-L1-P7", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentences about rearranging.", "metadata": { "blanksText": "To make $r$ the subject of $A = \\pi r^2$, first divide both sides by ___ and then take the ___ of both sides." }, "hint": "Undo the multiplication first, then undo the square.", "explanation": "Divide by $\\pi$ to leave $r^2$, then take the square root: $r = \\sqrt{A/\\pi}$.", "answers": [ { "text": "pi", "blankIndex": 0, "marks": 1 }, { "text": "square root", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-02-03-L1-P8", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "A phone contract costs £12 per month plus 5p for every text message over the allowance. Write a formula for the monthly cost $C$ in pounds for $t$ extra texts, then use it to find the cost when $t = 140$.", "hint": "Convert 5p to pounds first: £0.05.", "explanation": "$C = 12 + 0.05t$. When $t = 140$: $C = 12 + 7 = £19$.", "answers": [ { "numeric": 19, "tolerance": 0, "unit": "£", "marks": 2 } ] },
+        { "key": "AQA-MAT-02-03-L1-P9", "type": "Ordering", "difficulty": 3, "marks": 1, "text": "Put these steps in order to make $x$ the subject of $y = \\sqrt{x + 3}$.", "hint": "The square root is the outermost operation, so undo it first.", "explanation": "Square both sides to remove the root, then subtract 3, then write $x$ on the left.", "order": [ "Square both sides: y² = x + 3", "Subtract 3 from both sides: y² − 3 = x", "Write the answer as x = y² − 3" ] },
+        { "key": "AQA-MAT-02-03-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Priya substitutes $x = -3$ into $2x^2$ and gets $-18$. Explain her mistake and give the correct value.", "hint": "What is $(-3)^2$?", "explanation": "She squared incorrectly or applied the minus after squaring. $(-3)^2 = 9$, so $2x^2 = 18$.", "markScheme": [ { "criterion": "Explains that squaring a negative number gives a positive result / (−3)² = 9", "marks": 1, "keywords": [ ["positive", "(-3)^2 = 9", "(−3)² = 9", "squared is 9", "= 9"] ] }, { "criterion": "Correct value 18", "marks": 1, "keywords": [ ["18", "= 18", "is 18"] ] } ] },
+        { "key": "AQA-MAT-02-03-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "The time $T$ seconds for a pendulum of length $L$ metres to swing once is given by $T = 2\\pi\\sqrt{\\frac{L}{10}}$.\n\n(a) Make $L$ the subject of the formula. **(2 marks)**\n\n(b) Find the length of a pendulum that takes 3 seconds to swing once. Give your answer to 2 decimal places. **(1 mark)**", "hint": "Divide by $2\\pi$ first, then square both sides, then multiply by 10.", "explanation": "(a) $\\frac{T}{2\\pi} = \\sqrt{\\frac{L}{10}}$, so $\\frac{T^2}{4\\pi^2} = \\frac{L}{10}$ and $L = \\frac{10T^2}{4\\pi^2} = \\frac{5T^2}{2\\pi^2}$. (b) $L = \\frac{5 \\times 9}{2\\pi^2} \\approx 2.28$ m.", "markScheme": [ { "criterion": "Divides by 2π and squares both sides: T²/(4π²) = L/10", "marks": 1, "keywords": [ ["4π²", "4π^2", "4pi^2", "(2π)²", "(2π)^2"] ] }, { "criterion": "L = 10T²/(4π²) or equivalent 5T²/(2π²)", "marks": 1, "keywords": [ ["10t²/(4π²)", "10t^2/(4π^2)", "5t²/(2π²)", "5t^2/(2π^2)", "l ="] ] }, { "criterion": "L = 2.28 m", "marks": 1, "keywords": [ ["2.28", "2.28 m", "2.279"] ] } ] }
+      ]
+    }
+  ]
+}

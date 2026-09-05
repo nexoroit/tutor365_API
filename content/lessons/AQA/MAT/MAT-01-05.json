@@ -1,0 +1,94 @@
+{
+  "subTopicCode": "MAT-01-05",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-01-05-L1",
+      "title": "Percentages",
+      "summary": "Find percentages of amounts with and without a calculator, increase and decrease by a percentage using multipliers, write one number as a percentage of another, and work backwards to an original amount.",
+      "objectives": [
+        "I can find a percentage of an amount using 10%, 5% and 1% building blocks or a multiplier.",
+        "I can increase or decrease an amount by a percentage using a decimal multiplier.",
+        "I can express one quantity as a percentage of another.",
+        "I can calculate a percentage change.",
+        "I can find the original amount after a percentage change (reverse percentages)."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        { "type": "Explanation", "title": "Finding a percentage of an amount", "minutes": 4, "content": "## Building blocks without a calculator\n\n*Per cent* means *out of 100*, so 1% of something is that thing divided by 100.\n\nThe quickest non-calculator method is to build the percentage you want from easy pieces:\n\n| Percentage | How to find it |\n|---|---|\n| 50% | halve it |\n| 25% | halve it twice |\n| 10% | divide by 10 |\n| 5% | half of 10% |\n| 1% | divide by 100 |\n\n**Find 35% of 240**\n\n- 10% of 240 = 24\n- 30% = 3 × 24 = 72\n- 5% = half of 24 = 12\n- 35% = 72 + 12 = **84**\n\n## With a calculator: the multiplier\n\nTurn the percentage into a decimal and multiply.\n\n35% of 240 = 0.35 × 240 = 84\n\n17.5% of 60 = 0.175 × 60 = 10.5\n\nThe multiplier method is fastest whenever a calculator is allowed, and it is the foundation for everything else in this lesson." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-05-L1-Q1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1,
+          "text": "Work out 15% of 320 without a calculator.",
+          "hint": "Find 10% and 5%, then add them.",
+          "explanation": "10% of 320 = 32. 5% = 16. 15% = 32 + 16 = 48.",
+          "answers": [ { "numeric": 48, "tolerance": 0 } ] } },
+        { "type": "Explanation", "title": "Percentage increase and decrease", "minutes": 4, "content": "## Multipliers do the whole job in one step\n\nTo **increase** by a percentage, add it to 100% and convert to a decimal.\n\n- Increase by 20% → multiplier **1.20**\n- Increase by 4% → multiplier **1.04**\n- Increase by 12.5% → multiplier **1.125**\n\nTo **decrease** by a percentage, subtract it from 100%.\n\n- Decrease by 20% → multiplier **0.80**\n- Decrease by 4% → multiplier **0.96**\n- Decrease by 35% → multiplier **0.65**\n\n**Example:** a £48 jacket is reduced by 30%. New price = 0.7 × 48 = **£33.60**.\n\n**Example:** a population of 2500 grows by 6%. New population = 1.06 × 2500 = **2650**.\n\n**Non-calculator alternative:** find the percentage, then add or subtract it. 30% of 48 = 14.40, so 48 − 14.40 = 33.60. Both methods give the same answer, but the multiplier is quicker and is essential for reverse percentages and compound interest later on.\n\nA useful check: after an increase the multiplier is **bigger than 1**; after a decrease it is **less than 1**." },
+        { "type": "Example", "title": "Worked example: VAT and a sale", "minutes": 4, "content": "**1. A laptop costs £540 before VAT. VAT is charged at 20%. What is the price including VAT?**\n\nMultiplier for a 20% increase = 1.2.\n\n$1.2 \\times 540 = 648$\n\nPrice including VAT = **£648**\n\n**2. In a sale, a £64 pair of trainers is reduced by 15%. What is the sale price?**\n\nMultiplier for a 15% decrease = 0.85.\n\n$0.85 \\times 64 = 54.40$\n\nSale price = **£54.40**\n\n**3. A mobile contract goes up from £22 a month to £24.20 a month. What multiplier has been applied?**\n\n$24.20 \\div 22 = 1.1$, which is a **10% increase**.\n\nDividing *new* by *old* always gives you the multiplier, which is a neat way to find a percentage change quickly." },
+        { "type": "Question", "title": "Quick check", "question": {
+          "key": "AQA-MAT-01-05-L1-Q2", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
+          "text": "Which multiplier decreases an amount by 8%?",
+          "hint": "Subtract 8% from 100%, then write it as a decimal.",
+          "explanation": "100% − 8% = 92% = 0.92.",
+          "options": [
+            { "text": "0.92", "correct": true },
+            { "text": "0.8", "correct": false, "feedback": "0.8 is a 20% decrease." },
+            { "text": "1.08", "correct": false, "feedback": "That is an 8% increase." },
+            { "text": "0.08", "correct": false, "feedback": "That finds 8% of the amount, not the amount after the decrease." } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-05-L1-Q3", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
+          "text": "A gym membership costs £36 a month. The price increases by 12.5%. Work out the new monthly price in pounds.",
+          "hint": "Multiplier = 1.125.",
+          "explanation": "1.125 × 36 = 40.50. New price = £40.50.",
+          "answers": [ { "numeric": 40.5, "tolerance": 0.01, "unit": "£", "marks": 2 } ] } },
+        { "type": "Explanation", "title": "One number as a percentage of another", "minutes": 4, "content": "## Writing a comparison as a percentage\n\nTo write *A as a percentage of B*:\n\n$$\\frac{A}{B} \\times 100$$\n\n**Example:** Kai scored 42 out of 60 in a test. As a percentage: $\\frac{42}{60} \\times 100 = 70\\%$.\n\nMake sure both quantities are in the **same units** first. 45 minutes as a percentage of 2 hours is $\\frac{45}{120} \\times 100 = 37.5\\%$, not $\\frac{45}{2}$.\n\n## Percentage change\n\n$$\\text{percentage change} = \\frac{\\text{change}}{\\text{original}} \\times 100$$\n\nThe **original** value always goes on the bottom. This is the single most common slip in the whole topic.\n\n**Example:** a house bought for £160 000 sells for £184 000.\n\nChange = 24 000. Percentage increase = $\\frac{24\\,000}{160\\,000} \\times 100 = 15\\%$.\n\n**Example:** a car worth £9000 is now worth £7650.\n\nChange = 1350. Percentage decrease = $\\frac{1350}{9000} \\times 100 = 15\\%$.\n\nProfit and loss questions are the same idea: percentage profit = profit ÷ cost price × 100." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-05-L1-Q4", "type": "FormulaCalculation", "difficulty": 3, "marks": 2,
+          "text": "A shop buys a bike for £250 and sells it for £310. Calculate the percentage profit.",
+          "hint": "Profit = 60. Divide by the cost price, then multiply by 100.",
+          "explanation": "Profit = 310 − 250 = 60. Percentage profit = 60 ÷ 250 × 100 = 24%.",
+          "answers": [ { "numeric": 24, "tolerance": 0, "unit": "%", "marks": 2 } ] } },
+        { "type": "Explanation", "title": "Reverse percentages", "minutes": 5, "content": "## Working backwards to the original amount\n\nSometimes you know the value **after** a change and want the value **before** it.\n\n**Example:** after a 20% rise, a rent is £720 a month. What was it before?\n\nThe wrong approach is to take 20% off £720. That gives £576, which is not right, because the 20% was 20% of the *old* rent, not the new one.\n\nInstead, use the multiplier in reverse:\n\n- New = old × 1.2\n- So old = new ÷ 1.2 = 720 ÷ 1.2 = **£600**\n\nCheck: 1.2 × 600 = 720. ✓\n\n**Example:** a coat costs £51 in a 15% off sale. What was the full price?\n\n- Sale price = original × 0.85\n- Original = 51 ÷ 0.85 = **£60**\n\n**Non-calculator version:** £51 is 85%, so 1% is 51 ÷ 85 = 0.6, and 100% is £60.\n\n**How to spot a reverse percentage question:** the change has *already happened* and the question asks for the *original*, *before* or *full* value. Divide by the multiplier — never multiply by it." },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-05-L1-Q5", "type": "FormulaCalculation", "difficulty": 3, "marks": 2,
+          "text": "A television costs £456 including VAT at 20%. Work out the price before VAT was added, in pounds.",
+          "hint": "£456 is 120% of the original. Divide by 1.2.",
+          "explanation": "Original = 456 ÷ 1.2 = £380. Check: 1.2 × 380 = 456.",
+          "answers": [ { "numeric": 380, "tolerance": 0.01, "unit": "£", "marks": 2 } ] } },
+        { "type": "Question", "title": "Practice", "question": {
+          "key": "AQA-MAT-01-05-L1-Q6", "type": "TrueFalse", "difficulty": 2, "marks": 1,
+          "text": "True or false: increasing a number by 25% and then decreasing the result by 25% gets you back to the original number.",
+          "hint": "Try it with 100.",
+          "explanation": "False. 100 × 1.25 = 125, then 125 × 0.75 = 93.75. The 25% decrease is taken from a bigger number, so you end up lower than where you started. Overall multiplier: 1.25 × 0.75 = 0.9375.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] } },
+        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Percentage change**: divide by the **original**, not the new value.\n- **Reverse percentages**: divide by the multiplier. Taking the percentage off the new value is wrong.\n- **Small percentages**: 3% is 0.03 and a 3% increase is 1.03, not 1.3.\n- **Successive changes**: multiply the multipliers. A 10% rise followed by a 10% fall is 1.1 × 0.9 = 0.99, a 1% overall decrease.\n- **Money answers**: give two decimal places, so £54.4 should be written as £54.40.\n- **Units**: convert to the same unit before writing one quantity as a percentage of another.\n- **Read the question**: does it want the *increase* or the *new amount*? They are different numbers." },
+        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
+          "key": "AQA-MAT-01-05-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true,
+          "text": "Two shops sell the same model of headphones.\n\n**Shop A:** usual price £80, with 35% off.\n\n**Shop B:** usual price £75, with 30% off, then a further 5% off the reduced price.\n\nWhich shop is cheaper, and by how much? You must show your working.",
+          "hint": "Work out both final prices. In Shop B the second discount is applied to the already-reduced price, so multiply the two multipliers.",
+          "explanation": "Shop A: 0.65 × 80 = £52. Shop B: 0.7 × 75 = £52.50, then 0.95 × 52.50 = £49.875 ≈ £49.88. Shop B is cheaper by about £2.12 (£2.13 if you round Shop B down to £49.87).",
+          "markScheme": [
+            { "criterion": "Shop A price = £52", "marks": 1, "keywords": [ ["52", "£52", "52.00"] ] },
+            { "criterion": "Applies 30% off to £75 to get £52.50", "marks": 1, "keywords": [ ["52.5", "52.50"] ] },
+            { "criterion": "Applies further 5% off to get £49.88 (accept 49.87 or 49.875)", "marks": 1, "keywords": [ ["49.87", "49.88", "49.875"] ] },
+            { "criterion": "States Shop B is cheaper by about £2.12", "marks": 1, "keywords": [ ["shop b", "b is cheaper"], ["2.12", "2.13", "2.125"] ] } ] } },
+        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Percentage of an amount: build from 10%, 5%, 1%, or multiply by the decimal.\n- Increase by $p\\%$: multiply by $1 + \\frac{p}{100}$. Decrease: multiply by $1 - \\frac{p}{100}$.\n- $A$ as a percentage of $B$: $\\frac{A}{B} \\times 100$.\n- Percentage change $= \\frac{\\text{change}}{\\text{original}} \\times 100$.\n- Reverse percentage: **divide** by the multiplier to get back to the original.\n- Successive changes: multiply the multipliers together." }
+      ],
+      "practiceQuestions": [
+        { "key": "AQA-MAT-01-05-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Work out 40% of 85.", "hint": "10% of 85 is 8.5.", "explanation": "10% = 8.5, so 40% = 4 × 8.5 = 34.", "answers": [ { "numeric": 34, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-05-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Increase 150 by 30%.", "hint": "Multiply by 1.3.", "explanation": "1.3 × 150 = 195.", "answers": [ { "numeric": 195, "tolerance": 0 } ] },
+        { "key": "AQA-MAT-01-05-L1-P3", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "What multiplier represents an increase of 2.5%?", "hint": "Add 2.5% to 100% and convert to a decimal.", "explanation": "102.5% = 1.025.", "options": [ { "text": "1.025", "correct": true }, { "text": "1.25", "correct": false, "feedback": "1.25 is a 25% increase." }, { "text": "1.0025", "correct": false }, { "text": "0.975", "correct": false, "feedback": "That is a 2.5% decrease." } ] },
+        { "key": "AQA-MAT-01-05-L1-P4", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "A tin holds 750 g of beans. A larger tin holds 20% more. How many grams does the larger tin hold?", "hint": "Multiply 750 by 1.2.", "explanation": "1.2 × 750 = 900 g.", "answers": [ { "numeric": 900, "tolerance": 0, "unit": "g", "marks": 2 } ] },
+        { "key": "AQA-MAT-01-05-L1-P5", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "Amira scored 51 out of 68 in a test. Write her score as a percentage.", "hint": "Divide 51 by 68 and multiply by 100.", "explanation": "51 ÷ 68 = 0.75, so 75%.", "answers": [ { "numeric": 75, "tolerance": 0, "unit": "%", "marks": 2 } ] },
+        { "key": "AQA-MAT-01-05-L1-P6", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentence.", "metadata": { "blanksText": "To find a percentage change, divide the change by the ___ value and multiply by ___." }, "hint": "Which value goes on the bottom: the one before or after the change?", "explanation": "Percentage change = change ÷ original × 100.", "answers": [ { "text": "original", "blankIndex": 0, "marks": 1 }, { "text": "100", "blankIndex": 1, "marks": 1 } ] },
+        { "key": "AQA-MAT-01-05-L1-P7", "type": "Matching", "difficulty": 2, "marks": 4, "text": "Match each description to the correct multiplier.", "hint": "Increases go above 1, decreases below 1.", "explanation": "Increase 15% → 1.15; decrease 15% → 0.85; increase 1.5% → 1.015; decrease 50% → 0.5.", "pairs": [ { "left": "Increase by 15%", "right": "1.15" }, { "left": "Decrease by 15%", "right": "0.85" }, { "left": "Increase by 1.5%", "right": "1.015" }, { "left": "Decrease by 50%", "right": "0.5" } ] },
+        { "key": "AQA-MAT-01-05-L1-P8", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "The number of pupils at a school fell from 1250 to 1100. Calculate the percentage decrease.", "hint": "Change = 150. Divide by the original 1250.", "explanation": "150 ÷ 1250 × 100 = 12%.", "answers": [ { "numeric": 12, "tolerance": 0, "unit": "%", "marks": 2 } ] },
+        { "key": "AQA-MAT-01-05-L1-P9", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "After a 12% pay rise, Leo earns £29 120 a year. How much did he earn before the rise, in pounds?", "hint": "£29 120 is 112% of the old salary. Divide by 1.12.", "explanation": "29 120 ÷ 1.12 = £26 000.", "answers": [ { "numeric": 26000, "tolerance": 0.5, "unit": "£", "marks": 2 } ] },
+        { "key": "AQA-MAT-01-05-L1-P10", "type": "Ordering", "difficulty": 3, "marks": 2, "text": "Put these steps in order to find the original price of a jumper that costs £34 after a 15% reduction.", "hint": "You need the multiplier before you can divide by it.", "explanation": "Work out that £34 is 85% of the original, write the multiplier 0.85, divide 34 by 0.85 to get £40, then check 0.85 × 40 = 34.", "order": [ "Recognise that £34 represents 85% of the original price", "Write the multiplier as 0.85", "Divide 34 by 0.85 to get £40", "Check that 0.85 × 40 gives 34" ] },
+        { "key": "AQA-MAT-01-05-L1-P11", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "A phone is reduced by 20% in a sale. Sam says: \"If the shop puts the price up by 20% next week, it will be back to the original price.\" Explain why Sam is wrong.", "hint": "The 20% increase is applied to the smaller sale price.", "explanation": "The 20% rise is 20% of the reduced price, which is smaller than the original, so it adds back less than was taken off. Overall multiplier 0.8 × 1.2 = 0.96, a 4% decrease.", "markScheme": [ { "criterion": "Explains that the increase is 20% of the smaller (sale) price, so it is less than the original decrease", "marks": 1, "keywords": [ ["smaller", "reduced price", "sale price", "lower price", "less than"] ] }, { "criterion": "Supports with a calculation, e.g. 0.8 × 1.2 = 0.96 or an example such as 100 → 80 → 96", "marks": 1, "keywords": [ ["0.96", "96", "4%", "4 %"] ] } ] },
+        { "key": "AQA-MAT-01-05-L1-P12", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "A car dealer buys a car for £6400. She spends £350 on repairs and then sells the car for £8100. Calculate her percentage profit, giving your answer to 1 decimal place.", "hint": "Total cost includes the repairs. Profit = selling price − total cost.", "explanation": "Total cost = 6400 + 350 = £6750. Profit = 8100 − 6750 = £1350. Percentage profit = 1350 ÷ 6750 × 100 = 20.0%.", "markScheme": [ { "criterion": "Total cost = £6750", "marks": 1, "keywords": [ ["6750", "6 750"] ] }, { "criterion": "Profit = £1350", "marks": 1, "keywords": [ ["1350", "1 350"] ] }, { "criterion": "Percentage profit = 20.0%", "marks": 1, "keywords": [ ["20.0", "20%", "20 %"] ] } ] }
+      ]
+    }
+  ]
+}

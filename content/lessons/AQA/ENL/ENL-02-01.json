@@ -1,0 +1,339 @@
+{
+  "subTopicCode": "ENL-02-01",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-02-01-L1",
+      "title": "Descriptive writing",
+      "summary": "Learn what Paper 1 Question 5 asks of you and how to write a vivid, well-structured description that makes the reader see, hear and feel a scene without drifting into a story.",
+      "objectives": [
+        "I can explain how Paper 1 Question 5 is marked and how to use the 45 minutes.",
+        "I can zoom in and out of a scene and use the five senses to create atmosphere.",
+        "I can show a mood through detail and action rather than telling the reader.",
+        "I can structure a description using camera movement or a shift in time and weather.",
+        "I can keep a piece descriptive and avoid drifting into a plot."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What Paper 1 Question 5 asks",
+          "minutes": 4,
+          "content": "## Paper 1, Section B: the creative writing task\n\nSection B of Paper 1 is one writing question worth **40 marks** – half of the whole paper. You are normally offered a choice of two tasks, for example a **picture prompt** ('Write a description suggested by this picture') and a **statement prompt** ('Write the opening part of a story about a journey'). You answer **one**.\n\nThe 40 marks are split like this:\n\n| Assessment objective | What it rewards | Marks |\n|---|---|---|\n| **AO5** Content and organisation | ideas, tone, vocabulary, imagery, structure, paragraphs | 24 |\n| **AO6** Technical accuracy | spelling, punctuation, sentence variety, grammar | 16 |\n\nYou have about **45 minutes** for this section. A sensible split is 5 minutes planning, 35 minutes writing and 5 minutes checking.\n\nRemember: a **description is not a story**. Nobody needs to be rescued and nothing needs to explode. Your job is to make the reader *see, hear and feel* a place or moment so clearly that they forget they are reading. Think of yourself as a camera with feelings: you decide what the reader looks at, how close they get, and what mood colours everything they see."
+        },
+        {
+          "type": "Example",
+          "title": "Model opening: a city street in the rain",
+          "minutes": 4,
+          "content": "**Task:** Write a description suggested by a picture of a city street at night in the rain.\n\n> The city did not sleep; it simply lowered its voice. From the roof of the car park, the streets below were ribbons of black glass, stitched with the red and amber of tail lights. Rain fell in fine, tireless threads. Somewhere a siren rose and faded like a question nobody answered.\n>\n> Closer now. On the corner, a chip-shop window steamed and glowed. A woman in a grey raincoat shook her umbrella, scattering silver, and stepped inside. The door sighed shut behind her.\n\n**Why it works**\n\n- It opens with a **wide shot** (the whole city) and then narrows to a **close-up** (one corner, one woman). That is zooming in.\n- **Personification** ('the city lowered its voice') sets a hushed mood in the very first line.\n- The **metaphor** 'ribbons of black glass' is precise, not just decorative – wet roads really do look like that.\n- A **minor sentence** ('Closer now.') tells the reader the camera is moving.\n- **Sound** (the siren, the sighing door) is mixed with **sight** (lights, steam), so the scene has more than one sense.\n- Nothing *happens* yet. The woman going inside is a detail, not the start of a plot."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: the marks",
+          "question": {
+            "key": "AQA-ENL-02-01-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "In Paper 1 Question 5, how many of the 40 marks are awarded for **technical accuracy** (AO6) – spelling, punctuation and grammar?",
+            "hint": "AO5 (content and organisation) takes the larger share.",
+            "explanation": "AO5 content and organisation is worth 24 marks and AO6 technical accuracy is worth 16 marks. Together they make 40. So accuracy is worth almost half – it is well worth spending five minutes checking.",
+            "options": [
+              { "text": "16 marks", "correct": true },
+              { "text": "24 marks", "correct": false, "feedback": "24 is the AO5 content and organisation share." },
+              { "text": "8 marks", "correct": false },
+              { "text": "40 marks", "correct": false, "feedback": "40 is the total for the whole question." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Zooming, the five senses and show-don't-tell",
+          "minutes": 5,
+          "content": "## Three habits of strong describers\n\n**1. Zoom in and out.** Start wide (the whole beach, the whole hall) so the reader knows where they are, then zoom in on one small thing: a single shell, one flickering light, a scratch on a desk. Small details feel real. Later, zoom back out to show the bigger picture has changed.\n\n**2. Use more than your eyes.** Most students only write what can be *seen*. Add **sound** (a hum, a creak, silence), **smell** (salt, diesel, damp wool), **touch** (grit, cold metal, heat on skin) and, if it fits, **taste**. You do not need all five in every paragraph – two or three well chosen senses beat a checklist.\n\n**3. Show, don't tell.** *Telling* gives the reader a label: 'She was nervous.' *Showing* gives the reader evidence and lets them work it out: 'She folded the ticket, unfolded it, folded it again.' Showing is more interesting because the reader does some of the thinking. A quick test: if you have written the word *scary*, *beautiful*, *sad* or *happy*, ask what the reader would actually notice, and describe that instead.\n\nTogether these habits turn a flat list of things into an experience the reader shares."
+        },
+        {
+          "type": "Example",
+          "title": "Weak versus improved: the empty house",
+          "minutes": 4,
+          "content": "**Weak version (telling, sight only):**\n\n> The old house was scary. It was dark and cold and I felt nervous. There were cobwebs everywhere and it smelt bad. I didn't want to go in.\n\n**Improved version (showing, several senses):**\n\n> The house leaned into the dusk as if it were listening. Cold breathed out of the doorway – a damp, mushroom-cellar cold that found every gap in my coat. Cobwebs hung in the corners like forgotten washing. Somewhere inside, a tap dripped, counting. My hand hovered at the door frame. Hovered. Then dropped.\n\n**What changed?**\n\n| Weak | Improved | Technique |\n|---|---|---|\n| 'was scary' | 'leaned into the dusk as if it were listening' | personification – the house feels alive |\n| 'cold' | 'mushroom-cellar cold that found every gap in my coat' | precise smell + touch instead of a label |\n| 'cobwebs everywhere' | 'like forgotten washing' | simile that hints at abandonment |\n| 'I felt nervous' | 'My hand hovered... Hovered. Then dropped.' | action shows fear; repetition and a short sentence slow time |\n| nothing | 'a tap dripped, counting' | sound adds tension |\n\nNotice that the improved version never uses the words *scary* or *nervous*, yet the reader feels both."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: show, don't tell",
+          "question": {
+            "key": "AQA-ENL-02-01-L1-Q2",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Complete the sentences using the correct terms.",
+            "metadata": { "blanksText": "Instead of telling the reader that a character is angry, a writer can ___ the anger through actions such as a slammed door. Describing what can be smelt, heard or touched adds ___ detail." },
+            "hint": "The first word is the opposite of 'tell'. The second word is the adjective from 'senses'.",
+            "explanation": "Writers *show* emotion through action and detail rather than naming it, and they add *sensory* detail (sight, sound, smell, touch, taste) so the reader experiences the scene.",
+            "answers": [
+              { "text": "show", "blankIndex": 0, "marks": 1 },
+              { "text": "sensory", "blankIndex": 1, "marks": 1 }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Figurative language and sentence length",
+          "minutes": 5,
+          "content": "## Making language do more\n\n**Figurative language** compares one thing to another so the reader sees it freshly.\n\n- **Simile** – a comparison using *like* or *as*: 'the fog crept in like a stray cat'.\n- **Metaphor** – says one thing *is* another: 'the motorway was a river of headlights'.\n- **Personification** – gives human behaviour to something non-human: 'the wind rattled the gate, demanding to be let in'.\n- **Pathetic fallacy** – the weather or setting reflects the mood: grey clouds sagging over a funeral.\n\nThe golden rule is **precision, not decoration**. One well-judged image is worth five random ones. Ask: does this comparison tell the reader something true about how the thing looks, sounds or feels? If not, cut it.\n\n**Sentence length is a tool too.** Long, flowing sentences with several clauses can carry the reader smoothly through a calm scene, building up layer on layer of detail. Short ones stop them. A single word can land like a punch. Alternate the two on purpose: a run of long sentences followed by a three-word sentence makes that short one feel important. Examiners reward *varied sentence forms for effect* under both AO5 and AO6, so this is a cheap way to earn marks – as long as the variety is deliberate, not accidental."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: name the technique",
+          "question": {
+            "key": "AQA-ENL-02-01-L1-Q3",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each example to the technique it uses.",
+            "hint": "Look for 'like' or 'as' (simile), 'is/was' claiming one thing is another (metaphor), human actions given to objects (personification), and weather matching mood (pathetic fallacy).",
+            "explanation": "'Like a stray cat' is a simile. 'Was a river of headlights' is a metaphor. The wind 'demanding' is personification. Sagging grey clouds over a funeral is pathetic fallacy – the weather mirrors the sadness.",
+            "pairs": [
+              { "left": "The fog crept in like a stray cat.", "right": "Simile" },
+              { "left": "The motorway was a river of headlights.", "right": "Metaphor" },
+              { "left": "The wind rattled the gate, demanding to be let in.", "right": "Personification" },
+              { "left": "Grey clouds sagged over the mourners as the coffin passed.", "right": "Pathetic fallacy" }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Structuring a description and avoiding story drift",
+          "minutes": 5,
+          "content": "## Give your description a shape\n\nA description with no structure is just a pile of nice sentences. The examiner is looking for a piece that is *organised*, where each paragraph has a clear job. Two reliable shapes:\n\n**The camera pan.** Move the reader's eye through the scene as a film camera would. Paragraph 1: wide establishing shot. Paragraph 2: pan across to one area. Paragraph 3: close-up on a single object or person. Paragraph 4: pull back out. Each paragraph starts with a small signal of movement: *Beyond the fence…*, *Closer…*, *Above it all…*\n\n**The shift in time or weather.** Describe the same place at two moments: dawn then noon, before the storm then during it, the market at its busiest then after the stalls have packed up. The contrast *is* the structure, and it gives you a natural, satisfying ending.\n\n## Avoiding story drift\n\nThe most common way to lose marks is to start describing and end up telling a story: a stranger appears, a fight breaks out, a mystery is solved. Warning signs: lots of 'then', characters talking, events happening in sequence. If a person is in your scene, let them do one small, repeated or unfinished thing – wait, sweep, stare – rather than starting a plot. Time can pass; a story should not."
+        },
+        {
+          "type": "Example",
+          "title": "Planning a description: the winter beach",
+          "minutes": 4,
+          "content": "**Task:** Describe a beach in winter.\n\n**Five-minute plan (shift-in-weather structure):**\n\n1. Wide shot – empty sand, low grey sky, the sea the colour of pewter. Sound: gulls, wind.\n2. Zoom in – a single deckchair, canvas torn, half-buried. Touch: cold, gritty sand.\n3. Close-up – a child's plastic spade, faded red, forgotten since summer. One short sentence.\n4. Weather shifts – a squall rolls in, rain stings, the light drops. Pace quickens.\n5. Zoom out – the storm passes, the beach is the same but washed clean. Return to the deckchair (cyclical ending).\n\n**Model paragraph 4 (the shift):**\n\n> Then the sky changed its mind. A bruise of cloud slid across the bay and the wind, which had been merely bored, turned spiteful. Rain came sideways. It hissed on the sand, rattled the deckchair's torn canvas, filled the little red spade to the brim. For ten furious minutes the beach belonged to nobody.\n\n**Notice:** the paragraph opens with a clear time signal ('Then'), uses **personification** ('changed its mind', 'bored', 'spiteful'), returns to earlier details (deckchair, spade) so the piece feels linked, and speeds up with short, punchy sentences ('Rain came sideways.'). Something happens, but it is *weather*, not plot."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: camera structure",
+          "question": {
+            "key": "AQA-ENL-02-01-L1-Q4",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "A student is using a **zoom-in then zoom-out** camera structure to describe a mountain village. Put the paragraph ideas in the correct order.",
+            "hint": "Start as far away as possible, get steadily closer, then pull back at the end.",
+            "explanation": "The camera starts wide (whole valley), pans to a mid-shot (the village square), reaches a close-up (one cup on a windowsill), then pulls back to show the light has changed. The final zoom-out gives the piece a sense of an ending.",
+            "order": [
+              "Wide shot: the whole valley from the ridge, snow on the peaks, smoke from chimneys",
+              "Mid-shot: the village square, a frozen fountain, footprints crossing the snow",
+              "Close-up: a single chipped cup steaming on a cottage windowsill",
+              "Pull back: the sun drops behind the ridge and the valley turns blue"
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: story drift",
+          "question": {
+            "key": "AQA-ENL-02-01-L1-Q5",
+            "type": "MultipleAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Which of the following are **warning signs** that a descriptive piece is drifting into a story? Select all that apply.",
+            "hint": "Description is about atmosphere and detail; story is about events in sequence.",
+            "explanation": "Dialogue between characters, a sudden dramatic event and a chain of 'then… then… then' all signal plot. Shifting from dawn to dusk and zooming in on one object are legitimate descriptive structures.",
+            "options": [
+              { "text": "Two characters start having a conversation.", "correct": true },
+              { "text": "A stranger suddenly bursts through the door with a weapon.", "correct": true },
+              { "text": "Several sentences in a row begin with 'Then'.", "correct": true },
+              { "text": "The piece moves from describing the place at dawn to describing it at dusk.", "correct": false, "feedback": "A shift in time is a good descriptive structure, not story drift." },
+              { "text": "The writer zooms in on one rusted padlock for a whole paragraph.", "correct": false, "feedback": "Zooming in on a small detail is exactly what a description should do." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style checkpoint: write a description",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-02-01-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 6,
+            "examStyle": true,
+            "text": "**Write a description of a deserted playground at dusk.**\n\nWrite two or three paragraphs (around 150–250 words). Aim to:\n\n- open with a wide view, then zoom in on one object;\n- use at least two senses (not just sight);\n- include a simile or metaphor;\n- show the mood through detail rather than naming it;\n- end by shifting the light or time.\n\n*(In the exam this task would be worth 40 marks. Here it is checked against six key features.)*",
+            "hint": "Think about what is there when nobody is: swings moving in the wind, the chain of a slide, long shadows, the last of the light, the sound of nothing. Plan three paragraphs before you write.",
+            "explanation": "A strong answer might open wide ('The playground lay under a sky the colour of cold tea'), zoom to one object ('One swing moved, though there was no wind to move it'), use sound or silence ('the chains ticked against the frame'), include a simile ('the slide gleamed like a dropped knife'), show mood through detail rather than saying 'creepy', and close with the light fading ('Then the streetlamp stuttered on and the shadows lengthened into night'). Notice that nothing needs to *happen* – atmosphere is the point.",
+            "markScheme": [
+              { "criterion": "Names specific playground features to build the setting (swings, slide, roundabout, climbing frame, bench)", "marks": 1, "keywords": [ ["swing", "slide", "roundabout", "climbing frame", "bench"] ] },
+              { "criterion": "Includes visual detail of light or shadow", "marks": 1, "keywords": [ ["light", "shadow", "dark", "glow", "dusk"] ] },
+              { "criterion": "Includes sound or silence (a sense other than sight)", "marks": 1, "keywords": [ ["silen", "quiet", "creak", "echo", "rattl"] ] },
+              { "criterion": "Uses a simile or comparison", "marks": 1, "keywords": [ ["like", "as if", "as though"] ] },
+              { "criterion": "Includes touch or temperature detail", "marks": 1, "keywords": [ ["cold", "chill", "damp", "wind", "rough"] ] },
+              { "criterion": "Ends by shifting the light or time towards night", "marks": 1, "keywords": [ ["night", "moon", "star", "streetlamp", "last of the"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Paper 1 Q5** = 40 marks: 24 for content and organisation (AO5), 16 for technical accuracy (AO6). About 45 minutes: plan 5, write 35, check 5.\n- **Zoom in and out** – wide shot, then one small detail, then pull back.\n- **Use several senses**, not just sight: sound, smell, touch.\n- **Show, don't tell** – give evidence (actions, details) instead of labels like *scary* or *happy*.\n- **Figurative language** should be precise: simile, metaphor, personification, pathetic fallacy.\n- **Vary sentence length** deliberately. Short sentences hit hard.\n- **Structure** with a camera pan or a shift in time/weather; return to an earlier detail for a cyclical ending.\n- **Avoid story drift** – no dialogue, no sudden events, no chain of 'then'."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-02-01-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: in Paper 1 Question 5 you must answer **both** writing tasks offered.",
+          "hint": "Think about how much time you have – about 45 minutes.",
+          "explanation": "False. You choose ONE of the tasks offered (for example either the picture prompt or the story prompt) and spend the full 45 minutes on it.",
+          "options": [
+            { "text": "True", "correct": false },
+            { "text": "False", "correct": true }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of these sentences is **telling** rather than showing?",
+          "hint": "Telling names the feeling; showing gives the evidence.",
+          "explanation": "'The room was very sad' simply labels the mood. The other three give the reader details (dust, a stopped clock, an untouched plate, a shaking hand) and let them feel the sadness for themselves.",
+          "options": [
+            { "text": "The room was very sad.", "correct": true },
+            { "text": "Dust lay on the piano lid and the clock had stopped at ten past four.", "correct": false },
+            { "text": "Her plate sat untouched, the gravy gone to skin.", "correct": false },
+            { "text": "His hand shook as he reached for the photograph.", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence about the mark split.",
+          "metadata": { "blanksText": "Question 5 awards ___ marks for content and organisation (AO5) and ___ marks for technical accuracy (AO6)." },
+          "hint": "The two numbers add up to 40 and the AO5 share is larger.",
+          "explanation": "24 marks for AO5 content and organisation, 16 marks for AO6 technical accuracy: 24 + 16 = 40.",
+          "answers": [
+            { "text": "24", "blankIndex": 0, "marks": 1 },
+            { "text": "16", "blankIndex": 1, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P4",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each detail from a description of a fish market to the **sense** it mainly appeals to.",
+          "hint": "Ask what part of the body would notice each detail.",
+          "explanation": "Scales glittering is seen; the slap of a fish on the slab is heard; brine and diesel are smelt; wet, cold, slippery ice is felt.",
+          "pairs": [
+            { "left": "Scales glittered like loose change under the lamps.", "right": "Sight" },
+            { "left": "A fish slapped down onto the marble slab.", "right": "Sound" },
+            { "left": "Brine and diesel hung heavy in the air.", "right": "Smell" },
+            { "left": "Ice melted through my gloves, numbing my fingertips.", "right": "Touch" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P5",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which of these would be **good ways to structure** a descriptive piece? Select all that apply.",
+          "hint": "Structures that organise what the reader sees are good; anything that turns the piece into a plot is not.",
+          "explanation": "Panning like a camera, showing the same place at two times, and returning to the opening image are all descriptive structures. A twist and a chase are narrative devices – they would drag the piece into story.",
+          "options": [
+            { "text": "Move through the scene like a camera: wide shot, mid-shot, close-up, pull back.", "correct": true },
+            { "text": "Describe the same place before and after a change in weather.", "correct": true },
+            { "text": "Return to the image you opened with, slightly changed, for a cyclical ending.", "correct": true },
+            { "text": "Introduce a villain halfway through and end with a twist.", "correct": false, "feedback": "That is a story structure, not a descriptive one." },
+            { "text": "Have the narrator chased out of the scene by a dog.", "correct": false, "feedback": "A chase is an event – a sign of story drift." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P6",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Explain **two** differences between a descriptive piece and a narrative piece in Paper 1 Question 5.",
+          "hint": "Think about what a story needs that a description does not, and what a description focuses on instead.",
+          "explanation": "A narrative is built around events, characters and a plot that moves forward in time. A description focuses on creating atmosphere through sensory detail of a place or moment, and is organised by focus (zooming, panning) or shifts in time and weather rather than by what happens next.",
+          "markScheme": [
+            { "criterion": "States that a narrative has a plot / events / characters doing things", "marks": 1, "keywords": [ ["plot", "story", "event", "happen", "character"] ] },
+            { "criterion": "States that a description focuses on atmosphere, setting or sensory detail", "marks": 1, "keywords": [ ["atmosphere", "mood", "setting", "sens", "place"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P7",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these stages of a **zoom-in** structure in order, from furthest away to closest.",
+          "hint": "Each stage should be smaller than the one before.",
+          "explanation": "Valley, then farm, then kitchen window, then the cup on the sill: each step narrows the reader's focus.",
+          "order": [
+            "The whole valley under a low sky",
+            "One farm at the end of the lane",
+            "The lit kitchen window of the farmhouse",
+            "A chipped mug cooling on the windowsill"
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P8",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Which sentence is the clearest example of **pathetic fallacy**?",
+          "hint": "Pathetic fallacy is when the weather or natural world seems to share a human mood.",
+          "explanation": "In the correct answer the rain 'wept' on the day of the goodbye – the weather mirrors the sadness of the moment. The others are a plain simile, a factual weather report and a metaphor about a person.",
+          "options": [
+            { "text": "The rain wept down the windows on the morning she left.", "correct": true },
+            { "text": "The rain was as heavy as a dropped curtain.", "correct": false, "feedback": "That is a simile – it compares, but the weather does not share a mood." },
+            { "text": "It rained for most of the afternoon.", "correct": false, "feedback": "This is just a statement of fact." },
+            { "text": "He was a storm in a school blazer.", "correct": false, "feedback": "A metaphor about a person, not weather reflecting mood." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P9",
+          "type": "LongAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Rewrite this weak sentence as a short paragraph of three or four sentences that **shows** rather than tells, using at least one sense other than sight and one simile.\n\n> *It was very cold and the old man was sad.*",
+          "hint": "What does cold do to breath, fingers, windows? What does a sad person do with their hands, eyes or shoulders? Compare something to something else using 'like' or 'as if'.",
+          "explanation": "A good rewrite might be: 'Frost had crept up the inside of the window like a slow white tide. The old man sat with his coat still on, breath hanging in front of him. He turned the wedding ring on his finger, round and round, and did not look up when the kettle clicked off.' The cold is shown by frost and visible breath; the sadness by the ring, the coat and the unanswered kettle; and the simile compares frost to a tide.",
+          "markScheme": [
+            { "criterion": "Shows cold through physical detail rather than stating it (frost, breath, shiver, numb, ice)", "marks": 1, "keywords": [ ["frost", "breath", "shiver", "numb", "ice"] ] },
+            { "criterion": "Shows sadness through an action or body detail (hands, eyes, shoulders, sigh, stare)", "marks": 1, "keywords": [ ["hand", "eyes", "shoulder", "sigh", "stare"] ] },
+            { "criterion": "Uses a simile", "marks": 1, "keywords": [ ["like", "as if", "as though"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "**Write a description of a busy railway station as suggested by the following prompt:** *a crowded platform, a departure board, a train pulling in.*\n\nWrite around 200–300 words. Use a clear structure (camera pan or a shift in time), at least two senses, a figurative image and varied sentence lengths. Keep it descriptive: do not start a story.\n\n*(In the exam this task would be worth 40 marks. Here it is checked against six key features.)*",
+          "hint": "Plan first: wide shot of the concourse, zoom to the platform, close-up on one traveller or one object, then the train arrives and the scene changes. Let the noise, smells and crush of people do the work.",
+          "explanation": "A strong response might open with the departure board 'flickering like a nervous eyelid', pan across the crush of coats and cases, catch the smell of coffee and hot brakes, zoom to one passenger checking her watch again and again, then shift as the train 'exhales' into the platform and the crowd surges. It would use short sentences for the moment of arrival and longer ones for the waiting. Nothing dramatic happens – the train simply comes, and the platform empties.",
+          "markScheme": [
+            { "criterion": "Refers to station-specific features (platform, board, train, carriage, announcement)", "marks": 1, "keywords": [ ["platform", "board", "train", "carriage", "announc"] ] },
+            { "criterion": "Includes sound detail (noise, hum, roar, hiss, screech, voices)", "marks": 1, "keywords": [ ["noise", "hum", "roar", "hiss", "voice"] ] },
+            { "criterion": "Includes smell or touch detail (coffee, diesel, warm, cold, press of bodies)", "marks": 1, "keywords": [ ["coffee", "diesel", "smell", "warm", "cold"] ] },
+            { "criterion": "Uses a simile or comparison", "marks": 1, "keywords": [ ["like", "as if", "as though"] ] },
+            { "criterion": "Describes the crowd or people waiting", "marks": 1, "keywords": [ ["crowd", "people", "passenger", "commuter", "traveller"] ] },
+            { "criterion": "Includes a shift or change in the scene (the train arrives, the crowd moves, the platform empties)", "marks": 1, "keywords": [ ["arriv", "pull", "surge", "empt", "door"] ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "subTopicCode": "ENL-01-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-01-03-L1",
+      "title": "Analysing structure (Paper 1, Question 3)",
+      "summary": "Learn how to track the way a fiction extract is organised, from its opening focus through shifts in time, place and perspective to its ending, and explain why the writer built it that way.",
+      "objectives": [
+        "I can explain what 'structure' means in a fiction text and how it differs from language.",
+        "I can identify structural features such as shifts in focus, zooming in and out, flashback, contrast and cyclical endings.",
+        "I can explain why a writer changes focus at a particular point and what effect this has on the reader.",
+        "I can write an 8-mark structure answer that covers the beginning, a shift and the ending."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What Question 3 asks you to do",
+          "minutes": 4,
+          "content": "## Paper 1, Question 3: structure\n\nQuestion 3 is worth **8 marks** and, like Question 2, tests **AO2**, but this time the focus is on **structure** rather than language. It always asks you to think about the **whole source**:\n\n> You now need to think about the **whole** of the source. This text is from the opening of a novel. How has the writer structured the text to interest you as a reader?\n>\n> You could write about:\n> - what the writer focuses your attention on at the beginning\n> - how and why the writer changes this focus as the source develops\n> - any other structural features that interest you.\n\n**Structure** means the way the text is *organised*: the order in which things are shown to you, what the writer chooses to put first and last, when the focus moves, and how the pace changes. Think of the writer as a film director deciding where to point the camera and when to cut.\n\nThis is *not* a language question. If you find yourself writing about a simile or a powerful verb, stop: that belongs in Question 2. Here you are asking **\"why is this part here, and what happens to the reader when the focus moves?\"**\n\nSpend about **10 minutes**. The three bullet points map neatly onto a plan: beginning, a key shift, ending. Cover all three and you will have a complete answer."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: tracking the camera",
+          "minutes": 5,
+          "content": "**Read the whole extract.**\n\n> From the mainland, the lighthouse was a white finger pointing at nothing. Fishermen used it to steer by and tourists photographed it, but nobody thought about the man inside.\n>\n> Elias thought about little else. Each morning he climbed the one hundred and twelve steps, polished the great lens until his own face swam in it, and wrote the weather in a ledger nobody would read. Each evening he lit the lamp.\n>\n> It was on a Tuesday, with the fog so thick the beam seemed to stop a metre from the glass, that he heard the knocking.\n>\n> Three knocks. A pause. Three more.\n>\n> He told himself it was the wind. He had told himself that for eleven years. But when he opened the door at the foot of the stairs, there was a child on the step, soaked to the bone, holding out a letter with his own name on it.\n>\n> Far away, on the mainland, the fishermen watched the light go out.\n\n**Tracking the structure:**\n\n| Part | Focus | Why? |\n|---|---|---|\n| Opening | Wide shot from the mainland; the lighthouse seen from outside | Makes it seem distant and unimportant, then the last sentence hooks us: *the man inside* |\n| Paragraph 2 | Zooms in on Elias and his routine | Repetition of *each morning / each evening* builds a sense of dull, safe habit |\n| Paragraph 3 | Narrows to one specific Tuesday | The shift from routine to a single moment signals that something is about to change |\n| Paragraph 4 | Very short fragments | Pace slows; we hear the knocks with him; tension |\n| Paragraph 5 | The door and the child | The mystery deepens rather than resolves |\n| Ending | Pulls back to the mainland again | **Cyclical**: we return to the opening viewpoint, but now the light is out. The reader is left with questions. |\n\nA strong answer picks three of these moves and explains the **effect** of each."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: structure or language?",
+          "question": {
+            "key": "AQA-ENL-01-03-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "Which of these comments belongs in a **structure** answer rather than a language answer?",
+            "hint": "Structure is about where the focus goes and in what order, not about the meaning of individual words.",
+            "explanation": "Only the comment about the writer moving from a wide view to a close-up is about structure. The others analyse individual words or techniques, which belongs in Question 2.",
+            "options": [
+              { "text": "The writer begins with a wide view from the mainland and then narrows the focus to one man inside the lighthouse.", "correct": true },
+              { "text": "The metaphor 'a white finger' makes the lighthouse seem accusing.", "correct": false, "feedback": "This is language analysis of a metaphor." },
+              { "text": "The verb 'swam' suggests his reflection is distorted.", "correct": false, "feedback": "This zooms in on a word, which is a language point." },
+              { "text": "'Soaked to the bone' is a familiar idiom that makes the child seem pitiful.", "correct": false, "feedback": "This is about the connotations of a phrase, so it is a language point." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Your structure toolkit",
+          "minutes": 5,
+          "content": "## Structural features to look for\n\n| Feature | What to look for | Possible effects |\n|---|---|---|\n| **Opening focus** | What do we see first: a setting, a character, an object, dialogue? | Establishes mood; can withhold information to create mystery |\n| **Zooming in / out** | Wide view to a small detail, or the reverse | Zooming in makes something significant; zooming out shows scale or isolation |\n| **Shift in focus** | Moving from one character, place or idea to another | Contrast; new information; changes how we see what came before |\n| **Shift in time** | Flashback, flash-forward, a jump of hours or years | Explains motives; builds dread (*he did not know it was the last time*) |\n| **Shift in perspective** | From narrator to character's thoughts, or between characters | Lets us see inside a mind; creates dramatic irony |\n| **Repetition / motif** | A repeated image, object or phrase | Links parts together; measures change (*the water reached the third step... the fourth*) |\n| **Contrast / juxtaposition** | Two very different things placed side by side | Highlights difference; unsettles the reader |\n| **Pace** | Paragraph and sentence length; slow description versus rapid action | Short paragraphs speed up or isolate; long ones slow and immerse |\n| **Dialogue** | When speech first appears | Introduces conflict or a new voice |\n| **Ending** | Cyclical (returns to the start), cliffhanger, twist, resolution | Leaves the reader satisfied, unsettled or curious |\n\nYou do not need all of these. Pick the two or three that genuinely shape the extract, and always ask the same question about each: **why here, and what does it do to the reader?**"
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: match the feature to its definition",
+          "question": {
+            "key": "AQA-ENL-01-03-L1-Q2",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each structural term to its correct definition.",
+            "hint": "Think about time, image, viewpoint and the shape of the whole text.",
+            "explanation": "A flashback moves the narrative back in time. A motif is a repeated image or idea. A cyclical structure ends where it began. Juxtaposition places two contrasting things side by side.",
+            "pairs": [
+              { "left": "Flashback", "right": "The narrative moves back to an earlier time" },
+              { "left": "Motif", "right": "An image or idea that is repeated through the text" },
+              { "left": "Cyclical structure", "right": "The ending returns to the situation or image of the opening" },
+              { "left": "Juxtaposition", "right": "Two contrasting things are placed next to each other" }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Beginning, shift, ending: a plan that always works",
+          "minutes": 4,
+          "content": "## A three-part plan\n\nThe bullet points in the question give you the plan for free.\n\n**1. Beginning.** What does the writer show us first, and what is held back? Openings often start *wide* (a landscape, a town, the weather) or *tight* (a single object, a hand, a sound). Ask what mood this sets and what questions it raises.\n\n**2. The key shift.** Somewhere in the middle, the focus changes: to a new character, a new time, a close-up, a memory. Find the exact sentence where it happens. Explain what we learn from the change and how it alters our feelings about what came before. This is usually where the best marks are.\n\n**3. Ending.** How does the extract finish? Does it return to the opening (cyclical), stop abruptly (cliffhanger), or reveal something (twist)? What is the reader left thinking?\n\nFor each part, write in this shape:\n\n> *At the beginning / In the middle / At the end*, the writer focuses on **X**. [Brief quotation or reference.] This is a **[structural term]** which **[effect on the reader]**. The writer does this here because **[reason linked to the whole text]**.\n\nThe phrase **\"the writer does this here because\"** is the one that pushes you into the top band. It forces you to explain *purpose*, not just spot a feature."
+        },
+        {
+          "type": "Example",
+          "title": "Weak versus strong: the same shift",
+          "minutes": 4,
+          "content": "**The shift in the lighthouse extract:** the writer moves from Elias's daily routine to one particular Tuesday.\n\n**A weak answer:**\n\n> The writer starts with the lighthouse and then talks about Elias and then a child arrives. This makes the reader want to read on to find out what happens.\n\n*Why it is weak:* this is a summary of events with a generic effect bolted on. There is no structural terminology, no reason given for the change, and no specific effect.\n\n**A strong answer:**\n\n> In the second paragraph the writer establishes Elias's routine through the repeated frame *\"Each morning... Each evening\"*, which creates a sense of safe, unchanging habit. The third paragraph then shifts abruptly to a single specific day, *\"It was on a Tuesday\"*. This narrowing of the time frame signals to the reader that the routine is about to be broken, so tension rises before anything has actually happened. The writer places this shift immediately after the routine so that the contrast is as sharp as possible: eleven identical years, then one Tuesday.\n\n*Why it is strong:* it identifies the **repetition**, names the **shift**, gives a **precise reference**, explains the **effect on the reader** (tension) and answers **why here** (to sharpen the contrast)."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: which comments are structural?",
+          "question": {
+            "key": "AQA-ENL-01-03-L1-Q3",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Which **two** of these comments about the lighthouse extract are about **structure**?",
+            "hint": "Structure comments are about order, focus, pace and the shape of the text; language comments are about specific words and techniques.",
+            "explanation": "The comment about the ending returning to the mainland (cyclical structure) and the comment about the one-line paragraph of fragments (pace) are structural. The comments about the metaphor and the adjective are language analysis.",
+            "options": [
+              { "text": "The ending returns to the mainland viewpoint of the opening, but now the light has gone out, so the reader feels the change more sharply.", "correct": true },
+              { "text": "The metaphor 'a white finger pointing at nothing' suggests the lighthouse is useless.", "correct": false, "feedback": "This is about a metaphor: a language point." },
+              { "text": "The one-line paragraph 'Three knocks. A pause. Three more.' slows the pace so that the reader hears the knocking with Elias.", "correct": true },
+              { "text": "The adjective 'thick' makes the fog seem almost solid.", "correct": false, "feedback": "This zooms in on a word: a language point." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: track the focus",
+          "question": {
+            "key": "AQA-ENL-01-03-L1-Q4",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put the stages of the lighthouse extract in the order the writer presents them.",
+            "hint": "Think about the camera: it starts far away, moves inside, focuses on one day, then pulls away again.",
+            "explanation": "The extract opens wide from the mainland, zooms in on Elias's routine, narrows to one foggy Tuesday and the knocking, reveals the child with the letter, and finally pulls back to the fishermen watching the light go out.",
+            "order": [
+              "A wide view of the lighthouse from the mainland",
+              "Elias's daily routine inside the lighthouse",
+              "One foggy Tuesday and the sound of knocking",
+              "The child at the door holding a letter",
+              "The fishermen see the light go out"
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: complete the terminology",
+          "question": {
+            "key": "AQA-ENL-01-03-L1-Q5",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete the paragraph with the correct structural terms.",
+            "metadata": { "blanksText": "The writer opens with a wide view and then ___ in on a single character, making him seem significant. Later, a memory interrupts the present action; this ___ explains his fear. The final line returns to the image of the opening, giving the extract a ___ structure." },
+            "hint": "The first blank is what a camera does when it moves closer; the second is a jump back in time; the third describes a text that ends where it began.",
+            "explanation": "Zooming in narrows the focus to one detail or person. A flashback moves the narrative to an earlier time. A cyclical (or circular) structure returns to the opening.",
+            "answers": [
+              { "text": "zooms", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+              { "text": "flashback", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+              { "text": "cyclical", "blankIndex": 2, "marks": 1, "caseSensitive": false }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Mistakes that lose marks",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Answering Question 2 again.** Any comment about a simile, a metaphor or a powerful word is language, not structure. If you mention a quotation, use it as evidence of *where the focus is*, not to analyse its connotations.\n- **Retelling.** \"First this happens, then this, then this\" is a summary. Each stage you mention needs a *why* and an *effect*.\n- **\"Makes the reader want to read on.\"** Every text in the exam is meant to do that. Say *what* the reader wants to know and *why* the structure makes them want it.\n- **Ignoring the ending.** The third bullet, *any other structural features*, is a strong hint to look at how the extract finishes.\n- **Only spotting short sentences.** Short paragraphs and sentences are a legitimate structural point, but only if you explain their effect at *that* moment. Do not make them your whole answer.\n- **Too much time.** Eight marks means about ten minutes. Three developed points, one per bullet, is a full answer.\n\nA good self-check: could your answer be about *any* text? If yes, you have not yet explained why *this* writer made *these* choices."
+        },
+        {
+          "type": "Question",
+          "title": "Practice: explain a shift in focus",
+          "question": {
+            "key": "AQA-ENL-01-03-L1-Q6",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Read the extract below.\n\n> The station concourse boiled with people: commuters, students, a stag party in matching shirts, a man in a gorilla suit handing out leaflets that nobody took. Announcements rolled over their heads, half-heard.\n>\n> Amid all of it, on a bench by platform nine, sat an old woman with a suitcase and a birthday cake in a clear plastic box. She was not looking at the departures board. She was looking at the cake.\n>\n> The 10.14 came and went.\n>\n> So did the 10.44.\n\n**Explain how the writer uses structure to interest the reader in this extract.** Refer to the shift in focus and the final two paragraphs.",
+            "hint": "The writer starts with a crowded wide shot and then narrows to one person. Why? Then look at what the two very short paragraphs about the trains tell us without saying it.",
+            "explanation": "The extract opens with a wide, busy view of the crowd, then zooms in on a single old woman, which isolates her and makes her seem significant and out of place among the rush. The contrast between the noisy crowd and her stillness makes the reader curious about who she is and why she has a cake. The final two paragraphs are single lines showing time passing; the trains 'came and went' but she does not board, so the reader infers, without being told, that she is waiting for someone who has not come, creating sympathy and mystery.",
+            "markScheme": [
+              {
+                "criterion": "Identifies the shift from the wide, crowded view to a single character (zooming in / narrowing focus)",
+                "marks": 1,
+                "keywords": [ ["zoom", "narrow", "shift", "focus", "single"] ]
+              },
+              {
+                "criterion": "Explains the effect of the contrast between the busy crowd and the still woman (isolation, significance, curiosity)",
+                "marks": 1,
+                "keywords": [ ["contrast", "isolat", "alone", "stand out", "significan"] ]
+              },
+              {
+                "criterion": "Comments on the two short final paragraphs and what they show (time passing; she does not leave)",
+                "marks": 1,
+                "keywords": [ ["short", "time", "waiting", "does not", "trains"] ]
+              },
+              {
+                "criterion": "Explains the effect on the reader (curiosity, sympathy, questions)",
+                "marks": 1,
+                "keywords": [ ["reader", "curious", "sympath", "wonder", "question"] ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-01-03-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 8,
+            "examStyle": true,
+            "text": "You now need to think about the **whole** of this extract, which is from the opening of a novel.\n\n> The rain had been falling for three days, and the river had stopped being a river. It was a brown, muscular thing now, shouldering its way through the valley, carrying fence posts and a child's yellow slide and, once, a whole shed turning slowly like a dancer.\n>\n> In the village, people stacked sandbags and made jokes that got thinner each hour.\n>\n> Priya stood at her bedroom window and watched the water reach the third step of the war memorial. Then the fourth. She had counted those steps every day on the way to school and had never once thought of them as a measure of anything.\n>\n> Downstairs her mother was on the phone, saying \"yes\" and \"I know\" and \"we will\".\n>\n> By dusk the water had taken the fifth step.\n>\n> When Priya woke the next morning the memorial was gone entirely, and a heron stood in the middle of the high street, perfectly still, as if it had always been there.\n\n**How has the writer structured the text to interest you as a reader?**\n\nYou could write about:\n- what the writer focuses your attention on at the beginning\n- how and why the writer changes this focus as the source develops\n- any other structural features that interest you.\n\n[8 marks]",
+            "hint": "Plan in three parts: the wide opening on the river; the narrowing of focus to the village, then to Priya at her window (and the repeated steps of the memorial as a way of measuring the flood); and the time jumps and calm, strange ending with the heron.",
+            "explanation": "A top-band answer would note that the writer opens wide with the river, personified as a living creature, so that the reader feels the scale of the threat before any person appears. The focus then narrows step by step: to the village, then to one girl at one window, which makes the disaster personal. The war memorial steps become a motif: a fixed, familiar thing the reader can watch disappear, and the single-line paragraphs ('Then the fourth.' 'By dusk the water had taken the fifth step.') act like a countdown, increasing tension through pace. The brief shift to the mother's one-sided phone call adds adult fear without explaining it, so the reader infers the family may have to leave. Finally, the time jump to the next morning and the strange calm of the heron 'as if it had always been there' contrasts with the violence of the opening; the ending is quiet rather than dramatic, leaving the reader unsettled and aware that the world has permanently changed.",
+            "markScheme": [
+              {
+                "criterion": "Identifies a structural feature accurately (opening focus, shift, zoom, motif, paragraph length, ending)",
+                "marks": 1,
+                "keywords": [ ["opening", "shift", "zoom", "motif", "narrow"] ]
+              },
+              {
+                "criterion": "Refers to a specific part of the text with a quotation or precise reference",
+                "marks": 1,
+                "keywords": [ ["river", "memorial", "step", "heron", "dusk"] ]
+              },
+              {
+                "criterion": "Explains an effect on the reader using analytical language",
+                "marks": 1,
+                "keywords": [ ["reader", "creates", "suggests", "sense of", "makes us"] ]
+              },
+              {
+                "criterion": "Comments on the wide opening focus on the river and its effect (scale, threat)",
+                "marks": 1,
+                "keywords": [ ["wide", "river", "scale", "threat", "begin"] ]
+              },
+              {
+                "criterion": "Explains the narrowing of focus to the village and then to Priya, making the flood personal",
+                "marks": 1,
+                "keywords": [ ["priya", "personal", "individual", "village", "window"] ]
+              },
+              {
+                "criterion": "Analyses the memorial steps as a repeated motif or measure of the rising water",
+                "marks": 1,
+                "keywords": [ ["step", "count", "measure", "repeat", "motif"] ]
+              },
+              {
+                "criterion": "Comments on short paragraphs or time shifts (dusk, next morning) and their effect on pace or tension",
+                "marks": 1,
+                "keywords": [ ["short paragraph", "time", "pace", "tension", "jump"] ]
+              },
+              {
+                "criterion": "Analyses the ending (memorial gone, the still heron) and its unsettling or calm contrast with the opening",
+                "marks": 1,
+                "keywords": [ ["ending", "heron", "calm", "contrast", "unsettl"] ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Question 3 is worth **8 marks (AO2)** and is about the **whole source**.\n- **Structure** = how the text is organised: what comes first, where the focus shifts, how pace changes, how it ends.\n- Plan in three parts: **beginning focus, key shift, ending**.\n- Use terms such as **zoom in/out, shift in focus/time/perspective, flashback, motif, contrast, cyclical**.\n- For every feature, answer **why here?** and **what effect on the reader?**\n- Do not analyse individual words: that is Question 2."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-01-03-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: Paper 1 Question 3 asks you to consider the whole of the source, not just a section of it.",
+          "hint": "Look at the wording of the question: 'You now need to think about...'",
+          "explanation": "True. Question 3 always begins 'You now need to think about the whole of the source', because structure is about how the entire text is organised.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of these is a **structural** feature?",
+          "hint": "Structural features are about organisation: order, focus, time and pace.",
+          "explanation": "A flashback is a structural feature because it changes the order in which events are told. Simile, personification and onomatopoeia are language techniques.",
+          "options": [
+            { "text": "Flashback", "correct": true },
+            { "text": "Simile", "correct": false },
+            { "text": "Personification", "correct": false },
+            { "text": "Onomatopoeia", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P3",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each structural move to its most likely effect on the reader.",
+          "hint": "Think about what each move does to the reader's attention or feelings.",
+          "explanation": "Zooming in makes a detail seem significant. A sudden short paragraph creates shock or isolates a moment. A flash-forward creates dread because we know something the character does not. A cliffhanger leaves questions unanswered.",
+          "pairs": [
+            { "left": "Zooming in on a small object", "right": "Makes the object seem important or symbolic" },
+            { "left": "A sudden one-line paragraph", "right": "Creates shock or isolates a key moment" },
+            { "left": "A flash-forward hinting at disaster", "right": "Creates dread because we know more than the character" },
+            { "left": "Ending on a cliffhanger", "right": "Leaves the reader with unanswered questions" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P4",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence.",
+          "metadata": { "blanksText": "When two very different scenes or ideas are placed side by side to highlight their difference, this is called ___; when a text ends by returning to the image it began with, its structure is ___." },
+          "hint": "The first term begins with 'j'; the second with 'c'.",
+          "explanation": "Juxtaposition places contrasting things together. A cyclical (circular) structure returns to the opening.",
+          "answers": [
+            { "text": "juxtaposition", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "cyclical", "blankIndex": 1, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P5",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these questions are useful to ask yourself when planning a structure answer?",
+          "hint": "Structure questions are about focus, order and the shape of the text.",
+          "explanation": "Asking what we see first, where the focus shifts, and how the text ends are the three key structure questions. Asking about connotations of a word is a language question.",
+          "options": [
+            { "text": "What does the writer make me look at first, and what is held back?", "correct": true },
+            { "text": "Where exactly does the focus shift, and why there?", "correct": true },
+            { "text": "What are the connotations of the adjective in line 4?", "correct": false, "feedback": "Connotations of individual words belong in Question 2." },
+            { "text": "How does the ending relate to the opening?", "correct": true }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P6",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these steps in a sensible order for answering Question 3.",
+          "hint": "You need to know the shape of the whole text before you can write about it.",
+          "explanation": "Skim the whole source noting where the focus changes, decide on beginning / shift / ending, then write each point with a reason and an effect.",
+          "order": [
+            "Re-read the whole source, marking where the focus changes",
+            "Choose the opening focus, one key shift and the ending as your three points",
+            "For each point, note the structural term, a reference and an effect",
+            "Write three paragraphs, each explaining why the writer made that choice"
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P7",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "An extract begins with a long paragraph describing a peaceful garden, then a one-word paragraph: \"Smoke.\"\n\nWhat is the most precise structural comment on this?",
+          "hint": "Think about the contrast in paragraph length and mood, and what the reader now expects.",
+          "explanation": "The sudden one-word paragraph breaks the calm established by the long description, creating a jolt for the reader and signalling danger. The best comment combines contrast, pace and effect.",
+          "options": [
+            { "text": "The abrupt shift from a long, calm paragraph to a single word breaks the peaceful mood and signals danger, making the reader anxious.", "correct": true },
+            { "text": "The word 'smoke' is onomatopoeic and sounds like fire.", "correct": false, "feedback": "This is a (doubtful) language point, not a structural one." },
+            { "text": "The writer describes the garden in detail so the reader can picture it.", "correct": false, "feedback": "This is description of the content, not analysis of the structural shift." },
+            { "text": "Short sentences always build tension.", "correct": false, "feedback": "Too general: it does not explain what happens at this specific point." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P8",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Read the short passage below.\n\n> The party was still going when Sam slipped out onto the balcony. Below, the city glittered as if nothing was wrong.\n>\n> Three weeks earlier, in a doctor's office that smelt of hand gel, he had been told to sit down.\n>\n> Inside, someone put the music up.\n\n**Explain how the writer uses a shift in time in this passage and what effect it has.**",
+          "hint": "Identify the flashback, say what it reveals, and explain how the return to the party feels different afterwards.",
+          "explanation": "The second paragraph is a flashback to the doctor's office three weeks earlier. It reveals, without stating it, that Sam has had bad news. When the narrative returns to the party, the music being turned up now feels painfully careless, and the reader understands why Sam has slipped outside. The shift creates sympathy and dramatic irony: we know what the partygoers do not.",
+          "markScheme": [
+            {
+              "criterion": "Identifies the flashback / shift back in time to the doctor's office",
+              "marks": 1,
+              "keywords": [ ["flashback", "back in time", "three weeks", "doctor", "earlier"] ]
+            },
+            {
+              "criterion": "Explains what the flashback reveals or implies (bad news, illness)",
+              "marks": 1,
+              "keywords": [ ["bad news", "ill", "diagnos", "something wrong", "reveal"] ]
+            },
+            {
+              "criterion": "Explains the effect of returning to the party (contrast, sympathy, the music seems careless)",
+              "marks": 1,
+              "keywords": [ ["contrast", "sympath", "careless", "reader", "irony"] ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P9",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which phrase is most useful for pushing a structure answer into the top band?",
+          "hint": "The top band rewards explaining the writer's purpose at a specific point.",
+          "explanation": "'The writer places this here because...' forces you to explain purpose and position, which is exactly what Question 3 rewards. The others are generic or describe rather than analyse.",
+          "options": [
+            { "text": "The writer places this here because...", "correct": true },
+            { "text": "This makes the reader want to read on.", "correct": false },
+            { "text": "Then the next thing that happens is...", "correct": false },
+            { "text": "This is a good use of structure.", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "You now need to think about the **whole** of this extract, which is from the opening of a short story.\n\n> Nine o'clock. The exam hall smelt of new carpet and fear. Two hundred desks stood in rows so straight they looked drawn with a ruler, and on each one lay a paper, face down, waiting.\n>\n> Tom's hands were shaking. He put them flat on the desk and they shook the desk instead.\n>\n> Somewhere at the front, an invigilator coughed. A clock the size of a dinner plate showed one minute to go.\n>\n> Tom closed his eyes and was, for a moment, seven years old again, in his grandfather's shed, being shown how to whittle a spoon. \"Don't grip it,\" the old man had said. \"Hold it like you'd hold a bird.\"\n>\n> The paper turned over with a sound like two hundred small wings.\n>\n> Tom opened his eyes, loosened his fingers, and picked up his pen.\n\n**How has the writer structured the text to interest you as a reader?**\n\nYou could write about:\n- what the writer focuses your attention on at the beginning\n- how and why the writer changes this focus as the source develops\n- any other structural features that interest you.\n\n[8 marks]",
+          "hint": "Consider the wide, impersonal opening; the zoom to Tom's hands; the small details (cough, clock) that slow time; the flashback to the shed and why it is placed just before the exam starts; and how the ending echoes the flashback ('wings', loosened fingers).",
+          "explanation": "A strong answer would explain that the writer opens with a time stamp and a wide, impersonal view of the hall, making it feel rigid and threatening before we meet anyone. The focus then zooms sharply to Tom's shaking hands, which makes the fear personal. The next paragraph slows time through tiny details, a cough and the clock, so the reader waits with him. The flashback to the grandfather's shed is placed at the moment of greatest tension; it shifts time, place and mood, and gives Tom (and the reader) a calming memory. The ending then returns to the present and echoes the flashback: the papers sound like 'wings', recalling 'hold it like you'd hold a bird', and Tom 'loosened his fingers', showing he has taken his grandfather's advice. The structure moves from fear to calm, so the reader feels the resolution without being told it.",
+          "markScheme": [
+            {
+              "criterion": "Identifies a structural feature accurately (opening focus, zoom, flashback, shift, ending)",
+              "marks": 1,
+              "keywords": [ ["opening", "zoom", "flashback", "shift", "ending"] ]
+            },
+            {
+              "criterion": "Refers to a specific part of the text with a quotation or precise reference",
+              "marks": 1,
+              "keywords": [ ["nine", "hands", "clock", "shed", "wings"] ]
+            },
+            {
+              "criterion": "Explains an effect on the reader using analytical language",
+              "marks": 1,
+              "keywords": [ ["reader", "creates", "suggests", "sense of", "makes us"] ]
+            },
+            {
+              "criterion": "Comments on the wide, impersonal opening of the hall and the mood it sets",
+              "marks": 1,
+              "keywords": [ ["wide", "hall", "impersonal", "tense", "rigid"] ]
+            },
+            {
+              "criterion": "Explains the zoom to Tom's hands and small details (cough, clock) slowing time or making fear personal",
+              "marks": 1,
+              "keywords": [ ["hands", "personal", "slow", "detail", "clock"] ]
+            },
+            {
+              "criterion": "Analyses the flashback to the shed and why it is placed just before the exam begins",
+              "marks": 1,
+              "keywords": [ ["flashback", "grandfather", "shed", "memory", "calm"] ]
+            },
+            {
+              "criterion": "Comments on the ending echoing the flashback (wings / bird, loosened fingers) and showing resolution",
+              "marks": 1,
+              "keywords": [ ["wings", "bird", "loosen", "echo", "resol"] ]
+            },
+            {
+              "criterion": "Links the overall structure to a movement from fear to calm or control",
+              "marks": 1,
+              "keywords": [ ["fear", "calm", "control", "confiden", "change"] ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

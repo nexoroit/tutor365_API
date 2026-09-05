@@ -1,0 +1,463 @@
+{
+  "subTopicCode": "ENL-01-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-01-04-L1",
+      "title": "Evaluating texts critically (Paper 1, Question 4)",
+      "summary": "Learn how to respond to a statement about a fiction extract, form your own judgement about how far you agree, and back it up by evaluating the methods the writer uses to create impressions.",
+      "objectives": [
+        "I can explain what Question 4 asks and how it differs from analysing language or structure.",
+        "I can form a clear personal judgement about a statement and say to what extent I agree.",
+        "I can evaluate how a writer creates an impression, using evidence and evaluative vocabulary.",
+        "I can structure a 20-mark evaluation answer in the time available."
+      ],
+      "estimatedMinutes": 44,
+      "difficulty": 4,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What Question 4 asks you to do",
+          "minutes": 4,
+          "content": "## Paper 1, Question 4: evaluation\n\nQuestion 4 is the big reading question: **20 marks**, half of the reading marks on Paper 1. It tests **AO4**: *evaluate texts critically and support this with appropriate textual references*.\n\nThe question gives you a **statement** by an imaginary student and asks how far you agree:\n\n> Focus this part of your answer on the second half of the source, from line 15 to the end. A student said: **\"The writer makes the reader feel sympathy for Carl, even though he is breaking into someone's home.\"**\n>\n> To what extent do you agree?\n>\n> In your response, you could:\n> - write about your own impressions of Carl\n> - evaluate how the writer has created these impressions\n> - support your opinion with references to the text.\n\nThe three bullets are your method:\n\n1. **Impressions**: what do *you* think and feel about the character or situation?\n2. **Evaluate methods**: which choices (language, structure, dialogue, viewpoint) create those feelings, and how well do they work?\n3. **Evidence**: short quotations for every point.\n\n**Evaluate** is the key word. It means judging *how successfully* the writer does something, not just describing what they do. Words like *effectively*, *convincingly*, *powerfully*, *subtly* belong in this answer.\n\nAllow about **20 to 25 minutes** and aim for four or five developed paragraphs."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: sympathy for a burglar",
+          "minutes": 5,
+          "content": "**Read the extract.**\n\n> Carl worked the window with the care of a surgeon. Inside, the kitchen was warm and smelt of toast, and for a second he stood quite still, letting it soak into him. He had not eaten since yesterday.\n>\n> He moved through the rooms the way he had learned to: quick hands, quiet feet, never looking at the photographs. But on the fridge, held by a magnet shaped like a strawberry, was a drawing. A stick family. Three of them, holding hands under a sun with a face. Underneath, in wobbling capitals: MY FAMILY.\n>\n> Carl's own hands, for no reason he could name, had stopped moving.\n>\n> He put the phone he had picked up back on the counter, exactly where it had been, and let himself out into the rain.\n\n**Statement:** *\"The writer makes the reader feel sympathy for Carl, even though he is breaking into someone's home.\"* To what extent do you agree?\n\n**One paragraph from a strong answer:**\n\n> I largely agree. The writer creates sympathy most effectively through small, physical details rather than by telling us how to feel. The short sentence *\"He had not eaten since yesterday\"* is placed immediately after the warm kitchen that smells of toast, so the reader understands his hunger before judging his crime. This is a subtle choice: the sentence is flat and factual, with no self-pity, which makes Carl seem more honest and therefore easier to sympathise with. However, the writer does not let us forget what he is: *\"quick hands, quiet feet\"* reminds us this is practised, so our sympathy is uneasy rather than complete.\n\nNotice the shape: **judgement** (*I largely agree*), **method** (short sentence, placement, flat tone), **evidence**, **evaluation** (*most effectively*, *subtle choice*), and a **qualification** (*However...*) that shows independent thinking."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: what does 'to what extent' mean?",
+          "question": {
+            "key": "AQA-ENL-01-04-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "The question asks 'To what extent do you agree?' What does this invite you to do?",
+            "hint": "Extent means 'how far' or 'how much'.",
+            "explanation": "'To what extent' asks you to judge how far you agree: completely, mostly, partly or not at all. You must give a judgement and then support it; you are not expected simply to accept the statement.",
+            "options": [
+              { "text": "Decide how far you agree (fully, mostly, partly) and justify your view with evidence", "correct": true },
+              { "text": "Agree with the statement and find quotations that prove it", "correct": false, "feedback": "You may agree, but the question invites you to judge, not to accept automatically." },
+              { "text": "Describe everything that happens in the extract", "correct": false, "feedback": "Retelling the story is not evaluation." },
+              { "text": "List all the language techniques in the extract", "correct": false, "feedback": "Techniques are only relevant when they help explain an impression." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "The evaluation formula",
+          "minutes": 5,
+          "content": "## Analysis versus evaluation\n\nIn Questions 2 and 3 you explain *how* a writer creates an effect. In Question 4 you go one step further and judge *how well* it works and *whether you agree* with a claim about it. Every paragraph should contain four things:\n\n| Step | What it looks like |\n|---|---|\n| **Judgement** | *I agree that... / I only partly agree because...* |\n| **Impression + evidence** | *Carl seems desperate rather than dangerous: \"He had not eaten since yesterday.\"* |\n| **Method** | *The writer achieves this with a short, factual sentence placed straight after the warm kitchen.* |\n| **Evaluation** | *This is effective because the lack of self-pity makes him believable, so the sympathy feels earned.* |\n\nUse the **key words of the statement** as your organising ideas. If the statement says *sympathy* and *even though he is breaking in*, then your paragraphs should test both halves: is there sympathy? Does the crime undercut it?\n\n**Evaluative vocabulary** shows the examiner you are judging, not describing:\n\n- *effectively, convincingly, powerfully, vividly, subtly, cleverly*\n- *the writer succeeds in... / the writer deliberately...*\n- *this is particularly successful because...*\n- *however, this impression is complicated by...*\n\nYou can bring in language and structure methods (a short sentence, a shift in focus, a simile), but always in service of the judgement. The question is never \"what techniques are used?\" but \"how well do they make me feel what the statement claims?\""
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: match the step to the sentence",
+          "question": {
+            "key": "AQA-ENL-01-04-L1-Q2",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each sentence from an evaluation answer to the step it performs.",
+            "hint": "Judgement states an opinion on the statement; impression gives your view of the character; method names what the writer does; evaluation judges how well it works.",
+            "explanation": "'I mostly agree' is the judgement. 'Carl comes across as hungry and worn down' is the impression. 'The writer uses a short factual sentence' names the method. 'This is convincing because...' evaluates how successful it is.",
+            "pairs": [
+              { "left": "I mostly agree with the statement.", "right": "Judgement" },
+              { "left": "Carl comes across as hungry and worn down rather than threatening.", "right": "Impression" },
+              { "left": "The writer uses a short, factual sentence with no self-pity.", "right": "Method" },
+              { "left": "This is convincing because it makes his situation feel real rather than staged.", "right": "Evaluation" }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Weak versus strong: the drawing on the fridge",
+          "minutes": 4,
+          "content": "**A weak paragraph:**\n\n> I agree that we feel sympathy for Carl. He sees a drawing on the fridge that says MY FAMILY and he stops. This shows he has feelings. Then he puts the phone back and leaves, which shows he is a good person really.\n\n*Why it is weak:* it retells events, makes vague claims (*he has feelings*, *a good person really*) and never mentions what the writer *does* or how well it works.\n\n**A strong paragraph:**\n\n> The moment at the fridge is where the writer earns the reader's sympathy most powerfully, and I think it succeeds because of what is left unsaid. The drawing is described in fragments, *\"A stick family. Three of them, holding hands\"*, which slows the pace so that we look at it as long as Carl does. The writer never explains why it stops him; instead the one-line paragraph *\"Carl's own hands, for no reason he could name, had stopped moving\"* isolates his reaction and leaves the reader to infer a lost family of his own. This is far more effective than stating his history, because we do the emotional work ourselves. Even so, the sympathy is carefully limited: he has *\"picked up\"* the phone before he puts it back, so the writer reminds us he was going to steal it.\n\n*Why it is strong:* judgement, methods (fragments, pace, one-line paragraph, withheld information), evidence, evaluation (*succeeds*, *far more effective than*) and a qualification."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: which sentences evaluate?",
+          "question": {
+            "key": "AQA-ENL-01-04-L1-Q3",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Which **two** of these sentences are genuinely **evaluative**?",
+            "hint": "Evaluative sentences judge how well something works and give a reason. Retelling and vague praise do not count.",
+            "explanation": "The sentences about the withheld explanation being more effective, and the sympathy being deliberately limited, both make a judgement about how well a method works and why. The other two retell events or offer empty praise.",
+            "options": [
+              { "text": "Withholding the reason Carl stops is more effective than explaining it, because the reader is made to imagine his loss.", "correct": true },
+              { "text": "Carl climbs through the window, walks through the house and then leaves.", "correct": false, "feedback": "This retells the events without judging anything." },
+              { "text": "The writer deliberately limits our sympathy by reminding us he had already picked up the phone, which keeps the character believable.", "correct": true },
+              { "text": "The writer uses really good description in this part.", "correct": false, "feedback": "Vague praise with no method or reason." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: evaluative vocabulary",
+          "question": {
+            "key": "AQA-ENL-01-04-L1-Q4",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete this evaluative paragraph with suitable words.",
+            "metadata": { "blanksText": "I ___ agree with the statement, because the writer creates sympathy very ___ through small physical details. ___, the phrase 'quick hands, quiet feet' complicates this by reminding us that Carl is an experienced thief." },
+            "hint": "The first blank is a word showing degree of agreement (e.g. mostly / partly / largely). The second is an adverb that judges success (e.g. effectively). The third is a linking word that introduces a qualification.",
+            "explanation": "A judgement of degree ('largely'), an evaluative adverb ('effectively') and a qualifying connective ('However') are the three ingredients of confident evaluation.",
+            "answers": [
+              { "text": "largely", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+              { "text": "effectively", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+              { "text": "However", "blankIndex": 2, "marks": 1, "caseSensitive": false }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Agreeing, disagreeing and planning your answer",
+          "minutes": 4,
+          "content": "## You are allowed to disagree (a bit)\n\nThe statement is always reasonable, so completely disagreeing is risky. The strongest answers usually **agree with most of it** and then add a **thoughtful qualification**: *\"I agree that we feel sympathy, but I would argue it is uneasy sympathy, because the writer never lets us forget the crime.\"* This shows you are thinking independently rather than accepting the statement.\n\nMany statements have **two parts** (*\"the writer makes X seem Y, and I think Z\"*). Deal with both. It is fine to agree with the first and challenge the second.\n\n## A plan for 20 marks\n\n1. **Opening sentence**: your overall judgement in one line.\n2. **Paragraph 1**: the strongest evidence for the statement, with method and evaluation.\n3. **Paragraph 2**: a second impression or method, ideally from a different part of the given lines.\n4. **Paragraph 3**: a structural point, such as where the writer places a key moment, or how the section ends.\n5. **Paragraph 4**: your qualification: where the statement is too simple, and why.\n6. **Final sentence**: return to the judgement.\n\nKeep every quotation short. Cover the **whole of the given section**, including its ending, because the last lines often hold the most powerful moment.\n\n**Time**: 20 to 25 minutes. This leaves you enough time for Question 5, which is worth 40 marks."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: plan the answer",
+          "question": {
+            "key": "AQA-ENL-01-04-L1-Q5",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put these stages of a Question 4 answer in the recommended order.",
+            "hint": "Start with your overall view, then build evidence, save the qualification for near the end, and finish by returning to your judgement.",
+            "explanation": "State your judgement, give your strongest evidence, add further impressions and methods, qualify the statement, then return to your overall judgement.",
+            "order": [
+              "State your overall judgement in one sentence",
+              "Evaluate the strongest evidence that supports the statement",
+              "Evaluate a further impression, method or structural choice",
+              "Qualify the statement with a thoughtful 'however'",
+              "Return to your judgement in a final sentence"
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: evaluate one moment",
+          "question": {
+            "key": "AQA-ENL-01-04-L1-Q6",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Look again at the final paragraph of the burglar extract:\n\n> He put the phone he had picked up back on the counter, exactly where it had been, and let himself out into the rain.\n\nA student said: *\"This ending is the most powerful moment in the extract because it shows Carl's change without explaining it.\"*\n\n**How far do you agree? Write one evaluative paragraph.** Include a judgement, a method the writer uses, a short quotation and a comment on how effective it is.",
+            "hint": "Think about the precise detail 'exactly where it had been', the phrase 'let himself out' (which sounds like a guest, not a burglar), and the rain he goes back into. Is the lack of explanation effective?",
+            "explanation": "A strong response might argue: I largely agree. The writer shows the change through action rather than explanation; the detail 'exactly where it had been' suggests care and even respect for the family, which contrasts with the burglary. The phrase 'let himself out' is effective because it is what a guest does, quietly transforming Carl from intruder to visitor. Ending with 'the rain' is powerful because it returns him to discomfort, reminding the reader that his choice costs him something. Not explaining his reasons is successful because the reader fills the gap with sympathy. One might qualify: the moment at the fridge is arguably more powerful, as the ending only completes what it began.",
+            "markScheme": [
+              {
+                "criterion": "Gives a clear judgement about the extent of agreement",
+                "marks": 1,
+                "keywords": [ ["agree", "extent", "partly", "largely", "disagree"] ]
+              },
+              {
+                "criterion": "Identifies a method the writer uses (action instead of explanation, precise detail, the phrase 'let himself out', ending on the rain)",
+                "marks": 1,
+                "keywords": [ ["exactly", "let himself out", "rain", "detail", "action"] ]
+              },
+              {
+                "criterion": "Explains the impression created (care, respect, change, guest-like behaviour, cost to Carl)",
+                "marks": 1,
+                "keywords": [ ["care", "respect", "change", "guest", "cost"] ]
+              },
+              {
+                "criterion": "Uses evaluative language to judge how well the moment works",
+                "marks": 1,
+                "keywords": [ ["effective", "powerful", "success", "convincing", "subtle"] ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-01-04-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 10,
+            "examStyle": true,
+            "text": "Read the extract.\n\n> The car park at the vet's was full, so Meg parked on the road and sat for a while with the engine off. In the back, Bramble thumped his tail twice against the seat, which was two more times than he had managed all week.\n>\n> \"Come on, then,\" she said, and her voice came out wrong, high and bright, the voice she used on the phone to people she didn't like.\n>\n> He couldn't do the step. She lifted him, and he was lighter than the bag of shopping she had carried in that morning, and she thought, quite clearly, *I am not going to be able to do this.*\n>\n> The receptionist said his name as if he were a person. Bramble licked Meg's wrist once, absently, the way he had done ten thousand times before, and looked at the door, and waited for her to open it.\n\nA student, having read this extract, said: **\"The writer shows that Meg is more frightened than Bramble. I think she is the one who needs looking after.\"**\n\n**To what extent do you agree?**\n\nIn your response, you could:\n- write about your own impressions of Meg and Bramble\n- evaluate how the writer has created these impressions\n- support your opinion with references to the text.\n\n*(In the exam this question is worth 20 marks. Here it is checked against ten key features.)*",
+            "hint": "Test both halves of the statement. Evidence of Meg's fear: sitting with the engine off, her voice coming out 'wrong', her direct thought in italics. Evidence of Bramble's calm: the tail, the lick, waiting at the door. Then ask whether 'needs looking after' is the whole story: is Bramble calm, or trusting?",
+            "explanation": "A top-band answer would agree with the first half of the statement, showing how the writer contrasts Meg's fear with Bramble's calm: she delays ('sat for a while with the engine off'), her voice is 'wrong, high and bright', and the italicised thought 'I am not going to be able to do this' gives us direct access to her panic, which is effective because it is so plain and honest. Bramble, by contrast, thumps his tail, licks her wrist 'absently' and 'waited for her to open it', so he seems untroubled. The comparison of his weight to a bag of shopping is a powerful, ordinary image that reveals his frailty and her shock at once. A thoughtful answer would then qualify the second half: Bramble is not fearless so much as trusting, and it is that trust, especially in the final image of him waiting for her, that makes Meg's task unbearable; she is not so much in need of looking after as grieving in advance. The writer's decision to end on Bramble's patient waiting rather than on Meg's tears is what makes the extract so moving.",
+            "markScheme": [
+              {
+                "criterion": "Gives a clear judgement about the extent of agreement with the statement",
+                "marks": 1,
+                "keywords": [ ["agree", "extent", "partly", "largely", "disagree"] ]
+              },
+              {
+                "criterion": "Supports Meg's fear with evidence (sitting with the engine off, her voice coming out wrong, high and bright)",
+                "marks": 1,
+                "keywords": [ ["engine off", "voice", "wrong", "high and bright", "sat for a while"] ]
+              },
+              {
+                "criterion": "Supports Bramble's calm with evidence (tail thumping, licking her wrist, waiting at the door)",
+                "marks": 1,
+                "keywords": [ ["tail", "lick", "waited", "absently", "door"] ]
+              },
+              {
+                "criterion": "Evaluates the writer's use of contrast between Meg and Bramble as a method",
+                "marks": 1,
+                "keywords": [ ["contrast", "compar", "whereas", "while", "difference"] ]
+              },
+              {
+                "criterion": "Evaluates the direct thought 'I am not going to be able to do this' and its effect",
+                "marks": 1,
+                "keywords": [ ["not going to be able", "thought", "italic", "direct", "honest"] ]
+              },
+              {
+                "criterion": "Comments on the comparison of Bramble's weight to the bag of shopping as showing his frailty or her shock",
+                "marks": 1,
+                "keywords": [ ["shopping", "light", "weight", "frail", "thin"] ]
+              },
+              {
+                "criterion": "Uses evaluative vocabulary to judge how well the writer succeeds",
+                "marks": 1,
+                "keywords": [ ["effective", "successful", "powerful", "convincing", "moving"] ]
+              },
+              {
+                "criterion": "Explains the effect on the reader (sympathy, sadness, pity)",
+                "marks": 1,
+                "keywords": [ ["reader", "sympath", "sad", "pity", "emotion"] ]
+              },
+              {
+                "criterion": "Considers the ending (Bramble waiting for her to open the door; the receptionist treating him as a person)",
+                "marks": 1,
+                "keywords": [ ["door", "waited", "receptionist", "person", "ending"] ]
+              },
+              {
+                "criterion": "Qualifies or challenges the statement thoughtfully (e.g. Bramble is trusting rather than unafraid; Meg's fear is really grief)",
+                "marks": 1,
+                "keywords": [ ["however", "although", "trust", "grief", "loss"] ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Question 4 is worth **20 marks (AO4)**: evaluate a statement about part of the source.\n- Always give a **judgement**: fully, mostly or partly agree, and say why.\n- Each paragraph: **judgement, impression + evidence, method, evaluation**.\n- Use **evaluative vocabulary**: *effectively, convincingly, subtly, succeeds in...*\n- Cover the **whole given section**, including the ending.\n- Add a thoughtful **qualification** (*however...*) to show independent thinking.\n- Spend about **20 to 25 minutes**."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-01-04-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: Paper 1 Question 4 is worth 20 marks and tests AO4 (evaluation).",
+          "hint": "It is the highest-mark reading question on Paper 1.",
+          "explanation": "True. Question 4 carries 20 of the 40 reading marks and assesses AO4: evaluate texts critically with appropriate textual references.",
+          "options": [
+            { "text": "True", "correct": true },
+            { "text": "False", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of these is the best opening sentence for a Question 4 answer?",
+          "hint": "The opening should give your judgement about the statement straight away.",
+          "explanation": "The best opening states a clear, slightly qualified judgement. Retelling the story or listing techniques wastes time; saying you 'will discuss' delays the judgement.",
+          "options": [
+            { "text": "I largely agree that the writer creates sympathy for Carl, although it is a sympathy the writer deliberately keeps uneasy.", "correct": true },
+            { "text": "In this extract Carl breaks into a house and finds a drawing on the fridge.", "correct": false, "feedback": "This retells events instead of giving a judgement." },
+            { "text": "The writer uses similes, short sentences and a one-line paragraph.", "correct": false, "feedback": "A list of techniques does not answer the statement." },
+            { "text": "In this essay I will discuss whether I agree with the statement.", "correct": false, "feedback": "This announces rather than answers." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P3",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each evaluative phrase to its meaning.",
+          "hint": "Think about what each phrase says about the writer's success or the reader's response.",
+          "explanation": "'Convincingly' means believably; 'subtly' means without being obvious; 'succeeds in' means achieves; 'is complicated by' introduces something that makes the impression less simple.",
+          "pairs": [
+            { "left": "The writer convincingly shows...", "right": "The impression is believable" },
+            { "left": "The writer subtly suggests...", "right": "The impression is created without being obvious" },
+            { "left": "The writer succeeds in...", "right": "The writer achieves the intended effect" },
+            { "left": "This impression is complicated by...", "right": "Something makes the impression less simple" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P4",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence about Question 4.",
+          "metadata": { "blanksText": "In Question 4 you must ___ how successfully the writer creates an impression, and you should focus only on the ___ of the source named in the question." },
+          "hint": "The first word is the key verb of AO4. The second refers to the lines you are told to focus on.",
+          "explanation": "You must evaluate (judge) the writer's success, and focus on the section or part of the source given in the question.",
+          "answers": [
+            { "text": "evaluate", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "section", "blankIndex": 1, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P5",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Which **two** of these are good reasons to include a qualification ('however...') in a Question 4 answer?",
+          "hint": "A qualification shows independent thinking, but only if it is based on the text.",
+          "explanation": "A qualification shows you are thinking critically rather than accepting the statement, and it lets you deal with evidence that complicates the claim. It should never be added just to fill space or to contradict yourself without evidence.",
+          "options": [
+            { "text": "It shows you are judging the statement independently rather than accepting it", "correct": true },
+            { "text": "It lets you discuss evidence in the text that complicates the statement", "correct": true },
+            { "text": "It makes the answer longer, which always gets more marks", "correct": false, "feedback": "Length alone does not score." },
+            { "text": "It allows you to disagree with your own earlier points without evidence", "correct": false, "feedback": "A qualification must be supported by the text, not contradict you." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P6",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put the four steps of a single evaluative paragraph in the recommended order.",
+          "hint": "Start with what you think, then show it, then explain how the writer did it, then judge how well.",
+          "explanation": "Judgement/impression, evidence, method, evaluation of effectiveness.",
+          "order": [
+            "State your impression and how far it supports the statement",
+            "Give a short quotation as evidence",
+            "Explain the method the writer uses to create the impression",
+            "Evaluate how effective the method is and why"
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P7",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A student writes: \"The writer uses a simile here, 'lighter than the bag of shopping', which is a comparison.\"\n\nWhat is missing that would turn this into evaluation?",
+          "hint": "The sentence names a technique but does not say what impression it creates or how well it works.",
+          "explanation": "Evaluation requires an impression and a judgement of effectiveness. The student has identified a method but not explained what it makes us feel about Bramble or Meg, or whether it works well.",
+          "options": [
+            { "text": "An explanation of the impression it creates and a judgement of how effective it is", "correct": true },
+            { "text": "A longer quotation", "correct": false },
+            { "text": "The name of a second technique", "correct": false },
+            { "text": "A summary of what happens next", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P8",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Read the short passage.\n\n> Nan had set three places at the table again. She noticed Jess noticing, and laughed, and took the third plate away, and put it in the cupboard very carefully, as if it might break.\n\nA student said: *\"The writer shows Nan's grief without ever mentioning it.\"*\n\n**Write two or three sentences evaluating how far you agree.**",
+          "hint": "Consider the third plate, the laugh, and the word 'carefully' with the simile 'as if it might break'. What do these actions reveal, and how effective is it that grief is never named?",
+          "explanation": "I agree strongly. The third plate reveals that Nan still expects someone who has died, and her laugh is a cover for embarrassment or pain. The most effective choice is 'very carefully, as if it might break': the plate is not fragile, so the care is really for the person it belonged to. Because the writer never uses the word grief, the reader works it out, which makes the moment more moving than a direct statement would be.",
+          "markScheme": [
+            {
+              "criterion": "Gives a judgement about the extent of agreement",
+              "marks": 1,
+              "keywords": [ ["agree", "extent", "largely", "partly", "strongly"] ]
+            },
+            {
+              "criterion": "Refers to a specific detail that reveals grief (third plate, the laugh, 'carefully', 'as if it might break')",
+              "marks": 1,
+              "keywords": [ ["third", "plate", "laugh", "carefully", "break"] ]
+            },
+            {
+              "criterion": "Evaluates the effect of showing rather than stating grief",
+              "marks": 1,
+              "keywords": [ ["effective", "moving", "powerful", "without saying", "infer"] ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 10,
+          "examStyle": true,
+          "text": "Read the extract.\n\n> On the last day, Mr Okafor opened the shop at seven, exactly as he had for thirty-one years. He straightened the newspapers nobody would buy, wiped a counter that was already clean, and put the radio on low.\n>\n> The first customer was a boy wanting a single stamp. Mr Okafor sold it to him and then, after a moment, gave him the whole book and would not take the money.\n>\n> By ten the sign-writer had arrived. Mr Okafor watched from the doorway as the man's ladder went up and, letter by careful letter, his own name came down. He did not go inside until it was finished. Then he swept the step, though there was nothing on it, and turned the sign to CLOSED for the last time.\n\nA student said: **\"The writer makes Mr Okafor's dignity clear. He refuses to show how sad he really is.\"**\n\n**To what extent do you agree?**\n\nIn your response, you could:\n- write about your own impressions of Mr Okafor\n- evaluate how the writer has created these impressions\n- support your opinion with references to the text\n\n*(In the exam this question is worth 20 marks. Here it is checked against ten key features.)*",
+          "hint": "Test both halves. Dignity: the unchanged routine, the clean counter, the gift of stamps. Sadness: watching his name come down 'letter by careful letter', sweeping a step with nothing on it. Does he 'refuse to show' sadness, or does the writer show it through his actions?",
+          "explanation": "A strong answer would agree that the writer establishes dignity through routine: he opens 'exactly as he had for thirty-one years', straightens papers 'nobody would buy' and wipes a counter 'already clean'. These pointless, careful actions are effective because they show a man holding onto standards when they no longer matter. The gift of the stamp book is a quietly powerful moment of generosity and letting go. However, the second half of the statement can be challenged: Mr Okafor may not weep, but the writer shows his sadness plainly through action. Watching his name come down 'letter by careful letter' slows the pace so that the reader feels each loss, and 'he did not go inside until it was finished' suggests he is forcing himself to witness it. Sweeping a step 'though there was nothing on it' is the most moving detail: an act of care with no purpose except to delay the end. So the sadness is not hidden from the reader, only from the other characters; the writer's technique of showing rather than telling makes both dignity and grief visible at once, ending on the finality of 'CLOSED for the last time'.",
+          "markScheme": [
+            {
+              "criterion": "Gives a clear judgement about the extent of agreement",
+              "marks": 1,
+              "keywords": [ ["agree", "extent", "partly", "largely", "disagree"] ]
+            },
+            {
+              "criterion": "Supports dignity with evidence of routine and care (opened at seven, straightened, wiped the clean counter)",
+              "marks": 1,
+              "keywords": [ ["seven", "thirty-one", "straighten", "wiped", "clean"] ]
+            },
+            {
+              "criterion": "Supports hidden sadness with evidence (watching from the doorway, did not go inside, swept though nothing on it)",
+              "marks": 1,
+              "keywords": [ ["watched", "doorway", "did not go inside", "swept", "nothing on it"] ]
+            },
+            {
+              "criterion": "Evaluates the writer's method of revealing feeling through actions rather than stating it",
+              "marks": 1,
+              "keywords": [ ["action", "show", "rather than", "without", "never says"] ]
+            },
+            {
+              "criterion": "Comments on the gift of the stamp book as generosity or letting go",
+              "marks": 1,
+              "keywords": [ ["stamp", "gave", "money", "generous", "letting go"] ]
+            },
+            {
+              "criterion": "Analyses 'letter by careful letter' as slowing the pace or making the loss painful",
+              "marks": 1,
+              "keywords": [ ["letter by", "careful", "slow", "pace", "name"] ]
+            },
+            {
+              "criterion": "Uses evaluative vocabulary to judge the writer's success",
+              "marks": 1,
+              "keywords": [ ["effective", "successful", "powerful", "convincing", "moving"] ]
+            },
+            {
+              "criterion": "Explains the effect on the reader (sympathy, sadness, respect)",
+              "marks": 1,
+              "keywords": [ ["reader", "sympath", "sad", "respect", "pity"] ]
+            },
+            {
+              "criterion": "Considers the ending ('CLOSED for the last time') and its finality",
+              "marks": 1,
+              "keywords": [ ["closed", "last time", "ending", "final", "end"] ]
+            },
+            {
+              "criterion": "Qualifies or challenges the statement (e.g. the sadness is shown to the reader through actions, not refused)",
+              "marks": 1,
+              "keywords": [ ["however", "although", "not hidden", "does show", "both"] ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P10",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Roughly how long should you spend on Paper 1 Question 4?",
+          "hint": "It is worth 20 of the 80 marks on the paper, and the paper lasts 1 hour 45 minutes.",
+          "explanation": "About 20 to 25 minutes is right. This reflects its 20 marks while leaving around 45 minutes for the 40-mark writing question.",
+          "options": [
+            { "text": "About 20 to 25 minutes", "correct": true },
+            { "text": "About 5 minutes", "correct": false, "feedback": "Far too short for a 20-mark question." },
+            { "text": "About 45 minutes", "correct": false, "feedback": "That is the time for the 40-mark writing task." },
+            { "text": "About 10 minutes", "correct": false, "feedback": "That is closer to the time for Questions 2 and 3." }
+          ]
+        }
+      ]
+    }
+  ]
+}
