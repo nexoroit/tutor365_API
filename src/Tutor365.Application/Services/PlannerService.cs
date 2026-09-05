@@ -103,7 +103,18 @@ public class PlannerService : IPlannerService
 
         if (slots.Count == 0 && isActiveDay && schedule.AutoPlanEnabled && date >= today && date <= today.AddDays(14))
         {
-            slots = await GenerateAsync(studentId, date, schedule, ct);
+            slots = await StudentLocks.RunAsync(studentId, async () =>
+            {
+                // Another request may have generated this day while we waited for the lock.
+                var existing = await _db.DailyStudySlots.Where(s => s.StudentId == studentId && s.Date == date).OrderBy(s => s.SlotNumber).ToListAsync(ct);
+                if (existing.Count > 0) return existing;
+                try { return await GenerateAsync(studentId, date, schedule, ct); }
+                catch (DbUpdateException)
+                {
+                    _db.ClearTracking();
+                    return await _db.DailyStudySlots.Where(s => s.StudentId == studentId && s.Date == date).OrderBy(s => s.SlotNumber).ToListAsync(ct);
+                }
+            }, ct);
         }
         if (date < today)
         {
@@ -121,7 +132,7 @@ public class PlannerService : IPlannerService
         var keep = existing.Where(s => s.Status is DailySlotStatus.Completed or DailySlotStatus.InProgress).ToList();
         _db.DailyStudySlots.RemoveRange(existing.Except(keep));
         await _db.SaveChangesAsync(ct);
-        var slots = await GenerateAsync(studentId, date, schedule, ct, keep);
+        var slots = await StudentLocks.RunAsync(studentId, () => GenerateAsync(studentId, date, schedule, ct, keep), ct);
         return await ToPlanDtoAsync(date, slots, true, ct);
     }
 

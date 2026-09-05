@@ -46,6 +46,23 @@ public class StudySessionService : IStudySessionService
     public async Task<StudySessionDto> StartAsync(StartSessionRequest request, CancellationToken ct = default)
     {
         var studentId = await _access.GetCurrentStudentIdAsync(ct);
+        return await StudentLocks.RunAsync(studentId, async () =>
+        {
+            try { return await StartCoreAsync(studentId, request, ct); }
+            catch (DbUpdateException)
+            {
+                // A concurrent start for the same lesson won the race: return the live session instead.
+                _db.ClearTracking();
+                var live = await _db.StudySessions.Where(s => s.StudentId == studentId && (s.Status == StudySessionStatus.Active || s.Status == StudySessionStatus.Paused))
+                    .OrderByDescending(s => s.LastActivityAt).FirstOrDefaultAsync(ct);
+                if (live == null) throw;
+                return await BuildSessionDtoAsync(live.Id, ct);
+            }
+        }, ct);
+    }
+
+    private async Task<StudySessionDto> StartCoreAsync(Guid studentId, StartSessionRequest request, CancellationToken ct)
+    {
         var type = Enum.TryParse<StudySessionType>(request.Type, true, out var t) ? t : StudySessionType.Lesson;
 
         // Resolve the slot first: it may carry the lesson/topic.

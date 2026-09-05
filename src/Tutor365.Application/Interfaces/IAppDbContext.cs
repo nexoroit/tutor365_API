@@ -48,4 +48,6 @@ public interface IAppDbContext
     DbSet<AIConversationMessage> AIConversationMessages { get; }
 
     Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+    /// <summary>Detach everything after a failed save so the context can be reused.</summary>
+    void ClearTracking();
 }
