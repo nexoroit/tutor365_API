@@ -13,6 +13,8 @@ public class SmtpOptions
 {
     public const string SectionName = "Smtp";
     public bool Enabled { get; set; }
+    /// <summary>When true (dev), never send: log the message even if database settings are enabled.</summary>
+    public bool LogOnly { get; set; }
     public string Host { get; set; } = "";
     public int Port { get; set; } = 587;
     public bool UseSsl { get; set; } = false;
@@ -40,7 +42,7 @@ public class SmtpEmailSender : IEmailSender
         var cfg = await _settings.GetConfigAsync(ct)
             ?? new MailConfig(_options.Enabled, _options.Host, _options.Port, _options.UseSsl ? "Ssl" : _options.UseStartTls ? "StartTls" : "StartTlsWhenAvailable", _options.Username, _options.Password, _options.FromEmail, _options.FromName);
 
-        if (!cfg.Enabled || string.IsNullOrWhiteSpace(cfg.Host))
+        if (_options.LogOnly || !cfg.Enabled || string.IsNullOrWhiteSpace(cfg.Host))
         {
             _logger.LogWarning("SMTP disabled. Email to {To} [{Subject}]: {Text}", message.ToEmail, message.Subject, message.TextBody ?? "(html only)");
             return;

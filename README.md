@@ -41,7 +41,7 @@ On start-up the API applies pending EF migrations and seeds reference data (exam
 |---|---|
 | `ConnectionStrings:Default` | SQL Server (shared dev/prod DB, port 11433) |
 | `Auth` | JWT issuer/audience/signing key, token lifetimes, OTP and lockout settings |
-| `Smtp` | OTP / notification email. `Enabled:false` logs emails instead of sending |
+| `Smtp` | Fallback only. Live SMTP settings are stored in the database (`SystemSettings` `Smtp.*`, password encrypted) and managed via `GET/PUT /api/v1/admin/mail-settings` and `POST /api/v1/admin/mail-settings/test`. `Smtp:LogOnly=true` (Development) logs emails instead of sending |
 | `AI` | `Provider: Stub` until a vendor is chosen. Keys never reach the frontend |
 | `App` | Frontend URL, support email, seeded admin credentials |
 | `Cors:AllowedOrigins` | Angular dev origins |
