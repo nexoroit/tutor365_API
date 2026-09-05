@@ -1,0 +1,333 @@
+{
+  "subTopicCode": "ENL-04-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-04-03-L1",
+      "title": "Writing speeches and essays (Paper 2, Section B)",
+      "summary": "Learn how to write a speech that sounds like a voice in a room and an essay that builds a reasoned argument, and how to tell the two forms apart so that each earns the marks it should.",
+      "objectives": [
+        "I can write a speech opening that addresses a live audience and establishes a relationship with them.",
+        "I can use the sound of language (repetition, rhythm, pauses) to make a speech persuasive.",
+        "I can write an essay with a clear thesis, developed paragraphs and a reasoned conclusion.",
+        "I can choose the right structure, tone and devices for each form."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Speech versus essay: the key difference",
+          "minutes": 4,
+          "content": "## Two forms, two readers\n\nBoth speeches and essays present a point of view, and both can appear as Paper 2 Question 5. The difference is **who receives them and how**.\n\n| | Speech | Essay |\n|---|---|---|\n| Received by | An audience **listening**, in a room, in real time | A reader **reading**, alone, able to re-read |\n| Relationship | Personal: *I* am speaking to *you* | More distant: the argument speaks for itself |\n| Sound | Matters enormously: rhythm, repetition, pauses | Matters less; clarity and logic matter more |\n| Structure | Signposted aloud: *Let me tell you…*, *And that brings me to…* | Signposted in writing: topic sentences, connectives |\n| Typical devices | Direct address, rhetorical questions, repetition, lists of three, anecdotes, calls to action | Thesis statement, evidence, analysis, counter-argument, reasoned conclusion |\n| Register | Can be formal or conversational depending on audience, but always alive | Formal, measured, precise |\n\n### The test\n\nRead your opening aloud. If it sounds like someone standing up in front of people, it is a speech. If it sounds like something you would read quietly and nod at, it is an essay. A speech written like an essay feels dead; an essay written like a speech feels shouty.\n\nBoth are still **40 marks** and still need **45 minutes**: plan, write, check."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: a speech opening",
+          "minutes": 4,
+          "content": "**Task:** Write a speech to be given to your year group, arguing that every student should do some form of volunteering before they leave school.\n\n> Good morning. I want to start by asking you to think about the last time you did something that nobody made you do and nobody paid you for. Not homework. Not chores. Something you did because someone else needed it.\n>\n> Some of you are thinking hard right now. Some of you have an answer straight away. And a few of you, if you are honest, have nothing. That is not a criticism. It is the reason I am standing here.\n>\n> By the time we leave this school, every one of us should have given a few hours to something bigger than our own timetable. Not because it looks good on a form. Because of what it does to the person who gives them.\n\n**What makes this a speech**\n\n- **Direct address** from the first line: *I want to… ask you…*\n- It **acknowledges the audience's reactions** (*Some of you are thinking hard*), which makes listeners feel seen.\n- **Repetition** with variation: *Not homework. Not chores.* and *Not because… Because…*\n- **Short sentences and fragments** that give the speaker somewhere to pause.\n- **Inclusive we**: *By the time we leave this school, every one of us…*\n- The argument is **stated clearly** by the end of the third paragraph.\n\nNotice there is no *Hello everyone, my name is… and today I am going to talk about…*. A real speaker starts with something worth hearing."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: speech or essay?",
+          "question": {
+            "key": "AQA-ENL-04-03-L1-Q1",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each sentence to the form it belongs to.",
+            "hint": "Speeches talk to *you* in a room and use sound. Essays state and reason.",
+            "explanation": "*Look around this hall* and *I ask you* are addressed to a live audience: speech. *This essay will argue* and *The evidence therefore suggests* are the measured, written voice of an essay.",
+            "pairs": [
+              { "left": "Look around this hall. Every one of you knows someone this has happened to.", "right": "Speech" },
+              { "left": "So I ask you: what are we waiting for?", "right": "Speech" },
+              { "left": "This essay will argue that the benefits of a later school day outweigh the practical difficulties.", "right": "Essay" },
+              { "left": "The evidence therefore suggests that the policy has failed on its own terms.", "right": "Essay" }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Making a speech sound like a speech",
+          "minutes": 5,
+          "content": "## Writing for the ear\n\nA speech is heard once. The audience cannot go back and re-read, so you must make ideas **land** as they pass.\n\n### Rhythm devices\n\n- **Anaphora**: starting several sentences or clauses with the same words. *We can wait for someone else to fix this. We can hope it goes away. Or we can stand up.*\n- **Tricolon (list of three)**: *Faster, cheaper, fairer.* Three feels complete; two feels thin; four feels like a list.\n- **Contrast (antithesis)**: *Not because it is easy, but because it is right.*\n- **Short sentence after long**: gives the speaker a pause and the audience a moment to absorb.\n\n### Audience devices\n\n- **Direct address**: *you*, and inclusive *we*, *us*, *our*.\n- **Rhetorical questions**: *How many more times?* Use two or three across the speech, not in every paragraph.\n- **Anecdote**: one short, true-sounding story does more than five statistics.\n- **Acknowledging the room**: *I know some of you disagree. Stay with me.*\n\n### Structure signposts\n\nBecause listeners cannot see paragraphs, tell them where you are: *Let me give you one example.* *That brings me to the real problem.* *So here is what I am asking.*\n\n### The ending\n\nA speech should end on a **call to action** and a **line people could quote**. Build to it: shorten the sentences, repeat a key phrase, then stop. Do not fade out with *So that is why I think… thank you for listening.*"
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: a speech ending",
+          "minutes": 3,
+          "content": "**Weak ending:**\n\n> So in conclusion, I think volunteering is a really good idea and everyone should do it because it helps people and it also helps you. Thank you for listening.\n\nProblems: *in conclusion* is an essay signpost, not a speech one; *really good idea* is limp; there is no rhythm and no instruction; *thank you for listening* is an apology for stopping.\n\n**Strong ending:**\n\n> So here is what I am asking. Not a year. Not a month. One afternoon. Pick something: the food bank, the primary school reading scheme, the litter pick on Park Road. Give it one afternoon and see what it gives back.\n>\n> Because in ten years' time nobody will ask what grade you got in this hall. They will ask what you did with it.\n>\n> One afternoon. Start there.\n\n**What works**\n- *So here is what I am asking* signposts the call to action.\n- Anaphora and diminishing scale: *Not a year. Not a month. One afternoon.*\n- A list of three concrete options makes the action feel easy.\n- A contrast (*nobody will ask… They will ask…*) gives the audience something to remember.\n- The final line repeats the key phrase and ends on two words. The speaker can stop and sit down."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: name the device",
+          "question": {
+            "key": "AQA-ENL-04-03-L1-Q2",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each example to the rhetorical device it uses.",
+            "hint": "Anaphora repeats the start of clauses; a tricolon is a list of three; antithesis sets two opposites against each other; a rhetorical question needs no answer.",
+            "explanation": "*We will not… We will not… We will not…* repeats an opening: anaphora. *Louder, longer, later* is three items: tricolon. *Not for the few but for the many* balances opposites: antithesis. *Who here has never…?* expects no answer: rhetorical question.",
+            "pairs": [
+              { "left": "We will not be silent. We will not be patient. We will not be told to wait.", "right": "Anaphora" },
+              { "left": "We want lessons that are louder, longer and later.", "right": "Tricolon" },
+              { "left": "This is a school not for the few but for the many.", "right": "Antithesis" },
+              { "left": "Who here has never been told to sit down and be quiet?", "right": "Rhetorical question" }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: write a speech opening",
+          "question": {
+            "key": "AQA-ENL-04-03-L1-Q3",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Write the **first two paragraphs** (four to eight sentences) of a speech to your school's parents' evening, arguing that students are given too many exams.\n\nDo not begin with *Hello, my name is…*",
+            "hint": "Start with something the parents will recognise: a scene at home, a question, a surprising figure. Address them as *you*, include *we* or *our*, and use at least one repetition or list of three.",
+            "explanation": "For example: *Think back to the last time your son or daughter came home and did not mention a test. Not a mock, not a quiz, not a practice paper. If you are struggling to remember, you are not alone. Between Year 7 and Year 11 our students sit, on average, more than two hundred formal assessments. Two hundred. That is not a measure of learning. That is a measure of measuring. And tonight I want to ask you, as the people who see the cost of it at your own kitchen tables, to help us change it.* This opens with a familiar scene, uses direct address, a list of three, repetition of the figure, a contrast and a signposted request.",
+            "markScheme": [
+              { "criterion": "Opens with a hook rather than an introduction (scene, question, striking figure or statement)", "marks": 1, "keywords": [ ["think back", "imagine", "last time", "?", "every", "how many", "picture", "tonight"] ] },
+              { "criterion": "Addresses the audience directly and appropriately as parents", "marks": 1, "keywords": [ ["you", "your"], ["son", "daughter", "child", "parents", "kitchen", "home", "family"] ] },
+              { "criterion": "Uses a rhythm device (anaphora, list of three, antithesis, short sentence)", "marks": 1, "keywords": [ ["not a", "not ", ", and ", "that is", "two hundred", "every"] ] },
+              { "criterion": "Makes the argument about too many exams clear", "marks": 1, "keywords": [ ["exam", "test", "assess", "mock"], ["too many", "too much", "pressure", "stress", "change", "enough", "cost"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "The essay: building a reasoned case",
+          "minutes": 5,
+          "content": "## Writing for the reader\n\nAn essay is the most formal form you may be set. It persuades through **reasoning**, not performance. The reader should finish feeling that your conclusion is the only sensible one.\n\n### Structure\n\n1. **Introduction**: set out the issue and state your **thesis**, the position you will argue, in one clear sentence. *This essay will argue that…* is acceptable but plain; better is to state the view directly: *The case for a later school day is stronger than its critics admit.*\n2. **Body paragraphs** (three or four): each opens with a **topic sentence** that makes one point, then develops it with **evidence** (an example, a plausible statistic, an expert view) and **explanation** of why the evidence supports the thesis.\n3. **Counter-argument paragraph**: present the strongest objection fairly, then show why it does not outweigh your case.\n4. **Conclusion**: restate the thesis in new words, draw the threads together, and end with a considered final sentence. No new points here.\n\n### Register\n\n- Formal, precise, impersonal where possible: *It is often claimed…* rather than *People say…*\n- Few contractions.\n- Rhetorical questions and direct address are allowed but rare; use them once, deliberately, if at all.\n- Connectives that show logic: *therefore, consequently, however, moreover, although, in contrast, for this reason.*\n\n### The difference from an article\n\nAn article can be playful and personal, with a headline and a hook. An essay is steadier: no headline, no anecdote as an opening (though anecdote can be evidence), and a conclusion that reasons rather than rallies."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: the thesis statement",
+          "question": {
+            "key": "AQA-ENL-04-03-L1-Q4",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Which of these is the **strongest thesis statement** for an essay on whether social media should have a minimum age of sixteen?",
+            "hint": "A thesis states a clear position that the rest of the essay can prove. It is not a question, a description of the topic, or a fence-sitting remark.",
+            "explanation": "The first option takes a clear, arguable position and hints at the reasoning. The others describe the topic, ask a question, or refuse to commit.",
+            "options": [
+              { "text": "A minimum age of sixteen for social media would protect the young people least able to protect themselves, and the practical objections to it are weaker than they appear.", "correct": true },
+              { "text": "Social media is a very big topic that lots of people have opinions about.", "correct": false, "feedback": "This describes the topic without taking a position." },
+              { "text": "Should social media have a minimum age of sixteen?", "correct": false, "feedback": "A thesis answers the question; it does not ask it." },
+              { "text": "There are good points on both sides and it is hard to say.", "correct": false, "feedback": "An essay must commit to a view." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: essay paragraph order",
+          "question": {
+            "key": "AQA-ENL-04-03-L1-Q5",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put the parts of a body paragraph in an essay into the correct order.",
+            "hint": "Point first, then proof, then explanation of why the proof matters, then a link back to the thesis.",
+            "explanation": "A body paragraph opens with a topic sentence, supports it with evidence, explains how the evidence proves the point, and links the point back to the overall argument.",
+            "order": [
+              "Topic sentence stating one point",
+              "Evidence: an example, statistic or expert view",
+              "Explanation of how the evidence supports the point",
+              "Link back to the thesis"
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: an essay paragraph and conclusion",
+          "minutes": 3,
+          "content": "**Task:** Write an essay arguing your view on the statement *\"Schools should teach practical life skills such as cooking and managing money instead of some traditional subjects.\"*\n\n**A body paragraph:**\n\n> The most compelling argument for teaching life skills is that the cost of not teaching them falls hardest on those with the least support at home. A student whose parents cook every evening and discuss household budgets learns these skills without ever being taught. A student without that advantage leaves school at eighteen able to solve a quadratic equation but unable to read a payslip. Research by a consumer charity in 2023 found that young adults who had received no financial education were almost twice as likely to fall into problem debt by the age of twenty-five. Schools exist, in part, to narrow such gaps. A curriculum that ignores life skills widens them.\n\n**The conclusion:**\n\n> None of this requires abandoning traditional subjects, and the argument that it does is a false choice. It requires only that schools recognise that a young person's ability to feed themselves, and to keep themselves out of debt, is as much a measure of education as any grade. A school that sends its students out unable to do either has not finished its job.\n\nNote the impersonal register, the connective logic, the plausible evidence, and a conclusion that reasons to its final sentence rather than shouting it."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-04-03-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 10,
+            "examStyle": true,
+            "text": "*\"Teenagers today have far less freedom than their parents had, and they are worse off because of it.\"*\n\nWrite a **speech to be delivered to your year group** in which you argue your point of view on this statement.\n\nFor this practice task, write the **opening, one developed body section with an anecdote or evidence, and the ending with a call to action** (roughly 220 to 280 words). [10 marks]",
+            "hint": "Open by addressing the room with a scene or a question, not an introduction. Use *we* and *you*. Include one short anecdote or plausible fact. Build the ending with repetition and shortening sentences, and finish on a line the audience could quote.",
+            "explanation": "A strong answer might open: *Put your hand up if you have ever been out after dark without a phone. Keep it up if nobody knew exactly where you were. I am guessing there are not many hands. Now ask your parents the same question.* It then develops one section: an anecdote about a parent who cycled ten miles to the coast at fourteen, contrasted with a plausible statistic about how far today's teenagers are allowed to roam, and an explanation of what is lost: judgement, confidence, the experience of solving a problem alone. The ending builds with anaphora (*Not because…*), signposts the call to action (*So here is what I am asking*), and ends short: *Ask for the walk home. Ask for the weekend away. Ask, and then prove you can be trusted with the answer.* Throughout, the register is alive and spoken, with direct address, rhetorical questions and varied sentence length.",
+            "markScheme": [
+              { "criterion": "Opens by addressing the audience directly with a hook (question, scene, instruction), not an introduction of the speaker", "marks": 1, "keywords": [ ["hand up", "think", "imagine", "look", "?", "ask", "remember", "picture"] ] },
+              { "criterion": "Uses direct address and inclusive language throughout (you, we, us, our)", "marks": 1, "keywords": [ ["you", "your"], ["we", "us", "our"] ] },
+              { "criterion": "States a clear point of view on the statement", "marks": 1, "keywords": [ ["freedom", "free", "trust", "allowed", "independen"], ["should", "need", "must", "worse", "better", "wrong", "right", "believe"] ] },
+              { "criterion": "Includes an anecdote or plausible evidence", "marks": 1, "keywords": [ ["my mum", "my dad", "my parents", "when she was", "when he was", "survey", "research", "found", "per cent", "study", "last year"] ] },
+              { "criterion": "Explains why the evidence matters to the argument", "marks": 1, "keywords": [ ["because", "that means", "the point is", "this shows", "what we lose", "which is why", "so "] ] },
+              { "criterion": "Uses anaphora or a list of three", "marks": 1, "keywords": [ ["not ", ", and ", "every", "we can", "ask for"] ] },
+              { "criterion": "Uses at least two rhetorical questions or acknowledges the audience's reactions", "marks": 1, "keywords": [ ["?", "some of you", "i know", "you might", "stay with me"] ] },
+              { "criterion": "Signposts and delivers a clear call to action", "marks": 1, "keywords": [ ["so here", "i am asking", "ask", "tonight", "tomorrow", "start", "go home", "talk to", "prove"] ] },
+              { "criterion": "Ends on a short, memorable final line", "marks": 1, "keywords": [ ["start", "ask", "prove", "now", "trust", "answer", "there", "home"] ] },
+              { "criterion": "Varies sentence length, including short sentences or fragments for emphasis", "marks": 1, "keywords": [ ["not many", "nothing", "that is", "one ", "now", "no "] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- A **speech** is heard once by a live audience: write for the **ear**. Direct address, inclusive *we*, rhetorical questions, anaphora, tricolon, antithesis, short sentences, spoken signposts, and a **call to action** with a quotable last line.\n- Never open a speech with *Hello, my name is…*; never close with *thank you for listening*.\n- An **essay** is read alone: write for the **mind**. Thesis in the introduction, topic sentences, evidence and explanation in each paragraph, a fair counter-argument, and a reasoned conclusion with no new points.\n- Essay register is formal and impersonal; rhetorical devices are rare and deliberate.\n- Both need a clear viewpoint, plausible evidence, a counter-argument answered, and 45 minutes with time to check."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-04-03-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: a speech should begin by introducing the speaker by name and stating what the speech will be about.",
+          "hint": "Think about how the best speeches you have heard actually started.",
+          "explanation": "False. A speech should begin with something worth hearing: a question, a scene, a striking claim. Introductions waste the moment when the audience is most attentive.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P2",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the definitions.",
+          "metadata": { "blanksText": "___ is the repetition of the same words at the start of successive sentences or clauses, while a ___ is a list of three items or phrases." },
+          "hint": "Both terms come from classical rhetoric. The first begins with *an-*; the second begins with *tri-*.",
+          "explanation": "Anaphora repeats the opening words of successive clauses (*We will… We will… We will…*). A tricolon is a list of three.",
+          "answers": [
+            { "text": "Anaphora", "blankIndex": 0, "marks": 1 },
+            { "text": "tricolon", "blankIndex": 1, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P3",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which sentence is the most appropriate for the **conclusion of an essay**?",
+          "hint": "An essay conclusion reasons its way to a final position. It does not introduce new points, shout, or beg.",
+          "explanation": "The first option draws the argument together in a measured, formal voice. The others introduce a new point, use speech-like rallying, or apologise.",
+          "options": [
+            { "text": "Taken together, these arguments suggest that the benefits of a later start are real, measurable and achievable, and that the obstacles are matters of organisation rather than principle.", "correct": true },
+            { "text": "Another reason, which I have not mentioned yet, is that teachers would also be less tired.", "correct": false, "feedback": "No new points in a conclusion." },
+            { "text": "So stand up, all of you, and demand the sleep you deserve!", "correct": false, "feedback": "This is a speech ending, not an essay conclusion." },
+            { "text": "I hope this essay has made some sense and that you agree with at least some of it.", "correct": false, "feedback": "Weak and apologetic." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P4",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each signpost phrase to the form it suits best.",
+          "hint": "Speech signposts sound spoken (*Let me…*). Essay signposts show written logic (*Consequently…*).",
+          "explanation": "*Let me give you an example* and *That brings me to* are spoken signposts for a speech. *Consequently* and *A further consideration is* are written logical connectives for an essay.",
+          "pairs": [
+            { "left": "Let me give you one example.", "right": "Speech" },
+            { "left": "And that brings me to the real problem.", "right": "Speech" },
+            { "left": "Consequently, the policy fails on its own terms.", "right": "Essay" },
+            { "left": "A further consideration is the effect on younger pupils.", "right": "Essay" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P5",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these techniques are especially suited to a **speech** because they work on the listener's ear?",
+          "hint": "Which devices depend on sound and rhythm rather than on being read?",
+          "explanation": "Anaphora, a short sentence after a long one, and a tricolon all create rhythm the audience can hear. A thesis statement and formal connectives are written-essay features.",
+          "options": [
+            { "text": "Anaphora", "correct": true },
+            { "text": "A short sentence after a long one, creating a pause", "correct": true },
+            { "text": "A tricolon", "correct": true },
+            { "text": "A thesis statement in the introduction", "correct": false, "feedback": "An essay feature." },
+            { "text": "Formal connectives such as 'moreover' and 'consequently'", "correct": false, "feedback": "These suit written argument." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P6",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Rewrite this weak speech ending so that it uses **repetition**, a **short final sentence** and a **clear call to action**.\n\n> So in conclusion, I think we should all try to use less plastic because it is bad for the environment. Thank you for listening.",
+          "hint": "Cut *in conclusion* and *thank you for listening*. Try *Not… Not… Just…* or *One bottle. One bag. One choice.* and end with an instruction.",
+          "explanation": "For example: *So here is what I am asking. Not a lifestyle. Not a campaign. One bottle you refill instead of buy. One bag you bring instead of take. One choice, made today, made again tomorrow. Start with the bottle in your hand. Start now.* This uses anaphora, a list of concrete actions, a call to action and a two-word final sentence.",
+          "markScheme": [
+            { "criterion": "Uses repetition (anaphora or repeated key phrase)", "marks": 1, "keywords": [ ["not ", "one ", "every", "start", "refuse", "bring"] ] },
+            { "criterion": "Gives a clear call to action (an instruction to the audience)", "marks": 1, "keywords": [ ["start", "bring", "refill", "refuse", "choose", "pick up", "say no", "carry", "ask"] ] },
+            { "criterion": "Ends on a short final sentence and removes 'in conclusion' and 'thank you for listening'", "marks": 1, "keywords": [ ["now.", "today.", "there.", "hand.", "you.", "bottle.", "it."] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P7",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: an essay should never include a counter-argument because it might make the reader doubt your thesis.",
+          "hint": "Think about how a fair, confident writer treats the opposing view.",
+          "explanation": "False. A strong essay presents the best objection fairly and then shows why it does not outweigh the case. This makes the argument more convincing, not less.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P8",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Read this speech extract.\n\n> I know what some of you are thinking. You are thinking this does not apply to you. You are thinking you would never be that person. I thought that too. I was wrong.\n\nWhat is the main effect of the final two short sentences after the longer ones?",
+          "hint": "Consider the change in rhythm and what the speaker admits.",
+          "explanation": "The short sentences break the rhythm built by the repeated *You are thinking…*, creating a pause, and the personal admission *I was wrong* makes the speaker vulnerable and honest, which earns the audience's trust and makes them reconsider their own certainty.",
+          "options": [
+            { "text": "They break the rhythm to create a pause, and the personal admission makes the speaker seem honest and the audience reconsider.", "correct": true },
+            { "text": "They show the speaker has run out of things to say.", "correct": false },
+            { "text": "They make the speech more formal.", "correct": false },
+            { "text": "They introduce a new statistic.", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "*\"Competitive sport in schools does more harm than good.\"*\n\nWrite an **essay** arguing your point of view on this statement.\n\nFor this practice task, write the **introduction with a thesis statement, one full body paragraph, and a counter-argument paragraph** (roughly 200 to 250 words). [8 marks]",
+          "hint": "Introduction: set out the issue in two sentences and state your position clearly. Body paragraph: topic sentence, evidence (plausible), explanation, link. Counter-argument: present the objection fairly, then show why it does not outweigh your case. Keep the register formal and impersonal.",
+          "explanation": "A strong answer might introduce the debate by noting that competitive sport is praised for building character and criticised for humiliating the unathletic, then state a thesis such as *Competitive sport, properly run, does far more good than harm, and the harm most often cited is a failure of how it is taught rather than of competition itself.* A body paragraph might argue that competition teaches how to lose, supported by a plausible study linking team sport to resilience, and explain why that matters beyond the pitch. The counter-argument paragraph would fairly present the claim that competition damages the confidence of less able students, then respond that the solution is mixed-ability teams and varied sports rather than abolishing competition. Throughout, the register is formal, connectives show logic, and the argument builds towards the thesis.",
+          "markScheme": [
+            { "criterion": "Introduction sets out the issue before stating a position", "marks": 1, "keywords": [ ["debate", "often", "claimed", "argued", "critics", "supporters", "question", "issue"] ] },
+            { "criterion": "States a clear, arguable thesis", "marks": 1, "keywords": [ ["more harm", "more good", "outweigh", "this essay", "the case", "argue", "should", "does not", "fails"] ] },
+            { "criterion": "Body paragraph opens with a topic sentence making one point", "marks": 1, "keywords": [ ["the most", "first", "one reason", "central", "teaches", "builds", "damages", "compelling"] ] },
+            { "criterion": "Body paragraph includes plausible evidence", "marks": 1, "keywords": [ ["study", "research", "found", "per cent", "survey", "for example", "schools that", "report"] ] },
+            { "criterion": "Body paragraph explains how the evidence supports the point", "marks": 1, "keywords": [ ["this suggests", "this shows", "therefore", "because", "which means", "consequently", "in other words"] ] },
+            { "criterion": "Counter-argument is presented fairly", "marks": 1, "keywords": [ ["it is true", "critics", "opponents", "some argue", "admittedly", "it could be argued", "of course", "there is"] ] },
+            { "criterion": "Counter-argument is answered with reasoning", "marks": 1, "keywords": [ ["however", "but", "yet", "nevertheless", "the solution", "rather than", "does not follow", "this overlooks"] ] },
+            { "criterion": "Maintains a formal, impersonal essay register with logical connectives", "marks": 1, "keywords": [ ["therefore", "moreover", "however", "consequently", "furthermore", "although", "in contrast", "for this reason"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P10",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put the sections of a persuasive speech into the most effective order.",
+          "hint": "Hook the room, state the case, prove it, deal with doubters, then build to the call to action.",
+          "explanation": "Open with a hook that addresses the audience, state the argument, develop it with an anecdote or evidence, acknowledge and answer the doubters, then signpost and deliver the call to action with a memorable final line.",
+          "order": [
+            "Hook that addresses the audience directly",
+            "Clear statement of the argument",
+            "Development with an anecdote or evidence",
+            "Acknowledging and answering the doubters in the room",
+            "Signposted call to action building to a short final line"
+          ]
+        }
+      ]
+    }
+  ]
+}

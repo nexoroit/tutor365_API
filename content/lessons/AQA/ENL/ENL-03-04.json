@@ -1,0 +1,325 @@
+{
+  "subTopicCode": "ENL-03-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-03-04-L1",
+      "title": "Comparing writers' viewpoints and perspectives (Paper 2, Question 4)",
+      "summary": "Learn how to work out what each non-fiction writer thinks and feels, compare their perspectives on a shared topic, and explain how their methods convey those views, all in the structure the 16-mark question rewards.",
+      "objectives": [
+        "I can identify a writer's viewpoint and attitude from the tone and content of a non-fiction text.",
+        "I can compare two writers' perspectives on the same topic using clear comparison language.",
+        "I can explain how each writer's methods (language, tone, structure) convey their viewpoint.",
+        "I can plan and write a full Question 4 answer in about 20 minutes."
+      ],
+      "estimatedMinutes": 44,
+      "difficulty": 4,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What Question 4 asks you to do",
+          "minutes": 4,
+          "content": "## Paper 2, Question 4: the big comparison\n\nQuestion 4 is worth **16 marks**, the most of any reading question, and tests **AO3**: *compare writers' ideas and perspectives, as well as how these are conveyed, across two or more texts*.\n\nA typical question:\n\n> For this question you need to refer to the **whole of Source A** together with the **whole of Source B**. Compare how the writers convey their **different perspectives on city life**. In your answer you could:\n> - compare their different perspectives\n> - compare the methods they use to convey those perspectives\n> - support your response with references to both texts. [16 marks]\n\nThere are three separate jobs hidden in that:\n\n1. **What** each writer thinks and feels (their **perspective**, or viewpoint).\n2. **How** they show it (their **methods**: language, tone, structure, evidence they choose).\n3. **Comparison**: the two are placed side by side, not written about separately.\n\n### Perspective versus topic\n\nThe **topic** is the shared subject (city life). The **perspective** is the writer's attitude to it: one might find it thrilling, the other exhausting. You are comparing attitudes, not just content.\n\n### Perspective can shift\n\nMany writers change their mind or mix feelings. A writer who begins irritated and ends charmed has a shifting perspective, and noticing that is a mark of a top answer.\n\nSpend about **20 minutes**. Aim for three or four comparative paragraphs."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: finding the perspectives",
+          "minutes": 5,
+          "content": "**Source A** (modern column):\n\n> I have lived in this city for nine years and I still cannot love it. It is too loud, too fast and too expensive, and every morning it seems to have grown another tower block overnight without asking anyone. And yet, when a friend from the countryside visited last week and asked how I stood it, I heard myself say, 'Because everything is here.' I was surprised how much I meant it.\n\n**Source B** (letter, 1852):\n\n> You ask what I make of London. I will tell you plainly: it is the wonder of the world. In a single street I have counted eleven languages, and a man may buy anything from a pineapple to a printing press before breakfast. The smoke is a trial, and I have been robbed twice, but I would not go back to the village for a dukedom.\n\n**Finding the viewpoints**\n\n| | Source A | Source B |\n|---|---|---|\n| Overall attitude | Reluctant, mixed: dislikes the city but admits its pull | Enthusiastic, admiring, almost boastful |\n| Tone | Weary, self-mocking | Confident, delighted |\n| Key evidence | *still cannot love it*; *too loud, too fast, too expensive*; *surprised how much I meant it* | *wonder of the world*; *eleven languages*; *would not go back… for a dukedom* |\n| Shift? | Yes: from complaint to grudging admission | No: complaints (*smoke, robbed*) are brushed aside |\n\n**A comparative opening sentence**\n\n> Both writers are drawn to the city, but while the writer of Source B embraces it wholeheartedly as *\"the wonder of the world\"*, the writer of Source A admits the attraction only reluctantly, *\"surprised how much I meant it\"*.\n\nThat single sentence contains a similarity, a difference, and evidence from both texts."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: viewpoint or topic?",
+          "question": {
+            "key": "AQA-ENL-03-04-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Which of these statements describes a writer's **perspective** rather than the **topic** of the text?",
+            "hint": "A perspective involves attitude or feeling. A topic is just the subject matter.",
+            "explanation": "Only the option about *finding the fair exhausting but secretly enjoyable* expresses an attitude. The other three describe what the text is about, not what the writer thinks of it.",
+            "options": [
+              { "text": "The writer finds the fair exhausting but secretly enjoys it.", "correct": true },
+              { "text": "The text is about a visit to a fair.", "correct": false, "feedback": "This is the topic." },
+              { "text": "The text describes the rides and the food stalls.", "correct": false, "feedback": "This is content, not attitude." },
+              { "text": "The text was written in 1890.", "correct": false, "feedback": "This is context, not perspective." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Working out attitude from the words",
+          "minutes": 5,
+          "content": "## Reading for viewpoint\n\nWriters rarely announce *my perspective is…*. You infer it from their choices. Look for:\n\n### Tone\nThe emotional colour of the writing. Ask: if this were read aloud, how would the voice sound? *Angry, amused, nostalgic, sarcastic, anxious, admiring, disgusted, calm.* Pin it down with a precise word, not just *positive* or *negative*.\n\n### Loaded vocabulary\nWords with strong connotations reveal attitude. A writer who calls a crowd *a swarm* sees it as threatening; one who calls it *a carnival* sees it as joyful.\n\n### What the writer chooses to include\nA writer who lists prices and delays sees the city as a burden. One who lists languages and pineapples sees it as a marvel. Selection is a method.\n\n### Direct statements of opinion\nSometimes there are explicit signals: *I will tell you plainly*, *I cannot love it*, *in my view*. Quote them, but do not rely only on them.\n\n### Concessions and contrasts\n*And yet…*, *but…*, *although…* often mark a shift in the writer's feelings. Track where the perspective changes and say so.\n\n### Useful vocabulary for describing perspectives\n\n| Positive | Negative | Mixed |\n|---|---|---|\n| admiring, enthusiastic, affectionate, awed, celebratory | critical, dismissive, scornful, anxious, bitter | ambivalent, reluctant, conflicted, wry, grudging |\n\nAn examiner will reward *ambivalent* far more than *a bit positive and a bit negative*."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: comparing methods",
+          "minutes": 4,
+          "content": "Once you have the viewpoints, you must compare **how** they are conveyed. Use the same two sources.\n\n**A methods paragraph:**\n\n> The writers convey their attitudes through very different tones. Source A's writer uses a weary, self-mocking voice, building a list of complaints, *\"too loud, too fast and too expensive\"*, where the repetition of *too* suggests the city constantly exceeds what she can bear. In contrast, Source B's writer uses hyperbole and confident declaration: *\"the wonder of the world\"* and *\"a man may buy anything\"* present London as limitless. Even his complaints are dismissed in a single clause, *\"the smoke is a trial\"*, before he sweeps them aside with *\"but I would not go back… for a dukedom\"*. Where Source A's shift comes as a surprise to the writer herself, *\"I heard myself say\"*, Source B never wavers, which makes his enthusiasm feel almost like a sales pitch.\n\n**What this paragraph does**\n- Names a method for each writer (tone, list and repetition; hyperbole and dismissal).\n- Quotes both texts briefly.\n- Explains **how** the method reveals the viewpoint.\n- Uses comparison words (*in contrast, where… never*).\n- Ends with an evaluative observation (*almost like a sales pitch*), which shows perceptive reading."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: match the tone",
+          "question": {
+            "key": "AQA-ENL-03-04-L1-Q2",
+            "type": "Matching",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Match each short extract to the word that best describes the writer's tone.",
+            "hint": "Listen for the voice: is it mocking, sad about the past, full of wonder, or unsure?",
+            "explanation": "Praising *ten pounds for a sandwich* is clearly sarcastic. Remembering when the street *smelt of bread* every morning is nostalgic. *I could not stop looking up* conveys awe. *I cannot decide whether…* shows ambivalence.",
+            "pairs": [
+              { "left": "Ten pounds for a sandwich. What a bargain. What a city.", "right": "Sarcastic" },
+              { "left": "There was a time when this street smelt of bread every morning, and I miss it more than I can say.", "right": "Nostalgic" },
+              { "left": "The towers went up and up, and I could not stop looking up with them.", "right": "Awed" },
+              { "left": "I cannot decide whether the noise is the best thing about this place or the worst.", "right": "Ambivalent" }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: compare two viewpoints",
+          "question": {
+            "key": "AQA-ENL-03-04-L1-Q3",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "**Source A** (modern review of a theme park):\n\n> Three hours in a queue for ninety seconds of screaming. My children called it the best day of their lives. I called it a very expensive lesson in patience, and I am not sure who learned more.\n\n**Source B** (diary of a visit to a pleasure garden, 1846):\n\n> The fireworks alone would have justified the shilling. I stood among a thousand strangers and felt, for once, that we were all children together, and I walked home under the stars with my head full of coloured fire.\n\nWrite **one** paragraph comparing the two writers' perspectives on the entertainment they describe. Use evidence from both texts and comment on at least one method.",
+            "hint": "Source A is wry and doubtful; Source B is delighted and wonderstruck. Notice that both mention children, but in different ways. Quote from both and use *whereas* or *while*.",
+            "explanation": "A strong paragraph: *The writers have contrasting perspectives on the entertainment. Source A's writer is wry and unconvinced, reducing the day to \"three hours in a queue for ninety seconds of screaming\", where the contrast in numbers makes the ride seem hardly worth it. Source B's writer, by contrast, is enchanted, claiming the fireworks \"alone would have justified the shilling\" and using the metaphor of \"coloured fire\" to suggest the wonder stayed with him. Interestingly, both mention children: Source A's children love it while the adult doubts, whereas Source B's writer feels he has become a child himself, which shows that the Victorian writer surrenders to the experience in a way the modern parent cannot.*",
+            "markScheme": [
+              { "criterion": "Identifies Source A's perspective as doubtful, wry, unconvinced or exhausted", "marks": 1, "keywords": [ ["wry", "doubt", "unconvinced", "sceptic", "tired", "exhaust", "unimpressed", "not sure", "cynical", "reluctant"] ] },
+              { "criterion": "Identifies Source B's perspective as delighted, awed, enchanted or joyful", "marks": 1, "keywords": [ ["delight", "awe", "enchant", "joy", "wonder", "happy", "thrilled", "enthusias", "magical"] ] },
+              { "criterion": "Comments on a method (contrast of numbers, metaphor, tone, reference to children)", "marks": 1, "keywords": [ ["contrast", "metaphor", "tone", "children", "numbers", "irony", "imagery", "humour"] ] },
+              { "criterion": "Uses comparison language and evidence from both sources", "marks": 1, "keywords": [ ["whereas", "while", "in contrast", "both", "however", "unlike"], ["queue", "screaming", "patience", "shilling", "fireworks", "coloured fire", "strangers"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Structuring a 16-mark answer",
+          "minutes": 5,
+          "content": "## A plan you can use every time\n\n**Planning (4 minutes)**\n\n1. Circle the focus of the question (*perspectives on…*).\n2. For each source, write a two-word summary of the viewpoint (*A: weary, ambivalent. B: awed, boastful*).\n3. Find two or three **points of comparison**: aspects of the topic both writers touch on (cost, crowds, noise, the future) or aspects of their attitude (confidence, humour, change of mind).\n4. For each point, note a quotation and a method from each source.\n\n**Writing (16 minutes)**\n\n- **Opening sentence**: state the overall difference or similarity in perspective, naming both writers.\n- **Paragraphs 2 to 4**: one point of comparison each. For each: viewpoint A + evidence + method → comparison word → viewpoint B + evidence + method → what the difference reveals.\n- **Final sentence**: sum up the most important difference, or note a surprising similarity.\n\n### Comparison language\n\n*Both… but…; whereas; while; similarly; in contrast; unlike…, …; where A…, B…; to a greater extent; more… than…*\n\n### What examiners reward at the top\n\n- **Perceptive** comments: seeing the shift in a writer's view, spotting irony, noticing what a writer avoids saying.\n- **Detailed** comparison: several points, each with evidence from both texts.\n- **Methods analysed**, not just named: *the hyperbole suggests…*, not *he uses hyperbole*.\n\n### What loses marks\n\n- Writing about one source, then the other, with a single *however* in the middle.\n- Describing content without attitude.\n- Language analysis with no link to perspective. Every method you mention must reveal something about what the writer thinks."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: build the paragraph",
+          "question": {
+            "key": "AQA-ENL-03-04-L1-Q4",
+            "type": "Ordering",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "Put these sentences into the order that makes the best comparative paragraph.",
+            "hint": "State the comparison, then deal with Source A (view, evidence, method), then Source B, then say what the difference reveals.",
+            "explanation": "The topic sentence sets up the comparison. Source A's view and method come next, then the contrast to Source B, and finally an evaluative sentence explaining what the difference shows.",
+            "order": [
+              "Both writers notice the crowds, but they respond to them very differently.",
+              "Source A's writer finds them threatening, describing commuters as \"a grey tide\" that \"swallowed\" her, a metaphor that suggests she feels powerless and anonymous.",
+              "In contrast, Source B's writer is energised by the same kind of crowd, calling it \"a thousand strangers\" who become \"children together\", which turns anonymity into a shared joy.",
+              "This difference suggests that the modern writer experiences the city as something done to her, whereas the Victorian writer experiences it as something he joins."
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: methods that convey viewpoint",
+          "question": {
+            "key": "AQA-ENL-03-04-L1-Q5",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Which **three** of these count as *methods* a writer uses to convey a perspective?",
+            "hint": "Methods are choices the writer makes: about words, tone, structure, and what to include. Facts about the writer are not methods.",
+            "explanation": "Tone, choice of anecdote or evidence, and the use of humour or irony are all deliberate methods. The writer's age and the date of publication are context, not methods.",
+            "options": [
+              { "text": "Using a sarcastic tone", "correct": true },
+              { "text": "Choosing a personal anecdote as evidence", "correct": true },
+              { "text": "Using irony to undermine an opposing view", "correct": true },
+              { "text": "Being sixty years old when the text was written", "correct": false, "feedback": "This is biography, not a method." },
+              { "text": "Publishing the text in a newspaper in 1888", "correct": false, "feedback": "This is context, not a method the writer uses on the page." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-03-04-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 16,
+            "examStyle": true,
+            "text": "For this question you need to refer to the whole of **Source A** together with the whole of **Source B**.\n\n**Source A** (modern newspaper column):\n\n> Let me be clear about zoos: I want to like them. I grew up on the smell of the reptile house and the thrill of the tiger pacing behind glass. But I took my daughter last month and something had changed, or I had. The tiger was still pacing. It had been pacing, I realised, for my entire life. My daughter asked why it kept walking in the same line, and I did not have an answer I was proud of. We ate ice cream. We left early. On the train home she said she would rather watch the tiger on television, where it could go wherever it liked, and I found I could not argue.\n\n**Source B** (magazine article, 1879):\n\n> The Zoological Gardens are the pride of the capital and I do not scruple to say so. Where else may a clerk on a Sunday afternoon stand within a yard of a Bengal tiger and return home for tea? Where else may a child who will never leave these shores see with her own eyes the elephant, the giraffe and the hippopotamus? The animals are housed handsomely, fed like princes, and spared the tooth and claw of their native forests. It is, I maintain, the grandest schoolroom in the kingdom, and every family that can spare the sixpence should go.\n\nCompare how the writers convey their **different perspectives on zoos**. In your answer, you could:\n- compare their different perspectives\n- compare the methods they use to convey those perspectives\n- support your response with references to both texts. [16 marks]",
+            "hint": "Source A is conflicted and ends up troubled; Source B is confident and celebratory. Compare: their views of the animals (pacing tiger versus fed like princes); their views of what children gain (no good answer versus the grandest schoolroom); and their methods (A's personal anecdote, short sentences and shift of view; B's rhetorical questions, lists and confident assertion).",
+            "explanation": "A top-band answer might argue: Source B's writer is wholly celebratory, treating the zoo as *the pride of the capital* and using rhetorical questions and a list of exotic animals to present it as a democratic wonder available for sixpence, whereas Source A's writer begins wanting to share that enthusiasm but is troubled by what she sees. B's method is confident assertion (*I do not scruple*, *I maintain*), while A's is a personal anecdote told in short, flat sentences (*We ate ice cream. We left early.*) whose bareness conveys disappointment. Both use children to make their point: for B a child *sees with her own eyes* and is educated; for A the daughter's question exposes something the adult cannot justify, and her preference for television reverses B's argument that the zoo is the only way to see such animals. The pacing tiger, repeated across A, becomes a symbol of captivity that directly contradicts B's claim that the animals are *fed like princes*. Overall, B sees the zoo as a gift to the animals and the public, while A comes to see it as a habit she can no longer defend.",
+            "markScheme": [
+              { "criterion": "Identifies Source A's perspective as conflicted, troubled, disillusioned or reluctantly critical", "marks": 2, "keywords": [ ["conflict", "troubled", "disillusion", "uneasy", "uncomfortable", "reluctant", "changed", "ambivalent", "guilt", "doubt"] ] },
+              { "criterion": "Identifies Source B's perspective as celebratory, confident, admiring or proud", "marks": 2, "keywords": [ ["celebrat", "confident", "admir", "proud", "pride", "enthusias", "positive", "praise", "wonder"] ] },
+              { "criterion": "Compares the writers' views of the animals' welfare (pacing tiger vs fed like princes / housed handsomely)", "marks": 2, "keywords": [ ["pacing", "tiger"], ["princes", "handsomely", "spared", "welfare", "captiv", "cruel", "well treated"] ] },
+              { "criterion": "Compares the writers' views of what children gain (no good answer / television vs schoolroom / see with her own eyes)", "marks": 2, "keywords": [ ["daughter", "child", "television", "schoolroom", "educat", "learn", "own eyes"] ] },
+              { "criterion": "Analyses Source A's methods (personal anecdote, short sentences, shift in view, repetition of pacing)", "marks": 2, "keywords": [ ["anecdote", "short sentence", "shift", "change", "repetition", "personal", "first person", "flat", "honest"] ] },
+              { "criterion": "Analyses Source B's methods (rhetorical questions, list of animals, assertion, hyperbole, direct recommendation)", "marks": 2, "keywords": [ ["rhetorical question", "list", "assert", "hyperbole", "declar", "sixpence", "recommend", "confident"] ] },
+              { "criterion": "Uses precise references from both texts throughout", "marks": 2, "keywords": [ ["source a"], ["source b"] ] },
+              { "criterion": "Sustains comparison with connectives and ends with an evaluative overview", "marks": 2, "keywords": [ ["whereas", "while", "in contrast", "both", "unlike", "similarly"], ["overall", "ultimately", "in conclusion", "reveals", "suggests that", "shows that"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Question 4: **16 marks, AO3, both whole sources**, about **20 minutes**.\n- **Perspective** = the writer's attitude to the topic, not the topic itself. Look for tone, loaded words, what the writer includes, direct opinions, and shifts (*and yet…*).\n- Describe attitudes precisely: *ambivalent, celebratory, wry, scornful*, not just *positive/negative*.\n- Every method you mention (tone, anecdote, rhetorical question, list, irony) must be linked to **what it reveals** about the viewpoint.\n- Structure: opening comparison sentence → three comparative paragraphs (A + evidence + method, comparison word, B + evidence + method, what it reveals) → evaluative final sentence.\n- Compare **throughout**, not one source then the other."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-03-04-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "How many marks is Paper 2 Question 4 worth, and which Assessment Objective does it test?",
+          "hint": "It is the highest-mark reading question on the paper.",
+          "explanation": "Question 4 is worth 16 marks and tests AO3, comparing writers' ideas and perspectives and how they are conveyed.",
+          "options": [
+            { "text": "16 marks, AO3", "correct": true },
+            { "text": "12 marks, AO2", "correct": false, "feedback": "That is Question 3." },
+            { "text": "8 marks, AO1", "correct": false, "feedback": "That is Question 2." },
+            { "text": "16 marks, AO4", "correct": false, "feedback": "AO4 (evaluation) is tested on Paper 1." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: on Question 4 you should write about Source A in full, then Source B in full, and add a comparison sentence at the end.",
+          "hint": "The mark scheme rewards *sustained* comparison.",
+          "explanation": "False. Comparison must run through the whole answer. Each paragraph should move between the two sources.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence with the correct terms.",
+          "metadata": { "blanksText": "The ___ is the shared subject the two texts are about, while the ___ is each writer's attitude towards it." },
+          "hint": "One word means subject matter; the other means point of view.",
+          "explanation": "The topic is the subject (for example, zoos); the perspective is the writer's attitude towards it (for example, celebratory or troubled).",
+          "answers": [
+            { "text": "topic", "blankIndex": 0, "marks": 1 },
+            { "text": "perspective", "blankIndex": 1, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Read this extract.\n\n> Of course the new shopping centre is a triumph. Who needs a park when you can have a food court? Who needs trees when you can have a car park with a thousand spaces?\n\nWhich word best describes the writer's tone?",
+            "hint": "Does the writer really think the shopping centre is a triumph? Look at what is being given up.",
+          "explanation": "The writer says the opposite of what they mean: *of course… a triumph* and the rhetorical questions mock the idea that a food court is better than a park. This is sarcasm.",
+          "options": [
+            { "text": "Sarcastic", "correct": true },
+            { "text": "Admiring", "correct": false, "feedback": "The praise is not sincere; look at what the questions imply." },
+            { "text": "Neutral", "correct": false },
+            { "text": "Nostalgic", "correct": false, "feedback": "The writer regrets losing the park, but the dominant tone is mockery." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P5",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each method to what it might reveal about a writer's perspective.",
+          "hint": "Think about why a writer would choose each method and what that choice says about their confidence, feelings or aim.",
+          "explanation": "Rhetorical questions assume agreement and show confidence. A personal anecdote shows the view is based on lived experience. A one-word sentence usually signals strong feeling. Dismissing a counter-argument in one clause shows the writer does not take it seriously.",
+          "pairs": [
+            { "left": "A series of rhetorical questions", "right": "Confidence that the reader will agree" },
+            { "left": "A personal anecdote about the writer's own child", "right": "The view comes from direct experience and is emotionally rooted" },
+            { "left": "A one-word sentence such as 'Nothing.'", "right": "Strong feeling: shock, emptiness or finality" },
+            { "left": "Mentioning a problem briefly and then moving on with 'but'", "right": "The writer does not take the objection seriously" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P6",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Read the extract.\n\n> I went to the reunion expecting to feel nothing, and for the first hour I was right. Then somebody played the song from the last day of school and I found I had to go and stand outside for a while.\n\nDescribe the writer's perspective on the reunion and explain how it **shifts**. Support your answer with a quotation.",
+          "hint": "What did the writer expect to feel? What happened after the song? Why might someone need to *stand outside for a while*?",
+          "explanation": "The writer begins detached and unmoved, *expecting to feel nothing*, and initially this is confirmed. The song triggers a shift: the phrase *had to go and stand outside for a while* implies the writer is suddenly overwhelmed by emotion, probably nostalgia or grief, that they had not expected. The perspective moves from indifference to being deeply affected, and the understatement of the final phrase shows the writer is still reluctant to admit how much it mattered.",
+          "markScheme": [
+            { "criterion": "Identifies the initial perspective as detached, indifferent or unemotional", "marks": 1, "keywords": [ ["detached", "indifferen", "nothing", "unmoved", "unemotional", "cynical", "expect"] ] },
+            { "criterion": "Identifies the shift to being moved, emotional, nostalgic or overwhelmed", "marks": 1, "keywords": [ ["moved", "emotion", "nostalg", "overwhelm", "upset", "affected", "tearful", "sad"] ] },
+            { "criterion": "Supports with a quotation and comments on the understatement or the song as the trigger", "marks": 1, "keywords": [ ["stand outside", "song", "expecting to feel nothing", "for a while"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P7",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put the planning steps for Question 4 into the recommended order.",
+          "hint": "You need to know the focus first, then each writer's overall view, before you can find points of comparison.",
+          "explanation": "Circle the focus; summarise each viewpoint in two words; find points of comparison; note quotations and methods for each; then write.",
+          "order": [
+            "Circle the focus of the question",
+            "Write a two-word summary of each writer's viewpoint",
+            "Find two or three points of comparison shared by both texts",
+            "Note a quotation and a method from each source for every point",
+            "Write an opening comparative sentence and three comparative paragraphs"
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P8",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Which **three** of these are examples of *perceptive* comparison that examiners reward at the top level?",
+          "hint": "Perceptive means seeing something that is not obvious on the surface: a shift, an irony, an absence, an unexpected link.",
+          "explanation": "Noticing a shift in view, spotting what a writer avoids mentioning, and seeing that the two writers use the same detail for opposite ends are all perceptive. Saying one is positive and one is negative, or listing techniques, is basic.",
+          "options": [
+            { "text": "Noticing that Source A's writer changes her mind halfway through", "correct": true },
+            { "text": "Pointing out that Source B never mentions the cost, which suggests it did not matter to him", "correct": true },
+            { "text": "Observing that both writers use a child to make opposite points", "correct": true },
+            { "text": "Stating that Source A is negative and Source B is positive", "correct": false, "feedback": "This is accurate but basic; it needs precision and depth." },
+            { "text": "Listing that Source B uses rhetorical questions, lists and hyperbole", "correct": false, "feedback": "Listing methods without linking them to perspective earns little." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "**Source A** (modern blog about working from home):\n\n> Nobody warned me about the silence. I used to complain about the office: the chatter, the birthday cakes, the man who ate crisps at ten in the morning. Now I would give a great deal for one crisp-eater. I talk to the kettle. I have started to look forward to the post.\n\n**Source B** (letter from a clerk, 1861):\n\n> I am at my desk from eight until seven, in a room with nineteen other men and one window, and I count the hours by the church bell. I would give a year's wages to work one day in a room of my own, in silence, with nobody breathing down my collar.\n\nCompare how the writers convey their different perspectives on working alone. [8 marks]",
+          "hint": "Source A misses company and finds solitude lonely; Source B longs for solitude and finds company suffocating. Both use the phrase *I would give…*: compare what each would give and for what. Note A's humour (talking to the kettle) and B's counting of hours and men.",
+          "explanation": "A strong answer notes that the writers want opposite things: Source A, working alone, longs for the company she once mocked, while Source B, surrounded by nineteen men, longs for solitude. Both use *I would give…* to show the strength of their wish, but A would give *a great deal* for a crisp-eater, a comic, humble object of longing that conveys loneliness through humour, whereas B would give *a year's wages*, a serious sacrifice that conveys desperation. A's methods are self-mocking short sentences (*I talk to the kettle*), while B uses precise numbers (*nineteen other men and one window*) and the physical image of *breathing down my collar* to make the crowding feel oppressive. The comparison reveals that solitude is a luxury to B and a punishment to A.",
+          "markScheme": [
+            { "criterion": "Identifies Source A's perspective as lonely, missing company or regretting past complaints", "marks": 1, "keywords": [ ["lonely", "loneli", "miss", "isolat", "regret", "longs for company", "silence"] ] },
+            { "criterion": "Identifies Source B's perspective as craving solitude or finding the crowded office oppressive", "marks": 1, "keywords": [ ["solitude", "alone", "crowded", "oppress", "suffocat", "escape", "longs", "privacy"] ] },
+            { "criterion": "Compares the shared structure 'I would give…' and what it reveals", "marks": 2, "keywords": [ ["would give"], ["crisp", "wages", "sacrifice", "humble", "desperat", "strength"] ] },
+            { "criterion": "Analyses Source A's method (humour, short sentences, kettle, post, self-mockery)", "marks": 1, "keywords": [ ["humour", "kettle", "post", "short sentence", "self-mock", "comic", "funny", "irony"] ] },
+            { "criterion": "Analyses Source B's method (numbers, one window, church bell, breathing down my collar)", "marks": 1, "keywords": [ ["nineteen", "one window", "bell", "collar", "number", "count", "physical", "image"] ] },
+            { "criterion": "Uses comparison connectives throughout", "marks": 1, "keywords": [ ["whereas", "while", "in contrast", "both", "unlike", "however", "similarly"] ] },
+            { "criterion": "Offers an evaluative overview of what the comparison reveals", "marks": 1, "keywords": [ ["reveals", "overall", "luxury", "punishment", "opposite", "ultimately", "shows that", "suggests that"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P10",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: a writer's perspective can change within a single text, and noticing this is rewarded on Question 4.",
+          "hint": "Think about the words *and yet* or *but then*.",
+          "explanation": "True. Many writers shift their view, often signalled by *and yet*, *but* or a change in tone. Tracking the shift is a sign of perceptive reading.",
+          "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ]
+        }
+      ]
+    }
+  ]
+}

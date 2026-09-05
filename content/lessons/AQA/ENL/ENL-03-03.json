@@ -1,0 +1,327 @@
+{
+  "subTopicCode": "ENL-03-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-03-03-L1",
+      "title": "Analysing language in non-fiction (Paper 2, Question 3)",
+      "summary": "Learn how to analyse the language choices a non-fiction writer makes to persuade, inform or entertain, and write focused paragraphs that explain the effect of specific words on the reader.",
+      "objectives": [
+        "I can identify language techniques commonly used in non-fiction, including in 19th-century texts.",
+        "I can select short, precise quotations that match the focus of the question.",
+        "I can explain the effect of specific word choices on the reader rather than just naming the technique.",
+        "I can write a full Question 3 answer with three developed analytical paragraphs."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What Question 3 asks you to do",
+          "minutes": 4,
+          "content": "## Paper 2, Question 3: language in non-fiction\n\nQuestion 3 is worth **12 marks** and tests **AO2**: *explain, comment on and analyse how writers use language to achieve effects and influence readers*. It uses **one source only**, very often Source B, the 19th-century text, and points you to a **specific section** of it.\n\nA typical question:\n\n> You now need to refer **only to Source B**, from **lines 12 to 24**. How does the writer use language to describe **the crowd at the fair**? [12 marks]\n\nThree instructions to obey:\n\n1. **Only** the named source and lines.\n2. Only language that relates to the **focus** (here, *the crowd*).\n3. **How** the writer uses language, meaning you must explain effects, not just list techniques.\n\n### What language means here\n\n- **Words and phrases**: precise verbs, adjectives, nouns; connotations.\n- **Language features**: simile, metaphor, personification, hyperbole, lists, repetition, alliteration, rhetorical questions.\n- **Sentence forms**: short sentences, long lists, questions, commands.\n\nYou do not need all of these. Three well-analysed choices beat ten named techniques. Spend about **12 to 15 minutes**.\n\n### The non-fiction difference\n\nUnlike a novelist, a non-fiction writer usually has a **purpose**: to persuade, to argue, to entertain, to inform. Your analysis is stronger when you link the effect of a word to that purpose: *this makes the reader share the writer's disgust*, *this makes the reader trust the writer*."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: analysing a 19th-century description",
+          "minutes": 5,
+          "content": "**Source B, lines 1 to 8** (a journalist visits a city lodging house, 1858):\n\n> We descended a stair so black and so narrow that I felt my way by the wall. Below was a single room, and in it, on the floor, on the benches, on one another, lay perhaps forty human beings. The air was a thick, sour soup that one did not so much breathe as swallow. A candle guttered in a bottle. Nobody looked up. I have seen cattle housed with more care, and I have seen them housed with more kindness.\n\n**Question:** How does the writer use language to describe the lodging house?\n\n**A top-band paragraph:**\n\n> The writer uses a metaphor to make the reader experience the room physically: the air is *\"a thick, sour soup that one did not so much breathe as swallow\"*. Air is normally invisible and weightless, so describing it as *soup* suggests it has become solid with dirt and sweat, and the verb *swallow* implies the visitors are forced to take the filth into their bodies. The adjective *sour* adds a sense of something rotten. Together these choices make the reader feel almost sick, which serves the writer's purpose of shocking his comfortable readers into caring about the poor.\n\n**Why it scores highly**\n- Names the technique **and** the specific words.\n- Analyses **individual words** (*soup*, *swallow*, *sour*), not the whole quotation at once.\n- Explains the **effect on the reader** and links it to the writer's **purpose**.\n\nOther strong choices: the list *\"on the floor, on the benches, on one another\"* piles the bodies up; the short sentence *\"Nobody looked up\"* suggests hopelessness; the comparison with *cattle* makes the readers feel the men are treated as less than animals."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: name the technique",
+          "question": {
+            "key": "AQA-ENL-03-03-L1-Q1",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each quotation from the lodging house extract to the technique it uses.",
+            "hint": "Look for a direct comparison without *like* (metaphor), a run of three or more items (list), a sentence of only three words (short sentence), and a comparison with animals that is repeated for emphasis (repetition).",
+            "explanation": "*A thick, sour soup* calls the air soup directly: metaphor. *On the floor, on the benches, on one another* is a list of three. *Nobody looked up* is a short sentence for impact. *I have seen cattle housed… I have seen them housed…* repeats the same structure twice for emphasis.",
+            "pairs": [
+              { "left": "The air was a thick, sour soup", "right": "Metaphor" },
+              { "left": "on the floor, on the benches, on one another", "right": "List" },
+              { "left": "Nobody looked up.", "right": "Short sentence" },
+              { "left": "I have seen cattle housed with more care, and I have seen them housed with more kindness.", "right": "Repetition" }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "From naming to analysing",
+          "minutes": 5,
+          "content": "## The ladder of analysis\n\nExaminers describe answers in levels. Here is what each level does with the same quotation, *\"a candle guttered in a bottle\"*.\n\n| Level | What the student writes | What is missing |\n|---|---|---|\n| 1 | *The writer describes a candle.* | No technique, no effect. |\n| 2 | *The writer uses the verb \"guttered\" to describe the candle, which shows it is dark.* | Effect is vague; *shows* is not analysis. |\n| 3 | *The verb \"guttered\" suggests the flame is weak and about to go out, which makes the room feel gloomy and hopeless.* | Good, but could go further. |\n| 4 | *The verb \"guttered\" suggests a flame struggling and failing, and because it is stuck in a bottle rather than a proper holder, the reader senses that even light is makeshift here. The dying candle becomes a symbol of the lodgers themselves, barely alive and neglected, which deepens the reader's pity.* | Nothing: word-level detail, symbolic reading, effect linked to purpose. |\n\n### Words that push you up the ladder\n\n- Replace *shows* with **suggests, implies, evokes, conveys, creates a sense of**.\n- Zoom in: *the verb…, the adjective…, the noun…, the connotations of…*\n- Say what the reader **feels, imagines, or is persuaded of**.\n- Add **why**: *which supports the writer's aim of…*\n\n### A structure that works\n\n**Technique + quotation → zoom in on a word → effect on reader → link to purpose.** Three paragraphs like this, on three different language choices, is a complete answer."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: a modern persuasive text",
+          "minutes": 3,
+          "content": "**Source A, lines 5 to 10** (modern opinion piece on fast fashion):\n\n> Every week, another mountain of unwanted clothes. Every week, another lorry to the landfill, another river turned the colour of this season's must-have shade. We call it fashion. Our grandchildren will call it something else.\n\n**Question:** How does the writer use language to persuade the reader that fast fashion is harmful?\n\n**Analysis:**\n\n> The writer uses repetition of *\"Every week, another…\"* to suggest a relentless cycle of waste that never stops. The noun *mountain* is hyperbole: it exaggerates the size of the pile so the reader pictures something huge and unnatural. The phrase *\"a river turned the colour of this season's must-have shade\"* is sharply ironic, using the cheerful language of fashion magazines (*must-have*) to describe pollution, which makes the reader feel uncomfortable about their own shopping. Finally, the contrast between *\"We call it fashion\"* and *\"Our grandchildren will call it something else\"* leaves the reader to fill in the missing word, making them feel judged by the future.\n\nNotice how each sentence names a technique, quotes precisely, and gives an effect that serves the **persuasive purpose**."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: which is the best analysis?",
+          "question": {
+            "key": "AQA-ENL-03-03-L1-Q2",
+            "type": "MultipleChoice",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "The text says: *The council's plan is a plaster on a broken leg.*\n\nWhich response is the **strongest** analysis?",
+            "hint": "Look for the answer that zooms in on the image, explains what it suggests, and states the effect on the reader.",
+            "explanation": "The strongest answer identifies the metaphor, explains the connotations of a plaster on a broken leg (tiny, useless, almost insulting), and states the effect on the reader (they see the plan as inadequate). The other options either just name the technique, give a vague effect, or misidentify it as a simile.",
+            "options": [
+              { "text": "The metaphor compares the plan to a plaster on a broken leg, suggesting it is so small and inadequate that it is almost insulting, which makes the reader dismiss the council's efforts as useless.", "correct": true },
+              { "text": "The writer uses a metaphor here, which makes it effective.", "correct": false, "feedback": "Naming the technique is not enough; what is the effect?" },
+              { "text": "The simile shows that the plan is bad.", "correct": false, "feedback": "It is a metaphor (no *like* or *as*), and *shows it is bad* is too vague." },
+              { "text": "This tells the reader the writer does not like the council.", "correct": false, "feedback": "Possibly true, but this ignores the image and its connotations." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: analyse one word choice",
+          "question": {
+            "key": "AQA-ENL-03-03-L1-Q3",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Read this line from a 19th-century letter about a new railway.\n\n> The engine came shrieking through the cutting, dragging its filthy tail of carriages, and every bird in the wood rose at once.\n\nChoose **one** word or phrase, name the technique or word class, and explain its effect on the reader.",
+            "hint": "*Shrieking* is a verb usually used for people or animals in pain or fear. *Filthy tail* makes the train sound like a creature. What does each suggest about the writer's feelings towards the railway?",
+            "explanation": "For example: The verb *shrieking* is personification, giving the engine a human or animal scream. It suggests the train is violent and frightening rather than exciting, and the connotations of pain and panic make the reader share the writer's alarm at this new machine invading the countryside. Alternatively, *filthy tail* is a metaphor that turns the train into a dirty animal, suggesting it is something unnatural and unwelcome.",
+            "markScheme": [
+              { "criterion": "Quotes a specific word or phrase (e.g. shrieking, filthy tail, dragging, rose at once)", "marks": 1, "keywords": [ ["shriek", "filthy", "tail", "dragging", "rose at once", "every bird"] ] },
+              { "criterion": "Names a technique or word class (verb, metaphor, personification, adjective)", "marks": 1, "keywords": [ ["verb", "metaphor", "personif", "adjective", "imagery", "onomatopoeia"] ] },
+              { "criterion": "Explains the effect on the reader (e.g. frightening, violent, unnatural, alarm, threat)", "marks": 1, "keywords": [ ["reader"], ["frighten", "violent", "unnatural", "alarm", "threat", "scary", "monster", "disturb", "fear"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Handling 19th-century language",
+          "minutes": 4,
+          "content": "## Reading older texts with confidence\n\nSource B on Paper 2 is from the 1800s, and students sometimes freeze at the long sentences and unfamiliar words. You do not need to understand every word to analyse the language. Focus on what you **can** see.\n\n### Features to look for\n\n- **Long, multi-clause sentences** that build detail or delay the main point. Effect: the reader is made to wait, or to take in an overwhelming amount at once.\n- **Formal, elevated vocabulary** (*scarcely, wretched, hitherto, ere*). Effect: authority, seriousness, sometimes distance.\n- **Direct address** to the reader (*You will scarcely credit…*). Effect: the reader is pulled into the writer's experience.\n- **Emotive adjectives** piled up (*the miserable, half-starved, shivering children*). Effect: strong sympathy or outrage.\n- **Contrast** between rich and poor, past and present, expectation and reality.\n- **Irony** and understatement: a writer describes something dreadful in calm, polite language, and the calmness makes it worse.\n\n### Do not do this\n\n- Do not write *the writer uses old-fashioned language*. That is not a technique.\n- Do not guess a word's meaning and build an argument on the guess. Choose a word you are sure of.\n- Do not just say the sentence is *long*; say what the length **does**.\n\n### Do this\n\nPick the three clearest language choices in the given lines, and treat them exactly as you would in a modern text: technique, quotation, zoom in, effect, purpose."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: effect of sentence form",
+          "question": {
+            "key": "AQA-ENL-03-03-L1-Q4",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Read this sentence from an 1870 report on a coal mine.\n\n> The boy, who could not have been more than nine, who had been below since four that morning, who had eaten nothing but a crust, and whose hands were black to the wrist, told me that he liked the work well enough.\n\nWhat is the main effect of the long sentence with its repeated *who* clauses?",
+            "hint": "Think about what happens to the reader as each new detail about the boy is added before the sentence reaches its end.",
+            "explanation": "Each *who* clause adds another hardship, so the reader's sympathy builds up before the surprising ending. The delay makes the boy's cheerful reply feel shocking, which strengthens the writer's point that children have been made to accept terrible conditions.",
+            "options": [
+              { "text": "It piles up the boy's hardships one after another, so the reader's sympathy builds before the surprising ending.", "correct": true },
+              { "text": "It makes the passage harder to read, which shows the writer is educated.", "correct": false, "feedback": "Difficulty is not an effect on meaning." },
+              { "text": "It speeds up the pace to show the boy's excitement.", "correct": false, "feedback": "Long sentences slow the reader, and the boy is not excited." },
+              { "text": "It shows the writer did not know how to use full stops.", "correct": false, "feedback": "The structure is deliberate." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: analytical vocabulary",
+          "question": {
+            "key": "AQA-ENL-03-03-L1-Q5",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete the analytical sentence using the words **adjective**, **connotations** and **suggests**.",
+            "metadata": { "blanksText": "The ___ 'wretched' has ___ of misery and hopelessness, which ___ that the writer wants the reader to pity the children rather than judge them." },
+            "hint": "Word class first, then the associations of the word, then the analytical verb.",
+            "explanation": "*Wretched* is an adjective. Its connotations are the associations it carries (misery, hopelessness). *Suggests* is the analytical verb that introduces the effect.",
+            "answers": [
+              { "text": "adjective", "blankIndex": 0, "marks": 1 },
+              { "text": "connotations", "blankIndex": 1, "marks": 1 },
+              { "text": "suggests", "blankIndex": 2, "marks": 1 }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Planning a full answer",
+          "minutes": 3,
+          "content": "## Twelve marks in twelve minutes\n\n1. **Read the question** and circle the focus and the line numbers.\n2. **Read the lines** and underline five or six language choices that relate to the focus. Note the technique beside each in one word (*met*, *list*, *verb*, *short*).\n3. **Pick the best three.** Choose a mix if you can: one image, one word choice, one sentence form. Prefer the ones where you have most to say.\n4. **Write three paragraphs.** Each: technique + quotation → zoom in on a word → effect on reader → link to purpose. Aim for four or five sentences per paragraph.\n5. **Check** that every paragraph ends with the reader: *makes the reader feel…*, *persuades the reader that…*, *leaves the reader with…*\n\n### Sentence starters that keep you analytical\n\n- *The writer's use of the [verb / adjective / metaphor] \"…\" suggests…*\n- *The connotations of \"…\" are…, which creates a sense of…*\n- *This is reinforced by…, so the reader…*\n- *The effect is to persuade the reader that…*\n\n### Avoid\n\n- Retelling what happens in the lines.\n- Writing about the whole source when only a section is named.\n- Comparing with the other source: that is Question 4."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-03-03-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 12,
+            "examStyle": true,
+            "text": "You now need to refer **only to Source B**, an account of a London fog written in 1873, **lines 1 to 9**.\n\n> 1  The fog came down at three in the afternoon and did not lift for four days. It was\n> 2  not the grey mist of the country but a thing of the city's own making, yellow as\n> 3  old bone, thick as wool, with a taste of coal and something worse beneath it. It\n> 4  crept under doors. It sat in the churches. It took the lamplighters an hour to\n> 5  find the lamps and the lamps, once lit, gave out a feeble halo that reached no\n> 6  further than a man's outstretched arm. Cabs crawled. Children coughed. The\n> 7  hospitals, I am told, filled by nightfall, and the undertakers, whom nobody\n> 8  tells anything, were busier still. We breathe this, and we call ourselves the\n> 9  greatest city on earth.\n\n**How does the writer use language to describe the fog?** [12 marks]\n\nYou could include the writer's choice of:\n- words and phrases\n- language features and techniques\n- sentence forms",
+            "hint": "Strong choices include: the similes *yellow as old bone, thick as wool*; the personification *crept under doors* and *sat in the churches*; the short sentences *Cabs crawled. Children coughed.*; and the ironic final sentence. For each one, zoom in on a word, give the effect, and link it to the writer's purpose of criticising the city.",
+            "explanation": "A top-band answer analyses three or four choices in depth. For example: the simile *yellow as old bone* links the fog with death and decay, so the reader sees it as something deadly from the start; the personification *crept under doors* and *sat in the churches* makes the fog a sly intruder that nothing, not even holy places, can keep out, creating a sense of helplessness; the pair of short sentences *Cabs crawled. Children coughed.* slows the pace to a halt and, through alliteration, links the city's traffic and its children as equal victims; the final sentence uses irony, setting *we breathe this* against *the greatest city on earth* to shame the reader into recognising the price of progress. Each point ends with the effect on the reader and the writer's critical purpose.",
+            "markScheme": [
+              { "criterion": "Analyses the similes (old bone / wool) and their connotations of death, decay or suffocation", "marks": 2, "keywords": [ ["bone", "wool", "simile"], ["death", "decay", "dead", "suffocat", "heavy", "smother", "skeleton"] ] },
+              { "criterion": "Analyses the personification (crept, sat) as making the fog seem alive, sly or an intruder", "marks": 2, "keywords": [ ["crept", "sat", "personif"], ["alive", "intruder", "sly", "sneak", "creature", "invade", "escape"] ] },
+              { "criterion": "Analyses the short sentences (Cabs crawled. Children coughed.) for pace, bluntness or alliteration", "marks": 2, "keywords": [ ["short sentence", "crawled", "coughed", "alliteration"], ["pace", "slow", "blunt", "abrupt", "victim", "halt", "stark"] ] },
+              { "criterion": "Analyses the final ironic sentence and its effect of shaming or challenging the reader", "marks": 2, "keywords": [ ["greatest city", "iron", "sarcas", "we breathe"], ["shame", "challenge", "guilt", "question", "criticis", "hypocri", "contrast"] ] },
+              { "criterion": "Analyses further word choices (taste of coal, feeble halo, undertakers) or the sensory imagery", "marks": 1, "keywords": [ ["taste", "coal", "feeble", "halo", "undertaker", "sensory", "sense"] ] },
+              { "criterion": "Uses precise, short quotations throughout", "marks": 1, "keywords": [ ["\"", "'"] ] },
+              { "criterion": "Consistently explains effects on the reader using analytical verbs (suggests, implies, evokes, conveys)", "marks": 1, "keywords": [ ["reader"], ["suggest", "impl", "evoke", "convey", "creates"] ] },
+              { "criterion": "Links effects to the writer's purpose of criticising the city or warning the reader", "marks": 1, "keywords": [ ["purpose", "criticis", "warn", "attack", "condemn", "expose", "wants the reader", "intend"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Question 3: **12 marks, AO2, one source, given lines**, about **12 to 15 minutes**.\n- Language means **words and phrases, language features, and sentence forms**. Choose **three** strong examples.\n- Each paragraph: **technique + quotation → zoom in on a word → effect on reader → link to purpose**.\n- Use analytical verbs: *suggests, implies, evokes, conveys*. Avoid *shows* and *makes it effective*.\n- Non-fiction writers have a **purpose** (persuade, inform, shock). Link every effect to it.\n- For 19th-century texts, look for long sentences, formal and emotive vocabulary, direct address, contrast and irony."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-03-03-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which Assessment Objective does Paper 2 Question 3 test?",
+          "hint": "The question asks *how* the writer uses language.",
+          "explanation": "Question 3 tests AO2: explaining, commenting on and analysing how writers use language to achieve effects.",
+          "options": [
+            { "text": "AO2: how writers use language to achieve effects", "correct": true },
+            { "text": "AO1: identifying explicit information", "correct": false },
+            { "text": "AO3: comparing writers' perspectives", "correct": false },
+            { "text": "AO5: communicating clearly in your own writing", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: on Question 3 you should compare the language of Source A with the language of Source B.",
+          "hint": "Read the question wording: *refer only to…*",
+          "explanation": "False. Question 3 uses one source only. Comparison between sources is Question 4.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P3",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each technique to its example from a non-fiction text about a city at night.",
+          "hint": "Hyperbole exaggerates; a rhetorical question needs no answer; alliteration repeats a starting sound; a triple is a list of three.",
+          "explanation": "*A million lights* exaggerates: hyperbole. *Who could sleep through this?* expects no answer: rhetorical question. *Sirens screamed and stuttered* repeats the *s* sound: alliteration. *Loud, late and lawless* is a list of three: triple.",
+          "pairs": [
+            { "left": "A million lights and not one of them for me.", "right": "Hyperbole" },
+            { "left": "Who could sleep through this?", "right": "Rhetorical question" },
+            { "left": "Sirens screamed and stuttered down the street.", "right": "Alliteration" },
+            { "left": "The city was loud, late and lawless.", "right": "Triple (list of three)" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which analytical verb is the **weakest** for explaining a language effect?",
+          "hint": "One of these is so general that it does not explain anything.",
+          "explanation": "*Shows* is the weakest because it does not explain how the language creates meaning. *Suggests*, *implies* and *evokes* all signal that you are interpreting the words.",
+          "options": [
+            { "text": "shows", "correct": true },
+            { "text": "suggests", "correct": false },
+            { "text": "implies", "correct": false },
+            { "text": "evokes", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P5",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put the parts of an analytical paragraph into the recommended order.",
+          "hint": "Start with the technique and evidence, get closer to the words, then move outwards to the reader and the writer's aim.",
+          "explanation": "Technique and quotation first, then zoom in on a specific word, then explain the effect on the reader, then link to the writer's purpose.",
+          "order": [
+            "Name the technique and give a short quotation",
+            "Zoom in on one word and its connotations",
+            "Explain the effect on the reader",
+            "Link the effect to the writer's purpose"
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P6",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Read this sentence from a modern article about a music festival.\n\n> By Sunday the field was a swamp of trampled grass, lost wellies and abandoned hope.\n\nAnalyse how the writer uses language in this sentence. Identify a technique, quote, and explain the effect.",
+          "hint": "Notice the metaphor *swamp* and the list that ends with something that is not a physical object. What does putting *abandoned hope* alongside *lost wellies* do?",
+          "explanation": "The metaphor *swamp* suggests the field has become wet, filthy and impossible to move through. The list of three ends with a twist: *trampled grass* and *lost wellies* are physical, but *abandoned hope* is an emotion, so the writer humorously implies the festival-goers have given up completely. The effect is comic exaggeration that makes the reader smile while picturing the misery.",
+          "markScheme": [
+            { "criterion": "Identifies a technique (metaphor, list of three, humour, hyperbole)", "marks": 1, "keywords": [ ["metaphor", "list", "triple", "humour", "hyperbole", "exaggerat", "bathos"] ] },
+            { "criterion": "Quotes a specific word or phrase (swamp, abandoned hope, lost wellies, trampled)", "marks": 1, "keywords": [ ["swamp", "abandoned hope", "wellies", "trampled"] ] },
+            { "criterion": "Explains the effect on the reader (e.g. humorous, misery, given up, exaggerated picture)", "marks": 1, "keywords": [ ["reader"], ["funny", "humour", "misery", "given up", "exaggerat", "picture", "smile", "sympath"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P7",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these would count as analysing **sentence forms**?",
+          "hint": "Sentence forms are about the shape and type of sentences, not about the words inside them.",
+          "explanation": "Commenting on short sentences, rhetorical questions and a long list-like sentence are all about sentence form. The meaning of an adjective and a simile are word and feature choices.",
+          "options": [
+            { "text": "Explaining the impact of a two-word sentence after a long one", "correct": true },
+            { "text": "Commenting on a rhetorical question that makes the reader pause", "correct": true },
+            { "text": "Noting that a long sentence with many commas piles up details", "correct": true },
+            { "text": "Explaining the connotations of the adjective 'wretched'", "correct": false, "feedback": "This is word choice, not sentence form." },
+            { "text": "Analysing a simile comparing fog to wool", "correct": false, "feedback": "This is a language feature, not sentence form." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P8",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: writing *the writer uses old-fashioned language* is a valid analytical point for a 19th-century text.",
+          "hint": "Is *old-fashioned* a technique with an effect, or just a description of when the text was written?",
+          "explanation": "False. *Old-fashioned* is not a technique and has no analysable effect. Instead, identify a specific choice (formal vocabulary, a long sentence, direct address) and explain what it does.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "Refer **only** to this section of a modern charity appeal.\n\n> Imagine a kitchen with no food in it. Not a nearly empty fridge, not a cupboard with a tin or two at the back: nothing. Now imagine two children standing in it, waiting for you to work a miracle. That is Tuesday for thousands of families in this town. It does not have to be. For the price of a takeaway coffee, you can fill that kitchen for a day. Do it now, before you finish reading this sentence.\n\n**How does the writer use language to persuade the reader to donate?** [8 marks]",
+          "hint": "Consider: the command *Imagine* and direct address *you*; the short sentence *nothing*; the emotive image of the children; the comparison with a takeaway coffee; the final urgent command. Explain the effect of each on the reader.",
+          "explanation": "Strong answers might analyse: the imperative *Imagine* and repeated *you*, which pull the reader into the scene as a participant; the one-word sentence *nothing*, which stops the reader and makes the emptiness absolute; the emotive image of *two children… waiting for you to work a miracle*, which makes the reader feel personally responsible; the contrast between *a takeaway coffee* and *fill that kitchen*, which makes donating seem cheap and easy; and the final command with its urgency, *before you finish reading this sentence*, which pressures the reader to act immediately rather than later.",
+          "markScheme": [
+            { "criterion": "Analyses the imperative 'Imagine' and/or direct address 'you' as involving the reader", "marks": 2, "keywords": [ ["imagine", "direct address", "you", "imperative", "command"], ["involve", "personal", "responsib", "picture", "part of", "engage"] ] },
+            { "criterion": "Analyses the one-word sentence 'nothing' or the short sentences for impact", "marks": 2, "keywords": [ ["nothing", "short sentence", "one-word", "one word"], ["impact", "stop", "absolute", "blunt", "shock", "emphas", "stark"] ] },
+            { "criterion": "Analyses emotive language about the children or the takeaway coffee comparison", "marks": 2, "keywords": [ ["children", "miracle", "coffee", "emotive", "contrast"], ["guilt", "sympath", "cheap", "easy", "small", "pity", "responsib"] ] },
+            { "criterion": "Analyses the urgency of the final command and its effect", "marks": 1, "keywords": [ ["do it now", "before you finish", "urgen", "immediate", "command"] ] },
+            { "criterion": "Links effects to the persuasive purpose of getting the reader to donate", "marks": 1, "keywords": [ ["donate", "give", "persuade", "act", "purpose"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P10",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A student writes: *The writer uses lots of adjectives, similes, metaphors and lists, which makes the description really vivid for the reader.*\n\nWhy would this earn few marks?",
+          "hint": "Count how many techniques are named and how many are actually analysed.",
+          "explanation": "The sentence lists techniques without quoting any of them or explaining what any specific word does. *Really vivid* is a vague effect. Marks come from analysing individual choices in detail, not from naming many.",
+          "options": [
+            { "text": "It names techniques without quoting or analysing any specific words, and the effect is vague.", "correct": true },
+            { "text": "It is too short to be a paragraph.", "correct": false },
+            { "text": "It should have compared the two sources.", "correct": false, "feedback": "Question 3 uses one source only." },
+            { "text": "It does not mention sentence forms.", "correct": false, "feedback": "You do not have to cover every bullet point; depth matters more." }
+          ]
+        }
+      ]
+    }
+  ]
+}

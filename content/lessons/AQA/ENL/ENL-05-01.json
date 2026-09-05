@@ -1,0 +1,334 @@
+{
+  "subTopicCode": "ENL-05-01",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-05-01-L1",
+      "title": "Spelling and commonly confused words",
+      "summary": "Learn the spelling rules and homophone distinctions that examiners see broken most often, build strategies for words you personally get wrong, and practise proofreading under time pressure.",
+      "objectives": [
+        "I can choose correctly between commonly confused words such as their/there/they're, its/it's and affect/effect.",
+        "I can apply key spelling rules: -ly endings, doubling consonants, i before e, and plurals.",
+        "I can spell the high-frequency words that GCSE English answers need.",
+        "I can proofread my own writing efficiently in the last five minutes of an exam."
+      ],
+      "estimatedMinutes": 38,
+      "difficulty": 2,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Why spelling matters in the exam",
+          "minutes": 3,
+          "content": "## AO6: 16 marks on each paper\n\nOn both writing questions (Paper 1 Question 5 and Paper 2 Question 5), **AO6** is worth **16 of the 40 marks**. It rewards *vocabulary, sentence structure, spelling and punctuation used accurately*.\n\nExaminers do not count every error, but they judge the **overall level**. The descriptors move from *some accurate spelling of simple words* at the bottom to *high level of accuracy, including ambitious vocabulary* at the top. A piece full of *there/their* slips and *alot* sits in the middle even if the ideas are strong.\n\n### The good news\n\nMost spelling errors in GCSE scripts come from a **small set** of words: homophones (words that sound the same), a handful of rules, and about thirty common words spelled by ear. Fix those and your accuracy rises sharply.\n\n### The strategy\n\n1. Learn the confused pairs by **meaning**, not by sound.\n2. Learn the four or five **rules** that cover hundreds of words.\n3. Keep a **personal list** of the words you get wrong and test yourself.\n4. **Proofread** at the end of every piece; most errors are slips you can spot yourself.\n\nAmbitious vocabulary is rewarded even if it is occasionally misspelled, so do not retreat to simple words out of fear. But do learn the ones you use often."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: the big four homophone sets",
+          "minutes": 5,
+          "content": "## Learn them by meaning\n\n### their / there / they're\n- **their** = belonging to them. *Their coats were wet.* (Think: *heir* inherits something.)\n- **there** = a place, or *there is / there are*. *Over there. There were six of us.* (Contains *here*.)\n- **they're** = they are. *They're late again.* (If you can say *they are*, use the apostrophe.)\n\n### its / it's\n- **its** = belonging to it. *The dog wagged its tail.*\n- **it's** = it is or it has. *It's raining. It's been a long day.*\n- Test: swap in *it is*. *The dog wagged it is tail* is nonsense, so it is **its**.\n\n### your / you're\n- **your** = belonging to you. *Your answer.*\n- **you're** = you are. *You're right.*\n\n### to / too / two\n- **to** = direction or part of a verb. *Go to the shop. I want to leave.*\n- **too** = also, or excessively. *Me too. Too loud.* (The extra *o* is 'too much'.)\n- **two** = the number 2.\n\n### Worked sentence\n\n> *They're leaving their bags over there because it's too heavy to carry two at once.*\n\nEvery one of those is a decision made by **meaning**. Read each one back and ask *which meaning do I want?* rather than *which looks right?*"
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: pick the right word",
+          "question": {
+            "key": "AQA-ENL-05-01-L1-Q1",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Complete each sentence with the correct word: **their / there / they're** or **its / it's**.",
+            "metadata": { "blanksText": "The team collected ___ medals, then stood over ___ by the fence. ___ going to celebrate tonight. The trophy has lost ___ shine." },
+            "hint": "Ask: belonging to them? a place? they are? belonging to it? it is?",
+            "explanation": "*Their medals* (belonging to them); *over there* (a place); *They're going* (they are); *lost its shine* (belonging to it, no apostrophe).",
+            "answers": [
+              { "text": "their", "blankIndex": 0, "marks": 1 },
+              { "text": "there", "blankIndex": 1, "marks": 1 },
+              { "text": "They're", "blankIndex": 2, "marks": 1 },
+              { "text": "its", "blankIndex": 3, "marks": 1 }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "More confused pairs",
+          "minutes": 5,
+          "content": "## Pairs that separate the top band\n\n| Pair | Meaning | Example |\n|---|---|---|\n| **affect / effect** | *affect* is usually the verb (to influence); *effect* is usually the noun (the result) | *The noise affected me. The effect was dramatic.* |\n| **practice / practise** | *practice* is the noun; *practise* is the verb (British English) | *Football practice. I practise every day.* (Like *advice/advise*: the *c* is the noun.) |\n| **where / were / we're** | place / past of *are* / *we are* | *Where is it? They were late. We're ready.* |\n| **whose / who's** | belonging to whom / *who is* | *Whose bag is this? Who's coming?* |\n| **lose / loose** | to misplace or be defeated / not tight | *Don't lose it. A loose tooth.* |\n| **quite / quiet** | fairly / silent | *Quite good. A quiet room.* |\n| **passed / past** | verb: went by / noun or preposition: time gone, beyond | *She passed the shop. In the past. Walk past it.* |\n| **than / then** | comparison / time | *Bigger than me. Then we left.* |\n| **of / have** | *could have*, never *could of* | *I should have known.* |\n| **allowed / aloud** | permitted / out loud | *Not allowed. Read aloud.* |\n| **weather / whether** | climate / if | *Bad weather. Whether or not.* |\n\n### The *could of* trap\n\nIn speech, *could've* sounds like *could of*. It is always **could have**, **should have**, **would have**, **might have**. Writing *of* here is one of the most noticed errors in GCSE scripts.\n\n### a lot, in fact, thank you\n\n*A lot* is always **two words**. So are *in fact*, *thank you*, *as well*, *at least*, *in front*. *Alot* does not exist."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: affect or effect?",
+          "question": {
+            "key": "AQA-ENL-05-01-L1-Q2",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Which sentence is correct?",
+            "hint": "*Affect* is the verb (to influence). *Effect* is the noun (the result).",
+            "explanation": "*The weather affected the match* uses the verb correctly, and *the effect on the pitch* uses the noun correctly. The other options swap them or use *could of*.",
+            "options": [
+              { "text": "The weather affected the match, and the effect on the pitch was obvious.", "correct": true },
+              { "text": "The weather effected the match, and the affect on the pitch was obvious.", "correct": false, "feedback": "Both words are swapped." },
+              { "text": "The weather affected the match, and the affect on the pitch was obvious.", "correct": false, "feedback": "The second should be the noun *effect*." },
+              { "text": "The weather could of affected the match, and the effect was obvious.", "correct": false, "feedback": "*Could of* is never correct; it is *could have*." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Five rules that cover hundreds of words",
+          "minutes": 5,
+          "content": "## Rules worth knowing\n\n### 1. Adding -ly\nJust add *-ly* to the adjective, keeping the final letter: *final → finally, real → really, sincere → sincerely, hopeful → hopefully*. If the word ends in *-y*, change it to *i*: *happy → happily*. If it ends in *-le*, drop the *e*: *gentle → gently*.\n\nCommon errors: *finaly, realy, definately*. (*Definitely* comes from *finite*: **defin-ite-ly**.)\n\n### 2. Doubling the consonant\nFor short words with one vowel and one final consonant, **double** the consonant before *-ing*, *-ed*, *-er*: *run → running, stop → stopped, big → bigger, begin → beginning*. Do not double after two vowels or two consonants: *rain → raining, jump → jumping*.\n\n### 3. Dropping the silent e\nDrop the *e* before a vowel suffix: *hope → hoping, write → writing, argue → arguing*. Keep it before a consonant suffix: *hope → hopeful, care → careless*. Watch: *argument* and *truly* drop the *e* anyway.\n\n### 4. i before e\n*i* before *e* except after *c*, **when the sound is 'ee'**: *believe, achieve, piece, receive, ceiling*. It does not apply to other sounds: *their, weird, height, foreign, neighbour*.\n\n### 5. Plurals\n- Most nouns: add *-s*.\n- Ending in *-s, -x, -ch, -sh*: add *-es*: *boxes, churches*.\n- Consonant + *y*: change to *-ies*: *story → stories*. Vowel + *y*: just *-s*: *days*.\n- Ending in *-f*: often *-ves*: *leaf → leaves, life → lives*.\n\nNo apostrophe for plurals, ever: *the 1990s, three dogs, DVDs*."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: apply the rules",
+          "question": {
+            "key": "AQA-ENL-05-01-L1-Q3",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each root word to its correctly spelled form after adding the ending shown.",
+            "hint": "Think: double the consonant? Drop the e? Change y to i? Just add -ly?",
+            "explanation": "*Begin* doubles the *n* (one vowel, one final consonant): *beginning*. *Write* drops the *e* before *-ing*: *writing*. *Happy* changes *y* to *i*: *happily*. *Final* simply adds *-ly*: *finally*.",
+            "pairs": [
+              { "left": "begin + ing", "right": "beginning" },
+              { "left": "write + ing", "right": "writing" },
+              { "left": "happy + ly", "right": "happily" },
+              { "left": "final + ly", "right": "finally" }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: spot the error",
+          "question": {
+            "key": "AQA-ENL-05-01-L1-Q4",
+            "type": "MultipleAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Read this student paragraph. Select the **four** words that are misspelled.\n\n> I definately think the school should of listened to us. Alot of students were seperate from there friends, and the effect on morale was obvious.",
+            "hint": "Check the -ite- in *definitely*, the *should have* rule, the two-word *a lot*, the *-par-* in *separate*, and the homophone for 'belonging to them'.",
+            "explanation": "The errors are *definately* (definitely), *should of* (should have), *Alot* (a lot), *seperate* (separate) and *there* (their). *Effect* is correct here because it is the noun. Any four of the five errors score.",
+            "options": [
+              { "text": "definately", "correct": true },
+              { "text": "should of", "correct": true },
+              { "text": "Alot", "correct": true },
+              { "text": "seperate", "correct": true },
+              { "text": "effect", "correct": false, "feedback": "*Effect* is the noun here, so it is correct." },
+              { "text": "morale", "correct": false, "feedback": "*Morale* (team spirit) is spelled correctly." },
+              { "text": "obvious", "correct": false, "feedback": "Correct." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Words that English answers need",
+          "minutes": 4,
+          "content": "## The GCSE English vocabulary list\n\nThese words appear constantly in your reading answers. Misspelling them looks careless because the examiner sees them on every page.\n\n| Word | Trap | Memory aid |\n|---|---|---|\n| **writer** | *writter* | One *t*: the *i* is long. |\n| **language** | *langauge* | *lang-u-age*. |\n| **technique** | *technic* | Ends *-ique*, like *unique*. |\n| **rhythm** | *rythm* | **R**hythm **H**elps **Y**our **T**wo **H**ips **M**ove. |\n| **metaphor** | *metafor* | *-phor*, like *phone*. |\n| **simile** | *similie* | *simil-e*, like *similar* minus *ar*. |\n| **atmosphere** | *atmosphear* | *sphere*, like a ball. |\n| **character** | *charecter* | *char-act-er*: they *act*. |\n| **sentence** | *sentance* | *sent-ence*. |\n| **paragraph** | *paragragh* | *-graph*, like *photograph*. |\n| **suggests** | *sugests* | Double *g*. |\n| **emphasise** | *emphasize* | British: *-ise*. Both accepted, but be consistent. |\n| **conscious** | *concious* | *con-sci-ous*: *sci* like *science*. |\n| **immediately** | *immediatly* | *immediate + ly*. |\n| **necessary** | *neccesary* | One *c*, two *s*: a shirt has one **c**ollar, two **s**leeves. |\n| **beginning** | *begining* | Double *n*. |\n| **argument** | *arguement* | *Argue* loses its *e*. |\n| **environment** | *enviroment* | *environ-ment*: there is an *iron* in it. |\n\n### Your personal list\n\nEvery student has a different set of enemies. Keep a list of the ten words *you* get wrong. Cover, write, check, three times each, once a week. It takes five minutes and it works."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: correct spellings",
+          "question": {
+            "key": "AQA-ENL-05-01-L1-Q5",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Which set of words is spelled **entirely correctly**?",
+            "hint": "Check *writer* (one t), *rhythm* (r-h-y-t-h-m), *separate* (-par-), *necessary* (one c, two s).",
+            "explanation": "*Writer, rhythm, separate, necessary* are all correct. The other sets each contain at least one error: *writter*, *rythm*, *seperate*, *neccessary*.",
+            "options": [
+              { "text": "writer, rhythm, separate, necessary", "correct": true },
+              { "text": "writter, rhythm, separate, necessary", "correct": false, "feedback": "*Writer* has one *t*." },
+              { "text": "writer, rythm, separate, necessary", "correct": false, "feedback": "*Rhythm* needs its first *h*." },
+              { "text": "writer, rhythm, seperate, neccessary", "correct": false, "feedback": "*Separate* has *-par-*; *necessary* has one *c*." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Proofreading in five minutes",
+          "minutes": 3,
+          "content": "## The last five minutes\n\nYou will not find every error by reading your work normally, because your brain reads what you *meant* to write. Use these tricks.\n\n### Read backwards for spelling\nRead the last sentence, then the one before, and so on. Out of context, each word stands alone and misspellings jump out.\n\n### Hunt the usual suspects\nScan specifically for:\n- every *there / their / they're*\n- every *its / it's*\n- every *of* after *could, should, would, might*\n- *alot*, *definately*, *seperate*, *begining*\n- apostrophes on plurals\n\n### Point with your pen\nTouch each word as you read it. This slows you down enough to see it.\n\n### Correct neatly\nCross out with a single line and write the correction above. Examiners read corrections happily; they do not penalise crossing out.\n\n### Do not panic-change\nIf a word looks odd but you are fairly sure it is right, leave it. Students often 'correct' *necessary* into *neccessary*.\n\nFive minutes of this routinely catches three or four errors, which can be the difference between AO6 bands."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-05-01-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 3,
+            "marks": 8,
+            "examStyle": true,
+            "text": "Proofread the paragraph below. It contains **eight** spelling or confused-word errors. Rewrite the paragraph with all errors corrected.\n\n> The writter uses a strong metaphor at the begining of the extract to show the storm's affect on the village. Its clear that the villagers are frightened; there houses are shaking and they could of been swept away. The rythm of the sentances quickens, which definately creates tension, and the atmosphere becomes seperate from the calm opening. [8 marks]",
+            "hint": "Look for: the *t* in writer, the *n* in beginning, affect/effect, its/it's, there/their, *could of*, the *h* in rhythm, *sentences*, *definitely*, *separate*.",
+            "explanation": "Corrected: *The writer uses a strong metaphor at the beginning of the extract to show the storm's effect on the village. It's clear that the villagers are frightened; their houses are shaking and they could have been swept away. The rhythm of the sentences quickens, which definitely creates tension, and the atmosphere becomes separate from the calm opening.* (There are in fact ten errors; any eight correctly fixed score full marks.)",
+            "markScheme": [
+              { "criterion": "Corrects 'writter' to 'writer' and 'begining' to 'beginning'", "marks": 1, "keywords": [ ["writer "], ["beginning"] ] },
+              { "criterion": "Corrects 'affect' to 'effect' (noun)", "marks": 1, "keywords": [ ["storm's effect", "effect on"] ] },
+              { "criterion": "Corrects 'Its clear' to 'It's clear'", "marks": 1, "keywords": [ ["it's clear", "it is clear"] ] },
+              { "criterion": "Corrects 'there houses' to 'their houses'", "marks": 1, "keywords": [ ["their houses"] ] },
+              { "criterion": "Corrects 'could of' to 'could have'", "marks": 1, "keywords": [ ["could have", "could've"] ] },
+              { "criterion": "Corrects 'rythm' to 'rhythm' and 'sentances' to 'sentences'", "marks": 1, "keywords": [ ["rhythm"], ["sentences"] ] },
+              { "criterion": "Corrects 'definately' to 'definitely'", "marks": 1, "keywords": [ ["definitely"] ] },
+              { "criterion": "Corrects 'seperate' to 'separate'", "marks": 1, "keywords": [ ["separate"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **AO6 = 16 of 40 marks** on each writing question. Spelling accuracy affects the band.\n- Learn homophones by **meaning**: *their/there/they're*, *its/it's*, *your/you're*, *to/too/two*, *affect/effect*, *practice/practise*, *whose/who's*, *passed/past*.\n- Never *could of*: always **could have**. *A lot* is **two words**.\n- Rules: add *-ly* without dropping letters (*finally, definitely*); **double** the consonant in *running, beginning*; **drop the e** in *writing, arguing*; *i* before *e* for the 'ee' sound; plurals never take apostrophes.\n- Learn the GCSE English words: *writer, rhythm, metaphor, simile, separate, necessary, atmosphere, character*.\n- **Proofread** for five minutes: read backwards, hunt the usual suspects, correct neatly."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-05-01-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which sentence is correct?",
+          "hint": "*It's* = it is. *Its* = belonging to it.",
+          "explanation": "*It's* (it is) *a shame the cat lost its* (belonging to it) *collar.* The others misuse the apostrophe.",
+          "options": [
+            { "text": "It's a shame the cat lost its collar.", "correct": true },
+            { "text": "Its a shame the cat lost it's collar.", "correct": false, "feedback": "Both are the wrong way round." },
+            { "text": "It's a shame the cat lost it's collar.", "correct": false, "feedback": "*It's collar* would mean *it is collar*." },
+            { "text": "Its a shame the cat lost its collar.", "correct": false, "feedback": "The first needs an apostrophe: *it is a shame*." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: *alot* is an acceptable spelling of *a lot*.",
+          "hint": "How many words is it?",
+          "explanation": "False. *A lot* is always two words. *Alot* is not a word.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete each sentence with **practice** or **practise**, and **passed** or **past**.",
+          "metadata": { "blanksText": "I need to ___ my speech tonight. Netball ___ is on Tuesdays. We walked ___ the old cinema." },
+          "hint": "Verb = *practise* (with an s); noun = *practice* (with a c). *Past* is the preposition meaning 'beyond'.",
+          "explanation": "*Practise* is the verb (I need to practise). *Practice* is the noun (netball practice). *Walked past* uses the preposition *past*, not the verb *passed*.",
+          "answers": [
+            { "text": "practise", "blankIndex": 0, "marks": 1 },
+            { "text": "practice", "blankIndex": 1, "marks": 1 },
+            { "text": "past", "blankIndex": 2, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P4",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each misspelling to its correct form.",
+          "hint": "Think about the rules: -ly endings, i before e, and the tricky middle of *necessary* and *environment*.",
+          "explanation": "*Definitely* (from finite), *believe* (i before e), *necessary* (one c, two s), *environment* (there is an *iron* in it).",
+          "pairs": [
+            { "left": "definately", "right": "definitely" },
+            { "left": "beleive", "right": "believe" },
+            { "left": "neccessary", "right": "necessary" },
+            { "left": "enviroment", "right": "environment" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P5",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which word is spelled correctly after adding the ending?",
+          "hint": "Short word, one vowel, one final consonant: double it. Silent e: drop it before -ing.",
+          "explanation": "*Stopped* correctly doubles the *p*. *Hopping* would mean jumping; *hoping* (from *hope*) drops the *e*. *Argueing* should be *arguing*. *Writeing* should be *writing*.",
+          "options": [
+            { "text": "stopped", "correct": true },
+            { "text": "argueing", "correct": false, "feedback": "Drop the *e*: *arguing*." },
+            { "text": "writeing", "correct": false, "feedback": "Drop the *e*: *writing*." },
+            { "text": "begining", "correct": false, "feedback": "Double the *n*: *beginning*." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P6",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these are correct?",
+          "hint": "Check *could have*, *whose/who's*, *quite/quiet*, *lose/loose*, *than/then*.",
+          "explanation": "*Should have*, *Whose bag* (belonging to whom) and *quiet room* are correct. *Loose the match* should be *lose*; *taller then* should be *than*.",
+          "options": [
+            { "text": "I should have known better.", "correct": true },
+            { "text": "Whose bag is this?", "correct": true },
+            { "text": "Please find a quiet room.", "correct": true },
+            { "text": "We cannot afford to loose the match.", "correct": false, "feedback": "*Lose* (be defeated). *Loose* means not tight." },
+            { "text": "She is taller then her brother.", "correct": false, "feedback": "Comparison needs *than*." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P7",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A student writes: *The writer's use of the simile 'like a caged animal' effects the reader by making them feel the characters desperation, and its a technique used alot in the extract.*\n\nIdentify **three** errors and give the corrections.",
+          "hint": "Look at *effects* (verb or noun?), *characters* (does it need an apostrophe?), *its* (it is?), and *alot*.",
+          "explanation": "Errors: *effects* should be *affects* (verb); *characters desperation* needs an apostrophe: *character's desperation*; *its a technique* should be *it's* (it is); *alot* should be *a lot*. Any three correctly identified and corrected score full marks.",
+          "markScheme": [
+            { "criterion": "Corrects 'effects' to 'affects'", "marks": 1, "keywords": [ ["affects", "affect"] ] },
+            { "criterion": "Corrects 'its a technique' to 'it's a technique' or identifies the missing apostrophe in character's", "marks": 1, "keywords": [ ["it's", "it is", "character's", "apostrophe"] ] },
+            { "criterion": "Corrects 'alot' to 'a lot'", "marks": 1, "keywords": [ ["a lot", "two words"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P8",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: the rule 'i before e except after c' applies to all words, including *their*, *weird* and *height*.",
+          "hint": "What sound does the rule apply to?",
+          "explanation": "False. The rule only applies when the letters make an 'ee' sound (*believe, receive*). *Their, weird* and *height* make different sounds and are exceptions.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "Proofread this paragraph from a piece of descriptive writing and rewrite it with all **six** errors corrected.\n\n> The beach was quite except for the gulls. Two boys were runing along the shore, there footprints filling with water behind them. It was to cold to swim, but they didn't seem to notice; they were completly absorbed in the game. I could of watched them for hours. [6 marks]",
+          "hint": "Check quite/quiet, the doubling rule, there/their, to/too, the -ly rule on *completely*, and *could of*.",
+          "explanation": "Corrected: *The beach was quiet except for the gulls. Two boys were running along the shore, their footprints filling with water behind them. It was too cold to swim, but they didn't seem to notice; they were completely absorbed in the game. I could have watched them for hours.*",
+          "markScheme": [
+            { "criterion": "Corrects 'quite' to 'quiet'", "marks": 1, "keywords": [ ["quiet"] ] },
+            { "criterion": "Corrects 'runing' to 'running'", "marks": 1, "keywords": [ ["running"] ] },
+            { "criterion": "Corrects 'there footprints' to 'their footprints'", "marks": 1, "keywords": [ ["their footprints"] ] },
+            { "criterion": "Corrects 'to cold' to 'too cold'", "marks": 1, "keywords": [ ["too cold"] ] },
+            { "criterion": "Corrects 'completly' to 'completely'", "marks": 1, "keywords": [ ["completely"] ] },
+            { "criterion": "Corrects 'could of' to 'could have'", "marks": 1, "keywords": [ ["could have", "could've"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P10",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these proofreading steps into the order recommended in the lesson.",
+          "hint": "Start by reading in a way that isolates each word, then target the known problem words, then fix neatly.",
+          "explanation": "Read backwards sentence by sentence to catch spellings, then scan for the usual suspects (homophones, *could of*, *alot*), then check apostrophes on plurals, then correct neatly with a single line.",
+          "order": [
+            "Read the piece backwards, sentence by sentence",
+            "Scan for every there/their/they're and its/it's",
+            "Scan for 'could of', 'alot', 'definately' and 'seperate'",
+            "Check no plural has an apostrophe",
+            "Cross out errors with a single line and write corrections above"
+          ]
+        }
+      ]
+    }
+  ]
+}

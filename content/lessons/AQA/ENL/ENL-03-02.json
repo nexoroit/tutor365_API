@@ -1,0 +1,326 @@
+{
+  "subTopicCode": "ENL-03-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-03-02-L1",
+      "title": "Summarising and synthesising two texts (Paper 2, Question 2)",
+      "summary": "Learn how to pull out the key differences or similarities between two non-fiction sources, support each point with evidence from both, and add the inference that lifts an answer into the top band.",
+      "objectives": [
+        "I can identify the focus of a Question 2 task and find relevant details in both sources.",
+        "I can write a synthesis paragraph that links a point from Source A to a point from Source B.",
+        "I can add an inference to each point instead of only stating what the texts say.",
+        "I can avoid analysing language, which earns nothing on Question 2."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What Question 2 asks for",
+          "minutes": 4,
+          "content": "## Paper 2, Question 2: the summary question\n\nQuestion 2 is the first time you use **both sources**. It is worth **8 marks** and tests **AO1**: identifying information and ideas, and **synthesising** evidence from different texts.\n\nThe question is always shaped like this:\n\n> You need to refer to **Source A** and **Source B** for this question. Use details from both sources. Write a summary of the **differences** between [focus]. [8 marks]\n\nSometimes it asks for **similarities** instead. Read that word carefully: writing about differences when you were asked for similarities scores very little.\n\n### What the examiner wants\n\n- **Statements** about the focus in both texts (not about anything else).\n- **Evidence** from both sources: short quotations or close paraphrase.\n- **Inference**: what the details *suggest* beyond what they state.\n- Points that are **linked** across the two texts, not two separate lists.\n\n### What the examiner does not want\n\n- Comments on language or techniques. *The writer uses a metaphor to…* earns **nothing** here; save it for Question 3.\n- Comments on the writers' opinions or perspectives. That is Question 4.\n- A summary of the whole text. Only the **focus** counts.\n\nAim for **three well-developed points** in about **10 minutes**. Quality of inference matters more than the number of points."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: two sources, one focus",
+          "minutes": 5,
+          "content": "**Source A** (modern blog post):\n\n> My daily commute is forty minutes each way, standing, wedged between a stranger's rucksack and the doors. Nobody speaks. Most people wear headphones and stare at their phones as if the rest of us were not there. I get to work already tired.\n\n**Source B** (letter, 1889):\n\n> I walk to the mill each morning with my brothers, a distance of two miles which we cover in something under the hour. We talk the whole way, or sing when the weather is fine, and I arrive with my blood up and ready for the day, though my boots are seldom dry.\n\n**Task:** Write a summary of the differences between the two writers' journeys to work.\n\n**A top-band point:**\n\n> The writer of Source A travels by train, *\"wedged between a stranger's rucksack and the doors\"*, whereas the writer of Source B walks two miles with his brothers. This suggests the modern commute is cramped and uncomfortable, while the Victorian journey, although longer and wetter, is more physical and companionable.\n\n**Why it works**\n- One clear **difference** (train versus walking).\n- **Evidence from both** sources.\n- The word *suggests* introduces an **inference** that goes beyond the plain facts.\n\nA second point might contrast the silence of the train (*\"Nobody speaks\"*) with the talking and singing in Source B, inferring that modern commuters are isolated while the Victorian brothers enjoy each other's company. A third could contrast arriving *\"already tired\"* with arriving *\"with my blood up\"*."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: what earns marks on Question 2?",
+          "question": {
+            "key": "AQA-ENL-03-02-L1-Q1",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Which **three** of these would earn credit on Paper 2 Question 2?",
+            "hint": "Question 2 tests AO1: information, ideas and synthesis. Anything about language techniques or writers' viewpoints belongs to later questions.",
+            "explanation": "Credit is given for identifying differences or similarities on the focus, supporting them with evidence from both sources, and inferring what the details suggest. Commenting on techniques is AO2 (Question 3) and comparing the writers' attitudes is AO3 (Question 4).",
+            "options": [
+              { "text": "Identifying a clear difference between the two texts on the given focus", "correct": true },
+              { "text": "Supporting the point with a short quotation from each source", "correct": true },
+              { "text": "Inferring what a detail suggests beyond what it states", "correct": true },
+              { "text": "Explaining the effect of a simile the writer uses", "correct": false, "feedback": "Language analysis is not rewarded on Question 2." },
+              { "text": "Comparing how the writers feel about the topic", "correct": false, "feedback": "Writers' perspectives are assessed in Question 4." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Building a synthesis paragraph",
+          "minutes": 5,
+          "content": "## The three-part pattern\n\nA reliable way to write each point is **Statement, Evidence, Inference**, done for both sources and joined with a comparison word.\n\n### Step 1: statement\nSay what the difference (or similarity) is, in one sentence. Name both sources.\n\n> *In Source A the market is described as chaotic, whereas in Source B it is orderly.*\n\n### Step 2: evidence from both\nGive a short quotation or precise paraphrase from **each** text. Long quotations waste time; five to ten words is plenty.\n\n> *Source A mentions \"carts blocking every alley\", while Source B describes stalls \"set out in neat lines\".*\n\n### Step 3: inference\nSay what these details **suggest**, **imply** or **indicate**. This is the part that separates a Level 2 answer from a Level 4 answer.\n\n> *This suggests the modern market has grown faster than the space allows, whereas the older market was carefully controlled.*\n\n### Comparison connectives\n\nFor differences: *whereas, while, in contrast, on the other hand, unlike.*\nFor similarities: *similarly, likewise, both, in the same way, just as.*\n\n### Common mistakes\n\n- Writing all about Source A, then all about Source B, with no link. This is two summaries, not a synthesis.\n- Copying out a whole sentence as evidence.\n- Forgetting the inference and simply restating the quotation in other words.\n- Drifting off the focus. If the question is about *the journeys*, a point about *the writers' families* does not count."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: from Level 2 to Level 4",
+          "minutes": 3,
+          "content": "Here are two responses to the same point about the commute sources.\n\n**Level 2 response (some attempt to summarise):**\n\n> Source A says the commute is forty minutes. Source B says the walk is two miles and takes under an hour. So Source B's journey is longer.\n\nThis is accurate and uses both sources, but it only **repeats** what the texts say. There is no inference.\n\n**Level 4 response (perceptive summary):**\n\n> Both journeys are similar in length, around forty minutes to an hour, but the writers experience them very differently. In Source A the time is spent *\"standing, wedged\"* and the writer arrives *\"already tired\"*, whereas in Source B the walk leaves the writer *\"with my blood up and ready for the day\"*. This implies that the passive, cramped train journey drains the modern commuter, while the physical effort of walking actually energises the Victorian writer.\n\n**What changed**\n- The point moves from a bare fact (length) to a meaningful difference (effect on the writer).\n- Evidence is short and taken from both texts.\n- *This implies* opens an inference that a reader has to work out; it is not stated in either text.\n\nNotice the Level 4 answer is not much longer. It is **deeper**, not bigger."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: statement, evidence, inference",
+          "question": {
+            "key": "AQA-ENL-03-02-L1-Q2",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put these sentences in the correct order to form a well-structured synthesis paragraph.",
+            "hint": "Start with the statement of difference, then give evidence from both sources, then infer.",
+            "explanation": "The statement comes first, naming the difference. Evidence from Source A follows, then evidence from Source B linked with *whereas*. The inference comes last, introduced by *This suggests*.",
+            "order": [
+              "The two writers describe very different kinds of accommodation.",
+              "In Source A the writer stays in a hostel with \"eleven other people and one working shower\",",
+              "whereas the writer of Source B has \"a room to myself with a fire laid each evening\".",
+              "This suggests that the modern traveller values cheapness over comfort, while the Victorian writer expected, and could afford, to be looked after."
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: find the differences",
+          "question": {
+            "key": "AQA-ENL-03-02-L1-Q3",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "**Source A** (modern article about school dinners):\n\n> Lunch is twenty-five minutes, and by the time you have queued, found a seat and been told to move because a Year 7 class needs the table, you have eight minutes to eat. The food is fine. Nobody remembers it.\n\n**Source B** (memoir, 1902):\n\n> Dinner was served at one o'clock precisely and lasted a full hour. We sat in silence while grace was said, and then, under the eye of the headmaster, we ate what was put before us: a grey stew on most days, which I can taste even now, fifty years later.\n\nWrite **one** synthesis paragraph summarising a difference between the two school meals. Use evidence from both sources and include an inference.",
+            "hint": "Possible differences: how long the meal lasts, how formal it is, how memorable the food is. Pick one, quote from both, then say what it suggests.",
+            "explanation": "A strong answer: *The modern meal is rushed while the Victorian one was long and formal. Source A leaves \"eight minutes to eat\" after queuing, whereas Source B's dinner \"lasted a full hour\" and was eaten \"under the eye of the headmaster\". This suggests that lunch today is treated as a break to be squeezed in, while in 1902 it was a disciplined, central part of the school day.*",
+            "markScheme": [
+              { "criterion": "States a clear difference on the focus (length, formality, memorability of the meal)", "marks": 1, "keywords": [ ["different", "whereas", "while", "contrast", "unlike", "but"] ] },
+              { "criterion": "Uses evidence from Source A (e.g. eight minutes, twenty-five minutes, nobody remembers)", "marks": 1, "keywords": [ ["eight minutes", "twenty-five", "nobody remembers", "queue", "fine"] ] },
+              { "criterion": "Uses evidence from Source B (e.g. full hour, silence, headmaster, grey stew)", "marks": 1, "keywords": [ ["full hour", "silence", "headmaster", "grey stew", "fifty years", "one o'clock"] ] },
+              { "criterion": "Makes an inference introduced by suggests / implies / indicates / shows", "marks": 1, "keywords": [ ["suggest", "impl", "indicat", "shows that", "seems"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Finding the right details fast",
+          "minutes": 4,
+          "content": "## A method for the exam\n\nYou have about ten minutes, so you cannot re-read both sources from the start. Use this routine.\n\n1. **Circle the focus** in the question (for example, *the differences between the two markets*). Every point must be about this.\n2. **Skim Source A** and put a tick in the margin beside each detail about the focus. Aim for four or five ticks.\n3. **Do the same for Source B.**\n4. **Pair them up.** Look for a detail in A that has a natural partner in B: size with size, noise with noise, feelings with feelings. These pairs become your points.\n5. **Choose three pairs** with the strongest contrast (or similarity) and the most room for inference.\n6. **Write** three paragraphs using Statement, Evidence, Inference.\n\n### If the texts do not line up neatly\n\nSometimes Source B does not mention something Source A does. That absence can itself be a point: *Source A describes the smell of the food in detail, whereas Source B does not mention taste or smell at all, which suggests the Victorian writer saw the meal as a duty rather than a pleasure.*\n\n### Similarities questions\n\nThe method is identical, but pair details that **agree**. Even when the texts are from different centuries there are usually similarities in what the writers notice, worry about or enjoy. Use *both*, *similarly* and *likewise* to signal the link."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: is this a valid point?",
+          "question": {
+            "key": "AQA-ENL-03-02-L1-Q4",
+            "type": "MultipleChoice",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "The question asks for a summary of the **differences between the two writers' journeys**. Which of these points would score **least** on Question 2?",
+            "hint": "Check each option for focus and for whether it is summarising ideas or analysing language.",
+            "explanation": "Commenting on the metaphor and its effect is language analysis (AO2), which earns nothing on Question 2, even though the quotation is about the journey. The other three all summarise differences or similarities about the journeys using details from both texts.",
+            "options": [
+              { "text": "Source A uses the metaphor \"a tin of sardines\" to make the train sound cramped, which makes the reader feel sympathy.", "correct": true },
+              { "text": "Source A's journey is by train whereas Source B's is on foot, suggesting the Victorian writer had no other option.", "correct": false, "feedback": "This is a valid difference with an inference." },
+              { "text": "Both writers arrive at work in a particular state: Source A \"already tired\", Source B \"ready for the day\".", "correct": false, "feedback": "This contrasts the journeys' effects with evidence from both." },
+              { "text": "Source B's writer travels with family, unlike Source A's writer who is surrounded by strangers.", "correct": false, "feedback": "This is a clear, on-focus difference." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: connectives",
+          "question": {
+            "key": "AQA-ENL-03-02-L1-Q5",
+            "type": "Matching",
+            "difficulty": 1,
+            "marks": 4,
+            "text": "Match each connective to the job it does in a synthesis answer.",
+            "hint": "Two of these signal contrast, one signals a similarity, and one introduces an inference.",
+            "explanation": "*Whereas* and *in contrast* both signal a difference. *Similarly* links two points that agree. *This implies* introduces an inference that goes beyond the stated facts.",
+            "pairs": [
+              { "left": "whereas", "right": "Introduces a difference within one sentence" },
+              { "left": "in contrast", "right": "Opens a new sentence that gives the opposite side" },
+              { "left": "similarly", "right": "Links a point that agrees with the previous one" },
+              { "left": "this implies", "right": "Introduces an inference" }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-03-02-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 8,
+            "examStyle": true,
+            "text": "You need to refer to **Source A** and **Source B** for this question.\n\n**Source A** (modern travel feature):\n\n> The campsite sits at the end of a single-track road and has no phone signal, no shop and, for three days of our stay, no hot water. There were about a dozen tents, most of them belonging to families with small children who were up at five and asleep by eight. In the evenings people shared barbecues and nobody locked anything. My teenage son called it the worst week of his life and then asked, in the car home, whether we could come back next year.\n\n**Source B** (diary of a walking tour, 1881):\n\n> We pitched the tent in a field belonging to a farmer who charged us sixpence and sent his daughter down with milk. The ground was hard, the night was cold, and a cow investigated the guy ropes at some hour before dawn. Yet I slept as I have not slept in London for years, and woke to a view of the fells that I would not have exchanged for any hotel in Europe. We were entirely alone.\n\nUse details from **both** sources. Write a summary of the **similarities** between the two writers' experiences of camping. [8 marks]",
+            "hint": "Look for what both writers share: discomfort, lack of facilities, being away from the city, and ending up enjoying it anyway. Pair a detail from A with a detail from B for each point, and add what it suggests.",
+            "explanation": "Strong answers might include: (1) Both sites lack comfort: Source A has *no hot water* and Source B's ground was *hard* and the night *cold*, suggesting camping has always involved putting up with discomfort. (2) Both writers are cut off from modern life: A has *no phone signal, no shop* and B is *entirely alone* with only a farmer's daughter for company, implying that isolation is part of the appeal. (3) Both experiences end positively despite the hardships: A's son wants to come back and B *slept as I have not slept in London for years*, suggesting the discomfort is outweighed by rest and escape. (4) Both mention friendly locals or fellow campers, from shared barbecues to milk sent down by the farmer's daughter, suggesting camping brings out generosity in people.",
+            "markScheme": [
+              { "criterion": "Identifies a similarity about discomfort or lack of facilities", "marks": 1, "keywords": [ ["hot water", "hard", "cold", "uncomfortable", "no shop", "discomfort", "basic"] ] },
+              { "criterion": "Identifies a similarity about isolation or being cut off from normal life", "marks": 1, "keywords": [ ["alone", "signal", "isolat", "cut off", "remote", "away from", "single-track"] ] },
+              { "criterion": "Identifies a similarity about enjoying the experience despite the problems", "marks": 1, "keywords": [ ["come back", "next year", "slept", "view", "enjoy", "worth", "positive", "despite"] ] },
+              { "criterion": "Identifies a further similarity (e.g. kindness of others, animals or nature, early rising)", "marks": 1, "keywords": [ ["barbecue", "milk", "farmer", "cow", "shared", "kind", "generous", "families", "dawn", "five"] ] },
+              { "criterion": "Supports points with evidence from Source A", "marks": 1, "keywords": [ ["source a"], ["hot water", "signal", "dozen", "barbecue", "worst week", "next year", "locked"] ] },
+              { "criterion": "Supports points with evidence from Source B", "marks": 1, "keywords": [ ["source b"], ["sixpence", "milk", "hard", "cold", "cow", "fells", "hotel", "alone", "london"] ] },
+              { "criterion": "Makes inferences using suggests / implies / indicates / shows", "marks": 1, "keywords": [ ["suggest", "impl", "indicat", "shows that", "seems"] ] },
+              { "criterion": "Links the sources with comparison connectives (both, similarly, likewise, just as)", "marks": 1, "keywords": [ ["both", "similarly", "likewise", "just as", "in the same way", "also"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Question 2: **8 marks, AO1, both sources**, about **10 minutes**. Read whether it asks for *differences* or *similarities*.\n- Stay on the **focus** given in the question.\n- Each point: **Statement, Evidence from both, Inference**. Link the sources with *whereas / while / similarly / both*.\n- **Inference** (*this suggests…*) is what moves an answer into the top levels.\n- **No language analysis** and **no comparison of viewpoints**: those are Questions 3 and 4.\n- Method: circle the focus, tick relevant details in each source, pair them up, write three linked points."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-03-02-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: on Paper 2 Question 2 you can gain marks by explaining the effect of language techniques such as similes.",
+          "hint": "Which Assessment Objective does Question 2 test?",
+          "explanation": "False. Question 2 tests AO1 only. Language analysis is rewarded on Question 3.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P2",
+          "type": "FillInTheBlank",
+          "difficulty": 1,
+          "marks": 3,
+          "text": "Complete the description of a strong Question 2 paragraph.",
+          "metadata": { "blanksText": "Begin with a ___ of the difference or similarity, support it with ___ from both sources, and finish with an ___ about what the details suggest." },
+          "hint": "The three-part pattern from the lesson: S, E, I.",
+          "explanation": "Statement, Evidence, Inference: state the point, prove it from both texts, then say what it suggests.",
+          "answers": [
+            { "text": "statement", "blankIndex": 0, "marks": 1 },
+            { "text": "evidence", "blankIndex": 1, "marks": 1 },
+            { "text": "inference", "blankIndex": 2, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P3",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which sentence contains an **inference** rather than a restatement of the text?\n\nThe text says: *The hall was lit by a single candle, and the visitors kept their coats on throughout the meal.*",
+          "hint": "A restatement repeats the facts in other words. An inference draws a conclusion the text does not state.",
+          "explanation": "The text never says the house is poor or cold; the reader works that out from the single candle and the coats. The other options simply rephrase what the text states.",
+          "options": [
+            { "text": "This suggests the household was poor and the room was cold.", "correct": true },
+            { "text": "There was only one candle in the hall.", "correct": false, "feedback": "This restates the text." },
+            { "text": "The visitors did not take their coats off during the meal.", "correct": false, "feedback": "This restates the text." },
+            { "text": "The hall had a candle and the visitors wore coats.", "correct": false, "feedback": "This combines two facts but adds nothing." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P4",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "A Question 2 asks for the **differences between the two writers' homes**. Which **three** of these details are relevant to the focus?",
+          "hint": "Only details about the homes count. Details about the writers' jobs or journeys are off focus.",
+          "explanation": "The number of rooms, the heating, and the garden are all about the homes. The writer's journey to work and the writer's job are not.",
+          "options": [
+            { "text": "Source A: the flat has two rooms and a shared bathroom", "correct": true },
+            { "text": "Source B: the house is heated by a single coal fire", "correct": true },
+            { "text": "Source B: there is a walled garden with apple trees", "correct": true },
+            { "text": "Source A: the writer cycles forty minutes to work", "correct": false, "feedback": "This is about the journey, not the home." },
+            { "text": "Source B: the writer is a schoolmaster", "correct": false, "feedback": "This is about the writer's job, not the home." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P5",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Read this Level 2 response and rewrite it as a Level 4 paragraph by adding an inference and a linking connective.\n\n> Source A says the beach was crowded with tourists. Source B says the beach was empty except for fishermen.",
+          "hint": "Join the two sentences with *whereas* or *while*, then add a sentence beginning *This suggests…* that says what the difference tells us about the two beaches or the two eras.",
+          "explanation": "A strong rewrite: *In Source A the beach is \"crowded with tourists\", whereas in Source B it is empty except for fishermen. This suggests that the beach has changed from a working place into a holiday destination, and that the Victorian writer saw it as somewhere people made a living rather than relaxed.*",
+          "markScheme": [
+            { "criterion": "Links the two sources with a comparison connective", "marks": 1, "keywords": [ ["whereas", "while", "in contrast", "unlike", "however", "but"] ] },
+            { "criterion": "Keeps evidence from both sources (tourists / crowded and fishermen / empty)", "marks": 1, "keywords": [ ["tourist", "crowded"], ["fisher", "empty"] ] },
+            { "criterion": "Adds an inference about what the difference suggests", "marks": 1, "keywords": [ ["suggest", "impl", "indicat", "shows that", "seems"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P6",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "How many marks is Paper 2 Question 2 worth, and roughly how long should you spend on it?",
+          "hint": "It is worth twice as much as Question 1.",
+          "explanation": "Question 2 is worth 8 marks and should take about 10 minutes, allowing time for three developed points.",
+          "options": [
+            { "text": "8 marks, about 10 minutes", "correct": true },
+            { "text": "4 marks, about 5 minutes", "correct": false, "feedback": "That is Question 1." },
+            { "text": "12 marks, about 15 minutes", "correct": false, "feedback": "That is Question 3." },
+            { "text": "16 marks, about 20 minutes", "correct": false, "feedback": "That is Question 4." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P7",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put the steps of the Question 2 method into the correct order.",
+          "hint": "You need to know the focus before you can find details, and you need details from both sources before you can pair them.",
+          "explanation": "Circle the focus, tick details in Source A, tick details in Source B, pair the details, choose the three strongest pairs, then write.",
+          "order": [
+            "Circle the focus of the question",
+            "Tick details about the focus in Source A",
+            "Tick details about the focus in Source B",
+            "Pair up details that naturally compare",
+            "Choose the three pairs with the most room for inference",
+            "Write three Statement, Evidence, Inference paragraphs"
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P8",
+          "type": "TrueFalse",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "True or false: if Source B does not mention something that Source A describes in detail, you can still use that absence as a point of difference.",
+          "hint": "Think about what it suggests when one writer chooses not to mention something.",
+          "explanation": "True. The absence of a detail in one source can be a legitimate difference, as long as you say what it suggests. For example, one writer's silence about food might imply it was unimportant to them.",
+          "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "**Source A** (modern column about winter):\n\n> Winter in the city means one thing: the heating bill. We keep the thermostat at eighteen and wear jumpers indoors, and still the envelope in January makes me feel faint. Outside, the pavements are gritted by six, the buses run, and the only real sign of the season is that everyone complains about it.\n\n**Source B** (farm diary, 1895):\n\n> The snow came on the ninth and by the eleventh the lane was lost. We dug a path to the byre each morning and carried water in pails, for the pump had frozen solid. The children thought it a great holiday. I did not, for the ewes were near their time and I had no way to fetch the doctor should any of us need him.\n\nWrite a summary of the **differences** between the two writers' experiences of winter. [6 marks]",
+          "hint": "Contrast what winter actually involves for each writer (a bill versus digging paths and carrying water), how much it disrupts daily life, and how serious the risks are.",
+          "explanation": "Strong points: (1) For Source A winter is mainly a financial worry, *the heating bill*, whereas for Source B it is physical work, *dug a path* and *carried water in pails*, suggesting modern winter is an inconvenience while the Victorian winter was a daily struggle. (2) Modern life carries on: *the buses run*, whereas in Source B *the lane was lost* and the doctor could not be fetched, implying the 1895 household was completely cut off. (3) The dangers differ: Source A's worst outcome is feeling *faint* at a bill, while Source B fears for the ewes and for anyone who might fall ill, suggesting winter could once be life-threatening.",
+          "markScheme": [
+            { "criterion": "Identifies a difference between financial worry and physical hardship", "marks": 1, "keywords": [ ["bill", "money", "cost", "thermostat", "jumper"], ["dug", "pail", "water", "frozen", "snow", "path"] ] },
+            { "criterion": "Identifies a difference in how much winter disrupts normal life (buses run vs lane lost / cut off)", "marks": 1, "keywords": [ ["buses", "gritted", "carries on", "normal", "complain"], ["lane", "lost", "cut off", "doctor", "isolat"] ] },
+            { "criterion": "Identifies a difference in seriousness or danger (mild complaint vs real risk)", "marks": 1, "keywords": [ ["danger", "risk", "serious", "ewes", "doctor", "ill", "life", "threat", "faint"] ] },
+            { "criterion": "Uses short quotations or close paraphrase from both sources", "marks": 1, "keywords": [ ["source a"], ["source b"] ] },
+            { "criterion": "Makes inferences introduced by suggests / implies / indicates", "marks": 1, "keywords": [ ["suggest", "impl", "indicat", "shows that", "seems"] ] },
+            { "criterion": "Links the sources with contrast connectives", "marks": 1, "keywords": [ ["whereas", "while", "in contrast", "unlike", "on the other hand", "however"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P10",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A student's Question 2 answer is one long paragraph about Source A followed by one long paragraph about Source B, with no sentences that mention both. What is the main weakness?",
+          "hint": "Question 2 asks you to *synthesise*. What does that word mean?",
+          "explanation": "Synthesis means combining information from both texts. Two separate summaries with no links do not show the examiner that the student can compare and connect the sources, so the answer is capped at the lower levels.",
+          "options": [
+            { "text": "It does not synthesise: the two sources are never linked.", "correct": true },
+            { "text": "It is too short.", "correct": false },
+            { "text": "It does not analyse language.", "correct": false, "feedback": "Language analysis is not required on Question 2." },
+            { "text": "It uses too many quotations.", "correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

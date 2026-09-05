@@ -1,0 +1,350 @@
+{
+  "subTopicCode": "ENL-04-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-04-04-L1",
+      "title": "Persuasive and rhetorical devices, tone and register",
+      "summary": "Learn the toolkit of persuasive techniques, when each one works and when it backfires, and how to control tone and register so that your viewpoint writing sounds convincing rather than pushy.",
+      "objectives": [
+        "I can identify and use a range of rhetorical devices, including direct address, rhetorical questions, triples, repetition, emotive language and hyperbole.",
+        "I can use facts, statistics, expert opinion and anecdote as evidence in a plausible way.",
+        "I can choose a tone that suits the purpose and audience and sustain it.",
+        "I can avoid overusing devices so that my writing stays credible."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "The persuasive toolkit",
+          "minutes": 5,
+          "content": "## Devices that move a reader\n\nPersuasive writing works on the reader's **head** (reason), **heart** (feeling) and **trust** (credibility). The most common devices, grouped by what they do:\n\n### Involving the reader\n- **Direct address**: *you, your*. Makes the issue personal.\n- **Inclusive pronouns**: *we, us, our*. Puts writer and reader on the same side.\n- **Rhetorical question**: *How much longer can we ignore this?* Makes the reader answer in their head, and the answer is always the one you want.\n\n### Making it memorable\n- **Triple (list of three)**: *cheaper, cleaner, quieter*.\n- **Repetition / anaphora**: repeating a word or opening phrase for emphasis.\n- **Antithesis (contrast)**: *not a luxury but a necessity*.\n- **Short sentence**: after longer ones, for impact.\n\n### Making it felt\n- **Emotive language**: words chosen for their feeling: *abandoned, heartbreaking, betrayed*.\n- **Hyperbole**: deliberate exaggeration: *an ocean of paperwork*.\n- **Imagery**: a simile or metaphor that makes the abstract concrete.\n- **Anecdote**: a short personal story that puts a face on the issue.\n\n### Making it credible\n- **Facts and statistics**: *seven in ten*, *more than 2,000 homes*.\n- **Expert opinion**: *a paediatrician I spoke to…*\n- **Counter-argument** acknowledged and answered.\n\nThe skill is not using all of them. It is using the **right three or four** for the job."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: devices at work",
+          "minutes": 4,
+          "content": "**Task:** Persuade readers of a local paper to support a ban on cars outside schools at drop-off time.\n\n> Stand at the gates of Ashfield Primary at twenty to nine and count. I did. Forty-one cars in nine minutes, six of them with engines running, two of them mounting the pavement where a four-year-old had just been walking. This is not a traffic problem. It is a safety problem, a health problem and a problem we are choosing not to solve.\n>\n> We would not let a stranger blow smoke into a child's face. Yet every morning we let hundreds of exhaust pipes do exactly that, at exactly the height of a pushchair. A GP at the practice on Mill Lane told me she sees more childhood asthma from this one street than from the rest of her list combined.\n>\n> The answer is not complicated. Close the road for thirty minutes, twice a day. Other towns have done it. Nothing terrible happened. The children breathed.\n\n**Devices identified**\n\n| Device | Example |\n|---|---|\n| Command / direct address | *Stand at the gates… and count.* |\n| Statistics | *Forty-one cars in nine minutes* |\n| Emotive detail | *a four-year-old had just been walking* |\n| Antithesis + triple | *not a traffic problem… a safety problem, a health problem and a problem we…* |\n| Analogy | *blow smoke into a child's face* |\n| Expert opinion | *A GP… told me…* |\n| Inclusive *we* | *we are choosing not to solve* |\n| Short sentences | *I did.* *The children breathed.* |\n\nSeven devices across three paragraphs, and none of them feels forced because each one is doing a job."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: identify the device",
+          "question": {
+            "key": "AQA-ENL-04-04-L1-Q1",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 5,
+            "text": "Match each example to the persuasive device it uses.",
+            "hint": "Look for *you*, a question, three items, an obvious exaggeration, and a feeling-laden word.",
+            "explanation": "*You know the feeling* addresses the reader. *Is this really the best we can do?* is a rhetorical question. *Safer, greener, kinder* is a triple. *A mountain of homework* exaggerates. *Heartbreaking* is chosen for its emotional charge.",
+            "pairs": [
+              { "left": "You know the feeling: the bus is late again.", "right": "Direct address" },
+              { "left": "Is this really the best we can do for our children?", "right": "Rhetorical question" },
+              { "left": "A town that is safer, greener and kinder.", "right": "Triple" },
+              { "left": "Every night they face a mountain of homework.", "right": "Hyperbole" },
+              { "left": "It is heartbreaking to watch a library close.", "right": "Emotive language" }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Evidence that convinces",
+          "minutes": 4,
+          "content": "## Facts, figures, experts and stories\n\nIn the exam you can **invent evidence**, and examiners expect you to. What they reward is evidence that is **plausible, specific and relevant**.\n\n### Statistics\n- Prefer *seven in ten* or *almost two thirds* to *loads*.\n- Prefer *a survey of 400 parents last spring* to *a survey*.\n- Avoid impossible or absolute numbers: *100% of students*, *a million pounds a day*.\n- Do not stack five statistics in a row; one good figure, explained, beats five listed.\n\n### Expert opinion\n- Give the expert a role, not a fake famous name: *a paediatric nurse*, *a road safety officer*, *the head of a local primary school*.\n- Paraphrase or give a short quotation: *One head teacher described the road as \"an accident waiting for a date\".*\n\n### Anecdote\n- Keep it short: three or four sentences.\n- Make it specific: a name, a time, a small detail.\n- Use it to **open** a piece or to **illustrate** a point, then step back to the argument: *Multiply that by every school in the county…*\n\n### Facts\n- Simple, checkable-sounding statements: *The road has no crossing for 600 metres.*\n\n### The credibility rule\n\nEvery piece of evidence should make a reasonable reader think *that sounds right*. If a reader thinks *that sounds made up*, you have lost them and all your devices stop working."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: plausible evidence",
+          "question": {
+            "key": "AQA-ENL-04-04-L1-Q2",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Which **three** of these pieces of invented evidence are plausible enough to use?",
+            "hint": "Reject anything absolute, impossible or that names a real-sounding celebrity as an expert.",
+            "explanation": "The survey of parents, the road safety officer's view and the specific fact about the crossing all sound believable. *Every single doctor in Britain* and *a famous scientist called Professor Smith proved* are absolute or invented in a way readers will not trust.",
+            "options": [
+              { "text": "A survey of 300 parents at three local schools found that more than half had seen a near-miss at the gates.", "correct": true },
+              { "text": "A road safety officer for the council told me the street has more reported incidents than any other in the borough.", "correct": true },
+              { "text": "There is no pedestrian crossing for 600 metres in either direction.", "correct": true },
+              { "text": "Every single doctor in Britain agrees that car fumes are the main cause of all childhood illness.", "correct": false, "feedback": "Absolute and impossible." },
+              { "text": "A famous scientist called Professor Smith has proved that closing roads makes children 500% healthier.", "correct": false, "feedback": "The invented name and absurd figure destroy credibility." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Tone: choosing a voice",
+          "minutes": 5,
+          "content": "## Tone is the attitude the reader hears\n\nThe same argument can be made in many tones. The tone should suit the **purpose**, the **audience** and the **form**.\n\n| Tone | Sounds like | Suits |\n|---|---|---|\n| Reasonable and measured | *It is worth asking whether…* | Broadsheet articles, essays, letters to officials |\n| Urgent | *We cannot wait another year.* | Speeches, campaign leaflets |\n| Passionate / angry | *This is a betrayal of every child in the town.* | Speeches, letters of complaint (used carefully) |\n| Humorous / ironic | *The council, in its wisdom, has built a car park where the playground was.* | Columns, articles for younger readers |\n| Warm and inclusive | *Together, we can…* | School magazines, leaflets, charity appeals |\n\n### Register: formal or informal?\n\n**Register** is the level of formality. It depends mainly on the audience and form:\n\n- **Formal**: full words, no slang, precise vocabulary, few contractions. For officials, broadsheets, essays.\n- **Informal**: contractions, conversational phrases, humour. For teen magazines, speeches to peers, blogs.\n\n### Three rules\n\n1. **Decide before you start**, and write the tone in your plan: *measured, slightly ironic*.\n2. **Stay consistent.** A piece that shifts from formal to slang and back looks uncontrolled.\n3. **Anger is a spice, not a meal.** One angry sentence in a measured piece is powerful. A whole page of anger reads as ranting, and readers stop trusting a ranter."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: one argument, three tones",
+          "minutes": 3,
+          "content": "**The argument:** the school canteen should stop selling fizzy drinks.\n\n**Measured (broadsheet article / letter to the head):**\n\n> There is a reasonable case for removing sugary drinks from the canteen. The school already teaches the risks of excess sugar in science and PSHE; selling the same product at break undermines that teaching and, arguably, the school's credibility.\n\n**Urgent (speech to the school council):**\n\n> We teach it in the classroom and sell it in the corridor. Every day. Every break. How long are we going to keep saying one thing and doing the other?\n\n**Ironic (column in the school magazine):**\n\n> Nothing says \"we care about your health\" quite like a vending machine humming outside the science lab where you have just learned what sugar does to your teeth.\n\n**Notice**\n- The measured version uses hedges (*reasonable, arguably*) and long sentences.\n- The urgent version uses repetition, fragments and a rhetorical question.\n- The ironic version says the opposite of what it means, and lets the reader spot the contradiction.\n\nAll three are persuasive. Only one would suit any given task. Choose, then commit."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: matching tone to task",
+          "question": {
+            "key": "AQA-ENL-04-04-L1-Q3",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "The task is: *Write a letter to your MP arguing for better funding for youth services.* Which tone is most appropriate for the whole letter?",
+            "hint": "Who is reading, and what will make them take you seriously?",
+            "explanation": "An MP is a formal recipient who receives many letters; a measured, reasoned tone with clear evidence is most likely to be taken seriously. Fury throughout reads as ranting; sarcasm risks offending the person you need to persuade; a jokey tone is wrong for the audience.",
+            "options": [
+              { "text": "Measured and reasoned, with one or two moments of controlled feeling", "correct": true },
+              { "text": "Furious from the first line to the last", "correct": false, "feedback": "Sustained anger reads as ranting and loses the reader." },
+              { "text": "Heavily sarcastic throughout", "correct": false, "feedback": "Sarcasm directed at the person you are asking for help rarely works." },
+              { "text": "Light and jokey, like a chat with a friend", "correct": false, "feedback": "Too informal for an MP." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: rewrite in a different tone",
+          "question": {
+            "key": "AQA-ENL-04-04-L1-Q4",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Here is a sentence written in an **angry, informal** tone:\n\n> It's a total joke that they've shut the youth club and now there's literally nowhere for anyone to go.\n\nRewrite it in a **measured, formal** tone suitable for a letter to a councillor, keeping the same point.",
+            "hint": "Remove *total joke*, *literally* and the contractions. Replace feeling with a precise statement of the problem and its effect.",
+            "explanation": "For example: *The closure of the youth club has left young people in the area with no supervised place to meet in the evenings, and the effects of that absence are already visible in the town centre.* This keeps the point but states it precisely and without slang.",
+            "markScheme": [
+              { "criterion": "Removes slang and informal intensifiers (total joke, literally) and avoids contractions", "marks": 1, "keywords": [ ["closure", "closed", "has left", "removed", "young people", "no longer"] ] },
+              { "criterion": "Keeps the point that the youth club has closed and there is nowhere for young people to go", "marks": 1, "keywords": [ ["youth club", "youth centre", "club"], ["nowhere", "no place", "no supervised", "no alternative", "without"] ] },
+              { "criterion": "Uses a measured register with precise vocabulary (e.g. concern, effect, provision, consequence)", "marks": 1, "keywords": [ ["concern", "effect", "provision", "consequence", "significant", "regret", "disappoint", "impact"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "When devices backfire",
+          "minutes": 4,
+          "content": "## Too much of a good thing\n\nExaminers can spot a student who has learned a list of devices and sprayed them across the page. The top bands go to writing where devices feel **natural** and **controlled**. Watch for these failures.\n\n### The rhetorical question pile-up\n> *Do we want this? Is it fair? Should we accept it? Can we do better? Who will act?*\n\nOne question makes the reader think. Five in a row make them stop reading. Limit yourself to **two or three** in a whole piece.\n\n### Hyperbole that breaks trust\n> *Every single student is drowning in a tsunami of homework that will destroy their lives forever.*\n\nExaggeration works when the reader knows it is playful. When it sounds like a claim, they disbelieve the whole piece.\n\n### Emotive overload\n> *Innocent, vulnerable, terrified children are being cruelly betrayed by heartless, uncaring, greedy adults.*\n\nSix emotive words in one sentence cancel each other out. One, placed well, hits harder.\n\n### Triples everywhere\nA list of three in every paragraph becomes a tic. Save it for the moments that matter.\n\n### Devices with no argument\nA piece can have every technique and no actual reason to agree. Devices decorate an argument; they do not replace one. Always ask: *what is my point, and what is my evidence?* before *which device shall I use?*\n\n### The fix\nAfter writing, scan each paragraph and count devices. If any paragraph has more than three, cut one. If any paragraph has none, add one."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: what is wrong here?",
+          "question": {
+            "key": "AQA-ENL-04-04-L1-Q5",
+            "type": "MultipleChoice",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "Read this paragraph from a student's persuasive article.\n\n> Do you care about the planet? Do you want your children to have a future? Do you want to breathe clean air? Do you want to live? Every single person on earth is being poisoned every single second by the most evil, disgusting, catastrophic pollution in the history of the universe.\n\nWhat is the **main** weakness?",
+            "hint": "Count the questions and the extreme words. What would a reasonable reader think?",
+            "explanation": "The paragraph piles up four rhetorical questions and then a sentence of extreme hyperbole and stacked emotive adjectives, with no evidence or reasoning at all. The devices overwhelm the argument and destroy credibility.",
+            "options": [
+              { "text": "It overuses rhetorical questions and hyperbole with no evidence, so it loses credibility.", "correct": true },
+              { "text": "It does not use enough persuasive devices.", "correct": false, "feedback": "The opposite: it uses far too many." },
+              { "text": "It is too formal for an article.", "correct": false },
+              { "text": "It should have been written as bullet points.", "correct": false }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: device vocabulary",
+          "question": {
+            "key": "AQA-ENL-04-04-L1-Q6",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Complete the sentences.",
+            "metadata": { "blanksText": "Using words such as 'we', 'us' and 'our' to put the writer and reader on the same side is called ___ language. A short personal story used to illustrate a point is called an ___." },
+            "hint": "The first word means 'including everyone'. The second is a story about something that happened.",
+            "explanation": "Inclusive language uses *we, us, our*. An anecdote is a brief personal story used as evidence or a hook.",
+            "answers": [
+              { "text": "inclusive", "blankIndex": 0, "marks": 1 },
+              { "text": "anecdote", "blankIndex": 1, "marks": 1 }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-04-04-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 8,
+            "examStyle": true,
+            "text": "*\"Fast food outlets should be banned from opening within half a mile of any school.\"*\n\nWrite **two paragraphs** (roughly 150 to 200 words) of a **speech to your local council** arguing your point of view. Your paragraphs must:\n\n- use at least **four different** persuasive devices from the lesson, each used once and deliberately\n- include one piece of **plausible evidence**\n- keep a **consistent, measured but urgent** tone suitable for addressing councillors [8 marks]",
+            "hint": "Plan first: choose your four devices (for example, direct address, one rhetorical question, a triple, an expert opinion) and decide where each goes. Then write. Then check you have not added extras by accident.",
+            "explanation": "A strong answer might open: *Councillors, walk out of Ridgeway Academy at half past three and you will pass four takeaways before you reach the bus stop. Four. A school nurse who has worked there for a decade told me she now treats more Year 8 pupils for weight-related problems than she treated Year 11s when she started. That is not a coincidence; it is a business model.* A second paragraph might acknowledge that businesses have a right to trade, then argue that the council already restricts betting shops and off-licences near schools for exactly the same reason, ending: *We protect children from what they cannot yet judge. Food is no different. Draw the line at half a mile, and hold it.* Devices: direct address, a short sentence, expert evidence, antithesis, a counter-argument answered, and a triple in the final line, all in a measured, urgent tone.",
+            "markScheme": [
+              { "criterion": "Uses direct address or inclusive language aimed at councillors", "marks": 1, "keywords": [ ["councillors", "you", "we", "us", "our"] ] },
+              { "criterion": "Uses one rhetorical question or a short sentence for impact", "marks": 1, "keywords": [ ["?", "four.", "that is", "no different", "enough", "now.", "coincidence"] ] },
+              { "criterion": "Uses a triple, repetition or antithesis", "marks": 1, "keywords": [ [", and ", "not a", "not ", "every", "line"] ] },
+              { "criterion": "Includes plausible evidence (statistic, expert view, specific fact or anecdote)", "marks": 1, "keywords": [ ["nurse", "doctor", "gp", "survey", "found", "per cent", "study", "told me", "counted", "within", "metres"] ] },
+              { "criterion": "States a clear point of view on the ban", "marks": 1, "keywords": [ ["ban", "half a mile", "restrict", "should", "must", "line", "protect"] ] },
+              { "criterion": "Includes a counter-argument acknowledged and answered, or a reasoned justification", "marks": 1, "keywords": [ ["right to trade", "businesses", "some will", "of course", "already", "but", "however", "just as"] ] },
+              { "criterion": "Tone is measured but urgent and consistent, without ranting or slang", "marks": 1, "keywords": [ ["protect", "children", "decade", "evidence", "reason", "judge", "responsib", "cannot"] ] },
+              { "criterion": "Devices are controlled: no more than three per paragraph and no stacked emotive adjectives", "marks": 1, "keywords": [ ["half past", "bus stop", "takeaway", "school", "pupils"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Persuasive devices work on **reason, feeling and trust**: direct address, inclusive *we*, rhetorical questions, triples, repetition, antithesis, short sentences, emotive language, hyperbole, imagery, anecdote, facts, statistics, expert opinion, counter-argument.\n- Invented evidence must be **plausible, specific and relevant**. No absolutes, no fake celebrities.\n- **Tone** is the attitude the reader hears (measured, urgent, angry, ironic, warm). **Register** is the level of formality. Decide both before writing and stay consistent.\n- **Anger is a spice, not a meal.** Limit rhetorical questions to two or three per piece.\n- Devices decorate an argument; they do not replace one. Have a point and evidence first.\n- After writing, count devices per paragraph: **no more than three, no fewer than one**."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-04-04-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of these is an example of **antithesis**?",
+          "hint": "Antithesis sets two opposite ideas against each other in a balanced phrase.",
+          "explanation": "*Not a privilege but a right* balances two opposites. The others are a triple, a rhetorical question and hyperbole.",
+          "options": [
+            { "text": "Clean air is not a privilege but a right.", "correct": true },
+            { "text": "Clean air is healthier, cheaper and fairer.", "correct": false, "feedback": "A triple." },
+            { "text": "Who does not want clean air?", "correct": false, "feedback": "A rhetorical question." },
+            { "text": "The smog is thicker than a brick wall.", "correct": false, "feedback": "Hyperbole." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: in the exam you are allowed to invent statistics and expert opinions as long as they are plausible.",
+          "hint": "Examiners cannot check your facts; what can they judge?",
+          "explanation": "True. Examiners expect invented evidence and judge it on plausibility, specificity and relevance.",
+          "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P3",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each tone to the extract that uses it.",
+          "hint": "Listen for hedging (measured), pressure (urgent), saying the opposite of what is meant (ironic), and togetherness (warm).",
+          "explanation": "*It may be worth considering* hedges: measured. *We do not have another year* presses: urgent. Praising a decision that removed benches while complaining about loitering is ironic. *Together we can* is warm and inclusive.",
+          "pairs": [
+            { "left": "It may be worth considering whether the current policy is achieving its aims.", "right": "Measured" },
+            { "left": "We do not have another year. We barely have another month.", "right": "Urgent" },
+            { "left": "The council removed every bench in the park and then wondered why people were sitting on the grass.", "right": "Ironic" },
+            { "left": "Together, street by street, we can make this a place our children are proud of.", "right": "Warm and inclusive" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "How many rhetorical questions should a whole persuasive piece usually contain?",
+          "hint": "Enough to make the reader think, not so many that they stop reading.",
+          "explanation": "Two or three across a whole piece is plenty. A pile-up of questions loses its effect and reads as padding.",
+          "options": [
+            { "text": "Two or three", "correct": true },
+            { "text": "One in every sentence", "correct": false },
+            { "text": "At least ten", "correct": false },
+            { "text": "None; they are banned", "correct": false, "feedback": "They are useful when used sparingly." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P5",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Write **one sentence** that uses a **triple** and **one sentence** that uses **anaphora**, both arguing that the school library should stay open later.",
+          "hint": "Triple: three adjectives or phrases joined with commas and *and*. Anaphora: two or three short sentences beginning with the same words.",
+          "explanation": "For example, triple: *A library open until six is a quiet place, a warm place and, for some students, the only place where homework gets done.* Anaphora: *Keep it open for the student with no desk at home. Keep it open for the student whose bus does not come until five. Keep it open because it is the one room in this school that asks nothing of anyone.*",
+          "markScheme": [
+            { "criterion": "Includes a clear triple (three items in a list)", "marks": 1, "keywords": [ [", and ", " and ", ","] ] },
+            { "criterion": "Includes anaphora (repeated opening words across sentences or clauses)", "marks": 1, "keywords": [ ["keep it", "open it", "for the", "because", "every", "not "] ] },
+            { "criterion": "Both sentences argue for the library staying open later", "marks": 1, "keywords": [ ["library"], ["open", "later", "six", "evening", "stay", "hours"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P6",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these are signs that persuasive devices are being **overused**?",
+          "hint": "Think about what makes a reader stop trusting a writer.",
+          "explanation": "Four questions in a row, six emotive adjectives in one sentence, and a triple in every paragraph are all overuse. One short anecdote to open and one statistic explained fully are good practice.",
+          "options": [
+            { "text": "Four rhetorical questions in a row", "correct": true },
+            { "text": "Six emotive adjectives in a single sentence", "correct": true },
+            { "text": "A list of three in every single paragraph", "correct": true },
+            { "text": "One short anecdote used to open the piece", "correct": false, "feedback": "This is good practice." },
+            { "text": "One statistic, explained fully", "correct": false, "feedback": "This is exactly right." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P7",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: register refers to the level of formality of a piece of writing, and it should be chosen to suit the audience and form.",
+          "hint": "Compare *register* with *tone*.",
+          "explanation": "True. Register is the level of formality (formal or informal). Tone is the attitude or feeling. Both should suit the audience and form.",
+          "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P8",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Read the sentence.\n\n> Our leaders have, with typical generosity, given us a shiny new bypass and taken away the only bus that went to the hospital.\n\nWhat technique creates the persuasive effect here, and what is the effect?",
+          "hint": "Does the writer really think the leaders are generous?",
+          "explanation": "*With typical generosity* is ironic: the writer means the opposite. The reader sees the gap between the praise and the reality, and shares the writer's contempt without being told what to feel.",
+          "options": [
+            { "text": "Irony: the fake praise makes the reader see the decision as the opposite of generous.", "correct": true },
+            { "text": "Hyperbole: the bypass is exaggerated.", "correct": false },
+            { "text": "A triple: three things are listed.", "correct": false, "feedback": "Only two things are mentioned." },
+            { "text": "Direct address: the reader is spoken to.", "correct": false, "feedback": "The reader is included in *us*, but that is not the main technique." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "Write **one paragraph** (100 to 140 words) for a **leaflet aimed at parents**, persuading them to walk their children to school instead of driving.\n\nUse a **warm, inclusive tone** and include: direct address, one plausible statistic, one emotive detail used with restraint, and a short sentence for impact. [6 marks]",
+          "hint": "Start with *you* or *we*. Give one figure that sounds real (*a ten-minute walk*, *seven in ten*). Choose one emotive image, not five. Finish with a short sentence.",
+          "explanation": "For example: *Most of us live within a fifteen-minute walk of the school gates, and most of us still drive. We know why: mornings are a scramble. But a survey of families at Ashfield found that children who walked arrived calmer and settled to work faster than those dropped from a car. That walk is also the one part of the day when your child has you to themselves, with no screen and no rush. Ten minutes of talking. Ten minutes of noticing the same trees change through the year. Try it for a week. You may find you do not want to stop.* This uses inclusive we, direct address, a plausible survey, one restrained emotive detail, anaphora and short sentences.",
+          "markScheme": [
+            { "criterion": "Uses direct address and inclusive language (you, your, we, us)", "marks": 1, "keywords": [ ["you", "your"], ["we", "us", "our"] ] },
+            { "criterion": "Includes one plausible statistic or specific figure", "marks": 1, "keywords": [ ["minute", "per cent", "seven in", "survey", "found", "most of", "half", "two thirds"] ] },
+            { "criterion": "Includes an emotive detail used with restraint (one image, not a pile of adjectives)", "marks": 1, "keywords": [ ["to themselves", "hand", "talk", "notice", "together", "calmer", "quiet", "moment", "chat"] ] },
+            { "criterion": "Includes a short sentence for impact", "marks": 1, "keywords": [ ["try it", "ten minutes", "that is", "we know why", "it works", "walk."] ] },
+            { "criterion": "Tone is warm and inclusive, not preachy or angry", "marks": 1, "keywords": [ ["try", "may find", "together", "most of us", "we know", "scramble", "enjoy"] ] },
+            { "criterion": "Makes a clear case for walking rather than driving", "marks": 1, "keywords": [ ["walk"], ["drive", "car", "instead", "rather than"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P10",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these planning steps for a persuasive piece into the recommended order.",
+          "hint": "Argument and evidence come before devices; tone is decided before writing; checking comes last.",
+          "explanation": "Decide your view and reasons, then your evidence, then the tone and register, then choose three or four devices and where they go, then write, then check device density.",
+          "order": [
+            "Decide your point of view and two or three reasons",
+            "Choose plausible evidence for each reason",
+            "Decide the tone and register to suit audience and form",
+            "Select three or four devices and plan where each goes",
+            "Write the piece",
+            "Check each paragraph has between one and three devices"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "subTopicCode": "ENL-04-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-04-02-L1",
+      "title": "Writing letters and leaflets (Paper 2, Section B)",
+      "summary": "Learn the conventions of formal letters and persuasive leaflets, how to open and close each one correctly, and how to organise a viewpoint so that it suits the form named in the task.",
+      "objectives": [
+        "I can set out a formal letter with the correct opening, closing and paragraph structure.",
+        "I can adapt tone and content for the named recipient of a letter.",
+        "I can organise a leaflet with a title, subheadings and short sections that guide the reader.",
+        "I can choose which conventions show the form without wasting time on layout."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Letters: who, why and how formal",
+          "minutes": 4,
+          "content": "## The formal letter\n\nOn Paper 2 Question 5 you may be asked to write a **letter**: to a newspaper, a head teacher, an MP, a local councillor, or occasionally a friend or relative. Letters test whether you can shape an argument for **one specific reader** and keep a **consistent register**.\n\n### Before you write\n\n- **Who** is the recipient? A head teacher expects respect and reason. An MP expects to be told what you want them to do. A newspaper editor expects a lively, quotable letter for the letters page.\n- **Why** are you writing? To complain, to persuade, to request, to argue?\n- **How formal?** Almost always formal, unless the task explicitly says a friend or family member.\n\n### Formal register means\n\n- No slang or text-speak.\n- Contractions kept to a minimum (*do not* rather than *don't*).\n- Polite even when angry: *I was disappointed to learn…* rather than *This is a disgrace.*\n- Precise vocabulary: *I urge you to reconsider* rather than *please change your mind*.\n\n### Time\n\nA letter is still worth **40 marks** and still deserves **45 minutes**. The conventions take two minutes; the marks are in the argument and the accuracy."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: the shape of a formal letter",
+          "minutes": 4,
+          "content": "**Task:** Write a letter to your head teacher arguing that the school should introduce a later start time.\n\n> Dear Mrs Okonkwo,\n>\n> I am writing as a Year 11 student to ask you to consider moving the start of the school day from 8.30 to 9.30. I know this is a significant change, and I would not suggest it lightly.\n>\n> Every morning I sit in a form room where half the class is asleep with their eyes open. This is not laziness. Research on adolescent sleep has shown repeatedly that teenagers' body clocks run later than adults', and that a 9.30 start improves both attendance and results. Several schools in the county have already made the change and none has gone back.\n>\n> I understand that a later start creates problems for buses and for parents who work. But these are problems of timetabling, and timetables can be changed. Tiredness cannot.\n>\n> I would be grateful if you would raise this at the next governors' meeting, and I would welcome the chance to present the case to them myself.\n>\n> Yours sincerely,\n>\n> Amara Bello\n\n**The conventions shown**\n- **Dear Mrs Okonkwo** → a named person, so it closes with **Yours sincerely**.\n- First paragraph says **who** is writing and **why**.\n- Body paragraphs: point, evidence, counter-argument dealt with.\n- Final paragraph states a **clear request** for action.\n- Polite, formal, but with energy: *Tiredness cannot.* is a short sentence used for impact.\n\nNo addresses or dates are needed. They earn nothing and cost time."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: openings and closings",
+          "question": {
+            "key": "AQA-ENL-04-02-L1-Q1",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Match each letter opening to its correct closing.",
+            "hint": "If you know the name, you are sincere. If you do not, you are faithful. Friends get something warmer.",
+            "explanation": "*Dear Sir or Madam* (name unknown) pairs with *Yours faithfully*. *Dear Mr Patel* (name known) pairs with *Yours sincerely*. A letter to a friend can close with *Best wishes* or similar.",
+            "pairs": [
+              { "left": "Dear Sir or Madam,", "right": "Yours faithfully," },
+              { "left": "Dear Mr Patel,", "right": "Yours sincerely," },
+              { "left": "Dear Jamie,", "right": "Best wishes," }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Building the letter's argument",
+          "minutes": 5,
+          "content": "## Five paragraphs that work\n\n| Paragraph | Purpose | Useful phrases |\n|---|---|---|\n| 1 | Introduce yourself and state why you are writing | *I am writing to…*, *As a resident of…*, *I was concerned to read…* |\n| 2 | Main point with a reason and an example | *My main concern is…*, *Consider, for example,…* |\n| 3 | Second point, or the effect on people the recipient cares about | *This affects not only… but also…* |\n| 4 | Counter-argument acknowledged and answered | *I appreciate that…, however…*, *Some may argue…, but…* |\n| 5 | Clear request or call to action, and a polite close | *I urge you to…*, *I would be grateful if…*, *I look forward to your reply.* |\n\n### Adapting to the recipient\n\n- **Head teacher**: emphasise benefits to learning, behaviour and the school's reputation.\n- **Local councillor or MP**: emphasise cost, community, votes and their public responsibility.\n- **Newspaper editor**: be lively and quotable; you are writing for the readers as much as the editor. Open with *Sir,* or *Dear Editor,* and get to the point in the first sentence.\n- **Company**: be precise about what happened and what you want done.\n\n### Tone traps\n\n- **Too aggressive**: *You obviously don't care about students.* This loses the reader.\n- **Too weak**: *I just think maybe it might be a bit better if…* This loses the argument.\n- **Too chatty** for a formal recipient: *Hi Mrs Okonkwo, hope you're well!*\n\nAim for **firm and courteous**: the voice of someone who expects to be taken seriously."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: tone",
+          "question": {
+            "key": "AQA-ENL-04-02-L1-Q2",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "You are writing to a local councillor to complain that the park's play area has been left broken for six months. Which sentence has the best tone?",
+            "hint": "Firm and courteous: state the problem clearly, without insults and without apologising for raising it.",
+            "explanation": "The first option states the problem precisely, expresses disappointment politely, and implies an expectation of action. The others are aggressive, feeble or too casual.",
+            "options": [
+              { "text": "I was disappointed to find that the swings, reported broken in March, remain unrepaired and fenced off six months later.", "correct": true },
+              { "text": "It is frankly pathetic that you people cannot fix a swing in half a year.", "correct": false, "feedback": "Insulting the reader makes them defensive." },
+              { "text": "Sorry to bother you, but I was just wondering if maybe the swings could be looked at sometime?", "correct": false, "feedback": "Far too weak; the writer sounds unsure they have a right to complain." },
+              { "text": "Hi there! Quick one about the park swings, they've been busted for ages.", "correct": false, "feedback": "Too chatty for a formal complaint." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: write an opening paragraph",
+          "question": {
+            "key": "AQA-ENL-04-02-L1-Q3",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Write the **greeting and opening paragraph** (two to four sentences) of a formal letter to the editor of a local newspaper, arguing that the town should build more cycle lanes.",
+            "hint": "Open with *Sir,* or *Dear Editor,*. Say who you are and why you are writing, and make the first sentence count: an editor prints letters that grab attention.",
+            "explanation": "For example: *Dear Editor, As someone who cycles to college every day along Mill Road, I read last week's report on the council's transport plans with disbelief. Three new car parks and not a single metre of cycle lane is not a transport plan; it is an invitation to sit in traffic. I am writing to urge the council, and your readers, to demand better.* This has a correct greeting, identifies the writer, states the purpose, and uses a contrast and a short punchy sentence.",
+            "markScheme": [
+              { "criterion": "Uses an appropriate formal greeting (Sir, Dear Editor, Dear Sir or Madam)", "marks": 1, "keywords": [ ["dear editor", "sir", "dear sir", "madam"] ] },
+              { "criterion": "States who the writer is and why they are writing", "marks": 1, "keywords": [ ["i am writing", "as a", "resident", "cyclist", "student", "i read", "i was"] ] },
+              { "criterion": "Makes the case for cycle lanes with a reason or contrast in a formal register", "marks": 1, "keywords": [ ["cycle", "bike", "lane"], ["safe", "traffic", "car", "pollution", "health", "danger", "urge"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Leaflets: guiding the reader",
+          "minutes": 5,
+          "content": "## The persuasive leaflet\n\nA **leaflet** is a short printed text designed to be picked up, skimmed and acted on. Its reader is usually **busy** and did not ask to be persuaded, so a leaflet must be **clear, organised and quick to read**.\n\n### The conventions that count\n\n- A **title** that says what the leaflet is about and, ideally, what it wants: *Keep Hartley Library Open*.\n- A short **opening** that hooks the reader and states the message.\n- **Subheadings** that break the text into sections, so a reader can find what they need: *Why it matters*, *What you can do*, *The facts*.\n- **Short paragraphs** of two to four sentences.\n- Occasionally a **bullet list** for facts or steps, but not for the whole leaflet.\n- A clear **call to action** at the end: *Sign the petition at…*, *Come to the meeting on…*.\n\n### What not to do\n\n- Do not draw boxes, pictures or logos. Examiners mark writing only.\n- Do not write the whole leaflet as bullet points. Bullets cannot show sentence variety, paragraph craft or developed argument, which is where the AO5 marks are.\n- Do not forget it is still **persuasive writing**: rhetorical questions, direct address, emotive language and evidence all belong here.\n\n### Register\n\nLeaflets usually address the reader directly as **you** and speak for a group as **we**. The tone is friendly but urgent: the reader must feel the issue matters to them personally."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: a leaflet section",
+          "minutes": 3,
+          "content": "**Task:** Write a leaflet persuading local residents to support a weekly litter pick.\n\n> **Ten Minutes for a Cleaner Street**\n>\n> Every Saturday morning, a small group of neighbours meets at the corner of Park Road with gloves, bags and a flask of tea. By ten o'clock, the street looks like somewhere people are proud to live. We would like you to join us.\n>\n> **Why bother?**\n>\n> Because litter breeds litter. Studies of city streets show that a single dropped can makes the next person three times more likely to drop theirs. Pick up the first, and you stop the second. And because a clean street is a safer street: children play out, neighbours talk, and the corner by the bus stop stops being somewhere to hurry past.\n>\n> **What it involves**\n>\n> - Ten minutes on a Saturday morning, whenever you can spare them.\n> - Gloves and bags provided.\n> - No forms, no sign-up sheet. Just turn up.\n>\n> **Join us this Saturday at 9.30, Park Road corner. Bring nothing but yourself.**\n\n**Why it works**\n- The title promises something small and easy.\n- The opening paints a scene and then addresses the reader directly.\n- Subheadings answer the reader's likely questions.\n- The one bullet list is used for practical details, where it belongs.\n- Paragraphs contain rhetorical craft: *Because litter breeds litter* (short sentence, repetition), a list of three, and a plausible statistic.\n- It ends with a clear, specific call to action."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: leaflet conventions",
+          "question": {
+            "key": "AQA-ENL-04-02-L1-Q4",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Which **four** of these are features an examiner would credit in a leaflet?",
+            "hint": "Think about writing features, not drawn features.",
+            "explanation": "A title, subheadings, a call to action and direct address are all written conventions that show you understand the form. Drawn boxes and pictures earn nothing, and writing everything as bullets prevents you from showing paragraph and sentence craft.",
+            "options": [
+              { "text": "A clear title that states the subject", "correct": true },
+              { "text": "Subheadings that organise the sections", "correct": true },
+              { "text": "A call to action at the end", "correct": true },
+              { "text": "Direct address to the reader using 'you'", "correct": true },
+              { "text": "Boxes drawn around each section", "correct": false, "feedback": "Layout is not marked." },
+              { "text": "A sketch of a logo at the top", "correct": false, "feedback": "Pictures earn nothing." },
+              { "text": "Writing the entire leaflet as bullet points", "correct": false, "feedback": "Bullets cannot show paragraph craft or sentence variety." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: subheadings",
+          "question": {
+            "key": "AQA-ENL-04-02-L1-Q5",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put these leaflet sections into the most logical order for a leaflet persuading students to join a new after-school coding club.",
+            "hint": "Title first, hook next, then the reasons, then practical details, then the call to action.",
+            "explanation": "Title, then an opening that hooks and states the message, then *Why join?* for the persuasive reasons, then *What happens at a session?* for practical detail, then a call to action with the time and place.",
+            "order": [
+              "Title: Build Something Real",
+              "Opening: a short paragraph about what students could make by the end of term",
+              "Why join? Reasons: skills employers want, a friendly group, no experience needed",
+              "What happens at a session? Practical details: times, equipment, who runs it",
+              "Call to action: Come to Room 14 on Thursday at 3.30. Bring a friend."
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Letter or leaflet: choosing what to show",
+          "minutes": 3,
+          "content": "## Form in two minutes, argument in forty\n\nThe form is worth showing, but only briefly. Here is the minimum for each.\n\n| Form | Must have | Nice to have | Never |\n|---|---|---|---|\n| Formal letter | Greeting, opening paragraph stating purpose, paragraphs, correct sign-off | A clear request in the final paragraph | Addresses, dates, drawn envelopes |\n| Letter to a newspaper | *Sir,* or *Dear Editor,*, punchy first sentence, sign-off with name | A quotable final line | Long introductions |\n| Leaflet | Title, subheadings, short paragraphs, call to action | One bullet list for practical facts | Boxes, pictures, all-bullet text |\n\n### Both forms need the same persuasive core\n\n- A clear **viewpoint** stated early.\n- **Reasons** with **evidence** (plausible facts, examples, anecdotes).\n- A **counter-argument** answered.\n- **Rhetorical devices**: direct address, rhetorical questions, lists of three, repetition, emotive language, short sentences.\n- A **strong ending**: request, instruction or memorable line.\n\n### Checking\n\nIn the last five minutes: check the greeting matches the sign-off, check every paragraph has a purpose, and read for spelling and punctuation. A letter that opens *Dear Sir or Madam* and closes *Yours sincerely* is a small but avoidable error."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-04-02-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 10,
+            "examStyle": true,
+            "text": "*\"Local councils should close town-centre roads to cars and make them for pedestrians and cyclists only.\"*\n\nWrite a **letter to your local councillor** in which you argue your point of view on this statement.\n\nFor this practice task, write the **greeting, opening paragraph, one body paragraph containing evidence, one counter-argument paragraph, and the closing paragraph with sign-off** (roughly 220 to 280 words). [10 marks]",
+            "hint": "Decide your view. Open with *Dear Councillor [Name],* and say who you are and why you are writing. Use a plausible statistic or example in the body. Acknowledge the other side (*I understand that shop owners fear…*) then answer it. End with a clear request and *Yours sincerely,*.",
+            "explanation": "A strong answer: *Dear Councillor Reid, I am writing as a sixth-form student who walks through the town centre twice a day, to urge you to support closing the High Street to cars. Every afternoon I watch pushchairs squeezed onto a pavement barely a metre wide while three lanes of traffic crawl past at walking pace. Towns that have tried pedestrianisation report the opposite of what critics predict: a recent study of twelve high streets found footfall rose by a fifth within a year, because people linger where they feel safe. I understand that some shop owners fear losing customers who drive. But customers who drive currently spend twenty minutes finding a parking space and then leave; customers who walk stay, browse and come back. I would be grateful if you would raise this at the next planning meeting, and I would welcome the chance to speak to the committee. Yours sincerely, Tom Adebayo.* This shows the conventions, states the view, gives plausible evidence, rebuts a counter-argument, requests action, and keeps a formal, courteous register.",
+            "markScheme": [
+              { "criterion": "Uses a correct formal greeting addressed to the councillor", "marks": 1, "keywords": [ ["dear councillor", "dear mr", "dear mrs", "dear ms", "dear sir", "dear madam"] ] },
+              { "criterion": "Opening paragraph states who the writer is and why they are writing", "marks": 1, "keywords": [ ["i am writing", "as a", "resident", "student", "i live", "to urge", "to ask", "to express"] ] },
+              { "criterion": "States a clear point of view on closing roads to cars", "marks": 1, "keywords": [ ["should", "must", "support", "oppose", "urge", "believe", "close", "pedestrian"] ] },
+              { "criterion": "Body paragraph gives plausible evidence, example or statistic", "marks": 1, "keywords": [ ["study", "research", "found", "per cent", "survey", "for example", "towns that", "report", "every day", "watch"] ] },
+              { "criterion": "Counter-argument is acknowledged fairly", "marks": 1, "keywords": [ ["i understand", "i appreciate", "some", "critics", "shop owners", "it is true", "of course", "admittedly"] ] },
+              { "criterion": "Counter-argument is answered with a contrast word and reason", "marks": 1, "keywords": [ ["but", "however", "yet", "nevertheless", "in fact", "the truth"] ] },
+              { "criterion": "Closing paragraph makes a clear request for action", "marks": 1, "keywords": [ ["i urge", "i would be grateful", "please", "i ask", "i look forward", "raise", "consider", "support"] ] },
+              { "criterion": "Correct sign-off matching the greeting (Yours sincerely with a named recipient)", "marks": 1, "keywords": [ ["yours sincerely", "yours faithfully"] ] },
+              { "criterion": "Maintains a formal, courteous register throughout (no slang, minimal contractions)", "marks": 1, "keywords": [ ["would", "grateful", "concern", "consider", "believe", "urge", "appreciate"] ] },
+              { "criterion": "Uses at least one rhetorical device (direct address, rhetorical question, list of three, short sentence, repetition)", "marks": 1, "keywords": [ ["you", "?", ", and ", "every", "not "] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Formal letter**: *Dear [Name]* → *Yours sincerely*; *Dear Sir or Madam* → *Yours faithfully*. No addresses or dates.\n- Letter structure: **who and why** → main point with evidence → second point → counter-argument answered → **clear request** and polite close.\n- Adapt to the **recipient**: head teachers care about learning; councillors about cost and community; editors want something quotable.\n- **Leaflet**: title, hook, **subheadings**, short paragraphs, one bullet list at most, **call to action**. No boxes or pictures.\n- Both forms need the same persuasive core: viewpoint, reasons, evidence, counter-argument, rhetorical devices, strong ending.\n- Tone: **firm and courteous**, never aggressive, never feeble, never chatty with a formal recipient."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-04-02-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A letter begins *Dear Sir or Madam,*. How should it end?",
+          "hint": "Name unknown means one particular sign-off.",
+          "explanation": "When the recipient's name is unknown, the letter closes with *Yours faithfully*. *Yours sincerely* is for named recipients.",
+          "options": [
+            { "text": "Yours faithfully,", "correct": true },
+            { "text": "Yours sincerely,", "correct": false, "feedback": "That is for a named recipient." },
+            { "text": "Best wishes,", "correct": false, "feedback": "Too informal for a letter to an unknown recipient." },
+            { "text": "Thanks,", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: you should write your address and the date at the top of a letter in the exam to gain marks for the form.",
+          "hint": "Which parts of a letter can show writing skill?",
+          "explanation": "False. Addresses and dates earn nothing. The greeting, structure, register and sign-off are what show the form.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the advice about leaflets.",
+          "metadata": { "blanksText": "A leaflet should use ___ to break the text into sections the reader can find quickly, and should end with a clear call to ___." },
+          "hint": "The first is a small heading within the text; the second is what you want the reader to do.",
+          "explanation": "Subheadings organise the leaflet into findable sections. A call to action tells the reader exactly what to do next.",
+          "answers": [
+            { "text": "subheadings", "blankIndex": 0, "marks": 1 },
+            { "text": "action", "blankIndex": 1, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P4",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each recipient to the kind of argument most likely to persuade them.",
+          "hint": "Think about what each person is responsible for and worries about.",
+          "explanation": "Head teachers are persuaded by effects on learning and behaviour; councillors by cost and community benefit; editors by lively, quotable writing that readers will enjoy; a company by precise details of what went wrong and what you want done.",
+          "pairs": [
+            { "left": "Head teacher", "right": "Benefits to learning, behaviour and the school's reputation" },
+            { "left": "Local councillor", "right": "Cost, community benefit and public responsibility" },
+            { "left": "Newspaper editor", "right": "A lively, quotable argument that readers will enjoy" },
+            { "left": "Customer services at a company", "right": "Precise details of what happened and what you want done" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P5",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which of these is the best **final paragraph** for a formal letter to a head teacher asking for a school garden?",
+          "hint": "The final paragraph should make a clear, polite request for action.",
+          "explanation": "The first option makes a specific request, offers help and closes politely. The others are vague, demanding, or trail off without asking for anything.",
+          "options": [
+            { "text": "I would be grateful if you would consider allocating the unused ground behind the science block to a student-run garden, and I would gladly help draw up a plan.", "correct": true },
+            { "text": "So yeah, that is basically why I think a garden would be good. Thanks for reading.", "correct": false, "feedback": "Far too informal and makes no clear request." },
+            { "text": "You need to sort this out by next week or students will be very unhappy.", "correct": false, "feedback": "Threatening and rude." },
+            { "text": "There are many other reasons too but I do not have space to write them.", "correct": false, "feedback": "This ends weakly and asks for nothing." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P6",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Write the **title, one subheading and the paragraph under it** for a leaflet persuading residents to switch off unnecessary lights to reduce energy use. The paragraph should be three to five sentences and include at least one rhetorical device.",
+          "hint": "Title: short and clear. Subheading: a question the reader might ask, like *Why does it matter?*. Paragraph: direct address, a plausible fact, and a short sentence or a rhetorical question.",
+          "explanation": "For example: Title: *Lights Off, Money On*. Subheading: *Why does one lamp matter?* Paragraph: *Because it is never one lamp. Walk down our street at midnight and you will count forty windows lit in empty rooms. Each one costs its household around thirty pounds a year, and together they burn enough electricity to power the primary school. Switch off the room you are not in. It takes one second and it adds up.* This uses a short sentence, direct address, a plausible statistic and a command.",
+          "markScheme": [
+            { "criterion": "Gives a short, clear title about lights or energy", "marks": 1, "keywords": [ ["light", "switch", "energy", "power", "off", "dark", "bill"] ] },
+            { "criterion": "Gives a subheading that organises the section (often a question)", "marks": 1, "keywords": [ ["why", "what", "how", "?", "matter", "you can do", "facts"] ] },
+            { "criterion": "Paragraph addresses the reader directly and gives a reason or fact", "marks": 1, "keywords": [ ["you", "your"], ["cost", "pound", "save", "waste", "carbon", "bill", "per cent", "energy", "enough to"] ] },
+            { "criterion": "Uses a rhetorical device (rhetorical question, short sentence, list of three, repetition, command)", "marks": 1, "keywords": [ ["?", "switch off", "turn off", ", and ", "every", "it takes", "one second"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P7",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these sentences are written in an appropriately **formal** register for a letter to an MP?",
+          "hint": "Formal means no slang, few contractions, polite but firm.",
+          "explanation": "The sentences using *I am writing to express*, *I would urge* and *It is difficult to understand* are formal and courteous. *Loads of people are fed up* and *can't believe you lot* are informal or rude.",
+          "options": [
+            { "text": "I am writing to express my concern about the proposed closure of the youth centre.", "correct": true },
+            { "text": "I would urge you to visit the centre before the vote takes place.", "correct": true },
+            { "text": "It is difficult to understand how the decision serves the young people of this constituency.", "correct": true },
+            { "text": "Loads of people round here are fed up with it, to be honest.", "correct": false, "feedback": "Informal." },
+            { "text": "I can't believe you lot are even considering this.", "correct": false, "feedback": "Informal and rude." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P8",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: writing a leaflet entirely as bullet points is a good way to show you understand the form.",
+          "hint": "Where do most of the AO5 marks come from?",
+          "explanation": "False. Bullet points cannot show developed argument, paragraph craft or sentence variety, which is where the AO5 and AO6 marks are earned. Use one bullet list at most, for practical facts.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "Write the **opening section** of a leaflet (title, a hook paragraph, and one subheaded section, roughly 130 to 170 words) persuading students at your school to take part in a sponsored walk for a local hospice.",
+          "hint": "Title: short and warm. Hook: a small scene or a direct question. Subheaded section: perhaps *Why the hospice needs you*, with a plausible fact and emotive but honest language. Address the reader as *you*.",
+          "explanation": "A strong answer might be titled *Walk Ten Miles. Change a Year.*, open with a scene of last year's walkers arriving muddy and laughing at the finish line, then use a subheading such as *Why it matters* to explain, with a plausible statistic, that the hospice depends on donations for most of its running costs and that last year's walk paid for a nurse for three months. It addresses the reader directly, uses a list of three and a short sentence, and stays warm and inclusive.",
+          "markScheme": [
+            { "criterion": "Has a short, engaging title related to the walk or hospice", "marks": 1, "keywords": [ ["walk", "mile", "step", "hospice", "sponsor", "stride", "hope"] ] },
+            { "criterion": "Opens with a hook (scene, question, direct address or striking fact)", "marks": 1, "keywords": [ ["last year", "imagine", "picture", "?", "you", "every", "at the finish", "mud"] ] },
+            { "criterion": "Uses a subheading to organise a section", "marks": 1, "keywords": [ ["why", "what", "how", "matter", "need", "join", "**", "#"] ] },
+            { "criterion": "Gives a plausible fact or example about the hospice's need", "marks": 1, "keywords": [ ["per cent", "pound", "raised", "paid for", "nurse", "donation", "depends", "last year", "families", "cost"] ] },
+            { "criterion": "Addresses the reader directly and uses inclusive language", "marks": 1, "keywords": [ ["you", "your"], ["we", "our", "us", "together"] ] },
+            { "criterion": "Uses at least one rhetorical device (list of three, short sentence, rhetorical question, repetition)", "marks": 1, "keywords": [ ["?", ", and ", "every", "not ", "one "] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P10",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put the paragraphs of a formal letter of complaint into the correct order.",
+          "hint": "Purpose first, then the problem, then its effects, then the other side, then what you want.",
+          "explanation": "State why you are writing, describe the main problem with evidence, explain who it affects, acknowledge and answer the likely defence, then request action and close.",
+          "order": [
+            "Greeting and a paragraph stating who you are and why you are writing",
+            "The main problem, with specific evidence",
+            "Who the problem affects and how",
+            "The likely counter-argument, acknowledged and answered",
+            "A clear request for action, polite close and sign-off"
+          ]
+        }
+      ]
+    }
+  ]
+}

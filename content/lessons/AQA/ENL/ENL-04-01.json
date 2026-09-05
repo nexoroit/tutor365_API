@@ -1,0 +1,331 @@
+{
+  "subTopicCode": "ENL-04-01",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-04-01-L1",
+      "title": "Writing articles (Paper 2, Section B)",
+      "summary": "Learn how to write a newspaper or magazine article that argues a clear point of view, from the headline and hook to the structured argument and the memorable ending.",
+      "objectives": [
+        "I can identify the form, audience and purpose in a Paper 2 Question 5 task.",
+        "I can write a headline, standfirst and opening paragraph that hook the reader.",
+        "I can structure an article with a clear line of argument and a counter-argument.",
+        "I can match my tone and register to the publication named in the task."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What Question 5 asks for",
+          "minutes": 4,
+          "content": "## Paper 2, Question 5: writing to present a viewpoint\n\nSection B of Paper 2 is one task worth **40 marks**: 24 for **AO5** (content and organisation) and 16 for **AO6** (technical accuracy). It is half the paper, so it deserves **45 minutes**, including planning and checking.\n\nA typical task:\n\n> *\"Homework is a waste of everyone's time. Schools should abolish it.\"*\n> Write an **article for a broadsheet newspaper** in which you **argue your point of view** on this statement.\n\nBefore you write a word, pull out three things:\n\n| | Ask yourself | Here |\n|---|---|---|\n| **Form** | What am I writing? | An article |\n| **Audience** | Who reads it? | Broadsheet readers: adults, educated, expect a serious, well-argued piece |\n| **Purpose** | What must it do? | Argue a point of view on homework |\n\nAn **article** is a piece of writing published in a newspaper or magazine. It has a **headline**, usually a **standfirst** (a one-sentence summary under the headline), and is written in **paragraphs** with a clear voice. It is not an essay: it needs to grab attention and keep it.\n\nYou do **not** need columns, pictures or a byline in a box. Examiners only credit the writing. A headline and a strong opening are enough to show you know the form."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: the top of an article",
+          "minutes": 4,
+          "content": "**Task:** Write an article for a broadsheet newspaper arguing your view on the statement *\"Homework is a waste of everyone's time.\"*\n\n**A strong opening:**\n\n> **Give Them Back Their Evenings**\n>\n> *Homework was designed for a world without the internet, extracurricular clubs or working parents. It is time we asked what it is actually for.*\n>\n> At half past nine last Tuesday, a friend of mine was sitting at her kitchen table explaining fractions to a crying ten-year-old. She had been at work since seven. He had been at school since eight. Neither of them had chosen to spend the evening this way, and neither of them, by ten o'clock, could remember why they were doing it. Multiply that kitchen by several million and you have a fair picture of a British weeknight.\n\n**Why it works**\n\n- The **headline** is short, punchy and hints at the argument without giving it all away.\n- The **standfirst** (in italics) summarises the angle in one sentence, exactly as a real newspaper does.\n- The opening paragraph uses an **anecdote**, a small specific scene, to make the issue human before any statistics or arguments appear.\n- The last sentence **zooms out** from one kitchen to the whole country, which turns the anecdote into an argument.\n- The register is **formal but conversational**: no slang, but not stiff either. That suits a broadsheet."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: form, audience, purpose",
+          "question": {
+            "key": "AQA-ENL-04-01-L1-Q1",
+            "type": "Matching",
+            "difficulty": 1,
+            "marks": 3,
+            "text": "The task says: *Write an article for a magazine aimed at teenagers in which you persuade readers that learning to cook is an essential life skill.*\n\nMatch each element to its correct identification.",
+            "hint": "Form is the type of text; audience is who reads it; purpose is what the text has to achieve.",
+            "explanation": "The form is an article; the audience is teenagers reading a magazine; the purpose is to persuade them that cooking is essential.",
+            "pairs": [
+              { "left": "Form", "right": "A magazine article" },
+              { "left": "Audience", "right": "Teenagers" },
+              { "left": "Purpose", "right": "To persuade readers that cooking is an essential skill" }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Hooking the reader",
+          "minutes": 5,
+          "content": "## Headline, standfirst and hook\n\n### The headline\nKeep it short: three to eight words. Good headlines use one of these:\n\n- **Direct statement**: *Ban the Bell, Not the Phone*\n- **Question**: *Who Actually Wants Homework?*\n- **Wordplay or alliteration**: *Screen Time, Mean Time*\n- **A command**: *Give Them Back Their Evenings*\n\nAvoid headlines that are just the task statement copied out, and avoid anything over ten words.\n\n### The standfirst\nOne sentence, in italics, that tells the reader what the article will argue. Real articles have them; including one shows you understand the form.\n\n### The opening paragraph: five hooks that work\n\n1. **Anecdote**: a short, specific scene. *At half past nine last Tuesday…*\n2. **Surprising fact or statistic**: you may invent a plausible one. *The average Year 10 student spends more hours on homework each week than a junior doctor spends on paperwork.* Keep it believable.\n3. **Rhetorical question**: *When did we decide that childhood should end at four o'clock?*\n4. **Bold declaration**: *Homework does not work. It never has.*\n5. **Direct address**: *You know the feeling. It is nine o'clock, the kitchen table is covered in paper, and nobody is learning anything.*\n\nWhatever you choose, the first paragraph must make the reader want the second. Do not open with *In this article I am going to…*: a real journalist never would."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: weak and strong openings",
+          "minutes": 3,
+          "content": "**Task:** Article for a local newspaper arguing that the town needs a new skate park.\n\n**Weak opening:**\n\n> **Skate park**\n>\n> In this article I am going to explain why I think our town should have a skate park. There are many reasons. Firstly, young people need somewhere to go.\n\nProblems: the headline is just a label, the first sentence announces the article instead of starting it, and *there are many reasons* is filler.\n\n**Strong opening:**\n\n> **Somewhere to Go**\n>\n> *Our town has three car parks, two golf courses and nowhere for a fourteen-year-old to spend a Saturday. That can change.*\n>\n> Ask any teenager in Hartley where they went last weekend and you will hear the same three answers: the bus shelter, the supermarket car park, or nowhere. We have spent a decade complaining that young people hang around the town centre with nothing to do. It is time we admitted that we built it that way.\n\nWhat changed: the headline promises something; the standfirst uses a list and a contrast to set up the argument; the opening uses a small survey-style anecdote, a list of three, and a punchy final sentence that turns the blame around."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: which opening is strongest?",
+          "question": {
+            "key": "AQA-ENL-04-01-L1-Q2",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Which of these is the **strongest** opening sentence for a broadsheet article arguing that schools should start later in the morning?",
+            "hint": "Reject anything that announces the article or is vague. Look for a specific image, a surprising claim or a confident declaration.",
+            "explanation": "The image of a corridor of sleepwalkers is specific, vivid and immediately establishes the argument. The other options either announce the article, are vague, or drift towards slang unsuited to a broadsheet.",
+            "options": [
+              { "text": "Walk down any school corridor at half past eight and you are walking through a hall of sleepwalkers.", "correct": true },
+              { "text": "In this article I will be discussing whether schools should start later.", "correct": false, "feedback": "Never announce the article; just start it." },
+              { "text": "There are lots of different opinions about school start times.", "correct": false, "feedback": "Vague and says nothing." },
+              { "text": "Getting up early is well annoying and basically everyone hates it.", "correct": false, "feedback": "The register is far too informal for a broadsheet." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Structuring the argument",
+          "minutes": 5,
+          "content": "## From hook to ending\n\nA convincing article has a **line of argument**: the reader can feel it moving towards a conclusion. Plan five or six paragraphs.\n\n| Paragraph | Job |\n|---|---|\n| 1 | Hook: anecdote, fact, question or declaration |\n| 2 | Your main point, with a reason and an example |\n| 3 | A second point, developing the argument |\n| 4 | **Counter-argument**: *Some will say…* then knock it down: *But…* |\n| 5 | Your strongest point, saved for near the end |\n| 6 | Ending: return to the hook, a call to action, or a memorable final line |\n\n### The counter-argument\nAcknowledging the other side makes you look fair and confident. Give it one or two sentences, then dismantle it:\n\n> *Of course, some teachers will insist that homework builds independence. It might, if children were doing it independently. Most of them are being helped by a parent, a website or a friend's photograph of the answers.*\n\n### Paragraph openings\nVary how paragraphs begin. Use discourse markers sparingly and naturally: *Consider…, Take…, The truth is…, Worse still…, And yet…*. Avoid the mechanical *Firstly, Secondly, Thirdly*.\n\n### Evidence\nYou may invent statistics, experts and quotations, provided they are plausible. *A recent survey found that seven in ten parents…* is fine. *Scientists have proved that 100% of homework is pointless* is not.\n\n### The ending\nThe last line should be short and quotable. Return to your opening image, or issue a clear instruction to the reader."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: order the plan",
+          "question": {
+            "key": "AQA-ENL-04-01-L1-Q3",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put these paragraph summaries into the most effective order for an article arguing that the town needs a skate park.",
+            "hint": "Hook first, counter-argument in the middle, strongest point near the end, then a call to action that echoes the opening.",
+            "explanation": "Open with the anecdote, make the main points, deal with the objection about cost, save the strongest point (mental health and community) for late, and finish by returning to the bus shelter image with a call to action.",
+            "order": [
+              "Anecdote: teenagers gathered in the bus shelter on a Saturday with nowhere else to go",
+              "Point: a skate park gives young people a safe, active place to meet",
+              "Point: other towns that built one saw fewer complaints about anti-social behaviour",
+              "Counter-argument: some say it costs too much; but the council spends more on car park resurfacing every year",
+              "Strongest point: young people's mental health and sense of belonging depend on having somewhere they are welcome",
+              "Ending: picture the bus shelter empty and the park full; tell readers to sign the petition"
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: write a counter-argument paragraph",
+          "question": {
+            "key": "AQA-ENL-04-01-L1-Q4",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "You are writing an article arguing that **all schools should have a compulsory daily hour of exercise**.\n\nWrite a **counter-argument paragraph** (three to five sentences) that acknowledges an objection and then argues against it.",
+            "hint": "Start by giving the opposing view fairly (*Some parents will argue that…*). Then use *But*, *Yet* or *The truth is* to turn it around with a reason or example.",
+            "explanation": "A strong paragraph: *Some will argue that an hour of exercise steals time from subjects that actually appear on the exam timetable. It is a fair worry. But the schools that have tried it report the opposite: pupils who have run, swum or played for an hour concentrate better in the classroom, not worse. An extra hour of tired, fidgeting silence teaches nobody anything.* This acknowledges the objection, concedes it briefly, then rebuts it with evidence and a memorable final sentence.",
+            "markScheme": [
+              { "criterion": "States an opposing view fairly (e.g. some will say / critics argue / it could be argued)", "marks": 1, "keywords": [ ["some", "critics", "opponents", "argue", "might say", "could be", "claim", "objection"] ] },
+              { "criterion": "Turns against the objection with a contrast word (but, yet, however, the truth is)", "marks": 1, "keywords": [ ["but", "yet", "however", "the truth", "in fact", "nevertheless", "although"] ] },
+              { "criterion": "Gives a reason or example that undermines the objection", "marks": 1, "keywords": [ ["because", "concentrat", "focus", "evidence", "research", "schools that", "found", "report", "example", "shows"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Tone and register for different publications",
+          "minutes": 4,
+          "content": "## Matching your voice to the reader\n\nThe task names the publication, and the examiner expects your voice to fit it.\n\n| Publication | Audience | Register | Typical features |\n|---|---|---|---|\n| Broadsheet newspaper | Educated adults | Formal, measured, confident | Longer sentences, precise vocabulary, evidence, irony rather than jokes |\n| Tabloid newspaper | General adult readers | Direct, lively, punchy | Short paragraphs, bold claims, emotive language, puns in headlines |\n| Teen or lifestyle magazine | Young people | Friendly, energetic, personal | Direct address (*you*), humour, contractions, questions |\n| School magazine or website | Pupils and parents | Clear, warm, sensible | Inclusive *we*, local examples, moderate language |\n\n### The register test\nRead your first paragraph aloud and ask: *would this publication print it?* If a broadsheet piece contains *totally*, *loads of* or *lol*, it fails. If a teen magazine piece sounds like a legal document, it also fails.\n\n### Consistency matters more than perfection\nA slightly formal article that stays formal throughout beats one that lurches between styles. Decide on your voice before you start, and keep it.\n\n### Contractions\n*Don't, can't, it's* are fine in most articles, including broadsheets, because articles are meant to sound like a person talking to you. Avoid them only if the task says *formal* or the publication is very serious."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: register",
+          "question": {
+            "key": "AQA-ENL-04-01-L1-Q5",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Which sentence has the most appropriate register for an article in a **broadsheet newspaper**?",
+            "hint": "Look for measured, precise language that would not embarrass a serious newspaper.",
+            "explanation": "The first option is formal, precise and confident, exactly what a broadsheet expects. The others use slang, exaggeration or a chatty teen-magazine voice.",
+            "options": [
+              { "text": "The evidence that later start times improve attendance is now difficult to ignore.", "correct": true },
+              { "text": "Honestly, getting up at seven is a total nightmare and everyone knows it.", "correct": false, "feedback": "Too informal." },
+              { "text": "OMG, who even invented mornings?!", "correct": false, "feedback": "This belongs in a very informal teen piece, if anywhere." },
+              { "text": "Guys, we need to talk about mornings.", "correct": false, "feedback": "The direct address is fine for a magazine, but *guys* is too casual for a broadsheet." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-04-01-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 10,
+            "examStyle": true,
+            "text": "*\"Young people spend far too much time on their phones. Schools should ban them completely.\"*\n\nWrite an **article for a broadsheet newspaper** in which you argue your point of view on this statement.\n\nFor this practice task, write the **headline, standfirst and first three paragraphs** (roughly 200 to 250 words). Your third paragraph should include a counter-argument. [10 marks]",
+            "hint": "Decide your view first: for, against, or a middle position. Then: a short headline; a one-sentence standfirst; an anecdote or striking fact to open; a paragraph making your main point with evidence; a paragraph that acknowledges and rebuts the other side.",
+            "explanation": "A strong response might have the headline *Confiscate the Panic, Not the Phones*, a standfirst such as *Banning phones will not teach teenagers to manage them. Only teaching will.*, an opening anecdote about a classroom where phones are already locked away and pupils simply stare at the clock instead, a second paragraph arguing that adults use phones constantly and should be teaching balance rather than prohibition, supported by a plausible statistic, and a third paragraph conceding that phones distract in lessons but arguing that a lesson-time rule is different from a total ban. The register stays formal and measured throughout, paragraphs open in varied ways, and the writing includes a rhetorical question, a list of three and a short sentence for impact.",
+            "markScheme": [
+              { "criterion": "Includes a short, engaging headline (not just the task statement)", "marks": 1, "keywords": [ ["phone", "screen", "ban", "pocket", "scroll", "confiscate", "switch", "silence", "classroom"] ] },
+              { "criterion": "Includes a one-sentence standfirst that summarises the angle", "marks": 1, "keywords": [ ["*", "standfirst", "it is time", "should", "will not", "must", "why"] ] },
+              { "criterion": "Opens with a hook: anecdote, striking fact, rhetorical question or bold declaration", "marks": 1, "keywords": [ ["last", "imagine", "walk into", "every", "?", "picture", "morning", "consider", "ask"] ] },
+              { "criterion": "States a clear point of view on the statement", "marks": 1, "keywords": [ ["should", "must", "ban", "wrong", "right", "need", "ought"] ] },
+              { "criterion": "Supports the argument with a reason, example or plausible evidence", "marks": 1, "keywords": [ ["because", "survey", "research", "found", "per cent", "study", "example", "teachers report", "evidence"] ] },
+              { "criterion": "Includes a counter-argument that is acknowledged then rebutted", "marks": 2, "keywords": [ ["some", "critics", "argue", "of course", "admittedly", "it is true"], ["but", "yet", "however", "the truth", "nevertheless"] ] },
+              { "criterion": "Maintains a formal, measured broadsheet register throughout", "marks": 1, "keywords": [ ["evidence", "however", "whether", "consider", "argue", "suggest", "rather", "indeed"] ] },
+              { "criterion": "Uses at least two rhetorical or structural devices (rhetorical question, list of three, short sentence, direct address)", "marks": 1, "keywords": [ ["?", "we ", "you ", ", and ", "not "] ] },
+              { "criterion": "Varies paragraph openings and links ideas fluently rather than using Firstly / Secondly", "marks": 1, "keywords": [ ["consider", "take", "the truth", "and yet", "worse", "of course", "but", "imagine", "there is"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Question 5 is worth **40 marks** (24 AO5 + 16 AO6). Spend **45 minutes**: 5 planning, 35 writing, 5 checking.\n- Identify **form, audience, purpose** before you write.\n- An article needs a **short headline**, a **standfirst**, and a **hook** in the first paragraph: anecdote, fact, question, declaration or direct address.\n- Plan **five or six paragraphs** with a clear line of argument, a **counter-argument** that you rebut, your **strongest point near the end**, and a **short, quotable ending**.\n- Match **register** to the publication: broadsheet = formal and measured; tabloid = punchy; teen magazine = friendly and direct.\n- Invented evidence is fine if it is **plausible**."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-04-01-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "How are the 40 marks for Paper 2 Question 5 divided?",
+          "hint": "The larger share is for content and organisation.",
+          "explanation": "24 marks are for AO5 (content and organisation) and 16 for AO6 (technical accuracy: spelling, punctuation, grammar and sentence variety).",
+          "options": [
+            { "text": "24 marks for AO5 (content and organisation), 16 for AO6 (technical accuracy)", "correct": true },
+            { "text": "20 marks for AO5, 20 for AO6", "correct": false },
+            { "text": "16 marks for AO5, 24 for AO6", "correct": false, "feedback": "The other way round." },
+            { "text": "40 marks for AO5 only", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: to gain marks for the article form, you should draw columns, add a picture box and write a byline in a box at the top.",
+          "hint": "What does the examiner actually mark?",
+          "explanation": "False. Examiners credit the writing only. A headline, standfirst and a journalistic voice are what show you understand the form. Layout features waste time.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the description of the top of an article.",
+          "metadata": { "blanksText": "The ___ is a short, punchy title of three to eight words, and the ___ is a single italic sentence beneath it that sums up the article's angle." },
+          "hint": "The second term is a journalism word: it *stands first* before the main text.",
+          "explanation": "The headline is the title; the standfirst is the one-sentence summary beneath it.",
+          "answers": [
+            { "text": "headline", "blankIndex": 0, "marks": 1 },
+            { "text": "standfirst", "blankIndex": 1, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P4",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each opening sentence to the type of hook it uses.",
+          "hint": "Anecdote = a small scene; statistic = a number; rhetorical question = asks without expecting an answer; declaration = a bold flat statement.",
+          "explanation": "The kitchen scene is an anecdote. *Six in ten* is a statistic. *When did we decide…?* is a rhetorical question. *Homework does not work* is a bold declaration.",
+          "pairs": [
+            { "left": "At nine o'clock last night my neighbour's son was still at the kitchen table, in tears over a worksheet.", "right": "Anecdote" },
+            { "left": "Six in ten parents admit they do at least part of their child's homework.", "right": "Statistic" },
+            { "left": "When did we decide that childhood should finish at four o'clock?", "right": "Rhetorical question" },
+            { "left": "Homework does not work. It never has.", "right": "Bold declaration" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P5",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these features would be appropriate in an article for a **magazine aimed at teenagers**?",
+          "hint": "Think about how a friendly, energetic writer talks to young readers.",
+          "explanation": "Direct address, humour and rhetorical questions all suit a teen magazine. Very long formal sentences and legal-sounding vocabulary do not.",
+          "options": [
+            { "text": "Direct address using 'you'", "correct": true },
+            { "text": "Humour and a personal voice", "correct": true },
+            { "text": "Rhetorical questions", "correct": true },
+            { "text": "Sentences of forty words with several subordinate clauses", "correct": false, "feedback": "Too heavy for a teen magazine." },
+            { "text": "Vocabulary such as 'notwithstanding' and 'heretofore'", "correct": false, "feedback": "Far too formal for the audience." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P6",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Write a **headline and standfirst** for an article in a **local newspaper** arguing that the town's library must not be closed.",
+          "hint": "Headline: three to eight words, punchy, perhaps a command or a question. Standfirst: one sentence that gives the angle.",
+          "explanation": "For example: Headline: *Close the Library, Close the Town*. Standfirst: *Councillors call it a saving. Anyone who has used the library on a Tuesday afternoon knows it is a loss we cannot afford.* The headline is short and uses repetition for impact; the standfirst sets up the argument with a contrast.",
+          "markScheme": [
+            { "criterion": "Provides a short headline of roughly three to eight words about the library", "marks": 1, "keywords": [ ["library", "books", "shelves", "read", "close", "save", "shut"] ] },
+            { "criterion": "Headline uses a technique (command, question, repetition, alliteration, wordplay)", "marks": 1, "keywords": [ ["?", "save", "keep", "don't", "not", "our", "close", "book"] ] },
+            { "criterion": "Provides a one-sentence standfirst that states the article's angle", "marks": 1, "keywords": [ ["council", "cannot", "must", "should", "why", "loss", "afford", "need", "town"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P7",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which of these invented pieces of evidence is **plausible** enough to use in an article?",
+          "hint": "Plausible evidence sounds like something that could really have been found. Absolute claims and impossible numbers are not.",
+          "explanation": "A survey finding that most teachers set homework out of habit is believable. The other options are impossible (100%, every scientist in the world) or absurd (a thousand hours a week).",
+          "options": [
+            { "text": "A survey last year found that almost two thirds of teachers set homework mainly because it is expected of them.", "correct": true },
+            { "text": "Scientists have proved that 100% of homework is completely pointless.", "correct": false, "feedback": "Nobody could prove this; it sounds invented." },
+            { "text": "Every scientist in the world agrees that homework damages children.", "correct": false, "feedback": "Impossible and obviously exaggerated." },
+            { "text": "Students do over a thousand hours of homework every week.", "correct": false, "feedback": "There are only 168 hours in a week." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P8",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: including a counter-argument weakens your article because it gives the reader reasons to disagree with you.",
+          "hint": "Think about how it looks when a writer refuses to admit the other side exists.",
+          "explanation": "False. A counter-argument that you acknowledge and then rebut makes you seem fair, confident and thorough, which is more persuasive than ignoring the other side.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "You are writing an article for a **school magazine** arguing that **every student should learn a musical instrument**.\n\nWrite the **final two paragraphs** of the article (roughly 120 to 160 words): your strongest point, followed by an ending that leaves the reader with a memorable final line or a call to action. [6 marks]",
+          "hint": "Save the most emotionally powerful point for the penultimate paragraph. For the ending, echo an image from the start of a typical article, address the reader directly, or finish with a short sentence that sticks.",
+          "explanation": "A strong answer might argue in the penultimate paragraph that learning an instrument is the only subject where failure is expected and welcomed, teaching resilience that no exam can, supported by an example of a student who struggled and then performed in front of the school. The final paragraph might address the reader directly (*Pick one up. Sound terrible. Keep going.*), use a list of three and end on a short, memorable line such as *Nobody remembers the exam. Everybody remembers the song.* The register is warm, inclusive and suited to a school magazine.",
+          "markScheme": [
+            { "criterion": "Penultimate paragraph makes a strong, clearly stated point in favour of learning an instrument", "marks": 1, "keywords": [ ["resilience", "confidence", "joy", "friend", "brain", "discipline", "patience", "creativ", "belong", "express"] ] },
+            { "criterion": "Supports the point with an example, anecdote or plausible evidence", "marks": 1, "keywords": [ ["for example", "last year", "one student", "research", "study", "found", "remember", "concert", "performed", "picture"] ] },
+            { "criterion": "Ending includes a call to action or direct address to the reader", "marks": 1, "keywords": [ ["you", "pick up", "sign up", "join", "try", "start", "go", "ask"] ] },
+            { "criterion": "Ends with a short, memorable final sentence", "marks": 1, "keywords": [ ["nobody", "everybody", "remember", "start", "today", "now", "listen", "play", "song"] ] },
+            { "criterion": "Uses at least one rhetorical device (list of three, repetition, rhetorical question)", "marks": 1, "keywords": [ ["?", ", and ", "every", "not ", "again"] ] },
+            { "criterion": "Register is warm and inclusive, suited to a school magazine (we / our school / you)", "marks": 1, "keywords": [ ["we ", "our ", "you ", "us "] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P10",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these steps in the recommended order for the 45 minutes of Question 5.",
+          "hint": "Planning comes first, checking comes last, and you need your viewpoint before you can plan paragraphs.",
+          "explanation": "Identify form, audience and purpose; decide your view; plan five or six paragraphs; write the headline and hook; write the body and ending; then check spelling, punctuation and sentence variety.",
+          "order": [
+            "Identify the form, audience and purpose from the task",
+            "Decide your point of view",
+            "Plan five or six paragraphs including a counter-argument",
+            "Write the headline, standfirst and hook",
+            "Write the body paragraphs and ending",
+            "Spend five minutes checking accuracy and sentence variety"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "subTopicCode": "ENL-05-02",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-05-02-L1",
+      "title": "Punctuation: commas, apostrophes, speech and the rest",
+      "summary": "Learn the punctuation that GCSE examiners check most closely, from full stops and commas to apostrophes, speech marks, colons, semicolons and dashes, and how to use the ambitious marks with confidence.",
+      "objectives": [
+        "I can avoid comma splices and run-on sentences by using full stops, semicolons and connectives correctly.",
+        "I can use apostrophes accurately for omission and possession, including plurals and its/it's.",
+        "I can punctuate direct speech correctly, including new speakers and speech tags.",
+        "I can use colons, semicolons, dashes and brackets deliberately for effect."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Full stops and the comma splice",
+          "minutes": 5,
+          "content": "## The error examiners notice first\n\nA **comma splice** is two complete sentences joined by a comma:\n\n> *The rain stopped, we went outside.*\n\nEach half could stand alone as a sentence, so a comma is not strong enough to hold them together. This is the single most common punctuation error in GCSE writing, and it caps the AO6 mark because it shows the writer cannot control sentence boundaries.\n\n### Four ways to fix it\n\n| Fix | Example |\n|---|---|\n| Full stop | *The rain stopped. We went outside.* |\n| Semicolon (for closely linked ideas) | *The rain stopped; we went outside.* |\n| Joining word | *The rain stopped, so we went outside.* / *When the rain stopped, we went outside.* |\n| Dash (informal, for effect) | *The rain stopped – we went outside.* |\n\n### The run-on\n\nA **run-on** is the same problem with no punctuation at all: *The rain stopped we went outside.* Same fixes.\n\n### The test\n\nCover the comma with your finger. Read what is on the left. Is it a complete sentence? Now read the right. Also complete? Then the comma is a splice.\n\n### Commas that are correct\n\n- After an opening phrase: *After the storm, the street was silent.*\n- Around extra information: *Mara, who had never liked dogs, stepped back.*\n- In lists: *bread, milk, eggs and butter*.\n- Before a joining word linking two sentences: *It was late, but nobody wanted to leave.*\n\nA comma marks a pause **inside** a sentence. It never ends one."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: fixing splices",
+          "minutes": 3,
+          "content": "Here is a paragraph from a student's story, with the splices marked.\n\n> The corridor was empty, **[splice]** every door was shut. Jonah tried the first handle, it turned. **[splice]** Inside, the room smelled of chalk and something older, he could not name it. **[splice]**\n\n**Repaired, using a different fix each time:**\n\n> The corridor was empty; every door was shut. Jonah tried the first handle **and** it turned. Inside, the room smelled of chalk and something older **that** he could not name.\n\n**Or, for a tenser effect:**\n\n> The corridor was empty. Every door was shut. Jonah tried the first handle. It turned. Inside, the room smelled of chalk and something older, something he could not name.\n\nNotice the last version keeps one comma, in *something older, something he could not name*. That is not a splice, because *something he could not name* is not a complete sentence: it is a phrase adding to *something older*.\n\n**The lesson:** short sentences are never wrong. If you are unsure whether a comma is a splice, use a full stop."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: find the splice",
+          "question": {
+            "key": "AQA-ENL-05-02-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Which sentence contains a **comma splice**?",
+            "hint": "Cover the comma. Are both sides complete sentences on their own?",
+            "explanation": "*The bus was late, we missed the start* joins two complete sentences with only a comma. The others use a comma correctly: after an opening phrase, before *but*, and around extra information.",
+            "options": [
+              { "text": "The bus was late, we missed the start.", "correct": true },
+              { "text": "Because the bus was late, we missed the start.", "correct": false, "feedback": "*Because the bus was late* cannot stand alone, so this is correct." },
+              { "text": "The bus was late, but we still made the start.", "correct": false, "feedback": "The joining word *but* makes this correct." },
+              { "text": "The bus, which was always late, finally arrived.", "correct": false, "feedback": "The commas bracket extra information." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Apostrophes",
+          "minutes": 5,
+          "content": "## Two jobs only\n\nAn apostrophe does exactly two things. It never makes a plural.\n\n### 1. Omission: letters are missing\n*do not → don't; it is → it's; they are → they're; could have → could've; of the clock → o'clock.*\n\nThe apostrophe goes **where the letters were**: *don't* (the *o* of *not*), not *do'nt*.\n\n### 2. Possession: something belongs to someone\n\n| Owner | Rule | Example |\n|---|---|---|\n| Singular noun | add *'s* | *the girl's coat, the dog's bowl, James's bag* |\n| Plural ending in s | add *'* after the s | *the girls' coats, the dogs' bowls* |\n| Plural not ending in s | add *'s* | *the children's books, the men's room* |\n\nThe trick: write the owner first, **then** add the apostrophe. *Girl* + *'s* = one girl. *Girls* + *'* = several girls.\n\n### its and it's\n*It's* = it is / it has (omission). *Its* = belonging to it (possession, **no apostrophe**, like *his* and *hers*). If in doubt, swap in *it is*.\n\n### Never on plurals\n*Three cats. The 1980s. Two CDs. Apples for sale.* A plural just adds *s*. The greengrocer's apostrophe (*apple's for sale*) is a classic error.\n\n### Never on possessive pronouns\n*yours, hers, ours, theirs, its* have no apostrophe.\n\n### Time and quantity\n*A week's holiday. Two weeks' notice. Five years' experience.* These follow the possession rule."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: apostrophes",
+          "question": {
+            "key": "AQA-ENL-05-02-L1-Q2",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each phrase to its correctly punctuated form.",
+            "hint": "Write the owner first, then add the apostrophe. Plurals with no ownership get no apostrophe at all.",
+            "explanation": "One teacher owns the desk: *teacher's*. Several teachers share a room: *teachers'*. *Children* is a plural not ending in s: *children's*. *Books* here is a simple plural with no ownership: no apostrophe.",
+            "pairs": [
+              { "left": "the desk belonging to one teacher", "right": "the teacher's desk" },
+              { "left": "the room shared by several teachers", "right": "the teachers' room" },
+              { "left": "the playground used by the children", "right": "the children's playground" },
+              { "left": "more than one book, no ownership", "right": "the books" }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: correct the apostrophes",
+          "question": {
+            "key": "AQA-ENL-05-02-L1-Q3",
+            "type": "FillInTheBlank",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Complete each sentence with the correctly punctuated word: **its** or **it's**; **Priyas** or **Priya's**; **players** or **players'**.",
+            "metadata": { "blanksText": "The team lost ___ captain. ___ boots were left on the bus. All six ___ shirts were muddy." },
+            "hint": "Belonging to it (no apostrophe). Belonging to Priya (one person). Belonging to six players (plural ending in s).",
+            "explanation": "*Its captain* (possession, no apostrophe). *Priya's boots* (singular owner). *Players' shirts* (plural owner ending in s).",
+            "answers": [
+              { "text": "its", "blankIndex": 0, "marks": 1 },
+              { "text": "Priya's", "blankIndex": 1, "marks": 1 },
+              { "text": "players'", "blankIndex": 2, "marks": 1 }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Punctuating speech",
+          "minutes": 5,
+          "content": "## Direct speech\n\nNarrative writing on Paper 1 often includes dialogue, and examiners check it closely. Five rules cover almost everything.\n\n1. **Speech marks** go around the exact words spoken. Single or double is fine; be consistent.\n2. **Punctuation inside**: the comma, full stop, question mark or exclamation mark that ends the speech goes **inside** the closing speech mark.\n3. **Capital letter** for the first spoken word.\n4. **Speech tag** (*she said*) is separated from the speech by a comma, not a full stop, when the sentence continues.\n5. **New speaker, new line.**\n\n### The four patterns\n\n| Pattern | Example |\n|---|---|\n| Tag after | *\"We should go,\" said Amir.* |\n| Tag before | *Amir said, \"We should go.\"* |\n| Tag in the middle | *\"We should go,\" said Amir, \"before it gets dark.\"* |\n| Question or exclamation | *\"Are you coming?\" she asked.* (No comma needed; the question mark does the job. *She* is not capitalised.) |\n\n### Common errors\n\n- *\"We should go.\" Said Amir.* → wrong: the full stop cuts the sentence, and *Said* should not be capitalised.\n- *\"We should go\", said Amir.* → wrong: the comma belongs inside the speech marks.\n- Two speakers on one line: *\"Hello,\" said Amir. \"Hi,\" said Zara.* → put Zara on a new line.\n\n### Keep tags simple\n*Said* is fine. Vary it occasionally (*muttered, called, asked*) but do not strain for a new verb every line. Often the action around the speech does the work: *Amir looked at his watch. \"We should go.\"*"
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: a dialogue laid out correctly",
+          "minutes": 3,
+          "content": "> Zara stopped at the gate. \"Are you sure this is the place?\"\n>\n> \"Positive,\" said Amir, though he did not sound it. \"Number forty-one. Green door.\"\n>\n> \"The door's blue.\"\n>\n> He looked again. \"It's a bluish green.\"\n>\n> \"Amir,\" she said, \"it is blue.\"\n\n**What is happening**\n\n- Each new speaker starts a **new line**.\n- Every piece of speech starts with a **capital** and ends with punctuation **inside** the marks.\n- *\"Positive,\" said Amir* uses a comma inside the marks and a lower-case *said*.\n- *\"Amir,\" she said, \"it is blue.\"* is a tag in the middle: comma inside the first marks, comma after *said*, and *it* stays lower case because the sentence is continuing.\n- Some lines have **no tag at all**. The layout tells us who is speaking, and the rhythm quickens.\n- *The door's blue* and *It's a bluish green* use apostrophes of omission correctly.\n\nThis is the standard the examiner expects. It is not difficult, but it must be consistent."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: which line is correct?",
+          "question": {
+            "key": "AQA-ENL-05-02-L1-Q4",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Which line of dialogue is punctuated **correctly**?",
+            "hint": "Comma inside the closing speech mark, lower-case *said*, capital for the first spoken word.",
+            "explanation": "*\"I'm not going back,\" said Leo.* has the comma inside the speech marks and a lower-case tag. The others put the comma outside, use a full stop and capital *Said*, or forget the capital on the first spoken word.",
+            "options": [
+              { "text": "\"I'm not going back,\" said Leo.", "correct": true },
+              { "text": "\"I'm not going back\", said Leo.", "correct": false, "feedback": "The comma belongs inside the speech marks." },
+              { "text": "\"I'm not going back.\" Said Leo.", "correct": false, "feedback": "A full stop and a capital *Said* break the sentence in two." },
+              { "text": "\"i'm not going back,\" said Leo.", "correct": false, "feedback": "The first spoken word needs a capital." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "The ambitious marks: colon, semicolon, dash, brackets",
+          "minutes": 5,
+          "content": "## Marks that raise the AO6 band\n\nThe top descriptor for AO6 mentions *a range of punctuation used accurately*. Using these marks correctly, even once or twice, shows range.\n\n### Colon ( : )\nIntroduces something: a list, an explanation, or a dramatic reveal. What comes **before** the colon must be a complete sentence.\n- *She packed three things: a torch, a map and her brother's knife.*\n- *There was only one explanation: he had lied.*\n\n### Semicolon ( ; )\nJoins two complete sentences that are closely related, where a full stop feels too abrupt and a comma is a splice.\n- *The tide was going out; the boat was going with it.*\nAlso separates items in a complicated list: *We visited Paris, France; Rome, Italy; and Vienna, Austria.*\n\nTest: could you replace it with a full stop? If not, it is wrong.\n\n### Dash ( – )\nA single dash adds an afterthought or a sudden turn: *He opened the door – and stopped.* A pair of dashes works like brackets but with more emphasis: *The house – if you could still call it that – leaned towards the road.*\nUse sparingly; more than two or three in a piece looks careless.\n\n### Brackets ( )\nAdd a quiet aside: *The dog (a terrier of uncertain age) refused to move.* Rare in exam writing; a pair of commas or dashes usually reads better.\n\n### Ellipsis ( … )\nA trailing off or a pause: *\"I thought you said…\"* Three dots only. Avoid in formal writing and do not use it to end every tense sentence.\n\n### Exclamation marks\nOne per piece, at most. Let the words carry the force."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: colon or semicolon?",
+          "question": {
+            "key": "AQA-ENL-05-02-L1-Q5",
+            "type": "Matching",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Match each sentence to the punctuation mark that should replace the **[?]**.",
+            "hint": "A colon introduces; a semicolon joins two complete related sentences; a pair of dashes brackets an interruption; brackets add a quiet aside.",
+            "explanation": "A list is introduced by a colon. Two complete, related sentences are joined by a semicolon. An emphatic interruption in the middle of a sentence takes a pair of dashes. A quiet aside about the cat's age takes brackets.",
+            "pairs": [
+              { "left": "He needed three things [?] time, money and luck.", "right": "Colon" },
+              { "left": "The lights went out [?] nobody moved.", "right": "Semicolon" },
+              { "left": "The letter [?] the one she had sworn to burn [?] was still in the drawer.", "right": "Pair of dashes" },
+              { "left": "The cat [?] nobody knew how old [?] slept on the radiator.", "right": "Brackets" }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: rewrite with ambitious punctuation",
+          "question": {
+            "key": "AQA-ENL-05-02-L1-Q6",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Rewrite the following three short sentences as **one or two sentences**, using a **semicolon** and a **colon** correctly.\n\n> The market was closing. The stallholders were packing up. Only one thing was left on the tables. Bruised fruit.",
+            "hint": "Join the two closely related sentences with a semicolon. Use the colon to introduce the reveal of what was left.",
+            "explanation": "For example: *The market was closing; the stallholders were packing up. Only one thing was left on the tables: bruised fruit.* The semicolon joins two related complete sentences; the colon introduces the reveal.",
+            "markScheme": [
+              { "criterion": "Uses a semicolon correctly between two complete, related sentences", "marks": 1, "keywords": [ ["closing;", "closing ;", "up;", "up ;"] ] },
+              { "criterion": "Uses a colon correctly to introduce the reveal (bruised fruit)", "marks": 1, "keywords": [ ["tables:", "tables :", "left:", "thing:"] ] },
+              { "criterion": "Keeps all the original information and produces complete, correctly punctuated sentences", "marks": 1, "keywords": [ ["market"], ["fruit"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-05-02-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 8,
+            "examStyle": true,
+            "text": "Proofread and rewrite the passage below, correcting **all** punctuation errors. There are errors involving comma splices, apostrophes and speech punctuation.\n\n> The twins bags were already by the door, their mother was still looking for the car keys. \"Have you seen them\" she called. \"There on the hook.\" said Sam without looking up. \"Its where they always are\". She found them, she did not say thank you. The dogs' tail thumped against the floor as they left. [8 marks]",
+            "hint": "Twins (plural) own the bags. Fix two comma splices. The question needs a question mark inside the marks. *There on the hook* should be *They're*. The tag after speech needs a comma, not a full stop. *Its where* needs an apostrophe. One dog owns the tail.",
+            "explanation": "Corrected: *The twins' bags were already by the door; their mother was still looking for the car keys. \"Have you seen them?\" she called. \"They're on the hook,\" said Sam without looking up. \"It's where they always are.\" She found them. She did not say thank you. The dog's tail thumped against the floor as they left.*",
+            "markScheme": [
+              { "criterion": "Corrects 'twins bags' to 'twins' bags'", "marks": 1, "keywords": [ ["twins' bags", "twins’ bags"] ] },
+              { "criterion": "Fixes the first comma splice (door, their mother) with a semicolon, full stop or connective", "marks": 1, "keywords": [ ["door;", "door.", "door and", "door, and", "door while", "door, while", "door but"] ] },
+              { "criterion": "Adds a question mark inside the speech marks: 'Have you seen them?'", "marks": 1, "keywords": [ ["them?\"", "them?'", "them?”"] ] },
+              { "criterion": "Corrects 'There on the hook' to 'They're on the hook'", "marks": 1, "keywords": [ ["they're on the hook", "they’re on the hook"] ] },
+              { "criterion": "Replaces the full stop before 'said Sam' with a comma inside the speech marks", "marks": 1, "keywords": [ ["hook,\" said", "hook,' said", "hook,” said"] ] },
+              { "criterion": "Corrects 'Its where' to 'It's where' and moves the full stop inside the speech marks", "marks": 1, "keywords": [ ["it's where", "it’s where"], ["are.\"", "are.'", "are.”"] ] },
+              { "criterion": "Fixes the second comma splice (found them, she did not)", "marks": 1, "keywords": [ ["them.", "them;", "them but", "them, but", "them and"] ] },
+              { "criterion": "Corrects 'dogs' tail' to 'dog's tail'", "marks": 1, "keywords": [ ["dog's tail", "dog’s tail"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- A **comma splice** joins two complete sentences with a comma. Fix with a full stop, a semicolon, or a joining word. When unsure, use a full stop.\n- **Apostrophes** do two jobs: omission (*don't, it's*) and possession (*girl's, girls', children's*). Never for plurals. *Its* = belonging to it.\n- **Speech**: capital for the first spoken word, punctuation inside the closing mark, comma (not full stop) before a tag, lower-case *said*, new speaker on a new line.\n- **Colon** introduces (list, explanation, reveal); what comes before must be a complete sentence.\n- **Semicolon** joins two complete, related sentences. Test: could it be a full stop?\n- **Dashes** for interruptions or sudden turns, used sparingly. **Exclamation marks**: one at most."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-05-02-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: an apostrophe is used to make a word plural, as in *three apple's*.",
+          "hint": "What are the only two jobs of an apostrophe?",
+          "explanation": "False. Apostrophes show omission or possession. Plurals simply add *s*: *three apples*.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which sentence is punctuated correctly?",
+          "hint": "The comma that ends the speech goes inside the closing speech mark, and the tag is lower case.",
+          "explanation": "*\"Wait for me,\" called Dev.* is correct. The others put the comma outside, use a full stop with a capital *Called*, or miss the punctuation entirely.",
+          "options": [
+            { "text": "\"Wait for me,\" called Dev.", "correct": true },
+            { "text": "\"Wait for me\", called Dev.", "correct": false },
+            { "text": "\"Wait for me.\" Called Dev.", "correct": false },
+            { "text": "\"Wait for me\" called Dev.", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the rule.",
+          "metadata": { "blanksText": "A ___ introduces a list, explanation or reveal, while a ___ joins two complete sentences that are closely related." },
+          "hint": "One has two dots stacked; the other has a dot over a comma.",
+          "explanation": "A colon introduces; a semicolon joins two related complete sentences.",
+          "answers": [
+            { "text": "colon", "blankIndex": 0, "marks": 1 },
+            { "text": "semicolon", "blankIndex": 1, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P4",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these sentences contain a comma splice?",
+          "hint": "Cover each comma and check whether both sides are complete sentences.",
+          "explanation": "*It was dark, we kept walking*, *She smiled, he did not* and *The door opened, nobody came in* all join two complete sentences with a comma. The others use a joining word or an opening phrase.",
+          "options": [
+            { "text": "It was dark, we kept walking.", "correct": true },
+            { "text": "She smiled, he did not.", "correct": true },
+            { "text": "The door opened, nobody came in.", "correct": true },
+            { "text": "Although it was dark, we kept walking.", "correct": false, "feedback": "*Although it was dark* cannot stand alone." },
+            { "text": "The door opened, but nobody came in.", "correct": false, "feedback": "*But* joins the two halves correctly." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P5",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each phrase to the correct apostrophe use.",
+          "hint": "Count the owners and check whether the plural ends in s.",
+          "explanation": "*Week's* (one week); *children's* (plural not ending in s); *boys'* (plural ending in s); *don't* (omission of the *o*).",
+          "pairs": [
+            { "left": "a holiday lasting one week", "right": "a week's holiday" },
+            { "left": "the coats belonging to the children", "right": "the children's coats" },
+            { "left": "the changing room used by the boys", "right": "the boys' changing room" },
+            { "left": "do not", "right": "don't" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P6",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Which sentence uses a **colon** correctly?",
+          "hint": "What comes before the colon must be a complete sentence, and the colon must introduce something.",
+          "explanation": "*He had one rule: never look back.* has a complete sentence before the colon, which then introduces the explanation. The others place a colon after an incomplete clause or use it where a comma or nothing is needed.",
+          "options": [
+            { "text": "He had one rule: never look back.", "correct": true },
+            { "text": "He had: one rule, never look back.", "correct": false, "feedback": "*He had* is not a complete sentence." },
+            { "text": "The things he packed were: a torch and a map.", "correct": false, "feedback": "No colon is needed after *were*." },
+            { "text": "He walked: slowly down the road.", "correct": false, "feedback": "Nothing is being introduced." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P7",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Rewrite this exchange with correct speech punctuation and layout.\n\n> where have you been asked mum. out said Kai. out where. just out.",
+          "hint": "Capital letters for the first spoken word, question marks inside the marks, comma before tags, and a new line for each speaker.",
+          "explanation": "*\"Where have you been?\" asked Mum.* (new line) *\"Out,\" said Kai.* (new line) *\"Out where?\"* (new line) *\"Just out.\"* Each speaker is on a new line, questions have question marks inside the speech marks, and tags are separated by commas.",
+          "markScheme": [
+            { "criterion": "Uses speech marks with capital letters for the first spoken word", "marks": 1, "keywords": [ ["\"where", "'where", "“where"] ] },
+            { "criterion": "Places question marks inside the speech marks for the two questions", "marks": 1, "keywords": [ ["been?\"", "been?'", "been?”"], ["where?\"", "where?'", "where?”"] ] },
+            { "criterion": "Uses a comma inside the speech marks before 'said Kai' and lower-case tags", "marks": 1, "keywords": [ ["out,\" said", "out,' said", "out,” said"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P8",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: a semicolon can replace a full stop between two complete sentences that are closely related.",
+          "hint": "What is the semicolon test?",
+          "explanation": "True. If a full stop would work but feels too abrupt, and the two sentences are closely linked, a semicolon is correct.",
+          "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "Rewrite the paragraph below, correcting every punctuation error. There are **six**.\n\n> Nobody knew whose idea it had been, by midnight the whole years' plan was in ruins. Mias phone buzzed again, she ignored it. \"We can still fix this\" said Tom, \"if we start now.\" Its not too late. [6 marks]",
+          "hint": "Two comma splices; a possessive on *year* (one year); a possessive on *Mia*; a comma inside the speech marks after *this*; *Its* should be *It's*.",
+          "explanation": "Corrected: *Nobody knew whose idea it had been; by midnight the whole year's plan was in ruins. Mia's phone buzzed again. She ignored it. \"We can still fix this,\" said Tom, \"if we start now.\" It's not too late.*",
+          "markScheme": [
+            { "criterion": "Fixes the first comma splice (been, by midnight)", "marks": 1, "keywords": [ ["been;", "been.", "been, and", "been and", "been, but"] ] },
+            { "criterion": "Corrects 'years' plan' to 'year's plan'", "marks": 1, "keywords": [ ["year's plan", "year’s plan"] ] },
+            { "criterion": "Corrects 'Mias phone' to 'Mia's phone'", "marks": 1, "keywords": [ ["mia's phone", "mia’s phone"] ] },
+            { "criterion": "Fixes the second comma splice (again, she ignored)", "marks": 1, "keywords": [ ["again.", "again;", "again, but", "again but", "again and"] ] },
+            { "criterion": "Adds a comma inside the speech marks after 'this'", "marks": 1, "keywords": [ ["this,\" said", "this,' said", "this,” said"] ] },
+            { "criterion": "Corrects 'Its not' to 'It's not'", "marks": 1, "keywords": [ ["it's not", "it’s not"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P10",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "How many exclamation marks should a piece of exam writing normally contain?",
+          "hint": "Let the words carry the force.",
+          "explanation": "One at most. Repeated exclamation marks look uncontrolled and weaken the writing.",
+          "options": [
+            { "text": "One at most", "correct": true },
+            { "text": "One per paragraph", "correct": false },
+            { "text": "As many as needed to show excitement", "correct": false },
+            { "text": "At least five", "correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
