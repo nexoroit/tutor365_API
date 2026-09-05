@@ -15,6 +15,12 @@ tests/
   Tutor365.IntegrationTests
 ```
 
+## Tests
+
+```bash
+dotnet test            # unit tests (marking engine) + integration tests (real DB: register → OTP → child → session → progress, access control)
+```
+
 ## Run locally
 
 Requires the .NET 8 SDK.
@@ -41,6 +47,14 @@ On start-up the API applies pending EF migrations and seeds reference data (exam
 | `Cors:AllowedOrigins` | Angular dev origins |
 
 Override secrets on the server with environment variables, e.g. `Auth__SigningKey`, `ConnectionStrings__Default`, `Smtp__Password`.
+
+## Product scope
+
+Two user-facing roles: **Parent** and **Student**. The platform itself is the tutor: it builds each child's weekly subject timetable from their year group, exam date, lessons remaining, target-grade gap and parent priorities, and the student follows a daily calendar of 45-minute sessions. An `Admin` role exists for content/user management via the API but is not a product focus.
+
+How a day works: `GET /students/me/today` → slots → `POST /study-sessions {dailyStudySlotId}` → explanation/example/question activities → rule-based marking with feedback → complete → pass threshold (set by the parent) unlocks the next lesson, otherwise the lesson is re-planned for a re-attempt with alternate questions. Topic mastery and spaced-repetition reviews feed back into the timetable. Parents see progress, calendar, mistakes, weekly reports and can assign extra work.
+
+See `docs/API_GUIDE.md` for the endpoint map, `docs/CONTENT_FORMAT.md` for lesson JSON, `docs/DEPLOYMENT_IIS.md` for hosting.
 
 ## Roles
 
