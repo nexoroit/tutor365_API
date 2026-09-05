@@ -122,7 +122,8 @@ public class AdminController : ApiControllerBase
     [ProducesResponseType(typeof(ApiResponse<ContentImportResultDto>), 200)]
     public async Task<IActionResult> ImportContent([FromServices] ContentSeeder seeder, [FromServices] IOptions<AppOptions> options, [FromServices] IWebHostEnvironment env, CancellationToken ct)
     {
-        var path = Path.IsPathRooted(options.Value.ContentPath) ? options.Value.ContentPath : Path.GetFullPath(Path.Combine(env.ContentRootPath, options.Value.ContentPath));
+        var candidates = new[] { Path.IsPathRooted(options.Value.ContentPath) ? options.Value.ContentPath : Path.GetFullPath(Path.Combine(env.ContentRootPath, options.Value.ContentPath)), Path.Combine(env.ContentRootPath, "content", "lessons"), Path.Combine(AppContext.BaseDirectory, "content", "lessons") };
+        var path = candidates.FirstOrDefault(Directory.Exists) ?? candidates[0];
         var r = await seeder.ImportDirectoryAsync(path, ct);
         return Ok(new ContentImportResultDto(r.Files, r.Lessons, r.Questions, r.Errors));
     }

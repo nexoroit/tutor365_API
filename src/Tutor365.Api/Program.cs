@@ -117,7 +117,14 @@ using (var scope = app.Services.CreateScope())
     var appOptions = scope.ServiceProvider.GetRequiredService<IOptions<AppOptions>>().Value;
     if (appOptions.ImportContentOnStartup)
     {
-        var contentPath = Path.IsPathRooted(appOptions.ContentPath) ? appOptions.ContentPath : Path.GetFullPath(Path.Combine(app.Environment.ContentRootPath, appOptions.ContentPath));
+        // Dev: ../../content/lessons relative to the project; IIS publish: content/lessons next to the DLL.
+        var candidates = new[]
+        {
+            Path.IsPathRooted(appOptions.ContentPath) ? appOptions.ContentPath : Path.GetFullPath(Path.Combine(app.Environment.ContentRootPath, appOptions.ContentPath)),
+            Path.Combine(app.Environment.ContentRootPath, "content", "lessons"),
+            Path.Combine(AppContext.BaseDirectory, "content", "lessons"),
+        };
+        var contentPath = candidates.FirstOrDefault(Directory.Exists) ?? candidates[0];
         await scope.ServiceProvider.GetRequiredService<ContentSeeder>().ImportDirectoryAsync(contentPath);
     }
 }
