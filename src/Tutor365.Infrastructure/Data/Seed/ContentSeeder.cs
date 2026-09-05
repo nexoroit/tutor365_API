@@ -171,19 +171,19 @@ public class ContentSeeder
         if (cq.Options != null)
         {
             foreach (var o in cq.Options)
-                q.Options.Add(new QuestionOption { Id = DeterministicGuid.Create($"opt:{key}:{so}"), QuestionId = id, Text = o.Text ?? "", IsCorrect = o.Correct ?? false, Feedback = o.Feedback, SortOrder = so++ });
+                { var e = new QuestionOption { Id = DeterministicGuid.Create($"opt:{key}:{so}"), QuestionId = id, Text = o.Text ?? "", IsCorrect = o.Correct ?? false, Feedback = o.Feedback, SortOrder = so++ }; _db.QuestionOptions.Add(e); if (!q.Options.Contains(e)) q.Options.Add(e); }
         }
         if (cq.Pairs != null)
         {
             foreach (var p in cq.Pairs)
-                q.Options.Add(new QuestionOption { Id = DeterministicGuid.Create($"opt:{key}:{so}"), QuestionId = id, Text = p.Left ?? "", MatchKey = p.Right, IsCorrect = true, SortOrder = so++ });
+                { var e = new QuestionOption { Id = DeterministicGuid.Create($"opt:{key}:{so}"), QuestionId = id, Text = p.Left ?? "", MatchKey = p.Right, IsCorrect = true, SortOrder = so++ }; _db.QuestionOptions.Add(e); if (!q.Options.Contains(e)) q.Options.Add(e); }
             metadata["matchTargets"] = cq.Pairs.Select(p => p.Right).Distinct().OrderBy(_ => Guid.NewGuid()).ToList();
         }
         if (cq.Order != null)
         {
             var idx = 0;
             foreach (var item in cq.Order)
-                q.Options.Add(new QuestionOption { Id = DeterministicGuid.Create($"opt:{key}:{so}"), QuestionId = id, Text = item, MatchKey = (idx++).ToString(), IsCorrect = true, SortOrder = so++ });
+                { var e = new QuestionOption { Id = DeterministicGuid.Create($"opt:{key}:{so}"), QuestionId = id, Text = item, MatchKey = (idx++).ToString(), IsCorrect = true, SortOrder = so++ }; _db.QuestionOptions.Add(e); if (!q.Options.Contains(e)) q.Options.Add(e); }
         }
 
         // Accepted answers
@@ -192,13 +192,14 @@ public class ContentSeeder
         var ai = 0;
         foreach (var a in cq.Answers ?? new())
         {
-            q.AcceptedAnswers.Add(new QuestionAnswer
+            var ans = new QuestionAnswer
             {
                 Id = DeterministicGuid.Create($"ans:{key}:{ai++}"), QuestionId = id,
                 AnswerText = a.Text ?? (a.Numeric?.ToString(System.Globalization.CultureInfo.InvariantCulture) ?? ""),
                 IsCaseSensitive = a.CaseSensitive ?? false, NumericValue = a.Numeric, NumericTolerance = a.Tolerance,
                 Unit = a.Unit, BlankIndex = a.BlankIndex, Marks = a.Marks ?? 1
-            });
+            };
+            _db.QuestionAnswers.Add(ans); if (!q.AcceptedAnswers.Contains(ans)) q.AcceptedAnswers.Add(ans);
         }
 
         // Mark scheme
@@ -207,12 +208,13 @@ public class ContentSeeder
         var mi = 0;
         foreach (var m in cq.MarkScheme ?? new())
         {
-            q.MarkScheme.Add(new MarkScheme
+            var ms = new MarkScheme
             {
                 Id = DeterministicGuid.Create($"ms:{key}:{mi}"), QuestionId = id, SortOrder = mi++,
                 CriterionText = m.Criterion ?? "", Marks = m.Marks ?? 1,
                 KeywordsJson = m.Keywords == null ? null : JsonSerializer.Serialize(m.Keywords)
-            });
+            };
+            _db.MarkSchemes.Add(ms); if (!q.MarkScheme.Contains(ms)) q.MarkScheme.Add(ms);
         }
 
         // Marks: explicit, else derived

@@ -47,6 +47,11 @@ public static class DependencyInjection
         services.AddScoped<IStudySessionService, StudySessionService>();
         services.AddScoped<IPlannerService, PlannerService>();
         services.AddScoped<IStudentService, StudentService>();
+        services.AddScoped<IAiTutorService, AiTutorService>();
+        services.AddScoped<IStudyPlanService, StudyPlanService>();
+        services.AddScoped<IReportService, ReportService>();
+        services.AddScoped<IAdminService, AdminService>();
+        services.AddHostedService<MaintenanceHostedService>();
 
         services.AddScoped<Data.Seed.DatabaseSeeder>();
         services.AddScoped<Data.Seed.ContentSeeder>();

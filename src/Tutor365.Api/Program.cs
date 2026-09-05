@@ -31,7 +31,6 @@ builder.Services.AddControllers(o => o.Filters.Add<ValidationFilter>())
     .AddJsonOptions(o =>
     {
         o.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
-        o.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
     });
 
 // Return model-binding errors in the same envelope as everything else.

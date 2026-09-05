@@ -1,0 +1,129 @@
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using Tutor365.Application.Common;
+using Tutor365.Application.DTOs;
+using Tutor365.Application.Services;
+using Tutor365.Domain.Enums;
+using Tutor365.Infrastructure.Data.Seed;
+
+namespace Tutor365.Api.Controllers;
+
+/// <summary>Administration: dashboard, users, curriculum/content management, settings, audit logs. Admin role only.</summary>
+[Authorize(Roles = Roles.Admin)]
+public class AdminController : ApiControllerBase
+{
+    private readonly IAdminService _admin;
+    private readonly ICurriculumService _curriculum;
+    public AdminController(IAdminService admin, ICurriculumService curriculum) { _admin = admin; _curriculum = curriculum; }
+
+    [HttpGet("dashboard")]
+    [ProducesResponseType(typeof(ApiResponse<AdminDashboardDto>), 200)]
+    public async Task<IActionResult> Dashboard(CancellationToken ct) => Ok(await _admin.GetDashboardAsync(ct));
+
+    // ---- users ----
+    [HttpGet("users")]
+    [ProducesResponseType(typeof(ApiResponse<PagedResult<AdminUserDto>>), 200)]
+    public async Task<IActionResult> Users([FromQuery] AdminUserQuery query, CancellationToken ct) => Ok(await _admin.GetUsersAsync(query, ct));
+
+    [HttpGet("users/{id:guid}")]
+    [ProducesResponseType(typeof(ApiResponse<AdminUserDto>), 200)]
+    public async Task<IActionResult> User(Guid id, CancellationToken ct) => Ok(await _admin.GetUserAsync(id, ct));
+
+    /// <summary>Create an Admin or Parent account (students are created by their parent).</summary>
+    [HttpPost("users")]
+    [ProducesResponseType(typeof(ApiResponse<AdminUserDto>), 201)]
+    public async Task<IActionResult> CreateUser([FromBody] CreateAdminUserRequest request, CancellationToken ct)
+    {
+        var u = await _admin.CreateUserAsync(request, ct);
+        return Created($"/api/v1/admin/users/{u.Id}", u, "User created.");
+    }
+
+    [HttpPut("users/{id:guid}")]
+    [ProducesResponseType(typeof(ApiResponse<AdminUserDto>), 200)]
+    public async Task<IActionResult> UpdateUser(Guid id, [FromBody] AdminUpdateUserRequest request, CancellationToken ct) => Ok(await _admin.UpdateUserAsync(id, request, ct));
+
+    [HttpPost("users/{id:guid}/password")]
+    public async Task<IActionResult> SetPassword(Guid id, [FromBody] AdminSetPasswordRequest request, CancellationToken ct) { await _admin.SetPasswordAsync(id, request, ct); return OkMessage("Password set."); }
+
+    /// <summary>Soft delete: anonymises and disables the account; learning history is retained.</summary>
+    [HttpDelete("users/{id:guid}")]
+    public async Task<IActionResult> DeleteUser(Guid id, CancellationToken ct) { await _admin.DeleteUserAsync(id, ct); return OkMessage("User deleted."); }
+
+    // ---- audit & settings ----
+    [HttpGet("audit-logs")]
+    [ProducesResponseType(typeof(ApiResponse<PagedResult<AuditLogDto>>), 200)]
+    public async Task<IActionResult> AuditLogs([FromQuery] AuditLogQuery query, CancellationToken ct) => Ok(await _admin.GetAuditLogsAsync(query, ct));
+
+    [HttpGet("system-settings")]
+    [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<SystemSettingDto>>), 200)]
+    public async Task<IActionResult> Settings(CancellationToken ct) => Ok(await _admin.GetSettingsAsync(ct));
+
+    [HttpPut("system-settings/{key}")]
+    [ProducesResponseType(typeof(ApiResponse<SystemSettingDto>), 200)]
+    public async Task<IActionResult> UpdateSetting(string key, [FromBody] UpdateSystemSettingRequest request, CancellationToken ct) => Ok(await _admin.UpdateSettingAsync(key, request, ct));
+
+    // ---- curriculum ----
+    /// <summary>Full curriculum for a subject including draft/archived items (admin view).</summary>
+    [HttpGet("curriculum")]
+    [ProducesResponseType(typeof(ApiResponse<CurriculumTreeDto>), 200)]
+    public async Task<IActionResult> Curriculum([FromQuery] Guid subjectId, [FromQuery] Guid? examBoardId, CancellationToken ct) => Ok(await _curriculum.GetTreeAsync(subjectId, examBoardId, ct));
+
+    [HttpPost("topics")]
+    [ProducesResponseType(typeof(ApiResponse<TopicDto>), 200)]
+    public async Task<IActionResult> CreateTopic([FromBody] UpsertTopicRequest request, CancellationToken ct) => Ok(await _admin.UpsertTopicAsync(null, request, ct));
+    [HttpPut("topics/{id:guid}")]
+    [ProducesResponseType(typeof(ApiResponse<TopicDto>), 200)]
+    public async Task<IActionResult> UpdateTopic(Guid id, [FromBody] UpsertTopicRequest request, CancellationToken ct) => Ok(await _admin.UpsertTopicAsync(id, request, ct));
+
+    [HttpPost("subtopics")]
+    [ProducesResponseType(typeof(ApiResponse<SubTopicDto>), 200)]
+    public async Task<IActionResult> CreateSubTopic([FromBody] UpsertSubTopicRequest request, CancellationToken ct) => Ok(await _admin.UpsertSubTopicAsync(null, request, ct));
+    [HttpPut("subtopics/{id:guid}")]
+    [ProducesResponseType(typeof(ApiResponse<SubTopicDto>), 200)]
+    public async Task<IActionResult> UpdateSubTopic(Guid id, [FromBody] UpsertSubTopicRequest request, CancellationToken ct) => Ok(await _admin.UpsertSubTopicAsync(id, request, ct));
+
+    [HttpGet("lessons")]
+    [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<LessonSummaryDto>>), 200)]
+    public async Task<IActionResult> Lessons([FromQuery] Guid? subTopicId, [FromQuery] Guid? topicId, [FromQuery] Guid? subjectId, CancellationToken ct) => Ok(await _curriculum.GetLessonsAsync(subTopicId, topicId, subjectId, false, ct));
+    [HttpGet("lessons/{id:guid}")]
+    [ProducesResponseType(typeof(ApiResponse<LessonDetailDto>), 200)]
+    public async Task<IActionResult> Lesson(Guid id, CancellationToken ct) => Ok(await _curriculum.GetLessonAsync(id, false, ct));
+    [HttpPost("lessons")]
+    [ProducesResponseType(typeof(ApiResponse<LessonDetailDto>), 200)]
+    public async Task<IActionResult> CreateLesson([FromBody] UpsertLessonRequest request, CancellationToken ct) => Ok(await _admin.UpsertLessonAsync(null, request, ct));
+    [HttpPut("lessons/{id:guid}")]
+    [ProducesResponseType(typeof(ApiResponse<LessonDetailDto>), 200)]
+    public async Task<IActionResult> UpdateLesson(Guid id, [FromBody] UpsertLessonRequest request, CancellationToken ct) => Ok(await _admin.UpsertLessonAsync(id, request, ct));
+    /// <summary>Replace the ordered activity list of a lesson.</summary>
+    [HttpPut("lessons/{id:guid}/activities")]
+    [ProducesResponseType(typeof(ApiResponse<LessonDetailDto>), 200)]
+    public async Task<IActionResult> ReplaceActivities(Guid id, [FromBody] List<UpsertLessonActivityRequest> activities, CancellationToken ct) => Ok(await _admin.ReplaceLessonActivitiesAsync(id, activities, ct));
+
+    [HttpGet("questions")]
+    [ProducesResponseType(typeof(ApiResponse<PagedResult<AdminQuestionDto>>), 200)]
+    public async Task<IActionResult> Questions([FromQuery] AdminQuestionQuery query, CancellationToken ct) => Ok(await _admin.GetQuestionsAsync(query, ct));
+    [HttpGet("questions/{id:guid}")]
+    [ProducesResponseType(typeof(ApiResponse<AdminQuestionDto>), 200)]
+    public async Task<IActionResult> Question(Guid id, CancellationToken ct) => Ok(await _admin.GetQuestionAsync(id, ct));
+    [HttpPost("questions")]
+    [ProducesResponseType(typeof(ApiResponse<AdminQuestionDto>), 200)]
+    public async Task<IActionResult> CreateQuestion([FromBody] UpsertQuestionRequest request, CancellationToken ct) => Ok(await _admin.UpsertQuestionAsync(null, request, ct));
+    [HttpPut("questions/{id:guid}")]
+    [ProducesResponseType(typeof(ApiResponse<AdminQuestionDto>), 200)]
+    public async Task<IActionResult> UpdateQuestion(Guid id, [FromBody] UpsertQuestionRequest request, CancellationToken ct) => Ok(await _admin.UpsertQuestionAsync(id, request, ct));
+
+    /// <summary>Publish / draft / archive a topic, subtopic, lesson or question.</summary>
+    [HttpPost("{entity}/{id:guid}/status")]
+    public async Task<IActionResult> SetStatus(string entity, Guid id, [FromQuery] ContentStatus status, CancellationToken ct) { await _admin.SetStatusAsync(entity, id, status, ct); return OkMessage($"Status set to {status}."); }
+
+    /// <summary>Re-import lesson content JSON from the configured content directory (idempotent).</summary>
+    [HttpPost("content/import")]
+    [ProducesResponseType(typeof(ApiResponse<ContentImportResultDto>), 200)]
+    public async Task<IActionResult> ImportContent([FromServices] ContentSeeder seeder, [FromServices] IOptions<AppOptions> options, [FromServices] IWebHostEnvironment env, CancellationToken ct)
+    {
+        var path = Path.IsPathRooted(options.Value.ContentPath) ? options.Value.ContentPath : Path.GetFullPath(Path.Combine(env.ContentRootPath, options.Value.ContentPath));
+        var r = await seeder.ImportDirectoryAsync(path, ct);
+        return Ok(new ContentImportResultDto(r.Files, r.Lessons, r.Questions, r.Errors));
+    }
+}
