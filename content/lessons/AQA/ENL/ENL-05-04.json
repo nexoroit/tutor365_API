@@ -1,0 +1,344 @@
+{
+  "subTopicCode": "ENL-05-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-05-04-L1",
+      "title": "Paragraphing and cohesion",
+      "summary": "Learn when to start a new paragraph, how to open and link paragraphs so that a piece of writing flows, and how to use cohesive devices deliberately for effect in both creative and viewpoint writing.",
+      "objectives": [
+        "I can decide where paragraph breaks belong in narrative, descriptive and viewpoint writing.",
+        "I can write topic sentences that signal what a paragraph is about.",
+        "I can link paragraphs using discourse markers, pronouns, repeated ideas and echoes.",
+        "I can use paragraph length, including one-line paragraphs, for deliberate effect."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Why paragraphs matter",
+          "minutes": 4,
+          "content": "## Organisation is half of AO5\n\nAO5 rewards *content and organisation*, and **organisation** means the way your ideas are arranged and linked. The top descriptor asks for writing that is *fluently linked* with *paragraphs and discourse markers used with confidence and for effect*. The bottom descriptor mentions *random paragraph structure*, which usually means no paragraphs at all, or breaks that fall in odd places.\n\nA piece with no paragraphs cannot reach the top bands, however good the ideas. Examiners have reported that this is one of the most common ways strong writers lose marks.\n\n### What a paragraph is\n\nA paragraph is a group of sentences about **one thing**: one idea, one moment, one place, one speaker, one step in an argument. When that thing changes, the paragraph changes.\n\n### The TiPToP rule\n\nStart a new paragraph when there is a change of:\n\n- **Ti**me: *An hour later…*\n- **P**lace: *Back at the house…*\n- **To**pic: a new idea or point\n- **P**erson: a new speaker in dialogue, or the focus shifts to a different character\n\n### Length\n\nThere is no fixed length. In creative writing, paragraphs might run from a single word to eight or nine sentences. In viewpoint writing, four to six sentences is typical. What matters is that each break is a **decision**, not an accident."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: where the breaks go",
+          "minutes": 4,
+          "content": "Here is a piece of narrative with the paragraph breaks removed. The markers show where they belong and why.\n\n> The market had been closing for an hour by the time Ren arrived, and most of the stalls were already bare boards and puddles. She walked the length of it twice, looking for the man with the green umbrella. **[new paragraph: change of time]** By six the lights had come on and the last van was pulling away. Nothing. **[new paragraph: change of place]** She tried the café on the corner, where the owner shook his head before she had finished the question. **[new paragraph: change of person / dialogue]** \"Green umbrella?\" he said. \"Not today. Not for a week.\" **[new paragraph: new speaker]** \"He said he'd be here.\" **[new paragraph: change of topic, back to Ren's thoughts]** Outside, the rain had started again, and Ren stood under the café awning and understood, slowly, that she had been lied to.\n\n**Notice**\n\n- The one-word paragraph *Nothing.* is deliberate: isolating it makes the emptiness land.\n- Each speaker gets a new paragraph.\n- The final paragraph starts with *Outside*, a place word that signals the shift before the reader has read the sentence.\n\nIn the exam, if you realise you have forgotten a break, draw two short parallel lines **//** where the new paragraph should begin. Examiners accept this."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: why the new paragraph?",
+          "question": {
+            "key": "AQA-ENL-05-04-L1-Q1",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each paragraph opening to the reason it starts a new paragraph.",
+            "hint": "Time, place, topic or person: which one has changed?",
+            "explanation": "*Three days later* signals a change of time. *Back at the flat* signals a change of place. *\"You're late,\" said Mo* introduces a new speaker. *There was another reason, too* introduces a new topic.",
+            "pairs": [
+              { "left": "Three days later, the letter arrived.", "right": "Change of time" },
+              { "left": "Back at the flat, the kettle was still warm.", "right": "Change of place" },
+              { "left": "\"You're late,\" said Mo.", "right": "Change of person (new speaker)" },
+              { "left": "There was another reason, too, and it was worse.", "right": "Change of topic" }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Topic sentences and discourse markers",
+          "minutes": 5,
+          "content": "## Telling the reader where they are\n\n### Topic sentences (viewpoint writing)\n\nIn an article, letter, speech or essay, the first sentence of a paragraph should tell the reader what the paragraph is about:\n\n> *The cost is the argument opponents raise first, and it is the weakest.*\n\nThe reader now knows this paragraph is about cost, and that the writer will dismiss the objection. Everything that follows should serve that sentence.\n\n### Discourse markers\n\nThese are the words that show how one paragraph or sentence relates to the last.\n\n| Relationship | Markers |\n|---|---|\n| Adding | *Moreover, furthermore, in addition, what is more, also* |\n| Contrasting | *However, on the other hand, yet, nevertheless, in contrast, despite this* |\n| Cause and result | *Therefore, consequently, as a result, for this reason, so* |\n| Sequence | *First, then, next, finally, meanwhile* |\n| Example | *For instance, for example, consider, take* |\n| Emphasis | *Above all, most importantly, crucially, indeed* |\n| Conclusion | *In short, ultimately, overall, in the end* |\n\n### Use them naturally\n\n*Firstly… Secondly… Thirdly… In conclusion…* is mechanical and reads like a checklist. Better to vary: *The first problem is… Worse still… And yet… Ultimately…*\n\nA good test: read your topic sentences on their own, in order. They should read like a summary of your argument. If they do not, your paragraphs are in the wrong order or lack focus.\n\n### In creative writing\n\nTopic sentences are less formal, but each paragraph should still open with a signal of where or when we are, or whose viewpoint we are in: *Outside…*, *By morning…*, *Ren had never…*"
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: choose the marker",
+          "question": {
+            "key": "AQA-ENL-05-04-L1-Q2",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete the paragraph openings with the most suitable discourse marker: **However**, **Consequently** or **Above all**.",
+            "metadata": { "blanksText": "___, the plan would save the council money. ___, critics point out that the savings would take a decade to appear. ___, the town would lose its only library." },
+            "hint": "First a result, then a contrast, then the most important point.",
+            "explanation": "*Consequently* introduces a result; *However* introduces the contrasting objection; *Above all* signals the most important point.",
+            "answers": [
+              { "text": "Consequently", "blankIndex": 0, "marks": 1 },
+              { "text": "However", "blankIndex": 1, "marks": 1 },
+              { "text": "Above all", "blankIndex": 2, "marks": 1 }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Cohesion: the invisible links",
+          "minutes": 5,
+          "content": "## Making writing flow\n\n**Cohesion** is what makes sentences and paragraphs feel connected rather than dropped side by side. Discourse markers are the visible links; here are the quieter ones.\n\n### Pronouns and reference\nUsing *she, it, this, these, that* to refer back to something already mentioned ties sentences together:\n\n> *The council announced the closure on Monday. **This** surprised nobody.*\n\nBe careful that the reference is clear. *It* in a paragraph with three possible *its* confuses the reader.\n\n### Repetition of a key word or idea\nRepeating a key noun across paragraphs keeps the thread:\n\n> *…and that is the real cost.* / *The cost is not only financial.*\n\n### Synonyms and word families\n*The building… the structure… the place…* keeps a topic present without repeating one word to death.\n\n### Echoes and callbacks\nIn creative writing, an image from the opening can return at the end, changed. If the story opened with a green umbrella, the last paragraph might mention the umbrella folded in a bin. The reader feels the shape close.\n\n### Sentence-to-sentence linking\nEach sentence should pick up something from the one before: an idea, a word, a question it raises.\n\n> *Nobody answered the door. Ren knocked again, harder. Still nothing. She tried the handle.*\n\nEvery sentence follows from the last: door → knock → nothing → handle. The reader is never lost.\n\n### The paragraph-to-paragraph link\nThe last sentence of a paragraph and the first sentence of the next should connect: the second answers, contradicts, develops or shifts from the first. A paragraph that starts with no reference to anything before it feels like a new piece of writing."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: linking paragraphs in an article",
+          "minutes": 3,
+          "content": "Here are the last sentences and first sentences of four consecutive paragraphs from an article arguing for a later school start. Notice how each pair connects.\n\n**End of paragraph 1:** *…and by nine o'clock, half the room has given up.*\n**Start of paragraph 2:** *That is not laziness. It is biology.*\n→ *That* refers back to the previous sentence; the contrast *not… It is…* moves the argument on.\n\n**End of paragraph 2:** *…teenagers' body clocks run around two hours later than adults'.*\n**Start of paragraph 3:** *Schools that have accepted this have seen the results.*\n→ *This* picks up the biology point; *results* promises evidence.\n\n**End of paragraph 3:** *…attendance rose by a tenth within a year.*\n**Start of paragraph 4:** *Of course, there are practical objections, and buses are the first.*\n→ *Of course* signals a concession; the reader knows a counter-argument is coming.\n\n**End of paragraph 4:** *…timetables can be redrawn. Body clocks cannot.*\n**Start of paragraph 5:** *So the question is not whether we can change, but whether we will.*\n→ *So* draws a conclusion; the *not… but…* mirrors the earlier pattern.\n\nRead only the first sentences in order: *That is not laziness. Schools that have accepted this have seen the results. Of course, there are practical objections. So the question is not whether we can change.* The argument is visible from the topic sentences alone."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: the best link",
+          "question": {
+            "key": "AQA-ENL-05-04-L1-Q3",
+            "type": "MultipleChoice",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "A paragraph ends: *…and the survey found that seven in ten students had skipped breakfast that morning.*\n\nWhich opening sentence for the **next** paragraph links best?",
+            "hint": "The best link picks up something from the previous sentence (the students, breakfast, the number) and moves the argument forward.",
+            "explanation": "*Seven in ten is not a statistic; it is a warning* repeats the key figure and reframes it, moving the argument on. The others either start a new subject with no link, use a mechanical marker, or repeat the same information without developing it.",
+            "options": [
+              { "text": "Seven in ten is not a statistic; it is a warning.", "correct": true },
+              { "text": "Secondly, homework is also a problem.", "correct": false, "feedback": "Mechanical marker and no link to the previous sentence." },
+              { "text": "The school library is open until five.", "correct": false, "feedback": "No connection to the previous paragraph." },
+              { "text": "A survey found that most students skipped breakfast.", "correct": false, "feedback": "This repeats the point without moving on." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: insert the paragraph breaks",
+          "question": {
+            "key": "AQA-ENL-05-04-L1-Q4",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "The passage below has had its paragraph breaks removed. Rewrite it with **three** paragraph breaks inserted (mark each with **//**), and after the passage, state in one sentence the reason for each break.\n\n> The station was empty when Nadia arrived, and the departures board showed nothing but the word DELAYED in orange letters. She sat on the cold bench and waited. An hour passed, then most of another. At half past ten a guard appeared at the far end of the platform and walked slowly towards her. \"Last one's cancelled,\" he said. \"Buses from the front.\" She thanked him and did not move. Outside, the rain had started, and the buses, when she finally went to look, had already gone.",
+            "hint": "Look for a change of time (*An hour passed…* or *At half past ten…*), a change of person (the guard speaking), and a change of place (*Outside…*).",
+            "explanation": "Breaks belong before *An hour passed* or *At half past ten* (change of time), before *\"Last one's cancelled,\"* (change of person: the guard speaks), and before *Outside, the rain had started* (change of place). Any three sensible breaks justified by time, place, topic or person would score.",
+            "markScheme": [
+              { "criterion": "Places a break at a change of time (before 'An hour passed' or 'At half past ten')", "marks": 1, "keywords": [ ["// an hour", "// at half past", "//an hour", "//at half past", "time"] ] },
+              { "criterion": "Places a break at the change of person / dialogue (before the guard speaks)", "marks": 1, "keywords": [ ["// \"last", "//\"last", "// 'last", "//'last", "speaker", "guard", "person", "dialogue", "speech"] ] },
+              { "criterion": "Places a break at the change of place (before 'Outside')", "marks": 1, "keywords": [ ["// outside", "//outside", "place", "location"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Paragraph length for effect",
+          "minutes": 4,
+          "content": "## Shape on the page\n\nReaders see paragraph length before they read a word, and it changes how they feel.\n\n### Long paragraphs\nSlow the reader down. Good for description that builds atmosphere, for a complex point in an argument, or for a character's drifting thoughts. Risk: if every paragraph is long, the page looks heavy and the reader tires.\n\n### Short paragraphs\nSpeed up. Good for action, for tension, for the punchline of an argument. Tabloid articles use them almost exclusively.\n\n### The one-line paragraph\nA single sentence, or even a single word, standing alone:\n\n> *Nothing.*\n> *She never saw him again.*\n> *That is the real cost.*\n\nThe white space around it makes the reader pause. Use it **once or twice** in a piece, at the moment that matters most. Used every few lines, it stops working and starts looking like a habit.\n\n### The pattern\n\nA typical strong piece of creative writing might look like this on the page:\n\n- A medium paragraph to set the scene\n- A long paragraph building detail\n- A short paragraph as something changes\n- Two or three short paragraphs of dialogue\n- A one-line paragraph at the turning point\n- A medium paragraph to close, echoing the opening\n\nThe variety is visible even before the words are read. That visible control is part of what *organised for effect* means.\n\n### Viewpoint writing\n\nKeep paragraphs more even, four to six sentences, but allow yourself one very short paragraph for the strongest point or the final line."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: one-line paragraphs",
+          "question": {
+            "key": "AQA-ENL-05-04-L1-Q5",
+            "type": "TrueFalse",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "True or false: using a one-line paragraph after every long paragraph is a reliable way to show organisation for effect.",
+            "hint": "What happens to a technique when it becomes a pattern the reader can predict?",
+            "explanation": "False. A one-line paragraph works because it is rare. Used repeatedly, it becomes predictable and loses its impact. Save it for one or two key moments.",
+            "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: order the topic sentences",
+          "question": {
+            "key": "AQA-ENL-05-04-L1-Q6",
+            "type": "Ordering",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "These are the topic sentences of five paragraphs from an article arguing that the town should pedestrianise its high street. Put them in the most logical order.",
+            "hint": "Hook, then the main point, then evidence, then the objection, then the conclusion. Look at the discourse markers for clues.",
+            "explanation": "The scene-setting hook comes first, then the main claim, then the evidence from other towns, then the concession about shop owners, and finally the conclusion introduced by *So*.",
+            "order": [
+              "Walk down the High Street at four o'clock and you will spend more time waiting to cross than actually shopping.",
+              "The case for closing it to traffic is simple: people spend money where they feel safe to linger.",
+              "Towns that have tried it have found exactly that.",
+              "Of course, some shop owners fear losing customers who drive, and their worry deserves an answer.",
+              "So the choice is not between cars and shops, but between a street people pass through and a street people stay in."
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-05-04-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 8,
+            "examStyle": true,
+            "text": "Write the **opening four paragraphs** of a story that begins with a character arriving somewhere they have not been for many years (roughly 180 to 240 words).\n\nYour paragraphs must show **deliberate organisation**:\n\n- each paragraph break must be justified by a change of time, place, topic or person\n- each paragraph should open with a signal of where, when or whose viewpoint we are in\n- include **one** one-line paragraph used for effect\n- link the paragraphs with pronouns, repeated ideas or echoes rather than with *Firstly / Secondly* [8 marks]",
+            "hint": "Plan the four paragraphs before writing: (1) arrival, medium length; (2) a detail that has changed, longer; (3) a one-line paragraph at the moment of realisation; (4) a shift of place or time that moves the story on. Decide on one image (a gate, a sign, a smell) that can echo across paragraphs.",
+            "explanation": "A strong answer might open with a medium paragraph of the character stepping off a bus outside a village she left at eight years old, noticing the bus shelter is the same; a longer second paragraph walking up the lane and cataloguing what has changed, the shop gone, the phone box now a book exchange, and what has not, the smell of cut hedges; a one-line third paragraph, *The gate was still green.*; and a fourth paragraph shifting to *Inside the garden…* where the story moves forward. Each opening signals place or time (*Outside the shelter*, *Up the lane*, *Inside the garden*), the gate echoes across paragraphs, and pronouns and repeated ideas link each paragraph to the last.",
+            "markScheme": [
+              { "criterion": "Writes four clearly separated paragraphs", "marks": 1, "keywords": [ ["\n\n", "//"] ] },
+              { "criterion": "Paragraph breaks fall at changes of time, place, topic or person", "marks": 1, "keywords": [ ["later", "inside", "outside", "up the", "by the time", "then", "at the", "back", "beyond", "when"] ] },
+              { "criterion": "Paragraph openings signal where, when or whose viewpoint (place, time or character first)", "marks": 1, "keywords": [ ["inside", "outside", "beyond", "by ", "at ", "up ", "down ", "after", "she ", "he ", "the "] ] },
+              { "criterion": "Includes one one-line paragraph used for effect at a key moment", "marks": 1, "keywords": [ ["still", "gone", "nothing", "same", "there", "home", "waited", "remembered"] ] },
+              { "criterion": "Links paragraphs with pronouns or reference words (it, this, that, she, he, there)", "marks": 1, "keywords": [ ["it ", "this ", "that ", "she ", "he ", "there "] ] },
+              { "criterion": "Uses a repeated image or echo across paragraphs", "marks": 1, "keywords": [ ["gate", "door", "sign", "shelter", "smell", "bench", "tree", "wall", "window", "path"] ] },
+              { "criterion": "Establishes the situation: a character returning somewhere after many years", "marks": 1, "keywords": [ ["years", "since", "remember", "used to", "last time", "changed", "back"] ] },
+              { "criterion": "Avoids mechanical markers (Firstly, Secondly) and uses varied paragraph lengths", "marks": 1, "keywords": [ ["the ", "she ", "he ", "it "] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Paragraphs are part of **AO5 organisation**. No paragraphs = capped marks.\n- New paragraph at a change of **Time, Place, Topic, Person** (TiPToP), including every new speaker.\n- Forgotten a break? Mark it with **//**.\n- In viewpoint writing, open each paragraph with a **topic sentence**; read them in order to check the argument.\n- **Discourse markers** show relationships (*however, consequently, above all*). Vary them; avoid *Firstly, Secondly, Thirdly*.\n- **Cohesion** comes from pronouns and reference, repeated key words, synonyms, echoes, and sentences that pick up from the one before.\n- **Paragraph length** is a tool: long to build, short to quicken, a **one-line paragraph** once or twice for impact."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-05-04-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "What does the acronym **TiPToP** stand for?",
+          "hint": "Four reasons to start a new paragraph.",
+          "explanation": "Time, Place, Topic, Person: the four changes that call for a new paragraph.",
+          "options": [
+            { "text": "Time, Place, Topic, Person", "correct": true },
+            { "text": "Tense, Punctuation, Tone, Purpose", "correct": false },
+            { "text": "Title, Paragraph, Topic, Plan", "correct": false },
+            { "text": "Time, Pace, Tension, Plot", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: in dialogue, each new speaker should begin a new paragraph.",
+          "hint": "Think about the P in TiPToP.",
+          "explanation": "True. A change of speaker is a change of person, and a new line for each speaker makes dialogue clear.",
+          "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P3",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each discourse marker to the relationship it signals.",
+          "hint": "Adding, contrasting, resulting, or emphasising?",
+          "explanation": "*Moreover* adds; *nevertheless* contrasts; *as a result* shows consequence; *above all* emphasises the most important point.",
+          "pairs": [
+            { "left": "Moreover", "right": "Adding a point" },
+            { "left": "Nevertheless", "right": "Contrasting" },
+            { "left": "As a result", "right": "Cause and result" },
+            { "left": "Above all", "right": "Emphasis" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P4",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the advice.",
+          "metadata": { "blanksText": "In viewpoint writing, the first sentence of each paragraph is called the ___ sentence, and if you forget a paragraph break in the exam you can mark it with the symbol ___." },
+          "hint": "The first names what the paragraph is about. The second is two short parallel lines.",
+          "explanation": "The topic sentence tells the reader what the paragraph is about. Two parallel lines (//) mark a missed paragraph break.",
+          "answers": [
+            { "text": "topic", "blankIndex": 0, "marks": 1 },
+            { "text": "//", "blankIndex": 1, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P5",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which sequence of paragraph openings is **most mechanical** and least likely to earn marks for organisation used for effect?",
+          "hint": "Which one reads like a numbered list?",
+          "explanation": "*Firstly, Secondly, Thirdly, In conclusion* is a checklist rather than a line of argument. The others vary the markers and show relationships between ideas.",
+          "options": [
+            { "text": "Firstly… Secondly… Thirdly… In conclusion…", "correct": true },
+            { "text": "The first problem is… Worse still… And yet… Ultimately…", "correct": false },
+            { "text": "Consider… That is not the whole story… Of course… So…", "correct": false },
+            { "text": "Walk down any corridor… It is not laziness… Schools that have tried… The question is…", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P6",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these are cohesive devices that link sentences or paragraphs?",
+          "hint": "Cohesion is about connection between parts of the text.",
+          "explanation": "Pronouns referring back, repeating a key word, and an image echoed from the opening all create cohesion. A headline and an exclamation mark do not link parts of the text.",
+          "options": [
+            { "text": "A pronoun such as 'this' referring back to the previous sentence", "correct": true },
+            { "text": "Repeating a key word from the previous paragraph", "correct": true },
+            { "text": "An image from the opening returning at the end", "correct": true },
+            { "text": "A headline at the top of an article", "correct": false, "feedback": "A headline signals form, not cohesion." },
+            { "text": "An exclamation mark", "correct": false, "feedback": "Punctuation is not a cohesive device." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P7",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Here is the last sentence of a paragraph in an article about school uniform:\n\n> *…and by Year 11, most students have stopped noticing what they wear at all.*\n\nWrite the **first sentence of the next paragraph** so that it links clearly to this one and introduces a **counter-argument**.",
+          "hint": "Pick up *noticing* or *what they wear*, and signal a concession: *Of course…*, *And yet…*, *That is not to say…*",
+          "explanation": "For example: *And yet not noticing is exactly what the uniform's defenders want.* This picks up *noticing* from the previous sentence, uses *And yet* to signal contrast, and introduces the opposing view. Alternatives: *Of course, supporters of uniform would say that is the whole point.*",
+          "markScheme": [
+            { "criterion": "Uses a contrast or concession marker (and yet, of course, however, that is not to say, supporters would say)", "marks": 1, "keywords": [ ["and yet", "of course", "however", "that is not to say", "would say", "supporters", "defenders", "but "] ] },
+            { "criterion": "Picks up a word or idea from the previous sentence (noticing, wear, uniform, students)", "marks": 1, "keywords": [ ["notic", "wear", "uniform", "student", "that"] ] },
+            { "criterion": "Introduces an opposing view on uniform", "marks": 1, "keywords": [ ["point", "want", "argue", "claim", "benefit", "equal", "belong", "smart", "reason"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P8",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: a piece of creative writing with no paragraph breaks can still reach the top band for AO5 if the vocabulary and imagery are excellent.",
+          "hint": "What does the AO5 organisation descriptor say about paragraphs?",
+          "explanation": "False. Organisation is part of AO5, and a piece with no paragraphs cannot show *paragraphs used for effect*, so it is capped below the top bands however good the language.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "Rewrite the following passage with paragraph breaks inserted in **four** sensible places, marking each with **//**, and improve the cohesion by replacing the two uses of **Firstly** and **Secondly** with more natural links.\n\n> The bridge had been closed for repairs since March and the town had learned to live without it. Firstly, the school bus took forty minutes longer, which nobody enjoyed. Secondly, the two halves of the town had begun to feel like separate places. On the morning it reopened, a crowd gathered at each end before eight. \"Never thought I'd miss a bridge,\" said Mr Okoro from the bakery, who had brought a tray of rolls. Across the river, his daughter waved from the other bank. At nine exactly the barriers came down and the crowds walked towards each other. [6 marks]",
+          "hint": "Breaks: before the reopening (time), before the dialogue (person), before *Across the river* (place), before *At nine* (time). Replace *Firstly* with something like *The most obvious cost was…* and *Secondly* with *Worse…* or *More quietly…*",
+          "explanation": "A strong rewrite: *The bridge had been closed for repairs since March and the town had learned to live without it. The most obvious cost was the school bus, which took forty minutes longer and which nobody enjoyed. The quieter cost was that the two halves of the town had begun to feel like separate places. // On the morning it reopened, a crowd gathered at each end before eight. // \"Never thought I'd miss a bridge,\" said Mr Okoro from the bakery, who had brought a tray of rolls. // Across the river, his daughter waved from the other bank. // At nine exactly the barriers came down and the crowds walked towards each other.*",
+          "markScheme": [
+            { "criterion": "Inserts a break before 'On the morning it reopened' (change of time)", "marks": 1, "keywords": [ ["// on the morning", "//on the morning"] ] },
+            { "criterion": "Inserts a break before the dialogue (change of person)", "marks": 1, "keywords": [ ["// \"never", "//\"never", "// 'never", "//'never", "// “never"] ] },
+            { "criterion": "Inserts a break before 'Across the river' (change of place)", "marks": 1, "keywords": [ ["// across", "//across"] ] },
+            { "criterion": "Inserts a break before 'At nine exactly' (change of time)", "marks": 1, "keywords": [ ["// at nine", "//at nine"] ] },
+            { "criterion": "Replaces 'Firstly' with a natural link", "marks": 1, "keywords": [ ["the most obvious", "the first", "for one thing", "to begin with", "the school bus", "most obviously", "one cost"] ] },
+            { "criterion": "Replaces 'Secondly' with a natural link", "marks": 1, "keywords": [ ["worse", "more quietly", "the quieter", "and ", "beyond that", "harder to measure", "less obviously", "but "] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P10",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these paragraph descriptions into the order suggested in the lesson for a well-shaped piece of creative writing.",
+          "hint": "Set the scene, build, change, dialogue, turning point, close.",
+          "explanation": "Medium scene-setting, long building paragraph, short paragraph as something changes, short dialogue paragraphs, one-line turning point, medium closing paragraph that echoes the opening.",
+          "order": [
+            "A medium paragraph setting the scene",
+            "A long paragraph building detail and atmosphere",
+            "A short paragraph as something changes",
+            "Two or three short paragraphs of dialogue",
+            "A one-line paragraph at the turning point",
+            "A medium paragraph to close, echoing the opening"
+          ]
+        }
+      ]
+    }
+  ]
+}

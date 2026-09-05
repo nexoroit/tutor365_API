@@ -1,0 +1,341 @@
+{
+  "subTopicCode": "ENL-05-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-05-03-L1",
+      "title": "Grammar and sentence types",
+      "summary": "Learn the building blocks of sentences (clauses, simple, compound and complex forms), the grammar slips that cost AO6 marks, and how to use sentence variety deliberately for effect.",
+      "objectives": [
+        "I can identify simple, compound and complex sentences and the clauses inside them.",
+        "I can keep tense consistent and make subjects and verbs agree.",
+        "I can avoid common grammar errors such as double negatives, misused pronouns and dangling modifiers.",
+        "I can vary sentence types and openings to control pace and emphasis in my writing."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Clauses: the building blocks",
+          "minutes": 5,
+          "content": "## What a sentence is made of\n\nA **clause** is a group of words with a **subject** (who or what) and a **verb** (what they do or are).\n\n- *The dog barked.* → subject *the dog*, verb *barked*. This is a clause.\n- *Barking loudly* → no subject, no full verb. Not a clause: a phrase.\n\n### Main and subordinate clauses\n\nA **main clause** makes sense on its own: *The dog barked.*\n\nA **subordinate clause** does not; it depends on a main clause: *because it heard the gate*. It usually starts with a **subordinating conjunction**: *because, although, when, while, if, until, since, after, before, unless, whereas*.\n\nPut them together: *The dog barked because it heard the gate.*\n\n### The three sentence types\n\n| Type | Made of | Example |\n|---|---|---|\n| **Simple** | One main clause | *The storm broke.* |\n| **Compound** | Two or more main clauses joined by *and, but, or, so* | *The storm broke and the lights went out.* |\n| **Complex** | A main clause plus one or more subordinate clauses | *When the storm broke, the lights went out.* |\n\n### Why it matters\n\nAO6 rewards *a range of sentence forms for effect*. The examiner is not counting types, but a piece made entirely of simple sentences reads as immature, and a piece made entirely of long complex ones reads as breathless. Knowing the three types lets you **choose**.\n\nA fourth type, the **minor sentence** or fragment (*Silence.*), is a deliberate technique when used once or twice. It is an error when used by accident."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: identifying the types",
+          "minutes": 3,
+          "content": "Here is a short paragraph with each sentence labelled.\n\n> The tide had turned. **[simple]** Leah watched it from the harbour wall, and she did not move for a long time. **[compound: two main clauses joined by *and*]** Although the wind had dropped, the water still looked dangerous. **[complex: subordinate clause *Although the wind had dropped* + main clause]** She thought about the boat, which had been her father's, until the cold drove her indoors. **[complex: main clause + two subordinate clauses]** Nothing. **[minor sentence, deliberate]**\n\n**How to check**\n\n1. Find the verbs: *had turned, watched, did not move, had dropped, looked, thought, had been, drove*.\n2. Find the subject of each: *the tide, Leah, she, the wind, the water, she, which, the cold*.\n3. Ask whether each subject-verb pair could stand alone. *The wind had dropped* could, but *Although the wind had dropped* cannot, so it is subordinate.\n4. Count the main clauses: one = simple, two joined by *and/but/or/so* = compound, main plus subordinate = complex.\n\nNotice the paragraph moves simple → compound → complex → complex → minor. The rhythm changes with each sentence, and the one-word ending lands because everything before it was longer."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: name the sentence type",
+          "question": {
+            "key": "AQA-ENL-05-03-L1-Q1",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each sentence to its type.",
+            "hint": "Count the main clauses and look for subordinating conjunctions (*because, although, when*) or coordinating ones (*and, but, so*).",
+            "explanation": "*The rain stopped* has one main clause: simple. *The rain stopped and the sun came out* has two main clauses joined by *and*: compound. *When the rain stopped, we left* has a subordinate clause plus a main clause: complex. *Finally.* has no subject-verb pair: a minor sentence.",
+            "pairs": [
+              { "left": "The rain stopped.", "right": "Simple" },
+              { "left": "The rain stopped and the sun came out.", "right": "Compound" },
+              { "left": "When the rain stopped, we left.", "right": "Complex" },
+              { "left": "Finally.", "right": "Minor sentence" }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Tense and agreement",
+          "minutes": 5,
+          "content": "## Two errors examiners circle\n\n### 1. Tense drift\n\nChoose a tense for your narrative and **stay in it**. The most common slip is drifting from past into present:\n\n> *She opened the door and there **is** a man standing there. He **says** nothing.*\n\nFixed: *She opened the door and there **was** a man standing there. He **said** nothing.*\n\nBoth past and present tense are fine for creative writing. Present tense (*She opens the door*) can feel immediate; past tense (*She opened the door*) is more traditional and easier to control. Whichever you pick, check every verb in your proofreading pass.\n\nThe exception: **dialogue** can be in any tense the speaker would use. *\"I hate this place,\" she said.* is correct: the speech is present, the tag is past.\n\n### 2. Subject-verb agreement\n\nA singular subject takes a singular verb; a plural subject takes a plural verb.\n\n- *The boy **runs**. The boys **run**.*\n- *There **is** a reason. There **are** reasons.* (*There's* + plural, as in *there's lots of people*, is a common slip.)\n- *Each of the players **has** a number.* (*Each* is singular.)\n- *The group of students **was** late.* (The subject is *group*, singular.)\n- *Neither of them **was** ready.* (*Neither* is singular.)\n\n### Was and were\n\n*I was, you were, he/she/it was, we were, they were.* The error *we was* and *they was* appears often in speech; in writing it is marked as wrong unless it is deliberate dialect in dialogue.\n\n### Done, seen, went\n\n*I done it* → *I did it*. *I seen him* → *I saw him*. *I should have went* → *I should have gone*. These are non-standard forms; use the standard ones in your own narrative voice."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: correct the verb",
+          "question": {
+            "key": "AQA-ENL-05-03-L1-Q2",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete each sentence with the correct verb form: **was** or **were**; **has** or **have**; **saw** or **seen**.",
+            "metadata": { "blanksText": "The twins ___ waiting by the gate. Each of the boxes ___ a label. I ___ the whole thing from the window." },
+            "hint": "Plural subject takes *were*. *Each* is singular. *Seen* needs a helper (*have seen*); on its own the past tense is *saw*.",
+            "explanation": "*The twins were* (plural). *Each of the boxes has* (each is singular). *I saw* (simple past; *seen* would need *have*).",
+            "answers": [
+              { "text": "were", "blankIndex": 0, "marks": 1 },
+              { "text": "has", "blankIndex": 1, "marks": 1 },
+              { "text": "saw", "blankIndex": 2, "marks": 1 }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: tense drift",
+          "question": {
+            "key": "AQA-ENL-05-03-L1-Q3",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Which passage keeps a **consistent tense**?",
+            "hint": "Check every verb. Dialogue is allowed to be in a different tense from the narration.",
+            "explanation": "The first option is consistently in the past tense; the speech inside the quotation marks is present, which is correct because it is what the character says. The others slip between past and present in the narration.",
+            "options": [
+              { "text": "He climbed the stairs slowly and paused at the top. \"I can hear something,\" he whispered.", "correct": true },
+              { "text": "He climbed the stairs slowly and pauses at the top. He whispered that he could hear something.", "correct": false, "feedback": "*Climbed* is past, *pauses* is present." },
+              { "text": "He climbs the stairs slowly and paused at the top. He listens.", "correct": false, "feedback": "Present, past, present." },
+              { "text": "He climbed the stairs slowly. At the top he stops and listened.", "correct": false, "feedback": "*Stops* is present in a past-tense passage." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Other grammar traps",
+          "minutes": 4,
+          "content": "## Small slips, real cost\n\n### Double negatives\n*I didn't do nothing.* In standard English the two negatives cancel out. Write *I didn't do anything* or *I did nothing*.\n\n### Pronouns: I or me?\n- *Me and Sam went* → *Sam and I went* (we are the subject).\n- *They gave it to Sam and I* → *to Sam and me* (we are the object).\nTest: remove the other person. *I went. They gave it to me.*\n\n### Who or which?\n*Who* for people, *which* or *that* for things. *The woman who lived next door. The house which stood empty.*\n\n### Dangling modifiers\nAn opening phrase must describe the subject that follows it.\n> *Running for the bus, my bag split open.* (The bag was not running.)\n> Fixed: *Running for the bus, I felt my bag split open.*\n\n### Fewer and less\n*Fewer* for things you can count, *less* for things you cannot. *Fewer cars, less traffic.*\n\n### Adjectives and adverbs\nAdverbs usually take *-ly*: *He ran quick* → *He ran quickly*. But *good* is an adjective and *well* is its adverb: *She played well*, not *She played good*.\n\n### Should of, would of\nAlready covered in spelling, but it is grammar too: always *should have*.\n\n### Text-speak and slang\n*Gonna, wanna, kinda, cos* belong only in dialogue, if at all. In your narrative voice, write *going to, want to, because*.\n\nNone of these will ruin a piece on its own. Several together drag the AO6 mark down to the middle band."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: spot the grammar error",
+          "question": {
+            "key": "AQA-ENL-05-03-L1-Q4",
+            "type": "MultipleAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Select the **four** sentences that contain a grammar error.",
+            "hint": "Check pronouns (I/me), double negatives, who/which, dangling openings and adverbs.",
+            "explanation": "*Me and Jaz* should be *Jaz and I*; *didn't see nobody* is a double negative; *the man which* should be *who*; *Walking home, the rain* is a dangling modifier (the rain was not walking). *She sang beautifully and we listened quietly* is correct.",
+            "options": [
+              { "text": "Me and Jaz went to the shop.", "correct": true },
+              { "text": "I didn't see nobody on the road.", "correct": true },
+              { "text": "The man which sold us the tickets had gone.", "correct": true },
+              { "text": "Walking home, the rain soaked my shoes.", "correct": true },
+              { "text": "She sang beautifully and we listened quietly.", "correct": false, "feedback": "This is correct: both adverbs are right." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Sentence variety for effect",
+          "minutes": 5,
+          "content": "## Choosing the shape on purpose\n\nOnce you can build all three types, use them deliberately.\n\n### Simple sentences\n- **Impact**: *He was gone.*\n- **Clarity** in an argument: *The plan will not work.*\n- **Pace**: several short ones speed up action.\n\n### Compound sentences\n- **Flow**: link two equal ideas. *The gate creaked and the dog lifted its head.*\n- **Contrast** with *but*: *She smiled, but her hands were shaking.*\nBeware: too many *and… and… and…* makes writing sound childish.\n\n### Complex sentences\n- **Cause and time**: *Because the roads were flooded, the bus never came.*\n- **Delay** the main point for suspense: *When she finally reached the top of the stairs, after what felt like an hour of climbing, the door was already open.*\n- **Add detail** with relative clauses: *The letter, which she had never opened, lay on the table.*\n\n### Vary the opening\n\n| Opening | Example |\n|---|---|\n| Subject first | *The fog rolled in.* |\n| Subordinate clause first | *As the fog rolled in, the harbour vanished.* |\n| -ing phrase | *Rolling in from the sea, the fog swallowed the harbour.* |\n| Adverb | *Slowly, the fog rolled in.* |\n| Prepositional phrase | *Beyond the harbour wall, the fog was waiting.* |\n\n### A pattern that works\n\nLong complex sentence to build → medium compound to carry the action → short simple to land. Then start again. Readers feel the rhythm even if they never name it."
+        },
+        {
+          "type": "Question",
+          "title": "Practice: rewrite for variety",
+          "question": {
+            "key": "AQA-ENL-05-03-L1-Q5",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Rewrite this paragraph so that it contains **at least one complex sentence** starting with a subordinate clause, **one compound sentence**, and **one short simple sentence** for impact. Keep the events the same.\n\n> I walked into the kitchen. The window was open. The curtain was moving. There was a cup on the table. It was still warm. Nobody was there.",
+            "hint": "Try opening with *When* or *As*. Join two ideas with *and* or *but*. Keep *Nobody was there* or something similar as your short sentence at the end.",
+            "explanation": "For example: *When I walked into the kitchen, the window was open and the curtain was moving in the draught. A cup sat on the table, and it was still warm. Nobody was there.* The first sentence is complex (starts with *When…*), the second is compound (*and*), and the last is a short simple sentence for impact.",
+            "markScheme": [
+              { "criterion": "Includes a complex sentence beginning with a subordinating conjunction (when, as, although, while, because)", "marks": 1, "keywords": [ ["when i", "as i", "although", "while", "because", "after i", "before i"] ] },
+              { "criterion": "Includes a compound sentence joined by and, but or so", "marks": 1, "keywords": [ [", and ", " and the", ", but ", " but ", ", so "] ] },
+              { "criterion": "Ends with, or includes, a short simple sentence for impact", "marks": 1, "keywords": [ ["nobody was there.", "no one was there.", "nobody.", "empty.", "still warm.", "it was empty."] ] },
+              { "criterion": "Keeps all the original events (kitchen, window, curtain, warm cup, nobody)", "marks": 1, "keywords": [ ["kitchen"], ["warm"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: the effect of structure",
+          "question": {
+            "key": "AQA-ENL-05-03-L1-Q6",
+            "type": "MultipleChoice",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "Read the sentence.\n\n> After she had checked every room, called his name until her voice cracked, and stood for a full minute listening to the silence, she understood.\n\nWhat effect does the long subordinate clause at the start have?",
+            "hint": "Where is the main clause, and what happens to the reader while they wait for it?",
+            "explanation": "The main clause (*she understood*) is held back until the very end, so the reader is made to go through every stage of her search before reaching the moment of realisation. The delay builds suspense and makes the short main clause land hard.",
+            "options": [
+              { "text": "It delays the main clause, building suspense so that the short ending 'she understood' lands with force.", "correct": true },
+              { "text": "It speeds up the action so the reader rushes to the end.", "correct": false, "feedback": "Long clauses slow the reader down." },
+              { "text": "It is a run-on sentence that should be split into four.", "correct": false, "feedback": "It is a correctly built complex sentence." },
+              { "text": "It shows the writer forgot to use a full stop.", "correct": false }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-05-03-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 8,
+            "examStyle": true,
+            "text": "Rewrite the passage below so that it is **grammatically correct** and shows **deliberate sentence variety**. Fix every grammar error (there are **five**: tense, agreement, pronoun, double negative, dangling modifier) and reshape the sentences so the passage includes at least one complex sentence, one compound sentence and one short simple sentence for effect.\n\n> Me and Danny was walking home. It is raining. We didn't have no umbrella. Running past the church, the bells started ringing. Danny looked at me. I looked at Danny. We ran. [8 marks]",
+            "hint": "Fix: *Danny and I were*; *It was raining*; *didn't have an umbrella*; the bells were not running, so restructure: *As we ran past the church, the bells started ringing*. Then vary the shapes: open one sentence with a subordinate clause, join two with *and* or *but*, and keep *We ran.* as the short ending.",
+            "explanation": "For example: *Danny and I were walking home, and it was raining hard. We didn't have an umbrella. As we ran past the church, the bells started ringing, so loud that we both stopped. Danny looked at me and I looked at Danny. We ran.* This corrects the pronoun, the agreement, the tense, the double negative and the dangling modifier, and it moves from compound to simple to complex to compound to a short simple ending.",
+            "markScheme": [
+              { "criterion": "Corrects 'Me and Danny' to 'Danny and I'", "marks": 1, "keywords": [ ["danny and i"] ] },
+              { "criterion": "Corrects 'was walking' to 'were walking' (agreement)", "marks": 1, "keywords": [ ["were walking", "were heading", "were on our way"] ] },
+              { "criterion": "Corrects 'It is raining' to past tense", "marks": 1, "keywords": [ ["it was raining", "rain was", "was pouring", "it had been raining", "it rained"] ] },
+              { "criterion": "Removes the double negative", "marks": 1, "keywords": [ ["didn't have an umbrella", "had no umbrella", "did not have an umbrella", "without an umbrella", "didn't have any"] ] },
+              { "criterion": "Fixes the dangling modifier so that 'we' (not the bells) are running past the church", "marks": 1, "keywords": [ ["as we ran", "as we passed", "when we ran", "we ran past", "we were running past", "as we hurried", "when we passed"] ] },
+              { "criterion": "Includes a complex sentence opening with a subordinate clause", "marks": 1, "keywords": [ ["as we", "when we", "because", "although", "while we", "just as"] ] },
+              { "criterion": "Includes a compound sentence joined by and, but or so", "marks": 1, "keywords": [ [", and ", " and i ", " and it ", ", but ", ", so "] ] },
+              { "criterion": "Keeps a short simple sentence for impact (e.g. We ran.)", "marks": 1, "keywords": [ ["we ran.", "we bolted.", "we sprinted.", "we legged it.", "we didn't stop."] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- A **clause** has a subject and a verb. A **main clause** stands alone; a **subordinate clause** (*because, although, when…*) does not.\n- **Simple** = one main clause. **Compound** = main clauses joined by *and, but, or, so*. **Complex** = main + subordinate. **Minor sentence** = deliberate fragment, used once or twice.\n- Keep **tense consistent** in narration; dialogue may differ. Check every verb when proofreading.\n- **Agreement**: *the twins were, each has, there are reasons, we were*. Standard forms: *I did, I saw, I should have gone*.\n- Avoid double negatives, *me and X* as a subject, *which* for people, dangling modifiers, *less* for countables, *good* as an adverb.\n- **Vary** sentence types and openings on purpose: long to build, medium to carry, short to land."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-05-03-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of these is a **compound** sentence?",
+          "hint": "Two main clauses joined by *and*, *but*, *or* or *so*.",
+          "explanation": "*The bell rang and the corridor filled* joins two main clauses with *and*. The first is simple, the third is complex (*Although…*), and the fourth is a minor sentence.",
+          "options": [
+            { "text": "The bell rang and the corridor filled with noise.", "correct": true },
+            { "text": "The bell rang.", "correct": false, "feedback": "Simple." },
+            { "text": "Although the bell rang, nobody moved.", "correct": false, "feedback": "Complex." },
+            { "text": "Silence.", "correct": false, "feedback": "A minor sentence." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: a subordinate clause can stand on its own as a complete sentence.",
+          "hint": "Try saying *Because it was late.* on its own.",
+          "explanation": "False. A subordinate clause depends on a main clause. *Because it was late* leaves the reader waiting for the rest.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentences with **I** or **me**.",
+          "metadata": { "blanksText": "Sam and ___ waited outside. The teacher gave the letters to Sam and ___." },
+          "hint": "Remove *Sam and* and see which word sounds right on its own.",
+          "explanation": "*I waited outside* (subject), so *Sam and I*. *The teacher gave the letters to me* (object), so *to Sam and me*.",
+          "answers": [
+            { "text": "I", "blankIndex": 0, "marks": 1 },
+            { "text": "me", "blankIndex": 1, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P4",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each error to its correction.",
+          "hint": "Standard past forms, agreement, and adverbs.",
+          "explanation": "*I done* → *I did*; *they was* → *they were*; *ran quick* → *ran quickly*; *should have went* → *should have gone*.",
+          "pairs": [
+            { "left": "I done my homework.", "right": "I did my homework." },
+            { "left": "They was late again.", "right": "They were late again." },
+            { "left": "He ran quick to the door.", "right": "He ran quickly to the door." },
+            { "left": "You should have went earlier.", "right": "You should have gone earlier." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P5",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which sentence contains a **dangling modifier**?",
+          "hint": "Does the opening phrase describe the subject that comes straight after the comma?",
+          "explanation": "In *Waiting for the bus, the rain started*, the rain was not waiting for the bus. The other sentences attach the opening phrase to a sensible subject.",
+          "options": [
+            { "text": "Waiting for the bus, the rain started.", "correct": true },
+            { "text": "Waiting for the bus, I felt the first drops of rain.", "correct": false, "feedback": "Correct: *I* was waiting." },
+            { "text": "While we waited for the bus, the rain started.", "correct": false, "feedback": "Correct: the clause has its own subject." },
+            { "text": "The rain started as we waited for the bus.", "correct": false, "feedback": "Correct." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P6",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** sentences are grammatically correct?",
+          "hint": "Check fewer/less, who/which, agreement and double negatives.",
+          "explanation": "*Fewer people*, *the woman who* and *Each of the doors was* are correct. *There's three reasons* should be *there are*; *couldn't find it nowhere* is a double negative.",
+          "options": [
+            { "text": "There were fewer people than last year.", "correct": true },
+            { "text": "The woman who ran the shop had retired.", "correct": true },
+            { "text": "Each of the doors was locked.", "correct": true },
+            { "text": "There's three reasons for this.", "correct": false, "feedback": "*There are three reasons.*" },
+            { "text": "I couldn't find it nowhere.", "correct": false, "feedback": "Double negative: *anywhere*." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P7",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Rewrite this sentence in **three different ways**, each starting differently: once with a subordinate clause, once with an -ing phrase, and once with an adverb.\n\n> The cat crept along the wall and watched the birds.",
+          "hint": "Subordinate: *As the cat…* or *While…*. -ing: *Creeping along the wall, the cat…*. Adverb: *Silently, the cat…*",
+          "explanation": "For example: *As it crept along the wall, the cat watched the birds.* / *Creeping along the wall, the cat watched the birds.* / *Silently, the cat crept along the wall and watched the birds.*",
+          "markScheme": [
+            { "criterion": "One version opens with a subordinate clause (as, while, when, although, because)", "marks": 1, "keywords": [ ["as the cat", "as it", "while the cat", "while it", "when the cat", "although", "because"] ] },
+            { "criterion": "One version opens with an -ing phrase", "marks": 1, "keywords": [ ["creeping", "watching", "moving", "slinking", "stalking", "prowling"] ] },
+            { "criterion": "One version opens with an adverb followed by a comma", "marks": 1, "keywords": [ ["silently,", "slowly,", "quietly,", "carefully,", "cautiously,", "stealthily,", "patiently,"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P8",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: in a past-tense story, dialogue must also be written in the past tense.",
+          "hint": "What tense do people actually speak in?",
+          "explanation": "False. Dialogue uses whatever tense the speaker would naturally use. *\"I'm tired,\" she said.* is correct: present-tense speech, past-tense narration.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "Write a **short descriptive paragraph** (60 to 90 words) about a train pulling into a station at night. Your paragraph must contain:\n\n- one complex sentence that opens with a subordinate clause\n- one compound sentence\n- one simple sentence of five words or fewer, placed for impact\n- consistent past tense and no grammar errors [6 marks]",
+          "hint": "Plan the shapes first: *As the train…* (complex), *The doors hissed open and…* (compound), *Nobody got off.* (short simple). Then fill in the description.",
+          "explanation": "For example: *As the last train slid into the platform, its windows threw long yellow squares across the wet concrete. The doors hissed open, and cold air poured into the carriage. Nobody got off. Somewhere down the platform a guard blew a whistle that nobody seemed to hear, and the doors, after a moment's thought, closed again.* Complex opening, compound sentence, three-word simple sentence, consistent past tense.",
+          "markScheme": [
+            { "criterion": "Includes a complex sentence opening with a subordinate clause", "marks": 1, "keywords": [ ["as the", "when the", "while the", "although", "because", "after the", "before the"] ] },
+            { "criterion": "Includes a compound sentence joined by and, but or so", "marks": 1, "keywords": [ [", and ", ", but ", ", so ", " and the ", " but the "] ] },
+            { "criterion": "Includes a short simple sentence of five words or fewer", "marks": 1, "keywords": [ ["nobody got off.", "no one moved.", "nothing.", "silence.", "the platform was empty.", "nobody moved.", "it stopped."] ] },
+            { "criterion": "Maintains consistent past tense throughout", "marks": 1, "keywords": [ ["slid", "pulled", "hissed", "opened", "stopped", "arrived", "came"] ] },
+            { "criterion": "Describes the train and station at night with sensory or visual detail", "marks": 1, "keywords": [ ["light", "dark", "yellow", "wet", "cold", "hiss", "whistle", "glow", "platform", "night"] ] },
+            { "criterion": "Contains no grammar errors (agreement, pronouns, modifiers)", "marks": 1, "keywords": [ ["train"], ["platform", "station"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P10",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Put these sentences in the order that follows the pattern **long complex to build → medium compound to carry → short simple to land**.",
+          "hint": "The longest sentence with a subordinate clause first, the *and/but* sentence second, the shortest last.",
+          "explanation": "The complex sentence builds atmosphere, the compound sentence carries the action forward, and the short simple sentence delivers the impact.",
+          "order": [
+            "Although the house had been empty for years, and although everyone in the village swore it was harmless, Priya could not shake the feeling that it had been waiting for her.",
+            "She pushed the door and it swung inwards without a sound.",
+            "Something moved."
+          ]
+        }
+      ]
+    }
+  ]
+}
