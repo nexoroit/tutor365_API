@@ -242,7 +242,6 @@
                 "keywords": [
                   [
                     "leading",
-                    "biased",
                     "bias",
                     "pushes",
                     "suggests",
@@ -259,10 +258,7 @@
                     "time frame",
                     "per week",
                     "per day",
-                    "more than 5",
-                    "over 5",
-                    "no box",
-                    "not all"
+                    "more than 5"
                   ]
                 ]
               },
@@ -272,13 +268,10 @@
                 "keywords": [
                   [
                     "not representative",
-                    "biased",
                     "bias",
                     "one class",
                     "same year",
-                    "one year",
-                    "too small",
-                    "only 25"
+                    "one year"
                   ]
                 ]
               },
@@ -303,8 +296,7 @@
                     "generator",
                     "calculator",
                     "hat",
-                    "computer",
-                    "table"
+                    "computer"
                   ]
                 ]
               }
@@ -542,12 +534,10 @@
               "keywords": [
                 [
                   "leading",
-                  "biased",
                   "bias",
                   "suggests",
                   "pushes",
-                  "influences",
-                  "tells"
+                  "influences"
                 ]
               ]
             },
@@ -581,7 +571,8 @@
               "marks": 1,
               "keywords": [
                 [
-                  "36"
+                  "36",
+                  "36.0"
                 ]
               ]
             },
@@ -590,7 +581,8 @@
               "marks": 1,
               "keywords": [
                 [
-                  "20"
+                  "20",
+                  "20.0"
                 ]
               ]
             },
@@ -615,9 +607,7 @@
                   "might not",
                   "could miss",
                   "too few",
-                  "too many",
-                  "random sample could",
-                  "unrepresentative"
+                  "too many"
                 ]
               ]
             }

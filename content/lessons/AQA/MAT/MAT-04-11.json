@@ -217,10 +217,7 @@
                     "6b-6a",
                     "-6a + 6b",
                     "-6a+6b",
-                    "6b − 6a",
-                    "−6a + 6b",
-                    "6(b - a)",
-                    "6(b-a)"
+                    "6b − 6a"
                   ]
                 ]
               },
@@ -229,10 +226,12 @@
                 "marks": 1,
                 "keywords": [
                   [
-                    "3a"
+                    "3a",
+                    "3 a"
                   ],
                   [
-                    "3b"
+                    "3b",
+                    "3 b"
                   ]
                 ]
               },
@@ -245,10 +244,7 @@
                     "3b-3a",
                     "-3a + 3b",
                     "-3a+3b",
-                    "3b − 3a",
-                    "−3a + 3b",
-                    "3(b - a)",
-                    "3(b-a)"
+                    "3b − 3a"
                   ]
                 ]
               },
@@ -478,10 +474,6 @@
                   "-3(2a-b)",
                   "−3(2a − b)",
                   "-3ab",
-                  "-3 × ab",
-                  "-3 x ab",
-                  "−3ab",
-                  "3(−2a + b)",
                   "-3 times"
                 ]
               ]
@@ -495,7 +487,8 @@
                   "scalar"
                 ],
                 [
-                  "parallel"
+                  "parallel",
+                  "same direction"
                 ]
               ]
             }
@@ -551,8 +544,7 @@
                   "3 × nm",
                   "3 x nm",
                   "3(a",
-                  "three times",
-                  "multiple"
+                  "three times"
                 ]
               ]
             },
@@ -561,7 +553,8 @@
               "marks": 1,
               "keywords": [
                 [
-                  "parallel"
+                  "parallel",
+                  "multiple"
                 ],
                 [
                   "straight line",

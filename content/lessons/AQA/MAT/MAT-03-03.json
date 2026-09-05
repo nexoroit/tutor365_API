@@ -17,82 +17,533 @@
       "difficulty": 3,
       "tier": "NotApplicable",
       "activities": [
-        { "type": "Explanation", "title": "Multipliers", "minutes": 4, "content": "## One number does the whole job\n\nA **multiplier** is the decimal you multiply by to make a percentage change in a single step.\n\n- To **increase** by 12%: the new amount is $100\\% + 12\\% = 112\\%$, so multiply by **1.12**.\n- To **decrease** by 12%: the new amount is $100\\% - 12\\% = 88\\%$, so multiply by **0.88**.\n\n| Change | Multiplier |\n|---|---|\n| increase by 5% | 1.05 |\n| increase by 40% | 1.4 |\n| increase by 2.5% | 1.025 |\n| decrease by 30% | 0.7 |\n| decrease by 8% | 0.92 |\n| decrease by 0.5% | 0.995 |\n\n**A jacket costs £64. In a sale it is reduced by 35%. Find the sale price.**\n\n$64 \\times 0.65 = £41.60$\n\n**A salary of £28 000 rises by 3%. Find the new salary.**\n\n$28\\,000 \\times 1.03 = £28\\,840$\n\n## Why multipliers matter\n\nThey are quicker than finding the percentage and adding, they are essential for repeated changes (compound interest), and they make reverse problems a single division. Get comfortable converting any percentage change into its multiplier instantly.\n\nA quick check: an increase gives a multiplier **above 1**; a decrease gives one **below 1**." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-03-03-L1-Q1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1,
-          "text": "Write down the multiplier for a decrease of 15%.",
-          "hint": "$100\\% - 15\\%$, then convert to a decimal.",
-          "explanation": "$85\\% = 0.85$.",
-          "answers": [ { "numeric": 0.85, "tolerance": 0.0001 } ] } },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-03-03-L1-Q2", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
-          "text": "A phone costs £340. Its price increases by 7.5%. Work out the new price in pounds.",
-          "hint": "Multiply by 1.075.",
-          "explanation": "$340 \\times 1.075 = 365.50$.",
-          "answers": [ { "numeric": 365.5, "tolerance": 0.01, "unit": "£", "marks": 2 } ] } },
-        { "type": "Explanation", "title": "Percentage change and reverse percentages", "minutes": 5, "content": "## Percentage change\n\n$\\text{percentage change} = \\dfrac{\\text{change}}{\\text{original}} \\times 100$\n\nThe **original** value always goes on the bottom, never the new one.\n\n**A house bought for £180 000 sells for £207 000.**\n\nChange $= 27\\,000$. Percentage profit $= \\dfrac{27\\,000}{180\\,000} \\times 100 = 15\\%$.\n\n**A car bought for £9 000 is sold for £7 200.**\n\nChange $= 1\\,800$. Percentage loss $= \\dfrac{1\\,800}{9\\,000} \\times 100 = 20\\%$.\n\n## Reverse percentages: finding the original\n\nWhen you are told the amount **after** a change and asked for the amount **before**, divide by the multiplier.\n\n**A coat costs £51 after a 15% reduction. What was the original price?**\n\nThe sale price is 85% of the original, so\n\n$\\text{original} = 51 \\div 0.85 = £60$\n\nCheck: $60 \\times 0.85 = 51$ ✓.\n\n**A bill of £96 includes VAT at 20%. What was the bill before VAT?**\n\n$96 \\div 1.2 = £80$.\n\nThe classic trap is to take 15% off £51 or 20% off £96. That gives the wrong answer because the percentage was of the *original* amount, not of the new one. Always ask: \"What percentage of the original is this amount?\" and divide by that as a decimal." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-03-03-L1-Q3", "type": "FormulaCalculation", "difficulty": 3, "marks": 2,
-          "text": "A shop buys a lamp for £45 and sells it for £63. Work out the percentage profit.",
-          "hint": "Profit ÷ cost price × 100.",
-          "explanation": "Profit $= 18$. $\\dfrac{18}{45} \\times 100 = 40\\%$.",
-          "answers": [ { "numeric": 40, "tolerance": 0.1, "unit": "%", "marks": 2 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-03-03-L1-Q4", "type": "FormulaCalculation", "difficulty": 3, "marks": 2,
-          "text": "After a 12% pay rise, Mia earns £30 240 a year. What was her salary before the rise, in pounds?",
-          "hint": "£30 240 is 112% of the original. Divide by 1.12.",
-          "explanation": "$30\\,240 \\div 1.12 = 27\\,000$.",
-          "answers": [ { "numeric": 27000, "tolerance": 1, "unit": "£", "marks": 2 } ] } },
-        { "type": "Example", "title": "Worked example: compound interest", "minutes": 5, "content": "## Interest on the interest\n\nWith **simple interest** the same amount is added every year. With **compound interest** each year's interest is calculated on the new, larger balance, so the amount grows faster.\n\nThe formula:\n\n$\\text{final amount} = \\text{initial amount} \\times (\\text{multiplier})^{\\text{number of years}}$\n\n**£2 500 is invested at 4% compound interest per year. Find the value after 3 years.**\n\nMultiplier for 4% growth $= 1.04$.\n\n$2\\,500 \\times 1.04^3 = 2\\,500 \\times 1.124864 = £2\\,812.16$\n\nYear by year it would be £2 600, then £2 704, then £2 812.16, and the power does all three steps at once.\n\n**How much interest was earned?** $2\\,812.16 - 2\\,500 = £312.16$. Read the question: \"total amount\" and \"interest earned\" are different answers.\n\n**Compare with simple interest:** 4% of £2 500 is £100 per year, so 3 years gives £300. Compound earns £12.16 more.\n\n## Finding the number of years\n\n**How many years until £2 500 at 4% first exceeds £3 000?**\n\nTry powers: $1.04^4 = 1.1699$ gives £2 924.65; $1.04^5 = 1.2167$ gives £3 041.63. So **5 years**. Use trial and improvement with the power button on your calculator." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-03-03-L1-Q5", "type": "FormulaCalculation", "difficulty": 3, "marks": 3,
-          "text": "£4 000 is invested at 2.5% compound interest per year. Work out the value of the investment after 4 years, to the nearest penny.",
-          "hint": "$4\\,000 \\times 1.025^4$.",
-          "explanation": "$1.025^4 = 1.10381...$, so $4\\,000 \\times 1.10381 = £4\\,415.25$.",
-          "answers": [ { "numeric": 4415.25, "tolerance": 0.05, "unit": "£", "marks": 3 } ] } },
-        { "type": "Explanation", "title": "Growth and decay", "minutes": 5, "content": "## The same idea everywhere\n\nAny quantity that changes by a **fixed percentage each period** follows the same rule as compound interest:\n\n$\\text{new value} = \\text{start value} \\times (\\text{multiplier})^n$\n\n- **Growth** (population, bacteria, prices): multiplier above 1.\n- **Decay** (depreciation, radioactive decay, cooling): multiplier below 1.\n\n**Depreciation.** A van bought for £24 000 loses 18% of its value each year. Its value after 3 years:\n\n$24\\,000 \\times 0.82^3 = 24\\,000 \\times 0.551368 = £13\\,232.83$\n\n**Population growth.** A town of 15 000 people grows by 6% a year. After 5 years:\n\n$15\\,000 \\times 1.06^5 = 15\\,000 \\times 1.3382 = 20\\,073$ (nearest whole person).\n\n## Mixed rates\n\nIf the rate changes, multiply by each multiplier in turn. An account paying 3% for the first year and 2% for the next two years:\n\n$\\text{start} \\times 1.03 \\times 1.02^2$\n\n## Finding the rate\n\nA population grows from 800 to 968 in 2 years at a fixed rate. Then $800 \\times m^2 = 968$, so $m^2 = 1.21$ and $m = 1.1$: a rate of **10%** per year.\n\n## A useful fact\n\nA 20% decrease followed by a 20% increase does **not** return you to the start: $0.8 \\times 1.2 = 0.96$, a 4% overall loss." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-03-03-L1-Q6", "type": "FormulaCalculation", "difficulty": 3, "marks": 3,
-          "text": "A laptop is bought for £850. Its value falls by 20% each year. Work out its value after 3 years, in pounds.",
-          "hint": "Multiplier 0.8, cubed.",
-          "explanation": "$850 \\times 0.8^3 = 850 \\times 0.512 = £435.20$.",
-          "answers": [ { "numeric": 435.2, "tolerance": 0.01, "unit": "£", "marks": 3 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-03-03-L1-Q7", "type": "Matching", "difficulty": 2, "marks": 4,
-          "text": "Match each situation to the calculation that solves it.",
-          "hint": "Increase means multiplier above 1; reverse problems divide.",
-          "explanation": "Increase £200 by 5% for 3 years: $200 \\times 1.05^3$. Decrease £200 by 5% once: $200 \\times 0.95$. Original amount before 5% increase to £200: $200 \\div 1.05$. Original before 5% decrease to £200: $200 \\div 0.95$.",
-          "pairs": [
-            { "left": "£200 grows by 5% per year for 3 years", "right": "200 × 1.05³" },
-            { "left": "£200 is reduced by 5%", "right": "200 × 0.95" },
-            { "left": "A price is £200 after a 5% increase; find the original", "right": "200 ÷ 1.05" },
-            { "left": "A price is £200 after a 5% decrease; find the original", "right": "200 ÷ 0.95" } ] } },
-        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Wrong multiplier.** A 4% increase is × 1.04, not × 1.4. A 4% decrease is × 0.96, not × 0.4.\n- **Reverse percentages.** Divide by the multiplier; never take the percentage off the new amount.\n- **Percentage change.** Divide by the **original** value.\n- **Compound vs simple.** Compound uses a power; simple interest adds the same amount each year.\n- **Answering the wrong question.** \"Interest earned\" means subtract the starting amount; \"total amount\" means do not.\n- **Rounding mid-calculation.** Keep $1.04^3$ in the calculator; round only the final money answer to 2 d.p.\n- **Assuming changes cancel.** Down 20% then up 20% is not back to the start.\n- **Number of periods.** Interest \"per month\" for 2 years is 24 periods." },
-        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
-          "key": "AQA-MAT-03-03-L1-Q8", "type": "ExamQuestion", "difficulty": 4, "marks": 5, "examStyle": true,
-          "text": "Aisha invests £6 000 in an account paying 3% compound interest per year.\n\n(a) Work out the value of the investment after 2 years.\n\n(b) Aisha's brother invests a sum of money at the same rate. After 1 year his investment is worth £4 635. How much did he invest?\n\n(c) Aisha says her investment will double in less than 20 years. Show whether she is correct.",
-          "hint": "(a) $6\\,000 \\times 1.03^2$. (b) Divide by 1.03. (c) Compare $1.03^{20}$ with 2.",
-          "explanation": "(a) $6\\,000 \\times 1.0609 = £6\\,365.40$. (b) $4\\,635 \\div 1.03 = £4\\,500$. (c) $1.03^{20} = 1.806$, so after 20 years the investment is $6\\,000 \\times 1.806 = £10\\,836$, which is less than £12 000. She is not correct (doubling takes about 24 years).",
-          "markScheme": [
-            { "criterion": "Uses multiplier 1.03 squared (or two steps of 3%)", "marks": 1, "keywords": [ ["1.03^2", "1.03²", "1.0609", "× 1.03", "x 1.03", "1.03 ×", "1.03 x"] ] },
-            { "criterion": "Value after 2 years £6 365.40", "marks": 1, "keywords": [ ["6365.4", "6 365.40", "6,365.40", "6365.40"] ] },
-            { "criterion": "Original investment £4 500 (4 635 ÷ 1.03)", "marks": 1, "keywords": [ ["4500", "4 500", "4,500"] ] },
-            { "criterion": "Evaluates 1.03²⁰ ≈ 1.81 or value after 20 years ≈ £10 836", "marks": 1, "keywords": [ ["1.8", "10836", "10 836", "10,836"] ] },
-            { "criterion": "Concludes she is not correct as the value is less than £12 000 (not doubled)", "marks": 1, "keywords": [ ["not correct", "incorrect", "wrong", "not double", "less than 12", "hasn't doubled", "has not doubled"] ] } ] } },
-        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Increase by $p\\%$: multiply by $1 + \\frac{p}{100}$. Decrease: multiply by $1 - \\frac{p}{100}$.\n- Percentage change $= \\frac{\\text{change}}{\\text{original}} \\times 100$.\n- Reverse percentage: **divide** by the multiplier to get back to the original.\n- Repeated change: $\\text{final} = \\text{start} \\times \\text{multiplier}^n$; this covers compound interest, growth and decay/depreciation.\n- Interest earned = final − start. Round money only at the end.\n- Percentage changes do not simply cancel out or add up; multiply the multipliers." }
+        {
+          "type": "Explanation",
+          "title": "Multipliers",
+          "minutes": 4,
+          "content": "## One number does the whole job\n\nA **multiplier** is the decimal you multiply by to make a percentage change in a single step.\n\n- To **increase** by 12%: the new amount is $100\\% + 12\\% = 112\\%$, so multiply by **1.12**.\n- To **decrease** by 12%: the new amount is $100\\% - 12\\% = 88\\%$, so multiply by **0.88**.\n\n| Change | Multiplier |\n|---|---|\n| increase by 5% | 1.05 |\n| increase by 40% | 1.4 |\n| increase by 2.5% | 1.025 |\n| decrease by 30% | 0.7 |\n| decrease by 8% | 0.92 |\n| decrease by 0.5% | 0.995 |\n\n**A jacket costs £64. In a sale it is reduced by 35%. Find the sale price.**\n\n$64 \\times 0.65 = £41.60$\n\n**A salary of £28 000 rises by 3%. Find the new salary.**\n\n$28\\,000 \\times 1.03 = £28\\,840$\n\n## Why multipliers matter\n\nThey are quicker than finding the percentage and adding, they are essential for repeated changes (compound interest), and they make reverse problems a single division. Get comfortable converting any percentage change into its multiplier instantly.\n\nA quick check: an increase gives a multiplier **above 1**; a decrease gives one **below 1**."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-03-03-L1-Q1",
+            "type": "NumericalAnswer",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "Write down the multiplier for a decrease of 15%.",
+            "hint": "$100\\% - 15\\%$, then convert to a decimal.",
+            "explanation": "$85\\% = 0.85$.",
+            "answers": [
+              {
+                "numeric": 0.85,
+                "tolerance": 0.0001
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-03-03-L1-Q2",
+            "type": "FormulaCalculation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A phone costs £340. Its price increases by 7.5%. Work out the new price in pounds.",
+            "hint": "Multiply by 1.075.",
+            "explanation": "$340 \\times 1.075 = 365.50$.",
+            "answers": [
+              {
+                "numeric": 365.5,
+                "tolerance": 0.01,
+                "unit": "£",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Percentage change and reverse percentages",
+          "minutes": 5,
+          "content": "## Percentage change\n\n$\\text{percentage change} = \\dfrac{\\text{change}}{\\text{original}} \\times 100$\n\nThe **original** value always goes on the bottom, never the new one.\n\n**A house bought for £180 000 sells for £207 000.**\n\nChange $= 27\\,000$. Percentage profit $= \\dfrac{27\\,000}{180\\,000} \\times 100 = 15\\%$.\n\n**A car bought for £9 000 is sold for £7 200.**\n\nChange $= 1\\,800$. Percentage loss $= \\dfrac{1\\,800}{9\\,000} \\times 100 = 20\\%$.\n\n## Reverse percentages: finding the original\n\nWhen you are told the amount **after** a change and asked for the amount **before**, divide by the multiplier.\n\n**A coat costs £51 after a 15% reduction. What was the original price?**\n\nThe sale price is 85% of the original, so\n\n$\\text{original} = 51 \\div 0.85 = £60$\n\nCheck: $60 \\times 0.85 = 51$ ✓.\n\n**A bill of £96 includes VAT at 20%. What was the bill before VAT?**\n\n$96 \\div 1.2 = £80$.\n\nThe classic trap is to take 15% off £51 or 20% off £96. That gives the wrong answer because the percentage was of the *original* amount, not of the new one. Always ask: \"What percentage of the original is this amount?\" and divide by that as a decimal."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-03-03-L1-Q3",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A shop buys a lamp for £45 and sells it for £63. Work out the percentage profit.",
+            "hint": "Profit ÷ cost price × 100.",
+            "explanation": "Profit $= 18$. $\\dfrac{18}{45} \\times 100 = 40\\%$.",
+            "answers": [
+              {
+                "numeric": 40,
+                "tolerance": 0.1,
+                "unit": "%",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-03-03-L1-Q4",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "After a 12% pay rise, Mia earns £30 240 a year. What was her salary before the rise, in pounds?",
+            "hint": "£30 240 is 112% of the original. Divide by 1.12.",
+            "explanation": "$30\\,240 \\div 1.12 = 27\\,000$.",
+            "answers": [
+              {
+                "numeric": 27000,
+                "tolerance": 1,
+                "unit": "£",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: compound interest",
+          "minutes": 5,
+          "content": "## Interest on the interest\n\nWith **simple interest** the same amount is added every year. With **compound interest** each year's interest is calculated on the new, larger balance, so the amount grows faster.\n\nThe formula:\n\n$\\text{final amount} = \\text{initial amount} \\times (\\text{multiplier})^{\\text{number of years}}$\n\n**£2 500 is invested at 4% compound interest per year. Find the value after 3 years.**\n\nMultiplier for 4% growth $= 1.04$.\n\n$2\\,500 \\times 1.04^3 = 2\\,500 \\times 1.124864 = £2\\,812.16$\n\nYear by year it would be £2 600, then £2 704, then £2 812.16, and the power does all three steps at once.\n\n**How much interest was earned?** $2\\,812.16 - 2\\,500 = £312.16$. Read the question: \"total amount\" and \"interest earned\" are different answers.\n\n**Compare with simple interest:** 4% of £2 500 is £100 per year, so 3 years gives £300. Compound earns £12.16 more.\n\n## Finding the number of years\n\n**How many years until £2 500 at 4% first exceeds £3 000?**\n\nTry powers: $1.04^4 = 1.1699$ gives £2 924.65; $1.04^5 = 1.2167$ gives £3 041.63. So **5 years**. Use trial and improvement with the power button on your calculator."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-03-03-L1-Q5",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "£4 000 is invested at 2.5% compound interest per year. Work out the value of the investment after 4 years, to the nearest penny.",
+            "hint": "$4\\,000 \\times 1.025^4$.",
+            "explanation": "$1.025^4 = 1.10381...$, so $4\\,000 \\times 1.10381 = £4\\,415.25$.",
+            "answers": [
+              {
+                "numeric": 4415.25,
+                "tolerance": 0.05,
+                "unit": "£",
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Growth and decay",
+          "minutes": 5,
+          "content": "## The same idea everywhere\n\nAny quantity that changes by a **fixed percentage each period** follows the same rule as compound interest:\n\n$\\text{new value} = \\text{start value} \\times (\\text{multiplier})^n$\n\n- **Growth** (population, bacteria, prices): multiplier above 1.\n- **Decay** (depreciation, radioactive decay, cooling): multiplier below 1.\n\n**Depreciation.** A van bought for £24 000 loses 18% of its value each year. Its value after 3 years:\n\n$24\\,000 \\times 0.82^3 = 24\\,000 \\times 0.551368 = £13\\,232.83$\n\n**Population growth.** A town of 15 000 people grows by 6% a year. After 5 years:\n\n$15\\,000 \\times 1.06^5 = 15\\,000 \\times 1.3382 = 20\\,073$ (nearest whole person).\n\n## Mixed rates\n\nIf the rate changes, multiply by each multiplier in turn. An account paying 3% for the first year and 2% for the next two years:\n\n$\\text{start} \\times 1.03 \\times 1.02^2$\n\n## Finding the rate\n\nA population grows from 800 to 968 in 2 years at a fixed rate. Then $800 \\times m^2 = 968$, so $m^2 = 1.21$ and $m = 1.1$: a rate of **10%** per year.\n\n## A useful fact\n\nA 20% decrease followed by a 20% increase does **not** return you to the start: $0.8 \\times 1.2 = 0.96$, a 4% overall loss."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-03-03-L1-Q6",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "A laptop is bought for £850. Its value falls by 20% each year. Work out its value after 3 years, in pounds.",
+            "hint": "Multiplier 0.8, cubed.",
+            "explanation": "$850 \\times 0.8^3 = 850 \\times 0.512 = £435.20$.",
+            "answers": [
+              {
+                "numeric": 435.2,
+                "tolerance": 0.01,
+                "unit": "£",
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-03-03-L1-Q7",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each situation to the calculation that solves it.",
+            "hint": "Increase means multiplier above 1; reverse problems divide.",
+            "explanation": "Increase £200 by 5% for 3 years: $200 \\times 1.05^3$. Decrease £200 by 5% once: $200 \\times 0.95$. Original amount before 5% increase to £200: $200 \\div 1.05$. Original before 5% decrease to £200: $200 \\div 0.95$.",
+            "pairs": [
+              {
+                "left": "£200 grows by 5% per year for 3 years",
+                "right": "200 × 1.05³"
+              },
+              {
+                "left": "£200 is reduced by 5%",
+                "right": "200 × 0.95"
+              },
+              {
+                "left": "A price is £200 after a 5% increase; find the original",
+                "right": "200 ÷ 1.05"
+              },
+              {
+                "left": "A price is £200 after a 5% decrease; find the original",
+                "right": "200 ÷ 0.95"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Wrong multiplier.** A 4% increase is × 1.04, not × 1.4. A 4% decrease is × 0.96, not × 0.4.\n- **Reverse percentages.** Divide by the multiplier; never take the percentage off the new amount.\n- **Percentage change.** Divide by the **original** value.\n- **Compound vs simple.** Compound uses a power; simple interest adds the same amount each year.\n- **Answering the wrong question.** \"Interest earned\" means subtract the starting amount; \"total amount\" means do not.\n- **Rounding mid-calculation.** Keep $1.04^3$ in the calculator; round only the final money answer to 2 d.p.\n- **Assuming changes cancel.** Down 20% then up 20% is not back to the start.\n- **Number of periods.** Interest \"per month\" for 2 years is 24 periods."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-03-03-L1-Q8",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "Aisha invests £6 000 in an account paying 3% compound interest per year.\n\n(a) Work out the value of the investment after 2 years.\n\n(b) Aisha's brother invests a sum of money at the same rate. After 1 year his investment is worth £4 635. How much did he invest?\n\n(c) Aisha says her investment will double in less than 20 years. Show whether she is correct.",
+            "hint": "(a) $6\\,000 \\times 1.03^2$. (b) Divide by 1.03. (c) Compare $1.03^{20}$ with 2.",
+            "explanation": "(a) $6\\,000 \\times 1.0609 = £6\\,365.40$. (b) $4\\,635 \\div 1.03 = £4\\,500$. (c) $1.03^{20} = 1.806$, so after 20 years the investment is $6\\,000 \\times 1.806 = £10\\,836$, which is less than £12 000. She is not correct (doubling takes about 24 years).",
+            "markScheme": [
+              {
+                "criterion": "Uses multiplier 1.03 squared (or two steps of 3%)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "1.03^2",
+                    "1.03²",
+                    "1.0609",
+                    "× 1.03",
+                    "x 1.03"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Value after 2 years £6 365.40",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "6365.4",
+                    "6 365.40",
+                    "6,365.40",
+                    "6365.40"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Original investment £4 500 (4 635 ÷ 1.03)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "4500",
+                    "4 500",
+                    "4,500"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Evaluates 1.03²⁰ ≈ 1.81 or value after 20 years ≈ £10 836",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "1.8",
+                    "10836",
+                    "10 836",
+                    "10,836"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Concludes she is not correct as the value is less than £12 000 (not doubled)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "not correct",
+                    "incorrect",
+                    "wrong",
+                    "not double",
+                    "less than 12"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Increase by $p\\%$: multiply by $1 + \\frac{p}{100}$. Decrease: multiply by $1 - \\frac{p}{100}$.\n- Percentage change $= \\frac{\\text{change}}{\\text{original}} \\times 100$.\n- Reverse percentage: **divide** by the multiplier to get back to the original.\n- Repeated change: $\\text{final} = \\text{start} \\times \\text{multiplier}^n$; this covers compound interest, growth and decay/depreciation.\n- Interest earned = final − start. Round money only at the end.\n- Percentage changes do not simply cancel out or add up; multiply the multipliers."
+        }
       ],
       "practiceQuestions": [
-        { "key": "AQA-MAT-03-03-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Write down the multiplier for an increase of 6%.", "hint": "$100\\% + 6\\%$ as a decimal.", "explanation": "$106\\% = 1.06$.", "answers": [ { "numeric": 1.06, "tolerance": 0.0001 } ] },
-        { "key": "AQA-MAT-03-03-L1-P2", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "A pair of trainers costs £72. In a sale the price is reduced by 25%. Work out the sale price in pounds.", "hint": "Multiply by 0.75.", "explanation": "$72 \\times 0.75 = £54$.", "answers": [ { "numeric": 54, "tolerance": 0.01, "unit": "£", "marks": 2 } ] },
-        { "key": "AQA-MAT-03-03-L1-P3", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "A bicycle bought for £250 is sold for £190. Work out the percentage loss.", "hint": "Loss ÷ original × 100.", "explanation": "Loss $= 60$. $\\dfrac{60}{250} \\times 100 = 24\\%$.", "answers": [ { "numeric": 24, "tolerance": 0.1, "unit": "%", "marks": 2 } ] },
-        { "key": "AQA-MAT-03-03-L1-P4", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "A TV costs £480 including VAT at 20%. Which calculation gives the price before VAT?", "hint": "£480 is 120% of the pre-VAT price.", "explanation": "The price with VAT is 1.2 × the original, so the original is $480 \\div 1.2 = £400$.", "options": [ { "text": "480 ÷ 1.2", "correct": true }, { "text": "480 × 0.8", "correct": false, "feedback": "Taking 20% off the *new* price gives £384, which is wrong; the 20% was of the original." }, { "text": "480 − 20", "correct": false }, { "text": "480 × 1.2", "correct": false } ] },
-        { "key": "AQA-MAT-03-03-L1-P5", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "The number of members of a club fell by 8% to 322. How many members were there before the fall?", "hint": "322 is 92% of the original.", "explanation": "$322 \\div 0.92 = 350$.", "answers": [ { "numeric": 350, "tolerance": 0, "marks": 2 } ] },
-        { "key": "AQA-MAT-03-03-L1-P6", "type": "FormulaCalculation", "difficulty": 3, "marks": 3, "text": "£1 500 is invested at 5% compound interest per year. How much **interest** is earned in 3 years? Give your answer to the nearest penny.", "hint": "Find the total first: $1\\,500 \\times 1.05^3$. Then subtract £1 500.", "explanation": "$1\\,500 \\times 1.157625 = 1\\,736.44$. Interest $= 1\\,736.44 - 1\\,500 = £236.44$.", "answers": [ { "numeric": 236.44, "tolerance": 0.02, "unit": "£", "marks": 3 } ] },
-        { "key": "AQA-MAT-03-03-L1-P7", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: if a price is increased by 10% and then decreased by 10%, it returns to its original value.", "hint": "Try it with £100.", "explanation": "False. $100 \\times 1.1 = 110$, then $110 \\times 0.9 = 99$. Overall a 1% decrease, because $1.1 \\times 0.9 = 0.99$.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
-        { "key": "AQA-MAT-03-03-L1-P8", "type": "FormulaCalculation", "difficulty": 3, "marks": 3, "text": "A car is bought for £18 000 and depreciates by 15% each year. Work out its value after 4 years, to the nearest pound.", "hint": "$18\\,000 \\times 0.85^4$.", "explanation": "$0.85^4 = 0.52200625$. $18\\,000 \\times 0.52200625 = 9\\,396.11$, so £9 396 to the nearest pound.", "answers": [ { "numeric": 9396, "tolerance": 1, "unit": "£", "marks": 3 } ] },
-        { "key": "AQA-MAT-03-03-L1-P9", "type": "NumericalAnswer", "difficulty": 4, "marks": 2, "text": "A bacteria colony doubles in size every hour. It starts with 500 bacteria. After how many whole hours does the colony first exceed 20 000 bacteria?", "hint": "Keep doubling: 1 000, 2 000, 4 000, ...", "explanation": "$500 \\times 2^n > 20\\,000$ means $2^n > 40$. $2^5 = 32$ (not enough), $2^6 = 64$. So 6 hours (32 000 bacteria).", "answers": [ { "numeric": 6, "tolerance": 0, "unit": "hours", "marks": 2 } ] },
-        { "key": "AQA-MAT-03-03-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Tom says: \"£2 000 at 5% compound interest for 2 years earns £200 interest.\" Explain the mistake Tom has made and give the correct amount of interest.", "hint": "In the second year, interest is earned on more than £2 000.", "explanation": "Tom has calculated simple interest (£100 each year). With compound interest the second year's interest is 5% of £2 100, which is £105. Total interest $= 2\\,000 \\times 1.05^2 - 2\\,000 = £205$.", "markScheme": [ { "criterion": "Explains that Tom used simple interest / did not pay interest on the interest", "marks": 1, "keywords": [ ["simple interest", "interest on the interest", "second year", "2100", "2 100", "same amount each year"] ] }, { "criterion": "Correct compound interest £205", "marks": 1, "keywords": [ ["205"] ] } ] },
-        { "key": "AQA-MAT-03-03-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "The population of a village was 2 400 in 2020. It increased by 5% in 2021 and by 8% in 2022.\n\n(a) Work out the population at the end of 2022.\n\n(b) Work out the overall percentage increase from 2020 to the end of 2022.", "hint": "(a) Multiply by 1.05 then by 1.08. (b) Multiply the two multipliers together, or use (change ÷ original) × 100.", "explanation": "(a) $2\\,400 \\times 1.05 \\times 1.08 = 2\\,721.6$, so 2 722 people (or 2 721). (b) $1.05 \\times 1.08 = 1.134$, an overall increase of 13.4%.", "markScheme": [ { "criterion": "Multiplies by 1.05 and 1.08 (or equivalent two-step working)", "marks": 1, "keywords": [ ["1.05"], ["1.08"] ] }, { "criterion": "Population 2 722 (accept 2 721 or 2 721.6)", "marks": 1, "keywords": [ ["2722", "2 722", "2,722", "2721"] ] }, { "criterion": "Overall multiplier 1.134", "marks": 1, "keywords": [ ["1.134"] ] }, { "criterion": "Overall increase 13.4%", "marks": 1, "keywords": [ ["13.4"] ] } ] }
+        {
+          "key": "AQA-MAT-03-03-L1-P1",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Write down the multiplier for an increase of 6%.",
+          "hint": "$100\\% + 6\\%$ as a decimal.",
+          "explanation": "$106\\% = 1.06$.",
+          "answers": [
+            {
+              "numeric": 1.06,
+              "tolerance": 0.0001
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-03-L1-P2",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A pair of trainers costs £72. In a sale the price is reduced by 25%. Work out the sale price in pounds.",
+          "hint": "Multiply by 0.75.",
+          "explanation": "$72 \\times 0.75 = £54$.",
+          "answers": [
+            {
+              "numeric": 54,
+              "tolerance": 0.01,
+              "unit": "£",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-03-L1-P3",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A bicycle bought for £250 is sold for £190. Work out the percentage loss.",
+          "hint": "Loss ÷ original × 100.",
+          "explanation": "Loss $= 60$. $\\dfrac{60}{250} \\times 100 = 24\\%$.",
+          "answers": [
+            {
+              "numeric": 24,
+              "tolerance": 0.1,
+              "unit": "%",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-03-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A TV costs £480 including VAT at 20%. Which calculation gives the price before VAT?",
+          "hint": "£480 is 120% of the pre-VAT price.",
+          "explanation": "The price with VAT is 1.2 × the original, so the original is $480 \\div 1.2 = £400$.",
+          "options": [
+            {
+              "text": "480 ÷ 1.2",
+              "correct": true
+            },
+            {
+              "text": "480 × 0.8",
+              "correct": false,
+              "feedback": "Taking 20% off the *new* price gives £384, which is wrong; the 20% was of the original."
+            },
+            {
+              "text": "480 − 20",
+              "correct": false
+            },
+            {
+              "text": "480 × 1.2",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-03-L1-P5",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "The number of members of a club fell by 8% to 322. How many members were there before the fall?",
+          "hint": "322 is 92% of the original.",
+          "explanation": "$322 \\div 0.92 = 350$.",
+          "answers": [
+            {
+              "numeric": 350,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-03-L1-P6",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "£1 500 is invested at 5% compound interest per year. How much **interest** is earned in 3 years? Give your answer to the nearest penny.",
+          "hint": "Find the total first: $1\\,500 \\times 1.05^3$. Then subtract £1 500.",
+          "explanation": "$1\\,500 \\times 1.157625 = 1\\,736.44$. Interest $= 1\\,736.44 - 1\\,500 = £236.44$.",
+          "answers": [
+            {
+              "numeric": 236.44,
+              "tolerance": 0.02,
+              "unit": "£",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-03-L1-P7",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: if a price is increased by 10% and then decreased by 10%, it returns to its original value.",
+          "hint": "Try it with £100.",
+          "explanation": "False. $100 \\times 1.1 = 110$, then $110 \\times 0.9 = 99$. Overall a 1% decrease, because $1.1 \\times 0.9 = 0.99$.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-03-L1-P8",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A car is bought for £18 000 and depreciates by 15% each year. Work out its value after 4 years, to the nearest pound.",
+          "hint": "$18\\,000 \\times 0.85^4$.",
+          "explanation": "$0.85^4 = 0.52200625$. $18\\,000 \\times 0.52200625 = 9\\,396.11$, so £9 396 to the nearest pound.",
+          "answers": [
+            {
+              "numeric": 9396,
+              "tolerance": 1,
+              "unit": "£",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-03-L1-P9",
+          "type": "NumericalAnswer",
+          "difficulty": 4,
+          "marks": 2,
+          "text": "A bacteria colony doubles in size every hour. It starts with 500 bacteria. After how many whole hours does the colony first exceed 20 000 bacteria?",
+          "hint": "Keep doubling: 1 000, 2 000, 4 000, ...",
+          "explanation": "$500 \\times 2^n > 20\\,000$ means $2^n > 40$. $2^5 = 32$ (not enough), $2^6 = 64$. So 6 hours (32 000 bacteria).",
+          "answers": [
+            {
+              "numeric": 6,
+              "tolerance": 0,
+              "unit": "hours",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-03-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Tom says: \"£2 000 at 5% compound interest for 2 years earns £200 interest.\" Explain the mistake Tom has made and give the correct amount of interest.",
+          "hint": "In the second year, interest is earned on more than £2 000.",
+          "explanation": "Tom has calculated simple interest (£100 each year). With compound interest the second year's interest is 5% of £2 100, which is £105. Total interest $= 2\\,000 \\times 1.05^2 - 2\\,000 = £205$.",
+          "markScheme": [
+            {
+              "criterion": "Explains that Tom used simple interest / did not pay interest on the interest",
+              "marks": 1,
+              "keywords": [
+                [
+                  "simple interest",
+                  "interest on the interest",
+                  "second year",
+                  "2100",
+                  "2 100"
+                ]
+              ]
+            },
+            {
+              "criterion": "Correct compound interest £205",
+              "marks": 1,
+              "keywords": [
+                [
+                  "205",
+                  "205.0"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-03-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "The population of a village was 2 400 in 2020. It increased by 5% in 2021 and by 8% in 2022.\n\n(a) Work out the population at the end of 2022.\n\n(b) Work out the overall percentage increase from 2020 to the end of 2022.",
+          "hint": "(a) Multiply by 1.05 then by 1.08. (b) Multiply the two multipliers together, or use (change ÷ original) × 100.",
+          "explanation": "(a) $2\\,400 \\times 1.05 \\times 1.08 = 2\\,721.6$, so 2 722 people (or 2 721). (b) $1.05 \\times 1.08 = 1.134$, an overall increase of 13.4%.",
+          "markScheme": [
+            {
+              "criterion": "Multiplies by 1.05 and 1.08 (or equivalent two-step working)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "1.05",
+                  "1.050"
+                ],
+                [
+                  "1.08",
+                  "1.080"
+                ]
+              ]
+            },
+            {
+              "criterion": "Population 2 722 (accept 2 721 or 2 721.6)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2722",
+                  "2 722",
+                  "2,722",
+                  "2721"
+                ]
+              ]
+            },
+            {
+              "criterion": "Overall multiplier 1.134",
+              "marks": 1,
+              "keywords": [
+                [
+                  "1.134",
+                  "1.1340"
+                ]
+              ]
+            },
+            {
+              "criterion": "Overall increase 13.4%",
+              "marks": 1,
+              "keywords": [
+                [
+                  "13.4",
+                  "13.40"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

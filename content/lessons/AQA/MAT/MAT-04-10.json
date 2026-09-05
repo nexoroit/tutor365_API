@@ -17,82 +17,543 @@
       "difficulty": 4,
       "tier": "Higher",
       "activities": [
-        { "type": "Explanation", "title": "Parts of a circle and the first theorems", "minutes": 5, "content": "## Vocabulary\n\n- **Chord**: a straight line joining two points on the circumference.\n- **Diameter**: a chord through the centre.\n- **Tangent**: a line that touches the circle at exactly one point.\n- **Arc**: part of the circumference.\n- **Segment**: the region between a chord and an arc. The bigger part is the major segment, the smaller the minor segment.\n- **Sector**: the region between two radii and an arc.\n- **Subtended**: an angle is subtended by an arc or chord when its arms go to the ends of that arc or chord.\n\n## Theorem 1: angle at the centre\n\n**The angle at the centre is twice the angle at the circumference** when both are subtended by the same arc.\n\nIf points A and B are on the circle, O is the centre and P is another point on the circumference (on the major arc), then angle AOB = 2 × angle APB. For example, if angle APB = 34°, angle AOB = 68°.\n\n## Theorem 2: angle in a semicircle\n\n**The angle in a semicircle is 90°.** If AB is a diameter and C is any point on the circumference, angle ACB = 90°. This is really theorem 1 with the centre angle being 180°.\n\n## Theorem 3: angles in the same segment\n\n**Angles in the same segment are equal.** Two angles at the circumference subtended by the same chord, on the same side of it, are equal. If chord AB subtends angles at P and Q (both on the same arc), angle APB = angle AQB. Look for a \"bow-tie\" shape formed by two crossing chords.\n\nIn every answer, write the theorem in words as your reason: the reason is often worth as many marks as the number." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-04-10-L1-Q1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1,
-          "text": "Points A and B lie on a circle with centre O. Point C is on the circumference on the major arc. Angle ACB = 47°. Work out angle AOB in degrees.",
-          "hint": "Angle at the centre is twice the angle at the circumference.",
-          "explanation": "$2 \\times 47° = 94°$.",
-          "answers": [ { "numeric": 94, "tolerance": 0, "unit": "°" } ] } },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-04-10-L1-Q2", "type": "NumericalAnswer", "difficulty": 2, "marks": 2,
-          "text": "AB is a diameter of a circle and C is a point on the circumference. Angle CAB = 36°. Work out angle CBA in degrees.",
-          "hint": "The angle at C is 90° (angle in a semicircle). Angles in a triangle sum to 180°.",
-          "explanation": "Angle ACB = 90°, so angle CBA $= 180° - 90° - 36° = 54°$.",
-          "answers": [ { "numeric": 54, "tolerance": 0, "unit": "°", "marks": 2 } ] } },
-        { "type": "Explanation", "title": "Cyclic quadrilaterals and chords", "minutes": 4, "content": "## Theorem 4: cyclic quadrilaterals\n\nA **cyclic quadrilateral** has all four vertices on the circumference of a circle.\n\n**Opposite angles of a cyclic quadrilateral add up to 180°.**\n\nIf ABCD is cyclic, angle A + angle C = 180° and angle B + angle D = 180°. So if angle A = 112°, angle C = 68°.\n\nBe careful: this only works when **all four** corners touch the circle. A quadrilateral with one vertex at the centre is **not** cyclic; use the angle-at-the-centre theorem for that.\n\n## Theorem 5: perpendicular from the centre to a chord\n\n**A line from the centre perpendicular to a chord bisects the chord.** Equally, the line from the centre to the midpoint of a chord is perpendicular to it.\n\nThis makes two congruent right-angled triangles, so it often leads into Pythagoras: if a chord of length 16 cm is 6 cm from the centre, the radius is $\\sqrt{8^2 + 6^2} = 10$ cm.\n\n## Isosceles triangles from radii\n\nAny triangle with two sides that are **radii** is **isosceles**, so its base angles are equal. This is not a circle theorem in itself but it is used constantly. Whenever you see two radii drawn to points on the circumference, mark the equal angles.\n\n## Exterior angle of a cyclic quadrilateral\n\nIf one side of a cyclic quadrilateral is extended, the exterior angle equals the **interior opposite** angle. This follows from theorem 4 and angles on a straight line." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-10-L1-Q3", "type": "NumericalAnswer", "difficulty": 2, "marks": 2,
-          "text": "ABCD is a cyclic quadrilateral. Angle ABC = 97° and angle BCD = 74°. Work out angle CDA in degrees.",
-          "hint": "Angle B and angle D are opposite angles.",
-          "explanation": "Opposite angles of a cyclic quadrilateral add to 180°, so angle CDA $= 180° - 97° = 83°$. (The 74° is a distractor; it pairs with angle A.)",
-          "answers": [ { "numeric": 83, "tolerance": 0, "unit": "°", "marks": 2 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-10-L1-Q4", "type": "FormulaCalculation", "difficulty": 3, "marks": 3,
-          "text": "A chord of a circle is 24 cm long. The perpendicular distance from the centre of the circle to the chord is 5 cm. Work out the radius of the circle in cm.",
-          "hint": "The perpendicular from the centre bisects the chord, giving a right-angled triangle with sides 12 and 5.",
-          "explanation": "Half the chord is 12 cm. Radius $= \\sqrt{12^2 + 5^2} = \\sqrt{169} = 13$ cm.",
-          "answers": [ { "numeric": 13, "tolerance": 0, "unit": "cm", "marks": 3 } ] } },
-        { "type": "Explanation", "title": "Tangent theorems", "minutes": 5, "content": "## Theorem 6: tangent and radius\n\n**A tangent meets a radius at 90°** at the point where the tangent touches the circle.\n\nIf a tangent touches the circle at T and O is the centre, angle OTX = 90° for any point X on the tangent. This gives right-angled triangles, so Pythagoras and trigonometry often follow.\n\n## Theorem 7: two tangents from a point\n\n**Tangents drawn from the same external point are equal in length.**\n\nIf tangents from P touch the circle at A and B, then PA = PB. Joining O to P produces two congruent right-angled triangles, so OP bisects angle APB and triangle PAB is isosceles.\n\nThe quadrilateral OAPB has right angles at A and B, so angle AOB + angle APB = 180°.\n\n## Theorem 8: alternate segment theorem\n\n**The angle between a tangent and a chord equals the angle in the alternate segment.**\n\nSuppose a tangent touches the circle at A, and chord AB is drawn. The angle between the tangent and chord AB (on one side) equals the angle subtended by AB at any point C on the circumference in the **opposite** (alternate) segment: angle (tangent, AB) = angle ACB.\n\nTo use it: find the angle between the tangent and the chord, then look across the chord to the angle at the circumference on the other side. Those two are equal.\n\nThis is the theorem students find hardest to spot. The clue is a **tangent with a triangle drawn from its point of contact**." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-10-L1-Q5", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
-          "text": "A tangent touches a circle with centre O at point T. P is a point on the tangent with angle TPO = 28°. Work out angle TOP in degrees.",
-          "hint": "The angle between the tangent and radius OT is 90°.",
-          "explanation": "Angle OTP = 90° (tangent meets radius at right angles). In triangle OTP, angle TOP $= 180° - 90° - 28° = 62°$.",
-          "answers": [ { "numeric": 62, "tolerance": 0, "unit": "°", "marks": 2 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-10-L1-Q6", "type": "NumericalAnswer", "difficulty": 4, "marks": 2,
-          "text": "A tangent touches a circle at A. Chord AB is drawn, and the angle between the tangent and AB is 58°. C is a point on the circumference in the alternate segment. Work out angle ACB in degrees.",
-          "hint": "Alternate segment theorem.",
-          "explanation": "By the alternate segment theorem, angle ACB equals the angle between the tangent and chord AB, so it is 58°.",
-          "answers": [ { "numeric": 58, "tolerance": 0, "unit": "°", "marks": 2 } ] } },
-        { "type": "Example", "title": "Worked example: a multi-step problem", "minutes": 5, "content": "## Chaining theorems together\n\nPoints A, B, C and D lie on a circle with centre O. AC is a diameter. Angle BAC = 27°. The tangent at C meets the line AB extended at point E.\n\n**Find angle ABC, angle BCE and angle ADC.**\n\n**Step 1.** AC is a diameter, so angle ABC = **90°** (angle in a semicircle).\n\n**Step 2.** Angle ACB $= 180° - 90° - 27° = 63°$ (angles in a triangle).\n\n**Step 3.** The tangent at C meets radius OC (which lies along the diameter AC) at 90°, so angle ACE = 90°. Then angle BCE $= 90° - 63° = 27°$ (tangent meets radius at right angles).\n\nCheck with the alternate segment theorem: angle BCE (between tangent CE and chord CB) should equal the angle in the alternate segment, angle BAC = 27° ✓.\n\n**Step 4.** ABCD is a cyclic quadrilateral, so angle ADC $= 180° - 90° = 90°$ (opposite angles of a cyclic quadrilateral). This also follows because AC is a diameter and D is on the circumference.\n\n## Setting out\n\nWrite each angle, its value and the reason on its own line:\n\n> Angle ABC = 90° (angle in a semicircle)\n\nExaminers award marks for **correct reasons written in the standard wording**. \"Because of the circle theorem\" is not a reason. Use the exact phrases from this lesson.\n\n## Strategy\n\n1. Mark every radius and note the isosceles triangles.\n2. Look for a diameter (90°), a tangent (90° with the radius), a bow-tie (same segment), or four points on the circle (cyclic quadrilateral).\n3. Fill in angles one at a time, giving a reason each time." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-10-L1-Q7", "type": "Matching", "difficulty": 3, "marks": 4,
-          "text": "Match each diagram description to the theorem you would use.",
-          "hint": "Look for the key feature: diameter, centre, tangent, or four points on the circle.",
-          "explanation": "Diameter with a point on the circle: angle in a semicircle. Two angles from the same chord in the same segment: angles in the same segment. Four points on the circle: cyclic quadrilateral. Tangent, chord and a triangle: alternate segment theorem.",
-          "pairs": [
-            { "left": "A triangle whose longest side is a diameter", "right": "Angle in a semicircle is 90°" },
-            { "left": "Two angles at the circumference standing on the same chord, on the same side", "right": "Angles in the same segment are equal" },
-            { "left": "A four-sided shape with all vertices on the circumference", "right": "Opposite angles of a cyclic quadrilateral sum to 180°" },
-            { "left": "A tangent, a chord from the point of contact, and an angle across the circle", "right": "Alternate segment theorem" } ] } },
-        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **No reasons, or vague reasons.** Each step needs the theorem in words.\n- **Angle at the centre the wrong way round.** The centre angle is the **bigger** one (twice the circumference angle).\n- **Using the cyclic quadrilateral rule with the centre as a vertex.** The centre is not on the circumference.\n- **Same-segment errors.** The two angles must be on the **same side** of the chord.\n- **Missing isosceles triangles.** Two radii always make one; mark the equal base angles.\n- **Alternate segment: choosing the wrong angle.** Take the angle between the tangent and the chord, then the angle at the circumference on the *far* side of that chord.\n- **Assuming a line is a diameter** just because it looks long. It must pass through the centre.\n- **Assuming a line is a tangent** unless the question says so.\n- **Arithmetic slips** in the final subtraction; check every triangle adds to 180°." },
-        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
-          "key": "AQA-MAT-04-10-L1-Q8", "type": "ExamQuestion", "difficulty": 5, "marks": 5, "examStyle": true,
-          "text": "Points A, B and C lie on a circle with centre O. The line ET is a tangent to the circle at A. Angle BAT = 64° and angle OAB is between the radius OA and the chord AB.\n\n(a) Work out angle ACB. Give a reason.\n\n(b) Work out angle AOB. Give a reason.\n\n(c) Work out angle OAB. Give a reason.",
-          "hint": "(a) Alternate segment theorem. (b) Angle at the centre. (c) Tangent meets radius at 90°, or use the isosceles triangle OAB.",
-          "explanation": "(a) Angle ACB = 64° (alternate segment theorem: the angle between tangent AT and chord AB equals the angle in the alternate segment). (b) Angle AOB = 2 × 64° = 128° (angle at the centre is twice the angle at the circumference). (c) Angle OAT = 90° (tangent meets radius at right angles), so angle OAB = 90° − 64° = 26°. Check: triangle OAB is isosceles with base angles 26° and apex 128°: $26 + 26 + 128 = 180$ ✓.",
-          "markScheme": [
-            { "criterion": "Angle ACB = 64°", "marks": 1, "keywords": [ ["64"] ] },
-            { "criterion": "Reason: alternate segment theorem", "marks": 1, "keywords": [ ["alternate segment"] ] },
-            { "criterion": "Angle AOB = 128° with reason angle at the centre is twice the angle at the circumference", "marks": 1, "keywords": [ ["128"], ["centre", "center", "twice", "double"] ] },
-            { "criterion": "Angle OAB = 26°", "marks": 1, "keywords": [ ["26"] ] },
-            { "criterion": "Reason: tangent meets radius at 90° (or isosceles triangle from two radii)", "marks": 1, "keywords": [ ["tangent", "radius", "isosceles", "90"] ] } ] } },
-        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Angle at the centre** = 2 × angle at the circumference (same arc).\n- **Angle in a semicircle** = 90°.\n- **Angles in the same segment** are equal.\n- **Opposite angles of a cyclic quadrilateral** add to 180°.\n- **Perpendicular from the centre bisects a chord**; two radii make an isosceles triangle.\n- **Tangent meets radius at 90°**; **two tangents from a point are equal**.\n- **Alternate segment theorem**: angle between tangent and chord = angle in the alternate segment.\n- Give the theorem in words as the reason for every step." }
+        {
+          "type": "Explanation",
+          "title": "Parts of a circle and the first theorems",
+          "minutes": 5,
+          "content": "## Vocabulary\n\n- **Chord**: a straight line joining two points on the circumference.\n- **Diameter**: a chord through the centre.\n- **Tangent**: a line that touches the circle at exactly one point.\n- **Arc**: part of the circumference.\n- **Segment**: the region between a chord and an arc. The bigger part is the major segment, the smaller the minor segment.\n- **Sector**: the region between two radii and an arc.\n- **Subtended**: an angle is subtended by an arc or chord when its arms go to the ends of that arc or chord.\n\n## Theorem 1: angle at the centre\n\n**The angle at the centre is twice the angle at the circumference** when both are subtended by the same arc.\n\nIf points A and B are on the circle, O is the centre and P is another point on the circumference (on the major arc), then angle AOB = 2 × angle APB. For example, if angle APB = 34°, angle AOB = 68°.\n\n## Theorem 2: angle in a semicircle\n\n**The angle in a semicircle is 90°.** If AB is a diameter and C is any point on the circumference, angle ACB = 90°. This is really theorem 1 with the centre angle being 180°.\n\n## Theorem 3: angles in the same segment\n\n**Angles in the same segment are equal.** Two angles at the circumference subtended by the same chord, on the same side of it, are equal. If chord AB subtends angles at P and Q (both on the same arc), angle APB = angle AQB. Look for a \"bow-tie\" shape formed by two crossing chords.\n\nIn every answer, write the theorem in words as your reason: the reason is often worth as many marks as the number."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-04-10-L1-Q1",
+            "type": "NumericalAnswer",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "Points A and B lie on a circle with centre O. Point C is on the circumference on the major arc. Angle ACB = 47°. Work out angle AOB in degrees.",
+            "hint": "Angle at the centre is twice the angle at the circumference.",
+            "explanation": "$2 \\times 47° = 94°$.",
+            "answers": [
+              {
+                "numeric": 94,
+                "tolerance": 0,
+                "unit": "°"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-04-10-L1-Q2",
+            "type": "NumericalAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "AB is a diameter of a circle and C is a point on the circumference. Angle CAB = 36°. Work out angle CBA in degrees.",
+            "hint": "The angle at C is 90° (angle in a semicircle). Angles in a triangle sum to 180°.",
+            "explanation": "Angle ACB = 90°, so angle CBA $= 180° - 90° - 36° = 54°$.",
+            "answers": [
+              {
+                "numeric": 54,
+                "tolerance": 0,
+                "unit": "°",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Cyclic quadrilaterals and chords",
+          "minutes": 4,
+          "content": "## Theorem 4: cyclic quadrilaterals\n\nA **cyclic quadrilateral** has all four vertices on the circumference of a circle.\n\n**Opposite angles of a cyclic quadrilateral add up to 180°.**\n\nIf ABCD is cyclic, angle A + angle C = 180° and angle B + angle D = 180°. So if angle A = 112°, angle C = 68°.\n\nBe careful: this only works when **all four** corners touch the circle. A quadrilateral with one vertex at the centre is **not** cyclic; use the angle-at-the-centre theorem for that.\n\n## Theorem 5: perpendicular from the centre to a chord\n\n**A line from the centre perpendicular to a chord bisects the chord.** Equally, the line from the centre to the midpoint of a chord is perpendicular to it.\n\nThis makes two congruent right-angled triangles, so it often leads into Pythagoras: if a chord of length 16 cm is 6 cm from the centre, the radius is $\\sqrt{8^2 + 6^2} = 10$ cm.\n\n## Isosceles triangles from radii\n\nAny triangle with two sides that are **radii** is **isosceles**, so its base angles are equal. This is not a circle theorem in itself but it is used constantly. Whenever you see two radii drawn to points on the circumference, mark the equal angles.\n\n## Exterior angle of a cyclic quadrilateral\n\nIf one side of a cyclic quadrilateral is extended, the exterior angle equals the **interior opposite** angle. This follows from theorem 4 and angles on a straight line."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-10-L1-Q3",
+            "type": "NumericalAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "ABCD is a cyclic quadrilateral. Angle ABC = 97° and angle BCD = 74°. Work out angle CDA in degrees.",
+            "hint": "Angle B and angle D are opposite angles.",
+            "explanation": "Opposite angles of a cyclic quadrilateral add to 180°, so angle CDA $= 180° - 97° = 83°$. (The 74° is a distractor; it pairs with angle A.)",
+            "answers": [
+              {
+                "numeric": 83,
+                "tolerance": 0,
+                "unit": "°",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-10-L1-Q4",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "A chord of a circle is 24 cm long. The perpendicular distance from the centre of the circle to the chord is 5 cm. Work out the radius of the circle in cm.",
+            "hint": "The perpendicular from the centre bisects the chord, giving a right-angled triangle with sides 12 and 5.",
+            "explanation": "Half the chord is 12 cm. Radius $= \\sqrt{12^2 + 5^2} = \\sqrt{169} = 13$ cm.",
+            "answers": [
+              {
+                "numeric": 13,
+                "tolerance": 0,
+                "unit": "cm",
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Tangent theorems",
+          "minutes": 5,
+          "content": "## Theorem 6: tangent and radius\n\n**A tangent meets a radius at 90°** at the point where the tangent touches the circle.\n\nIf a tangent touches the circle at T and O is the centre, angle OTX = 90° for any point X on the tangent. This gives right-angled triangles, so Pythagoras and trigonometry often follow.\n\n## Theorem 7: two tangents from a point\n\n**Tangents drawn from the same external point are equal in length.**\n\nIf tangents from P touch the circle at A and B, then PA = PB. Joining O to P produces two congruent right-angled triangles, so OP bisects angle APB and triangle PAB is isosceles.\n\nThe quadrilateral OAPB has right angles at A and B, so angle AOB + angle APB = 180°.\n\n## Theorem 8: alternate segment theorem\n\n**The angle between a tangent and a chord equals the angle in the alternate segment.**\n\nSuppose a tangent touches the circle at A, and chord AB is drawn. The angle between the tangent and chord AB (on one side) equals the angle subtended by AB at any point C on the circumference in the **opposite** (alternate) segment: angle (tangent, AB) = angle ACB.\n\nTo use it: find the angle between the tangent and the chord, then look across the chord to the angle at the circumference on the other side. Those two are equal.\n\nThis is the theorem students find hardest to spot. The clue is a **tangent with a triangle drawn from its point of contact**."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-10-L1-Q5",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A tangent touches a circle with centre O at point T. P is a point on the tangent with angle TPO = 28°. Work out angle TOP in degrees.",
+            "hint": "The angle between the tangent and radius OT is 90°.",
+            "explanation": "Angle OTP = 90° (tangent meets radius at right angles). In triangle OTP, angle TOP $= 180° - 90° - 28° = 62°$.",
+            "answers": [
+              {
+                "numeric": 62,
+                "tolerance": 0,
+                "unit": "°",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-10-L1-Q6",
+            "type": "NumericalAnswer",
+            "difficulty": 4,
+            "marks": 2,
+            "text": "A tangent touches a circle at A. Chord AB is drawn, and the angle between the tangent and AB is 58°. C is a point on the circumference in the alternate segment. Work out angle ACB in degrees.",
+            "hint": "Alternate segment theorem.",
+            "explanation": "By the alternate segment theorem, angle ACB equals the angle between the tangent and chord AB, so it is 58°.",
+            "answers": [
+              {
+                "numeric": 58,
+                "tolerance": 0,
+                "unit": "°",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: a multi-step problem",
+          "minutes": 5,
+          "content": "## Chaining theorems together\n\nPoints A, B, C and D lie on a circle with centre O. AC is a diameter. Angle BAC = 27°. The tangent at C meets the line AB extended at point E.\n\n**Find angle ABC, angle BCE and angle ADC.**\n\n**Step 1.** AC is a diameter, so angle ABC = **90°** (angle in a semicircle).\n\n**Step 2.** Angle ACB $= 180° - 90° - 27° = 63°$ (angles in a triangle).\n\n**Step 3.** The tangent at C meets radius OC (which lies along the diameter AC) at 90°, so angle ACE = 90°. Then angle BCE $= 90° - 63° = 27°$ (tangent meets radius at right angles).\n\nCheck with the alternate segment theorem: angle BCE (between tangent CE and chord CB) should equal the angle in the alternate segment, angle BAC = 27° ✓.\n\n**Step 4.** ABCD is a cyclic quadrilateral, so angle ADC $= 180° - 90° = 90°$ (opposite angles of a cyclic quadrilateral). This also follows because AC is a diameter and D is on the circumference.\n\n## Setting out\n\nWrite each angle, its value and the reason on its own line:\n\n> Angle ABC = 90° (angle in a semicircle)\n\nExaminers award marks for **correct reasons written in the standard wording**. \"Because of the circle theorem\" is not a reason. Use the exact phrases from this lesson.\n\n## Strategy\n\n1. Mark every radius and note the isosceles triangles.\n2. Look for a diameter (90°), a tangent (90° with the radius), a bow-tie (same segment), or four points on the circle (cyclic quadrilateral).\n3. Fill in angles one at a time, giving a reason each time."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-10-L1-Q7",
+            "type": "Matching",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Match each diagram description to the theorem you would use.",
+            "hint": "Look for the key feature: diameter, centre, tangent, or four points on the circle.",
+            "explanation": "Diameter with a point on the circle: angle in a semicircle. Two angles from the same chord in the same segment: angles in the same segment. Four points on the circle: cyclic quadrilateral. Tangent, chord and a triangle: alternate segment theorem.",
+            "pairs": [
+              {
+                "left": "A triangle whose longest side is a diameter",
+                "right": "Angle in a semicircle is 90°"
+              },
+              {
+                "left": "Two angles at the circumference standing on the same chord, on the same side",
+                "right": "Angles in the same segment are equal"
+              },
+              {
+                "left": "A four-sided shape with all vertices on the circumference",
+                "right": "Opposite angles of a cyclic quadrilateral sum to 180°"
+              },
+              {
+                "left": "A tangent, a chord from the point of contact, and an angle across the circle",
+                "right": "Alternate segment theorem"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **No reasons, or vague reasons.** Each step needs the theorem in words.\n- **Angle at the centre the wrong way round.** The centre angle is the **bigger** one (twice the circumference angle).\n- **Using the cyclic quadrilateral rule with the centre as a vertex.** The centre is not on the circumference.\n- **Same-segment errors.** The two angles must be on the **same side** of the chord.\n- **Missing isosceles triangles.** Two radii always make one; mark the equal base angles.\n- **Alternate segment: choosing the wrong angle.** Take the angle between the tangent and the chord, then the angle at the circumference on the *far* side of that chord.\n- **Assuming a line is a diameter** just because it looks long. It must pass through the centre.\n- **Assuming a line is a tangent** unless the question says so.\n- **Arithmetic slips** in the final subtraction; check every triangle adds to 180°."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-04-10-L1-Q8",
+            "type": "ExamQuestion",
+            "difficulty": 5,
+            "marks": 5,
+            "examStyle": true,
+            "text": "Points A, B and C lie on a circle with centre O. The line ET is a tangent to the circle at A. Angle BAT = 64° and angle OAB is between the radius OA and the chord AB.\n\n(a) Work out angle ACB. Give a reason.\n\n(b) Work out angle AOB. Give a reason.\n\n(c) Work out angle OAB. Give a reason.",
+            "hint": "(a) Alternate segment theorem. (b) Angle at the centre. (c) Tangent meets radius at 90°, or use the isosceles triangle OAB.",
+            "explanation": "(a) Angle ACB = 64° (alternate segment theorem: the angle between tangent AT and chord AB equals the angle in the alternate segment). (b) Angle AOB = 2 × 64° = 128° (angle at the centre is twice the angle at the circumference). (c) Angle OAT = 90° (tangent meets radius at right angles), so angle OAB = 90° − 64° = 26°. Check: triangle OAB is isosceles with base angles 26° and apex 128°: $26 + 26 + 128 = 180$ ✓.",
+            "markScheme": [
+              {
+                "criterion": "Angle ACB = 64°",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "64",
+                    "64.0"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Reason: alternate segment theorem",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "alternate segment",
+                    "alternate-segment"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Angle AOB = 128° with reason angle at the centre is twice the angle at the circumference",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "128",
+                    "128.0"
+                  ],
+                  [
+                    "centre",
+                    "center",
+                    "twice",
+                    "double"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Angle OAB = 26°",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "26",
+                    "26.0"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Reason: tangent meets radius at 90° (or isosceles triangle from two radii)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "tangent",
+                    "radius",
+                    "isosceles",
+                    "90"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Angle at the centre** = 2 × angle at the circumference (same arc).\n- **Angle in a semicircle** = 90°.\n- **Angles in the same segment** are equal.\n- **Opposite angles of a cyclic quadrilateral** add to 180°.\n- **Perpendicular from the centre bisects a chord**; two radii make an isosceles triangle.\n- **Tangent meets radius at 90°**; **two tangents from a point are equal**.\n- **Alternate segment theorem**: angle between tangent and chord = angle in the alternate segment.\n- Give the theorem in words as the reason for every step."
+        }
       ],
       "practiceQuestions": [
-        { "key": "AQA-MAT-04-10-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Points A and B are on a circle with centre O. Angle AOB = 130°. C is a point on the major arc. Work out angle ACB in degrees.", "hint": "Angle at the circumference is half the angle at the centre.", "explanation": "$130 \\div 2 = 65°$.", "answers": [ { "numeric": 65, "tolerance": 0, "unit": "°" } ] },
-        { "key": "AQA-MAT-04-10-L1-P2", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "PQRS is a cyclic quadrilateral. Angle QPS = 3x and angle QRS = 2x. Work out the value of x.", "hint": "Opposite angles of a cyclic quadrilateral add to 180°.", "explanation": "$3x + 2x = 180$, so $5x = 180$ and $x = 36$.", "answers": [ { "numeric": 36, "tolerance": 0, "marks": 2 } ] },
-        { "key": "AQA-MAT-04-10-L1-P3", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: a tangent to a circle is always perpendicular to the radius at the point of contact.", "hint": "This is one of the tangent theorems.", "explanation": "True. The tangent and radius meet at 90° at the point where the tangent touches the circle.", "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ] },
-        { "key": "AQA-MAT-04-10-L1-P4", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "Chords AC and BD of a circle cross at point X inside the circle. Angle BAC = 41° and angle AXB = 105°. Work out angle BDC in degrees.", "hint": "Angles BAC and BDC are both subtended by chord BC in the same segment.", "explanation": "Angles in the same segment are equal, so angle BDC = angle BAC = 41°. The 105° is not needed.", "answers": [ { "numeric": 41, "tolerance": 0, "unit": "°", "marks": 2 } ] },
-        { "key": "AQA-MAT-04-10-L1-P5", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "Two tangents from an external point P touch a circle with centre O at points A and B. Angle APB = 48°. Work out angle AOB in degrees.", "hint": "Angles at A and B in quadrilateral OAPB are both 90°.", "explanation": "Angles in a quadrilateral sum to 360°: $360 - 90 - 90 - 48 = 132°$.", "answers": [ { "numeric": 132, "tolerance": 0, "unit": "°", "marks": 2 } ] },
-        { "key": "AQA-MAT-04-10-L1-P6", "type": "FormulaCalculation", "difficulty": 3, "marks": 3, "text": "A tangent from point P touches a circle with centre O at point T. The radius of the circle is 9 cm and OP = 15 cm. Work out the length PT in cm.", "hint": "Triangle OTP has a right angle at T. Use Pythagoras with OP as the hypotenuse.", "explanation": "$PT = \\sqrt{15^2 - 9^2} = \\sqrt{225 - 81} = \\sqrt{144} = 12$ cm.", "answers": [ { "numeric": 12, "tolerance": 0, "unit": "cm", "marks": 3 } ] },
-        { "key": "AQA-MAT-04-10-L1-P7", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "O is the centre of a circle and A, B are points on the circumference. Triangle OAB has angle AOB = 100°. What is angle OAB?", "hint": "OA and OB are radii, so the triangle is isosceles.", "explanation": "OA = OB (radii), so the base angles are equal: $(180 - 100) \\div 2 = 40°$.", "options": [ { "text": "40°", "correct": true }, { "text": "50°", "correct": false, "feedback": "That would be the angle at the circumference, not in the triangle." }, { "text": "80°", "correct": false }, { "text": "100°", "correct": false } ] },
-        { "key": "AQA-MAT-04-10-L1-P8", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "A tangent touches a circle at point A. Chord AB makes an angle of 35° with the tangent. C is a point on the circumference in the alternate segment, and angle ABC = 80°. Work out angle BAC in degrees.", "hint": "First find angle ACB using the alternate segment theorem, then use the triangle.", "explanation": "Angle ACB = 35° (alternate segment theorem). In triangle ABC, angle BAC $= 180 - 80 - 35 = 65°$.", "answers": [ { "numeric": 65, "tolerance": 0, "unit": "°", "marks": 2 } ] },
-        { "key": "AQA-MAT-04-10-L1-P9", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the statements of the theorems.", "metadata": { "blanksText": "The angle in a semicircle is ___ degrees. Opposite angles of a cyclic quadrilateral add up to ___ degrees." }, "hint": "One is a right angle; the other is a straight line's worth.", "explanation": "Angle in a semicircle is 90°; opposite angles of a cyclic quadrilateral sum to 180°.", "answers": [ { "text": "90", "blankIndex": 0, "marks": 1 }, { "text": "180", "blankIndex": 1, "marks": 1 } ] },
-        { "key": "AQA-MAT-04-10-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "A, B, C and D are points on a circle. Ravi says angle ABC + angle ADC = 180° because \"angles in a circle add to 180°\". His answer is right but his reason is wrong. Write the correct reason and explain what a cyclic quadrilateral is.", "hint": "What shape do the four points make?", "explanation": "ABCD is a cyclic quadrilateral (all four vertices lie on the circumference), and opposite angles of a cyclic quadrilateral add up to 180°.", "markScheme": [ { "criterion": "States the correct reason: opposite angles of a cyclic quadrilateral add to 180°", "marks": 1, "keywords": [ ["cyclic quadrilateral"], ["opposite"] ] }, { "criterion": "Explains that a cyclic quadrilateral has all four vertices on the circumference", "marks": 1, "keywords": [ ["four", "4", "all"], ["circumference", "on the circle", "on a circle"] ] } ] },
-        { "key": "AQA-MAT-04-10-L1-P11", "type": "ExamQuestion", "difficulty": 5, "marks": 4, "examStyle": true, "text": "Points A, B, C and D lie on a circle with centre O. BD is a diameter. Angle ABD = 32°.\n\n(a) Work out angle ADB. Give a reason.\n\n(b) Work out angle ACB. Give a reason.", "hint": "(a) The angle at A is 90°. (b) Angles ADB and ACB are in the same segment (both stand on chord AB).", "explanation": "(a) Angle BAD = 90° (angle in a semicircle), so angle ADB = 180 − 90 − 32 = 58° (angles in a triangle). (b) Angle ACB = angle ADB = 58° (angles in the same segment are equal).", "markScheme": [ { "criterion": "Uses angle BAD = 90° (angle in a semicircle)", "marks": 1, "keywords": [ ["semicircle", "semi-circle", "semi circle", "diameter"] ] }, { "criterion": "Angle ADB = 58°", "marks": 1, "keywords": [ ["58"] ] }, { "criterion": "Angle ACB = 58°", "marks": 1, "keywords": [ ["58"] ] }, { "criterion": "Reason: angles in the same segment are equal", "marks": 1, "keywords": [ ["same segment"] ] } ] }
+        {
+          "key": "AQA-MAT-04-10-L1-P1",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Points A and B are on a circle with centre O. Angle AOB = 130°. C is a point on the major arc. Work out angle ACB in degrees.",
+          "hint": "Angle at the circumference is half the angle at the centre.",
+          "explanation": "$130 \\div 2 = 65°$.",
+          "answers": [
+            {
+              "numeric": 65,
+              "tolerance": 0,
+              "unit": "°"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P2",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "PQRS is a cyclic quadrilateral. Angle QPS = 3x and angle QRS = 2x. Work out the value of x.",
+          "hint": "Opposite angles of a cyclic quadrilateral add to 180°.",
+          "explanation": "$3x + 2x = 180$, so $5x = 180$ and $x = 36$.",
+          "answers": [
+            {
+              "numeric": 36,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P3",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: a tangent to a circle is always perpendicular to the radius at the point of contact.",
+          "hint": "This is one of the tangent theorems.",
+          "explanation": "True. The tangent and radius meet at 90° at the point where the tangent touches the circle.",
+          "options": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P4",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Chords AC and BD of a circle cross at point X inside the circle. Angle BAC = 41° and angle AXB = 105°. Work out angle BDC in degrees.",
+          "hint": "Angles BAC and BDC are both subtended by chord BC in the same segment.",
+          "explanation": "Angles in the same segment are equal, so angle BDC = angle BAC = 41°. The 105° is not needed.",
+          "answers": [
+            {
+              "numeric": 41,
+              "tolerance": 0,
+              "unit": "°",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P5",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Two tangents from an external point P touch a circle with centre O at points A and B. Angle APB = 48°. Work out angle AOB in degrees.",
+          "hint": "Angles at A and B in quadrilateral OAPB are both 90°.",
+          "explanation": "Angles in a quadrilateral sum to 360°: $360 - 90 - 90 - 48 = 132°$.",
+          "answers": [
+            {
+              "numeric": 132,
+              "tolerance": 0,
+              "unit": "°",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P6",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A tangent from point P touches a circle with centre O at point T. The radius of the circle is 9 cm and OP = 15 cm. Work out the length PT in cm.",
+          "hint": "Triangle OTP has a right angle at T. Use Pythagoras with OP as the hypotenuse.",
+          "explanation": "$PT = \\sqrt{15^2 - 9^2} = \\sqrt{225 - 81} = \\sqrt{144} = 12$ cm.",
+          "answers": [
+            {
+              "numeric": 12,
+              "tolerance": 0,
+              "unit": "cm",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P7",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "O is the centre of a circle and A, B are points on the circumference. Triangle OAB has angle AOB = 100°. What is angle OAB?",
+          "hint": "OA and OB are radii, so the triangle is isosceles.",
+          "explanation": "OA = OB (radii), so the base angles are equal: $(180 - 100) \\div 2 = 40°$.",
+          "options": [
+            {
+              "text": "40°",
+              "correct": true
+            },
+            {
+              "text": "50°",
+              "correct": false,
+              "feedback": "That would be the angle at the circumference, not in the triangle."
+            },
+            {
+              "text": "80°",
+              "correct": false
+            },
+            {
+              "text": "100°",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P8",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A tangent touches a circle at point A. Chord AB makes an angle of 35° with the tangent. C is a point on the circumference in the alternate segment, and angle ABC = 80°. Work out angle BAC in degrees.",
+          "hint": "First find angle ACB using the alternate segment theorem, then use the triangle.",
+          "explanation": "Angle ACB = 35° (alternate segment theorem). In triangle ABC, angle BAC $= 180 - 80 - 35 = 65°$.",
+          "answers": [
+            {
+              "numeric": 65,
+              "tolerance": 0,
+              "unit": "°",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P9",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the statements of the theorems.",
+          "metadata": {
+            "blanksText": "The angle in a semicircle is ___ degrees. Opposite angles of a cyclic quadrilateral add up to ___ degrees."
+          },
+          "hint": "One is a right angle; the other is a straight line's worth.",
+          "explanation": "Angle in a semicircle is 90°; opposite angles of a cyclic quadrilateral sum to 180°.",
+          "answers": [
+            {
+              "text": "90",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "180",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "A, B, C and D are points on a circle. Ravi says angle ABC + angle ADC = 180° because \"angles in a circle add to 180°\". His answer is right but his reason is wrong. Write the correct reason and explain what a cyclic quadrilateral is.",
+          "hint": "What shape do the four points make?",
+          "explanation": "ABCD is a cyclic quadrilateral (all four vertices lie on the circumference), and opposite angles of a cyclic quadrilateral add up to 180°.",
+          "markScheme": [
+            {
+              "criterion": "States the correct reason: opposite angles of a cyclic quadrilateral add to 180°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "cyclic quadrilateral",
+                  "cyclic quad"
+                ],
+                [
+                  "opposite",
+                  "add to 180",
+                  "sum to 180"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explains that a cyclic quadrilateral has all four vertices on the circumference",
+              "marks": 1,
+              "keywords": [
+                [
+                  "four",
+                  "4",
+                  "all"
+                ],
+                [
+                  "circumference",
+                  "on the circle",
+                  "on a circle"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 5,
+          "marks": 4,
+          "examStyle": true,
+          "text": "Points A, B, C and D lie on a circle with centre O. BD is a diameter. Angle ABD = 32°.\n\n(a) Work out angle ADB. Give a reason.\n\n(b) Work out angle ACB. Give a reason.",
+          "hint": "(a) The angle at A is 90°. (b) Angles ADB and ACB are in the same segment (both stand on chord AB).",
+          "explanation": "(a) Angle BAD = 90° (angle in a semicircle), so angle ADB = 180 − 90 − 32 = 58° (angles in a triangle). (b) Angle ACB = angle ADB = 58° (angles in the same segment are equal).",
+          "markScheme": [
+            {
+              "criterion": "Uses angle BAD = 90° (angle in a semicircle)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "semicircle",
+                  "semi-circle",
+                  "semi circle",
+                  "diameter"
+                ]
+              ]
+            },
+            {
+              "criterion": "Angle ADB = 58°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "58",
+                  "58.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Angle ACB = 58°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "58",
+                  "58.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Reason: angles in the same segment are equal",
+              "marks": 1,
+              "keywords": [
+                [
+                  "same segment",
+                  "same-segment"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

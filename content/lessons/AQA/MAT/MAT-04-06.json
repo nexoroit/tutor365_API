@@ -17,81 +17,530 @@
       "difficulty": 3,
       "tier": "NotApplicable",
       "activities": [
-        { "type": "Explanation", "title": "The theorem", "minutes": 4, "content": "## Right-angled triangles only\n\nIn a **right-angled** triangle, the longest side is always opposite the right angle. It is called the **hypotenuse**. If you label it $c$ and the two shorter sides $a$ and $b$, Pythagoras' theorem says\n\n$a^2 + b^2 = c^2$\n\nIn words: the square of the hypotenuse equals the sum of the squares of the other two sides.\n\nIt does **not** matter which shorter side you call $a$ and which $b$, but the hypotenuse **must** be on its own. Find it first, every time: it is the side that does not touch the right angle.\n\n## Why it works\n\nDraw a square on each side of the triangle. The two smaller squares have exactly the same total area as the largest one. For the famous 3-4-5 triangle: $9 + 16 = 25$ ✓.\n\n## Pythagorean triples\n\nSome whole-number sets satisfy the rule and are worth recognising because they save calculator time:\n\n- 3, 4, 5 (and multiples: 6, 8, 10; 9, 12, 15)\n- 5, 12, 13\n- 8, 15, 17\n- 7, 24, 25\n\n## Units\n\nAll lengths must be in the **same unit** before you square them. If one side is in metres and another in centimetres, convert first. Answers are lengths, so the unit is cm, m, etc. (not squared)." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-04-06-L1-Q1", "type": "MultipleChoice", "difficulty": 1, "marks": 1,
-          "text": "A right-angled triangle has its right angle at vertex B. Which side is the hypotenuse?",
-          "hint": "The hypotenuse is opposite the right angle and does not touch it.",
-          "explanation": "The right angle is at B, so the hypotenuse is the side that does not include B: AC.",
-          "options": [
-            { "text": "AC", "correct": true },
-            { "text": "AB", "correct": false, "feedback": "AB touches the right angle at B, so it is a shorter side." },
-            { "text": "BC", "correct": false, "feedback": "BC touches the right angle at B." },
-            { "text": "It depends on the lengths", "correct": false } ] } },
-        { "type": "Example", "title": "Worked example: finding the hypotenuse", "minutes": 4, "content": "## Adding the squares\n\n**A right-angled triangle has shorter sides 6 cm and 11 cm. Find the hypotenuse to 1 decimal place.**\n\n1. Write the theorem: $c^2 = a^2 + b^2$.\n2. Substitute: $c^2 = 6^2 + 11^2 = 36 + 121 = 157$.\n3. Square root: $c = \\sqrt{157} = 12.53...$\n4. Round: $c = 12.5$ cm.\n\n**Check**: the hypotenuse must be longer than both other sides (12.5 > 11 ✓) but shorter than their sum (12.5 < 17 ✓).\n\n## Exact answers\n\nIf the question says \"leave your answer as a surd\" or \"give an exact answer\", stop at $\\sqrt{157}$. Simplify if possible: a hypotenuse of $\\sqrt{72}$ is written $6\\sqrt{2}$.\n\n## Setting out working\n\nExaminers award a method mark for a correct statement such as $c^2 = 6^2 + 11^2$, even if the arithmetic goes wrong afterwards. Always write that line.\n\n## Calculator tip\n\nType the whole thing in one go: $\\sqrt{(6^2 + 11^2)}$. Do not round 157 or its square root until the final answer." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-06-L1-Q2", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
-          "text": "A right-angled triangle has shorter sides of 9 cm and 12 cm. Work out the length of the hypotenuse in cm.",
-          "hint": "$9^2 + 12^2$, then square root.",
-          "explanation": "$81 + 144 = 225$, and $\\sqrt{225} = 15$ cm. This is a 3-4-5 triangle scaled by 3.",
-          "answers": [ { "numeric": 15, "tolerance": 0, "unit": "cm", "marks": 2 } ] } },
-        { "type": "Explanation", "title": "Finding a shorter side", "minutes": 5, "content": "## Subtracting the squares\n\nWhen you know the **hypotenuse** and one shorter side, rearrange:\n\n$a^2 = c^2 - b^2$\n\n**A ladder 5 m long leans against a wall with its foot 1.4 m from the wall. How far up the wall does it reach?**\n\nThe ladder is the hypotenuse (it is opposite the right angle between wall and ground).\n\n$h^2 = 5^2 - 1.4^2 = 25 - 1.96 = 23.04$\n\n$h = \\sqrt{23.04} = 4.8$ m\n\n**Check**: 4.8 is less than 5 ✓. If you ever get a shorter side that is longer than the hypotenuse, you have added instead of subtracted.\n\n## Isosceles triangles\n\nAn isosceles triangle is not right-angled, but its **line of symmetry** splits it into two identical right-angled triangles. Halve the base, then use Pythagoras.\n\n*An isosceles triangle has two equal sides of 13 cm and a base of 10 cm. Find its height and area.*\n\nHalf-base $= 5$ cm. $h^2 = 13^2 - 5^2 = 169 - 25 = 144$, so $h = 12$ cm.\n\nArea $= \\frac{1}{2} \\times 10 \\times 12 = 60$ cm².\n\n## Distance between two points\n\nFor points (1, 2) and (7, 10): horizontal change 6, vertical change 8. These are the shorter sides of a right-angled triangle, so distance $= \\sqrt{36 + 64} = 10$." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-06-L1-Q3", "type": "FormulaCalculation", "difficulty": 3, "marks": 2,
-          "text": "A right-angled triangle has hypotenuse 17 cm and one shorter side 8 cm. Work out the other side in cm.",
-          "hint": "$17^2 - 8^2$, then square root.",
-          "explanation": "$289 - 64 = 225$, $\\sqrt{225} = 15$ cm.",
-          "answers": [ { "numeric": 15, "tolerance": 0, "unit": "cm", "marks": 2 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-06-L1-Q4", "type": "FormulaCalculation", "difficulty": 3, "marks": 3,
-          "text": "Find the distance between the points (−2, 3) and (4, 11). Give your answer to 1 decimal place.",
-          "hint": "Horizontal change 6, vertical change 8.",
-          "explanation": "$\\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10.0$.",
-          "answers": [ { "numeric": 10, "tolerance": 0.05, "marks": 3 } ] } },
-        { "type": "Explanation", "title": "Is it right-angled? And problem solving", "minutes": 4, "content": "## Testing a triangle\n\nPythagoras works **only** for right-angled triangles, so it can be used in reverse: if the three sides satisfy $a^2 + b^2 = c^2$ (with $c$ the longest), the triangle **is** right-angled; if not, it is not.\n\n*Sides 7 cm, 9 cm, 11 cm.* $49 + 81 = 130$, but $11^2 = 121$. Not equal, so **not right-angled**. Show both numbers and state the conclusion.\n\n*Sides 20 cm, 21 cm, 29 cm.* $400 + 441 = 841 = 29^2$. **Right-angled.**\n\n## Spotting the right angle in a problem\n\nReal-life questions rarely say \"right-angled triangle\". Look for:\n- a wall meeting the ground, a mast and its shadow, a ladder (right angle at the base);\n- \"due north\" then \"due east\" (right angle at the turn);\n- diagonals of rectangles and squares;\n- the height of an isosceles or equilateral triangle;\n- a cone or a pyramid's slant height with its vertical height.\n\nSketch the triangle, mark the right angle, label the sides with what you know, and decide whether you are finding the hypotenuse (add) or a shorter side (subtract).\n\n## Perimeters and areas\n\nA question may give a rectangle's diagonal and one side and ask for its perimeter or area. Use Pythagoras to find the missing side first, then finish with the perimeter or area formula." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-06-L1-Q5", "type": "MultipleAnswer", "difficulty": 3, "marks": 2,
-          "text": "Select **all** the sets of side lengths that form a right-angled triangle.",
-          "hint": "Square the two smaller numbers and add; compare with the square of the largest.",
-          "explanation": "6, 8, 10: $36 + 64 = 100$ ✓. 5, 12, 13: $25 + 144 = 169$ ✓. 4, 5, 6: $16 + 25 = 41 \\ne 36$. 10, 10, 15: $200 \\ne 225$.",
-          "options": [
-            { "text": "6 cm, 8 cm, 10 cm", "correct": true },
-            { "text": "5 cm, 12 cm, 13 cm", "correct": true },
-            { "text": "4 cm, 5 cm, 6 cm", "correct": false, "feedback": "$16 + 25 = 41$, not 36." },
-            { "text": "10 cm, 10 cm, 15 cm", "correct": false, "feedback": "$100 + 100 = 200$, not 225." } ] } },
-        { "type": "Example", "title": "Worked example: Pythagoras in 3D (Higher)", "minutes": 5, "content": "## The longest diagonal of a cuboid\n\nA cuboid measures 6 cm by 8 cm by 5 cm. Find the length of the diagonal that runs from one bottom corner to the opposite top corner.\n\n**Step 1: the base diagonal.** The base is a 6 by 8 rectangle, so its diagonal is $\\sqrt{6^2 + 8^2} = \\sqrt{100} = 10$ cm.\n\n**Step 2: the space diagonal.** The base diagonal (10 cm) and the height (5 cm) form a right-angled triangle with the space diagonal as its hypotenuse:\n\n$d = \\sqrt{10^2 + 5^2} = \\sqrt{125} = 11.2$ cm.\n\n**Shortcut:** for a cuboid with edges $a$, $b$, $c$, the space diagonal is $\\sqrt{a^2 + b^2 + c^2}$. Here $\\sqrt{36 + 64 + 25} = \\sqrt{125}$ ✓.\n\n## Pyramids and cones\n\nA square-based pyramid with base 10 cm and vertical height 12 cm: the slant height to the midpoint of a base edge is $\\sqrt{12^2 + 5^2} = 13$ cm. The edge from the apex to a base corner uses half the base diagonal ($\\frac{1}{2}\\sqrt{200} = 7.07$) instead: $\\sqrt{144 + 50} = 13.9$ cm.\n\n## The key skill\n\nIn 3D, always find a flat right-angled triangle inside the solid, sketch it separately with its lengths, and apply Pythagoras in two stages. Keep exact values (like $\\sqrt{125}$) between stages." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-06-L1-Q6", "type": "FormulaCalculation", "difficulty": 4, "marks": 3, "tier": "Higher",
-          "text": "A cuboid has edges 3 cm, 4 cm and 12 cm. Work out the length of its longest diagonal in cm.",
-          "hint": "$\\sqrt{3^2 + 4^2 + 12^2}$.",
-          "explanation": "$9 + 16 + 144 = 169$, and $\\sqrt{169} = 13$ cm.",
-          "answers": [ { "numeric": 13, "tolerance": 0, "unit": "cm", "marks": 3 } ] } },
-        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Adding when you should subtract.** Finding the hypotenuse: add. Finding a shorter side: subtract from the hypotenuse squared.\n- **Forgetting to square root.** $c^2 = 157$ is not the answer; $c = \\sqrt{157}$ is.\n- **Wrong hypotenuse.** It is opposite the right angle; it is never one of the sides that form the right angle.\n- **Using Pythagoras on a non-right-angled triangle.** If there is no right angle, you need trigonometry (sine or cosine rule) instead.\n- **Mixed units.** Convert to the same unit first.\n- **Isosceles triangles.** Halve the base before using Pythagoras.\n- **Rounding too early.** Keep $\\sqrt{125}$ exact until the final step.\n- **No working.** Write $c^2 = a^2 + b^2$ with numbers substituted to secure the method mark." },
-        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
-          "key": "AQA-MAT-04-06-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 5, "examStyle": true,
-          "text": "A rectangular field is 120 m long and 50 m wide. Priya walks from one corner to the diagonally opposite corner, straight across the field. Sam walks between the same two corners but along two sides of the field.\n\n(a) How far does Priya walk?\n\n(b) How much further does Sam walk than Priya?\n\n(c) An isosceles triangle has two equal sides of 10 cm and a base of 12 cm. Work out its area.",
-          "hint": "(a) The diagonal is the hypotenuse of a 120 by 50 right-angled triangle. (c) Halve the base, find the height, then use ½ × base × height.",
-          "explanation": "(a) $\\sqrt{120^2 + 50^2} = \\sqrt{14400 + 2500} = \\sqrt{16900} = 130$ m. (b) Sam walks $120 + 50 = 170$ m, which is $40$ m further. (c) Height $= \\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$ cm. Area $= \\frac{1}{2} \\times 12 \\times 8 = 48$ cm².",
-          "markScheme": [
-            { "criterion": "Uses 120² + 50² (= 16 900)", "marks": 1, "keywords": [ ["16900", "16 900", "16,900", "120^2 + 50^2", "120² + 50²", "14400 + 2500"] ] },
-            { "criterion": "Priya walks 130 m", "marks": 1, "keywords": [ ["130"] ] },
-            { "criterion": "Sam walks 40 m further (170 − 130)", "marks": 1, "keywords": [ ["40"] ] },
-            { "criterion": "Height of isosceles triangle = 8 cm (using half-base 6)", "marks": 1, "keywords": [ ["8"] ] },
-            { "criterion": "Area = 48 cm²", "marks": 1, "keywords": [ ["48"] ] } ] } },
-        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Only for **right-angled** triangles: $a^2 + b^2 = c^2$, with $c$ the **hypotenuse** (opposite the right angle).\n- Hypotenuse: square, **add**, square root. Shorter side: square, **subtract**, square root.\n- Check: the hypotenuse is always the longest side.\n- Isosceles triangles: split down the line of symmetry and halve the base.\n- Distance between points: use the horizontal and vertical changes as the shorter sides.\n- Test for a right angle by checking whether $a^2 + b^2 = c^2$.\n- **Higher, 3D**: find a flat right-angled triangle inside the solid; cuboid diagonal $= \\sqrt{a^2 + b^2 + c^2}$." }
+        {
+          "type": "Explanation",
+          "title": "The theorem",
+          "minutes": 4,
+          "content": "## Right-angled triangles only\n\nIn a **right-angled** triangle, the longest side is always opposite the right angle. It is called the **hypotenuse**. If you label it $c$ and the two shorter sides $a$ and $b$, Pythagoras' theorem says\n\n$a^2 + b^2 = c^2$\n\nIn words: the square of the hypotenuse equals the sum of the squares of the other two sides.\n\nIt does **not** matter which shorter side you call $a$ and which $b$, but the hypotenuse **must** be on its own. Find it first, every time: it is the side that does not touch the right angle.\n\n## Why it works\n\nDraw a square on each side of the triangle. The two smaller squares have exactly the same total area as the largest one. For the famous 3-4-5 triangle: $9 + 16 = 25$ ✓.\n\n## Pythagorean triples\n\nSome whole-number sets satisfy the rule and are worth recognising because they save calculator time:\n\n- 3, 4, 5 (and multiples: 6, 8, 10; 9, 12, 15)\n- 5, 12, 13\n- 8, 15, 17\n- 7, 24, 25\n\n## Units\n\nAll lengths must be in the **same unit** before you square them. If one side is in metres and another in centimetres, convert first. Answers are lengths, so the unit is cm, m, etc. (not squared)."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-04-06-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "A right-angled triangle has its right angle at vertex B. Which side is the hypotenuse?",
+            "hint": "The hypotenuse is opposite the right angle and does not touch it.",
+            "explanation": "The right angle is at B, so the hypotenuse is the side that does not include B: AC.",
+            "options": [
+              {
+                "text": "AC",
+                "correct": true
+              },
+              {
+                "text": "AB",
+                "correct": false,
+                "feedback": "AB touches the right angle at B, so it is a shorter side."
+              },
+              {
+                "text": "BC",
+                "correct": false,
+                "feedback": "BC touches the right angle at B."
+              },
+              {
+                "text": "It depends on the lengths",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: finding the hypotenuse",
+          "minutes": 4,
+          "content": "## Adding the squares\n\n**A right-angled triangle has shorter sides 6 cm and 11 cm. Find the hypotenuse to 1 decimal place.**\n\n1. Write the theorem: $c^2 = a^2 + b^2$.\n2. Substitute: $c^2 = 6^2 + 11^2 = 36 + 121 = 157$.\n3. Square root: $c = \\sqrt{157} = 12.53...$\n4. Round: $c = 12.5$ cm.\n\n**Check**: the hypotenuse must be longer than both other sides (12.5 > 11 ✓) but shorter than their sum (12.5 < 17 ✓).\n\n## Exact answers\n\nIf the question says \"leave your answer as a surd\" or \"give an exact answer\", stop at $\\sqrt{157}$. Simplify if possible: a hypotenuse of $\\sqrt{72}$ is written $6\\sqrt{2}$.\n\n## Setting out working\n\nExaminers award a method mark for a correct statement such as $c^2 = 6^2 + 11^2$, even if the arithmetic goes wrong afterwards. Always write that line.\n\n## Calculator tip\n\nType the whole thing in one go: $\\sqrt{(6^2 + 11^2)}$. Do not round 157 or its square root until the final answer."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-06-L1-Q2",
+            "type": "FormulaCalculation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A right-angled triangle has shorter sides of 9 cm and 12 cm. Work out the length of the hypotenuse in cm.",
+            "hint": "$9^2 + 12^2$, then square root.",
+            "explanation": "$81 + 144 = 225$, and $\\sqrt{225} = 15$ cm. This is a 3-4-5 triangle scaled by 3.",
+            "answers": [
+              {
+                "numeric": 15,
+                "tolerance": 0,
+                "unit": "cm",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Finding a shorter side",
+          "minutes": 5,
+          "content": "## Subtracting the squares\n\nWhen you know the **hypotenuse** and one shorter side, rearrange:\n\n$a^2 = c^2 - b^2$\n\n**A ladder 5 m long leans against a wall with its foot 1.4 m from the wall. How far up the wall does it reach?**\n\nThe ladder is the hypotenuse (it is opposite the right angle between wall and ground).\n\n$h^2 = 5^2 - 1.4^2 = 25 - 1.96 = 23.04$\n\n$h = \\sqrt{23.04} = 4.8$ m\n\n**Check**: 4.8 is less than 5 ✓. If you ever get a shorter side that is longer than the hypotenuse, you have added instead of subtracted.\n\n## Isosceles triangles\n\nAn isosceles triangle is not right-angled, but its **line of symmetry** splits it into two identical right-angled triangles. Halve the base, then use Pythagoras.\n\n*An isosceles triangle has two equal sides of 13 cm and a base of 10 cm. Find its height and area.*\n\nHalf-base $= 5$ cm. $h^2 = 13^2 - 5^2 = 169 - 25 = 144$, so $h = 12$ cm.\n\nArea $= \\frac{1}{2} \\times 10 \\times 12 = 60$ cm².\n\n## Distance between two points\n\nFor points (1, 2) and (7, 10): horizontal change 6, vertical change 8. These are the shorter sides of a right-angled triangle, so distance $= \\sqrt{36 + 64} = 10$."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-06-L1-Q3",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A right-angled triangle has hypotenuse 17 cm and one shorter side 8 cm. Work out the other side in cm.",
+            "hint": "$17^2 - 8^2$, then square root.",
+            "explanation": "$289 - 64 = 225$, $\\sqrt{225} = 15$ cm.",
+            "answers": [
+              {
+                "numeric": 15,
+                "tolerance": 0,
+                "unit": "cm",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-06-L1-Q4",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Find the distance between the points (−2, 3) and (4, 11). Give your answer to 1 decimal place.",
+            "hint": "Horizontal change 6, vertical change 8.",
+            "explanation": "$\\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10.0$.",
+            "answers": [
+              {
+                "numeric": 10,
+                "tolerance": 0.05,
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Is it right-angled? And problem solving",
+          "minutes": 4,
+          "content": "## Testing a triangle\n\nPythagoras works **only** for right-angled triangles, so it can be used in reverse: if the three sides satisfy $a^2 + b^2 = c^2$ (with $c$ the longest), the triangle **is** right-angled; if not, it is not.\n\n*Sides 7 cm, 9 cm, 11 cm.* $49 + 81 = 130$, but $11^2 = 121$. Not equal, so **not right-angled**. Show both numbers and state the conclusion.\n\n*Sides 20 cm, 21 cm, 29 cm.* $400 + 441 = 841 = 29^2$. **Right-angled.**\n\n## Spotting the right angle in a problem\n\nReal-life questions rarely say \"right-angled triangle\". Look for:\n- a wall meeting the ground, a mast and its shadow, a ladder (right angle at the base);\n- \"due north\" then \"due east\" (right angle at the turn);\n- diagonals of rectangles and squares;\n- the height of an isosceles or equilateral triangle;\n- a cone or a pyramid's slant height with its vertical height.\n\nSketch the triangle, mark the right angle, label the sides with what you know, and decide whether you are finding the hypotenuse (add) or a shorter side (subtract).\n\n## Perimeters and areas\n\nA question may give a rectangle's diagonal and one side and ask for its perimeter or area. Use Pythagoras to find the missing side first, then finish with the perimeter or area formula."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-06-L1-Q5",
+            "type": "MultipleAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "Select **all** the sets of side lengths that form a right-angled triangle.",
+            "hint": "Square the two smaller numbers and add; compare with the square of the largest.",
+            "explanation": "6, 8, 10: $36 + 64 = 100$ ✓. 5, 12, 13: $25 + 144 = 169$ ✓. 4, 5, 6: $16 + 25 = 41 \\ne 36$. 10, 10, 15: $200 \\ne 225$.",
+            "options": [
+              {
+                "text": "6 cm, 8 cm, 10 cm",
+                "correct": true
+              },
+              {
+                "text": "5 cm, 12 cm, 13 cm",
+                "correct": true
+              },
+              {
+                "text": "4 cm, 5 cm, 6 cm",
+                "correct": false,
+                "feedback": "$16 + 25 = 41$, not 36."
+              },
+              {
+                "text": "10 cm, 10 cm, 15 cm",
+                "correct": false,
+                "feedback": "$100 + 100 = 200$, not 225."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: Pythagoras in 3D (Higher)",
+          "minutes": 5,
+          "content": "## The longest diagonal of a cuboid\n\nA cuboid measures 6 cm by 8 cm by 5 cm. Find the length of the diagonal that runs from one bottom corner to the opposite top corner.\n\n**Step 1: the base diagonal.** The base is a 6 by 8 rectangle, so its diagonal is $\\sqrt{6^2 + 8^2} = \\sqrt{100} = 10$ cm.\n\n**Step 2: the space diagonal.** The base diagonal (10 cm) and the height (5 cm) form a right-angled triangle with the space diagonal as its hypotenuse:\n\n$d = \\sqrt{10^2 + 5^2} = \\sqrt{125} = 11.2$ cm.\n\n**Shortcut:** for a cuboid with edges $a$, $b$, $c$, the space diagonal is $\\sqrt{a^2 + b^2 + c^2}$. Here $\\sqrt{36 + 64 + 25} = \\sqrt{125}$ ✓.\n\n## Pyramids and cones\n\nA square-based pyramid with base 10 cm and vertical height 12 cm: the slant height to the midpoint of a base edge is $\\sqrt{12^2 + 5^2} = 13$ cm. The edge from the apex to a base corner uses half the base diagonal ($\\frac{1}{2}\\sqrt{200} = 7.07$) instead: $\\sqrt{144 + 50} = 13.9$ cm.\n\n## The key skill\n\nIn 3D, always find a flat right-angled triangle inside the solid, sketch it separately with its lengths, and apply Pythagoras in two stages. Keep exact values (like $\\sqrt{125}$) between stages."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-06-L1-Q6",
+            "type": "FormulaCalculation",
+            "difficulty": 4,
+            "marks": 3,
+            "tier": "Higher",
+            "text": "A cuboid has edges 3 cm, 4 cm and 12 cm. Work out the length of its longest diagonal in cm.",
+            "hint": "$\\sqrt{3^2 + 4^2 + 12^2}$.",
+            "explanation": "$9 + 16 + 144 = 169$, and $\\sqrt{169} = 13$ cm.",
+            "answers": [
+              {
+                "numeric": 13,
+                "tolerance": 0,
+                "unit": "cm",
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Adding when you should subtract.** Finding the hypotenuse: add. Finding a shorter side: subtract from the hypotenuse squared.\n- **Forgetting to square root.** $c^2 = 157$ is not the answer; $c = \\sqrt{157}$ is.\n- **Wrong hypotenuse.** It is opposite the right angle; it is never one of the sides that form the right angle.\n- **Using Pythagoras on a non-right-angled triangle.** If there is no right angle, you need trigonometry (sine or cosine rule) instead.\n- **Mixed units.** Convert to the same unit first.\n- **Isosceles triangles.** Halve the base before using Pythagoras.\n- **Rounding too early.** Keep $\\sqrt{125}$ exact until the final step.\n- **No working.** Write $c^2 = a^2 + b^2$ with numbers substituted to secure the method mark."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-04-06-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "A rectangular field is 120 m long and 50 m wide. Priya walks from one corner to the diagonally opposite corner, straight across the field. Sam walks between the same two corners but along two sides of the field.\n\n(a) How far does Priya walk?\n\n(b) How much further does Sam walk than Priya?\n\n(c) An isosceles triangle has two equal sides of 10 cm and a base of 12 cm. Work out its area.",
+            "hint": "(a) The diagonal is the hypotenuse of a 120 by 50 right-angled triangle. (c) Halve the base, find the height, then use ½ × base × height.",
+            "explanation": "(a) $\\sqrt{120^2 + 50^2} = \\sqrt{14400 + 2500} = \\sqrt{16900} = 130$ m. (b) Sam walks $120 + 50 = 170$ m, which is $40$ m further. (c) Height $= \\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$ cm. Area $= \\frac{1}{2} \\times 12 \\times 8 = 48$ cm².",
+            "markScheme": [
+              {
+                "criterion": "Uses 120² + 50² (= 16 900)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "16900",
+                    "16 900",
+                    "16,900",
+                    "120^2 + 50^2",
+                    "120² + 50²"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Priya walks 130 m",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "130",
+                    "130.0"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Sam walks 40 m further (170 − 130)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "40",
+                    "40.0"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Height of isosceles triangle = 8 cm (using half-base 6)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "8",
+                    "8.0"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Area = 48 cm²",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "48",
+                    "48.0"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Only for **right-angled** triangles: $a^2 + b^2 = c^2$, with $c$ the **hypotenuse** (opposite the right angle).\n- Hypotenuse: square, **add**, square root. Shorter side: square, **subtract**, square root.\n- Check: the hypotenuse is always the longest side.\n- Isosceles triangles: split down the line of symmetry and halve the base.\n- Distance between points: use the horizontal and vertical changes as the shorter sides.\n- Test for a right angle by checking whether $a^2 + b^2 = c^2$.\n- **Higher, 3D**: find a flat right-angled triangle inside the solid; cuboid diagonal $= \\sqrt{a^2 + b^2 + c^2}$."
+        }
       ],
       "practiceQuestions": [
-        { "key": "AQA-MAT-04-06-L1-P1", "type": "FormulaCalculation", "difficulty": 1, "marks": 1, "text": "A right-angled triangle has shorter sides 5 cm and 12 cm. Work out the hypotenuse in cm.", "hint": "$25 + 144$.", "explanation": "$\\sqrt{169} = 13$ cm.", "answers": [ { "numeric": 13, "tolerance": 0, "unit": "cm" } ] },
-        { "key": "AQA-MAT-04-06-L1-P2", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "A right-angled triangle has shorter sides 7 cm and 10 cm. Work out the hypotenuse in cm to 1 decimal place.", "hint": "$\\sqrt{49 + 100}$.", "explanation": "$\\sqrt{149} = 12.2$ cm.", "answers": [ { "numeric": 12.2, "tolerance": 0.06, "unit": "cm", "marks": 2 } ] },
-        { "key": "AQA-MAT-04-06-L1-P3", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "A right-angled triangle has hypotenuse 25 cm and one shorter side 7 cm. Work out the other shorter side in cm.", "hint": "$25^2 - 7^2$.", "explanation": "$625 - 49 = 576$, $\\sqrt{576} = 24$ cm.", "answers": [ { "numeric": 24, "tolerance": 0, "unit": "cm", "marks": 2 } ] },
-        { "key": "AQA-MAT-04-06-L1-P4", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: Pythagoras' theorem can be used to find a side in any triangle as long as you know the other two sides.", "hint": "What kind of triangle does the theorem apply to?", "explanation": "False. It only works for right-angled triangles. For other triangles you need the sine or cosine rule.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
-        { "key": "AQA-MAT-04-06-L1-P5", "type": "FormulaCalculation", "difficulty": 3, "marks": 3, "text": "A ship sails 24 km due east and then 10 km due north. How far is it from its starting point, in km?", "hint": "East then north makes a right angle; the direct distance is the hypotenuse.", "explanation": "$\\sqrt{24^2 + 10^2} = \\sqrt{576 + 100} = \\sqrt{676} = 26$ km.", "answers": [ { "numeric": 26, "tolerance": 0, "unit": "km", "marks": 3 } ] },
-        { "key": "AQA-MAT-04-06-L1-P6", "type": "FormulaCalculation", "difficulty": 3, "marks": 3, "text": "An isosceles triangle has two equal sides of 15 cm and a base of 18 cm. Work out its perpendicular height in cm.", "hint": "Half the base is 9 cm. $15^2 - 9^2$.", "explanation": "$225 - 81 = 144$, $\\sqrt{144} = 12$ cm.", "answers": [ { "numeric": 12, "tolerance": 0, "unit": "cm", "marks": 3 } ] },
-        { "key": "AQA-MAT-04-06-L1-P7", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "A 3.5 m ladder leans against a wall so that its top is 2.8 m up the wall. Which calculation gives the distance of the foot of the ladder from the wall?", "hint": "The ladder is the hypotenuse, so subtract.", "explanation": "Distance $= \\sqrt{3.5^2 - 2.8^2} = \\sqrt{12.25 - 7.84} = \\sqrt{4.41} = 2.1$ m.", "options": [ { "text": "√(3.5² − 2.8²)", "correct": true }, { "text": "√(3.5² + 2.8²)", "correct": false, "feedback": "The ladder is the hypotenuse, so you must subtract." }, { "text": "3.5 − 2.8", "correct": false }, { "text": "√(2.8² − 3.5²)", "correct": false, "feedback": "That would be the square root of a negative number." } ] },
-        { "key": "AQA-MAT-04-06-L1-P8", "type": "Equation", "difficulty": 3, "marks": 2, "text": "A right-angled triangle has shorter sides 4 cm and 8 cm. Write the exact length of the hypotenuse as a simplified surd. Type your answer like 3sqrt(5).", "hint": "$\\sqrt{16 + 64} = \\sqrt{80}$; simplify using $80 = 16 \\times 5$.", "explanation": "$\\sqrt{80} = \\sqrt{16 \\times 5} = 4\\sqrt{5}$ cm.", "answers": [ { "text": "4sqrt(5)", "caseSensitive": false, "marks": 2 } ] },
-        { "key": "AQA-MAT-04-06-L1-P9", "type": "FormulaCalculation", "difficulty": 4, "marks": 3, "tier": "Higher", "text": "A cuboid has a base 8 cm by 6 cm and a height of 24 cm. Work out the length of the longest diagonal of the cuboid in cm.", "hint": "Base diagonal is 10 cm; then $\\sqrt{10^2 + 24^2}$.", "explanation": "Base diagonal $= \\sqrt{64 + 36} = 10$. Space diagonal $= \\sqrt{100 + 576} = \\sqrt{676} = 26$ cm.", "answers": [ { "numeric": 26, "tolerance": 0, "unit": "cm", "marks": 3 } ] },
-        { "key": "AQA-MAT-04-06-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "A triangle has sides 9 cm, 12 cm and 16 cm. Show, with working, whether or not it is right-angled.", "hint": "Compare $9^2 + 12^2$ with $16^2$.", "explanation": "$81 + 144 = 225$, but $16^2 = 256$. These are not equal, so the triangle is not right-angled.", "markScheme": [ { "criterion": "Calculates 9² + 12² = 225 and 16² = 256", "marks": 1, "keywords": [ ["225"], ["256"] ] }, { "criterion": "States they are not equal so the triangle is not right-angled", "marks": 1, "keywords": [ ["not right", "isn't right", "not equal", "does not", "doesn't"] ] } ] },
-        { "key": "AQA-MAT-04-06-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "A rectangle has a diagonal of length 20 cm and a width of 12 cm.\n\n(a) Work out the length of the rectangle.\n\n(b) Work out the perimeter and the area of the rectangle.", "hint": "The diagonal is the hypotenuse: length $= \\sqrt{20^2 - 12^2}$.", "explanation": "(a) $\\sqrt{400 - 144} = \\sqrt{256} = 16$ cm. (b) Perimeter $= 2(16 + 12) = 56$ cm. Area $= 16 \\times 12 = 192$ cm².", "markScheme": [ { "criterion": "Uses 20² − 12² = 256", "marks": 1, "keywords": [ ["256", "400 - 144", "400 − 144", "20^2 - 12^2", "20² - 12²", "20² − 12²"] ] }, { "criterion": "Length = 16 cm", "marks": 1, "keywords": [ ["16"] ] }, { "criterion": "Perimeter = 56 cm", "marks": 1, "keywords": [ ["56"] ] }, { "criterion": "Area = 192 cm²", "marks": 1, "keywords": [ ["192"] ] } ] }
+        {
+          "key": "AQA-MAT-04-06-L1-P1",
+          "type": "FormulaCalculation",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A right-angled triangle has shorter sides 5 cm and 12 cm. Work out the hypotenuse in cm.",
+          "hint": "$25 + 144$.",
+          "explanation": "$\\sqrt{169} = 13$ cm.",
+          "answers": [
+            {
+              "numeric": 13,
+              "tolerance": 0,
+              "unit": "cm"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P2",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A right-angled triangle has shorter sides 7 cm and 10 cm. Work out the hypotenuse in cm to 1 decimal place.",
+          "hint": "$\\sqrt{49 + 100}$.",
+          "explanation": "$\\sqrt{149} = 12.2$ cm.",
+          "answers": [
+            {
+              "numeric": 12.2,
+              "tolerance": 0.06,
+              "unit": "cm",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P3",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A right-angled triangle has hypotenuse 25 cm and one shorter side 7 cm. Work out the other shorter side in cm.",
+          "hint": "$25^2 - 7^2$.",
+          "explanation": "$625 - 49 = 576$, $\\sqrt{576} = 24$ cm.",
+          "answers": [
+            {
+              "numeric": 24,
+              "tolerance": 0,
+              "unit": "cm",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P4",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: Pythagoras' theorem can be used to find a side in any triangle as long as you know the other two sides.",
+          "hint": "What kind of triangle does the theorem apply to?",
+          "explanation": "False. It only works for right-angled triangles. For other triangles you need the sine or cosine rule.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P5",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A ship sails 24 km due east and then 10 km due north. How far is it from its starting point, in km?",
+          "hint": "East then north makes a right angle; the direct distance is the hypotenuse.",
+          "explanation": "$\\sqrt{24^2 + 10^2} = \\sqrt{576 + 100} = \\sqrt{676} = 26$ km.",
+          "answers": [
+            {
+              "numeric": 26,
+              "tolerance": 0,
+              "unit": "km",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P6",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "An isosceles triangle has two equal sides of 15 cm and a base of 18 cm. Work out its perpendicular height in cm.",
+          "hint": "Half the base is 9 cm. $15^2 - 9^2$.",
+          "explanation": "$225 - 81 = 144$, $\\sqrt{144} = 12$ cm.",
+          "answers": [
+            {
+              "numeric": 12,
+              "tolerance": 0,
+              "unit": "cm",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P7",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A 3.5 m ladder leans against a wall so that its top is 2.8 m up the wall. Which calculation gives the distance of the foot of the ladder from the wall?",
+          "hint": "The ladder is the hypotenuse, so subtract.",
+          "explanation": "Distance $= \\sqrt{3.5^2 - 2.8^2} = \\sqrt{12.25 - 7.84} = \\sqrt{4.41} = 2.1$ m.",
+          "options": [
+            {
+              "text": "√(3.5² − 2.8²)",
+              "correct": true
+            },
+            {
+              "text": "√(3.5² + 2.8²)",
+              "correct": false,
+              "feedback": "The ladder is the hypotenuse, so you must subtract."
+            },
+            {
+              "text": "3.5 − 2.8",
+              "correct": false
+            },
+            {
+              "text": "√(2.8² − 3.5²)",
+              "correct": false,
+              "feedback": "That would be the square root of a negative number."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P8",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A right-angled triangle has shorter sides 4 cm and 8 cm. Write the exact length of the hypotenuse as a simplified surd. Type your answer like 3sqrt(5).",
+          "hint": "$\\sqrt{16 + 64} = \\sqrt{80}$; simplify using $80 = 16 \\times 5$.",
+          "explanation": "$\\sqrt{80} = \\sqrt{16 \\times 5} = 4\\sqrt{5}$ cm.",
+          "answers": [
+            {
+              "text": "4sqrt(5)",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P9",
+          "type": "FormulaCalculation",
+          "difficulty": 4,
+          "marks": 3,
+          "tier": "Higher",
+          "text": "A cuboid has a base 8 cm by 6 cm and a height of 24 cm. Work out the length of the longest diagonal of the cuboid in cm.",
+          "hint": "Base diagonal is 10 cm; then $\\sqrt{10^2 + 24^2}$.",
+          "explanation": "Base diagonal $= \\sqrt{64 + 36} = 10$. Space diagonal $= \\sqrt{100 + 576} = \\sqrt{676} = 26$ cm.",
+          "answers": [
+            {
+              "numeric": 26,
+              "tolerance": 0,
+              "unit": "cm",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "A triangle has sides 9 cm, 12 cm and 16 cm. Show, with working, whether or not it is right-angled.",
+          "hint": "Compare $9^2 + 12^2$ with $16^2$.",
+          "explanation": "$81 + 144 = 225$, but $16^2 = 256$. These are not equal, so the triangle is not right-angled.",
+          "markScheme": [
+            {
+              "criterion": "Calculates 9² + 12² = 225 and 16² = 256",
+              "marks": 1,
+              "keywords": [
+                [
+                  "225",
+                  "225.0"
+                ],
+                [
+                  "256",
+                  "256.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "States they are not equal so the triangle is not right-angled",
+              "marks": 1,
+              "keywords": [
+                [
+                  "not right",
+                  "isn't right",
+                  "not equal",
+                  "does not",
+                  "doesn't"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A rectangle has a diagonal of length 20 cm and a width of 12 cm.\n\n(a) Work out the length of the rectangle.\n\n(b) Work out the perimeter and the area of the rectangle.",
+          "hint": "The diagonal is the hypotenuse: length $= \\sqrt{20^2 - 12^2}$.",
+          "explanation": "(a) $\\sqrt{400 - 144} = \\sqrt{256} = 16$ cm. (b) Perimeter $= 2(16 + 12) = 56$ cm. Area $= 16 \\times 12 = 192$ cm².",
+          "markScheme": [
+            {
+              "criterion": "Uses 20² − 12² = 256",
+              "marks": 1,
+              "keywords": [
+                [
+                  "256",
+                  "400 - 144",
+                  "400 − 144",
+                  "20^2 - 12^2",
+                  "20² - 12²"
+                ]
+              ]
+            },
+            {
+              "criterion": "Length = 16 cm",
+              "marks": 1,
+              "keywords": [
+                [
+                  "16",
+                  "16.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Perimeter = 56 cm",
+              "marks": 1,
+              "keywords": [
+                [
+                  "56",
+                  "56.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Area = 192 cm²",
+              "marks": 1,
+              "keywords": [
+                [
+                  "192",
+                  "192.0"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

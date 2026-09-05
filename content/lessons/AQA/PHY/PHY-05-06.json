@@ -1,0 +1,582 @@
+{
+  "subTopicCode": "PHY-05-06",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-PHY-05-06-L1",
+      "title": "Forces and motion",
+      "summary": "Describe motion using speed, velocity and acceleration, read distance–time and velocity–time graphs, apply Newton's three laws including F = ma, and explain what affects the stopping distance of a vehicle.",
+      "objectives": [
+        "I can calculate speed and acceleration using s = v t and a = Δv / t, and use v² − u² = 2 a s.",
+        "I can interpret distance–time and velocity–time graphs, including finding speed from a gradient and distance from an area.",
+        "I can state Newton's three laws of motion and use F = m a.",
+        "I can explain what inertia is and describe the acceleration required practical.",
+        "I can describe the factors that affect thinking distance and braking distance."
+      ],
+      "estimatedMinutes": 45,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Speed and velocity",
+          "minutes": 4,
+          "content": "## Describing motion\n\n**Distance** is how far an object has travelled (a scalar). **Displacement** is the straight-line distance from start to finish *in a given direction* (a vector).\n\n**Speed** is a scalar: how fast something moves. **Velocity** is a vector: speed in a stated direction. A car going round a roundabout at a steady 20 m/s has a constant speed but a **changing velocity** because its direction keeps changing.\n\nFor an object moving at constant speed:\n\n$$s = v t$$\n\n- $s$ = distance in **m**\n- $v$ = speed in **m/s**\n- $t$ = time in **s**\n\nMost journeys involve changing speed, so we often use the **average speed** = total distance ÷ total time.\n\n### Typical speeds (worth remembering)\n| Motion | Typical speed |\n|---|---|\n| Walking | 1.5 m/s |\n| Running | 3 m/s |\n| Cycling | 6 m/s |\n| Car on a main road | 13–30 m/s |\n| Sound in air | 330 m/s |\n\nThe speed of sound and the wind speed vary with conditions such as temperature."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-PHY-05-06-L1-Q1",
+            "type": "FormulaCalculation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A runner completes a 1500 m race in 4 minutes 10 seconds. Calculate their average speed in m/s.",
+            "hint": "Convert the time to seconds first: 4 min 10 s = 250 s. Then speed = distance ÷ time.",
+            "explanation": "t = (4 × 60) + 10 = 250 s. v = 1500 ÷ 250 = 6 m/s.",
+            "answers": [
+              {
+                "numeric": 6,
+                "tolerance": 0.05,
+                "unit": "m/s",
+                "marks": 2
+              }
+            ],
+            "metadata": {
+              "unitsRequired": true
+            }
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Acceleration",
+          "minutes": 4,
+          "content": "## Acceleration\n\n**Acceleration** is the rate of change of velocity: how quickly the velocity changes.\n\n$$a = \\frac{\\Delta v}{t}$$\n\n- $a$ = acceleration in **m/s²**\n- $\\Delta v$ = change in velocity = final velocity − initial velocity, in **m/s**\n- $t$ = time taken in **s**\n\nAn acceleration of 2 m/s² means the velocity increases by 2 m/s every second. A **negative** acceleration (velocity decreasing) is called a **deceleration**.\n\nA car going from 10 m/s to 25 m/s in 5 s has $a = (25 - 10)/5 = 3$ m/s².\n\n### The equation without time\nWhen you know the distance but not the time, use:\n\n$$v^2 - u^2 = 2 a s$$\n\n- $v$ = final velocity, $u$ = initial velocity (m/s)\n- $a$ = acceleration (m/s²), $s$ = distance (m)\n\n### Falling objects\nNear the Earth's surface any object falling freely accelerates at about **9.8 m/s²** (same number as $g$). An object falling through air speeds up until air resistance grows to equal its weight; the resultant force is then zero and it falls at a steady **terminal velocity**."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: acceleration equations",
+          "minutes": 4,
+          "content": "**A cyclist speeds up from 4 m/s to 10 m/s in 12 s. Find the acceleration.**\n\n$a = \\dfrac{\\Delta v}{t} = \\dfrac{10 - 4}{12} = \\dfrac{6}{12} = 0.5$ m/s²\n\n**A train slows from 30 m/s to 12 m/s over a distance of 630 m. Find the deceleration.**\n\nUse $v^2 - u^2 = 2as$:\n\n$12^2 - 30^2 = 2 \\times a \\times 630$\n\n$144 - 900 = 1260a$\n\n$-756 = 1260a$\n\n$a = -0.6$ m/s². The minus sign shows it is a deceleration of 0.6 m/s².\n\n**A stone is dropped from rest and hits the ground at 14 m/s. How far did it fall? (a = 9.8 m/s²)**\n\n$v^2 - u^2 = 2as$\n\n$14^2 - 0 = 2 \\times 9.8 \\times s$\n\n$196 = 19.6 s$, so $s = 10$ m"
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-PHY-05-06-L1-Q2",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "A car accelerates uniformly from rest to 20 m/s over a distance of 80 m. Calculate its acceleration.",
+            "hint": "Use v² − u² = 2 a s with u = 0.",
+            "explanation": "20² − 0² = 2 × a × 80. 400 = 160a. a = 2.5 m/s².",
+            "answers": [
+              {
+                "numeric": 2.5,
+                "tolerance": 0.03,
+                "unit": "m/s²",
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Motion graphs",
+          "minutes": 5,
+          "content": "## Distance–time graphs\n\n- The **gradient** (steepness) = **speed**.\n- A **straight sloping line** = constant speed.\n- A **horizontal line** = stationary.\n- A **curve** = changing speed (accelerating if it gets steeper, decelerating if it flattens).\n- (Higher) For a curve, draw a **tangent** at the point and find its gradient to get the speed at that instant.\n\n## Velocity–time graphs\n\n- The **gradient** = **acceleration**.\n- A **horizontal line** = constant velocity.\n- A **straight sloping line** = constant acceleration (upwards) or deceleration (downwards).\n- The **area under the graph** = **distance travelled**.\n\n```\nv (m/s)\n 8 |     ______\n   |    /      \\\n   |   /        \\\n 0 |__/__________\\____ t (s)\n    0  4        12 16\n```\n\nIn this graph the object accelerates for 4 s, travels at 8 m/s for 8 s, then decelerates to rest in 4 s.\n\nDistance = area = triangle + rectangle + triangle\n$= \\frac{1}{2}(4)(8) + (8)(8) + \\frac{1}{2}(4)(8) = 16 + 64 + 16 = 96$ m\n\nWhen the area is not a simple shape you can **count squares** on the grid."
+        },
+        {
+          "type": "Question",
+          "title": "Reading a graph",
+          "question": {
+            "key": "AQA-PHY-05-06-L1-Q3",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "A velocity–time graph shows a lorry accelerating uniformly from rest to 15 m/s in 10 s, then travelling at a constant 15 m/s for a further 20 s. Calculate the total distance travelled in the 30 s.",
+            "hint": "Distance = area under the graph: a triangle for the first 10 s plus a rectangle for the next 20 s.",
+            "explanation": "Triangle: ½ × 10 × 15 = 75 m. Rectangle: 20 × 15 = 300 m. Total = 375 m.",
+            "answers": [
+              {
+                "numeric": 375,
+                "tolerance": 0,
+                "unit": "m",
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Newton's laws of motion",
+          "minutes": 5,
+          "content": "## Newton's first law\nIf the **resultant force** on an object is **zero**:\n- a stationary object **stays stationary**,\n- a moving object **keeps moving at the same velocity** (same speed, same direction).\n\nSo a car cruising at a steady 20 m/s has *balanced* forces: the driving force equals the resistive forces. To change its velocity (speed up, slow down or turn) you need a **non-zero resultant force**.\n\nThe tendency of an object to carry on doing what it is doing is called **inertia**. (Higher) An object's **inertial mass** measures how hard it is to change its velocity; it is the ratio of force to acceleration, $m = F/a$.\n\n## Newton's second law\nThe acceleration of an object is **proportional to the resultant force** and **inversely proportional to its mass**:\n\n$$F = m a$$\n\n- $F$ = resultant force in **N**\n- $m$ = mass in **kg**\n- $a$ = acceleration in **m/s²**\n\nDouble the force, double the acceleration. Double the mass, halve the acceleration.\n\n## Newton's third law\nWhenever two objects interact, the forces they exert on each other are **equal in size and opposite in direction**. A rocket pushes exhaust gas downwards; the gas pushes the rocket upwards with an equal force. The two forces act on *different* objects, so they never cancel each other out.\n\n### Estimating\nA family car has mass about 1500 kg and accelerates at roughly 2 m/s², needing a resultant force of about 3000 N."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: F = ma",
+          "minutes": 3,
+          "content": "**A 900 kg car has a driving force of 2400 N and total resistive forces of 600 N. Find the acceleration.**\n\nResultant force $= 2400 - 600 = 1800$ N\n\n$a = \\dfrac{F}{m} = \\dfrac{1800}{900} = 2$ m/s²\n\nThe most common error is to use 2400 N instead of the *resultant*. Always subtract the resistive forces first.\n\n**A 60 kg sprinter accelerates at 4 m/s² off the blocks. Find the resultant force.**\n\n$F = ma = 60 \\times 4 = 240$ N\n\n**A 5 N resultant force gives a trolley an acceleration of 2.5 m/s². What is its mass?**\n\n$m = \\dfrac{F}{a} = \\dfrac{5}{2.5} = 2$ kg"
+        },
+        {
+          "type": "Question",
+          "title": "Newton's second law",
+          "question": {
+            "key": "AQA-PHY-05-06-L1-Q4",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "A motorbike and rider have a total mass of 250 kg. The engine produces a forward force of 1100 N and air resistance is 350 N. Calculate the acceleration of the motorbike.",
+            "hint": "Find the resultant force first (forward force − air resistance), then a = F ÷ m.",
+            "explanation": "Resultant = 1100 − 350 = 750 N. a = 750 ÷ 250 = 3 m/s².",
+            "answers": [
+              {
+                "numeric": 3,
+                "tolerance": 0.02,
+                "unit": "m/s²",
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Required practical and stopping distances",
+          "minutes": 5,
+          "content": "## Required practical: investigating F = ma\n\nA trolley on a bench is pulled by a string that passes over a pulley to a hanging mass. Light gates or a data logger measure the trolley's acceleration.\n\n- **Effect of force**: keep the total mass of the system constant by moving masses from the trolley to the hanger. Doubling the hanging weight should double the acceleration.\n- **Effect of mass**: keep the hanging weight constant and add masses to the trolley. Acceleration should fall as mass rises (inversely proportional).\n\nUse a **friction-compensated ramp** (tilt the bench slightly so the trolley rolls at constant speed with no force) and repeat readings to reduce random error.\n\n## Stopping distance\n\n$$\\text{stopping distance} = \\text{thinking distance} + \\text{braking distance}$$\n\n- **Thinking distance**: the distance travelled during the driver's **reaction time** (typically 0.2–0.9 s) before the brakes are applied.\n- **Braking distance**: the distance travelled while the brakes are on.\n\n| Increases thinking distance | Increases braking distance |\n|---|---|\n| higher speed | higher speed |\n| tiredness | wet or icy road |\n| alcohol or drugs | worn tyres or brakes |\n| distractions (e.g. phone) | heavier vehicle |\n\nThinking distance is **proportional** to speed. Braking distance rises much faster: roughly with speed **squared**, because the kinetic energy $\\frac{1}{2}mv^2$ must all be transferred by the brakes. Doubling the speed roughly quadruples the braking distance.\n\nHard braking at high speed means a very large deceleration and a large braking force. The brakes get very hot and the vehicle may skid or lose control."
+        },
+        {
+          "type": "Question",
+          "title": "Stopping distances",
+          "question": {
+            "key": "AQA-PHY-05-06-L1-Q5",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Which TWO factors increase a driver's THINKING distance but do not affect the braking distance?",
+            "hint": "Thinking distance depends on the driver's reaction time; braking distance depends on the car and the road.",
+            "explanation": "Tiredness and drinking alcohol slow the driver's reactions, increasing thinking distance. Wet roads and worn brakes affect braking distance instead.",
+            "options": [
+              {
+                "text": "The driver is tired",
+                "correct": true
+              },
+              {
+                "text": "The driver has drunk alcohol",
+                "correct": true
+              },
+              {
+                "text": "The road is wet",
+                "correct": false,
+                "feedback": "A wet road reduces friction and increases braking distance, not thinking distance."
+              },
+              {
+                "text": "The brake pads are worn",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-PHY-05-06-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 6,
+            "examStyle": true,
+            "text": "A car of mass 1200 kg is travelling at 24 m/s when the driver sees a hazard. The driver's reaction time is 0.5 s. The car then decelerates uniformly at 6 m/s² until it stops.\n\n(a) Calculate the thinking distance. (2 marks)\n\n(b) Calculate the braking force. (2 marks)\n\n(c) Calculate the braking distance. (2 marks)",
+            "hint": "For (a), the car travels at a constant 24 m/s during the reaction time. For (c), use v² − u² = 2as with v = 0.",
+            "explanation": "(a) Thinking distance = 24 × 0.5 = 12 m. (b) F = ma = 1200 × 6 = 7200 N. (c) 0 − 24² = 2 × (−6) × s, so 576 = 12s and s = 48 m. Total stopping distance = 60 m.",
+            "markScheme": [
+              {
+                "criterion": "Thinking distance = speed × reaction time (24 × 0.5)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "24 × 0.5",
+                    "24 x 0.5",
+                    "24*0.5",
+                    "speed × time",
+                    "speed x time",
+                    "distance = speed"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Thinking distance = 12 m",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "12"
+                  ]
+                ]
+              },
+              {
+                "criterion": "F = m a = 1200 × 6",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "1200 × 6",
+                    "1200 x 6",
+                    "1200*6",
+                    "ma",
+                    "m a",
+                    "m × a",
+                    "m x a"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Braking force = 7200 N",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "7200"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Uses v² − u² = 2as / 24² = 2 × 6 × s",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "2as",
+                    "2 a s",
+                    "576",
+                    "24²",
+                    "24^2",
+                    "2 × 6",
+                    "2 x 6"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Braking distance = 48 m",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "48"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Speed** (scalar) and **velocity** (vector). $s = vt$. **Acceleration** $a = \\Delta v / t$ in m/s²; $v^2 - u^2 = 2as$ when time is unknown.\n- **Distance–time graph**: gradient = speed. **Velocity–time graph**: gradient = acceleration, area = distance.\n- **Newton 1**: zero resultant force means constant velocity (inertia). **Newton 2**: $F = ma$ using the *resultant* force. **Newton 3**: interaction forces are equal and opposite on different objects.\n- Free fall acceleration ≈ 9.8 m/s²; **terminal velocity** when air resistance equals weight.\n- **Stopping distance = thinking distance + braking distance**. Speed, tiredness and alcohol raise thinking distance; speed, wet roads and worn brakes raise braking distance."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-PHY-05-06-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which is the best estimate of the speed of a person walking?",
+          "hint": "Think how many metres you cover each second when walking.",
+          "explanation": "Walking speed is about 1.5 m/s; running is about 3 m/s and cycling about 6 m/s.",
+          "options": [
+            {
+              "text": "1.5 m/s",
+              "correct": true
+            },
+            {
+              "text": "6 m/s",
+              "correct": false
+            },
+            {
+              "text": "15 m/s",
+              "correct": false
+            },
+            {
+              "text": "0.1 m/s",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P2",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A cyclist travels at a constant speed of 8 m/s for 90 s. Calculate the distance travelled.",
+          "hint": "s = v t.",
+          "explanation": "s = 8 × 90 = 720 m.",
+          "answers": [
+            {
+              "numeric": 720,
+              "tolerance": 0,
+              "unit": "m",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P3",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A bus accelerates from 3 m/s to 15 m/s in 8 s. Calculate its acceleration.",
+          "hint": "a = (v − u) ÷ t.",
+          "explanation": "a = (15 − 3) ÷ 8 = 12 ÷ 8 = 1.5 m/s².",
+          "answers": [
+            {
+              "numeric": 1.5,
+              "tolerance": 0.01,
+              "unit": "m/s²",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P4",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A resultant force of 450 N acts on a 150 kg go-kart. Calculate its acceleration.",
+          "hint": "a = F ÷ m.",
+          "explanation": "a = 450 ÷ 150 = 3 m/s².",
+          "answers": [
+            {
+              "numeric": 3,
+              "tolerance": 0.01,
+              "unit": "m/s²",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P5",
+          "type": "FormulaCalculation",
+          "difficulty": 4,
+          "marks": 3,
+          "text": "A ball is thrown vertically upwards at 9.8 m/s. It decelerates at 9.8 m/s². Calculate the maximum height it reaches.",
+          "hint": "At the top, v = 0. Use v² − u² = 2as with a = −9.8 m/s².",
+          "explanation": "0 − 9.8² = 2 × (−9.8) × s. 96.04 = 19.6s. s = 4.9 m.",
+          "answers": [
+            {
+              "numeric": 4.9,
+              "tolerance": 0.05,
+              "unit": "m",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P6",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: a car travelling at constant velocity along a straight road must have a resultant force of zero acting on it.",
+          "hint": "Newton's first law.",
+          "explanation": "True. Constant velocity means no acceleration, so by Newton's first law the resultant force is zero: the driving force balances the resistive forces.",
+          "options": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P7",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence about stopping distance.",
+          "metadata": {
+            "blanksText": "Stopping distance is the sum of the ___ distance, which depends on the driver's reaction time, and the ___ distance, which depends on the brakes, tyres and road."
+          },
+          "hint": "One happens before the brakes are pressed, the other after.",
+          "explanation": "Stopping distance = thinking distance + braking distance.",
+          "answers": [
+            {
+              "text": "thinking",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "braking",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P8",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A velocity–time graph shows an object decelerating uniformly from 12 m/s to rest in 6 s. Calculate the distance travelled during this time.",
+          "hint": "Area of a triangle = ½ × base × height.",
+          "explanation": "Distance = ½ × 6 × 12 = 36 m.",
+          "answers": [
+            {
+              "numeric": 36,
+              "tolerance": 0,
+              "unit": "m",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P9",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A skydiver jumps from a plane. Put these stages in the correct order.",
+          "hint": "Air resistance grows as speed grows.",
+          "explanation": "At first only weight acts so acceleration is 9.8 m/s². As speed increases, air resistance increases and the resultant force falls. When air resistance equals weight the skydiver reaches terminal velocity.",
+          "order": [
+            "The skydiver leaves the plane and accelerates at about 9.8 m/s²",
+            "Air resistance increases as the speed increases",
+            "The resultant force decreases so the acceleration decreases",
+            "Air resistance becomes equal to weight and the skydiver falls at terminal velocity"
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Explain why the braking distance of a car is much longer on an icy road than on a dry road.",
+          "hint": "What does ice do to the friction between the tyres and the road?",
+          "explanation": "Ice reduces the friction between the tyres and the road, so the braking force is smaller. A smaller force gives a smaller deceleration, so the car travels further before stopping.",
+          "markScheme": [
+            {
+              "criterion": "Less friction between tyres and the road / smaller braking force",
+              "marks": 1,
+              "keywords": [
+                [
+                  "friction",
+                  "grip",
+                  "braking force"
+                ],
+                [
+                  "less",
+                  "reduce",
+                  "smaller",
+                  "lower"
+                ]
+              ]
+            },
+            {
+              "criterion": "Smaller deceleration so the car takes longer / travels further to stop",
+              "marks": 1,
+              "keywords": [
+                [
+                  "deceleration",
+                  "decelerate",
+                  "slow down",
+                  "slows down",
+                  "longer",
+                  "further"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A student investigates how the acceleration of a trolley depends on the force applied. A string from the trolley passes over a pulley to a hanging mass. Light gates measure the acceleration.\n\n(a) Explain why the student should move masses from the trolley to the hanger, rather than simply adding new masses to the hanger, when increasing the force. (2 marks)\n\n(b) Describe the relationship the student should find between resultant force and acceleration, and state the name of the law this demonstrates. (2 marks)",
+          "hint": "For (a), think about what needs to stay constant if you want a fair test of force alone.",
+          "explanation": "(a) The hanging mass is part of the accelerating system. Moving masses keeps the total mass being accelerated constant, so only the force changes and it is a fair test. (b) Acceleration is directly proportional to the resultant force; this is Newton's second law.",
+          "markScheme": [
+            {
+              "criterion": "The hanging mass is part of the accelerating system / total mass must stay constant",
+              "marks": 1,
+              "keywords": [
+                [
+                  "total mass",
+                  "mass of the system",
+                  "whole system",
+                  "same mass",
+                  "constant mass",
+                  "mass constant"
+                ]
+              ]
+            },
+            {
+              "criterion": "So that only the force changes / it is a fair test / a valid comparison",
+              "marks": 1,
+              "keywords": [
+                [
+                  "only",
+                  "fair",
+                  "valid",
+                  "control",
+                  "one variable"
+                ]
+              ]
+            },
+            {
+              "criterion": "Acceleration is directly proportional to the resultant force",
+              "marks": 1,
+              "keywords": [
+                [
+                  "proportional",
+                  "doubles",
+                  "linear"
+                ]
+              ]
+            },
+            {
+              "criterion": "Newton's second law",
+              "marks": 1,
+              "keywords": [
+                [
+                  "second law",
+                  "2nd law",
+                  "f = ma",
+                  "f=ma"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-PHY-05-06-L1-P12",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each graph feature to what it represents.",
+          "hint": "Gradient on a distance–time graph gives speed; on a velocity–time graph it gives acceleration.",
+          "explanation": "Distance–time gradient = speed; distance–time horizontal line = stationary; velocity–time gradient = acceleration; velocity–time area = distance travelled.",
+          "pairs": [
+            {
+              "left": "Gradient of a distance–time graph",
+              "right": "Speed"
+            },
+            {
+              "left": "Horizontal line on a distance–time graph",
+              "right": "Object is stationary"
+            },
+            {
+              "left": "Gradient of a velocity–time graph",
+              "right": "Acceleration"
+            },
+            {
+              "left": "Area under a velocity–time graph",
+              "right": "Distance travelled"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "subTopicCode": "MAT-06-03",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-06-03-L1",
+      "title": "Charts and diagrams",
+      "summary": "Draw and interpret bar charts, pictograms, pie charts, line graphs, frequency polygons, stem-and-leaf diagrams and two-way tables, and recognise misleading graphs.",
+      "objectives": [
+        "I can draw and read bar charts, dual bar charts, pictograms and line graphs.",
+        "I can calculate angles for a pie chart and read frequencies from one.",
+        "I can draw and interpret a stem-and-leaf diagram and find the median and range from it.",
+        "I can draw a frequency polygon from a grouped frequency table.",
+        "I can complete and use two-way tables, and identify features that make a graph misleading."
+      ],
+      "estimatedMinutes": 42,
+      "difficulty": 2,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Bar charts, pictograms and line graphs",
+          "minutes": 4,
+          "content": "## Bar charts\n\nA **bar chart** shows the frequency of each category as a bar. For qualitative or discrete data the bars have **gaps** between them. Every chart needs a **title**, **labelled axes**, an **even scale** starting at zero, and bars of **equal width**.\n\nA **dual (comparative) bar chart** puts two bars side by side for each category (e.g. boys and girls) with a **key**. A **composite (stacked) bar chart** stacks them in one bar so you can compare totals as well as parts.\n\n## Pictograms\n\nA **pictogram** uses symbols to represent frequency, with a key such as \"one circle = 4 people\". Half a symbol is half the value. Always check the key: two and a half symbols with a key of 4 is $2.5 \\times 4 = 10$.\n\n## Vertical line charts\n\nFor discrete numerical data (number of goals, dice scores) a **vertical line chart** draws a thin line instead of a bar at each value.\n\n## Line graphs\n\nA **line graph** plots points and joins them, and is used for data that changes over **time** (temperature through a day, sales each month). The line shows the **trend**; reading between the points is only an estimate.\n\n## Reading a chart\n\n1. Read the scale carefully: each small square may be worth 2, 5 or 0.5.\n2. Find totals by adding all the bars.\n3. \"How many more\" means subtract the two bar heights.\n\nMost lost marks on chart questions come from misreading the scale, so write down each value before calculating."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-06-03-L1-Q1",
+            "type": "NumericalAnswer",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "In a pictogram, one symbol represents 6 books. Monday shows 3 and a half symbols. How many books were borrowed on Monday?",
+            "hint": "$3.5 \\times 6$.",
+            "explanation": "$3.5 \\times 6 = 21$ books.",
+            "answers": [
+              {
+                "numeric": 21,
+                "tolerance": 0
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: pie charts",
+          "minutes": 5,
+          "content": "## Frequencies to angles\n\nA pie chart shows **proportions**: the whole circle (360°) represents the total, and each sector's angle is proportional to its frequency.\n\n$\\text{angle} = \\dfrac{\\text{frequency}}{\\text{total}} \\times 360°$\n\n**Draw a pie chart for how 90 students travel to school: walk 36, bus 27, car 18, cycle 9.**\n\nEach student is worth $360 \\div 90 = 4°$.\n\n| Method | Frequency | Angle |\n|---|---|---|\n| Walk | 36 | $36 \\times 4 = 144°$ |\n| Bus | 27 | $108°$ |\n| Car | 18 | $72°$ |\n| Cycle | 9 | $36°$ |\n| Total | 90 | $360°$ ✓ |\n\nDraw a circle, mark a radius, measure each angle in turn with a protractor, and label each sector (or use a key).\n\n## Angles to frequencies\n\n**A pie chart of 240 people shows \"tea\" with an angle of 105°. How many chose tea?**\n\n$\\dfrac{105}{360} \\times 240 = 70$ people.\n\n## Comparing two pie charts\n\nPie charts show **proportions, not amounts**. If pie chart A (60 people) has a bigger \"bus\" sector than pie chart B (400 people), it does **not** mean more people in A take the bus. Unless the totals are known, you can only compare fractions. A very common exam question asks exactly this.\n\n## Estimating\n\nQuarter of the circle is 90°, so a sector a little bigger than a quarter is about 100°. Use fractions of the circle to sanity-check your angles."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-03-L1-Q2",
+            "type": "FormulaCalculation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A survey of 120 people asked their favourite pizza topping. 45 said pepperoni. Work out the angle for pepperoni on a pie chart.",
+            "hint": "$\\frac{45}{120} \\times 360$.",
+            "explanation": "$45 \\div 120 = 0.375$; $0.375 \\times 360 = 135°$.",
+            "answers": [
+              {
+                "numeric": 135,
+                "tolerance": 0,
+                "unit": "°",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-03-L1-Q3",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A pie chart shows how 180 students spent a free afternoon. The angle for \"sport\" is 84°. How many students chose sport?",
+            "hint": "$\\frac{84}{360} \\times 180$.",
+            "explanation": "$84 \\div 360 = 0.2333$; $0.2333 \\times 180 = 42$.",
+            "answers": [
+              {
+                "numeric": 42,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Stem-and-leaf diagrams",
+          "minutes": 5,
+          "content": "## Keeping the actual values\n\nA **stem-and-leaf diagram** groups data but keeps every individual value visible. Each number is split into a **stem** (usually the tens) and a **leaf** (the units).\n\nTest marks: 23, 31, 35, 35, 42, 47, 48, 50, 56, 27, 39, 44\n\nUnordered first, then **ordered** (leaves in increasing order):\n\n| Stem | Leaves |\n|---|---|\n| 2 | 3 7 |\n| 3 | 1 5 5 9 |\n| 4 | 2 4 7 8 |\n| 5 | 0 6 |\n\n**Key: 3 | 5 means 35**\n\nThe key is compulsory. Without it the diagram cannot be read: 3 | 5 could mean 35, 3.5 or 350.\n\n## Reading statistics from it\n\n- **Number of values**: count the leaves: 12.\n- **Range**: largest − smallest $= 56 - 23 = 33$.\n- **Mode**: 35 (the only repeated value).\n- **Median**: 12 values, so average the 6th and 7th leaves counting from the top: 39 and 42, giving $40.5$.\n\n## Back-to-back stem-and-leaf\n\nTo compare two groups, put one set of leaves on the **left** of the stem (reading outwards, so the smallest leaf is nearest the stem) and the other on the right. Then compare medians and ranges just as you would with any two data sets.\n\n## Decimals\n\nFor data such as 2.3, 2.7, 3.1, the stem is the whole number and the leaf the tenths; the key would say 2 | 3 means 2.3."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-03-L1-Q4",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A stem-and-leaf diagram (key: 1 | 4 means 14) has rows: 1 | 4 6 9; 2 | 0 2 5 5 8; 3 | 1 3; 4 | 0. Find the median.",
+            "hint": "Count the leaves: 11 values, so the median is the 6th.",
+            "explanation": "Values in order: 14, 16, 19, 20, 22, 25, 25, 28, 31, 33, 40. The 6th is 25.",
+            "answers": [
+              {
+                "numeric": 25,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-03-L1-Q5",
+            "type": "NumericalAnswer",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Using the same stem-and-leaf diagram (rows 1 | 4 6 9; 2 | 0 2 5 5 8; 3 | 1 3; 4 | 0), find the range.",
+            "hint": "Largest value minus smallest value.",
+            "explanation": "$40 - 14 = 26$.",
+            "answers": [
+              {
+                "numeric": 26,
+                "tolerance": 0
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Frequency polygons and two-way tables",
+          "minutes": 5,
+          "content": "## Frequency polygons\n\nA **frequency polygon** displays grouped continuous data. Plot each **frequency** at the **midpoint** of its class, then join the points with **straight lines**.\n\n| Time (min) | Frequency | Midpoint |\n|---|---|---|\n| $0 \\le t < 10$ | 5 | 5 |\n| $10 \\le t < 20$ | 12 | 15 |\n| $20 \\le t < 30$ | 8 | 25 |\n| $30 \\le t < 40$ | 3 | 35 |\n\nPlot (5, 5), (15, 12), (25, 8), (35, 3) and join them. Do **not** join the ends down to the axis, and do not plot at the class boundaries.\n\nTwo polygons on the same axes make it easy to compare distributions: the one further right has higher values on average; the one that is taller and narrower is more consistent.\n\n## Two-way tables\n\nA **two-way table** sorts data by two categories at once.\n\n| | Left-handed | Right-handed | Total |\n|---|---|---|---|\n| Year 7 | 6 | 54 | 60 |\n| Year 8 | 9 | 61 | 70 |\n| Total | 15 | 115 | 130 |\n\nTo complete a table with gaps, use the fact that **rows and columns must add to their totals**. Fill in whichever cell has only one unknown, then move on.\n\nRead probabilities directly: $P(\\text{left-handed}) = \\frac{15}{130}$; $P(\\text{Year 8 given left-handed}) = \\frac{9}{15}$.\n\n## Misleading graphs\n\nWatch for:\n- a vertical axis that **does not start at zero** (exaggerates differences);\n- **uneven scales** or missing numbers on an axis;\n- bars of **different widths** or 3D effects that distort sizes;\n- pictogram symbols of different sizes;\n- **no title, labels or key**.\n\nWhen asked \"why is this graph misleading?\", name the feature and say what effect it has."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-03-L1-Q6",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "When drawing a frequency polygon for the class $20 \\le t < 30$ with frequency 8, where should the point be plotted?",
+            "hint": "Frequency polygons use the midpoint of each class.",
+            "explanation": "The midpoint of 20 and 30 is 25, so plot (25, 8).",
+            "options": [
+              {
+                "text": "At (25, 8)",
+                "correct": true
+              },
+              {
+                "text": "At (20, 8)",
+                "correct": false,
+                "feedback": "That is the lower boundary, not the midpoint."
+              },
+              {
+                "text": "At (30, 8)",
+                "correct": false
+              },
+              {
+                "text": "At (8, 25)",
+                "correct": false,
+                "feedback": "Frequency goes on the vertical axis."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-03-L1-Q7",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A two-way table shows 80 students. 35 are boys. 22 students have a bike, of whom 14 are girls. How many boys do **not** have a bike?",
+            "hint": "Boys with a bike $= 22 - 14$. Then subtract from 35.",
+            "explanation": "Boys with a bike $= 8$. Boys without $= 35 - 8 = 27$.",
+            "answers": [
+              {
+                "numeric": 27,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Misreading scales.** Check what one small square is worth on each axis.\n- **Pie chart angles that do not total 360°.** Recalculate if they are off by more than rounding.\n- **Comparing pie charts by size of sector** when totals differ. Pie charts show proportions.\n- **No key** on a stem-and-leaf diagram or pictogram, or leaves not in order.\n- **Frequency polygon points** plotted at the class boundaries instead of midpoints, or joined to the axis.\n- **Two-way tables** where the total column and total row disagree; always check both.\n- **Bar charts for continuous data.** Grouped continuous data needs bars with no gaps (or a frequency polygon), not a gapped bar chart.\n- **Vague answers about misleading graphs.** Say \"the vertical axis starts at 50, which makes the difference between the bars look much bigger than it is\"."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-06-03-L1-Q8",
+            "type": "ExamQuestion",
+            "difficulty": 3,
+            "marks": 5,
+            "examStyle": true,
+            "text": "A school surveyed 72 students about their favourite subject. The results were: maths 24, science 18, English 12, art 18.\n\n(a) Work out the angle for each subject on a pie chart.\n\n(b) A second school with 300 students drew a pie chart in which the angle for maths was 90°. Jack says: \"Maths is more popular at the first school because its angle is bigger.\" Is Jack right? Explain your answer with a calculation.",
+            "hint": "(a) Each student is worth $360 \\div 72 = 5°$. (b) Work out how many students at the second school chose maths.",
+            "explanation": "(a) Maths $24 \\times 5 = 120°$; science $90°$; English $60°$; art $90°$. (b) At the second school, $\\frac{90}{360} \\times 300 = 75$ students chose maths, compared with 24 at the first school. So more students chose maths at the second school; a bigger angle means a bigger proportion, not a bigger number. Jack is wrong (unless he means a larger proportion).",
+            "markScheme": [
+              {
+                "criterion": "Maths angle 120°",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "120",
+                    "120.0"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Science 90°, English 60°, art 90°",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "90",
+                    "90.0"
+                  ],
+                  [
+                    "60",
+                    "60.0"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Calculates 75 students at the second school",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "75",
+                    "75.0"
+                  ]
+                ]
+              },
+              {
+                "criterion": "States Jack is wrong: more students (75 > 24) chose maths at the second school",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "wrong",
+                    "not right",
+                    "incorrect",
+                    "no"
+                  ],
+                  [
+                    "75",
+                    "more students",
+                    "more people"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Explains that pie charts show proportions, not numbers, so angles cannot be compared directly when totals differ",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "proportion",
+                    "fraction",
+                    "percentage",
+                    "different total",
+                    "different number of students"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Bar charts (gaps for categories), pictograms (check the key), line graphs (trends over time). Always title, label and use an even scale from zero.\n- Pie chart angle $= \\frac{\\text{frequency}}{\\text{total}} \\times 360°$; pie charts show **proportions**, so compare sectors only when totals are known.\n- Stem-and-leaf: ordered leaves plus a **key**; read off median, mode and range.\n- Frequency polygon: plot frequency at the class **midpoint**, join with straight lines.\n- Two-way tables: rows and columns add to their totals; read probabilities from them.\n- Misleading graphs: axis not from zero, uneven scales, unequal bar widths, missing labels."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-MAT-06-03-L1-P1",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A bar chart shows sales of 35 on Monday and 52 on Tuesday. How many more were sold on Tuesday than Monday?",
+          "hint": "Subtract.",
+          "explanation": "$52 - 35 = 17$.",
+          "answers": [
+            {
+              "numeric": 17,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P2",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A pie chart represents 60 people. What angle represents 1 person?",
+          "hint": "$360 \\div 60$.",
+          "explanation": "$360 \\div 60 = 6°$ per person.",
+          "answers": [
+            {
+              "numeric": 6,
+              "tolerance": 0,
+              "unit": "°",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P3",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A pie chart shows the colours of 144 cars. The angle for silver is 95°. How many cars are silver?",
+          "hint": "$\\frac{95}{360} \\times 144$.",
+          "explanation": "$95 \\div 360 \\times 144 = 38$.",
+          "answers": [
+            {
+              "numeric": 38,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "In a stem-and-leaf diagram with key \"4 | 2 means 4.2\", what value does \"6 | 7\" represent?",
+          "hint": "Stem is the whole number, leaf is the tenths.",
+          "explanation": "6 | 7 means 6.7.",
+          "options": [
+            {
+              "text": "6.7",
+              "correct": true
+            },
+            {
+              "text": "67",
+              "correct": false,
+              "feedback": "The key says the leaf is a tenth."
+            },
+            {
+              "text": "7.6",
+              "correct": false
+            },
+            {
+              "text": "0.67",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P5",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A stem-and-leaf diagram (key: 5 | 1 means 51) has rows: 5 | 1 3 8; 6 | 0 0 4 7; 7 | 2 5. Find the mode.",
+          "hint": "Which value appears more than once?",
+          "explanation": "60 appears twice; every other value appears once. Mode $= 60$.",
+          "answers": [
+            {
+              "numeric": 60,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P6",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: on a frequency polygon, the first and last points should be joined down to the horizontal axis.",
+          "hint": "Think about what those extra lines would represent.",
+          "explanation": "False. Only the plotted midpoints are joined; extending to the axis would suggest data that does not exist.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P7",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A two-way table records 150 people by age and whether they own a car. 90 are adults; 40 people do not own a car; 10 of the non-owners are adults. How many children own a car?",
+          "hint": "Children $= 60$. Children without a car $= 40 - 10 = 30$.",
+          "explanation": "Children $= 150 - 90 = 60$. Children without a car $= 30$. Children with a car $= 60 - 30 = 30$.",
+          "answers": [
+            {
+              "numeric": 30,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P8",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Select **all** the features that would make a bar chart misleading.",
+          "hint": "Think about scales and bar sizes.",
+          "explanation": "A vertical axis starting above zero and bars of different widths both distort the visual comparison. Gaps between bars for categorical data and a title are correct features.",
+          "options": [
+            {
+              "text": "The vertical axis starts at 40 instead of 0",
+              "correct": true
+            },
+            {
+              "text": "Some bars are drawn wider than others",
+              "correct": true
+            },
+            {
+              "text": "There are equal gaps between the bars",
+              "correct": false,
+              "feedback": "Gaps are correct for categorical data."
+            },
+            {
+              "text": "The chart has a title and labelled axes",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P9",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Put the steps in order to draw a pie chart from a frequency table.",
+          "hint": "You need the angles before you can draw.",
+          "explanation": "Find the total, convert each frequency to an angle, check the angles add to 360°, then draw and label.",
+          "order": [
+            "Add the frequencies to find the total",
+            "Work out each angle: frequency ÷ total × 360°",
+            "Check the angles add up to 360°",
+            "Draw the circle, measure each angle with a protractor and label the sectors"
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "A newspaper graph shows two bars for house prices: £250 000 in 2020 and £262 000 in 2024. The vertical axis starts at £245 000, and the 2024 bar looks about four times as tall. Explain why the graph is misleading.",
+          "hint": "What does starting the axis at £245 000 do to the apparent difference?",
+          "explanation": "The vertical axis does not start at zero, so the small increase of about 5% is exaggerated and the 2024 bar looks several times bigger than the 2020 bar, when in reality prices rose only slightly.",
+          "markScheme": [
+            {
+              "criterion": "Identifies that the vertical axis does not start at zero",
+              "marks": 1,
+              "keywords": [
+                [
+                  "not start at 0",
+                  "not start at zero",
+                  "starts at 245",
+                  "doesn't start at 0",
+                  "doesn't start at zero"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explains that this exaggerates the difference / makes the increase look much larger than it is",
+              "marks": 1,
+              "keywords": [
+                [
+                  "exaggerat",
+                  "looks bigger",
+                  "look bigger",
+                  "much larger",
+                  "small increase"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "The heights of 40 seedlings were recorded: $0 \\le h < 5$ cm (frequency 4), $5 \\le h < 10$ (frequency 14), $10 \\le h < 15$ (frequency 16), $15 \\le h < 20$ (frequency 6).\n\n(a) Write down the coordinates of the four points you would plot to draw a frequency polygon.\n\n(b) A second batch of seedlings has a frequency polygon whose peak is at (7.5, 20) and which is lower everywhere to the right of 10. Compare the heights of the two batches.",
+          "hint": "(a) Midpoints 2.5, 7.5, 12.5, 17.5. (b) Which batch has its peak further right?",
+          "explanation": "(a) (2.5, 4), (7.5, 14), (12.5, 16), (17.5, 6). (b) The first batch peaks at 12.5 cm and the second at 7.5 cm, so the first batch's seedlings are taller on average; the second batch has more short seedlings.",
+          "markScheme": [
+            {
+              "criterion": "Uses midpoints 2.5, 7.5, 12.5, 17.5",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2.5",
+                  "2.50"
+                ],
+                [
+                  "12.5",
+                  "12.50"
+                ]
+              ]
+            },
+            {
+              "criterion": "Correct points (2.5, 4), (7.5, 14), (12.5, 16), (17.5, 6)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "(12.5, 16)",
+                  "(12.5,16)"
+                ],
+                [
+                  "(7.5, 14)",
+                  "(7.5,14)"
+                ]
+              ]
+            },
+            {
+              "criterion": "Identifies that the first batch's peak is further right (12.5 vs 7.5)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "12.5",
+                  "further right",
+                  "peak",
+                  "modal"
+                ]
+              ]
+            },
+            {
+              "criterion": "Concludes the first batch is taller on average (or the second batch shorter)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "taller",
+                  "higher",
+                  "shorter",
+                  "smaller"
+                ],
+                [
+                  "average",
+                  "on average",
+                  "generally",
+                  "typically",
+                  "most"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

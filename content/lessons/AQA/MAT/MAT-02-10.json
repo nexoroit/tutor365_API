@@ -17,84 +17,556 @@
       "difficulty": 3,
       "tier": "NotApplicable",
       "activities": [
-        { "type": "Explanation", "title": "Quadratic graphs", "minutes": 5, "content": "## The parabola\n\nAny equation with $x^2$ as its highest power, such as $y = x^2 - 2x - 3$, gives a smooth symmetrical curve called a **parabola**.\n\n- If the $x^2$ term is **positive**, the curve is a **U shape** (a valley) with a **minimum** point.\n- If the $x^2$ term is **negative**, such as $y = 5 - x^2$, it is an **n shape** (a hill) with a **maximum** point.\n\n## Drawing one\n\n1. Complete a table of values, working out each $y$ carefully. Squaring a negative gives a positive: for $x = -2$, $x^2 = 4$.\n2. Plot the points.\n3. Join them with a **smooth curve**, not straight segments, and never a flat bottom.\n\n| $x$ | −2 | −1 | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|---|---|\n| $y = x^2 - 2x - 3$ | 5 | 0 | −3 | −4 | −3 | 0 | 5 |\n\n## Reading the graph\n\n- **Roots**: where the curve crosses the $x$-axis ($y = 0$). Here $x = -1$ and $x = 3$. These are the solutions of $x^2 - 2x - 3 = 0$.\n- **$y$-intercept**: where $x = 0$, giving $y = -3$ (the constant term).\n- **Line of symmetry**: halfway between the roots, $x = 1$.\n- **Turning point**: on the line of symmetry, at (1, −4). This is the minimum value of $y$.\n\nIf the table shows the same $y$ value twice, the turning point lies halfway between those $x$ values." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-02-10-L1-Q1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1,
-          "text": "Complete the table for $y = x^2 - 4x + 1$: what is the value of $y$ when $x = -1$?",
-          "hint": "$(-1)^2 = 1$ and $-4 \\times (-1) = +4$.",
-          "explanation": "$1 + 4 + 1 = 6$.",
-          "answers": [ { "numeric": 6, "tolerance": 0 } ] } },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-02-10-L1-Q2", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
-          "text": "A quadratic graph crosses the $x$-axis at $x = 2$ and $x = 8$. What is the equation of its line of symmetry?",
-          "hint": "The line of symmetry is halfway between the roots.",
-          "explanation": "Halfway between 2 and 8 is 5, so the line of symmetry is $x = 5$.",
-          "options": [
-            { "text": "x = 5", "correct": true },
-            { "text": "x = 3", "correct": false, "feedback": "Find the midpoint of 2 and 8, not the difference." },
-            { "text": "y = 5", "correct": false, "feedback": "The line of symmetry of a parabola is vertical, so it is $x = $ a number." },
-            { "text": "x = 10", "correct": false } ] } },
-        { "type": "Example", "title": "Worked example: sketching and reading a quadratic", "minutes": 5, "content": "## Sketching from the equation\n\n**Sketch $y = x^2 - 6x + 8$, marking the intercepts and turning point.**\n\n1. **Shape**: positive $x^2$, so a U.\n2. **$y$-intercept**: $x = 0$ gives $y = 8$.\n3. **Roots**: factorise $x^2 - 6x + 8 = (x - 2)(x - 4)$, so the curve crosses the $x$-axis at 2 and 4.\n4. **Turning point**: line of symmetry $x = 3$; substitute to get $y = 9 - 18 + 8 = -1$. Minimum at (3, −1).\n\nA sketch does not need a table: just the correct shape with those key points labelled.\n\nIf the question gives the completed-square form $y = (x - 3)^2 - 1$, you can read the turning point (3, −1) straight off: the bracket is zero at $x = 3$, and the constant gives the $y$ value.\n\n## Using a drawn graph to solve equations\n\nSuppose you have drawn $y = x^2 - 6x + 8$.\n\n- To solve $x^2 - 6x + 8 = 0$: read where the curve meets the $x$-axis ($x = 2, 4$).\n- To solve $x^2 - 6x + 8 = 3$: draw the horizontal line $y = 3$ and read the $x$ values where it meets the curve (about 0.7 and 5.3).\n- To solve $x^2 - 6x + 8 = x - 1$: draw the straight line $y = x - 1$ and read the crossing points.\n\nGraphical answers are approximate; give them to 1 decimal place unless they are clearly whole numbers." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-02-10-L1-Q3", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
-          "text": "The graph of $y = x^2 - 6x + 8$ has its minimum point at (3, −1). Find the **minimum value of $y$** on the graph of $y = x^2 - 6x + 13$.",
-          "hint": "The new graph is the old one moved up by 5.",
-          "explanation": "$x^2 - 6x + 13 = (x - 3)^2 + 4$, so the minimum value is 4, at $x = 3$. Equivalently, adding 5 to the equation shifts the whole curve up by 5.",
-          "answers": [ { "numeric": 4, "tolerance": 0, "marks": 2 } ] } },
-        { "type": "Explanation", "title": "Cubic, reciprocal and exponential graphs", "minutes": 5, "content": "## Recognising other shapes\n\n**Cubic graphs** have $x^3$ as the highest power, e.g. $y = x^3$ or $y = x^3 - 4x$.\n- Positive $x^3$: the curve comes up from the bottom left and leaves at the top right, often with a wiggle (one hill then one valley) in the middle.\n- Negative $x^3$, such as $y = -x^3$: the shape is flipped, coming down from the top left to the bottom right.\n- $y = x^3$ itself passes through the origin and flattens there briefly.\n\n**Reciprocal graphs** have the form $y = \\frac{k}{x}$, e.g. $y = \\frac{4}{x}$.\n- Two separate curved branches, one in the top-right quadrant and one in the bottom-left (if $k$ is positive).\n- The curve never touches the axes: $x = 0$ is impossible (you cannot divide by zero) and $y$ never reaches 0. The axes are **asymptotes**.\n- Negative $k$ puts the branches in the other two quadrants.\n\n**Exponential graphs** have the form $y = k^x$, e.g. $y = 2^x$ or $y = 3^x$.\n- Always above the $x$-axis and always pass through (0, 1), since $k^0 = 1$.\n- Rise steeply to the right and flatten towards the $x$-axis on the left. The $x$-axis is an asymptote.\n- $y = 0.5^x$ is the mirror image: it decreases as $x$ increases.\n\n## Matching an equation to a picture\n\nAsk: highest power? ($x^2$: U/n; $x^3$: S-shaped through the middle), is $x$ in the denominator? (two branches), is $x$ in the power? (exponential curve)." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-02-10-L1-Q4", "type": "Matching", "difficulty": 2, "marks": 4,
-          "text": "Match each equation to the description of its graph.",
-          "hint": "Look for the highest power of $x$, or for $x$ in a denominator or in a power.",
-          "explanation": "$y = 3 - x^2$: negative $x^2$, an n-shaped parabola with maximum at (0, 3). $y = x^3 + 1$: S-shaped cubic through (0, 1). $y = \\frac{6}{x}$: two branches with the axes as asymptotes. $y = 2^x$: exponential through (0, 1), never below the axis.",
-          "pairs": [
-            { "left": "y = 3 − x²", "right": "n-shaped curve with a maximum point at (0, 3)" },
-            { "left": "y = x³ + 1", "right": "S-shaped curve rising from bottom-left to top-right through (0, 1)" },
-            { "left": "y = 6/x", "right": "Two separate branches that never touch the axes" },
-            { "left": "y = 2ˣ", "right": "Curve through (0, 1) that flattens to the left and rises steeply to the right" } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-02-10-L1-Q5", "type": "NumericalAnswer", "difficulty": 2, "marks": 1,
-          "text": "Work out the value of $y$ on the graph of $y = x^3 - 2x$ when $x = -3$.",
-          "hint": "$(-3)^3 = -27$ and $-2 \\times (-3) = +6$.",
-          "explanation": "$-27 + 6 = -21$.",
-          "answers": [ { "numeric": -21, "tolerance": 0 } ] } },
-        { "type": "Explanation", "title": "Solving equations with graphs", "minutes": 4, "content": "## Finding the right line to draw\n\nA common Higher-style question gives you the graph of $y = x^2 - 3x - 2$ and asks you to solve a *different* equation, such as $x^2 - 4x + 1 = 0$, by drawing a straight line.\n\n**Method**: rearrange the new equation so that one side is exactly the expression you have already drawn.\n\n$x^2 - 4x + 1 = 0$\n\nAdd $x$ and subtract 3 to both sides so the left becomes $x^2 - 3x - 2$:\n\n$x^2 - 3x - 2 = x - 3$\n\nNow draw the line $y = x - 3$ on the same axes. Where it crosses the curve, both equations are true, so the $x$-coordinates of the crossing points solve $x^2 - 4x + 1 = 0$.\n\n## Number of solutions\n\nThe number of crossing points tells you how many solutions there are:\n- A horizontal line above the minimum of a U-shaped parabola crosses it twice.\n- A line touching the turning point gives exactly one solution.\n- A line below the minimum never meets the curve: no real solutions.\n\n## Estimating from a graph\n\nWhen reading values, use the grid lines and state your answer with sensible accuracy, such as \"$x \\approx 3.6$\". Always give **all** the crossing points the question asks for; missing the negative root is a very common slip." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-02-10-L1-Q6", "type": "MultipleChoice", "difficulty": 4, "marks": 1,
-          "text": "The graph of $y = x^2 + 2x - 5$ has been drawn. Which straight line should be drawn on the same axes to solve $x^2 + x - 8 = 0$?",
-          "hint": "Rearrange $x^2 + x - 8 = 0$ so the left-hand side becomes $x^2 + 2x - 5$.",
-          "explanation": "Adding $x$ and 3 to both sides: $x^2 + 2x - 5 = x + 3$. So draw $y = x + 3$.",
-          "options": [
-            { "text": "y = x + 3", "correct": true },
-            { "text": "y = x − 3", "correct": false, "feedback": "Check the constant: $-8 + 3 = -5$, so 3 must be added." },
-            { "text": "y = −x + 3", "correct": false },
-            { "text": "y = 3x − 3", "correct": false } ] } },
-        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Negative numbers in tables.** $(-3)^2 = 9$, not −9. Put brackets in on your calculator.\n- **Joining points with a ruler.** Curves must be smooth; a pointed or flat bottom loses accuracy marks.\n- **Missing the true turning point.** If the table has symmetrical values either side, the minimum may be *between* two plotted points. Plot an extra point if needed.\n- **Roots vs intercept.** Roots are where $y = 0$ (on the $x$-axis); the $y$-intercept is where $x = 0$.\n- **Reciprocal graphs touching the axes.** They never do.\n- **Exponential graphs going below the axis.** $k^x$ is always positive.\n- **Only giving one solution** when a line crosses a curve twice.\n- **Wrong line drawn.** Rearrange carefully so the left-hand side matches the curve you already have." },
-        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
-          "key": "AQA-MAT-02-10-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 5, "examStyle": true,
-          "text": "The curve $y = x^2 - 2x - 8$ is to be sketched.\n\n(a) Write down the coordinates of the point where the curve crosses the $y$-axis.\n\n(b) Find the values of $x$ where the curve crosses the $x$-axis.\n\n(c) Find the coordinates of the turning point of the curve.",
-          "hint": "(a) Put $x = 0$. (b) Factorise. (c) The turning point lies on the line of symmetry, midway between the roots.",
-          "explanation": "(a) (0, −8). (b) $(x - 4)(x + 2) = 0$, so $x = 4$ and $x = -2$. (c) Line of symmetry $x = 1$; $y = 1 - 2 - 8 = -9$. Turning point (1, −9).",
-          "markScheme": [
-            { "criterion": "y-intercept (0, −8)", "marks": 1, "keywords": [ ["-8", "−8"] ] },
-            { "criterion": "Factorises to (x − 4)(x + 2) or equivalent working", "marks": 1, "keywords": [ ["(x - 4)(x + 2)", "(x-4)(x+2)", "(x + 2)(x - 4)", "(x+2)(x-4)", "factoris"] ] },
-            { "criterion": "Roots x = 4 and x = −2", "marks": 1, "keywords": [ ["4"], ["-2", "−2"] ] },
-            { "criterion": "Line of symmetry x = 1 (turning point x-coordinate 1)", "marks": 1, "keywords": [ ["x = 1", "x=1", "(1,", "(1 ,"] ] },
-            { "criterion": "Turning point y-coordinate −9", "marks": 1, "keywords": [ ["-9", "−9"] ] } ] } },
-        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Quadratic**: parabola; U if $x^2$ is positive, n if negative. Roots where $y = 0$, intercept where $x = 0$, turning point on the line of symmetry midway between the roots.\n- **Cubic**: S-shaped, from bottom-left to top-right (or flipped for negative $x^3$).\n- **Reciprocal** $y = \\frac{k}{x}$: two branches; the axes are asymptotes.\n- **Exponential** $y = k^x$: through (0, 1), always positive, one side flattens and the other rises steeply.\n- To solve an equation graphically, rearrange so one side is the curve you have, then draw the other side as a line and read the crossing points.\n- Draw smooth curves and check negative values with brackets." }
+        {
+          "type": "Explanation",
+          "title": "Quadratic graphs",
+          "minutes": 5,
+          "content": "## The parabola\n\nAny equation with $x^2$ as its highest power, such as $y = x^2 - 2x - 3$, gives a smooth symmetrical curve called a **parabola**.\n\n- If the $x^2$ term is **positive**, the curve is a **U shape** (a valley) with a **minimum** point.\n- If the $x^2$ term is **negative**, such as $y = 5 - x^2$, it is an **n shape** (a hill) with a **maximum** point.\n\n## Drawing one\n\n1. Complete a table of values, working out each $y$ carefully. Squaring a negative gives a positive: for $x = -2$, $x^2 = 4$.\n2. Plot the points.\n3. Join them with a **smooth curve**, not straight segments, and never a flat bottom.\n\n| $x$ | −2 | −1 | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|---|---|\n| $y = x^2 - 2x - 3$ | 5 | 0 | −3 | −4 | −3 | 0 | 5 |\n\n## Reading the graph\n\n- **Roots**: where the curve crosses the $x$-axis ($y = 0$). Here $x = -1$ and $x = 3$. These are the solutions of $x^2 - 2x - 3 = 0$.\n- **$y$-intercept**: where $x = 0$, giving $y = -3$ (the constant term).\n- **Line of symmetry**: halfway between the roots, $x = 1$.\n- **Turning point**: on the line of symmetry, at (1, −4). This is the minimum value of $y$.\n\nIf the table shows the same $y$ value twice, the turning point lies halfway between those $x$ values."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-02-10-L1-Q1",
+            "type": "NumericalAnswer",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "Complete the table for $y = x^2 - 4x + 1$: what is the value of $y$ when $x = -1$?",
+            "hint": "$(-1)^2 = 1$ and $-4 \\times (-1) = +4$.",
+            "explanation": "$1 + 4 + 1 = 6$.",
+            "answers": [
+              {
+                "numeric": 6,
+                "tolerance": 0
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-02-10-L1-Q2",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "A quadratic graph crosses the $x$-axis at $x = 2$ and $x = 8$. What is the equation of its line of symmetry?",
+            "hint": "The line of symmetry is halfway between the roots.",
+            "explanation": "Halfway between 2 and 8 is 5, so the line of symmetry is $x = 5$.",
+            "options": [
+              {
+                "text": "x = 5",
+                "correct": true
+              },
+              {
+                "text": "x = 3",
+                "correct": false,
+                "feedback": "Find the midpoint of 2 and 8, not the difference."
+              },
+              {
+                "text": "y = 5",
+                "correct": false,
+                "feedback": "The line of symmetry of a parabola is vertical, so it is $x = $ a number."
+              },
+              {
+                "text": "x = 10",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: sketching and reading a quadratic",
+          "minutes": 5,
+          "content": "## Sketching from the equation\n\n**Sketch $y = x^2 - 6x + 8$, marking the intercepts and turning point.**\n\n1. **Shape**: positive $x^2$, so a U.\n2. **$y$-intercept**: $x = 0$ gives $y = 8$.\n3. **Roots**: factorise $x^2 - 6x + 8 = (x - 2)(x - 4)$, so the curve crosses the $x$-axis at 2 and 4.\n4. **Turning point**: line of symmetry $x = 3$; substitute to get $y = 9 - 18 + 8 = -1$. Minimum at (3, −1).\n\nA sketch does not need a table: just the correct shape with those key points labelled.\n\nIf the question gives the completed-square form $y = (x - 3)^2 - 1$, you can read the turning point (3, −1) straight off: the bracket is zero at $x = 3$, and the constant gives the $y$ value.\n\n## Using a drawn graph to solve equations\n\nSuppose you have drawn $y = x^2 - 6x + 8$.\n\n- To solve $x^2 - 6x + 8 = 0$: read where the curve meets the $x$-axis ($x = 2, 4$).\n- To solve $x^2 - 6x + 8 = 3$: draw the horizontal line $y = 3$ and read the $x$ values where it meets the curve (about 0.7 and 5.3).\n- To solve $x^2 - 6x + 8 = x - 1$: draw the straight line $y = x - 1$ and read the crossing points.\n\nGraphical answers are approximate; give them to 1 decimal place unless they are clearly whole numbers."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-10-L1-Q3",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "The graph of $y = x^2 - 6x + 8$ has its minimum point at (3, −1). Find the **minimum value of $y$** on the graph of $y = x^2 - 6x + 13$.",
+            "hint": "The new graph is the old one moved up by 5.",
+            "explanation": "$x^2 - 6x + 13 = (x - 3)^2 + 4$, so the minimum value is 4, at $x = 3$. Equivalently, adding 5 to the equation shifts the whole curve up by 5.",
+            "answers": [
+              {
+                "numeric": 4,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Cubic, reciprocal and exponential graphs",
+          "minutes": 5,
+          "content": "## Recognising other shapes\n\n**Cubic graphs** have $x^3$ as the highest power, e.g. $y = x^3$ or $y = x^3 - 4x$.\n- Positive $x^3$: the curve comes up from the bottom left and leaves at the top right, often with a wiggle (one hill then one valley) in the middle.\n- Negative $x^3$, such as $y = -x^3$: the shape is flipped, coming down from the top left to the bottom right.\n- $y = x^3$ itself passes through the origin and flattens there briefly.\n\n**Reciprocal graphs** have the form $y = \\frac{k}{x}$, e.g. $y = \\frac{4}{x}$.\n- Two separate curved branches, one in the top-right quadrant and one in the bottom-left (if $k$ is positive).\n- The curve never touches the axes: $x = 0$ is impossible (you cannot divide by zero) and $y$ never reaches 0. The axes are **asymptotes**.\n- Negative $k$ puts the branches in the other two quadrants.\n\n**Exponential graphs** have the form $y = k^x$, e.g. $y = 2^x$ or $y = 3^x$.\n- Always above the $x$-axis and always pass through (0, 1), since $k^0 = 1$.\n- Rise steeply to the right and flatten towards the $x$-axis on the left. The $x$-axis is an asymptote.\n- $y = 0.5^x$ is the mirror image: it decreases as $x$ increases.\n\n## Matching an equation to a picture\n\nAsk: highest power? ($x^2$: U/n; $x^3$: S-shaped through the middle), is $x$ in the denominator? (two branches), is $x$ in the power? (exponential curve)."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-10-L1-Q4",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each equation to the description of its graph.",
+            "hint": "Look for the highest power of $x$, or for $x$ in a denominator or in a power.",
+            "explanation": "$y = 3 - x^2$: negative $x^2$, an n-shaped parabola with maximum at (0, 3). $y = x^3 + 1$: S-shaped cubic through (0, 1). $y = \\frac{6}{x}$: two branches with the axes as asymptotes. $y = 2^x$: exponential through (0, 1), never below the axis.",
+            "pairs": [
+              {
+                "left": "y = 3 − x²",
+                "right": "n-shaped curve with a maximum point at (0, 3)"
+              },
+              {
+                "left": "y = x³ + 1",
+                "right": "S-shaped curve rising from bottom-left to top-right through (0, 1)"
+              },
+              {
+                "left": "y = 6/x",
+                "right": "Two separate branches that never touch the axes"
+              },
+              {
+                "left": "y = 2ˣ",
+                "right": "Curve through (0, 1) that flattens to the left and rises steeply to the right"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-10-L1-Q5",
+            "type": "NumericalAnswer",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Work out the value of $y$ on the graph of $y = x^3 - 2x$ when $x = -3$.",
+            "hint": "$(-3)^3 = -27$ and $-2 \\times (-3) = +6$.",
+            "explanation": "$-27 + 6 = -21$.",
+            "answers": [
+              {
+                "numeric": -21,
+                "tolerance": 0
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Solving equations with graphs",
+          "minutes": 4,
+          "content": "## Finding the right line to draw\n\nA common Higher-style question gives you the graph of $y = x^2 - 3x - 2$ and asks you to solve a *different* equation, such as $x^2 - 4x + 1 = 0$, by drawing a straight line.\n\n**Method**: rearrange the new equation so that one side is exactly the expression you have already drawn.\n\n$x^2 - 4x + 1 = 0$\n\nAdd $x$ and subtract 3 to both sides so the left becomes $x^2 - 3x - 2$:\n\n$x^2 - 3x - 2 = x - 3$\n\nNow draw the line $y = x - 3$ on the same axes. Where it crosses the curve, both equations are true, so the $x$-coordinates of the crossing points solve $x^2 - 4x + 1 = 0$.\n\n## Number of solutions\n\nThe number of crossing points tells you how many solutions there are:\n- A horizontal line above the minimum of a U-shaped parabola crosses it twice.\n- A line touching the turning point gives exactly one solution.\n- A line below the minimum never meets the curve: no real solutions.\n\n## Estimating from a graph\n\nWhen reading values, use the grid lines and state your answer with sensible accuracy, such as \"$x \\approx 3.6$\". Always give **all** the crossing points the question asks for; missing the negative root is a very common slip."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-10-L1-Q6",
+            "type": "MultipleChoice",
+            "difficulty": 4,
+            "marks": 1,
+            "text": "The graph of $y = x^2 + 2x - 5$ has been drawn. Which straight line should be drawn on the same axes to solve $x^2 + x - 8 = 0$?",
+            "hint": "Rearrange $x^2 + x - 8 = 0$ so the left-hand side becomes $x^2 + 2x - 5$.",
+            "explanation": "Adding $x$ and 3 to both sides: $x^2 + 2x - 5 = x + 3$. So draw $y = x + 3$.",
+            "options": [
+              {
+                "text": "y = x + 3",
+                "correct": true
+              },
+              {
+                "text": "y = x − 3",
+                "correct": false,
+                "feedback": "Check the constant: $-8 + 3 = -5$, so 3 must be added."
+              },
+              {
+                "text": "y = −x + 3",
+                "correct": false
+              },
+              {
+                "text": "y = 3x − 3",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Negative numbers in tables.** $(-3)^2 = 9$, not −9. Put brackets in on your calculator.\n- **Joining points with a ruler.** Curves must be smooth; a pointed or flat bottom loses accuracy marks.\n- **Missing the true turning point.** If the table has symmetrical values either side, the minimum may be *between* two plotted points. Plot an extra point if needed.\n- **Roots vs intercept.** Roots are where $y = 0$ (on the $x$-axis); the $y$-intercept is where $x = 0$.\n- **Reciprocal graphs touching the axes.** They never do.\n- **Exponential graphs going below the axis.** $k^x$ is always positive.\n- **Only giving one solution** when a line crosses a curve twice.\n- **Wrong line drawn.** Rearrange carefully so the left-hand side matches the curve you already have."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-02-10-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "The curve $y = x^2 - 2x - 8$ is to be sketched.\n\n(a) Write down the coordinates of the point where the curve crosses the $y$-axis.\n\n(b) Find the values of $x$ where the curve crosses the $x$-axis.\n\n(c) Find the coordinates of the turning point of the curve.",
+            "hint": "(a) Put $x = 0$. (b) Factorise. (c) The turning point lies on the line of symmetry, midway between the roots.",
+            "explanation": "(a) (0, −8). (b) $(x - 4)(x + 2) = 0$, so $x = 4$ and $x = -2$. (c) Line of symmetry $x = 1$; $y = 1 - 2 - 8 = -9$. Turning point (1, −9).",
+            "markScheme": [
+              {
+                "criterion": "y-intercept (0, −8)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "-8",
+                    "−8"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Factorises to (x − 4)(x + 2) or equivalent working",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "(x - 4)(x + 2)",
+                    "(x-4)(x+2)",
+                    "(x + 2)(x - 4)",
+                    "(x+2)(x-4)",
+                    "factoris"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Roots x = 4 and x = −2",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "4",
+                    "4.0"
+                  ],
+                  [
+                    "-2",
+                    "−2"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Line of symmetry x = 1 (turning point x-coordinate 1)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "x = 1",
+                    "x=1",
+                    "(1,",
+                    "(1 ,"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Turning point y-coordinate −9",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "-9",
+                    "−9"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Quadratic**: parabola; U if $x^2$ is positive, n if negative. Roots where $y = 0$, intercept where $x = 0$, turning point on the line of symmetry midway between the roots.\n- **Cubic**: S-shaped, from bottom-left to top-right (or flipped for negative $x^3$).\n- **Reciprocal** $y = \\frac{k}{x}$: two branches; the axes are asymptotes.\n- **Exponential** $y = k^x$: through (0, 1), always positive, one side flattens and the other rises steeply.\n- To solve an equation graphically, rearrange so one side is the curve you have, then draw the other side as a line and read the crossing points.\n- Draw smooth curves and check negative values with brackets."
+        }
       ],
       "practiceQuestions": [
-        { "key": "AQA-MAT-02-10-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Find the value of $y = 2x^2 - 3$ when $x = -2$.", "hint": "Square first, then double, then subtract.", "explanation": "$2 \\times 4 - 3 = 5$.", "answers": [ { "numeric": 5, "tolerance": 0 } ] },
-        { "key": "AQA-MAT-02-10-L1-P2", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "Which equation gives an n-shaped (maximum) parabola?", "hint": "Look at the sign of the $x^2$ term.", "explanation": "$y = 4 - x^2$ has a negative $x^2$ term, so it is an n shape with a maximum at (0, 4).", "options": [ { "text": "y = 4 − x²", "correct": true }, { "text": "y = x² − 4", "correct": false, "feedback": "Positive $x^2$ gives a U shape." }, { "text": "y = x² + 4x", "correct": false }, { "text": "y = 4x − 2", "correct": false, "feedback": "That is a straight line." } ] },
-        { "key": "AQA-MAT-02-10-L1-P3", "type": "NumericalAnswer", "difficulty": 2, "marks": 1, "text": "Write down the $y$-coordinate of the point where the curve $y = x^2 + 5x - 7$ crosses the $y$-axis.", "hint": "Substitute $x = 0$.", "explanation": "When $x = 0$, $y = -7$.", "answers": [ { "numeric": -7, "tolerance": 0 } ] },
-        { "key": "AQA-MAT-02-10-L1-P4", "type": "Equation", "difficulty": 2, "marks": 2, "text": "The curve $y = x^2 - 8x + 15$ crosses the $x$-axis at two points. Give both $x$ values separated by a comma, smallest first, like 1,4.", "hint": "Factorise: two numbers that multiply to 15 and add to −8.", "explanation": "$(x - 3)(x - 5) = 0$, so $x = 3$ and $x = 5$.", "answers": [ { "text": "3,5", "caseSensitive": false, "marks": 2 } ] },
-        { "key": "AQA-MAT-02-10-L1-P5", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "The curve $y = x^2 - 8x + 15$ has roots at $x = 3$ and $x = 5$. Find the $y$-coordinate of its turning point.", "hint": "The turning point is on the line of symmetry $x = 4$.", "explanation": "At $x = 4$: $16 - 32 + 15 = -1$. Turning point (4, −1).", "answers": [ { "numeric": -1, "tolerance": 0, "marks": 2 } ] },
-        { "key": "AQA-MAT-02-10-L1-P6", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: the graph of $y = \\frac{5}{x}$ crosses the $y$-axis at (0, 5).", "hint": "What happens when you try to put $x = 0$ into $\\frac{5}{x}$?", "explanation": "False. You cannot divide by zero, so the curve never touches the $y$-axis; the axes are asymptotes.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
-        { "key": "AQA-MAT-02-10-L1-P7", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentences about exponential graphs.", "metadata": { "blanksText": "The graph of y = 3ˣ passes through the point (0, ___) and never goes below the ___-axis." }, "hint": "Any number to the power 0 is 1.", "explanation": "$3^0 = 1$, so it passes through (0, 1). $3^x$ is always positive, so the curve stays above the $x$-axis.", "answers": [ { "text": "1", "blankIndex": 0, "marks": 1 }, { "text": "x", "blankIndex": 1, "marks": 1 } ] },
-        { "key": "AQA-MAT-02-10-L1-P8", "type": "MultipleChoice", "difficulty": 3, "marks": 1, "text": "The curve $y = x^3 - 3x$ has been drawn. A horizontal line is added to the graph to solve $x^3 - 3x = 1$. How many solutions does this equation have if the line crosses the curve three times?", "hint": "Each crossing point is a solution.", "explanation": "Each crossing point gives a value of $x$ where the curve equals 1, so there are three solutions.", "options": [ { "text": "3", "correct": true }, { "text": "1", "correct": false }, { "text": "2", "correct": false }, { "text": "0", "correct": false } ] },
-        { "key": "AQA-MAT-02-10-L1-P9", "type": "Ordering", "difficulty": 3, "marks": 2, "text": "Put the steps in order to sketch $y = x^2 + 2x - 3$.", "hint": "Start with the shape, then find the key points.", "explanation": "Positive $x^2$ gives a U; intercept at (0, −3); factorise to $(x + 3)(x - 1)$ for roots −3 and 1; symmetry at $x = -1$ gives the turning point (−1, −4).", "order": [ "Note the x² term is positive, so the curve is U-shaped", "Find the y-intercept by putting x = 0: (0, −3)", "Factorise to (x + 3)(x − 1) and find the roots x = −3 and x = 1", "Use the line of symmetry x = −1 to find the turning point (−1, −4)" ] },
-        { "key": "AQA-MAT-02-10-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Dev has drawn the graph of $y = x^2 - 5x + 2$. He wants to use it to solve $x^2 - 5x - 1 = 0$. Explain which straight line he should draw and why.", "hint": "Rearrange $x^2 - 5x - 1 = 0$ so that the left side is $x^2 - 5x + 2$.", "explanation": "Adding 3 to both sides gives $x^2 - 5x + 2 = 3$, so he should draw the horizontal line $y = 3$ and read the $x$-coordinates where it meets the curve.", "markScheme": [ { "criterion": "Identifies the line y = 3", "marks": 1, "keywords": [ ["y = 3", "y=3"] ] }, { "criterion": "Explains that adding 3 makes the left side match the drawn curve, so the crossing points give the solutions", "marks": 1, "keywords": [ ["add 3", "adding 3", "+ 3", "+3", "same as the curve", "matches", "rearrang"], ["cross", "meet", "intersect"] ] } ] },
-        { "key": "AQA-MAT-02-10-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "A curve has equation $y = 10 + 3x - x^2$.\n\n(a) State whether the curve has a maximum or a minimum point, giving a reason.\n\n(b) Find the values of $x$ where the curve crosses the $x$-axis.\n\n(c) Write down the equation of the line of symmetry of the curve.", "hint": "(a) Look at the sign of $x^2$. (b) Solve $10 + 3x - x^2 = 0$, or multiply by −1 first. (c) Midway between the roots.", "explanation": "(a) Maximum, because the $x^2$ coefficient is negative (n shape). (b) $x^2 - 3x - 10 = 0$, $(x - 5)(x + 2) = 0$, so $x = 5$ or $x = -2$. (c) Midway between −2 and 5: $x = 1.5$.", "markScheme": [ { "criterion": "Maximum, because the coefficient of x² is negative", "marks": 1, "keywords": [ ["maximum", "max"], ["negative", "-x^2", "−x²", "-x²", "n shape", "n-shape"] ] }, { "criterion": "Factorises (x − 5)(x + 2) or equivalent", "marks": 1, "keywords": [ ["(x - 5)(x + 2)", "(x-5)(x+2)", "(x + 2)(x - 5)", "(x+2)(x-5)", "(5 - x)(2 + x)", "(5-x)(2+x)", "(5 - x)(x + 2)"] ] }, { "criterion": "Roots x = 5 and x = −2", "marks": 1, "keywords": [ ["5"], ["-2", "−2"] ] }, { "criterion": "Line of symmetry x = 1.5", "marks": 1, "keywords": [ ["1.5", "3/2"] ] } ] }
+        {
+          "key": "AQA-MAT-02-10-L1-P1",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Find the value of $y = 2x^2 - 3$ when $x = -2$.",
+          "hint": "Square first, then double, then subtract.",
+          "explanation": "$2 \\times 4 - 3 = 5$.",
+          "answers": [
+            {
+              "numeric": 5,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which equation gives an n-shaped (maximum) parabola?",
+          "hint": "Look at the sign of the $x^2$ term.",
+          "explanation": "$y = 4 - x^2$ has a negative $x^2$ term, so it is an n shape with a maximum at (0, 4).",
+          "options": [
+            {
+              "text": "y = 4 − x²",
+              "correct": true
+            },
+            {
+              "text": "y = x² − 4",
+              "correct": false,
+              "feedback": "Positive $x^2$ gives a U shape."
+            },
+            {
+              "text": "y = x² + 4x",
+              "correct": false
+            },
+            {
+              "text": "y = 4x − 2",
+              "correct": false,
+              "feedback": "That is a straight line."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P3",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Write down the $y$-coordinate of the point where the curve $y = x^2 + 5x - 7$ crosses the $y$-axis.",
+          "hint": "Substitute $x = 0$.",
+          "explanation": "When $x = 0$, $y = -7$.",
+          "answers": [
+            {
+              "numeric": -7,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P4",
+          "type": "Equation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "The curve $y = x^2 - 8x + 15$ crosses the $x$-axis at two points. Give both $x$ values separated by a comma, smallest first, like 1,4.",
+          "hint": "Factorise: two numbers that multiply to 15 and add to −8.",
+          "explanation": "$(x - 3)(x - 5) = 0$, so $x = 3$ and $x = 5$.",
+          "answers": [
+            {
+              "text": "3,5",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P5",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "The curve $y = x^2 - 8x + 15$ has roots at $x = 3$ and $x = 5$. Find the $y$-coordinate of its turning point.",
+          "hint": "The turning point is on the line of symmetry $x = 4$.",
+          "explanation": "At $x = 4$: $16 - 32 + 15 = -1$. Turning point (4, −1).",
+          "answers": [
+            {
+              "numeric": -1,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P6",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: the graph of $y = \\frac{5}{x}$ crosses the $y$-axis at (0, 5).",
+          "hint": "What happens when you try to put $x = 0$ into $\\frac{5}{x}$?",
+          "explanation": "False. You cannot divide by zero, so the curve never touches the $y$-axis; the axes are asymptotes.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P7",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentences about exponential graphs.",
+          "metadata": {
+            "blanksText": "The graph of y = 3ˣ passes through the point (0, ___) and never goes below the ___-axis."
+          },
+          "hint": "Any number to the power 0 is 1.",
+          "explanation": "$3^0 = 1$, so it passes through (0, 1). $3^x$ is always positive, so the curve stays above the $x$-axis.",
+          "answers": [
+            {
+              "text": "1",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "x",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P8",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "The curve $y = x^3 - 3x$ has been drawn. A horizontal line is added to the graph to solve $x^3 - 3x = 1$. How many solutions does this equation have if the line crosses the curve three times?",
+          "hint": "Each crossing point is a solution.",
+          "explanation": "Each crossing point gives a value of $x$ where the curve equals 1, so there are three solutions.",
+          "options": [
+            {
+              "text": "3",
+              "correct": true
+            },
+            {
+              "text": "1",
+              "correct": false
+            },
+            {
+              "text": "2",
+              "correct": false
+            },
+            {
+              "text": "0",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P9",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Put the steps in order to sketch $y = x^2 + 2x - 3$.",
+          "hint": "Start with the shape, then find the key points.",
+          "explanation": "Positive $x^2$ gives a U; intercept at (0, −3); factorise to $(x + 3)(x - 1)$ for roots −3 and 1; symmetry at $x = -1$ gives the turning point (−1, −4).",
+          "order": [
+            "Note the x² term is positive, so the curve is U-shaped",
+            "Find the y-intercept by putting x = 0: (0, −3)",
+            "Factorise to (x + 3)(x − 1) and find the roots x = −3 and x = 1",
+            "Use the line of symmetry x = −1 to find the turning point (−1, −4)"
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Dev has drawn the graph of $y = x^2 - 5x + 2$. He wants to use it to solve $x^2 - 5x - 1 = 0$. Explain which straight line he should draw and why.",
+          "hint": "Rearrange $x^2 - 5x - 1 = 0$ so that the left side is $x^2 - 5x + 2$.",
+          "explanation": "Adding 3 to both sides gives $x^2 - 5x + 2 = 3$, so he should draw the horizontal line $y = 3$ and read the $x$-coordinates where it meets the curve.",
+          "markScheme": [
+            {
+              "criterion": "Identifies the line y = 3",
+              "marks": 1,
+              "keywords": [
+                [
+                  "y = 3",
+                  "y=3"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explains that adding 3 makes the left side match the drawn curve, so the crossing points give the solutions",
+              "marks": 1,
+              "keywords": [
+                [
+                  "add 3",
+                  "adding 3",
+                  "+ 3",
+                  "+3",
+                  "same as the curve"
+                ],
+                [
+                  "cross",
+                  "meet",
+                  "intersect"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A curve has equation $y = 10 + 3x - x^2$.\n\n(a) State whether the curve has a maximum or a minimum point, giving a reason.\n\n(b) Find the values of $x$ where the curve crosses the $x$-axis.\n\n(c) Write down the equation of the line of symmetry of the curve.",
+          "hint": "(a) Look at the sign of $x^2$. (b) Solve $10 + 3x - x^2 = 0$, or multiply by −1 first. (c) Midway between the roots.",
+          "explanation": "(a) Maximum, because the $x^2$ coefficient is negative (n shape). (b) $x^2 - 3x - 10 = 0$, $(x - 5)(x + 2) = 0$, so $x = 5$ or $x = -2$. (c) Midway between −2 and 5: $x = 1.5$.",
+          "markScheme": [
+            {
+              "criterion": "Maximum, because the coefficient of x² is negative",
+              "marks": 1,
+              "keywords": [
+                [
+                  "maximum",
+                  "max"
+                ],
+                [
+                  "negative",
+                  "-x^2",
+                  "−x²",
+                  "-x²",
+                  "n shape"
+                ]
+              ]
+            },
+            {
+              "criterion": "Factorises (x − 5)(x + 2) or equivalent",
+              "marks": 1,
+              "keywords": [
+                [
+                  "(x - 5)(x + 2)",
+                  "(x-5)(x+2)",
+                  "(x + 2)(x - 5)",
+                  "(x+2)(x-5)",
+                  "(5 - x)(2 + x)"
+                ]
+              ]
+            },
+            {
+              "criterion": "Roots x = 5 and x = −2",
+              "marks": 1,
+              "keywords": [
+                [
+                  "5",
+                  "5.0"
+                ],
+                [
+                  "-2",
+                  "−2"
+                ]
+              ]
+            },
+            {
+              "criterion": "Line of symmetry x = 1.5",
+              "marks": 1,
+              "keywords": [
+                [
+                  "1.5",
+                  "3/2"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

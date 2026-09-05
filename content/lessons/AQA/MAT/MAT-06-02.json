@@ -17,85 +17,557 @@
       "difficulty": 3,
       "tier": "NotApplicable",
       "activities": [
-        { "type": "Explanation", "title": "The three averages and the range", "minutes": 5, "content": "## Summarising a list of numbers\n\nAn **average** is a single value that represents a whole set of data. There are three, and each answers a slightly different question.\n\n| Average | How to find it |\n|---|---|\n| **Mean** | add all the values, divide by how many there are |\n| **Median** | put the values in order, take the middle one (or the mean of the middle two) |\n| **Mode** | the value that appears most often |\n\nThe **range** is not an average. It measures **spread**: largest value minus smallest value.\n\n## Example\n\nScores: 7, 3, 9, 3, 8, 6\n\n- **Mean** $= (7 + 3 + 9 + 3 + 8 + 6) \\div 6 = 36 \\div 6 = 6$\n- **Median**: in order 3, 3, 6, 7, 8, 9. Six values, so the middle two are 6 and 7: median $= 6.5$\n- **Mode** $= 3$ (appears twice)\n- **Range** $= 9 - 3 = 6$\n\n## Finding the median position\n\nWith $n$ values in order, the median is the $\\frac{n + 1}{2}$th value. For 6 values that is the 3.5th, meaning halfway between the 3rd and 4th. For 11 values it is the 6th.\n\n## Modes\n\nA set can have **no mode** (every value appears once), **one mode**, or **two modes** (bimodal). For categories such as favourite colour, the mode is the only average that makes sense.\n\n## Working backwards\n\nIf the mean of 5 numbers is 12, their total is $5 \\times 12 = 60$. Total $= \\text{mean} \\times \\text{number of values}$ is the key to most \"find the missing number\" problems." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-06-02-L1-Q1", "type": "NumericalAnswer", "difficulty": 1, "marks": 2,
-          "text": "Find the median of 12, 5, 9, 15, 7, 11, 4.",
-          "hint": "Order the numbers first. There are 7, so the median is the 4th.",
-          "explanation": "In order: 4, 5, 7, 9, 11, 12, 15. The 4th value is 9.",
-          "answers": [ { "numeric": 9, "tolerance": 0, "marks": 2 } ] } },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-06-02-L1-Q2", "type": "NumericalAnswer", "difficulty": 2, "marks": 2,
-          "text": "The mean of four numbers is 8.5. Three of the numbers are 6, 9 and 11. Find the fourth number.",
-          "hint": "Total $= 4 \\times 8.5$.",
-          "explanation": "Total $= 34$. $34 - 6 - 9 - 11 = 8$.",
-          "answers": [ { "numeric": 8, "tolerance": 0, "marks": 2 } ] } },
-        { "type": "Example", "title": "Worked example: averages from a frequency table", "minutes": 5, "content": "## When data is already counted\n\nThe number of goals scored by a team in 20 matches:\n\n| Goals ($x$) | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| Frequency ($f$) | 3 | 6 | 7 | 3 | 1 |\n\n**Mode**: the value with the highest frequency, **2 goals** (not 7: 7 is how many times it happened).\n\n**Mean**: you need the total number of goals. Multiply each value by its frequency and add:\n\n| $x$ | $f$ | $fx$ |\n|---|---|---|\n| 0 | 3 | 0 |\n| 1 | 6 | 6 |\n| 2 | 7 | 14 |\n| 3 | 3 | 9 |\n| 4 | 1 | 4 |\n| Total | 20 | 33 |\n\nMean $= \\dfrac{\\sum fx}{\\sum f} = \\dfrac{33}{20} = 1.65$ goals.\n\nDivide by the **total frequency** (20), never by the number of rows (5).\n\n**Median**: 20 values, so the median is the mean of the 10th and 11th. Count up the frequencies: 3 values are 0; up to the 9th value is 1; the 10th to 16th are 2. Both the 10th and 11th are 2, so the median is **2**.\n\n**Range** $= 4 - 0 = 4$.\n\n## Why the mean is not a whole number\n\nA mean of 1.65 goals is fine: it is an average, not an actual match result. Do not round it to 2 unless asked." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-06-02-L1-Q3", "type": "FormulaCalculation", "difficulty": 3, "marks": 3,
-          "text": "The number of pets owned by 25 students: 0 pets (frequency 8), 1 pet (frequency 9), 2 pets (frequency 5), 3 pets (frequency 3). Calculate the mean number of pets.",
-          "hint": "Total pets $= 0 \\times 8 + 1 \\times 9 + 2 \\times 5 + 3 \\times 3$; divide by 25.",
-          "explanation": "$0 + 9 + 10 + 9 = 28$. Mean $= 28 \\div 25 = 1.12$.",
-          "answers": [ { "numeric": 1.12, "tolerance": 0.005, "marks": 3 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-06-02-L1-Q4", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
-          "text": "Using the same data (0 pets: 8, 1 pet: 9, 2 pets: 5, 3 pets: 3; 25 students), find the median number of pets.",
-          "hint": "25 values, so the median is the 13th value. Count up through the frequencies.",
-          "explanation": "The first 8 values are 0; values 9 to 17 are 1. The 13th value is 1.",
-          "answers": [ { "numeric": 1, "tolerance": 0, "marks": 2 } ] } },
-        { "type": "Explanation", "title": "Grouped data", "minutes": 5, "content": "## Estimating the mean\n\nWhen data is in **groups**, you no longer know the exact values, so the mean can only be **estimated**. Use the **midpoint** of each class as the best guess for every value in it.\n\nTimes taken to complete a puzzle (minutes):\n\n| Time $t$ | Frequency $f$ | Midpoint $x$ | $fx$ |\n|---|---|---|---|\n| $0 \\le t < 10$ | 4 | 5 | 20 |\n| $10 \\le t < 20$ | 11 | 15 | 165 |\n| $20 \\le t < 30$ | 9 | 25 | 225 |\n| $30 \\le t < 40$ | 6 | 35 | 210 |\n| Total | 30 | | 620 |\n\nEstimated mean $= \\dfrac{620}{30} = 20.7$ minutes (1 d.p.).\n\nThe midpoint is halfway between the class limits: for $10 \\le t < 20$ it is $\\frac{10 + 20}{2} = 15$.\n\n## Modal class and median class\n\n- The **modal class** is the group with the highest frequency: $10 \\le t < 20$.\n- The **class containing the median**: 30 values, so the median is between the 15th and 16th. The first class holds values 1 to 4, the second holds 5 to 15, the third holds 16 to 24. The 15th is in the second class and the 16th in the third; exam questions normally avoid this and would ask for the class of the $\\frac{n}{2}$th value, here the 15th: $10 \\le t < 20$.\n\n## Why 'estimate'?\n\nBecause the actual values inside each class are unknown, the answer is an estimate. Always use the word \"estimate\" and never claim the exact range of grouped data either; you can only say the range is **at most** $40 - 0 = 40$." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-06-02-L1-Q5", "type": "FormulaCalculation", "difficulty": 3, "marks": 3,
-          "text": "Heights of 40 plants: $0 \\le h < 20$ cm (frequency 6), $20 \\le h < 40$ (frequency 14), $40 \\le h < 60$ (frequency 12), $60 \\le h < 80$ (frequency 8). Estimate the mean height in cm.",
-          "hint": "Midpoints 10, 30, 50, 70.",
-          "explanation": "$6(10) + 14(30) + 12(50) + 8(70) = 60 + 420 + 600 + 560 = 1640$. Mean $\\approx 1640 \\div 40 = 41$ cm.",
-          "answers": [ { "numeric": 41, "tolerance": 0.1, "unit": "cm", "marks": 3 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-06-02-L1-Q6", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
-          "text": "For the plant data above, which is the modal class?",
-          "hint": "Highest frequency.",
-          "explanation": "The class $20 \\le h < 40$ has the highest frequency, 14.",
-          "options": [
-            { "text": "20 ≤ h < 40", "correct": true },
-            { "text": "40 ≤ h < 60", "correct": false },
-            { "text": "14", "correct": false, "feedback": "14 is the frequency, not the class." },
-            { "text": "30", "correct": false, "feedback": "30 is the midpoint of the modal class, not the class itself." } ] } },
-        { "type": "Explanation", "title": "Choosing an average and comparing data", "minutes": 4, "content": "## Which average?\n\n| Average | Advantages | Disadvantages |\n|---|---|---|\n| Mean | uses every value | distorted by **extreme values** (outliers) |\n| Median | not affected by extreme values | ignores the actual sizes of most values |\n| Mode | easy to find; works for categories | may not exist, or may be unrepresentative |\n\nSalaries in a small company: £18k, £20k, £21k, £22k, £150k. The mean (£46.2k) is pulled up by the director's salary and represents nobody. The median (£21k) is a much fairer \"typical\" salary. When data contains an outlier, choose the **median**.\n\n## Comparing two sets\n\nAn exam comparison needs **two** statements, each in context:\n\n1. Compare an **average** (which group is typically higher/faster/longer).\n2. Compare the **range** (which group is more **consistent**: a smaller range means less spread, so more consistent).\n\n*Class A: median 62, range 30. Class B: median 58, range 12.*\n\n\"Class A scored higher on average because its median is greater. Class B's marks were more consistent because its range is smaller.\"\n\nA bare \"A's median is bigger\" without saying what that means for the classes usually loses a mark. Use the words **on average** and **consistent**.\n\n## Effects of changes\n\nAdding the same number to every value shifts the mean, median and mode by that amount but leaves the range unchanged. Multiplying every value by $k$ multiplies all four by $k$." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-06-02-L1-Q7", "type": "Matching", "difficulty": 2, "marks": 3,
-          "text": "Match each situation to the most appropriate average.",
-          "hint": "Outliers push you towards the median; categories need the mode.",
-          "explanation": "Shoe sizes stocked: mode (most common). House prices with one mansion: median (avoids the outlier). Test marks with no extremes: mean (uses all values).",
-          "pairs": [
-            { "left": "A shoe shop deciding which size to stock most of", "right": "Mode" },
-            { "left": "Typical house price in a street with one very expensive mansion", "right": "Median" },
-            { "left": "Average test mark in a class with no unusual scores", "right": "Mean" } ] } },
-        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Not ordering** before finding the median.\n- **Even number of values.** The median is halfway between the middle two.\n- **Mode confusion in tables.** The mode is the **value** with the highest frequency, not the frequency itself.\n- **Dividing by the number of rows** instead of the total frequency when finding the mean from a table.\n- **Grouped data.** Use midpoints; say \"estimate\"; the modal class is a group, not a number.\n- **Range is not an average.** It measures spread; a **small** range means **consistent**.\n- **Comparisons without context.** Say what a bigger median or smaller range *means* for the groups.\n- **Mean with outliers.** If one value is far from the rest, the median is usually the better choice, and you should say why." },
-        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
-          "key": "AQA-MAT-06-02-L1-Q8", "type": "ExamQuestion", "difficulty": 4, "marks": 5, "examStyle": true,
-          "text": "The times, in minutes, that 50 customers waited at a bank are grouped: $0 \\le t < 4$ (frequency 12), $4 \\le t < 8$ (frequency 20), $8 \\le t < 12$ (frequency 13), $12 \\le t < 20$ (frequency 5).\n\n(a) Write down the modal class.\n\n(b) Calculate an estimate of the mean waiting time.\n\n(c) At a second bank the estimated mean waiting time was 6.1 minutes and the range was 25 minutes. The range at the first bank was 18 minutes. Compare the waiting times at the two banks.",
-          "hint": "(b) Midpoints 2, 6, 10, 16. (c) Two statements: average and spread, in context.",
-          "explanation": "(a) $4 \\le t < 8$. (b) $12(2) + 20(6) + 13(10) + 5(16) = 24 + 120 + 130 + 80 = 354$; mean $\\approx 354 \\div 50 = 7.08$ minutes. (c) The first bank has a longer mean wait (7.08 > 6.1), so customers wait longer on average; but its range is smaller (18 < 25), so waiting times there are more consistent.",
-          "markScheme": [
-            { "criterion": "Modal class 4 ≤ t < 8", "marks": 1, "keywords": [ ["4 ≤ t < 8", "4 <= t < 8", "4 to 8", "4-8", "4 – 8", "4 and 8"] ] },
-            { "criterion": "Uses midpoints 2, 6, 10, 16 and finds total 354", "marks": 1, "keywords": [ ["354"] ] },
-            { "criterion": "Estimated mean 7.08 minutes (accept 7.1)", "marks": 1, "keywords": [ ["7.08", "7.1"] ] },
-            { "criterion": "Compares means in context: first bank waits longer on average", "marks": 1, "keywords": [ ["longer", "higher", "greater", "more"], ["average", "mean"] ] },
-            { "criterion": "Compares ranges in context: first bank more consistent / less spread", "marks": 1, "keywords": [ ["consistent", "spread", "varied", "vary"], ["range", "18", "25"] ] } ] } },
-        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Mean** = total ÷ number of values; **median** = middle of the ordered list; **mode** = most common; **range** = largest − smallest (spread, not an average).\n- Frequency tables: mean $= \\frac{\\sum fx}{\\sum f}$; the mode is the value with the highest frequency; count up frequencies to locate the median.\n- Grouped data: use midpoints to **estimate** the mean; the modal class has the highest frequency.\n- Mean uses all data but is affected by outliers; median is not; mode works for categories.\n- Compare with an average **and** the range, both explained in context; smaller range = more consistent." }
+        {
+          "type": "Explanation",
+          "title": "The three averages and the range",
+          "minutes": 5,
+          "content": "## Summarising a list of numbers\n\nAn **average** is a single value that represents a whole set of data. There are three, and each answers a slightly different question.\n\n| Average | How to find it |\n|---|---|\n| **Mean** | add all the values, divide by how many there are |\n| **Median** | put the values in order, take the middle one (or the mean of the middle two) |\n| **Mode** | the value that appears most often |\n\nThe **range** is not an average. It measures **spread**: largest value minus smallest value.\n\n## Example\n\nScores: 7, 3, 9, 3, 8, 6\n\n- **Mean** $= (7 + 3 + 9 + 3 + 8 + 6) \\div 6 = 36 \\div 6 = 6$\n- **Median**: in order 3, 3, 6, 7, 8, 9. Six values, so the middle two are 6 and 7: median $= 6.5$\n- **Mode** $= 3$ (appears twice)\n- **Range** $= 9 - 3 = 6$\n\n## Finding the median position\n\nWith $n$ values in order, the median is the $\\frac{n + 1}{2}$th value. For 6 values that is the 3.5th, meaning halfway between the 3rd and 4th. For 11 values it is the 6th.\n\n## Modes\n\nA set can have **no mode** (every value appears once), **one mode**, or **two modes** (bimodal). For categories such as favourite colour, the mode is the only average that makes sense.\n\n## Working backwards\n\nIf the mean of 5 numbers is 12, their total is $5 \\times 12 = 60$. Total $= \\text{mean} \\times \\text{number of values}$ is the key to most \"find the missing number\" problems."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-06-02-L1-Q1",
+            "type": "NumericalAnswer",
+            "difficulty": 1,
+            "marks": 2,
+            "text": "Find the median of 12, 5, 9, 15, 7, 11, 4.",
+            "hint": "Order the numbers first. There are 7, so the median is the 4th.",
+            "explanation": "In order: 4, 5, 7, 9, 11, 12, 15. The 4th value is 9.",
+            "answers": [
+              {
+                "numeric": 9,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-06-02-L1-Q2",
+            "type": "NumericalAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "The mean of four numbers is 8.5. Three of the numbers are 6, 9 and 11. Find the fourth number.",
+            "hint": "Total $= 4 \\times 8.5$.",
+            "explanation": "Total $= 34$. $34 - 6 - 9 - 11 = 8$.",
+            "answers": [
+              {
+                "numeric": 8,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: averages from a frequency table",
+          "minutes": 5,
+          "content": "## When data is already counted\n\nThe number of goals scored by a team in 20 matches:\n\n| Goals ($x$) | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| Frequency ($f$) | 3 | 6 | 7 | 3 | 1 |\n\n**Mode**: the value with the highest frequency, **2 goals** (not 7: 7 is how many times it happened).\n\n**Mean**: you need the total number of goals. Multiply each value by its frequency and add:\n\n| $x$ | $f$ | $fx$ |\n|---|---|---|\n| 0 | 3 | 0 |\n| 1 | 6 | 6 |\n| 2 | 7 | 14 |\n| 3 | 3 | 9 |\n| 4 | 1 | 4 |\n| Total | 20 | 33 |\n\nMean $= \\dfrac{\\sum fx}{\\sum f} = \\dfrac{33}{20} = 1.65$ goals.\n\nDivide by the **total frequency** (20), never by the number of rows (5).\n\n**Median**: 20 values, so the median is the mean of the 10th and 11th. Count up the frequencies: 3 values are 0; up to the 9th value is 1; the 10th to 16th are 2. Both the 10th and 11th are 2, so the median is **2**.\n\n**Range** $= 4 - 0 = 4$.\n\n## Why the mean is not a whole number\n\nA mean of 1.65 goals is fine: it is an average, not an actual match result. Do not round it to 2 unless asked."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-02-L1-Q3",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "The number of pets owned by 25 students: 0 pets (frequency 8), 1 pet (frequency 9), 2 pets (frequency 5), 3 pets (frequency 3). Calculate the mean number of pets.",
+            "hint": "Total pets $= 0 \\times 8 + 1 \\times 9 + 2 \\times 5 + 3 \\times 3$; divide by 25.",
+            "explanation": "$0 + 9 + 10 + 9 = 28$. Mean $= 28 \\div 25 = 1.12$.",
+            "answers": [
+              {
+                "numeric": 1.12,
+                "tolerance": 0.005,
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-02-L1-Q4",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "Using the same data (0 pets: 8, 1 pet: 9, 2 pets: 5, 3 pets: 3; 25 students), find the median number of pets.",
+            "hint": "25 values, so the median is the 13th value. Count up through the frequencies.",
+            "explanation": "The first 8 values are 0; values 9 to 17 are 1. The 13th value is 1.",
+            "answers": [
+              {
+                "numeric": 1,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Grouped data",
+          "minutes": 5,
+          "content": "## Estimating the mean\n\nWhen data is in **groups**, you no longer know the exact values, so the mean can only be **estimated**. Use the **midpoint** of each class as the best guess for every value in it.\n\nTimes taken to complete a puzzle (minutes):\n\n| Time $t$ | Frequency $f$ | Midpoint $x$ | $fx$ |\n|---|---|---|---|\n| $0 \\le t < 10$ | 4 | 5 | 20 |\n| $10 \\le t < 20$ | 11 | 15 | 165 |\n| $20 \\le t < 30$ | 9 | 25 | 225 |\n| $30 \\le t < 40$ | 6 | 35 | 210 |\n| Total | 30 | | 620 |\n\nEstimated mean $= \\dfrac{620}{30} = 20.7$ minutes (1 d.p.).\n\nThe midpoint is halfway between the class limits: for $10 \\le t < 20$ it is $\\frac{10 + 20}{2} = 15$.\n\n## Modal class and median class\n\n- The **modal class** is the group with the highest frequency: $10 \\le t < 20$.\n- The **class containing the median**: 30 values, so the median is between the 15th and 16th. The first class holds values 1 to 4, the second holds 5 to 15, the third holds 16 to 24. The 15th is in the second class and the 16th in the third; exam questions normally avoid this and would ask for the class of the $\\frac{n}{2}$th value, here the 15th: $10 \\le t < 20$.\n\n## Why 'estimate'?\n\nBecause the actual values inside each class are unknown, the answer is an estimate. Always use the word \"estimate\" and never claim the exact range of grouped data either; you can only say the range is **at most** $40 - 0 = 40$."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-02-L1-Q5",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Heights of 40 plants: $0 \\le h < 20$ cm (frequency 6), $20 \\le h < 40$ (frequency 14), $40 \\le h < 60$ (frequency 12), $60 \\le h < 80$ (frequency 8). Estimate the mean height in cm.",
+            "hint": "Midpoints 10, 30, 50, 70.",
+            "explanation": "$6(10) + 14(30) + 12(50) + 8(70) = 60 + 420 + 600 + 560 = 1640$. Mean $\\approx 1640 \\div 40 = 41$ cm.",
+            "answers": [
+              {
+                "numeric": 41,
+                "tolerance": 0.1,
+                "unit": "cm",
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-02-L1-Q6",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "For the plant data above, which is the modal class?",
+            "hint": "Highest frequency.",
+            "explanation": "The class $20 \\le h < 40$ has the highest frequency, 14.",
+            "options": [
+              {
+                "text": "20 ≤ h < 40",
+                "correct": true
+              },
+              {
+                "text": "40 ≤ h < 60",
+                "correct": false
+              },
+              {
+                "text": "14",
+                "correct": false,
+                "feedback": "14 is the frequency, not the class."
+              },
+              {
+                "text": "30",
+                "correct": false,
+                "feedback": "30 is the midpoint of the modal class, not the class itself."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Choosing an average and comparing data",
+          "minutes": 4,
+          "content": "## Which average?\n\n| Average | Advantages | Disadvantages |\n|---|---|---|\n| Mean | uses every value | distorted by **extreme values** (outliers) |\n| Median | not affected by extreme values | ignores the actual sizes of most values |\n| Mode | easy to find; works for categories | may not exist, or may be unrepresentative |\n\nSalaries in a small company: £18k, £20k, £21k, £22k, £150k. The mean (£46.2k) is pulled up by the director's salary and represents nobody. The median (£21k) is a much fairer \"typical\" salary. When data contains an outlier, choose the **median**.\n\n## Comparing two sets\n\nAn exam comparison needs **two** statements, each in context:\n\n1. Compare an **average** (which group is typically higher/faster/longer).\n2. Compare the **range** (which group is more **consistent**: a smaller range means less spread, so more consistent).\n\n*Class A: median 62, range 30. Class B: median 58, range 12.*\n\n\"Class A scored higher on average because its median is greater. Class B's marks were more consistent because its range is smaller.\"\n\nA bare \"A's median is bigger\" without saying what that means for the classes usually loses a mark. Use the words **on average** and **consistent**.\n\n## Effects of changes\n\nAdding the same number to every value shifts the mean, median and mode by that amount but leaves the range unchanged. Multiplying every value by $k$ multiplies all four by $k$."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-02-L1-Q7",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Match each situation to the most appropriate average.",
+            "hint": "Outliers push you towards the median; categories need the mode.",
+            "explanation": "Shoe sizes stocked: mode (most common). House prices with one mansion: median (avoids the outlier). Test marks with no extremes: mean (uses all values).",
+            "pairs": [
+              {
+                "left": "A shoe shop deciding which size to stock most of",
+                "right": "Mode"
+              },
+              {
+                "left": "Typical house price in a street with one very expensive mansion",
+                "right": "Median"
+              },
+              {
+                "left": "Average test mark in a class with no unusual scores",
+                "right": "Mean"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Not ordering** before finding the median.\n- **Even number of values.** The median is halfway between the middle two.\n- **Mode confusion in tables.** The mode is the **value** with the highest frequency, not the frequency itself.\n- **Dividing by the number of rows** instead of the total frequency when finding the mean from a table.\n- **Grouped data.** Use midpoints; say \"estimate\"; the modal class is a group, not a number.\n- **Range is not an average.** It measures spread; a **small** range means **consistent**.\n- **Comparisons without context.** Say what a bigger median or smaller range *means* for the groups.\n- **Mean with outliers.** If one value is far from the rest, the median is usually the better choice, and you should say why."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-06-02-L1-Q8",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "The times, in minutes, that 50 customers waited at a bank are grouped: $0 \\le t < 4$ (frequency 12), $4 \\le t < 8$ (frequency 20), $8 \\le t < 12$ (frequency 13), $12 \\le t < 20$ (frequency 5).\n\n(a) Write down the modal class.\n\n(b) Calculate an estimate of the mean waiting time.\n\n(c) At a second bank the estimated mean waiting time was 6.1 minutes and the range was 25 minutes. The range at the first bank was 18 minutes. Compare the waiting times at the two banks.",
+            "hint": "(b) Midpoints 2, 6, 10, 16. (c) Two statements: average and spread, in context.",
+            "explanation": "(a) $4 \\le t < 8$. (b) $12(2) + 20(6) + 13(10) + 5(16) = 24 + 120 + 130 + 80 = 354$; mean $\\approx 354 \\div 50 = 7.08$ minutes. (c) The first bank has a longer mean wait (7.08 > 6.1), so customers wait longer on average; but its range is smaller (18 < 25), so waiting times there are more consistent.",
+            "markScheme": [
+              {
+                "criterion": "Modal class 4 ≤ t < 8",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "4 ≤ t < 8",
+                    "4 <= t < 8",
+                    "4 to 8",
+                    "4-8",
+                    "4 – 8"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Uses midpoints 2, 6, 10, 16 and finds total 354",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "354",
+                    "354.0"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Estimated mean 7.08 minutes (accept 7.1)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "7.08",
+                    "7.1"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Compares means in context: first bank waits longer on average",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "longer",
+                    "higher",
+                    "greater",
+                    "more"
+                  ],
+                  [
+                    "average",
+                    "mean"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Compares ranges in context: first bank more consistent / less spread",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "consistent",
+                    "spread",
+                    "varied",
+                    "vary"
+                  ],
+                  [
+                    "range",
+                    "18",
+                    "25"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Mean** = total ÷ number of values; **median** = middle of the ordered list; **mode** = most common; **range** = largest − smallest (spread, not an average).\n- Frequency tables: mean $= \\frac{\\sum fx}{\\sum f}$; the mode is the value with the highest frequency; count up frequencies to locate the median.\n- Grouped data: use midpoints to **estimate** the mean; the modal class has the highest frequency.\n- Mean uses all data but is affected by outliers; median is not; mode works for categories.\n- Compare with an average **and** the range, both explained in context; smaller range = more consistent."
+        }
       ],
       "practiceQuestions": [
-        { "key": "AQA-MAT-06-02-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Find the mean of 4, 8, 5, 11, 2.", "hint": "Add them and divide by 5.", "explanation": "$30 \\div 5 = 6$.", "answers": [ { "numeric": 6, "tolerance": 0 } ] },
-        { "key": "AQA-MAT-06-02-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "Find the range of 23, 17, 31, 9, 26.", "hint": "Largest minus smallest.", "explanation": "$31 - 9 = 22$.", "answers": [ { "numeric": 22, "tolerance": 0 } ] },
-        { "key": "AQA-MAT-06-02-L1-P3", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "Find the median of 14, 9, 21, 9, 16, 12.", "hint": "Order them; with 6 values, average the 3rd and 4th.", "explanation": "In order: 9, 9, 12, 14, 16, 21. Median $= (12 + 14) \\div 2 = 13$.", "answers": [ { "numeric": 13, "tolerance": 0, "marks": 2 } ] },
-        { "key": "AQA-MAT-06-02-L1-P4", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "What is the mode of 3, 7, 7, 2, 9, 3, 7?", "hint": "Which value appears most often?", "explanation": "7 appears three times, more than any other value.", "options": [ { "text": "7", "correct": true }, { "text": "3", "correct": false, "feedback": "3 appears twice; 7 appears three times." }, { "text": "9", "correct": false }, { "text": "5.4", "correct": false, "feedback": "That is the mean." } ] },
-        { "key": "AQA-MAT-06-02-L1-P5", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "The mean of 8 numbers is 15. When one more number is added, the mean becomes 16. What number was added?", "hint": "Compare the totals: $8 \\times 15$ and $9 \\times 16$.", "explanation": "Old total 120, new total 144. Added number $= 24$.", "answers": [ { "numeric": 24, "tolerance": 0, "marks": 2 } ] },
-        { "key": "AQA-MAT-06-02-L1-P6", "type": "FormulaCalculation", "difficulty": 3, "marks": 3, "text": "Number of siblings of 30 students: 0 (frequency 7), 1 (frequency 12), 2 (frequency 8), 3 (frequency 2), 4 (frequency 1). Calculate the mean number of siblings.", "hint": "$\\sum fx = 0 + 12 + 16 + 6 + 4$.", "explanation": "$38 \\div 30 = 1.27$ (2 d.p.).", "answers": [ { "numeric": 1.267, "tolerance": 0.01, "marks": 3 } ] },
-        { "key": "AQA-MAT-06-02-L1-P7", "type": "NumericalAnswer", "difficulty": 2, "marks": 1, "text": "Number of siblings of 30 students: 0 (frequency 7), 1 (frequency 12), 2 (frequency 8), 3 (frequency 2), 4 (frequency 1). Write down the mode.", "hint": "The value with the highest frequency.", "explanation": "1 sibling has the highest frequency (12), so the mode is 1.", "answers": [ { "numeric": 1, "tolerance": 0 } ] },
-        { "key": "AQA-MAT-06-02-L1-P8", "type": "FormulaCalculation", "difficulty": 3, "marks": 3, "text": "Masses of 20 parcels: $0 \\le m < 2$ kg (frequency 5), $2 \\le m < 4$ (frequency 9), $4 \\le m < 6$ (frequency 4), $6 \\le m < 10$ (frequency 2). Estimate the mean mass in kg.", "hint": "Midpoints 1, 3, 5, 8.", "explanation": "$5 + 27 + 20 + 16 = 68$. Mean $\\approx 68 \\div 20 = 3.4$ kg.", "answers": [ { "numeric": 3.4, "tolerance": 0.01, "unit": "kg", "marks": 3 } ] },
-        { "key": "AQA-MAT-06-02-L1-P9", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: if every value in a data set is increased by 5, the range also increases by 5.", "hint": "Both the largest and smallest values go up by 5.", "explanation": "False. Largest and smallest both increase by 5, so their difference is unchanged. The mean, median and mode all increase by 5.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
-        { "key": "AQA-MAT-06-02-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "The weekly wages of six staff in a cafe are £180, £190, £200, £210, £220 and £900. The owner says the average wage is £317. Explain why this is misleading and suggest a better average.", "hint": "One wage is very different from the rest.", "explanation": "The mean is pulled up by the outlier of £900 (probably the owner's own wage), so £317 is higher than any ordinary staff member earns. The median (£205) gives a fairer picture.", "markScheme": [ { "criterion": "Explains that the mean is distorted by the extreme value / outlier of £900", "marks": 1, "keywords": [ ["outlier", "extreme", "900", "pulled up", "distort", "skew", "much higher"] ] }, { "criterion": "Suggests the median (accept the median value £205)", "marks": 1, "keywords": [ ["median", "205"] ] } ] },
-        { "key": "AQA-MAT-06-02-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "Two athletes record their 200 m times over a season.\n\nAthlete A: mean 24.1 s, range 1.8 s.\nAthlete B: mean 23.6 s, range 3.5 s.\n\n(a) Compare the performances of the two athletes.\n\n(b) The coach wants to choose one athlete for a race where a reliable time is more important than the fastest possible time. Which athlete should be chosen? Give a reason.", "hint": "Lower time is better. Smaller range is more consistent.", "explanation": "(a) B is faster on average (lower mean, 23.6 < 24.1). A is more consistent (smaller range, 1.8 < 3.5). (b) Athlete A, because the smaller range means her times vary less, so she is more reliable.", "markScheme": [ { "criterion": "B is faster on average because the mean is lower", "marks": 1, "keywords": [ ["b"], ["faster", "quicker", "lower mean", "better average", "on average"] ] }, { "criterion": "A is more consistent because the range is smaller", "marks": 1, "keywords": [ ["a"], ["consistent", "smaller range", "less spread", "less varied", "reliable"] ] }, { "criterion": "Chooses athlete A", "marks": 1, "keywords": [ ["athlete a", "choose a", "a should", "a,", "a because"] ] }, { "criterion": "Reason: smaller range means more reliable/consistent times", "marks": 1, "keywords": [ ["range", "consistent", "reliable", "vary less", "varies less"] ] } ] }
+        {
+          "key": "AQA-MAT-06-02-L1-P1",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Find the mean of 4, 8, 5, 11, 2.",
+          "hint": "Add them and divide by 5.",
+          "explanation": "$30 \\div 5 = 6$.",
+          "answers": [
+            {
+              "numeric": 6,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P2",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Find the range of 23, 17, 31, 9, 26.",
+          "hint": "Largest minus smallest.",
+          "explanation": "$31 - 9 = 22$.",
+          "answers": [
+            {
+              "numeric": 22,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P3",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Find the median of 14, 9, 21, 9, 16, 12.",
+          "hint": "Order them; with 6 values, average the 3rd and 4th.",
+          "explanation": "In order: 9, 9, 12, 14, 16, 21. Median $= (12 + 14) \\div 2 = 13$.",
+          "answers": [
+            {
+              "numeric": 13,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "What is the mode of 3, 7, 7, 2, 9, 3, 7?",
+          "hint": "Which value appears most often?",
+          "explanation": "7 appears three times, more than any other value.",
+          "options": [
+            {
+              "text": "7",
+              "correct": true
+            },
+            {
+              "text": "3",
+              "correct": false,
+              "feedback": "3 appears twice; 7 appears three times."
+            },
+            {
+              "text": "9",
+              "correct": false
+            },
+            {
+              "text": "5.4",
+              "correct": false,
+              "feedback": "That is the mean."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P5",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "The mean of 8 numbers is 15. When one more number is added, the mean becomes 16. What number was added?",
+          "hint": "Compare the totals: $8 \\times 15$ and $9 \\times 16$.",
+          "explanation": "Old total 120, new total 144. Added number $= 24$.",
+          "answers": [
+            {
+              "numeric": 24,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P6",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Number of siblings of 30 students: 0 (frequency 7), 1 (frequency 12), 2 (frequency 8), 3 (frequency 2), 4 (frequency 1). Calculate the mean number of siblings.",
+          "hint": "$\\sum fx = 0 + 12 + 16 + 6 + 4$.",
+          "explanation": "$38 \\div 30 = 1.27$ (2 d.p.).",
+          "answers": [
+            {
+              "numeric": 1.267,
+              "tolerance": 0.01,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P7",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Number of siblings of 30 students: 0 (frequency 7), 1 (frequency 12), 2 (frequency 8), 3 (frequency 2), 4 (frequency 1). Write down the mode.",
+          "hint": "The value with the highest frequency.",
+          "explanation": "1 sibling has the highest frequency (12), so the mode is 1.",
+          "answers": [
+            {
+              "numeric": 1,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P8",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Masses of 20 parcels: $0 \\le m < 2$ kg (frequency 5), $2 \\le m < 4$ (frequency 9), $4 \\le m < 6$ (frequency 4), $6 \\le m < 10$ (frequency 2). Estimate the mean mass in kg.",
+          "hint": "Midpoints 1, 3, 5, 8.",
+          "explanation": "$5 + 27 + 20 + 16 = 68$. Mean $\\approx 68 \\div 20 = 3.4$ kg.",
+          "answers": [
+            {
+              "numeric": 3.4,
+              "tolerance": 0.01,
+              "unit": "kg",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P9",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: if every value in a data set is increased by 5, the range also increases by 5.",
+          "hint": "Both the largest and smallest values go up by 5.",
+          "explanation": "False. Largest and smallest both increase by 5, so their difference is unchanged. The mean, median and mode all increase by 5.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "The weekly wages of six staff in a cafe are £180, £190, £200, £210, £220 and £900. The owner says the average wage is £317. Explain why this is misleading and suggest a better average.",
+          "hint": "One wage is very different from the rest.",
+          "explanation": "The mean is pulled up by the outlier of £900 (probably the owner's own wage), so £317 is higher than any ordinary staff member earns. The median (£205) gives a fairer picture.",
+          "markScheme": [
+            {
+              "criterion": "Explains that the mean is distorted by the extreme value / outlier of £900",
+              "marks": 1,
+              "keywords": [
+                [
+                  "outlier",
+                  "extreme",
+                  "900",
+                  "pulled up",
+                  "distort"
+                ]
+              ]
+            },
+            {
+              "criterion": "Suggests the median (accept the median value £205)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "median",
+                  "205"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "Two athletes record their 200 m times over a season.\n\nAthlete A: mean 24.1 s, range 1.8 s.\nAthlete B: mean 23.6 s, range 3.5 s.\n\n(a) Compare the performances of the two athletes.\n\n(b) The coach wants to choose one athlete for a race where a reliable time is more important than the fastest possible time. Which athlete should be chosen? Give a reason.",
+          "hint": "Lower time is better. Smaller range is more consistent.",
+          "explanation": "(a) B is faster on average (lower mean, 23.6 < 24.1). A is more consistent (smaller range, 1.8 < 3.5). (b) Athlete A, because the smaller range means her times vary less, so she is more reliable.",
+          "markScheme": [
+            {
+              "criterion": "B is faster on average because the mean is lower",
+              "marks": 1,
+              "keywords": [
+                [
+                  "athlete b",
+                  "b is",
+                  "b has",
+                  "b runs"
+                ],
+                [
+                  "faster",
+                  "quicker",
+                  "lower mean",
+                  "better average",
+                  "on average"
+                ]
+              ]
+            },
+            {
+              "criterion": "A is more consistent because the range is smaller",
+              "marks": 1,
+              "keywords": [
+                [
+                  "athlete a",
+                  "a is",
+                  "a has",
+                  "a's"
+                ],
+                [
+                  "consistent",
+                  "smaller range",
+                  "less spread",
+                  "less varied",
+                  "reliable"
+                ]
+              ]
+            },
+            {
+              "criterion": "Chooses athlete A",
+              "marks": 1,
+              "keywords": [
+                [
+                  "athlete a",
+                  "choose a",
+                  "a should",
+                  "a,",
+                  "a because"
+                ]
+              ]
+            },
+            {
+              "criterion": "Reason: smaller range means more reliable/consistent times",
+              "marks": 1,
+              "keywords": [
+                [
+                  "range",
+                  "consistent",
+                  "reliable",
+                  "vary less",
+                  "varies less"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

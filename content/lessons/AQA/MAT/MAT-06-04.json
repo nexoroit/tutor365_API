@@ -1,0 +1,612 @@
+{
+  "subTopicCode": "MAT-06-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-MAT-06-04-L1",
+      "title": "Scatter graphs and correlation",
+      "summary": "Plot scatter graphs, describe the type and strength of correlation, identify outliers, draw a line of best fit and use it to make estimates, and understand the difference between correlation and causation and the danger of extrapolation.",
+      "objectives": [
+        "I can plot a scatter graph from paired data.",
+        "I can describe correlation as positive, negative or none, and as strong or weak, and interpret it in context.",
+        "I can identify an outlier and explain its effect.",
+        "I can draw a line of best fit and use it to estimate one value from another (interpolation).",
+        "I can explain why extrapolation is unreliable and why correlation does not prove causation."
+      ],
+      "estimatedMinutes": 38,
+      "difficulty": 2,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Scatter graphs and correlation",
+          "minutes": 5,
+          "content": "## Two variables at once\n\nA **scatter graph** shows whether two quantities are related. Each pair of values (for one person, one car, one day) becomes a single point: one variable on the horizontal axis, the other on the vertical axis. Points are **not** joined up.\n\nExamples: height and arm span; hours of revision and test score; age of a car and its value.\n\n## Describing correlation\n\n**Correlation** describes the relationship the points show.\n\n| Pattern of points | Correlation | Meaning |\n|---|---|---|\n| rising from bottom-left to top-right | **positive** | as one increases, the other tends to increase |\n| falling from top-left to bottom-right | **negative** | as one increases, the other tends to decrease |\n| no clear pattern | **no correlation** | the variables are not related |\n\nAlso say how **strong** it is:\n- **Strong**: points lie close to a straight line.\n- **Weak**: points are more scattered but the trend is still visible.\n\nA full description: \"strong negative correlation\".\n\n## Interpreting in context\n\nAn exam answer should translate the correlation into a sentence about the variables: \"There is negative correlation, so the older a car is, the less it tends to be worth.\" Use \"tends to\" because correlation describes a general trend, not a rule for every point.\n\n## Outliers\n\nAn **outlier** is a point that does not fit the pattern of the rest, lying well away from the others. It might be a measurement error or a genuinely unusual case. Circle it, mention it, and ignore it when drawing the line of best fit."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-06-04-L1-Q1",
+            "type": "Matching",
+            "difficulty": 1,
+            "marks": 3,
+            "text": "Match each pair of variables to the type of correlation you would expect.",
+            "hint": "Think about whether one going up makes the other go up, go down, or neither.",
+            "explanation": "More time spent revising usually improves marks (positive). Outdoor temperature rising reduces heating use (negative). Shoe size has nothing to do with maths score (none).",
+            "pairs": [
+              {
+                "left": "Hours of revision and test mark",
+                "right": "Positive correlation"
+              },
+              {
+                "left": "Outdoor temperature and heating bill",
+                "right": "Negative correlation"
+              },
+              {
+                "left": "Shoe size and maths score",
+                "right": "No correlation"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-06-04-L1-Q2",
+            "type": "MultipleChoice",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "On a scatter graph of a car's age against its value, the points slope downwards from top-left to bottom-right and lie close to a straight line. Which describes the correlation?",
+            "hint": "Downward slope; close to a line.",
+            "explanation": "Downward slope means negative; points close to a line means strong.",
+            "options": [
+              {
+                "text": "Strong negative",
+                "correct": true
+              },
+              {
+                "text": "Weak negative",
+                "correct": false,
+                "feedback": "Points close to a line indicate strong correlation."
+              },
+              {
+                "text": "Strong positive",
+                "correct": false,
+                "feedback": "Positive correlation slopes upwards."
+              },
+              {
+                "text": "No correlation",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: line of best fit",
+          "minutes": 5,
+          "content": "## Drawing the line\n\nA **line of best fit** is a straight line drawn through the points to show the trend. Rules:\n\n1. Use a **ruler**.\n2. Follow the **direction** of the points.\n3. Have roughly **equal numbers of points on each side**, spread along the whole length.\n4. **Ignore outliers**.\n5. It does **not** have to pass through the origin or through any particular point.\n\nA helpful trick is to plot the **mean point** $(\\bar{x}, \\bar{y})$ and make the line pass through it.\n\n## Using the line\n\n**Data**: hours of revision ($x$) and test score ($y$) for ten students. The line of best fit passes through (2, 40) and (8, 76).\n\n**Estimate the score for a student who revised for 5 hours.**\n\nRead up from $x = 5$ to the line, then across. The line's gradient is $\\frac{76 - 40}{8 - 2} = 6$ marks per hour, so at $x = 5$: $40 + 3 \\times 6 = 58$. The estimate is **about 58 marks**.\n\nThis is **interpolation**: estimating inside the range of the data, which is reasonably reliable.\n\n**Estimate the score for a student who revised for 20 hours.**\n\n$40 + 18 \\times 6 = 148$, which is impossible if the test is out of 100. This is **extrapolation**: estimating outside the data range. The trend may not continue, so extrapolated estimates are **unreliable** and you should say so.\n\n## The gradient in context\n\nThe gradient of the line (6 marks per hour) tells you how much $y$ changes for each extra unit of $x$. The intercept (28 marks at 0 hours) is the predicted value with no revision. Both may be asked for.\n\n## Estimating $x$ from $y$\n\nRead across from the $y$-axis to the line, then down. For a score of 70: $70 = 28 + 6x$, so $x = 7$ hours."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-04-L1-Q3",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "A line of best fit on a scatter graph of temperature (°C, $x$) against ice cream sales (£, $y$) passes through (10, 120) and (30, 320). Estimate the sales on a day when the temperature is 22 °C.",
+            "hint": "Gradient $= \\frac{320 - 120}{30 - 10} = 10$ pounds per degree.",
+            "explanation": "Gradient 10. From (10, 120), going 12 degrees to 22 °C adds $12 \\times 10 = 120$: estimate £240.",
+            "answers": [
+              {
+                "numeric": 240,
+                "tolerance": 5,
+                "unit": "£",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-04-L1-Q4",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "The temperature data above runs from 8 °C to 32 °C. Which estimate from the line of best fit is the **least** reliable?",
+            "hint": "Estimates outside the data range are extrapolation.",
+            "explanation": "45 °C is far outside the range of the data (8 °C to 32 °C), so estimating sales there is extrapolation and unreliable. The others are within the range.",
+            "options": [
+              {
+                "text": "Sales at 45 °C",
+                "correct": true
+              },
+              {
+                "text": "Sales at 15 °C",
+                "correct": false
+              },
+              {
+                "text": "Sales at 25 °C",
+                "correct": false
+              },
+              {
+                "text": "Sales at 30 °C",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Correlation is not causation",
+          "minutes": 4,
+          "content": "## A relationship is not an explanation\n\nCorrelation tells you two variables **change together**. It does **not** tell you that one **causes** the other.\n\n*Ice cream sales and drowning incidents are positively correlated.* Ice cream does not cause drowning. Both rise in hot weather: a **third factor** (temperature) drives both.\n\n*Towns with more fire engines have more fire damage.* Fire engines do not cause damage; bigger towns have more of both.\n\nWhen a question says \"Does this graph show that X causes Y?\", the answer is almost always: \"No. The graph shows correlation, but there may be another factor, or it may be coincidence. Correlation does not prove causation.\"\n\n## Sensible caution\n\n- A **small sample** of points makes any conclusion weak.\n- **Outliers** can create or hide a correlation.\n- Correlation only detects **straight-line** relationships; a curved pattern can show as \"no correlation\".\n\n## Vocabulary check\n\n- **Interpolation**: estimating within the range of the data. Fairly reliable.\n- **Extrapolation**: estimating beyond the data. Unreliable, because the trend may not continue.\n- **Line of best fit**: shows the trend; used for estimates.\n- **Outlier**: a point that does not fit the pattern.\n\nAnswers about reliability should use these words and give a reason, for example: \"The estimate is unreliable because 50 hours is outside the range of the data, so it is extrapolation.\""
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-04-L1-Q5",
+            "type": "TrueFalse",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "True or false: a strong positive correlation between two variables proves that one causes the other.",
+            "hint": "Think about ice cream sales and sunburn.",
+            "explanation": "False. Correlation shows the variables change together, but a third factor could be responsible, or it could be coincidence.",
+            "options": [
+              {
+                "text": "True",
+                "correct": false
+              },
+              {
+                "text": "False",
+                "correct": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-06-04-L1-Q6",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Select **all** the statements that are true about a line of best fit.",
+            "hint": "Think about the rules for drawing one and what it is used for.",
+            "explanation": "The line should have roughly equal points on each side and ignore outliers. It does not have to pass through the origin, and it should not be drawn from the first point to the last.",
+            "options": [
+              {
+                "text": "It should have roughly the same number of points on each side",
+                "correct": true
+              },
+              {
+                "text": "Outliers should be ignored when drawing it",
+                "correct": true
+              },
+              {
+                "text": "It must pass through the origin (0, 0)",
+                "correct": false,
+                "feedback": "Only if the trend genuinely goes through the origin; usually it does not."
+              },
+              {
+                "text": "It should join the first point to the last point",
+                "correct": false,
+                "feedback": "The line follows the overall trend, not two particular points."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Joining the points** on a scatter graph. Never do this.\n- **Describing correlation without strength**, or with the wrong sign. Positive rises to the right; negative falls.\n- **Saying \"the more X, the more Y\" for negative correlation.** It should be \"the more X, the less Y\".\n- **A line of best fit forced through the origin** or through the first and last points.\n- **Including an outlier** when drawing the line, which drags it off the trend.\n- **Reading the line inaccurately.** Use a ruler to draw straight construction lines from the axis to the line of best fit.\n- **Trusting extrapolation.** If the value is outside the data range, say the estimate is unreliable and why.\n- **Claiming causation.** Correlation shows association only; mention a possible third factor.\n- **Missing context.** \"Positive correlation\" alone is half an answer; say what it means for the variables."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-06-04-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 3,
+            "marks": 5,
+            "examStyle": true,
+            "text": "A scatter graph shows the engine size (litres) and fuel economy (miles per gallon, mpg) of 12 cars. Engine sizes range from 1.0 to 3.0 litres. The points slope downwards and lie fairly close to a straight line, except one car with a 2.0 litre engine and 70 mpg which is well above the others.\n\n(a) Describe the correlation and what it tells you about engine size and fuel economy.\n\n(b) Identify the outlier and explain what you should do with it when drawing a line of best fit.\n\n(c) The line of best fit passes through (1.0, 55) and (3.0, 31). Estimate the fuel economy of a car with a 1.5 litre engine.\n\n(d) Explain why the line should not be used to estimate the fuel economy of a car with a 6 litre engine.",
+            "hint": "(c) Gradient $= \\frac{31 - 55}{3 - 1} = -12$ mpg per litre. (d) Is 6 litres inside the data range?",
+            "explanation": "(a) Strong negative correlation: cars with larger engines tend to have lower fuel economy. (b) The outlier is the 2.0 litre car with 70 mpg; ignore it when drawing the line of best fit. (c) Gradient −12; from (1.0, 55), half a litre more gives $55 - 6 = 49$ mpg. (d) 6 litres is outside the range of the data (1.0 to 3.0), so this would be extrapolation; the trend may not continue, so the estimate would be unreliable.",
+            "markScheme": [
+              {
+                "criterion": "Strong negative correlation",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "negative",
+                    "downward",
+                    "slopes down"
+                  ],
+                  [
+                    "strong",
+                    "close to a line",
+                    "clear"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Interprets: bigger engines tend to have lower mpg / worse fuel economy",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "bigger",
+                    "larger",
+                    "increase"
+                  ],
+                  [
+                    "lower",
+                    "less",
+                    "worse",
+                    "decrease",
+                    "fewer"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Identifies the (2.0, 70) car as the outlier and says to ignore it",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "70",
+                    "2.0",
+                    "2 litre"
+                  ],
+                  [
+                    "ignore",
+                    "leave out",
+                    "exclude",
+                    "not include",
+                    "disregard"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Estimate about 49 mpg (accept 47–51)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "49",
+                    "48",
+                    "50",
+                    "47",
+                    "51"
+                  ]
+                ]
+              },
+              {
+                "criterion": "6 litres is outside the data range: extrapolation, so unreliable",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "outside",
+                    "beyond",
+                    "extrapolat",
+                    "out of the range"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Scatter graphs plot paired data as separate points; never join them.\n- **Positive** correlation rises to the right, **negative** falls, **none** shows no pattern; add **strong** or **weak**, and interpret in context using \"tends to\".\n- **Outliers** do not fit the pattern; mention them and ignore them for the line of best fit.\n- Line of best fit: ruler, follows the trend, balanced points either side, not forced through the origin.\n- **Interpolation** (inside the data) is reasonably reliable; **extrapolation** (outside) is not.\n- **Correlation does not prove causation**; look for a third factor."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-MAT-06-04-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Points on a scatter graph rise steadily from bottom-left to top-right. Which correlation is this?",
+          "hint": "Rising to the right.",
+          "explanation": "Rising from bottom-left to top-right is positive correlation.",
+          "options": [
+            {
+              "text": "Positive",
+              "correct": true
+            },
+            {
+              "text": "Negative",
+              "correct": false
+            },
+            {
+              "text": "No correlation",
+              "correct": false
+            },
+            {
+              "text": "Causal",
+              "correct": false,
+              "feedback": "Correlation type is positive, negative or none; causation is a separate issue."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which pair of variables would you expect to show **no** correlation?",
+          "hint": "Which pair has no reason to be linked?",
+          "explanation": "A person's house number has nothing to do with their height. The other pairs are linked.",
+          "options": [
+            {
+              "text": "House number and height",
+              "correct": true
+            },
+            {
+              "text": "Age of a child and height",
+              "correct": false
+            },
+            {
+              "text": "Distance driven and fuel used",
+              "correct": false
+            },
+            {
+              "text": "Hours of sunshine and umbrella sales",
+              "correct": false,
+              "feedback": "These would show negative correlation."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P3",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentences.",
+          "metadata": {
+            "blanksText": "Using a line of best fit to estimate a value inside the range of the data is called ___. Estimating outside the range is called ___ and is unreliable."
+          },
+          "hint": "Inter- means within; extra- means beyond.",
+          "explanation": "Interpolation is inside the range; extrapolation is outside.",
+          "answers": [
+            {
+              "text": "interpolation",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "extrapolation",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P4",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A line of best fit for height (cm, $x$) against hand span (cm, $y$) passes through (150, 18) and (190, 22). Estimate the hand span of someone 170 cm tall.",
+          "hint": "170 is halfway between 150 and 190.",
+          "explanation": "Halfway between 18 and 22 is 20 cm.",
+          "answers": [
+            {
+              "numeric": 20,
+              "tolerance": 0.2,
+              "unit": "cm",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P5",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A line of best fit passes through (2, 50) and (10, 26). Work out the gradient of the line.",
+          "hint": "Change in $y$ ÷ change in $x$.",
+          "explanation": "$\\frac{26 - 50}{10 - 2} = \\frac{-24}{8} = -3$.",
+          "answers": [
+            {
+              "numeric": -3,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P6",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A line of best fit passes through (2, 50) and (10, 26). Use it to estimate the value of $x$ when $y = 35$.",
+          "hint": "The gradient is −3, so $y = 56 - 3x$.",
+          "explanation": "$35 = 56 - 3x$, so $3x = 21$ and $x = 7$.",
+          "answers": [
+            {
+              "numeric": 7,
+              "tolerance": 0.2,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P7",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: a line of best fit must pass through at least one of the plotted points.",
+          "hint": "The line shows the overall trend.",
+          "explanation": "False. It follows the trend and need not touch any actual point.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P8",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A scatter graph shows a weak negative correlation between the number of hours people spend on social media and the number of hours they sleep. What does this mean?",
+          "hint": "Negative: one up, other down. Weak: points scattered.",
+          "explanation": "As social media time increases, sleep tends to decrease, but the points are quite spread out so the link is not strong.",
+          "options": [
+            {
+              "text": "People who use social media more tend to sleep slightly less, but the link is not strong",
+              "correct": true
+            },
+            {
+              "text": "Using social media always reduces sleep",
+              "correct": false,
+              "feedback": "Correlation is a tendency, not a rule, and does not prove causation."
+            },
+            {
+              "text": "People who use social media more tend to sleep more",
+              "correct": false
+            },
+            {
+              "text": "There is no relationship at all",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P9",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Put the steps in order to estimate a $y$ value from a scatter graph using a line of best fit.",
+          "hint": "Draw the line before reading from it.",
+          "explanation": "Plot the points, draw the line of best fit ignoring outliers, go up from the x value to the line, read across to the y-axis.",
+          "order": [
+            "Plot all the data points",
+            "Draw a line of best fit with a ruler, ignoring any outliers",
+            "Draw a vertical line from the given x value up to the line of best fit",
+            "Draw a horizontal line across to the y-axis and read off the estimate"
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "A study finds a strong positive correlation between the number of librarians in a town and the number of crimes. A newspaper claims that librarians cause crime. Explain why this claim is not justified.",
+          "hint": "What else grows with the size of a town?",
+          "explanation": "Correlation does not prove causation. Larger towns have more librarians and more crimes simply because they have more people; population size is a third factor affecting both.",
+          "markScheme": [
+            {
+              "criterion": "States that correlation does not prove/imply causation",
+              "marks": 1,
+              "keywords": [
+                [
+                  "causation",
+                  "cause",
+                  "does not mean",
+                  "doesn't mean",
+                  "not prove"
+                ]
+              ]
+            },
+            {
+              "criterion": "Suggests a third factor such as population / town size",
+              "marks": 1,
+              "keywords": [
+                [
+                  "population",
+                  "size of the town",
+                  "bigger town",
+                  "larger town",
+                  "more people"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A scatter graph shows the ages (years, from 20 to 60) and reaction times (milliseconds) of 15 people. The line of best fit passes through (20, 220) and (60, 300).\n\n(a) Describe the correlation and interpret it.\n\n(b) Estimate the reaction time of a 45-year-old.\n\n(c) Marta uses the line to estimate the reaction time of an 85-year-old as 350 ms. Comment on the reliability of her estimate.",
+          "hint": "(b) Gradient $= \\frac{80}{40} = 2$ ms per year. (c) Is 85 within 20 to 60?",
+          "explanation": "(a) Positive correlation: older people tend to have slower (longer) reaction times. (b) $220 + 25 \\times 2 = 270$ ms. (c) 85 is well outside the data range (20 to 60), so this is extrapolation and the estimate is unreliable; the trend may not continue.",
+          "markScheme": [
+            {
+              "criterion": "Positive correlation",
+              "marks": 1,
+              "keywords": [
+                [
+                  "positive",
+                  "upward",
+                  "slopes up"
+                ]
+              ]
+            },
+            {
+              "criterion": "Interprets: older people tend to have longer/slower reaction times",
+              "marks": 1,
+              "keywords": [
+                [
+                  "older",
+                  "age increases",
+                  "as age"
+                ],
+                [
+                  "longer",
+                  "slower",
+                  "higher",
+                  "increase"
+                ]
+              ]
+            },
+            {
+              "criterion": "Estimate 270 ms (accept 265–275)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "270",
+                  "268",
+                  "272",
+                  "265",
+                  "275"
+                ]
+              ]
+            },
+            {
+              "criterion": "Unreliable because 85 is outside the data range (extrapolation)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "unreliable",
+                  "not reliable",
+                  "extrapolat",
+                  "outside",
+                  "beyond"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

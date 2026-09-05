@@ -17,82 +17,518 @@
       "difficulty": 2,
       "tier": "NotApplicable",
       "activities": [
-        { "type": "Explanation", "title": "The probability scale", "minutes": 4, "content": "## Measuring chance\n\n**Probability** measures how likely something is to happen, on a scale from **0** (impossible) to **1** (certain). It can be written as a fraction, a decimal or a percentage, but never as a ratio and never as \"1 in 6\" in a calculation.\n\n| Event | Probability |\n|---|---|\n| Rolling a 7 on an ordinary dice | 0 (impossible) |\n| A coin landing on tails | 0.5 (evens) |\n| Picking a red card from a full pack | $\\frac{1}{2}$ |\n| The sun rising tomorrow | 1 (certain) |\n\n## Equally likely outcomes\n\nWhen every outcome has the same chance,\n\n$P(\\text{event}) = \\dfrac{\\text{number of outcomes that give the event}}{\\text{total number of possible outcomes}}$\n\nWe write $P(A)$ for \"the probability of A\".\n\n**A bag holds 3 red, 5 blue and 2 green counters. One is picked at random.**\n\n$P(\\text{blue}) = \\frac{5}{10} = \\frac{1}{2}$, $P(\\text{green}) = \\frac{2}{10} = \\frac{1}{5}$, $P(\\text{red or green}) = \\frac{5}{10} = \\frac{1}{2}$.\n\n\"At random\" or \"fair\" tells you the outcomes are equally likely. If a dice is **biased**, the outcomes are not equally likely and you cannot use this formula.\n\n## Language\n\n- **Outcome**: a single result (rolling a 4).\n- **Event**: a set of outcomes (rolling an even number).\n- **Mutually exclusive** events cannot happen together (rolling a 2 and rolling a 5).\n- **Exhaustive** events cover every possibility between them." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-05-01-L1-Q1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1,
-          "text": "A fair ten-sided dice is numbered 1 to 10. Work out the probability of rolling a prime number. Give your answer as a decimal.",
-          "hint": "The primes from 1 to 10 are 2, 3, 5 and 7.",
-          "explanation": "Four primes out of ten outcomes: $\\frac{4}{10} = 0.4$.",
-          "answers": [ { "numeric": 0.4, "tolerance": 0.001 } ] } },
-        { "type": "Explanation", "title": "Probabilities add up to 1", "minutes": 4, "content": "## The total is always 1\n\nThe probabilities of **all possible outcomes** add up to 1. This gives two very useful facts.\n\n**1. The probability an event does not happen**\n\n$P(\\text{not A}) = 1 - P(A)$\n\nIf the probability of rain tomorrow is 0.3, the probability of no rain is 0.7.\n\n**2. Mutually exclusive events**\n\nIf A and B cannot happen together, $P(\\text{A or B}) = P(A) + P(B)$.\n\nA spinner has red, blue and yellow sections with $P(\\text{red}) = 0.25$ and $P(\\text{blue}) = 0.35$. Then $P(\\text{red or blue}) = 0.6$, and $P(\\text{yellow}) = 1 - 0.6 = 0.4$.\n\n## Tables with a missing value\n\nA biased spinner has outcomes 1, 2, 3 and 4.\n\n| Outcome | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| Probability | 0.1 | 0.3 | $x$ | 0.2 |\n\n$0.1 + 0.3 + x + 0.2 = 1$, so $x = 0.4$.\n\nSometimes two outcomes share an unknown: probabilities $0.2$, $y$, $y$, $0.1$ give $2y = 0.7$, so $y = 0.35$.\n\n## Expected frequency\n\nIf you repeat an experiment many times, the **expected number** of times an event occurs is\n\n$\\text{expected frequency} = P(\\text{event}) \\times \\text{number of trials}$\n\nSpin the spinner above 200 times: expect a 3 about $0.4 \\times 200 = 80$ times. The actual count will vary; 80 is the best estimate, not a guarantee." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-05-01-L1-Q2", "type": "NumericalAnswer", "difficulty": 2, "marks": 2,
-          "text": "A bag contains only red, green and white balls. The probability of picking red is 0.45 and the probability of picking green is 0.3. Work out the probability of picking white.",
-          "hint": "The three probabilities add up to 1.",
-          "explanation": "$1 - 0.45 - 0.3 = 0.25$.",
-          "answers": [ { "numeric": 0.25, "tolerance": 0.001, "marks": 2 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-05-01-L1-Q3", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
-          "text": "The probability that a biased coin lands on heads is 0.62. The coin is flipped 350 times. How many heads would you expect?",
-          "hint": "Probability × number of trials.",
-          "explanation": "$0.62 \\times 350 = 217$.",
-          "answers": [ { "numeric": 217, "tolerance": 0, "marks": 2 } ] } },
-        { "type": "Example", "title": "Worked example: sample space diagrams", "minutes": 5, "content": "## Listing every outcome\n\nWhen two things happen together (two dice, a coin and a spinner), a **sample space diagram** lists every combined outcome so none are missed.\n\n**Two fair four-sided dice, numbered 1 to 4, are rolled and the scores are added.**\n\n| + | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| **1** | 2 | 3 | 4 | 5 |\n| **2** | 3 | 4 | 5 | 6 |\n| **3** | 4 | 5 | 6 | 7 |\n| **4** | 5 | 6 | 7 | 8 |\n\nThere are $4 \\times 4 = 16$ equally likely outcomes.\n\n- $P(\\text{total of 5}) = \\frac{4}{16} = \\frac{1}{4}$ (four cells show 5).\n- $P(\\text{total greater than 6}) = \\frac{3}{16}$ (the cells 7, 7, 8).\n- $P(\\text{total is even}) = \\frac{8}{16} = \\frac{1}{2}$.\n\n## A coin and a spinner\n\nA coin (H, T) and a spinner (A, B, C) give $2 \\times 3 = 6$ outcomes: HA, HB, HC, TA, TB, TC. $P(\\text{tail and a vowel}) = \\frac{1}{6}$ (only TA).\n\n## Systematic listing\n\nFor lists without a grid, fix the first item and run through all the options for the second, then move on: for three-course meals with 2 starters, 3 mains and 2 desserts there are $2 \\times 3 \\times 2 = 12$ combinations. This **product rule for counting** saves listing them all when only the number is needed.\n\nA sample space diagram is only valid when the individual outcomes are equally likely; then each cell has the same probability." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-05-01-L1-Q4", "type": "NumericalAnswer", "difficulty": 3, "marks": 2,
-          "text": "Two fair six-sided dice are rolled and the scores are multiplied. Work out the probability that the product is 12. Give your answer as a fraction of 36, i.e. enter the numerator only.",
-          "hint": "Which pairs multiply to 12? Remember (3, 4) and (4, 3) are different outcomes.",
-          "explanation": "Pairs giving 12: (2, 6), (6, 2), (3, 4), (4, 3). That is 4 out of 36, so the numerator is 4 ($P = \\frac{4}{36} = \\frac{1}{9}$).",
-          "answers": [ { "numeric": 4, "tolerance": 0, "marks": 2 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-05-01-L1-Q5", "type": "NumericalAnswer", "difficulty": 2, "marks": 1,
-          "text": "A cafe offers 4 sandwiches, 3 drinks and 5 cakes. How many different combinations of one sandwich, one drink and one cake are there?",
-          "hint": "Multiply the numbers of choices.",
-          "explanation": "$4 \\times 3 \\times 5 = 60$.",
-          "answers": [ { "numeric": 60, "tolerance": 0 } ] } },
-        { "type": "Explanation", "title": "Experimental probability", "minutes": 4, "content": "## Relative frequency\n\nWhen outcomes are not equally likely (a biased dice, a drawing pin landing point up), you cannot calculate the probability in theory. Instead you **estimate** it by experiment:\n\n$\\text{relative frequency} = \\dfrac{\\text{number of times the event happens}}{\\text{total number of trials}}$\n\nA drawing pin is dropped 80 times and lands point up 52 times. Relative frequency of point up $= \\frac{52}{80} = 0.65$. This is the **experimental probability**.\n\n## More trials, better estimate\n\nThe more times you repeat the experiment, the closer the relative frequency gets to the true probability. Twenty trials could easily give 0.5 or 0.8 by chance; a thousand trials will settle near the true value. If asked whose estimate is more reliable, choose the person with **more trials** and say why.\n\n## Testing for bias\n\nA dice rolled 600 times should show each number about 100 times if fair. If a 6 appears 160 times, its relative frequency is $\\frac{160}{600} = 0.27$, well above $\\frac{1}{6} = 0.17$, which suggests the dice is **biased**. Small differences are just random variation; large ones over many trials are evidence of bias.\n\n## Frequency trees\n\nA frequency tree records **numbers** (not probabilities) at each branch. For 200 students, 120 are in Year 10 and 80 in Year 11; of the Year 10s, 45 walk to school. The tree splits 200 into 120 and 80, then 120 into 45 and 75, and so on. Read probabilities from it by dividing: $P(\\text{Year 10 walker}) = \\frac{45}{200}$." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-05-01-L1-Q6", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
-          "text": "A spinner is spun 250 times and lands on green 90 times. Work out the relative frequency of green as a decimal.",
-          "hint": "Number of greens ÷ number of spins.",
-          "explanation": "$90 \\div 250 = 0.36$.",
-          "answers": [ { "numeric": 0.36, "tolerance": 0.001, "marks": 2 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-05-01-L1-Q7", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
-          "text": "Three students test the same coin. Ana flips it 20 times and gets 13 heads. Ben flips it 100 times and gets 54 heads. Cara flips it 500 times and gets 262 heads. Whose result gives the best estimate of the probability of heads?",
-          "hint": "More trials give a more reliable estimate.",
-          "explanation": "Cara carried out the most trials, so her relative frequency ($\\frac{262}{500} = 0.524$) is the most reliable estimate.",
-          "options": [
-            { "text": "Cara, because she did the most flips", "correct": true },
-            { "text": "Ana, because her result is furthest from 0.5", "correct": false },
-            { "text": "Ben, because 100 is a round number", "correct": false },
-            { "text": "They are all equally good", "correct": false, "feedback": "Estimates improve with more trials." } ] } },
-        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Writing probabilities as ratios** (\"3 : 10\") or in words (\"3 in 10\"). Use $\\frac{3}{10}$, 0.3 or 30%.\n- **Probabilities outside 0 to 1.** A probability of 1.2 or −0.1 is always wrong.\n- **Forgetting to count all outcomes.** In a sample space for two dice there are 36 cells, not 12.\n- **Treating (3, 4) and (4, 3) as the same.** They are different outcomes.\n- **Using the equally-likely formula for biased objects.** Use relative frequency instead.\n- **Expected frequency confusion.** \"Expect 80\" does not mean exactly 80 will happen.\n- **Adding probabilities of events that can overlap.** $P(\\text{A or B}) = P(A) + P(B)$ only for mutually exclusive events.\n- **Simplifying wrongly.** $\\frac{4}{36} = \\frac{1}{9}$, and leaving fractions unsimplified is usually fine unless the question asks for simplest form." },
-        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
-          "key": "AQA-MAT-05-01-L1-Q8", "type": "ExamQuestion", "difficulty": 3, "marks": 5, "examStyle": true,
-          "text": "A biased four-sided spinner has sections numbered 1, 2, 3 and 4. The table shows some of the probabilities.\n\n| Number | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| Probability | 0.15 | $x$ | 0.35 | $x$ |\n\n(a) Work out the value of $x$.\n\n(b) The spinner is spun 400 times. Work out how many times you would expect it to land on 3.\n\n(c) Leah spins the spinner 40 times and it lands on 1 nine times. She says the table must be wrong. Comment on her claim.",
-          "hint": "(a) All four probabilities add to 1. (c) Think about how many trials she did.",
-          "explanation": "(a) $0.15 + 0.35 + 2x = 1$, so $2x = 0.5$ and $x = 0.25$. (b) $0.35 \\times 400 = 140$. (c) Her relative frequency is $\\frac{9}{40} = 0.225$, higher than 0.15, but 40 spins is a small number of trials, so this difference could easily be random variation. The table is not necessarily wrong; she would need many more spins to judge.",
-          "markScheme": [
-            { "criterion": "Sets up 0.15 + 0.35 + 2x = 1 (or 2x = 0.5)", "marks": 1, "keywords": [ ["2x = 0.5", "2x=0.5", "0.5", "= 1", "=1"] ] },
-            { "criterion": "x = 0.25", "marks": 1, "keywords": [ ["0.25"] ] },
-            { "criterion": "Expected frequency 140", "marks": 1, "keywords": [ ["140"] ] },
-            { "criterion": "Calculates Leah's relative frequency 9/40 = 0.225 (or expected 6 from 40 spins)", "marks": 1, "keywords": [ ["0.225", "9/40", "22.5", "6"] ] },
-            { "criterion": "States that 40 spins is too few to be sure / results vary with small samples, so the table is not necessarily wrong", "marks": 1, "keywords": [ ["not enough", "too few", "small", "more trials", "more spins", "not necessarily", "random", "vary", "chance"] ] } ] } },
-        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Probability runs from 0 (impossible) to 1 (certain); write it as a fraction, decimal or percentage.\n- Equally likely outcomes: $P = \\frac{\\text{favourable}}{\\text{total}}$.\n- All probabilities add to 1; $P(\\text{not A}) = 1 - P(A)$; for mutually exclusive events, add.\n- Expected frequency $= P \\times$ number of trials.\n- Sample space diagrams list every combined outcome; the product rule counts them.\n- Relative frequency $= \\frac{\\text{successes}}{\\text{trials}}$ estimates probability; more trials give a better estimate." }
+        {
+          "type": "Explanation",
+          "title": "The probability scale",
+          "minutes": 4,
+          "content": "## Measuring chance\n\n**Probability** measures how likely something is to happen, on a scale from **0** (impossible) to **1** (certain). It can be written as a fraction, a decimal or a percentage, but never as a ratio and never as \"1 in 6\" in a calculation.\n\n| Event | Probability |\n|---|---|\n| Rolling a 7 on an ordinary dice | 0 (impossible) |\n| A coin landing on tails | 0.5 (evens) |\n| Picking a red card from a full pack | $\\frac{1}{2}$ |\n| The sun rising tomorrow | 1 (certain) |\n\n## Equally likely outcomes\n\nWhen every outcome has the same chance,\n\n$P(\\text{event}) = \\dfrac{\\text{number of outcomes that give the event}}{\\text{total number of possible outcomes}}$\n\nWe write $P(A)$ for \"the probability of A\".\n\n**A bag holds 3 red, 5 blue and 2 green counters. One is picked at random.**\n\n$P(\\text{blue}) = \\frac{5}{10} = \\frac{1}{2}$, $P(\\text{green}) = \\frac{2}{10} = \\frac{1}{5}$, $P(\\text{red or green}) = \\frac{5}{10} = \\frac{1}{2}$.\n\n\"At random\" or \"fair\" tells you the outcomes are equally likely. If a dice is **biased**, the outcomes are not equally likely and you cannot use this formula.\n\n## Language\n\n- **Outcome**: a single result (rolling a 4).\n- **Event**: a set of outcomes (rolling an even number).\n- **Mutually exclusive** events cannot happen together (rolling a 2 and rolling a 5).\n- **Exhaustive** events cover every possibility between them."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-05-01-L1-Q1",
+            "type": "NumericalAnswer",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "A fair ten-sided dice is numbered 1 to 10. Work out the probability of rolling a prime number. Give your answer as a decimal.",
+            "hint": "The primes from 1 to 10 are 2, 3, 5 and 7.",
+            "explanation": "Four primes out of ten outcomes: $\\frac{4}{10} = 0.4$.",
+            "answers": [
+              {
+                "numeric": 0.4,
+                "tolerance": 0.001
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Probabilities add up to 1",
+          "minutes": 4,
+          "content": "## The total is always 1\n\nThe probabilities of **all possible outcomes** add up to 1. This gives two very useful facts.\n\n**1. The probability an event does not happen**\n\n$P(\\text{not A}) = 1 - P(A)$\n\nIf the probability of rain tomorrow is 0.3, the probability of no rain is 0.7.\n\n**2. Mutually exclusive events**\n\nIf A and B cannot happen together, $P(\\text{A or B}) = P(A) + P(B)$.\n\nA spinner has red, blue and yellow sections with $P(\\text{red}) = 0.25$ and $P(\\text{blue}) = 0.35$. Then $P(\\text{red or blue}) = 0.6$, and $P(\\text{yellow}) = 1 - 0.6 = 0.4$.\n\n## Tables with a missing value\n\nA biased spinner has outcomes 1, 2, 3 and 4.\n\n| Outcome | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| Probability | 0.1 | 0.3 | $x$ | 0.2 |\n\n$0.1 + 0.3 + x + 0.2 = 1$, so $x = 0.4$.\n\nSometimes two outcomes share an unknown: probabilities $0.2$, $y$, $y$, $0.1$ give $2y = 0.7$, so $y = 0.35$.\n\n## Expected frequency\n\nIf you repeat an experiment many times, the **expected number** of times an event occurs is\n\n$\\text{expected frequency} = P(\\text{event}) \\times \\text{number of trials}$\n\nSpin the spinner above 200 times: expect a 3 about $0.4 \\times 200 = 80$ times. The actual count will vary; 80 is the best estimate, not a guarantee."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-05-01-L1-Q2",
+            "type": "NumericalAnswer",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A bag contains only red, green and white balls. The probability of picking red is 0.45 and the probability of picking green is 0.3. Work out the probability of picking white.",
+            "hint": "The three probabilities add up to 1.",
+            "explanation": "$1 - 0.45 - 0.3 = 0.25$.",
+            "answers": [
+              {
+                "numeric": 0.25,
+                "tolerance": 0.001,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-05-01-L1-Q3",
+            "type": "FormulaCalculation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "The probability that a biased coin lands on heads is 0.62. The coin is flipped 350 times. How many heads would you expect?",
+            "hint": "Probability × number of trials.",
+            "explanation": "$0.62 \\times 350 = 217$.",
+            "answers": [
+              {
+                "numeric": 217,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: sample space diagrams",
+          "minutes": 5,
+          "content": "## Listing every outcome\n\nWhen two things happen together (two dice, a coin and a spinner), a **sample space diagram** lists every combined outcome so none are missed.\n\n**Two fair four-sided dice, numbered 1 to 4, are rolled and the scores are added.**\n\n| + | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| **1** | 2 | 3 | 4 | 5 |\n| **2** | 3 | 4 | 5 | 6 |\n| **3** | 4 | 5 | 6 | 7 |\n| **4** | 5 | 6 | 7 | 8 |\n\nThere are $4 \\times 4 = 16$ equally likely outcomes.\n\n- $P(\\text{total of 5}) = \\frac{4}{16} = \\frac{1}{4}$ (four cells show 5).\n- $P(\\text{total greater than 6}) = \\frac{3}{16}$ (the cells 7, 7, 8).\n- $P(\\text{total is even}) = \\frac{8}{16} = \\frac{1}{2}$.\n\n## A coin and a spinner\n\nA coin (H, T) and a spinner (A, B, C) give $2 \\times 3 = 6$ outcomes: HA, HB, HC, TA, TB, TC. $P(\\text{tail and a vowel}) = \\frac{1}{6}$ (only TA).\n\n## Systematic listing\n\nFor lists without a grid, fix the first item and run through all the options for the second, then move on: for three-course meals with 2 starters, 3 mains and 2 desserts there are $2 \\times 3 \\times 2 = 12$ combinations. This **product rule for counting** saves listing them all when only the number is needed.\n\nA sample space diagram is only valid when the individual outcomes are equally likely; then each cell has the same probability."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-05-01-L1-Q4",
+            "type": "NumericalAnswer",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "Two fair six-sided dice are rolled and the scores are multiplied. Work out the probability that the product is 12. Give your answer as a fraction of 36, i.e. enter the numerator only.",
+            "hint": "Which pairs multiply to 12? Remember (3, 4) and (4, 3) are different outcomes.",
+            "explanation": "Pairs giving 12: (2, 6), (6, 2), (3, 4), (4, 3). That is 4 out of 36, so the numerator is 4 ($P = \\frac{4}{36} = \\frac{1}{9}$).",
+            "answers": [
+              {
+                "numeric": 4,
+                "tolerance": 0,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-05-01-L1-Q5",
+            "type": "NumericalAnswer",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "A cafe offers 4 sandwiches, 3 drinks and 5 cakes. How many different combinations of one sandwich, one drink and one cake are there?",
+            "hint": "Multiply the numbers of choices.",
+            "explanation": "$4 \\times 3 \\times 5 = 60$.",
+            "answers": [
+              {
+                "numeric": 60,
+                "tolerance": 0
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Experimental probability",
+          "minutes": 4,
+          "content": "## Relative frequency\n\nWhen outcomes are not equally likely (a biased dice, a drawing pin landing point up), you cannot calculate the probability in theory. Instead you **estimate** it by experiment:\n\n$\\text{relative frequency} = \\dfrac{\\text{number of times the event happens}}{\\text{total number of trials}}$\n\nA drawing pin is dropped 80 times and lands point up 52 times. Relative frequency of point up $= \\frac{52}{80} = 0.65$. This is the **experimental probability**.\n\n## More trials, better estimate\n\nThe more times you repeat the experiment, the closer the relative frequency gets to the true probability. Twenty trials could easily give 0.5 or 0.8 by chance; a thousand trials will settle near the true value. If asked whose estimate is more reliable, choose the person with **more trials** and say why.\n\n## Testing for bias\n\nA dice rolled 600 times should show each number about 100 times if fair. If a 6 appears 160 times, its relative frequency is $\\frac{160}{600} = 0.27$, well above $\\frac{1}{6} = 0.17$, which suggests the dice is **biased**. Small differences are just random variation; large ones over many trials are evidence of bias.\n\n## Frequency trees\n\nA frequency tree records **numbers** (not probabilities) at each branch. For 200 students, 120 are in Year 10 and 80 in Year 11; of the Year 10s, 45 walk to school. The tree splits 200 into 120 and 80, then 120 into 45 and 75, and so on. Read probabilities from it by dividing: $P(\\text{Year 10 walker}) = \\frac{45}{200}$."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-05-01-L1-Q6",
+            "type": "FormulaCalculation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A spinner is spun 250 times and lands on green 90 times. Work out the relative frequency of green as a decimal.",
+            "hint": "Number of greens ÷ number of spins.",
+            "explanation": "$90 \\div 250 = 0.36$.",
+            "answers": [
+              {
+                "numeric": 0.36,
+                "tolerance": 0.001,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-05-01-L1-Q7",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Three students test the same coin. Ana flips it 20 times and gets 13 heads. Ben flips it 100 times and gets 54 heads. Cara flips it 500 times and gets 262 heads. Whose result gives the best estimate of the probability of heads?",
+            "hint": "More trials give a more reliable estimate.",
+            "explanation": "Cara carried out the most trials, so her relative frequency ($\\frac{262}{500} = 0.524$) is the most reliable estimate.",
+            "options": [
+              {
+                "text": "Cara, because she did the most flips",
+                "correct": true
+              },
+              {
+                "text": "Ana, because her result is furthest from 0.5",
+                "correct": false
+              },
+              {
+                "text": "Ben, because 100 is a round number",
+                "correct": false
+              },
+              {
+                "text": "They are all equally good",
+                "correct": false,
+                "feedback": "Estimates improve with more trials."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Writing probabilities as ratios** (\"3 : 10\") or in words (\"3 in 10\"). Use $\\frac{3}{10}$, 0.3 or 30%.\n- **Probabilities outside 0 to 1.** A probability of 1.2 or −0.1 is always wrong.\n- **Forgetting to count all outcomes.** In a sample space for two dice there are 36 cells, not 12.\n- **Treating (3, 4) and (4, 3) as the same.** They are different outcomes.\n- **Using the equally-likely formula for biased objects.** Use relative frequency instead.\n- **Expected frequency confusion.** \"Expect 80\" does not mean exactly 80 will happen.\n- **Adding probabilities of events that can overlap.** $P(\\text{A or B}) = P(A) + P(B)$ only for mutually exclusive events.\n- **Simplifying wrongly.** $\\frac{4}{36} = \\frac{1}{9}$, and leaving fractions unsimplified is usually fine unless the question asks for simplest form."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-05-01-L1-Q8",
+            "type": "ExamQuestion",
+            "difficulty": 3,
+            "marks": 5,
+            "examStyle": true,
+            "text": "A biased four-sided spinner has sections numbered 1, 2, 3 and 4. The table shows some of the probabilities.\n\n| Number | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| Probability | 0.15 | $x$ | 0.35 | $x$ |\n\n(a) Work out the value of $x$.\n\n(b) The spinner is spun 400 times. Work out how many times you would expect it to land on 3.\n\n(c) Leah spins the spinner 40 times and it lands on 1 nine times. She says the table must be wrong. Comment on her claim.",
+            "hint": "(a) All four probabilities add to 1. (c) Think about how many trials she did.",
+            "explanation": "(a) $0.15 + 0.35 + 2x = 1$, so $2x = 0.5$ and $x = 0.25$. (b) $0.35 \\times 400 = 140$. (c) Her relative frequency is $\\frac{9}{40} = 0.225$, higher than 0.15, but 40 spins is a small number of trials, so this difference could easily be random variation. The table is not necessarily wrong; she would need many more spins to judge.",
+            "markScheme": [
+              {
+                "criterion": "Sets up 0.15 + 0.35 + 2x = 1 (or 2x = 0.5)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "2x = 0.5",
+                    "2x=0.5",
+                    "0.5",
+                    "= 1",
+                    "=1"
+                  ]
+                ]
+              },
+              {
+                "criterion": "x = 0.25",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "0.25",
+                    "0.250"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Expected frequency 140",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "140",
+                    "140.0"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Calculates Leah's relative frequency 9/40 = 0.225 (or expected 6 from 40 spins)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "0.225",
+                    "9/40",
+                    "22.5",
+                    "6"
+                  ]
+                ]
+              },
+              {
+                "criterion": "States that 40 spins is too few to be sure / results vary with small samples, so the table is not necessarily wrong",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "not enough",
+                    "too few",
+                    "small",
+                    "more spins",
+                    "chance"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Probability runs from 0 (impossible) to 1 (certain); write it as a fraction, decimal or percentage.\n- Equally likely outcomes: $P = \\frac{\\text{favourable}}{\\text{total}}$.\n- All probabilities add to 1; $P(\\text{not A}) = 1 - P(A)$; for mutually exclusive events, add.\n- Expected frequency $= P \\times$ number of trials.\n- Sample space diagrams list every combined outcome; the product rule counts them.\n- Relative frequency $= \\frac{\\text{successes}}{\\text{trials}}$ estimates probability; more trials give a better estimate."
+        }
       ],
       "practiceQuestions": [
-        { "key": "AQA-MAT-05-01-L1-P1", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "A bag has 7 yellow and 3 purple sweets. One is taken at random. Work out the probability it is purple, as a decimal.", "hint": "3 out of 10.", "explanation": "$\\frac{3}{10} = 0.3$.", "answers": [ { "numeric": 0.3, "tolerance": 0.001 } ] },
-        { "key": "AQA-MAT-05-01-L1-P2", "type": "NumericalAnswer", "difficulty": 1, "marks": 1, "text": "The probability that a train is late is 0.12. Work out the probability that it is not late.", "hint": "$1 - 0.12$.", "explanation": "$1 - 0.12 = 0.88$.", "answers": [ { "numeric": 0.88, "tolerance": 0.001 } ] },
-        { "key": "AQA-MAT-05-01-L1-P3", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "Which of these could **not** be a probability?", "hint": "Probabilities lie between 0 and 1 inclusive.", "explanation": "1.3 is greater than 1, so it cannot be a probability. The others are all between 0 and 1.", "options": [ { "text": "1.3", "correct": true }, { "text": "0", "correct": false, "feedback": "0 is the probability of an impossible event." }, { "text": "7/8", "correct": false }, { "text": "0.001", "correct": false } ] },
-        { "key": "AQA-MAT-05-01-L1-P4", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "A letter is chosen at random from the word PROBABILITY. Work out the probability that it is a B or an I. Give your answer as a decimal to 2 decimal places.", "hint": "Count the letters: there are 11 in total.", "explanation": "B appears twice and I appears twice: $\\frac{4}{11} = 0.36$.", "answers": [ { "numeric": 0.36, "tolerance": 0.01, "marks": 2 } ] },
-        { "key": "AQA-MAT-05-01-L1-P5", "type": "NumericalAnswer", "difficulty": 2, "marks": 2, "text": "A biased dice has $P(1) = 0.1$, $P(2) = 0.2$, $P(3) = 0.15$, $P(4) = 0.15$ and $P(5) = 0.25$. Work out $P(6)$.", "hint": "Add the five known probabilities and subtract from 1.", "explanation": "$0.1 + 0.2 + 0.15 + 0.15 + 0.25 = 0.85$, so $P(6) = 0.15$.", "answers": [ { "numeric": 0.15, "tolerance": 0.001, "marks": 2 } ] },
-        { "key": "AQA-MAT-05-01-L1-P6", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "Two fair coins are flipped. Work out the probability of getting exactly one head. Give your answer as a decimal.", "hint": "List the outcomes: HH, HT, TH, TT.", "explanation": "Exactly one head in HT and TH: $\\frac{2}{4} = 0.5$.", "answers": [ { "numeric": 0.5, "tolerance": 0.001, "marks": 2 } ] },
-        { "key": "AQA-MAT-05-01-L1-P7", "type": "NumericalAnswer", "difficulty": 3, "marks": 2, "text": "Two fair six-sided dice are rolled and the scores are added. Work out the probability that the total is 7. Enter the numerator of your answer as a fraction of 36.", "hint": "Count the pairs that add to 7: (1, 6), (2, 5), ...", "explanation": "Pairs: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1): six outcomes. $\\frac{6}{36} = \\frac{1}{6}$; numerator 6.", "answers": [ { "numeric": 6, "tolerance": 0, "marks": 2 } ] },
-        { "key": "AQA-MAT-05-01-L1-P8", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "A game is played 150 times. A player wins with probability $\\frac{2}{5}$. How many wins would you expect?", "hint": "$\\frac{2}{5} \\times 150$.", "explanation": "$150 \\div 5 \\times 2 = 60$.", "answers": [ { "numeric": 60, "tolerance": 0, "marks": 2 } ] },
-        { "key": "AQA-MAT-05-01-L1-P9", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: if a fair coin has landed heads five times in a row, it is more likely to land tails on the next flip.", "hint": "Does the coin remember what happened before?", "explanation": "False. Each flip is independent; the probability of tails is still 0.5.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
-        { "key": "AQA-MAT-05-01-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Omar rolls a dice 30 times and gets a six 8 times. He says the dice must be biased. Explain whether Omar is right to be sure.", "hint": "How many sixes would you expect in 30 rolls, and how many trials did he do?", "explanation": "For a fair dice you would expect about 5 sixes in 30 rolls; 8 is higher, but 30 is a small number of trials, so this could easily happen by chance. He cannot be sure; he should roll it many more times.", "markScheme": [ { "criterion": "States that 30 rolls is a small number of trials / not enough evidence", "marks": 1, "keywords": [ ["small", "not enough", "too few", "more rolls", "more trials", "more times"] ] }, { "criterion": "Concludes he cannot be sure (the result could be due to chance) or compares with the expected 5", "marks": 1, "keywords": [ ["cannot be sure", "can't be sure", "not sure", "chance", "random", "could happen", "expect 5", "expected 5", "about 5"] ] } ] },
-        { "key": "AQA-MAT-05-01-L1-P11", "type": "ExamQuestion", "difficulty": 3, "marks": 4, "examStyle": true, "text": "A spinner has three sections: red, blue and green. The probability of red is twice the probability of green. The probability of blue is 0.4.\n\n(a) Work out the probability of green.\n\n(b) The spinner is spun 300 times. How many times would you expect it to land on red?", "hint": "Let $P(\\text{green}) = g$; then $P(\\text{red}) = 2g$ and $g + 2g + 0.4 = 1$.", "explanation": "(a) $3g = 0.6$, so $g = 0.2$. (b) $P(\\text{red}) = 0.4$, and $0.4 \\times 300 = 120$.", "markScheme": [ { "criterion": "Forms the equation g + 2g + 0.4 = 1 or 3g = 0.6", "marks": 1, "keywords": [ ["3g", "0.6", "+ 0.4 = 1", "+0.4=1"] ] }, { "criterion": "P(green) = 0.2", "marks": 1, "keywords": [ ["0.2"] ] }, { "criterion": "P(red) = 0.4", "marks": 1, "keywords": [ ["0.4"] ] }, { "criterion": "Expected number of reds = 120", "marks": 1, "keywords": [ ["120"] ] } ] }
+        {
+          "key": "AQA-MAT-05-01-L1-P1",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A bag has 7 yellow and 3 purple sweets. One is taken at random. Work out the probability it is purple, as a decimal.",
+          "hint": "3 out of 10.",
+          "explanation": "$\\frac{3}{10} = 0.3$.",
+          "answers": [
+            {
+              "numeric": 0.3,
+              "tolerance": 0.001
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P2",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "The probability that a train is late is 0.12. Work out the probability that it is not late.",
+          "hint": "$1 - 0.12$.",
+          "explanation": "$1 - 0.12 = 0.88$.",
+          "answers": [
+            {
+              "numeric": 0.88,
+              "tolerance": 0.001
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P3",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of these could **not** be a probability?",
+          "hint": "Probabilities lie between 0 and 1 inclusive.",
+          "explanation": "1.3 is greater than 1, so it cannot be a probability. The others are all between 0 and 1.",
+          "options": [
+            {
+              "text": "1.3",
+              "correct": true
+            },
+            {
+              "text": "0",
+              "correct": false,
+              "feedback": "0 is the probability of an impossible event."
+            },
+            {
+              "text": "7/8",
+              "correct": false
+            },
+            {
+              "text": "0.001",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P4",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A letter is chosen at random from the word PROBABILITY. Work out the probability that it is a B or an I. Give your answer as a decimal to 2 decimal places.",
+          "hint": "Count the letters: there are 11 in total.",
+          "explanation": "B appears twice and I appears twice: $\\frac{4}{11} = 0.36$.",
+          "answers": [
+            {
+              "numeric": 0.36,
+              "tolerance": 0.01,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P5",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A biased dice has $P(1) = 0.1$, $P(2) = 0.2$, $P(3) = 0.15$, $P(4) = 0.15$ and $P(5) = 0.25$. Work out $P(6)$.",
+          "hint": "Add the five known probabilities and subtract from 1.",
+          "explanation": "$0.1 + 0.2 + 0.15 + 0.15 + 0.25 = 0.85$, so $P(6) = 0.15$.",
+          "answers": [
+            {
+              "numeric": 0.15,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P6",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Two fair coins are flipped. Work out the probability of getting exactly one head. Give your answer as a decimal.",
+          "hint": "List the outcomes: HH, HT, TH, TT.",
+          "explanation": "Exactly one head in HT and TH: $\\frac{2}{4} = 0.5$.",
+          "answers": [
+            {
+              "numeric": 0.5,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P7",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Two fair six-sided dice are rolled and the scores are added. Work out the probability that the total is 7. Enter the numerator of your answer as a fraction of 36.",
+          "hint": "Count the pairs that add to 7: (1, 6), (2, 5), ...",
+          "explanation": "Pairs: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1): six outcomes. $\\frac{6}{36} = \\frac{1}{6}$; numerator 6.",
+          "answers": [
+            {
+              "numeric": 6,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P8",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A game is played 150 times. A player wins with probability $\\frac{2}{5}$. How many wins would you expect?",
+          "hint": "$\\frac{2}{5} \\times 150$.",
+          "explanation": "$150 \\div 5 \\times 2 = 60$.",
+          "answers": [
+            {
+              "numeric": 60,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P9",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: if a fair coin has landed heads five times in a row, it is more likely to land tails on the next flip.",
+          "hint": "Does the coin remember what happened before?",
+          "explanation": "False. Each flip is independent; the probability of tails is still 0.5.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Omar rolls a dice 30 times and gets a six 8 times. He says the dice must be biased. Explain whether Omar is right to be sure.",
+          "hint": "How many sixes would you expect in 30 rolls, and how many trials did he do?",
+          "explanation": "For a fair dice you would expect about 5 sixes in 30 rolls; 8 is higher, but 30 is a small number of trials, so this could easily happen by chance. He cannot be sure; he should roll it many more times.",
+          "markScheme": [
+            {
+              "criterion": "States that 30 rolls is a small number of trials / not enough evidence",
+              "marks": 1,
+              "keywords": [
+                [
+                  "small",
+                  "not enough",
+                  "too few",
+                  "more rolls",
+                  "more trials"
+                ]
+              ]
+            },
+            {
+              "criterion": "Concludes he cannot be sure (the result could be due to chance) or compares with the expected 5",
+              "marks": 1,
+              "keywords": [
+                [
+                  "cannot be sure",
+                  "can't be sure",
+                  "chance",
+                  "random",
+                  "expect 5"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 3,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A spinner has three sections: red, blue and green. The probability of red is twice the probability of green. The probability of blue is 0.4.\n\n(a) Work out the probability of green.\n\n(b) The spinner is spun 300 times. How many times would you expect it to land on red?",
+          "hint": "Let $P(\\text{green}) = g$; then $P(\\text{red}) = 2g$ and $g + 2g + 0.4 = 1$.",
+          "explanation": "(a) $3g = 0.6$, so $g = 0.2$. (b) $P(\\text{red}) = 0.4$, and $0.4 \\times 300 = 120$.",
+          "markScheme": [
+            {
+              "criterion": "Forms the equation g + 2g + 0.4 = 1 or 3g = 0.6",
+              "marks": 1,
+              "keywords": [
+                [
+                  "3g",
+                  "0.6",
+                  "+ 0.4 = 1",
+                  "+0.4=1"
+                ]
+              ]
+            },
+            {
+              "criterion": "P(green) = 0.2",
+              "marks": 1,
+              "keywords": [
+                [
+                  "0.2",
+                  "0.20"
+                ]
+              ]
+            },
+            {
+              "criterion": "P(red) = 0.4",
+              "marks": 1,
+              "keywords": [
+                [
+                  "0.4",
+                  "0.40"
+                ]
+              ]
+            },
+            {
+              "criterion": "Expected number of reds = 120",
+              "marks": 1,
+              "keywords": [
+                [
+                  "120",
+                  "120.0"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

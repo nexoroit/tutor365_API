@@ -17,82 +17,539 @@
       "difficulty": 3,
       "tier": "NotApplicable",
       "activities": [
-        { "type": "Explanation", "title": "Area formulae for straight-sided shapes", "minutes": 5, "content": "## Perimeter and area\n\n**Perimeter** is the total distance around the outside of a shape, measured in cm, m, etc. **Area** is the space inside, measured in square units: cm², m².\n\n## The formulae\n\n| Shape | Area |\n|---|---|\n| Rectangle | length × width |\n| Triangle | $\\frac{1}{2}$ × base × perpendicular height |\n| Parallelogram | base × perpendicular height |\n| Trapezium | $\\frac{1}{2}(a + b)h$, where $a$ and $b$ are the parallel sides and $h$ the distance between them |\n\nThe word **perpendicular** matters. The height is measured at right angles to the base, not along a sloping side. If a triangle has base 10 cm, sloping side 7 cm and perpendicular height 6 cm, its area is $\\frac{1}{2} \\times 10 \\times 6 = 30$ cm²; the 7 cm is irrelevant to the area (but is needed for the perimeter).\n\n**Trapezium example**: parallel sides 8 cm and 12 cm, 5 cm apart. Area $= \\frac{1}{2}(8 + 12) \\times 5 = 50$ cm².\n\n## Compound shapes\n\nSplit an L-shape or T-shape into rectangles, or subtract a cut-out from a larger rectangle. Work out any missing lengths first: if the whole width is 12 cm and one part is 7 cm, the other is 5 cm.\n\nFor **perimeter**, walk around the outside adding every edge, including edges you had to calculate. Do not include internal lines you drew to split the shape." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-04-04-L1-Q1", "type": "FormulaCalculation", "difficulty": 1, "marks": 1,
-          "text": "A triangle has base 14 cm and perpendicular height 9 cm. Work out its area in cm².",
-          "hint": "Half of base × height.",
-          "explanation": "$\\frac{1}{2} \\times 14 \\times 9 = 63$ cm².",
-          "answers": [ { "numeric": 63, "tolerance": 0, "unit": "cm²" } ] } },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-04-04-L1-Q2", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
-          "text": "A trapezium has parallel sides of 6 cm and 11 cm, and the perpendicular distance between them is 4 cm. Work out its area in cm².",
-          "hint": "$\\frac{1}{2}(a + b)h$.",
-          "explanation": "$\\frac{1}{2}(6 + 11) \\times 4 = \\frac{1}{2} \\times 17 \\times 4 = 34$ cm².",
-          "answers": [ { "numeric": 34, "tolerance": 0, "unit": "cm²", "marks": 2 } ] } },
-        { "type": "Example", "title": "Worked example: a compound shape", "minutes": 4, "content": "## An L-shaped room\n\nAn L-shape is made from a rectangle 10 m wide and 8 m tall, with a 4 m by 3 m rectangle removed from the top-right corner. So its outline, going clockwise from the bottom-left corner, is: 10 m along the bottom, up 5 m on the right, 4 m left, up 3 m, 6 m left along the top, and 8 m down the left side back to the start.\n\n**Area, method 1 (subtract):**\n\nFull rectangle $10 \\times 8 = 80$ m². Cut-out $4 \\times 3 = 12$ m². Area $= 68$ m².\n\n**Area, method 2 (split):**\n\nLeft rectangle $6 \\times 8 = 48$ m², plus right rectangle $4 \\times 5 = 20$ m². Total $68$ m² ✓.\n\n**Perimeter:**\n\n$10 + 5 + 4 + 3 + 6 + 8 = 36$ m.\n\nNotice that the perimeter of the L-shape is the **same** as the perimeter of the full 10 by 8 rectangle ($2 \\times 18 = 36$), because the cut-out edges just replace the corner. That is a nice check, but it only works for a corner cut-out.\n\n## Working backwards\n\n**A rectangle has area 84 cm² and length 12 cm. Find its perimeter.**\n\nWidth $= 84 \\div 12 = 7$ cm. Perimeter $= 2(12 + 7) = 38$ cm.\n\n**A triangle has area 45 cm² and base 15 cm. Find its height.**\n\n$\\frac{1}{2} \\times 15 \\times h = 45$, so $7.5h = 45$ and $h = 6$ cm." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-04-L1-Q3", "type": "FormulaCalculation", "difficulty": 3, "marks": 3,
-          "text": "A shape is made from a rectangle 9 cm long and 4 cm wide, with a right-angled triangle attached to one of the 4 cm ends. The triangle's perpendicular height (measured out from the rectangle) is 6 cm and its base is the 4 cm side. Work out the total area in cm².",
-          "hint": "Rectangle area plus triangle area.",
-          "explanation": "Rectangle $9 \\times 4 = 36$ cm². Triangle $\\frac{1}{2} \\times 4 \\times 6 = 12$ cm². Total $48$ cm².",
-          "answers": [ { "numeric": 48, "tolerance": 0, "unit": "cm²", "marks": 3 } ] } },
-        { "type": "Explanation", "title": "Circles", "minutes": 5, "content": "## The parts of a circle\n\n- **Radius** $r$: from the centre to the edge.\n- **Diameter** $d$: right across through the centre, $d = 2r$.\n- **Circumference**: the perimeter of the circle.\n- **Chord**: a straight line joining two points on the edge; **tangent**: a line touching the circle at one point.\n\n## The two formulae\n\n$\\text{circumference} = \\pi d = 2\\pi r$\n\n$\\text{area} = \\pi r^2$\n\n$\\pi$ (pi) is about 3.14159; use the $\\pi$ button on your calculator.\n\n**A circle has radius 5 cm.**\n\nCircumference $= 2 \\times \\pi \\times 5 = 10\\pi = 31.4$ cm (3 s.f.)\n\nArea $= \\pi \\times 5^2 = 25\\pi = 78.5$ cm² (3 s.f.)\n\nWrite \"$25\\pi$\" when a question asks for the answer **in terms of $\\pi$**; that is exact, and no calculator is needed.\n\n## Which formula?\n\nCircumference is a **length**, so it uses $r$ once. Area is in square units, so it uses $r^2$. If you are given the **diameter**, halve it before using $\\pi r^2$: a circle of diameter 12 cm has area $\\pi \\times 6^2 = 36\\pi$, not $\\pi \\times 12^2$.\n\n## Working backwards\n\n**A circle has circumference 40 cm. Find its radius.** $2\\pi r = 40$, so $r = 40 \\div 2\\pi = 6.37$ cm.\n\n**A circle has area 200 cm². Find its radius.** $\\pi r^2 = 200$, so $r^2 = 63.66$ and $r = 7.98$ cm. Remember to square root." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-04-L1-Q4", "type": "FormulaCalculation", "difficulty": 2, "marks": 2,
-          "text": "A circular pond has a diameter of 7 m. Work out its area in m². Give your answer to 1 decimal place.",
-          "hint": "Radius is 3.5 m. Area $= \\pi r^2$.",
-          "explanation": "$\\pi \\times 3.5^2 = 12.25\\pi = 38.5$ m².",
-          "answers": [ { "numeric": 38.5, "tolerance": 0.1, "unit": "m²", "marks": 2 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-04-L1-Q5", "type": "Equation", "difficulty": 2, "marks": 2,
-          "text": "A circle has radius 9 cm. Write its circumference in terms of $\\pi$. Type your answer like 12pi.",
-          "hint": "$2\\pi r$ with $r = 9$.",
-          "explanation": "$2 \\times \\pi \\times 9 = 18\\pi$ cm.",
-          "answers": [ { "text": "18pi", "caseSensitive": false, "marks": 2 } ] } },
-        { "type": "Explanation", "title": "Arcs and sectors", "minutes": 5, "content": "## Fractions of a circle\n\nA **sector** is a \"slice of pizza\": the region between two radii and an arc. The angle at the centre, $\\theta$, tells you what fraction of the full circle it is: $\\dfrac{\\theta}{360}$.\n\n$\\text{arc length} = \\dfrac{\\theta}{360} \\times 2\\pi r$\n\n$\\text{sector area} = \\dfrac{\\theta}{360} \\times \\pi r^2$\n\n**A sector has radius 6 cm and angle 50°.**\n\nArc length $= \\dfrac{50}{360} \\times 2\\pi \\times 6 = \\dfrac{50}{360} \\times 37.70 = 5.24$ cm\n\nSector area $= \\dfrac{50}{360} \\times \\pi \\times 36 = 15.7$ cm²\n\n**Perimeter of the sector** = arc + two radii $= 5.24 + 6 + 6 = 17.2$ cm. Forgetting the two straight edges is a very common slip.\n\n## Semicircles and quarter circles\n\nA semicircle is $\\frac{180}{360} = \\frac{1}{2}$ of a circle; a quarter circle is $\\frac{1}{4}$. A semicircle of radius 4 cm has area $\\frac{1}{2} \\times 16\\pi = 8\\pi$ cm² and perimeter $\\frac{1}{2} \\times 8\\pi + 8 = 4\\pi + 8 = 20.6$ cm (arc plus diameter).\n\n## Working backwards\n\n**A sector of radius 10 cm has area 60 cm². Find the angle.**\n\n$\\dfrac{\\theta}{360} \\times 100\\pi = 60$, so $\\theta = \\dfrac{60 \\times 360}{100\\pi} = 68.8°$.\n\n## Compound shapes with circles\n\nA running track: a rectangle with a semicircle on each end. The two semicircles make one full circle, so add the rectangle to $\\pi r^2$ for area, and add the two straight sides to $2\\pi r$ for perimeter." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-04-L1-Q6", "type": "FormulaCalculation", "difficulty": 3, "marks": 3,
-          "text": "A sector has radius 8 cm and an angle of 135° at the centre. Work out the area of the sector in cm². Give your answer to 1 decimal place.",
-          "hint": "$\\frac{135}{360} \\times \\pi \\times 8^2$.",
-          "explanation": "$\\frac{135}{360} = 0.375$. $0.375 \\times 64\\pi = 24\\pi = 75.4$ cm².",
-          "answers": [ { "numeric": 75.4, "tolerance": 0.15, "unit": "cm²", "marks": 3 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-04-04-L1-Q7", "type": "Matching", "difficulty": 2, "marks": 4,
-          "text": "Match each quantity to the formula for it. Use $r$ for radius, $d$ for diameter and $\\theta$ for the sector angle in degrees.",
-          "hint": "Lengths use $r$ once; areas use $r^2$.",
-          "explanation": "Circumference $= \\pi d$; area $= \\pi r^2$; arc length $= \\frac{\\theta}{360} \\times 2\\pi r$; sector area $= \\frac{\\theta}{360} \\times \\pi r^2$.",
-          "pairs": [
-            { "left": "Circumference of a circle", "right": "πd" },
-            { "left": "Area of a circle", "right": "πr²" },
-            { "left": "Arc length of a sector", "right": "(θ ÷ 360) × 2πr" },
-            { "left": "Area of a sector", "right": "(θ ÷ 360) × πr²" } ] } },
-        { "type": "Explanation", "title": "Common mistakes", "minutes": 3, "content": "## Watch out for\n\n- **Using the slant side as the height.** Area needs the *perpendicular* height.\n- **Forgetting the half** in the triangle and trapezium formulae.\n- **Diameter in $\\pi r^2$.** Halve the diameter first.\n- **Mixing up the formulae.** $2\\pi r$ is a length; $\\pi r^2$ is an area. Check the units of your answer.\n- **Perimeter of a sector or semicircle.** Add the straight edges to the arc.\n- **Internal lines in perimeters.** Only the outside edges count.\n- **Rounding $\\pi$ early.** Use the $\\pi$ key and round only at the end, or leave the answer in terms of $\\pi$ if asked.\n- **Missing lengths on compound shapes.** Work them out and write them on the diagram before calculating.\n- **Units.** Area answers need cm² or m²; converting 1 m² to cm² means × 10 000." },
-        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
-          "key": "AQA-MAT-04-04-L1-Q8", "type": "ExamQuestion", "difficulty": 4, "marks": 5, "examStyle": true,
-          "text": "A garden path is made from a rectangle 12 m long and 3 m wide, with a semicircle of diameter 3 m attached to one of the short ends.\n\n(a) Work out the total area of the path. Give your answer to 1 decimal place.\n\n(b) The path is to be edged all the way round with fencing. Work out the length of fencing needed, to 1 decimal place.\n\n(c) Paving costs £38 per square metre. Work out the cost of paving the whole path.",
-          "hint": "The semicircle has radius 1.5 m. Its perimeter contribution is half a circumference; the flat side joins the rectangle so it is not fenced.",
-          "explanation": "(a) Rectangle $36$ m². Semicircle $\\frac{1}{2}\\pi(1.5)^2 = 3.53$ m². Total $39.5$ m². (b) Rectangle edges: $12 + 12 + 3 = 27$ m (the end joined to the semicircle is not fenced). Arc: $\\frac{1}{2} \\times \\pi \\times 3 = 4.71$ m. Total $31.7$ m. (c) $39.53 \\times 38 = £1\\,502.27$ (accept £1 501 using the rounded 39.5).",
-          "markScheme": [
-            { "criterion": "Semicircle area = ½ × π × 1.5² ≈ 3.53 m²", "marks": 1, "keywords": [ ["3.53", "3.5", "1.125π", "1.125 π"] ] },
-            { "criterion": "Total area ≈ 39.5 m²", "marks": 1, "keywords": [ ["39.5"] ] },
-            { "criterion": "Arc length = ½ × π × 3 ≈ 4.71 m", "marks": 1, "keywords": [ ["4.71", "4.7", "1.5π", "1.5 π"] ] },
-            { "criterion": "Fencing = 12 + 12 + 3 + 4.71 ≈ 31.7 m", "marks": 1, "keywords": [ ["31.7"] ] },
-            { "criterion": "Cost ≈ £1 502 (accept £1 501 to £1 503)", "marks": 1, "keywords": [ ["1502", "1 502", "1,502", "1501", "1 501", "1,501", "1503"] ] } ] } },
-        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Rectangle $lw$; triangle $\\frac{1}{2}bh$; parallelogram $bh$; trapezium $\\frac{1}{2}(a + b)h$. Heights are **perpendicular**.\n- Compound shapes: split or subtract; find missing lengths first; perimeter counts outside edges only.\n- Circle: circumference $\\pi d = 2\\pi r$; area $\\pi r^2$. Halve the diameter for the radius.\n- Sector: multiply by $\\frac{\\theta}{360}$; sector perimeter = arc + $2r$.\n- Leave exact answers in terms of $\\pi$ when asked; otherwise round only at the end.\n- Working backwards: substitute into the formula and solve." }
+        {
+          "type": "Explanation",
+          "title": "Area formulae for straight-sided shapes",
+          "minutes": 5,
+          "content": "## Perimeter and area\n\n**Perimeter** is the total distance around the outside of a shape, measured in cm, m, etc. **Area** is the space inside, measured in square units: cm², m².\n\n## The formulae\n\n| Shape | Area |\n|---|---|\n| Rectangle | length × width |\n| Triangle | $\\frac{1}{2}$ × base × perpendicular height |\n| Parallelogram | base × perpendicular height |\n| Trapezium | $\\frac{1}{2}(a + b)h$, where $a$ and $b$ are the parallel sides and $h$ the distance between them |\n\nThe word **perpendicular** matters. The height is measured at right angles to the base, not along a sloping side. If a triangle has base 10 cm, sloping side 7 cm and perpendicular height 6 cm, its area is $\\frac{1}{2} \\times 10 \\times 6 = 30$ cm²; the 7 cm is irrelevant to the area (but is needed for the perimeter).\n\n**Trapezium example**: parallel sides 8 cm and 12 cm, 5 cm apart. Area $= \\frac{1}{2}(8 + 12) \\times 5 = 50$ cm².\n\n## Compound shapes\n\nSplit an L-shape or T-shape into rectangles, or subtract a cut-out from a larger rectangle. Work out any missing lengths first: if the whole width is 12 cm and one part is 7 cm, the other is 5 cm.\n\nFor **perimeter**, walk around the outside adding every edge, including edges you had to calculate. Do not include internal lines you drew to split the shape."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-04-04-L1-Q1",
+            "type": "FormulaCalculation",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "A triangle has base 14 cm and perpendicular height 9 cm. Work out its area in cm².",
+            "hint": "Half of base × height.",
+            "explanation": "$\\frac{1}{2} \\times 14 \\times 9 = 63$ cm².",
+            "answers": [
+              {
+                "numeric": 63,
+                "tolerance": 0,
+                "unit": "cm²"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-04-04-L1-Q2",
+            "type": "FormulaCalculation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A trapezium has parallel sides of 6 cm and 11 cm, and the perpendicular distance between them is 4 cm. Work out its area in cm².",
+            "hint": "$\\frac{1}{2}(a + b)h$.",
+            "explanation": "$\\frac{1}{2}(6 + 11) \\times 4 = \\frac{1}{2} \\times 17 \\times 4 = 34$ cm².",
+            "answers": [
+              {
+                "numeric": 34,
+                "tolerance": 0,
+                "unit": "cm²",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: a compound shape",
+          "minutes": 4,
+          "content": "## An L-shaped room\n\nAn L-shape is made from a rectangle 10 m wide and 8 m tall, with a 4 m by 3 m rectangle removed from the top-right corner. So its outline, going clockwise from the bottom-left corner, is: 10 m along the bottom, up 5 m on the right, 4 m left, up 3 m, 6 m left along the top, and 8 m down the left side back to the start.\n\n**Area, method 1 (subtract):**\n\nFull rectangle $10 \\times 8 = 80$ m². Cut-out $4 \\times 3 = 12$ m². Area $= 68$ m².\n\n**Area, method 2 (split):**\n\nLeft rectangle $6 \\times 8 = 48$ m², plus right rectangle $4 \\times 5 = 20$ m². Total $68$ m² ✓.\n\n**Perimeter:**\n\n$10 + 5 + 4 + 3 + 6 + 8 = 36$ m.\n\nNotice that the perimeter of the L-shape is the **same** as the perimeter of the full 10 by 8 rectangle ($2 \\times 18 = 36$), because the cut-out edges just replace the corner. That is a nice check, but it only works for a corner cut-out.\n\n## Working backwards\n\n**A rectangle has area 84 cm² and length 12 cm. Find its perimeter.**\n\nWidth $= 84 \\div 12 = 7$ cm. Perimeter $= 2(12 + 7) = 38$ cm.\n\n**A triangle has area 45 cm² and base 15 cm. Find its height.**\n\n$\\frac{1}{2} \\times 15 \\times h = 45$, so $7.5h = 45$ and $h = 6$ cm."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-04-L1-Q3",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "A shape is made from a rectangle 9 cm long and 4 cm wide, with a right-angled triangle attached to one of the 4 cm ends. The triangle's perpendicular height (measured out from the rectangle) is 6 cm and its base is the 4 cm side. Work out the total area in cm².",
+            "hint": "Rectangle area plus triangle area.",
+            "explanation": "Rectangle $9 \\times 4 = 36$ cm². Triangle $\\frac{1}{2} \\times 4 \\times 6 = 12$ cm². Total $48$ cm².",
+            "answers": [
+              {
+                "numeric": 48,
+                "tolerance": 0,
+                "unit": "cm²",
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Circles",
+          "minutes": 5,
+          "content": "## The parts of a circle\n\n- **Radius** $r$: from the centre to the edge.\n- **Diameter** $d$: right across through the centre, $d = 2r$.\n- **Circumference**: the perimeter of the circle.\n- **Chord**: a straight line joining two points on the edge; **tangent**: a line touching the circle at one point.\n\n## The two formulae\n\n$\\text{circumference} = \\pi d = 2\\pi r$\n\n$\\text{area} = \\pi r^2$\n\n$\\pi$ (pi) is about 3.14159; use the $\\pi$ button on your calculator.\n\n**A circle has radius 5 cm.**\n\nCircumference $= 2 \\times \\pi \\times 5 = 10\\pi = 31.4$ cm (3 s.f.)\n\nArea $= \\pi \\times 5^2 = 25\\pi = 78.5$ cm² (3 s.f.)\n\nWrite \"$25\\pi$\" when a question asks for the answer **in terms of $\\pi$**; that is exact, and no calculator is needed.\n\n## Which formula?\n\nCircumference is a **length**, so it uses $r$ once. Area is in square units, so it uses $r^2$. If you are given the **diameter**, halve it before using $\\pi r^2$: a circle of diameter 12 cm has area $\\pi \\times 6^2 = 36\\pi$, not $\\pi \\times 12^2$.\n\n## Working backwards\n\n**A circle has circumference 40 cm. Find its radius.** $2\\pi r = 40$, so $r = 40 \\div 2\\pi = 6.37$ cm.\n\n**A circle has area 200 cm². Find its radius.** $\\pi r^2 = 200$, so $r^2 = 63.66$ and $r = 7.98$ cm. Remember to square root."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-04-L1-Q4",
+            "type": "FormulaCalculation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A circular pond has a diameter of 7 m. Work out its area in m². Give your answer to 1 decimal place.",
+            "hint": "Radius is 3.5 m. Area $= \\pi r^2$.",
+            "explanation": "$\\pi \\times 3.5^2 = 12.25\\pi = 38.5$ m².",
+            "answers": [
+              {
+                "numeric": 38.5,
+                "tolerance": 0.1,
+                "unit": "m²",
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-04-L1-Q5",
+            "type": "Equation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "A circle has radius 9 cm. Write its circumference in terms of $\\pi$. Type your answer like 12pi.",
+            "hint": "$2\\pi r$ with $r = 9$.",
+            "explanation": "$2 \\times \\pi \\times 9 = 18\\pi$ cm.",
+            "answers": [
+              {
+                "text": "18pi",
+                "caseSensitive": false,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Arcs and sectors",
+          "minutes": 5,
+          "content": "## Fractions of a circle\n\nA **sector** is a \"slice of pizza\": the region between two radii and an arc. The angle at the centre, $\\theta$, tells you what fraction of the full circle it is: $\\dfrac{\\theta}{360}$.\n\n$\\text{arc length} = \\dfrac{\\theta}{360} \\times 2\\pi r$\n\n$\\text{sector area} = \\dfrac{\\theta}{360} \\times \\pi r^2$\n\n**A sector has radius 6 cm and angle 50°.**\n\nArc length $= \\dfrac{50}{360} \\times 2\\pi \\times 6 = \\dfrac{50}{360} \\times 37.70 = 5.24$ cm\n\nSector area $= \\dfrac{50}{360} \\times \\pi \\times 36 = 15.7$ cm²\n\n**Perimeter of the sector** = arc + two radii $= 5.24 + 6 + 6 = 17.2$ cm. Forgetting the two straight edges is a very common slip.\n\n## Semicircles and quarter circles\n\nA semicircle is $\\frac{180}{360} = \\frac{1}{2}$ of a circle; a quarter circle is $\\frac{1}{4}$. A semicircle of radius 4 cm has area $\\frac{1}{2} \\times 16\\pi = 8\\pi$ cm² and perimeter $\\frac{1}{2} \\times 8\\pi + 8 = 4\\pi + 8 = 20.6$ cm (arc plus diameter).\n\n## Working backwards\n\n**A sector of radius 10 cm has area 60 cm². Find the angle.**\n\n$\\dfrac{\\theta}{360} \\times 100\\pi = 60$, so $\\theta = \\dfrac{60 \\times 360}{100\\pi} = 68.8°$.\n\n## Compound shapes with circles\n\nA running track: a rectangle with a semicircle on each end. The two semicircles make one full circle, so add the rectangle to $\\pi r^2$ for area, and add the two straight sides to $2\\pi r$ for perimeter."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-04-L1-Q6",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "A sector has radius 8 cm and an angle of 135° at the centre. Work out the area of the sector in cm². Give your answer to 1 decimal place.",
+            "hint": "$\\frac{135}{360} \\times \\pi \\times 8^2$.",
+            "explanation": "$\\frac{135}{360} = 0.375$. $0.375 \\times 64\\pi = 24\\pi = 75.4$ cm².",
+            "answers": [
+              {
+                "numeric": 75.4,
+                "tolerance": 0.15,
+                "unit": "cm²",
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-04-04-L1-Q7",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each quantity to the formula for it. Use $r$ for radius, $d$ for diameter and $\\theta$ for the sector angle in degrees.",
+            "hint": "Lengths use $r$ once; areas use $r^2$.",
+            "explanation": "Circumference $= \\pi d$; area $= \\pi r^2$; arc length $= \\frac{\\theta}{360} \\times 2\\pi r$; sector area $= \\frac{\\theta}{360} \\times \\pi r^2$.",
+            "pairs": [
+              {
+                "left": "Circumference of a circle",
+                "right": "πd"
+              },
+              {
+                "left": "Area of a circle",
+                "right": "πr²"
+              },
+              {
+                "left": "Arc length of a sector",
+                "right": "(θ ÷ 360) × 2πr"
+              },
+              {
+                "left": "Area of a sector",
+                "right": "(θ ÷ 360) × πr²"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Common mistakes",
+          "minutes": 3,
+          "content": "## Watch out for\n\n- **Using the slant side as the height.** Area needs the *perpendicular* height.\n- **Forgetting the half** in the triangle and trapezium formulae.\n- **Diameter in $\\pi r^2$.** Halve the diameter first.\n- **Mixing up the formulae.** $2\\pi r$ is a length; $\\pi r^2$ is an area. Check the units of your answer.\n- **Perimeter of a sector or semicircle.** Add the straight edges to the arc.\n- **Internal lines in perimeters.** Only the outside edges count.\n- **Rounding $\\pi$ early.** Use the $\\pi$ key and round only at the end, or leave the answer in terms of $\\pi$ if asked.\n- **Missing lengths on compound shapes.** Work them out and write them on the diagram before calculating.\n- **Units.** Area answers need cm² or m²; converting 1 m² to cm² means × 10 000."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-04-04-L1-Q8",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "A garden path is made from a rectangle 12 m long and 3 m wide, with a semicircle of diameter 3 m attached to one of the short ends.\n\n(a) Work out the total area of the path. Give your answer to 1 decimal place.\n\n(b) The path is to be edged all the way round with fencing. Work out the length of fencing needed, to 1 decimal place.\n\n(c) Paving costs £38 per square metre. Work out the cost of paving the whole path.",
+            "hint": "The semicircle has radius 1.5 m. Its perimeter contribution is half a circumference; the flat side joins the rectangle so it is not fenced.",
+            "explanation": "(a) Rectangle $36$ m². Semicircle $\\frac{1}{2}\\pi(1.5)^2 = 3.53$ m². Total $39.5$ m². (b) Rectangle edges: $12 + 12 + 3 = 27$ m (the end joined to the semicircle is not fenced). Arc: $\\frac{1}{2} \\times \\pi \\times 3 = 4.71$ m. Total $31.7$ m. (c) $39.53 \\times 38 = £1\\,502.27$ (accept £1 501 using the rounded 39.5).",
+            "markScheme": [
+              {
+                "criterion": "Semicircle area = ½ × π × 1.5² ≈ 3.53 m²",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "3.53",
+                    "3.5",
+                    "1.125π",
+                    "1.125 π"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Total area ≈ 39.5 m²",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "39.5",
+                    "39.50"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Arc length = ½ × π × 3 ≈ 4.71 m",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "4.71",
+                    "4.7",
+                    "1.5π",
+                    "1.5 π"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Fencing = 12 + 12 + 3 + 4.71 ≈ 31.7 m",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "31.7",
+                    "31.70"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Cost ≈ £1 502 (accept £1 501 to £1 503)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "1502",
+                    "1 502",
+                    "1,502",
+                    "1501",
+                    "1 501"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Rectangle $lw$; triangle $\\frac{1}{2}bh$; parallelogram $bh$; trapezium $\\frac{1}{2}(a + b)h$. Heights are **perpendicular**.\n- Compound shapes: split or subtract; find missing lengths first; perimeter counts outside edges only.\n- Circle: circumference $\\pi d = 2\\pi r$; area $\\pi r^2$. Halve the diameter for the radius.\n- Sector: multiply by $\\frac{\\theta}{360}$; sector perimeter = arc + $2r$.\n- Leave exact answers in terms of $\\pi$ when asked; otherwise round only at the end.\n- Working backwards: substitute into the formula and solve."
+        }
       ],
       "practiceQuestions": [
-        { "key": "AQA-MAT-04-04-L1-P1", "type": "FormulaCalculation", "difficulty": 1, "marks": 1, "text": "A rectangle is 7.5 cm by 4 cm. Work out its perimeter in cm.", "hint": "Add all four sides.", "explanation": "$2(7.5 + 4) = 23$ cm.", "answers": [ { "numeric": 23, "tolerance": 0, "unit": "cm" } ] },
-        { "key": "AQA-MAT-04-04-L1-P2", "type": "FormulaCalculation", "difficulty": 1, "marks": 1, "text": "A parallelogram has base 12 cm, perpendicular height 5 cm and sloping side 6 cm. Work out its area in cm².", "hint": "Base × perpendicular height. Ignore the sloping side.", "explanation": "$12 \\times 5 = 60$ cm².", "answers": [ { "numeric": 60, "tolerance": 0, "unit": "cm²" } ] },
-        { "key": "AQA-MAT-04-04-L1-P3", "type": "FormulaCalculation", "difficulty": 2, "marks": 2, "text": "A circle has radius 4.5 cm. Work out its circumference in cm to 1 decimal place.", "hint": "$2\\pi r$.", "explanation": "$2 \\times \\pi \\times 4.5 = 28.3$ cm.", "answers": [ { "numeric": 28.3, "tolerance": 0.06, "unit": "cm", "marks": 2 } ] },
-        { "key": "AQA-MAT-04-04-L1-P4", "type": "Equation", "difficulty": 2, "marks": 2, "text": "A circle has diameter 10 cm. Write its area in terms of $\\pi$. Type your answer like 12pi.", "hint": "Radius 5 cm; $\\pi r^2$.", "explanation": "$\\pi \\times 5^2 = 25\\pi$ cm².", "answers": [ { "text": "25pi", "caseSensitive": false, "marks": 2 } ] },
-        { "key": "AQA-MAT-04-04-L1-P5", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "Which calculation gives the area of a triangle with sides 5 cm, 5 cm and 6 cm, whose perpendicular height from the 6 cm base is 4 cm?", "hint": "Use the base and the perpendicular height only.", "explanation": "$\\frac{1}{2} \\times 6 \\times 4 = 12$ cm². The 5 cm sides are not the height.", "options": [ { "text": "½ × 6 × 4", "correct": true }, { "text": "½ × 6 × 5", "correct": false, "feedback": "5 cm is a sloping side, not the perpendicular height." }, { "text": "6 × 4", "correct": false }, { "text": "5 × 5 × 6", "correct": false } ] },
-        { "key": "AQA-MAT-04-04-L1-P6", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "A rectangle has area 105 cm² and width 7 cm. Work out its perimeter in cm.", "hint": "Find the length first: 105 ÷ 7.", "explanation": "Length $= 15$ cm. Perimeter $= 2(15 + 7) = 44$ cm.", "answers": [ { "numeric": 44, "tolerance": 0, "unit": "cm", "marks": 2 } ] },
-        { "key": "AQA-MAT-04-04-L1-P7", "type": "FormulaCalculation", "difficulty": 3, "marks": 2, "text": "A circle has circumference 50 cm. Work out its radius in cm to 2 decimal places.", "hint": "$r = C \\div 2\\pi$.", "explanation": "$50 \\div (2\\pi) = 7.96$ cm.", "answers": [ { "numeric": 7.96, "tolerance": 0.01, "unit": "cm", "marks": 2 } ] },
-        { "key": "AQA-MAT-04-04-L1-P8", "type": "FormulaCalculation", "difficulty": 3, "marks": 3, "text": "A sector has radius 12 cm and angle 60°. Work out the **perimeter** of the sector in cm to 1 decimal place.", "hint": "Arc length is $\\frac{60}{360}$ of the circumference; then add two radii.", "explanation": "Arc $= \\frac{1}{6} \\times 24\\pi = 4\\pi = 12.57$ cm. Perimeter $= 12.57 + 24 = 36.6$ cm.", "answers": [ { "numeric": 36.6, "tolerance": 0.1, "unit": "cm", "marks": 3 } ] },
-        { "key": "AQA-MAT-04-04-L1-P9", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: doubling the radius of a circle doubles its area.", "hint": "Area depends on $r^2$.", "explanation": "False. Doubling $r$ multiplies $r^2$ by 4, so the area is four times bigger. The circumference doubles.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
-        { "key": "AQA-MAT-04-04-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Nadia works out the area of a circle with diameter 8 cm as $\\pi \\times 8^2 = 201$ cm². Explain her mistake and give the correct area to 1 decimal place.", "hint": "What does the formula $\\pi r^2$ need?", "explanation": "She used the diameter instead of the radius. The radius is 4 cm, so the area is $\\pi \\times 4^2 = 16\\pi = 50.3$ cm².", "markScheme": [ { "criterion": "Identifies that she used the diameter instead of the radius (should have halved 8)", "marks": 1, "keywords": [ ["diameter", "radius", "halve", "half", "4 cm", "4cm"] ] }, { "criterion": "Correct area 50.3 cm² (accept 16π)", "marks": 1, "keywords": [ ["50.3", "50.2", "16π", "16 π", "16pi"] ] } ] },
-        { "key": "AQA-MAT-04-04-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "A trapezium has parallel sides of length $x$ cm and $(x + 6)$ cm, and the perpendicular distance between them is 8 cm. The area of the trapezium is 104 cm².\n\n(a) Show that $x + 3 = 13$.\n\n(b) Find the lengths of the two parallel sides.", "hint": "Substitute into $\\frac{1}{2}(a + b)h = 104$ and simplify.", "explanation": "(a) $\\frac{1}{2}(x + x + 6) \\times 8 = 104$, so $4(2x + 6) = 104$, $8x + 24 = 104$, $8x = 80$, $x = 10$; and $x + 3 = 13$. (Or: $4(2x + 6) = 8(x + 3) = 104$ gives $x + 3 = 13$ directly.) (b) Sides are 10 cm and 16 cm.", "markScheme": [ { "criterion": "Sets up ½(x + x + 6) × 8 = 104 or equivalent", "marks": 1, "keywords": [ ["104"], ["2x + 6", "2x+6", "x + x + 6", "x+x+6"] ] }, { "criterion": "Simplifies to 8(x + 3) = 104 or 8x + 24 = 104 and hence x + 3 = 13", "marks": 1, "keywords": [ ["8x + 24", "8x+24", "8(x + 3)", "8(x+3)", "13"] ] }, { "criterion": "x = 10", "marks": 1, "keywords": [ ["x = 10", "x=10"] ] }, { "criterion": "Parallel sides 10 cm and 16 cm", "marks": 1, "keywords": [ ["10"], ["16"] ] } ] }
+        {
+          "key": "AQA-MAT-04-04-L1-P1",
+          "type": "FormulaCalculation",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A rectangle is 7.5 cm by 4 cm. Work out its perimeter in cm.",
+          "hint": "Add all four sides.",
+          "explanation": "$2(7.5 + 4) = 23$ cm.",
+          "answers": [
+            {
+              "numeric": 23,
+              "tolerance": 0,
+              "unit": "cm"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P2",
+          "type": "FormulaCalculation",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A parallelogram has base 12 cm, perpendicular height 5 cm and sloping side 6 cm. Work out its area in cm².",
+          "hint": "Base × perpendicular height. Ignore the sloping side.",
+          "explanation": "$12 \\times 5 = 60$ cm².",
+          "answers": [
+            {
+              "numeric": 60,
+              "tolerance": 0,
+              "unit": "cm²"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P3",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A circle has radius 4.5 cm. Work out its circumference in cm to 1 decimal place.",
+          "hint": "$2\\pi r$.",
+          "explanation": "$2 \\times \\pi \\times 4.5 = 28.3$ cm.",
+          "answers": [
+            {
+              "numeric": 28.3,
+              "tolerance": 0.06,
+              "unit": "cm",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P4",
+          "type": "Equation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A circle has diameter 10 cm. Write its area in terms of $\\pi$. Type your answer like 12pi.",
+          "hint": "Radius 5 cm; $\\pi r^2$.",
+          "explanation": "$\\pi \\times 5^2 = 25\\pi$ cm².",
+          "answers": [
+            {
+              "text": "25pi",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P5",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which calculation gives the area of a triangle with sides 5 cm, 5 cm and 6 cm, whose perpendicular height from the 6 cm base is 4 cm?",
+          "hint": "Use the base and the perpendicular height only.",
+          "explanation": "$\\frac{1}{2} \\times 6 \\times 4 = 12$ cm². The 5 cm sides are not the height.",
+          "options": [
+            {
+              "text": "½ × 6 × 4",
+              "correct": true
+            },
+            {
+              "text": "½ × 6 × 5",
+              "correct": false,
+              "feedback": "5 cm is a sloping side, not the perpendicular height."
+            },
+            {
+              "text": "6 × 4",
+              "correct": false
+            },
+            {
+              "text": "5 × 5 × 6",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P6",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A rectangle has area 105 cm² and width 7 cm. Work out its perimeter in cm.",
+          "hint": "Find the length first: 105 ÷ 7.",
+          "explanation": "Length $= 15$ cm. Perimeter $= 2(15 + 7) = 44$ cm.",
+          "answers": [
+            {
+              "numeric": 44,
+              "tolerance": 0,
+              "unit": "cm",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P7",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A circle has circumference 50 cm. Work out its radius in cm to 2 decimal places.",
+          "hint": "$r = C \\div 2\\pi$.",
+          "explanation": "$50 \\div (2\\pi) = 7.96$ cm.",
+          "answers": [
+            {
+              "numeric": 7.96,
+              "tolerance": 0.01,
+              "unit": "cm",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P8",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A sector has radius 12 cm and angle 60°. Work out the **perimeter** of the sector in cm to 1 decimal place.",
+          "hint": "Arc length is $\\frac{60}{360}$ of the circumference; then add two radii.",
+          "explanation": "Arc $= \\frac{1}{6} \\times 24\\pi = 4\\pi = 12.57$ cm. Perimeter $= 12.57 + 24 = 36.6$ cm.",
+          "answers": [
+            {
+              "numeric": 36.6,
+              "tolerance": 0.1,
+              "unit": "cm",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P9",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: doubling the radius of a circle doubles its area.",
+          "hint": "Area depends on $r^2$.",
+          "explanation": "False. Doubling $r$ multiplies $r^2$ by 4, so the area is four times bigger. The circumference doubles.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Nadia works out the area of a circle with diameter 8 cm as $\\pi \\times 8^2 = 201$ cm². Explain her mistake and give the correct area to 1 decimal place.",
+          "hint": "What does the formula $\\pi r^2$ need?",
+          "explanation": "She used the diameter instead of the radius. The radius is 4 cm, so the area is $\\pi \\times 4^2 = 16\\pi = 50.3$ cm².",
+          "markScheme": [
+            {
+              "criterion": "Identifies that she used the diameter instead of the radius (should have halved 8)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "diameter",
+                  "radius",
+                  "halve",
+                  "half",
+                  "4 cm"
+                ]
+              ]
+            },
+            {
+              "criterion": "Correct area 50.3 cm² (accept 16π)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "50.3",
+                  "50.2",
+                  "16π",
+                  "16 π",
+                  "16pi"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A trapezium has parallel sides of length $x$ cm and $(x + 6)$ cm, and the perpendicular distance between them is 8 cm. The area of the trapezium is 104 cm².\n\n(a) Show that $x + 3 = 13$.\n\n(b) Find the lengths of the two parallel sides.",
+          "hint": "Substitute into $\\frac{1}{2}(a + b)h = 104$ and simplify.",
+          "explanation": "(a) $\\frac{1}{2}(x + x + 6) \\times 8 = 104$, so $4(2x + 6) = 104$, $8x + 24 = 104$, $8x = 80$, $x = 10$; and $x + 3 = 13$. (Or: $4(2x + 6) = 8(x + 3) = 104$ gives $x + 3 = 13$ directly.) (b) Sides are 10 cm and 16 cm.",
+          "markScheme": [
+            {
+              "criterion": "Sets up ½(x + x + 6) × 8 = 104 or equivalent",
+              "marks": 1,
+              "keywords": [
+                [
+                  "104",
+                  "104.0"
+                ],
+                [
+                  "2x + 6",
+                  "2x+6",
+                  "x + x + 6",
+                  "x+x+6"
+                ]
+              ]
+            },
+            {
+              "criterion": "Simplifies to 8(x + 3) = 104 or 8x + 24 = 104 and hence x + 3 = 13",
+              "marks": 1,
+              "keywords": [
+                [
+                  "8x + 24",
+                  "8x+24",
+                  "8(x + 3)",
+                  "8(x+3)",
+                  "13"
+                ]
+              ]
+            },
+            {
+              "criterion": "x = 10",
+              "marks": 1,
+              "keywords": [
+                [
+                  "x = 10",
+                  "x=10"
+                ]
+              ]
+            },
+            {
+              "criterion": "Parallel sides 10 cm and 16 cm",
+              "marks": 1,
+              "keywords": [
+                [
+                  "10",
+                  "10.0"
+                ],
+                [
+                  "16",
+                  "16.0"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

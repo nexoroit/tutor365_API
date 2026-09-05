@@ -17,79 +17,528 @@
       "difficulty": 4,
       "tier": "NotApplicable",
       "activities": [
-        { "type": "Explanation", "title": "What makes an equation quadratic", "minutes": 4, "content": "## Quadratics and their solutions\n\nA **quadratic equation** contains an $x^2$ term as its highest power. Written in standard form it is\n\n$ax^2 + bx + c = 0$\n\nwhere $a$, $b$ and $c$ are numbers and $a \\ne 0$.\n\nUnlike a linear equation, a quadratic usually has **two** solutions (also called **roots**). Sometimes it has one repeated solution, and sometimes none at all.\n\nThe key fact behind the factorising method is:\n\n> If two things multiply to give **zero**, at least one of them must be zero.\n\nSo if $(x - 3)(x + 5) = 0$ then either $x - 3 = 0$ or $x + 5 = 0$, giving $x = 3$ or $x = -5$.\n\nThis only works when one side is **zero**. If you are given $x^2 + 2x = 15$, you must first rearrange to $x^2 + 2x - 15 = 0$. Never try to factorise while there is a number on the right-hand side.\n\nThree methods, in the order you should try them:\n1. **Factorise** (quickest, when it works).\n2. **Quadratic formula** (always works if there are real solutions).\n3. **Complete the square** (also gives the turning point of the graph)." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-02-07-L1-Q1", "type": "MultipleChoice", "difficulty": 1, "marks": 1,
-          "text": "What are the solutions of $(x + 4)(x - 7) = 0$?",
-          "hint": "Set each bracket equal to zero.",
-          "explanation": "$x + 4 = 0$ gives $x = -4$; $x - 7 = 0$ gives $x = 7$.",
-          "options": [
-            { "text": "x = −4 or x = 7", "correct": true },
-            { "text": "x = 4 or x = −7", "correct": false, "feedback": "The signs are the wrong way round: $x + 4 = 0$ means $x = -4$." },
-            { "text": "x = 4 or x = 7", "correct": false },
-            { "text": "x = −28", "correct": false } ] } },
-        { "type": "Explanation", "title": "Solving by factorising", "minutes": 5, "content": "## When $a = 1$\n\nTo factorise $x^2 + bx + c$, find two numbers that **multiply to $c$** and **add to $b$**.\n\n**Solve $x^2 - 2x - 24 = 0$.**\n\nPairs multiplying to $-24$: try $-6$ and $4$: $-6 + 4 = -2$ ✓.\n\n$(x - 6)(x + 4) = 0$, so $x = 6$ or $x = -4$.\n\n**Solve $x^2 = 9x$.** Rearrange to $x^2 - 9x = 0$ and take out the common factor: $x(x - 9) = 0$, so $x = 0$ or $x = 9$. A common error is to divide both sides by $x$ and lose the solution $x = 0$.\n\n**Solve $x^2 - 49 = 0$.** This is a difference of two squares: $(x - 7)(x + 7) = 0$, so $x = \\pm 7$.\n\n## When $a \\ne 1$\n\nFor $2x^2 + 7x + 3 = 0$, multiply $a \\times c = 6$ and find two numbers that multiply to 6 and add to 7: that is 6 and 1. Split the middle term:\n\n$2x^2 + 6x + x + 3 = 0$\n\n$2x(x + 3) + 1(x + 3) = 0$\n\n$(2x + 1)(x + 3) = 0$\n\nSo $2x + 1 = 0$ gives $x = -\\frac{1}{2}$, and $x = -3$.\n\nAlways expand your brackets mentally to check before solving." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-MAT-02-07-L1-Q2", "type": "Equation", "difficulty": 2, "marks": 2,
-          "text": "Solve $x^2 + 3x - 28 = 0$. Type both solutions separated by a comma, smallest first, like -3,5.",
-          "hint": "Which two numbers multiply to −28 and add to 3?",
-          "explanation": "$7 \\times (-4) = -28$ and $7 + (-4) = 3$, so $(x + 7)(x - 4) = 0$. $x = -7$ or $x = 4$.",
-          "answers": [ { "text": "-7,4", "caseSensitive": false, "marks": 2 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-02-07-L1-Q3", "type": "Equation", "difficulty": 3, "marks": 3,
-          "text": "Solve $3x^2 - 10x - 8 = 0$ by factorising. Type both solutions separated by a comma, smallest first, using fractions like -2/3 if needed.",
-          "hint": "$a \\times c = -24$. Find two numbers that multiply to −24 and add to −10.",
-          "explanation": "$-12$ and $2$: $3x^2 - 12x + 2x - 8 = 3x(x - 4) + 2(x - 4) = (3x + 2)(x - 4)$. So $x = -\\frac{2}{3}$ or $x = 4$.",
-          "answers": [ { "text": "-2/3,4", "caseSensitive": false, "marks": 3 } ] } },
-        { "type": "Explanation", "title": "The quadratic formula", "minutes": 5, "content": "## When factorising will not work\n\nMany quadratics do not factorise neatly. For any equation $ax^2 + bx + c = 0$ the solutions are\n\n$x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n\nThe $\\pm$ sign is why there are two answers: one using $+$ and one using $-$.\n\n**Method**\n1. Rearrange so the right-hand side is zero and write down $a$, $b$ and $c$ **with their signs**.\n2. Substitute carefully, using brackets around negative numbers.\n3. Work out $b^2 - 4ac$ first. This part is called the **discriminant**.\n4. Calculate the two values and round as instructed.\n\n**Solve $2x^2 + 5x - 4 = 0$ to 2 decimal places.**\n\n$a = 2$, $b = 5$, $c = -4$.\n\n$b^2 - 4ac = 25 - 4(2)(-4) = 25 + 32 = 57$\n\n$x = \\dfrac{-5 \\pm \\sqrt{57}}{4}$\n\n$x = \\dfrac{-5 + 7.5498}{4} = 0.64$ or $x = \\dfrac{-5 - 7.5498}{4} = -3.14$\n\n## Reading the discriminant\n- $b^2 - 4ac > 0$: two different real solutions.\n- $b^2 - 4ac = 0$: one repeated solution.\n- $b^2 - 4ac < 0$: no real solutions (you cannot square-root a negative).\n\nIf a question says \"give your answer to 3 significant figures\", that is a strong hint to use the formula." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-02-07-L1-Q4", "type": "FormulaCalculation", "difficulty": 3, "marks": 3,
-          "text": "Use the quadratic formula to solve $x^2 + 6x + 2 = 0$. Give the **larger** solution to 2 decimal places.",
-          "hint": "$a = 1$, $b = 6$, $c = 2$. The discriminant is $36 - 8 = 28$.",
-          "explanation": "$x = \\dfrac{-6 \\pm \\sqrt{28}}{2}$. $\\sqrt{28} \\approx 5.2915$, so the larger root is $\\dfrac{-6 + 5.2915}{2} = -0.354... \\approx -0.35$. The other root is $-5.65$.",
-          "answers": [ { "numeric": -0.35, "tolerance": 0.006, "marks": 3 } ] } },
-        { "type": "Example", "title": "Worked example: completing the square", "minutes": 5, "content": "## Writing $x^2 + bx + c$ as $(x + p)^2 + q$\n\nHalve the coefficient of $x$ to get $p$, then subtract $p^2$ to correct for the extra term the bracket creates.\n\n**Write $x^2 + 8x + 3$ in completed-square form.**\n\nHalf of 8 is 4, and $4^2 = 16$.\n\n$(x + 4)^2$ expands to $x^2 + 8x + 16$, which is 16 too many, so\n\n$x^2 + 8x + 3 = (x + 4)^2 - 16 + 3 = (x + 4)^2 - 13$.\n\n**Now solve $x^2 + 8x + 3 = 0$ exactly.**\n\n$(x + 4)^2 - 13 = 0$\n\n$(x + 4)^2 = 13$\n\n$x + 4 = \\pm\\sqrt{13}$\n\n$x = -4 \\pm \\sqrt{13}$\n\nThis gives an **exact** (surd) answer, which is what \"leave your answer in surd form\" is asking for.\n\n**Turning point.** The graph of $y = (x + 4)^2 - 13$ has its minimum where the bracket is zero, at $x = -4$, giving $y = -13$. So the turning point is $(-4, -13)$. The sign inside the bracket is the opposite of the $x$-coordinate.\n\n**With a negative $b$:** $x^2 - 6x + 1 = (x - 3)^2 - 9 + 1 = (x - 3)^2 - 8$, so the minimum is at $(3, -8)$." },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-02-07-L1-Q5", "type": "Equation", "difficulty": 3, "marks": 2,
-          "text": "Write $x^2 - 10x + 7$ in the form $(x + p)^2 + q$. Type your answer like (x-2)^2+3.",
-          "hint": "Halve −10 to get −5, and $(-5)^2 = 25$.",
-          "explanation": "$(x - 5)^2 = x^2 - 10x + 25$, so $x^2 - 10x + 7 = (x - 5)^2 - 25 + 7 = (x - 5)^2 - 18$.",
-          "answers": [ { "text": "(x-5)^2-18", "caseSensitive": false, "marks": 2 } ] } },
-        { "type": "Question", "title": "Practice", "question": {
-          "key": "AQA-MAT-02-07-L1-Q6", "type": "Matching", "difficulty": 3, "marks": 3,
-          "text": "Match each quadratic equation to the number of real solutions it has. Use the discriminant $b^2 - 4ac$.",
-          "hint": "Positive discriminant: two solutions. Zero: one. Negative: none.",
-          "explanation": "$x^2 + 4x + 4$: $16 - 16 = 0$, one repeated root. $x^2 + 2x + 5$: $4 - 20 = -16$, none. $x^2 - 3x - 1$: $9 + 4 = 13$, two.",
-          "pairs": [
-            { "left": "x² + 4x + 4 = 0", "right": "One repeated solution" },
-            { "left": "x² + 2x + 5 = 0", "right": "No real solutions" },
-            { "left": "x² − 3x − 1 = 0", "right": "Two different solutions" } ] } },
-        { "type": "Explanation", "title": "Quadratics in context and common mistakes", "minutes": 4, "content": "## Setting up a quadratic\n\nArea and number problems often lead to quadratics.\n\n*A rectangle has length $(x + 5)$ cm and width $x$ cm. Its area is 84 cm². Find $x$.*\n\n$x(x + 5) = 84$, so $x^2 + 5x - 84 = 0$, so $(x + 12)(x - 7) = 0$.\n\n$x = 7$ or $x = -12$. A length cannot be negative, so **$x = 7$**. Always state why you reject a solution.\n\n## Watch out for\n\n- **Not rearranging to $= 0$** before factorising. $(x - 2)(x + 3) = 6$ does *not* mean $x - 2 = 6$.\n- **Dividing by $x$** and losing the root $x = 0$. Factorise $x$ out instead.\n- **Sign errors in the formula.** Write $b = -5$ then $-b = 5$ and $b^2 = 25$. Use brackets on your calculator.\n- **Forgetting $\\pm$**, which loses one of the two answers.\n- **Completing the square:** subtract $p^2$, not $p$. Check by expanding.\n- **Rounding too early** in the formula. Keep $\\sqrt{57}$ in the calculator until the final line.\n- **Context questions:** reject impossible solutions and answer with units." },
-        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
-          "key": "AQA-MAT-02-07-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 5, "examStyle": true,
-          "text": "A rectangular garden is $x$ metres wide and $(2x + 3)$ metres long. Its area is 65 m².\n\n(a) Show that $2x^2 + 3x - 65 = 0$.\n\n(b) Solve the equation and hence find the length of the garden.",
-          "hint": "Area = width × length. Factorise using $a \\times c = -130$: which pair multiplies to −130 and adds to 3?",
-          "explanation": "(a) $x(2x + 3) = 65$ gives $2x^2 + 3x = 65$, so $2x^2 + 3x - 65 = 0$. (b) $13 \\times (-10) = -130$ and $13 - 10 = 3$: $2x^2 + 13x - 10x - 65 = x(2x + 13) - 5(2x + 13) = (2x + 13)(x - 5) = 0$. $x = 5$ (reject $x = -6.5$ as a width cannot be negative). Length $= 2(5) + 3 = 13$ m.",
-          "markScheme": [
-            { "criterion": "Forms area equation x(2x + 3) = 65 and expands to 2x² + 3x = 65", "marks": 1, "keywords": [ ["x(2x + 3)", "x(2x+3)", "2x^2 + 3x = 65", "2x² + 3x = 65", "2x^2+3x=65", "2x²+3x=65"] ] },
-            { "criterion": "Correct factorisation (2x + 13)(x − 5) or correct use of formula", "marks": 1, "keywords": [ ["(2x + 13)(x - 5)", "(2x+13)(x-5)", "(x - 5)(2x + 13)", "(x-5)(2x+13)", "formula", "sqrt"] ] },
-            { "criterion": "x = 5", "marks": 1, "keywords": [ ["x = 5", "x=5"] ] },
-            { "criterion": "Rejects the negative solution with a reason", "marks": 1, "keywords": [ ["negative", "reject", "cannot be", "can't be", "-6.5", "−6.5"] ] },
-            { "criterion": "Length = 13 m", "marks": 1, "keywords": [ ["13"] ] } ] } },
-        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- Rearrange to $ax^2 + bx + c = 0$ **before** solving.\n- **Factorise** when possible: two numbers that multiply to $ac$ and add to $b$; set each bracket to zero.\n- **Formula:** $x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$; use it when asked for decimals or significant figures.\n- **Complete the square:** $x^2 + bx + c = (x + \\frac{b}{2})^2 - (\\frac{b}{2})^2 + c$; gives exact answers and the turning point.\n- The discriminant $b^2 - 4ac$ tells you how many real solutions there are.\n- In context, reject solutions that make no sense and say why." }
+        {
+          "type": "Explanation",
+          "title": "What makes an equation quadratic",
+          "minutes": 4,
+          "content": "## Quadratics and their solutions\n\nA **quadratic equation** contains an $x^2$ term as its highest power. Written in standard form it is\n\n$ax^2 + bx + c = 0$\n\nwhere $a$, $b$ and $c$ are numbers and $a \\ne 0$.\n\nUnlike a linear equation, a quadratic usually has **two** solutions (also called **roots**). Sometimes it has one repeated solution, and sometimes none at all.\n\nThe key fact behind the factorising method is:\n\n> If two things multiply to give **zero**, at least one of them must be zero.\n\nSo if $(x - 3)(x + 5) = 0$ then either $x - 3 = 0$ or $x + 5 = 0$, giving $x = 3$ or $x = -5$.\n\nThis only works when one side is **zero**. If you are given $x^2 + 2x = 15$, you must first rearrange to $x^2 + 2x - 15 = 0$. Never try to factorise while there is a number on the right-hand side.\n\nThree methods, in the order you should try them:\n1. **Factorise** (quickest, when it works).\n2. **Quadratic formula** (always works if there are real solutions).\n3. **Complete the square** (also gives the turning point of the graph)."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-02-07-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "What are the solutions of $(x + 4)(x - 7) = 0$?",
+            "hint": "Set each bracket equal to zero.",
+            "explanation": "$x + 4 = 0$ gives $x = -4$; $x - 7 = 0$ gives $x = 7$.",
+            "options": [
+              {
+                "text": "x = −4 or x = 7",
+                "correct": true
+              },
+              {
+                "text": "x = 4 or x = −7",
+                "correct": false,
+                "feedback": "The signs are the wrong way round: $x + 4 = 0$ means $x = -4$."
+              },
+              {
+                "text": "x = 4 or x = 7",
+                "correct": false
+              },
+              {
+                "text": "x = −28",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Solving by factorising",
+          "minutes": 5,
+          "content": "## When $a = 1$\n\nTo factorise $x^2 + bx + c$, find two numbers that **multiply to $c$** and **add to $b$**.\n\n**Solve $x^2 - 2x - 24 = 0$.**\n\nPairs multiplying to $-24$: try $-6$ and $4$: $-6 + 4 = -2$ ✓.\n\n$(x - 6)(x + 4) = 0$, so $x = 6$ or $x = -4$.\n\n**Solve $x^2 = 9x$.** Rearrange to $x^2 - 9x = 0$ and take out the common factor: $x(x - 9) = 0$, so $x = 0$ or $x = 9$. A common error is to divide both sides by $x$ and lose the solution $x = 0$.\n\n**Solve $x^2 - 49 = 0$.** This is a difference of two squares: $(x - 7)(x + 7) = 0$, so $x = \\pm 7$.\n\n## When $a \\ne 1$\n\nFor $2x^2 + 7x + 3 = 0$, multiply $a \\times c = 6$ and find two numbers that multiply to 6 and add to 7: that is 6 and 1. Split the middle term:\n\n$2x^2 + 6x + x + 3 = 0$\n\n$2x(x + 3) + 1(x + 3) = 0$\n\n$(2x + 1)(x + 3) = 0$\n\nSo $2x + 1 = 0$ gives $x = -\\frac{1}{2}$, and $x = -3$.\n\nAlways expand your brackets mentally to check before solving."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-MAT-02-07-L1-Q2",
+            "type": "Equation",
+            "difficulty": 2,
+            "marks": 2,
+            "text": "Solve $x^2 + 3x - 28 = 0$. Type both solutions separated by a comma, smallest first, like -3,5.",
+            "hint": "Which two numbers multiply to −28 and add to 3?",
+            "explanation": "$7 \\times (-4) = -28$ and $7 + (-4) = 3$, so $(x + 7)(x - 4) = 0$. $x = -7$ or $x = 4$.",
+            "answers": [
+              {
+                "text": "-7,4",
+                "caseSensitive": false,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-07-L1-Q3",
+            "type": "Equation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Solve $3x^2 - 10x - 8 = 0$ by factorising. Type both solutions separated by a comma, smallest first, using fractions like -2/3 if needed.",
+            "hint": "$a \\times c = -24$. Find two numbers that multiply to −24 and add to −10.",
+            "explanation": "$-12$ and $2$: $3x^2 - 12x + 2x - 8 = 3x(x - 4) + 2(x - 4) = (3x + 2)(x - 4)$. So $x = -\\frac{2}{3}$ or $x = 4$.",
+            "answers": [
+              {
+                "text": "-2/3,4",
+                "caseSensitive": false,
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "The quadratic formula",
+          "minutes": 5,
+          "content": "## When factorising will not work\n\nMany quadratics do not factorise neatly. For any equation $ax^2 + bx + c = 0$ the solutions are\n\n$x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n\nThe $\\pm$ sign is why there are two answers: one using $+$ and one using $-$.\n\n**Method**\n1. Rearrange so the right-hand side is zero and write down $a$, $b$ and $c$ **with their signs**.\n2. Substitute carefully, using brackets around negative numbers.\n3. Work out $b^2 - 4ac$ first. This part is called the **discriminant**.\n4. Calculate the two values and round as instructed.\n\n**Solve $2x^2 + 5x - 4 = 0$ to 2 decimal places.**\n\n$a = 2$, $b = 5$, $c = -4$.\n\n$b^2 - 4ac = 25 - 4(2)(-4) = 25 + 32 = 57$\n\n$x = \\dfrac{-5 \\pm \\sqrt{57}}{4}$\n\n$x = \\dfrac{-5 + 7.5498}{4} = 0.64$ or $x = \\dfrac{-5 - 7.5498}{4} = -3.14$\n\n## Reading the discriminant\n- $b^2 - 4ac > 0$: two different real solutions.\n- $b^2 - 4ac = 0$: one repeated solution.\n- $b^2 - 4ac < 0$: no real solutions (you cannot square-root a negative).\n\nIf a question says \"give your answer to 3 significant figures\", that is a strong hint to use the formula."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-07-L1-Q4",
+            "type": "FormulaCalculation",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Use the quadratic formula to solve $x^2 + 6x + 2 = 0$. Give the **larger** solution to 2 decimal places.",
+            "hint": "$a = 1$, $b = 6$, $c = 2$. The discriminant is $36 - 8 = 28$.",
+            "explanation": "$x = \\dfrac{-6 \\pm \\sqrt{28}}{2}$. $\\sqrt{28} \\approx 5.2915$, so the larger root is $\\dfrac{-6 + 5.2915}{2} = -0.354... \\approx -0.35$. The other root is $-5.65$.",
+            "answers": [
+              {
+                "numeric": -0.35,
+                "tolerance": 0.006,
+                "marks": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: completing the square",
+          "minutes": 5,
+          "content": "## Writing $x^2 + bx + c$ as $(x + p)^2 + q$\n\nHalve the coefficient of $x$ to get $p$, then subtract $p^2$ to correct for the extra term the bracket creates.\n\n**Write $x^2 + 8x + 3$ in completed-square form.**\n\nHalf of 8 is 4, and $4^2 = 16$.\n\n$(x + 4)^2$ expands to $x^2 + 8x + 16$, which is 16 too many, so\n\n$x^2 + 8x + 3 = (x + 4)^2 - 16 + 3 = (x + 4)^2 - 13$.\n\n**Now solve $x^2 + 8x + 3 = 0$ exactly.**\n\n$(x + 4)^2 - 13 = 0$\n\n$(x + 4)^2 = 13$\n\n$x + 4 = \\pm\\sqrt{13}$\n\n$x = -4 \\pm \\sqrt{13}$\n\nThis gives an **exact** (surd) answer, which is what \"leave your answer in surd form\" is asking for.\n\n**Turning point.** The graph of $y = (x + 4)^2 - 13$ has its minimum where the bracket is zero, at $x = -4$, giving $y = -13$. So the turning point is $(-4, -13)$. The sign inside the bracket is the opposite of the $x$-coordinate.\n\n**With a negative $b$:** $x^2 - 6x + 1 = (x - 3)^2 - 9 + 1 = (x - 3)^2 - 8$, so the minimum is at $(3, -8)$."
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-07-L1-Q5",
+            "type": "Equation",
+            "difficulty": 3,
+            "marks": 2,
+            "text": "Write $x^2 - 10x + 7$ in the form $(x + p)^2 + q$. Type your answer like (x-2)^2+3.",
+            "hint": "Halve −10 to get −5, and $(-5)^2 = 25$.",
+            "explanation": "$(x - 5)^2 = x^2 - 10x + 25$, so $x^2 - 10x + 7 = (x - 5)^2 - 25 + 7 = (x - 5)^2 - 18$.",
+            "answers": [
+              {
+                "text": "(x-5)^2-18",
+                "caseSensitive": false,
+                "marks": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice",
+          "question": {
+            "key": "AQA-MAT-02-07-L1-Q6",
+            "type": "Matching",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "Match each quadratic equation to the number of real solutions it has. Use the discriminant $b^2 - 4ac$.",
+            "hint": "Positive discriminant: two solutions. Zero: one. Negative: none.",
+            "explanation": "$x^2 + 4x + 4$: $16 - 16 = 0$, one repeated root. $x^2 + 2x + 5$: $4 - 20 = -16$, none. $x^2 - 3x - 1$: $9 + 4 = 13$, two.",
+            "pairs": [
+              {
+                "left": "x² + 4x + 4 = 0",
+                "right": "One repeated solution"
+              },
+              {
+                "left": "x² + 2x + 5 = 0",
+                "right": "No real solutions"
+              },
+              {
+                "left": "x² − 3x − 1 = 0",
+                "right": "Two different solutions"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Quadratics in context and common mistakes",
+          "minutes": 4,
+          "content": "## Setting up a quadratic\n\nArea and number problems often lead to quadratics.\n\n*A rectangle has length $(x + 5)$ cm and width $x$ cm. Its area is 84 cm². Find $x$.*\n\n$x(x + 5) = 84$, so $x^2 + 5x - 84 = 0$, so $(x + 12)(x - 7) = 0$.\n\n$x = 7$ or $x = -12$. A length cannot be negative, so **$x = 7$**. Always state why you reject a solution.\n\n## Watch out for\n\n- **Not rearranging to $= 0$** before factorising. $(x - 2)(x + 3) = 6$ does *not* mean $x - 2 = 6$.\n- **Dividing by $x$** and losing the root $x = 0$. Factorise $x$ out instead.\n- **Sign errors in the formula.** Write $b = -5$ then $-b = 5$ and $b^2 = 25$. Use brackets on your calculator.\n- **Forgetting $\\pm$**, which loses one of the two answers.\n- **Completing the square:** subtract $p^2$, not $p$. Check by expanding.\n- **Rounding too early** in the formula. Keep $\\sqrt{57}$ in the calculator until the final line.\n- **Context questions:** reject impossible solutions and answer with units."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-MAT-02-07-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 5,
+            "examStyle": true,
+            "text": "A rectangular garden is $x$ metres wide and $(2x + 3)$ metres long. Its area is 65 m².\n\n(a) Show that $2x^2 + 3x - 65 = 0$.\n\n(b) Solve the equation and hence find the length of the garden.",
+            "hint": "Area = width × length. Factorise using $a \\times c = -130$: which pair multiplies to −130 and adds to 3?",
+            "explanation": "(a) $x(2x + 3) = 65$ gives $2x^2 + 3x = 65$, so $2x^2 + 3x - 65 = 0$. (b) $13 \\times (-10) = -130$ and $13 - 10 = 3$: $2x^2 + 13x - 10x - 65 = x(2x + 13) - 5(2x + 13) = (2x + 13)(x - 5) = 0$. $x = 5$ (reject $x = -6.5$ as a width cannot be negative). Length $= 2(5) + 3 = 13$ m.",
+            "markScheme": [
+              {
+                "criterion": "Forms area equation x(2x + 3) = 65 and expands to 2x² + 3x = 65",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "x(2x + 3)",
+                    "x(2x+3)",
+                    "2x^2 + 3x = 65",
+                    "2x² + 3x = 65",
+                    "2x^2+3x=65"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Correct factorisation (2x + 13)(x − 5) or correct use of formula",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "(2x + 13)(x - 5)",
+                    "(2x+13)(x-5)",
+                    "(x - 5)(2x + 13)",
+                    "(x-5)(2x+13)",
+                    "formula"
+                  ]
+                ]
+              },
+              {
+                "criterion": "x = 5",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "x = 5",
+                    "x=5"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Rejects the negative solution with a reason",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "negative",
+                    "reject",
+                    "cannot be",
+                    "can't be",
+                    "-6.5"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Length = 13 m",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "13",
+                    "13.0"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Rearrange to $ax^2 + bx + c = 0$ **before** solving.\n- **Factorise** when possible: two numbers that multiply to $ac$ and add to $b$; set each bracket to zero.\n- **Formula:** $x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$; use it when asked for decimals or significant figures.\n- **Complete the square:** $x^2 + bx + c = (x + \\frac{b}{2})^2 - (\\frac{b}{2})^2 + c$; gives exact answers and the turning point.\n- The discriminant $b^2 - 4ac$ tells you how many real solutions there are.\n- In context, reject solutions that make no sense and say why."
+        }
       ],
       "practiceQuestions": [
-        { "key": "AQA-MAT-02-07-L1-P1", "type": "Equation", "difficulty": 1, "marks": 2, "text": "Solve $x^2 - 5x + 6 = 0$. Type both solutions separated by a comma, smallest first, like 1,4.", "hint": "Two numbers that multiply to 6 and add to −5.", "explanation": "$(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$.", "answers": [ { "text": "2,3", "caseSensitive": false, "marks": 2 } ] },
-        { "key": "AQA-MAT-02-07-L1-P2", "type": "Equation", "difficulty": 2, "marks": 2, "text": "Solve $x^2 + 7x = 0$. Type both solutions separated by a comma, smallest first.", "hint": "Take out the common factor $x$. Do not divide by $x$.", "explanation": "$x(x + 7) = 0$, so $x = 0$ or $x = -7$.", "answers": [ { "text": "-7,0", "caseSensitive": false, "marks": 2 } ] },
-        { "key": "AQA-MAT-02-07-L1-P3", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "Which is the correct first step to solve $x^2 + 4x = 21$?", "hint": "One side must be zero before factorising.", "explanation": "Subtract 21 from both sides to get $x^2 + 4x - 21 = 0$, which factorises to $(x + 7)(x - 3) = 0$.", "options": [ { "text": "Rearrange to x² + 4x − 21 = 0", "correct": true }, { "text": "Factorise the left side to x(x + 4) = 21", "correct": false, "feedback": "Factorising only helps when the other side is zero." }, { "text": "Divide both sides by x", "correct": false }, { "text": "Square root both sides", "correct": false } ] },
-        { "key": "AQA-MAT-02-07-L1-P4", "type": "NumericalAnswer", "difficulty": 2, "marks": 1, "text": "Calculate the discriminant $b^2 - 4ac$ for the equation $3x^2 - 4x - 2 = 0$.", "hint": "$a = 3$, $b = -4$, $c = -2$. Remember $(-4)^2$ is positive.", "explanation": "$16 - 4(3)(-2) = 16 + 24 = 40$.", "answers": [ { "numeric": 40, "tolerance": 0 } ] },
-        { "key": "AQA-MAT-02-07-L1-P5", "type": "FormulaCalculation", "difficulty": 3, "marks": 3, "text": "Solve $3x^2 - 4x - 2 = 0$ using the quadratic formula. Give the **smaller** solution to 2 decimal places.", "hint": "The discriminant is 40. $x = \\dfrac{4 \\pm \\sqrt{40}}{6}$.", "explanation": "$\\sqrt{40} \\approx 6.3246$. Smaller root: $\\dfrac{4 - 6.3246}{6} = -0.3874... \\approx -0.39$. Larger root: $1.72$.", "answers": [ { "numeric": -0.39, "tolerance": 0.006, "marks": 3 } ] },
-        { "key": "AQA-MAT-02-07-L1-P6", "type": "Equation", "difficulty": 3, "marks": 2, "text": "Write $x^2 + 12x - 4$ in the form $(x + p)^2 + q$. Type your answer like (x+2)^2-3.", "hint": "Halve 12, square it, subtract.", "explanation": "$(x + 6)^2 = x^2 + 12x + 36$, so $x^2 + 12x - 4 = (x + 6)^2 - 40$.", "answers": [ { "text": "(x+6)^2-40", "caseSensitive": false, "marks": 2 } ] },
-        { "key": "AQA-MAT-02-07-L1-P7", "type": "MultipleChoice", "difficulty": 3, "marks": 1, "text": "The curve $y = x^2 - 4x + 9$ can be written as $y = (x - 2)^2 + 5$. What are the coordinates of its turning point?", "hint": "The bracket is zero when $x = 2$.", "explanation": "The minimum value of $(x - 2)^2$ is 0, at $x = 2$, giving $y = 5$. Turning point (2, 5).", "options": [ { "text": "(2, 5)", "correct": true }, { "text": "(−2, 5)", "correct": false, "feedback": "The sign inside the bracket flips: $(x - 2)^2$ is zero at $x = 2$." }, { "text": "(2, −5)", "correct": false }, { "text": "(−2, −5)", "correct": false } ] },
-        { "key": "AQA-MAT-02-07-L1-P8", "type": "TrueFalse", "difficulty": 2, "marks": 1, "text": "True or false: the equation $x^2 + 3x + 5 = 0$ has no real solutions.", "hint": "Work out $b^2 - 4ac$.", "explanation": "True. $9 - 20 = -11 < 0$, so the square root cannot be taken and there are no real solutions.", "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ] },
-        { "key": "AQA-MAT-02-07-L1-P9", "type": "Ordering", "difficulty": 2, "marks": 2, "text": "Put the steps in order to solve $x^2 - 6x + 2 = 0$ by completing the square.", "hint": "Rewrite first, then isolate the squared bracket.", "explanation": "$(x - 3)^2 - 9 + 2 = 0$, so $(x - 3)^2 = 7$, $x - 3 = \\pm\\sqrt{7}$, $x = 3 \\pm \\sqrt{7}$.", "order": [ "Write the equation as (x − 3)² − 7 = 0", "Add 7 to both sides: (x − 3)² = 7", "Square root both sides: x − 3 = ±√7", "Add 3: x = 3 ± √7" ] },
-        { "key": "AQA-MAT-02-07-L1-P10", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "examStyle": true, "text": "Leo solves $x^2 = 5x$ by dividing both sides by $x$ to get $x = 5$. Explain why his answer is incomplete and give the full solution.", "hint": "What happens to a solution where $x$ itself is zero?", "explanation": "Dividing by $x$ assumes $x \\ne 0$, so the solution $x = 0$ is lost. Factorising, $x(x - 5) = 0$ gives $x = 0$ or $x = 5$.", "markScheme": [ { "criterion": "Explains that dividing by x loses the solution x = 0 (or that you cannot divide by something that might be zero)", "marks": 1, "keywords": [ ["x = 0", "x=0", "zero", "lost", "loses"] ] }, { "criterion": "States both solutions x = 0 and x = 5", "marks": 1, "keywords": [ ["0"], ["5"] ] } ] },
-        { "key": "AQA-MAT-02-07-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "The product of two consecutive positive even numbers is 168.\n\nLet the smaller number be $n$. Form a quadratic equation in $n$ and solve it to find the two numbers.", "hint": "The next even number is $n + 2$, so $n(n + 2) = 168$.", "explanation": "$n^2 + 2n - 168 = 0$, so $(n + 14)(n - 12) = 0$. $n = 12$ (reject $-14$ as the numbers are positive). The numbers are 12 and 14.", "markScheme": [ { "criterion": "Forms n(n + 2) = 168 or n² + 2n − 168 = 0", "marks": 1, "keywords": [ ["n(n + 2)", "n(n+2)", "n^2 + 2n", "n² + 2n", "n^2+2n", "n²+2n", "168"] ] }, { "criterion": "Factorises to (n + 14)(n − 12) = 0 or equivalent method", "marks": 1, "keywords": [ ["(n + 14)(n - 12)", "(n+14)(n-12)", "(n - 12)(n + 14)", "(n-12)(n+14)", "formula", "14"] ] }, { "criterion": "Rejects the negative root n = −14", "marks": 1, "keywords": [ ["-14", "−14", "negative", "reject"] ] }, { "criterion": "States the numbers 12 and 14", "marks": 1, "keywords": [ ["12"], ["14"] ] } ] }
+        {
+          "key": "AQA-MAT-02-07-L1-P1",
+          "type": "Equation",
+          "difficulty": 1,
+          "marks": 2,
+          "text": "Solve $x^2 - 5x + 6 = 0$. Type both solutions separated by a comma, smallest first, like 1,4.",
+          "hint": "Two numbers that multiply to 6 and add to −5.",
+          "explanation": "$(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$.",
+          "answers": [
+            {
+              "text": "2,3",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P2",
+          "type": "Equation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Solve $x^2 + 7x = 0$. Type both solutions separated by a comma, smallest first.",
+          "hint": "Take out the common factor $x$. Do not divide by $x$.",
+          "explanation": "$x(x + 7) = 0$, so $x = 0$ or $x = -7$.",
+          "answers": [
+            {
+              "text": "-7,0",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P3",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which is the correct first step to solve $x^2 + 4x = 21$?",
+          "hint": "One side must be zero before factorising.",
+          "explanation": "Subtract 21 from both sides to get $x^2 + 4x - 21 = 0$, which factorises to $(x + 7)(x - 3) = 0$.",
+          "options": [
+            {
+              "text": "Rearrange to x² + 4x − 21 = 0",
+              "correct": true
+            },
+            {
+              "text": "Factorise the left side to x(x + 4) = 21",
+              "correct": false,
+              "feedback": "Factorising only helps when the other side is zero."
+            },
+            {
+              "text": "Divide both sides by x",
+              "correct": false
+            },
+            {
+              "text": "Square root both sides",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P4",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Calculate the discriminant $b^2 - 4ac$ for the equation $3x^2 - 4x - 2 = 0$.",
+          "hint": "$a = 3$, $b = -4$, $c = -2$. Remember $(-4)^2$ is positive.",
+          "explanation": "$16 - 4(3)(-2) = 16 + 24 = 40$.",
+          "answers": [
+            {
+              "numeric": 40,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P5",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Solve $3x^2 - 4x - 2 = 0$ using the quadratic formula. Give the **smaller** solution to 2 decimal places.",
+          "hint": "The discriminant is 40. $x = \\dfrac{4 \\pm \\sqrt{40}}{6}$.",
+          "explanation": "$\\sqrt{40} \\approx 6.3246$. Smaller root: $\\dfrac{4 - 6.3246}{6} = -0.3874... \\approx -0.39$. Larger root: $1.72$.",
+          "answers": [
+            {
+              "numeric": -0.39,
+              "tolerance": 0.006,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P6",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Write $x^2 + 12x - 4$ in the form $(x + p)^2 + q$. Type your answer like (x+2)^2-3.",
+          "hint": "Halve 12, square it, subtract.",
+          "explanation": "$(x + 6)^2 = x^2 + 12x + 36$, so $x^2 + 12x - 4 = (x + 6)^2 - 40$.",
+          "answers": [
+            {
+              "text": "(x+6)^2-40",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P7",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "The curve $y = x^2 - 4x + 9$ can be written as $y = (x - 2)^2 + 5$. What are the coordinates of its turning point?",
+          "hint": "The bracket is zero when $x = 2$.",
+          "explanation": "The minimum value of $(x - 2)^2$ is 0, at $x = 2$, giving $y = 5$. Turning point (2, 5).",
+          "options": [
+            {
+              "text": "(2, 5)",
+              "correct": true
+            },
+            {
+              "text": "(−2, 5)",
+              "correct": false,
+              "feedback": "The sign inside the bracket flips: $(x - 2)^2$ is zero at $x = 2$."
+            },
+            {
+              "text": "(2, −5)",
+              "correct": false
+            },
+            {
+              "text": "(−2, −5)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P8",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: the equation $x^2 + 3x + 5 = 0$ has no real solutions.",
+          "hint": "Work out $b^2 - 4ac$.",
+          "explanation": "True. $9 - 20 = -11 < 0$, so the square root cannot be taken and there are no real solutions.",
+          "options": [
+            {
+              "text": "True",
+              "correct": true
+            },
+            {
+              "text": "False",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P9",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Put the steps in order to solve $x^2 - 6x + 2 = 0$ by completing the square.",
+          "hint": "Rewrite first, then isolate the squared bracket.",
+          "explanation": "$(x - 3)^2 - 9 + 2 = 0$, so $(x - 3)^2 = 7$, $x - 3 = \\pm\\sqrt{7}$, $x = 3 \\pm \\sqrt{7}$.",
+          "order": [
+            "Write the equation as (x − 3)² − 7 = 0",
+            "Add 7 to both sides: (x − 3)² = 7",
+            "Square root both sides: x − 3 = ±√7",
+            "Add 3: x = 3 ± √7"
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "examStyle": true,
+          "text": "Leo solves $x^2 = 5x$ by dividing both sides by $x$ to get $x = 5$. Explain why his answer is incomplete and give the full solution.",
+          "hint": "What happens to a solution where $x$ itself is zero?",
+          "explanation": "Dividing by $x$ assumes $x \\ne 0$, so the solution $x = 0$ is lost. Factorising, $x(x - 5) = 0$ gives $x = 0$ or $x = 5$.",
+          "markScheme": [
+            {
+              "criterion": "Explains that dividing by x loses the solution x = 0 (or that you cannot divide by something that might be zero)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "x = 0",
+                  "x=0",
+                  "zero",
+                  "lost",
+                  "loses"
+                ]
+              ]
+            },
+            {
+              "criterion": "States both solutions x = 0 and x = 5",
+              "marks": 1,
+              "keywords": [
+                [
+                  "0",
+                  "0.0"
+                ],
+                [
+                  "5",
+                  "5.0"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P11",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "The product of two consecutive positive even numbers is 168.\n\nLet the smaller number be $n$. Form a quadratic equation in $n$ and solve it to find the two numbers.",
+          "hint": "The next even number is $n + 2$, so $n(n + 2) = 168$.",
+          "explanation": "$n^2 + 2n - 168 = 0$, so $(n + 14)(n - 12) = 0$. $n = 12$ (reject $-14$ as the numbers are positive). The numbers are 12 and 14.",
+          "markScheme": [
+            {
+              "criterion": "Forms n(n + 2) = 168 or n² + 2n − 168 = 0",
+              "marks": 1,
+              "keywords": [
+                [
+                  "n(n + 2)",
+                  "n(n+2)",
+                  "n^2 + 2n",
+                  "n² + 2n",
+                  "n^2+2n"
+                ]
+              ]
+            },
+            {
+              "criterion": "Factorises to (n + 14)(n − 12) = 0 or equivalent method",
+              "marks": 1,
+              "keywords": [
+                [
+                  "formula",
+                  "14"
+                ]
+              ]
+            },
+            {
+              "criterion": "Rejects the negative root n = −14",
+              "marks": 1,
+              "keywords": [
+                [
+                  "-14",
+                  "−14",
+                  "negative",
+                  "reject"
+                ]
+              ]
+            },
+            {
+              "criterion": "States the numbers 12 and 14",
+              "marks": 1,
+              "keywords": [
+                [
+                  "12",
+                  "12.0"
+                ],
+                [
+                  "14",
+                  "14.0"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]
