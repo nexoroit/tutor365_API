@@ -1,0 +1,327 @@
+{
+  "subTopicCode": "ENL-03-01",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-03-01-L1",
+      "title": "Identifying true statements and explicit information (Paper 2, Question 1)",
+      "summary": "Learn how to tackle the true-or-false question at the start of Paper 2, spot the traps examiners set in the false statements, and read non-fiction accurately from the first minute.",
+      "objectives": [
+        "I can select the four true statements from a list of eight using only the lines given.",
+        "I can recognise the common ways a false statement is built: wrong detail, opposite meaning, exaggeration and unsupported inference.",
+        "I can check a statement against the text rather than against my own knowledge or opinion.",
+        "I can manage my time on Question 1 so I have enough left for the rest of Section A."
+      ],
+      "estimatedMinutes": 38,
+      "difficulty": 2,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "What Question 1 looks like",
+          "minutes": 4,
+          "content": "## Paper 2, Question 1: four true statements\n\nPaper 2 gives you two non-fiction sources, one from the 19th century and one modern. Question 1 uses **Source A only** and asks you to read a short section of it, usually the opening lines.\n\nYou are given **eight statements** and asked to **shade the boxes of the four that are true**. It is worth **4 marks** and tests **AO1**: identifying explicit and implicit information.\n\nThe question will look something like this:\n\n> Read again the first part of Source A, **lines 1 to 9**. Choose **four** statements below which are TRUE.\n\nThree things to fix in your mind:\n\n1. **Only lines 1 to 9 count.** A statement might be true somewhere else in the source, but if it is not supported by the given lines it is false for this question.\n2. **Exactly four are true.** If you find five that look right, one of them is a trap. Go back and check.\n3. **True means supported by the text**, not true in real life, and not something you happen to agree with.\n\nBecause it is multiple choice, it looks easy. Examiners' reports regularly say that students lose marks here by rushing. Give it **four to five minutes**: read the lines twice, then test every statement."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: testing the statements",
+          "minutes": 4,
+          "content": "**Read lines 1 to 8 of Source A**, a modern newspaper feature about allotments.\n\n> I have had my allotment for six years now, and in that time I have grown exactly one decent crop of carrots. Everything else has been eaten by slugs, drowned by rain or, on one memorable occasion, dug up by a fox with a grudge. My neighbours on the site, most of them retired and all of them more skilled than me, are unfailingly kind about this. They give me seedlings. They pretend not to notice my weeds. And every spring, without fail, I go back, because there is nothing quite like the smell of turned earth on a cold morning.\n\n**Statements** (four are true):\n\n| Statement | True? | Reason |\n|---|---|---|\n| A. The writer has had the allotment for six years. | True | Stated directly. |\n| B. The writer grows carrots every year. | False | Only *one decent crop* in six years. |\n| C. A fox once dug up the writer's plants. | True | Stated: *dug up by a fox*. |\n| D. The writer's neighbours are unkind about the weeds. | False | Opposite: they are *unfailingly kind*. |\n| E. Most of the writer's neighbours are retired. | True | *most of them retired*. |\n| F. The writer plans to give up the allotment. | False | The writer *goes back every spring*. |\n| G. The writer enjoys the smell of turned earth. | True | Stated in the last sentence. |\n| H. The writer is a professional gardener. | False | Nothing in the text says this; the neighbours are *more skilled*. |\n\nNotice how every false statement is **built from real words in the text** but twisted slightly. That is why you must check the whole statement, not just recognise a familiar word."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: pick the true statements",
+          "question": {
+            "key": "AQA-ENL-03-01-L1-Q1",
+            "type": "MultipleAnswer",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Read lines 1 to 7 of this travel article.\n\n> The night train from the capital leaves at ten past eleven and, if the timetable is to be believed, arrives at the coast a little after seven. I have taken it four times and it has never once been on time, but I do not mind. The bunks are narrow, the blankets are thin, and the tea trolley comes round at an hour when no reasonable person wants tea. Yet somewhere around three in the morning the train crosses a long viaduct, and if you are awake, and the moon is out, you can see the whole valley below you, silver and silent, and it is worth every lost hour of sleep.\n\nChoose the **four** statements that are TRUE.",
+            "hint": "Test each statement against the exact words. Watch for statements that flip the meaning or add something the text never says.",
+            "explanation": "True: the train leaves at ten past eleven; the writer has taken it four times; the bunks are narrow; the train crosses a viaduct at around three in the morning. False: it has *never* been on time (not usually); the writer does *not* mind the delay; the tea trolley comes at an unwelcome hour, so the writer does not enjoy it; the text never says the writer sleeps well.",
+            "options": [
+              { "text": "The train leaves at ten past eleven at night.", "correct": true },
+              { "text": "The writer has taken the train four times.", "correct": true },
+              { "text": "The bunks on the train are narrow.", "correct": true },
+              { "text": "The train crosses a viaduct at around three in the morning.", "correct": true },
+              { "text": "The train is usually on time.", "correct": false, "feedback": "The text says it has *never once* been on time." },
+              { "text": "The writer is annoyed by the delays.", "correct": false, "feedback": "The writer says *I do not mind*." },
+              { "text": "The writer enjoys the tea from the trolley.", "correct": false, "feedback": "The text only says the trolley comes at an unwelcome hour." },
+              { "text": "The writer always sleeps well on the train.", "correct": false, "feedback": "Nothing in the text says this." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "How false statements are built",
+          "minutes": 5,
+          "content": "## Four kinds of trap\n\nThe examiners do not write false statements at random. They use the same handful of tricks every year, so learn to recognise them.\n\n### 1. Wrong detail\nA number, name, time or place is changed. The text says *six years*; the statement says *sixteen years*. Check every number and name against the text.\n\n### 2. Opposite meaning\nThe statement reverses what the text says, often by removing or adding a *not*. The text says the neighbours are *kind*; the statement says they *complain*. Watch especially for words like *never, always, only, all, none*.\n\n### 3. Exaggeration or softening\nThe text says *most of them are retired*; the statement says *all of them are retired*. The text says *one crop*; the statement says *several crops*. A statement that is only slightly stronger or weaker than the text is still false.\n\n### 4. Unsupported inference\nThe statement might be a reasonable guess, but the text does not actually say it. The text says the writer goes back every spring; the statement says the writer *is an expert gardener*. Plausible is not the same as true.\n\n### The mixed statement\nOccasionally a statement is half true: *The writer has had the allotment for six years and grows prize-winning vegetables.* The first half is true, the second is not, so the **whole statement is false**. Every part of a statement must be supported.\n\n### A quick method\n\nFor each statement, underline the key word or number, find it in the given lines, and ask: *does the text say exactly this?* If you cannot point to the words, it is false."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: naming the trap",
+          "minutes": 3,
+          "content": "Using the allotment extract again, here is each false statement matched to the trick behind it.\n\n> I have had my allotment for six years now, and in that time I have grown exactly one decent crop of carrots. Everything else has been eaten by slugs, drowned by rain or, on one memorable occasion, dug up by a fox with a grudge. My neighbours on the site, most of them retired and all of them more skilled than me, are unfailingly kind about this.\n\n| False statement | Trap |\n|---|---|\n| The writer grows carrots every year. | **Exaggeration**: one decent crop becomes *every year*. |\n| The writer's neighbours are unkind about the weeds. | **Opposite meaning**: *unfailingly kind* is reversed. |\n| The writer is a professional gardener. | **Unsupported inference**: nothing says this, and *more skilled than me* suggests the opposite. |\n| The writer has had the allotment for sixteen years. | **Wrong detail**: six becomes sixteen. |\n| All of the writer's neighbours are retired. | **Exaggeration**: *most* becomes *all*. |\n\nThe more often you name the trap, the faster you will spot it under pressure. Try labelling each false option when you practise."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: match the trap",
+          "question": {
+            "key": "AQA-ENL-03-01-L1-Q2",
+            "type": "Matching",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "The text says:\n\n> The lighthouse keeper's cottage had two rooms, and for most of the winter the keeper shared them with a one-eyed cat and a wireless that only picked up the shipping forecast. He was, he said, perfectly content.\n\nMatch each false statement to the type of trap it uses.",
+            "hint": "Ask what has been changed: a number, the direction of the meaning, the strength of the claim, or has something been added that the text never says?",
+            "explanation": "*Three rooms* changes a number (wrong detail). *Lonely and miserable* reverses *perfectly content* (opposite meaning). *All year round* stretches *most of the winter* (exaggeration). *Retired sailor* is never mentioned (unsupported inference).",
+            "pairs": [
+              { "left": "The cottage had three rooms.", "right": "Wrong detail" },
+              { "left": "The keeper was lonely and miserable.", "right": "Opposite meaning" },
+              { "left": "The cat lived with him all year round.", "right": "Exaggeration" },
+              { "left": "The keeper was a retired sailor.", "right": "Unsupported inference" }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: the half-true statement",
+          "question": {
+            "key": "AQA-ENL-03-01-L1-Q3",
+            "type": "TrueFalse",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "The text says: *The market opens at six every Saturday and closes when the last stallholder gives up, which in December can be as early as two.*\n\nIs this statement TRUE or FALSE according to the text?\n\n**The market opens at six every Saturday and always closes at two.**",
+            "hint": "Check both halves of the statement separately. If either half is wrong, the whole thing is false.",
+            "explanation": "False. The first half is true, but the text says closing time depends on the stallholders and *can be as early as two* in December. *Always closes at two* is not supported, so the whole statement is false.",
+            "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Reading non-fiction accurately",
+          "minutes": 4,
+          "content": "## Facts, opinions and tone\n\nNon-fiction texts mix **facts** (things that can be checked) with **opinions** (the writer's view) and often use a particular **tone** (humorous, angry, nostalgic). Question 1 statements can be about any of these, so you need to read for all three.\n\n- A statement about a **fact**: *The train leaves at ten past eleven.* Check the number.\n- A statement about an **opinion**: *The writer thinks the journey is worth it.* Check for words that show the writer's view (*worth every lost hour*).\n- A statement about **tone or feeling**: *The writer is annoyed.* Check for words that carry feeling (*I do not mind*).\n\n### Irony and humour\n\n19th-century and modern writers both use irony, saying one thing while meaning another. *A fox with a grudge* is a joke, not a claim about the fox's feelings. A statement such as *The writer believes the fox dislikes her personally* would be false because the text is being playful, not literal.\n\n### Do not use your own knowledge\n\nIf the text says the night train takes eight hours and you happen to know it takes six, the statement *the journey takes about eight hours* is still **true** for this question. You are being tested on reading, not on general knowledge.\n\n### Time management\n\nQuestion 1 (4 marks) plus Question 2 (8 marks) should take about **15 minutes together**. Question 1 alone should never take more than five."
+        },
+        {
+          "type": "Question",
+          "title": "Practice: a 19th-century extract",
+          "question": {
+            "key": "AQA-ENL-03-01-L1-Q4",
+            "type": "MultipleAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Read lines 1 to 8 of this extract from a letter written in 1868.\n\n> My dear sister, you will scarcely believe that I have survived a week in this house, for the wind comes through the walls as if they were made of paper, and I have not been warm since Tuesday. The servants are two in number, a cook who cannot cook and a boy who cannot be found, and the nearest town is nine miles off by a road that the carrier assures me is impassable after rain. I am, in short, entirely content, and I would not exchange the view from my window for all the comforts of London.\n\nChoose the **four** statements that are TRUE.",
+            "hint": "The writer complains a great deal but ends by saying she is content. Read the last sentence carefully before judging any statement about her feelings.",
+            "explanation": "True: the writer has been in the house for a week; there are two servants; the nearest town is nine miles away; the writer says she is entirely content. False: the walls are *as if* paper, not actually paper; the writer has been cold since Tuesday, not warm; the boy cannot be *found*, not cannot cook; the writer would *not* exchange the view for London.",
+            "options": [
+              { "text": "The writer has been in the house for a week.", "correct": true },
+              { "text": "There are two servants in the house.", "correct": true },
+              { "text": "The nearest town is nine miles away.", "correct": true },
+              { "text": "The writer says she is entirely content.", "correct": true },
+              { "text": "The walls of the house are made of paper.", "correct": false, "feedback": "The text says *as if* they were made of paper. This is a comparison, not a fact." },
+              { "text": "The writer has been warm since Tuesday.", "correct": false, "feedback": "The opposite: she has *not* been warm since Tuesday." },
+              { "text": "The boy cannot cook.", "correct": false, "feedback": "It is the cook who cannot cook; the boy cannot be found." },
+              { "text": "The writer wishes she were back in London.", "correct": false, "feedback": "She says she would not exchange the view for all the comforts of London." }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: exam facts",
+          "question": {
+            "key": "AQA-ENL-03-01-L1-Q5",
+            "type": "FillInTheBlank",
+            "difficulty": 1,
+            "marks": 3,
+            "text": "Complete the sentence about Paper 2 Question 1.",
+            "metadata": { "blanksText": "Question 1 gives you ___ statements, of which exactly ___ are true, and it is worth ___ marks." },
+            "hint": "There are twice as many statements as marks.",
+            "explanation": "Question 1 gives eight statements. Four are true. It is worth four marks, one for each correct choice.",
+            "answers": [
+              { "text": "eight", "blankIndex": 0, "marks": 1 },
+              { "text": "four", "blankIndex": 1, "marks": 1 },
+              { "text": "four", "blankIndex": 2, "marks": 1 }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-03-01-L1-Q6",
+            "type": "MultipleAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "examStyle": true,
+            "text": "Read again the first part of Source A, **lines 1 to 9**.\n\n> 1  When my grandmother turned ninety she announced, to nobody's surprise, that\n> 2  she was learning to swim. She had grown up beside the sea and never once\n> 3  gone in past her knees. Now, three mornings a week, a patient instructor called\n> 4  Dev walks her down the steps of the leisure centre pool and holds one hand\n> 5  under her chin while she kicks. Progress is slow. After four months she can\n> 6  manage half a width before she stops, laughing, and demands a rest. My mother\n> 7  thinks the whole business is dangerous and says so, loudly, every Sunday.\n> 8  My grandmother listens politely, nods, and then books another lesson. She\n> 9  says that at ninety, the risk of drowning is the least of her worries.\n\nChoose **four** statements below which are TRUE. [4 marks]",
+            "hint": "Check the numbers (ninety, three mornings, four months, half a width) and watch the difference between what the grandmother does and what the mother thinks.",
+            "explanation": "True: she started at ninety; she grew up beside the sea; lessons are three mornings a week; the mother thinks it is dangerous. False: she had never gone past her knees, so she did not swim as a child; Dev holds her chin, not her feet; she manages half a width, not a full one; she ignores her daughter's objections and books more lessons rather than agreeing to stop.",
+            "options": [
+              { "text": "The grandmother started learning to swim at the age of ninety.", "correct": true },
+              { "text": "The grandmother grew up beside the sea.", "correct": true },
+              { "text": "The lessons take place three mornings a week.", "correct": true },
+              { "text": "The writer's mother thinks the swimming is dangerous.", "correct": true },
+              { "text": "The grandmother swam regularly as a child.", "correct": false, "feedback": "She *never once* went in past her knees." },
+              { "text": "Dev holds the grandmother's feet while she kicks.", "correct": false, "feedback": "He holds one hand under her chin." },
+              { "text": "After four months she can swim a full width of the pool.", "correct": false, "feedback": "She can manage *half* a width." },
+              { "text": "The grandmother has agreed to stop the lessons.", "correct": false, "feedback": "She listens, nods, and *books another lesson*." }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Paper 2 Question 1: **eight statements, four true, 4 marks, AO1**. Use **only the lines given** in Source A.\n- *True* means **supported by the text**, not true in real life and not what you would guess.\n- Learn the four traps: **wrong detail**, **opposite meaning**, **exaggeration or softening**, **unsupported inference**.\n- A statement that is **half true is false**. Check every part.\n- Read for facts, opinions and tone. Do not take irony or comparisons (*as if made of paper*) literally.\n- Spend **four to five minutes**: read the lines twice, then test every statement against the words."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-03-01-L1-P1",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: for Paper 2 Question 1, a statement counts as true if it is supported anywhere in Source A.",
+          "hint": "Look at the wording of the question: it names specific lines.",
+          "explanation": "False. Only the lines given in the question count. A statement supported elsewhere in the source but not in those lines is false for this question.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P2",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which source does Paper 2 Question 1 use?",
+          "hint": "The question comes before you have been asked to compare anything.",
+          "explanation": "Question 1 uses Source A only. Source B is first needed in Question 2, where you summarise both texts.",
+          "options": [
+            { "text": "Source A only", "correct": true },
+            { "text": "Source B only", "correct": false },
+            { "text": "Both sources", "correct": false, "feedback": "Both sources are first used in Question 2." },
+            { "text": "Whichever source is shorter", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P3",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "The text says: *Nearly all of the volunteers were students, and a handful had come straight from a night shift.*\n\nWhich statement is TRUE?",
+          "hint": "Watch the difference between *nearly all* and *all*, and between *a handful* and *most*.",
+          "explanation": "*Some of the volunteers had worked a night shift* is supported by *a handful had come straight from a night shift*. The other statements exaggerate (*all*, *most*) or add an unsupported detail (*nurses*).",
+          "options": [
+            { "text": "Some of the volunteers had worked a night shift.", "correct": true },
+            { "text": "All of the volunteers were students.", "correct": false, "feedback": "The text says *nearly all*, which is not the same as all." },
+            { "text": "Most of the volunteers had come from a night shift.", "correct": false, "feedback": "Only *a handful* had." },
+            { "text": "The volunteers were mostly nurses.", "correct": false, "feedback": "Nothing in the text says this." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P4",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Read lines 1 to 6 of this article about a village shop.\n\n> The shop has been run by the same family since 1911, and the current owner, Mrs Okafor, took it over from her father-in-law in 1994. It sells, as far as I can tell, everything: bread, batteries, wellington boots, birthday cards and a surprisingly good range of cheese. It opens at seven and shuts when Mrs Okafor decides it should, which is rarely before nine. The nearest supermarket is twelve miles away, and most of the village would like to keep it that way.\n\nChoose the **four** TRUE statements.",
+          "hint": "Check the dates carefully, and note who Mrs Okafor took the shop over from.",
+          "explanation": "True: the same family since 1911; Mrs Okafor took over in 1994; it opens at seven; the supermarket is twelve miles away. False: she took it over from her father-in-law, not her father; the shop rarely shuts *before* nine, so it does not shut at nine every night; the text says the cheese is *surprisingly good*, not that it does not sell cheese; most villagers want the supermarket to stay far away, not to open nearby.",
+          "options": [
+            { "text": "The same family has run the shop since 1911.", "correct": true },
+            { "text": "Mrs Okafor took over the shop in 1994.", "correct": true },
+            { "text": "The shop opens at seven.", "correct": true },
+            { "text": "The nearest supermarket is twelve miles away.", "correct": true },
+            { "text": "Mrs Okafor took over the shop from her father.", "correct": false, "feedback": "It was her *father-in-law*." },
+            { "text": "The shop shuts at nine every night.", "correct": false, "feedback": "It shuts when Mrs Okafor decides, *rarely before nine*." },
+            { "text": "The shop does not sell cheese.", "correct": false, "feedback": "It has a *surprisingly good range of cheese*." },
+            { "text": "Most of the village wants a supermarket to open nearby.", "correct": false, "feedback": "Most of the village would like to *keep it that way*, twelve miles away." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P5",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "The text says:\n\n> Our guide, a cheerful man of about sixty who had lived in the valley all his life, told us that the path would take two hours if the weather held. It took five.\n\nMatch each false statement to the trap it uses.",
+          "hint": "Which statement changes a number? Which reverses a meaning? Which stretches a claim? Which adds something never stated?",
+          "explanation": "*About forty* changes the age (wrong detail). *Gloomy* reverses *cheerful* (opposite meaning). *Always* stretches *if the weather held* into a guarantee (exaggeration). Nothing says the guide was a former farmer (unsupported inference).",
+          "pairs": [
+            { "left": "The guide was about forty years old.", "right": "Wrong detail" },
+            { "left": "The guide was gloomy.", "right": "Opposite meaning" },
+            { "left": "The guide said the path always takes two hours.", "right": "Exaggeration" },
+            { "left": "The guide was a former farmer.", "right": "Unsupported inference" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P6",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "The text says: *The hotel, which the brochure had described as 'moments from the beach', turned out to be a forty-minute walk from it, most of that uphill.*\n\nA student says the statement **\"The hotel is moments from the beach\"** is true because those exact words appear in the text.\n\nExplain why the student is wrong.",
+          "hint": "Who says the hotel is moments from the beach, and does the writer agree?",
+          "explanation": "The words *moments from the beach* are the brochure's claim, not the writer's. The writer says the hotel *turned out to be* a forty-minute walk away, which contradicts the brochure. Finding the words in the text is not enough; the statement must be supported by what the text actually says.",
+          "markScheme": [
+            { "criterion": "Recognises that the words are the brochure's claim, not the writer's own view", "marks": 1, "keywords": [ ["brochure", "quoting", "claim", "said", "described"] ] },
+            { "criterion": "Explains that the writer contradicts it (forty-minute walk / turned out to be)", "marks": 1, "keywords": [ ["forty", "turned out", "contradict", "actually", "far", "opposite", "uphill"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P7",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "The text says: *The bridge, built in 1887, is still the longest of its kind in the county.*\n\nYou happen to know a longer bridge was built last year. Is the statement **\"The bridge is the longest of its kind in the county\"** TRUE for Question 1?",
+          "hint": "What is Question 1 testing: your reading, or your general knowledge?",
+          "explanation": "True. Question 1 tests what the text says, not what is true in the real world. The text states the bridge is still the longest, so the statement is true for this question.",
+          "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P8",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these steps in the best order for answering Paper 2 Question 1.",
+          "hint": "You need to know which lines to read before you can read them, and you should not shade anything until every statement has been checked.",
+          "explanation": "First mark the line range, then read those lines twice, then test each statement against the text, then check you have exactly four, and finally shade the boxes.",
+          "order": [
+            "Bracket the line references in the margin of Source A",
+            "Read the given lines twice",
+            "Test each of the eight statements against the exact words",
+            "Check that you have found exactly four true statements",
+            "Shade the four boxes"
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "Read lines 1 to 7 of this extract from a 19th-century account of a factory visit.\n\n> We were admitted at half past six in the morning, and the noise, which I had been warned of, was beyond anything I had imagined: a roar so constant that after ten minutes I ceased to hear it as sound and felt it only in my teeth. The room held, by the manager's count, three hundred and forty looms, and at each one stood a woman or a girl, the youngest of whom I should not have put above twelve. The manager assured me they were all fourteen at least. I did not argue, though I noticed he did not meet my eye.\n\nFor each of these **four** statements, write TRUE or FALSE and give a brief reason from the text. [4 marks]\n\n(a) The visitors arrived at half past six in the evening.\n(b) The writer stopped noticing the noise as a sound after about ten minutes.\n(c) The manager said there were three hundred and forty looms.\n(d) The writer fully believed the manager about the workers' ages.",
+          "hint": "Check the time of day, the exact number, and the last sentence, which hints at what the writer really thinks.",
+          "explanation": "(a) False: half past six *in the morning*. (b) True: *after ten minutes I ceased to hear it as sound*. (c) True: *by the manager's count, three hundred and forty looms*. (d) False: the writer *did not argue* but noticed the manager *did not meet my eye*, which shows doubt.",
+          "markScheme": [
+            { "criterion": "(a) FALSE, because it was half past six in the morning", "marks": 1, "keywords": [ ["false"], ["morning"] ] },
+            { "criterion": "(b) TRUE, because the writer ceased to hear it as sound after ten minutes", "marks": 1, "keywords": [ ["true"], ["ten minutes", "ceased", "teeth", "sound"] ] },
+            { "criterion": "(c) TRUE, because the manager's count was three hundred and forty", "marks": 1, "keywords": [ ["true"], ["340", "three hundred", "count"] ] },
+            { "criterion": "(d) FALSE, because the writer noticed the manager did not meet his eye, suggesting doubt", "marks": 1, "keywords": [ ["false"], ["eye", "doubt", "did not argue", "believe", "twelve"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P10",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Roughly how long should you spend on Paper 2 Question 1?",
+          "hint": "It is worth 4 marks out of 80 on the paper.",
+          "explanation": "Four to five minutes is enough: read the lines twice, test the statements and move on. Questions 3, 4 and 5 need far more time.",
+          "options": [
+            { "text": "4 to 5 minutes", "correct": true },
+            { "text": "1 minute", "correct": false, "feedback": "Rushing is the main reason students lose marks here." },
+            { "text": "10 to 12 minutes", "correct": false, "feedback": "Too long for 4 marks; you would run short later." },
+            { "text": "20 minutes", "correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

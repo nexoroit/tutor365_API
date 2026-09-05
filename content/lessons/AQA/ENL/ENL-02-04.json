@@ -1,0 +1,333 @@
+{
+  "subTopicCode": "ENL-02-04",
+  "board": "AQA",
+  "lessons": [
+    {
+      "key": "AQA-ENL-02-04-L1",
+      "title": "Vocabulary, imagery and sentence craft",
+      "summary": "Learn how precise word choices, well-chosen imagery and deliberately varied sentences lift creative writing from competent to impressive, and practise using them under exam conditions.",
+      "objectives": [
+        "I can choose precise, ambitious vocabulary instead of vague or overused words.",
+        "I can use similes, metaphors, personification and sensory imagery for a deliberate effect.",
+        "I can vary sentence length and structure to control pace and mood.",
+        "I can improve a plain piece of writing by redrafting its vocabulary, imagery and sentences."
+      ],
+      "estimatedMinutes": 40,
+      "difficulty": 3,
+      "tier": "NotApplicable",
+      "activities": [
+        {
+          "type": "Explanation",
+          "title": "Why word choice matters",
+          "minutes": 4,
+          "content": "## Precision beats decoration\n\nIn Paper 1 Section B, **AO5** rewards writing that is *clear, effective and matched to purpose*, and **AO6** rewards a *wide vocabulary used accurately*. Together those two objectives are worth 40 marks, half the paper, so the words you choose really count.\n\nStudents often think ambitious vocabulary means long words. It does not. It means the **most exact word for the job**. Compare:\n\n- *The man walked into the room.*\n- *The man **shuffled** into the room.*\n- *The man **strode** into the room.*\n\nAll three are the same length, but *shuffled* and *strode* tell us about age, mood and confidence without a single extra adjective. The verb is doing the work.\n\n### Three habits of precise writers\n\n1. **Upgrade weak verbs.** *Went, got, said, looked* are placeholders. Swap them for verbs that show *how*: *crept, snatched, muttered, glared*.\n2. **Cut vague adjectives.** *Nice, big, scary, good* tell the reader nothing they can picture. *Cavernous, jagged, sour* do.\n3. **Avoid piling up adjectives.** *The big, dark, old, spooky house* is weaker than *the derelict house*. One strong word beats four weak ones.\n\nA useful test: could you draw or hear it? If a word gives the reader nothing to see, hear, smell, touch or taste, it is probably not earning its place."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: upgrading a sentence",
+          "minutes": 3,
+          "content": "Here is a sentence from a student's first draft, followed by the redraft.\n\n**Draft:** *The big dog ran quickly across the wet field towards the scared boy.*\n\n**Redraft:** *The mastiff tore across the sodden field towards the boy, who had stopped breathing.*\n\n| Change | Why it is better |\n|---|---|\n| *big dog* → *mastiff* | A specific breed gives the reader an instant picture and implies size without saying it. |\n| *ran quickly* → *tore* | One vivid verb replaces a weak verb plus an adverb. |\n| *wet* → *sodden* | *Sodden* suggests heavy, waterlogged ground that slows movement, adding drama. |\n| *scared boy* → *the boy, who had stopped breathing* | Instead of labelling the emotion, the writer shows it through a physical detail. |\n\nNotice the redraft is not much longer, and it contains **no more adjectives** than the draft. The improvement comes from choosing exact nouns and verbs, and from **showing** fear rather than **telling** it."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: the strongest verb",
+          "question": {
+            "key": "AQA-ENL-02-04-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "A writer wants to show that a character is exhausted and reluctant as she goes upstairs to bed. Which verb is the most precise choice?\n\n*She ___ up the stairs.*",
+            "hint": "Think about which verb shows tiredness and reluctance through the movement itself, without needing an adverb.",
+            "explanation": "*Trudged* suggests heavy, slow, unwilling steps, which conveys exhaustion and reluctance in one word. *Went* is vague, *bounded* suggests energy, and *walked slowly* uses a weak verb propped up by an adverb.",
+            "options": [
+              { "text": "trudged", "correct": true },
+              { "text": "went", "correct": false, "feedback": "This tells us nothing about how she moved or felt." },
+              { "text": "bounded", "correct": false, "feedback": "Bounding suggests energy and eagerness, the opposite of what the writer wants." },
+              { "text": "walked slowly", "correct": false, "feedback": "This works, but a single precise verb is stronger than a weak verb plus an adverb." }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Imagery with a purpose",
+          "minutes": 5,
+          "content": "## Similes, metaphors and personification\n\n**Imagery** is language that creates a picture or sensation in the reader's mind. The main tools are:\n\n- **Simile**: compares using *like* or *as*. *The moon hung like a coin someone had dropped.*\n- **Metaphor**: says one thing *is* another. *The motorway was a river of red tail-lights.*\n- **Personification**: gives human qualities to something non-human. *The wind worried at the door all night.*\n- **Sensory imagery**: appeals to sight, sound, smell, touch or taste. *The air tasted of copper and rain.*\n\n### The golden rule: imagery must match the mood\n\nA comparison is only good if it *adds* to the feeling you want. *The fog was like candyfloss* is original, but candyfloss is sweet and fun, so it will not work in a tense scene. *The fog pressed against the windows like something that wanted to come in* keeps the menace.\n\n### Avoid the clichés\n\nExaminers have read *as cold as ice*, *as fast as lightning* and *blanket of snow* thousands of times. They no longer create any picture. Aim for comparisons that are **fresh but believable**. Ask: *what does this actually remind me of?* rather than *what do people usually say?*\n\n### Less is more\n\nOne well-placed image per paragraph is more powerful than five crammed together. Give each image room to land."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: building an image",
+          "minutes": 3,
+          "content": "A student is describing an empty school corridor at night and wants the reader to feel uneasy.\n\n**First attempt (cliché):** *The corridor was as quiet as a mouse and as dark as night.*\n\nBoth comparisons are worn out and neither adds to the unease.\n\n**Second attempt (mismatched mood):** *The corridor stretched ahead like a party streamer.*\n\nOriginal, but a party streamer is cheerful. Wrong feeling.\n\n**Final version:**\n\n> The corridor stretched ahead of her, longer than it had ever been in daylight. Each classroom door was shut, and the little glass panels stared back at her like eyes that had forgotten how to blink. Somewhere at the far end a strip light buzzed, hesitated, and went on buzzing.\n\n**What works here**\n- The simile *like eyes that had forgotten how to blink* is fresh and unsettling; being watched fits the mood.\n- The personification *hesitated* makes the light seem alive and unreliable.\n- The sensory detail *buzzed* adds sound to an otherwise silent scene, which makes the silence feel bigger.\n- There is only one simile and one personification: the paragraph is not overloaded."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: name the technique",
+          "question": {
+            "key": "AQA-ENL-02-04-L1-Q2",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each example to the technique it uses.",
+            "hint": "Look for *like* or *as* (simile), a direct statement that one thing is another (metaphor), a non-human thing behaving like a person (personification), or an appeal to one of the senses (sensory imagery).",
+            "explanation": "*Like a coin* is a simile because it compares using *like*. *The city was a beehive* is a metaphor: it states the city is something it is not. *The rain tapped politely* gives the rain a human manner, so it is personification. *The smell of burnt toast and coffee* appeals directly to the sense of smell.",
+            "pairs": [
+              { "left": "The moon hung in the sky like a coin.", "right": "Simile" },
+              { "left": "By nine o'clock the city was a beehive.", "right": "Metaphor" },
+              { "left": "The rain tapped politely at the window.", "right": "Personification" },
+              { "left": "The kitchen smelled of burnt toast and coffee.", "right": "Sensory imagery" }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: write an image",
+          "question": {
+            "key": "AQA-ENL-02-04-L1-Q3",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "text": "A writer is describing a crowded railway station at rush hour and wants the reader to feel the crush and noise of the crowd.\n\nWrite **one or two sentences** containing an original simile or metaphor that suits this mood. Then, in one sentence, explain the effect you want it to have on the reader.",
+            "hint": "Think about what a crowd in a hurry actually reminds you of: water, insects, machinery, weather? Avoid anything you have heard before. Then use *like*, *as* or *was* to build the comparison.",
+            "explanation": "A strong answer might be: *The crowd surged through the barriers like a river that had burst its banks, and Sam was just one more piece of driftwood.* Effect: the river image suggests the crowd is powerful and unstoppable, and *driftwood* makes the character feel small and helpless within it. Any fresh comparison that suggests pressure, noise or loss of control would score.",
+            "markScheme": [
+              { "criterion": "Uses a recognisable simile or metaphor (e.g. 'like', 'as', or a direct comparison)", "marks": 1, "keywords": [ ["like", "as if", " as ", "was a", "were a"] ] },
+              { "criterion": "The image suits the mood of crush or noise (e.g. river, flood, tide, swarm, machine, storm)", "marks": 1, "keywords": [ ["river", "flood", "tide", "swarm", "wave", "storm", "machine", "sea", "herd"] ] },
+              { "criterion": "Explains the intended effect on the reader", "marks": 1, "keywords": [ ["reader", "effect", "feel", "suggest", "sense"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Sentence craft: controlling pace",
+          "minutes": 5,
+          "content": "## Sentences are a rhythm instrument\n\nReaders feel the *shape* of your sentences before they think about the meaning. Varying length and structure is one of the quickest ways to make writing feel controlled.\n\n### Length\n\n- **Short sentences** (1 to 5 words) create impact, tension or shock. *He was gone.*\n- **Medium sentences** carry the everyday flow of events.\n- **Long sentences** with several clauses can build atmosphere, slow time down, or mimic a rush of thoughts.\n\nThe effect comes from **contrast**. A short sentence after a long one lands like a punch. Ten short sentences in a row just feel jerky.\n\n### Structure\n\nTry opening sentences in different ways:\n\n| Opening | Example |\n|---|---|\n| Adverb | *Silently, she closed the door.* |\n| -ing verb | *Clutching the letter, he ran.* |\n| Preposition | *Beneath the floorboards, something moved.* |\n| Simile | *Like a thief, the dawn crept in.* |\n| Subject (standard) | *The door creaked.* |\n\nIf every sentence starts with *The*, *He* or *She*, the writing plods. Mix them.\n\n### Deliberate fragments\n\nA sentence without a verb, such as *Nothing.* or *Just the wind.*, is normally an error. Used once or twice **on purpose** at a moment of tension, it is a technique. Make sure it looks intentional: keep it short and place it after a fuller sentence."
+        },
+        {
+          "type": "Example",
+          "title": "Worked example: same events, different pace",
+          "minutes": 3,
+          "content": "**Version A (all medium sentences):**\n\n> I walked down the path to the shed. The door was open. I looked inside and saw that the bike was gone. I felt angry and went back to the house to tell my mum.\n\nEvery sentence is roughly the same length and starts with *I* or *The*. Nothing stands out.\n\n**Version B (varied for effect):**\n\n> Halfway down the path I noticed the shed door, which we always kept padlocked, swinging open on its hinge as if someone had left in a hurry. I stopped. Inside, where my bike should have been, there was only a rectangle of dry floor and a single oily rag. Gone. I stood there for a long time before I turned and walked, very slowly, back to the house.\n\n**How the sentences work**\n- The long opening sentence builds unease: the reader is drawn along the path with the narrator.\n- *I stopped.* is two words. The reader stops too.\n- *Gone.* is a deliberate fragment placed at the moment of realisation.\n- The final sentence is slowed down by the commas around *very slowly*, matching the character's shock.\n\nThe events are identical. Only the sentence craft has changed."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: the effect of a short sentence",
+          "question": {
+            "key": "AQA-ENL-02-04-L1-Q4",
+            "type": "TrueFalse",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "True or false: a short sentence has the most impact when it follows one or more longer sentences.",
+            "hint": "Think about contrast. What happens if every sentence is short?",
+            "explanation": "True. The impact of a short sentence comes from the contrast with what came before. A run of short sentences loses that contrast and can feel jerky rather than dramatic.",
+            "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: sentence openings",
+          "question": {
+            "key": "AQA-ENL-02-04-L1-Q5",
+            "type": "Ordering",
+            "difficulty": 3,
+            "marks": 1,
+            "text": "Put these sentences in the order that builds tension most effectively, moving from calm description to a sudden shock.",
+            "hint": "Start with the longest, calmest sentence. Save the shortest fragment for the moment of shock, and let the final sentence show the aftermath.",
+            "explanation": "The long descriptive sentence sets the calm scene. The medium sentence introduces a small change. *Then the lights went out.* delivers the shock. The fragment *Silence.* lets it land. The final sentence shows the character's reaction and moves the story on.",
+            "order": [
+              "The library was warm and almost empty, and the only sound was the soft scratch of Priya's pen as she worked through the last of her notes.",
+              "Somewhere behind her a chair scraped back.",
+              "Then the lights went out.",
+              "Silence.",
+              "She held her breath and waited for someone, anyone, to speak."
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Putting it together: the redraft habit",
+          "minutes": 3,
+          "content": "## Five minutes that raise your grade\n\nIn the exam you should keep about **five minutes** at the end of Section B to redraft. You will not rewrite the whole piece, but a few targeted changes can move you up a band. Work through this checklist:\n\n1. **Verbs**: find three weak verbs (*went, got, was, said, looked*) and replace them with precise ones.\n2. **Adjectives**: cross out any that are vague (*nice, big, scary*) or any place where you have stacked three together.\n3. **Imagery**: check you have at least one fresh simile or metaphor and no clichés. If an image does not match the mood, cut it.\n4. **Senses**: make sure at least two senses other than sight appear somewhere.\n5. **Sentence length**: find your most dramatic moment and make sure there is a short sentence there. Find your calmest moment and make sure there is a long one.\n6. **Openings**: look at the first word of each sentence in one paragraph. If more than half are the same, vary them.\n\nNeat crossings-out and insertions are perfectly acceptable. Examiners mark what they can read, and a corrected draft with precise vocabulary beats a tidy one full of *nice* and *very*."
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ENL-02-04-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 6,
+            "examStyle": true,
+            "text": "Read this weak paragraph from a student's descriptive writing about a beach in winter.\n\n> The beach was very empty and cold. The sea was big and grey. The wind was very strong and it was blowing sand everywhere. There was an old boat on the sand. It looked sad. I walked along the beach and felt cold.\n\n**Rewrite the paragraph** to make it more effective. You should:\n\n- replace vague words with precise vocabulary\n- include at least one original simile, metaphor or personification\n- include at least one sensory detail other than sight\n- vary your sentence lengths, including one deliberately short sentence\n\nAim for 80 to 120 words. [6 marks]",
+            "hint": "Attack the weak words first: *very empty, big, very strong, old, sad, walked, felt cold*. Then decide where your one short sentence should go for maximum impact.",
+            "explanation": "A strong rewrite might read: *Nobody else had come. The beach stretched away in both directions, a long grey smear between the dunes and a sea the colour of old pewter. Wind came off the water in hard, flat gusts, flinging sand against my cheeks until they stung, and the whole shore hissed with it. Halfway along, a rowing boat lay on its side in the shingle, its paint peeled back to the bare wood, like something the tide had tried and failed to keep. I kept walking. The cold found its way through every seam of my coat, and the salt on my lips tasted of rust.* This uses precise vocabulary (*pewter, gusts, shingle*), an original simile, touch and taste imagery, and contrasts a two-word sentence with long ones.",
+            "markScheme": [
+              { "criterion": "Replaces vague words with precise, ambitious vocabulary (e.g. deserted, pewter, gusts, shingle, battered)", "marks": 1, "keywords": [ ["deserted", "desolate", "pewter", "slate", "gust", "shingle", "battered", "abandoned", "howl", "bit"] ] },
+              { "criterion": "Uses at least one simile or metaphor that suits the bleak mood", "marks": 1, "keywords": [ ["like", " as ", "as if", "was a", "were a"] ] },
+              { "criterion": "Uses personification or gives the wind, sea or boat a human quality", "marks": 1, "keywords": [ ["hiss", "howl", "clawed", "snatched", "moan", "tried", "refused", "whisper", "grabbed", "tugged"] ] },
+              { "criterion": "Includes a sensory detail other than sight (sound, touch, smell or taste)", "marks": 1, "keywords": [ ["sting", "taste", "salt", "smell", "roar", "hiss", "numb", "bit", "sharp", "crunch"] ] },
+              { "criterion": "Uses a deliberately short sentence or fragment for impact", "marks": 1, "keywords": [ ["nobody", "nothing", "silence", "i kept", "empty", "alone", "gone", "still"] ] },
+              { "criterion": "Shows rather than tells the feeling of cold or sadness through physical detail", "marks": 1, "keywords": [ ["coat", "cheeks", "fingers", "seam", "peel", "shiver", "teeth", "breath"] ] }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- Ambitious vocabulary means the **most precise word**, not the longest. Upgrade weak verbs and cut vague adjectives.\n- **Show, don't tell**: reveal emotion through physical detail rather than labelling it.\n- Imagery (simile, metaphor, personification, sensory detail) must **match the mood** and be **fresh**, not clichéd. One good image per paragraph is enough.\n- Vary **sentence length**: long sentences build atmosphere; a short sentence after them lands with impact. Use fragments only on purpose.\n- Vary **sentence openings**: adverb, -ing verb, preposition, simile.\n- Keep **five minutes** to redraft: verbs, adjectives, imagery, senses, sentence length, openings."
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "key": "AQA-ENL-02-04-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which sentence uses a simile?",
+          "hint": "A simile compares two things using *like* or *as*.",
+          "explanation": "*Like a bruise* compares the sky to a bruise using *like*, so it is a simile. The first option is a metaphor, the third is personification, and the fourth is plain description.",
+          "options": [
+            { "text": "The sky was a bruise spreading over the town.", "correct": false, "feedback": "This says the sky *was* a bruise: a metaphor." },
+            { "text": "The sky spread over the town like a bruise.", "correct": true },
+            { "text": "The sky glowered down at the town.", "correct": false, "feedback": "Glowering is a human expression, so this is personification." },
+            { "text": "The sky was dark purple and grey.", "correct": false, "feedback": "This is literal description with no comparison." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P2",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the definitions.",
+          "metadata": { "blanksText": "A ___ compares two things by saying one thing is another, without using 'like' or 'as'. ___ gives human feelings or actions to something that is not human." },
+          "hint": "The first is a direct comparison; the second makes the wind 'sulk' or the door 'complain'.",
+          "explanation": "A metaphor states that one thing is another (*the road was a ribbon*). Personification gives human qualities to non-human things (*the wind sulked*).",
+          "answers": [
+            { "text": "metaphor", "blankIndex": 0, "marks": 1 },
+            { "text": "Personification", "blankIndex": 1, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P3",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of these comparisons are clichés that examiners would consider tired and unoriginal?",
+          "hint": "A cliché is a comparison you have heard so many times that it no longer creates a picture.",
+          "explanation": "*As cold as ice*, *a blanket of snow* and *as quick as a flash* are all extremely common and create no fresh image. The other two are original comparisons a reader is unlikely to have met before.",
+          "options": [
+            { "text": "as cold as ice", "correct": true },
+            { "text": "a blanket of snow", "correct": true },
+            { "text": "as quick as a flash", "correct": true },
+            { "text": "the snow lay on the cars like unopened post", "correct": false, "feedback": "This is a fresh comparison." },
+            { "text": "the cold had teeth", "correct": false, "feedback": "This is an original, compact metaphor." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P4",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A writer is describing a character who is furious but trying to hide it. Which sentence **shows** the anger rather than telling it?",
+          "hint": "Showing means giving a physical detail the reader can picture, from which they work out the emotion themselves.",
+          "explanation": "The smile that does not reach the eyes and the knuckles whitening around the cup are physical details that let the reader infer both anger and the effort to hide it. The other options simply state the emotion.",
+          "options": [
+            { "text": "He smiled, but his knuckles had gone white around the cup.", "correct": true },
+            { "text": "He was very angry but tried to hide it.", "correct": false, "feedback": "This tells the reader the emotion directly." },
+            { "text": "He felt furious inside.", "correct": false, "feedback": "This names the feeling instead of showing it." },
+            { "text": "He was secretly really annoyed.", "correct": false, "feedback": "Again, the emotion is stated rather than shown." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P5",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each weak word to the most precise replacement for a scene in which a burglar moves through a dark house.",
+          "hint": "Choose the replacement that fits a quiet, careful, secretive movement.",
+          "explanation": "*Crept* shows careful, quiet movement. *Snatched* shows quick, greedy grabbing. *Murmured* is a quiet way of speaking. *Peered* suggests looking carefully into darkness.",
+          "pairs": [
+            { "left": "walked", "right": "crept" },
+            { "left": "took", "right": "snatched" },
+            { "left": "said", "right": "murmured" },
+            { "left": "looked", "right": "peered" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P6",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Read this sentence.\n\n> The old clock in the hall cleared its throat and, after a moment's thought, struck midnight.\n\nIdentify the technique the writer uses, quote the words that show it, and explain the effect on the reader.",
+          "hint": "Can a clock actually clear its throat or think? What kind of technique makes an object behave that way, and what does it make the clock seem like?",
+            "explanation": "The writer uses personification: *cleared its throat* and *after a moment's thought* give the clock human actions. The effect is to make the clock seem like an elderly, slightly pompous person, which adds gentle humour and makes the house feel alive and full of character.",
+          "markScheme": [
+            { "criterion": "Identifies personification", "marks": 1, "keywords": [ ["personif", "human"] ] },
+            { "criterion": "Quotes 'cleared its throat' or 'a moment's thought'", "marks": 1, "keywords": [ ["cleared its throat", "moment's thought", "throat", "thought"] ] },
+            { "criterion": "Explains the effect (e.g. the clock seems alive, old, like a person; adds humour or character)", "marks": 1, "keywords": [ ["alive", "old", "person", "humour", "funny", "character", "elderly"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P7",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: using three or four adjectives before a noun (for example, *the dark, cold, empty, silent street*) is a reliable way to gain marks for ambitious vocabulary.",
+          "hint": "Think about whether stacked adjectives add precision or just add words.",
+          "explanation": "False. Stacking adjectives usually weakens writing because each one carries less weight. One precise word (*the deserted street*) is more effective and shows better control.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P8",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Read the passage.\n\n> The train slowed, shuddered, and finally stopped somewhere between stations, and for a while nobody in the carriage said anything at all, as if speaking might make the delay official. Then the lights flickered. Off. On. Off.\n\nWhat is the main effect of the three one-word sentences at the end?",
+          "hint": "Think about how the reader experiences the flickering compared with a single longer sentence like *The lights flickered on and off several times.*",
+            "explanation": "Breaking the flickering into three one-word sentences makes the reader experience each flicker separately, which mirrors the stop-start of the lights and sharply increases tension after the long, slow opening sentence.",
+          "options": [
+            { "text": "They mimic the flickering of the lights and build tension after the long opening sentence.", "correct": true },
+            { "text": "They show that the narrator is bored.", "correct": false },
+            { "text": "They slow the pace down to match the stationary train.", "correct": false, "feedback": "Short sentences quicken the pace; it is the long sentence that slows it." },
+            { "text": "They are grammatical errors the writer should have corrected.", "correct": false, "feedback": "Deliberate fragments used for effect are a technique, not a mistake." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "Write a **single descriptive paragraph** (about 80 to 100 words) about a busy kitchen in a restaurant during the evening rush.\n\nYour paragraph must include:\n\n- at least three precise, ambitious verbs\n- one original simile or metaphor\n- at least two different senses\n- a variety of sentence lengths, including one short sentence for impact [5 marks]",
+          "hint": "Picture the heat, the noise, the smells and the speed. Choose verbs that show how people and things move (*hissed, slammed, barked, slid*). Decide where your short sentence goes before you start.",
+          "explanation": "A strong answer might read: *Steam rolled off the pass in thick, greasy clouds. Pans clattered, oil spat, and somewhere behind the fryers a timer shrieked until someone slapped it quiet. The head chef barked orders without looking up, sliding plates along the steel like a croupier dealing cards, and the smell of garlic and scorched butter clung to everything. Nobody spoke unless they had to. Ravi wiped his forehead with the back of his wrist, grabbed the next ticket, and started again.* This has precise verbs (*clattered, spat, shrieked, barked, sliding*), an original simile, sound and smell imagery, and a short sentence for contrast.",
+          "markScheme": [
+            { "criterion": "Uses at least three precise verbs suited to a fast kitchen (e.g. clattered, hissed, spat, barked, slammed, shrieked, sliced)", "marks": 1, "keywords": [ ["clatter", "hiss", "spat", "bark", "slam", "shriek", "slice", "sizzle", "hurl", "snap"] ] },
+            { "criterion": "Includes an original simile or metaphor", "marks": 1, "keywords": [ ["like", " as ", "as if", "was a", "were a"] ] },
+            { "criterion": "Appeals to sound or smell as well as sight", "marks": 1, "keywords": [ ["smell", "scent", "garlic", "onion", "roar", "clang", "shout", "hum", "reek", "spit"] ] },
+            { "criterion": "Appeals to touch, heat or taste", "marks": 1, "keywords": [ ["heat", "hot", "sweat", "steam", "burn", "scald", "sting", "taste", "sticky", "greasy"] ] },
+            { "criterion": "Uses a short sentence or fragment for impact among longer sentences", "marks": 1, "keywords": [ ["nobody", "again", "silence", "done", "gone", "next", "nothing", "faster", "service"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P10",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these redrafting steps into the order recommended in the lesson for the final five minutes of Section B.",
+          "hint": "Start with the smallest, quickest wins (single words) and finish by looking at the shape of whole paragraphs.",
+          "explanation": "The lesson checklist runs: verbs, adjectives, imagery, senses, sentence length, sentence openings. Words first, then images, then the shape of sentences and paragraphs.",
+          "order": [
+            "Replace three weak verbs with precise ones",
+            "Cut vague or stacked adjectives",
+            "Check imagery is fresh and matches the mood",
+            "Make sure at least two senses other than sight appear",
+            "Add a short sentence at the most dramatic moment",
+            "Vary sentence openings within each paragraph"
+          ]
+        }
+      ]
+    }
+  ]
+}
