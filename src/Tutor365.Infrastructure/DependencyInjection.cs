@@ -33,6 +33,8 @@ public static class DependencyInjection
         services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
         services.AddScoped<IEmailSender, SmtpEmailSender>();
         services.AddScoped<IAuditService, AuditService>();
+        services.AddSingleton<ISecretProtector, SecretProtector>();
+        services.AddScoped<IMailSettingsService, MailSettingsService>();
         services.AddSingleton<IAiProvider, StubAiProvider>();
 
         // Application services

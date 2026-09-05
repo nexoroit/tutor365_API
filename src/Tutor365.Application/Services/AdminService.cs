@@ -189,7 +189,8 @@ public class AdminService : IAdminService
     }
 
     public async Task<IReadOnlyList<SystemSettingDto>> GetSettingsAsync(CancellationToken ct = default) =>
-        await _db.SystemSettings.OrderBy(s => s.Key).Select(s => new SystemSettingDto(s.Key, s.Value, s.Description, s.IsPublic, s.UpdatedAt)).ToListAsync(ct);
+        await _db.SystemSettings.OrderBy(s => s.Key)
+            .Select(s => new SystemSettingDto(s.Key, s.Key.EndsWith("Password") || s.Key.EndsWith("ApiKey") ? "********" : s.Value, s.Description, s.IsPublic, s.UpdatedAt)).ToListAsync(ct);
 
     public async Task<SystemSettingDto> UpdateSettingAsync(string key, UpdateSystemSettingRequest request, CancellationToken ct = default)
     {

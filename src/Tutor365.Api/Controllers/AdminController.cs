@@ -63,6 +63,24 @@ public class AdminController : ApiControllerBase
     [ProducesResponseType(typeof(ApiResponse<SystemSettingDto>), 200)]
     public async Task<IActionResult> UpdateSetting(string key, [FromBody] UpdateSystemSettingRequest request, CancellationToken ct) => Ok(await _admin.UpdateSettingAsync(key, request, ct));
 
+    // ---- mail settings (stored in SystemSettings, password encrypted) ----
+    [HttpGet("mail-settings")]
+    [ProducesResponseType(typeof(ApiResponse<MailSettingsDto>), 200)]
+    public async Task<IActionResult> MailSettings([FromServices] IMailSettingsService mail, CancellationToken ct) => Ok(await mail.GetAsync(ct));
+
+    /// <summary>Update SMTP settings. Leave password empty to keep the existing one.</summary>
+    [HttpPut("mail-settings")]
+    [ProducesResponseType(typeof(ApiResponse<MailSettingsDto>), 200)]
+    public async Task<IActionResult> UpdateMailSettings([FromServices] IMailSettingsService mail, [FromBody] UpdateMailSettingsRequest request, CancellationToken ct) => Ok(await mail.UpdateAsync(request, ct));
+
+    /// <summary>Send a test email with the stored settings.</summary>
+    [HttpPost("mail-settings/test")]
+    public async Task<IActionResult> TestMail([FromServices] Application.Interfaces.IEmailSender sender, [FromBody] SendTestMailRequest request, CancellationToken ct)
+    {
+        await sender.SendAsync(new Application.Interfaces.EmailMessage(request.ToEmail, request.ToEmail, "tutor365 test email", "<p>This is a test email from <strong>tutor365</strong>. Your SMTP settings are working.</p>", "This is a test email from tutor365. Your SMTP settings are working."), ct);
+        return OkMessage($"Test email sent to {request.ToEmail}.");
+    }
+
     // ---- curriculum ----
     /// <summary>Full curriculum for a subject including draft/archived items (admin view).</summary>
     [HttpGet("curriculum")]
