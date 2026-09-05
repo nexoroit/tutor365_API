@@ -32,13 +32,14 @@ Access token: 60 min. Refresh: 30 days (90 with rememberMe). Send `Authorization
 - `GET|PUT /parents/me/children/{id}` · `POST …/password` · `POST …/active?isActive=`
 - `GET|PUT …/schedule` `{sessionsPerDay, sessionMinutes, activeDays:["Monday",…], autoPlanEnabled}` (the 2×45 / 3×45 setting)
 - `GET|PUT …/subjects` per-subject `{targetGrade, passThresholdPercent, maxAttemptsBeforeMoveOn, tier, isEnabled, priority}` — `passThresholdPercent` is the grade expectation that gates the next lesson.
+- Timetable: `GET …/timetable` (slots per subject this week and why: year, exam date, lessons left, grade gap, priority), `GET …/calendar?from&to`, `POST …/week/regenerate`. Changing the schedule or subject priorities rebuilds upcoming planned slots automatically.
 - Views: `…/dashboard`, `…/progress`, `…/progress/subjects`, `…/progress/topics?subjectId`, `…/topics/{topicId}/lessons`, `…/sessions`, `…/mistakes`, `…/today`, `…/week`, `…/recommendations`, `…/reports/weekly?weekStart=`
 - Assigned work: `POST|GET …/study-plans`, `DELETE /study-plans/{id}`, `DELETE /study-plans/{id}/items/{itemId}`
 - `GET /notifications?unreadOnly=&page=&pageSize=`, `GET /notifications/unread-count`, `POST /notifications/{id}/read`, `POST /notifications/read-all`
 
 ## Student
 - `GET /students/me/dashboard` → greeting, today's plan (`today.slots[]` with `status` Scheduled/InProgress/Completed/Missed/Skipped), `continueSession`, `recommended`, `subjects[]`, `recentResults[]`, `weakAreas[]`, `assignedWork[]`, `unreadNotifications`.
-- `GET /students/me/today?date=`, `GET /students/me/week`, `POST /students/me/today/regenerate`, `POST /students/me/today/slots/{id}/skip`
+- `GET /students/me/today?date=`, `GET /students/me/week`, `GET /students/me/calendar?from&to` (max 62 days, future days auto-generated), `GET /students/me/timetable?weekStart` (the app-built weekly subject allocation with rationale), `POST /students/me/week/regenerate`, `POST /students/me/today/regenerate`, `POST /students/me/today/slots/{id}/skip`
 - `GET /students/me/recommendations`, `/progress`, `/progress/subjects`, `/progress/topics?subjectId`, `/topics/{topicId}/lessons` (status Locked/Available/InProgress/Completed/Passed), `/results`, `/sessions?status=`, `/mistakes?subjectId=`, `/assigned-work`, `/study-plans`, `/reports/weekly`
 
 ## Study session (core loop)

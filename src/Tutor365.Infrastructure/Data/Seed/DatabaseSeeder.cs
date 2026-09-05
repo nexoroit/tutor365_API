@@ -183,7 +183,10 @@ public class DatabaseSeeder
             ("Schedule.DefaultSessionMinutes", "45", "Default session length for new students.", true),
             ("Lesson.DefaultPassThresholdPercent", "70", "Default pass mark to unlock the next lesson.", true),
             ("Marking.ShortAnswerKeywordMatchRatio", "0.6", "Fraction of mark-scheme keywords required for full marks on a criterion.", false),
-            ("Reports.WeeklyReportDay", "Sunday", "Day on which weekly parent reports are generated.", false)
+            ("Reports.WeeklyReportDay", "Sunday", "Day on which weekly parent reports are generated.", false),
+            ("Timetable.Year11ExamStart", "05-10", "MM-dd: Year 11 curriculum should be complete by this date (GCSE exams start).", true),
+            ("Timetable.SchoolYearEnd", "07-20", "MM-dd: Year 9/10 curriculum scope should be complete by this date.", true),
+            ("Schedule.PlanAheadDays", "14", "How many days ahead the calendar is generated.", true)
         };
         foreach (var (key, value, desc, pub) in defaults)
         {

@@ -193,6 +193,7 @@ public class ParentService : IParentService
         schedule.UpdatedByUserId = _current.UserId;
         schedule.UpdatedAt = DateTime.UtcNow;
         await _db.SaveChangesAsync(ct);
+        await DropPlannedSlotsAsync(studentId, ct);
         await _audit.LogAsync("Parent.UpdateSchedule", "Student", studentId.ToString(), request, true, ct);
         return ToDto(schedule);
     }
@@ -229,11 +230,21 @@ public class ParentService : IParentService
             setting.UpdatedAt = DateTime.UtcNow;
         }
         await _db.SaveChangesAsync(ct);
+        await DropPlannedSlotsAsync(studentId, ct);
         await _audit.LogAsync("Parent.UpdateSubjectSettings", "Student", studentId.ToString(), requests, true, ct);
         return await QuerySettingsAsync(studentId, ct);
     }
 
     // ---- helpers ----
+
+    /// <summary>Settings changed: discard future not-yet-started slots so the timetable is rebuilt with the new inputs.</summary>
+    private async Task DropPlannedSlotsAsync(Guid studentId, CancellationToken ct)
+    {
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        var planned = await _db.DailyStudySlots.Where(s => s.StudentId == studentId && s.Date >= today && s.Status == DailySlotStatus.Scheduled).ToListAsync(ct);
+        _db.DailyStudySlots.RemoveRange(planned);
+        await _db.SaveChangesAsync(ct);
+    }
 
     private void EnsureParentOrAdmin()
     {

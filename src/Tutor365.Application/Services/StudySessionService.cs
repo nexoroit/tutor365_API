@@ -96,7 +96,16 @@ public class StudySessionService : IStudySessionService
             if (existing != null) { existing.Status = StudySessionStatus.Abandoned; existing.UpdatedAt = DateTime.UtcNow; }
 
             var availability = await _progress.GetLessonAvailabilityAsync(studentId, lesson.Id, ct);
-            if (!availability.Available) throw new BusinessRuleException("LESSON_LOCKED", availability.Reason ?? "This lesson is locked.");
+            if (!availability.Available)
+            {
+                // A planned slot may point at a lesson that is still locked (the previous one was not passed): fall back to the next available lesson.
+                var fallback = slot != null ? await _progress.GetNextLessonAsync(studentId, lesson.SubTopic.Topic.SubjectId, null, ct) : null;
+                if (fallback == null || fallback.Id == lesson.Id) throw new BusinessRuleException("LESSON_LOCKED", availability.Reason ?? "This lesson is locked.");
+                lesson = fallback;
+                await _db.Lessons.Entry(lesson).Collection(l => l.Activities).LoadAsync(ct);
+                topicId = lesson.SubTopic.TopicId;
+                slot!.LessonId = lesson.Id; slot.TopicId = topicId; slot.Reason = $"Re-attempt {lesson.Title} before moving on.";
+            }
         }
         else
         {

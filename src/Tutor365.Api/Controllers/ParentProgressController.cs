@@ -72,6 +72,35 @@ public class ParentProgressController : ApiControllerBase
         return Ok(await _planner.GetWeekAsync(studentId, weekStart ?? today.AddDays(-(((int)today.DayOfWeek + 6) % 7)), ct));
     }
 
+    [HttpGet("calendar")]
+    [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<TodayPlanDto>>), 200)]
+    public async Task<IActionResult> Calendar(Guid studentId, [FromQuery] DateOnly? from, [FromQuery] DateOnly? to, CancellationToken ct)
+    {
+        await _access.GetAccessibleStudentAsync(studentId, false, ct);
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        return Ok(await _planner.GetCalendarAsync(studentId, from ?? today, to ?? today.AddDays(13), ct));
+    }
+
+    /// <summary>The app-built weekly timetable for this child: slots per subject and why. Parents adjust it through schedule and subject priority settings.</summary>
+    [HttpGet("timetable")]
+    [ProducesResponseType(typeof(ApiResponse<WeeklyTimetableDto>), 200)]
+    public async Task<IActionResult> Timetable(Guid studentId, [FromServices] ITimetableService timetable, [FromQuery] DateOnly? weekStart, CancellationToken ct)
+    {
+        await _access.GetAccessibleStudentAsync(studentId, false, ct);
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        return Ok(await timetable.GetWeeklyAllocationAsync(studentId, weekStart ?? today.AddDays(-(((int)today.DayOfWeek + 6) % 7)), ct));
+    }
+
+    /// <summary>Rebuild the child's planned (not started) slots for the week, e.g. after changing the schedule or priorities.</summary>
+    [HttpPost("week/regenerate")]
+    [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<TodayPlanDto>>), 200)]
+    public async Task<IActionResult> RegenerateWeek(Guid studentId, [FromQuery] DateOnly? weekStart, CancellationToken ct)
+    {
+        await _access.GetAccessibleStudentAsync(studentId, false, ct);
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        return Ok(await _planner.RegenerateWeekAsync(studentId, weekStart ?? today.AddDays(-(((int)today.DayOfWeek + 6) % 7)), ct));
+    }
+
     [HttpGet("recommendations")]
     [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<RecommendationDto>>), 200)]
     public async Task<IActionResult> Recommendations(Guid studentId, [FromQuery] int count = 5, CancellationToken ct = default)

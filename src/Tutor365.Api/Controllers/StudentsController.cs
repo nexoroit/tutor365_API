@@ -42,6 +42,32 @@ public class StudentsController : ApiControllerBase
         return Ok(await _planner.GetWeekAsync(await _access.GetCurrentStudentIdAsync(ct), start, ct));
     }
 
+    /// <summary>Calendar view: one entry per day in the range (max 62 days). Future days are generated automatically.</summary>
+    [HttpGet("me/calendar")]
+    [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<TodayPlanDto>>), 200)]
+    public async Task<IActionResult> Calendar([FromQuery] DateOnly? from, [FromQuery] DateOnly? to, CancellationToken ct)
+    {
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        return Ok(await _planner.GetCalendarAsync(await _access.GetCurrentStudentIdAsync(ct), from ?? today, to ?? today.AddDays(13), ct));
+    }
+
+    /// <summary>This week's subject allocation built by the app (slots per subject and the reasoning).</summary>
+    [HttpGet("me/timetable")]
+    [ProducesResponseType(typeof(ApiResponse<WeeklyTimetableDto>), 200)]
+    public async Task<IActionResult> Timetable([FromServices] ITimetableService timetable, [FromQuery] DateOnly? weekStart, CancellationToken ct)
+    {
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        return Ok(await timetable.GetWeeklyAllocationAsync(await _access.GetCurrentStudentIdAsync(ct), weekStart ?? today.AddDays(-(((int)today.DayOfWeek + 6) % 7)), ct));
+    }
+
+    [HttpPost("me/week/regenerate")]
+    [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<TodayPlanDto>>), 200)]
+    public async Task<IActionResult> RegenerateWeek([FromQuery] DateOnly? weekStart, CancellationToken ct)
+    {
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        return Ok(await _planner.RegenerateWeekAsync(await _access.GetCurrentStudentIdAsync(ct), weekStart ?? today.AddDays(-(((int)today.DayOfWeek + 6) % 7)), ct));
+    }
+
     [HttpPost("me/today/regenerate")]
     [ProducesResponseType(typeof(ApiResponse<TodayPlanDto>), 200)]
     public async Task<IActionResult> Regenerate([FromQuery] DateOnly? date, CancellationToken ct)

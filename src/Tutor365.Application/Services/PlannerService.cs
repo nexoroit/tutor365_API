@@ -15,6 +15,12 @@ public interface IPlannerService
     Task<TodayPlanDto> RegeneratePlanAsync(Guid studentId, DateOnly date, CancellationToken ct = default);
     Task<IReadOnlyList<TodayPlanDto>> GetWeekAsync(Guid studentId, DateOnly weekStart, CancellationToken ct = default);
     Task SkipSlotAsync(Guid studentId, Guid slotId, CancellationToken ct = default);
+    /// <summary>Calendar: plans for every day in [from, to]; upcoming days are generated on demand (up to the plan-ahead horizon).</summary>
+    Task<IReadOnlyList<TodayPlanDto>> GetCalendarAsync(Guid studentId, DateOnly from, DateOnly to, CancellationToken ct = default);
+    /// <summary>Regenerate every not-yet-started slot from the given date to the end of that week.</summary>
+    Task<IReadOnlyList<TodayPlanDto>> RegenerateWeekAsync(Guid studentId, DateOnly weekStart, CancellationToken ct = default);
+    /// <summary>Per-subject recommendation (review due, next lesson or practice) used by the timetable.</summary>
+    Task<RecommendationDto?> GetSubjectRecommendationAsync(Guid studentId, Guid subjectId, ISet<Guid> excludeLessonIds, CancellationToken ct = default);
 }
 
 /// <summary>Builds each day's 45-minute study slots from the parent-set schedule and the recommendation engine.</summary>
@@ -22,8 +28,9 @@ public class PlannerService : IPlannerService
 {
     private readonly IAppDbContext _db;
     private readonly IProgressService _progress;
+    private readonly ITimetableService _timetable;
 
-    public PlannerService(IAppDbContext db, IProgressService progress) { _db = db; _progress = progress; }
+    public PlannerService(IAppDbContext db, IProgressService progress, ITimetableService timetable) { _db = db; _progress = progress; _timetable = timetable; }
 
     public async Task<IReadOnlyList<RecommendationDto>> GetRecommendationsAsync(Guid studentId, int count, CancellationToken ct = default)
     {
@@ -94,7 +101,7 @@ public class PlannerService : IPlannerService
         var slots = await _db.DailyStudySlots.Where(s => s.StudentId == studentId && s.Date == date).OrderBy(s => s.SlotNumber).ToListAsync(ct);
         var today = DateOnly.FromDateTime(DateTime.UtcNow);
 
-        if (slots.Count == 0 && isActiveDay && schedule.AutoPlanEnabled && date >= today && date <= today.AddDays(7))
+        if (slots.Count == 0 && isActiveDay && schedule.AutoPlanEnabled && date >= today && date <= today.AddDays(14))
         {
             slots = await GenerateAsync(studentId, date, schedule, ct);
         }
@@ -133,33 +140,113 @@ public class PlannerService : IPlannerService
         await _db.SaveChangesAsync(ct);
     }
 
+    /// <summary>Generates slots for one day using the weekly subject allocation: subjects that still owe slots this week come first,
+    /// avoiding repeating a subject on the same day when others are available.</summary>
     private async Task<List<DailyStudySlot>> GenerateAsync(Guid studentId, DateOnly date, StudySchedule schedule, CancellationToken ct, List<DailyStudySlot>? keep = null)
     {
         var slots = keep ?? new List<DailyStudySlot>();
         var needed = Math.Max(0, schedule.SessionsPerDay - slots.Count);
         if (needed == 0) return slots;
-        var recs = await GetRecommendationsAsync(studentId, needed + slots.Count + 2, ct);
-        var usedSubjects = slots.Select(s => s.SubjectId).ToHashSet();
-        var usedLessons = slots.Where(s => s.LessonId.HasValue).Select(s => s.LessonId!.Value).ToHashSet();
-        var chosen = new List<RecommendationDto>();
-        foreach (var r in recs) if (chosen.Count < needed && !usedSubjects.Contains(r.SubjectId) && (r.LessonId == null || !usedLessons.Contains(r.LessonId.Value))) { chosen.Add(r); usedSubjects.Add(r.SubjectId); }
-        foreach (var r in recs) if (chosen.Count < needed && !chosen.Contains(r)) chosen.Add(r);
+
+        var weekStart = date.AddDays(-(((int)date.DayOfWeek + 6) % 7));
+        var allocation = await _timetable.GetWeeklyAllocationAsync(studentId, weekStart, ct);
+        var weekSlots = await _db.DailyStudySlots.Where(s => s.StudentId == studentId && s.Date >= weekStart && s.Date < weekStart.AddDays(7) && s.Status != DailySlotStatus.Skipped).ToListAsync(ct);
+        var usedThisWeek = weekSlots.GroupBy(s => s.SubjectId).ToDictionary(g => g.Key, g => g.Count());
+        var usedToday = slots.Select(s => s.SubjectId).ToHashSet();
+        // Lessons already planned in any upcoming (or in-progress) slot, regardless of week, so the calendar never repeats a lesson.
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        var usedLessons = (await _db.DailyStudySlots.Where(s => s.StudentId == studentId && s.LessonId != null && s.Date >= today && s.Date != date
+                && (s.Status == DailySlotStatus.Scheduled || s.Status == DailySlotStatus.InProgress)).Select(s => s.LessonId!.Value).ToListAsync(ct))
+            .Concat(slots.Where(s => s.LessonId.HasValue).Select(s => s.LessonId!.Value)).ToHashSet();
+
+        // Owed = allocation minus what is already planned this week; order by owed then weight.
+        var queue = allocation.Subjects.Select(a => new { a.SubjectId, Owed = a.SlotsPerWeek - usedThisWeek.GetValueOrDefault(a.SubjectId), a.Weight })
+            .OrderByDescending(x => x.Owed).ThenByDescending(x => x.Weight).ToList();
 
         var slotNo = slots.Count == 0 ? 1 : slots.Max(s => s.SlotNumber) + 1;
-        foreach (var r in chosen)
+        var chosen = 0;
+        foreach (var pass in new[] { 0, 1, 2 }) // pass 0: owed & not used today; pass 1: owed; pass 2: anything
         {
-            var slot = new DailyStudySlot
+            foreach (var q in queue)
             {
-                StudentId = studentId, Date = date, SlotNumber = slotNo++, DurationMinutes = schedule.SessionMinutes,
-                SubjectId = r.SubjectId, TopicId = r.TopicId, LessonId = r.LessonId,
-                SessionType = Enum.TryParse<StudySessionType>(r.SessionType, out var t) ? t : StudySessionType.Lesson,
-                Reason = r.Reason, Status = DailySlotStatus.Scheduled
-            };
-            _db.DailyStudySlots.Add(slot);
-            slots.Add(slot);
+                if (chosen >= needed) break;
+                if (pass == 0 && (q.Owed <= 0 || usedToday.Contains(q.SubjectId))) continue;
+                if (pass == 1 && q.Owed <= 0) continue;
+                var rec = await GetSubjectRecommendationAsync(studentId, q.SubjectId, usedLessons, ct);
+                if (rec == null) continue;
+                var slot = new DailyStudySlot
+                {
+                    StudentId = studentId, Date = date, SlotNumber = slotNo++, DurationMinutes = schedule.SessionMinutes,
+                    SubjectId = rec.SubjectId, TopicId = rec.TopicId, LessonId = rec.LessonId,
+                    SessionType = Enum.TryParse<StudySessionType>(rec.SessionType, out var t) ? t : StudySessionType.Lesson,
+                    Reason = rec.Reason, Status = DailySlotStatus.Scheduled
+                };
+                _db.DailyStudySlots.Add(slot); slots.Add(slot); weekSlots.Add(slot);
+                usedToday.Add(q.SubjectId); if (rec.LessonId.HasValue) usedLessons.Add(rec.LessonId.Value);
+                usedThisWeek[q.SubjectId] = usedThisWeek.GetValueOrDefault(q.SubjectId) + 1;
+                chosen++;
+            }
+            queue = queue.Select(x => new { x.SubjectId, Owed = x.Owed - (usedToday.Contains(x.SubjectId) ? 1 : 0), x.Weight }).ToList();
+            if (chosen >= needed) break;
         }
         await _db.SaveChangesAsync(ct);
         return slots.OrderBy(s => s.SlotNumber).ToList();
+    }
+
+    public async Task<RecommendationDto?> GetSubjectRecommendationAsync(Guid studentId, Guid subjectId, ISet<Guid> excludeLessonIds, CancellationToken ct = default)
+    {
+        var subject = await _db.Subjects.FirstOrDefaultAsync(s => s.Id == subjectId, ct);
+        if (subject == null) return null;
+        var topics = (await _progress.GetTopicsAsync(studentId, subjectId, ct)).ToList();
+        var due = topics.Where(t => t.ReviewDue && t.QuestionsAttempted > 0).OrderBy(t => t.NextReviewAt).FirstOrDefault();
+        var plannedReview = await _db.DailyStudySlots.AnyAsync(s => s.StudentId == studentId && s.SessionType == StudySessionType.Review && s.TopicId == (due != null ? due.TopicId : Guid.Empty)
+            && s.Date >= DateOnly.FromDateTime(DateTime.UtcNow) && s.Status == DailySlotStatus.Scheduled, ct);
+        if (due != null && !plannedReview)
+            return new RecommendationDto(subjectId, subject.Name, subject.ColourHex, due.TopicId, due.TopicName, null, null, "Review",
+                due.MasteryPercent < 50 ? $"{due.TopicName} is a weak topic and is due for review." : $"Spaced review of {due.TopicName} to keep it secure.", 1, 30);
+
+        // Next lessons in sequence, skipping ones already planned this week.
+        var student = await _db.Students.Include(s => s.YearGroup).FirstAsync(s => s.Id == studentId, ct);
+        var topicIds = await _db.Topics.Where(t => t.SubjectId == subjectId && t.Status == ContentStatus.Published && t.Qualification.ExamBoardId == student.ExamBoardId
+                && (t.YearGroup == null || t.YearGroup.Number <= student.YearGroup.Number)).OrderBy(t => t.SortOrder).Select(t => t.Id).ToListAsync(ct);
+        foreach (var tid in topicIds)
+        {
+            var lessons = await _progress.GetLessonsAsync(studentId, tid, ct);
+            var candidate = lessons.FirstOrDefault(l => l.Status != "Passed" && !excludeLessonIds.Contains(l.LessonId));
+            if (candidate == null) continue;
+            var topicName = await _db.Topics.Where(t => t.Id == tid).Select(t => t.Name).FirstAsync(ct);
+            var reason = candidate.Status switch
+            {
+                "InProgress" => $"Continue {candidate.Title}.",
+                "Completed" => $"Re-attempt {candidate.Title}: last score {Math.Round(candidate.LastScorePercent ?? 0)}%.",
+                "Locked" => $"Next in sequence after the current lesson: {candidate.Title}.",
+                _ => $"Next lesson in {topicName}: {candidate.Title}."
+            };
+            return new RecommendationDto(subjectId, subject.Name, subject.ColourHex, tid, topicName, candidate.LessonId, candidate.Title, "Lesson", reason, 2, candidate.EstimatedMinutes);
+        }
+        var weakest = topics.Where(t => t.QuestionsAttempted > 0).OrderBy(t => t.MasteryPercent).FirstOrDefault();
+        return weakest == null ? null
+            : new RecommendationDto(subjectId, subject.Name, subject.ColourHex, weakest.TopicId, weakest.TopicName, null, null, "Practice", $"All {subject.Name} lessons complete. Practice {weakest.TopicName}.", 3, 30);
+    }
+
+    public async Task<IReadOnlyList<TodayPlanDto>> GetCalendarAsync(Guid studentId, DateOnly from, DateOnly to, CancellationToken ct = default)
+    {
+        if (to < from) (from, to) = (to, from);
+        if (to.DayNumber - from.DayNumber > 62) to = from.AddDays(62);
+        var list = new List<TodayPlanDto>();
+        for (var d = from; d <= to; d = d.AddDays(1)) list.Add(await GetPlanAsync(studentId, d, ct));
+        return list;
+    }
+
+    public async Task<IReadOnlyList<TodayPlanDto>> RegenerateWeekAsync(Guid studentId, DateOnly weekStart, CancellationToken ct = default)
+    {
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        var start = weekStart < today ? today : weekStart;
+        var end = weekStart.AddDays(6);
+        var existing = await _db.DailyStudySlots.Where(s => s.StudentId == studentId && s.Date >= start && s.Date <= end && s.Status == DailySlotStatus.Scheduled).ToListAsync(ct);
+        _db.DailyStudySlots.RemoveRange(existing);
+        await _db.SaveChangesAsync(ct);
+        return await GetCalendarAsync(studentId, weekStart, end, ct);
     }
 
     private async Task<TodayPlanDto> ToPlanDtoAsync(DateOnly date, List<DailyStudySlot> slots, bool isActiveDay, CancellationToken ct)
