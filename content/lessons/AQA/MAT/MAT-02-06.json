@@ -551,6 +551,194 @@
               "marks": 3
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-02-06-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which pair of values satisfies both $x + y = 10$ and $x - y = 4$?",
+          "hint": "Test each pair in both equations. The correct pair must work in both at once.",
+          "explanation": "$x = 7, y = 3$: $7 + 3 = 10$ ✓ and $7 - 3 = 4$ ✓. Each of the other pairs fails at least one equation.",
+          "options": [
+            {
+              "text": "x = 7, y = 3",
+              "correct": true
+            },
+            {
+              "text": "x = 6, y = 4",
+              "correct": false,
+              "feedback": "This works in the first equation but $6 - 4 = 2$, not 4."
+            },
+            {
+              "text": "x = 3, y = 7",
+              "correct": false,
+              "feedback": "$3 - 7 = -4$, not 4."
+            },
+            {
+              "text": "x = 9, y = 5",
+              "correct": false,
+              "feedback": "$9 + 5 = 14$, not 10."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-06-L1-P13",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Solve the simultaneous equations $3x + 4y = 31$ and $3x - 2y = 7$. Give the value of $y$.",
+          "hint": "Both equations have $+3x$, so subtract one equation from the other to eliminate $x$.",
+          "explanation": "Subtracting: $4y - (-2y) = 6y$ and $31 - 7 = 24$, so $6y = 24$ and $y = 4$. Then $3x + 16 = 31$ gives $x = 5$. Check: $15 - 8 = 7$ ✓.",
+          "answers": [
+            {
+              "numeric": 4,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-06-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Solve $5x + 2y = 29$ and $3x - 5y = 5$. Give the value of $x$.",
+          "hint": "Multiply the first equation by 5 and the second by 2 so the $y$ coefficients are $10$ and $-10$, then add.",
+          "explanation": "$25x + 10y = 145$ and $6x - 10y = 10$. Adding: $31x = 155$, so $x = 5$. Then $25 + 2y = 29$ gives $y = 2$. Check: $15 - 10 = 5$ ✓.",
+          "answers": [
+            {
+              "numeric": 5,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-06-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Solve $y = 2x + 5$ and $3x + y = 30$ by substitution. Give the value of $y$.",
+          "hint": "Replace $y$ in the second equation with $(2x + 5)$.",
+          "explanation": "$3x + 2x + 5 = 30$, so $5x = 25$ and $x = 5$. Then $y = 10 + 5 = 15$. Check: $15 + 15 = 30$ ✓.",
+          "answers": [
+            {
+              "numeric": 15,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-06-L1-P16",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "A café sells muffins and coffees. Match each description to the pair of simultaneous equations it produces. Use $m$ for the price of a muffin and $c$ for the price of a coffee, in pounds.",
+          "hint": "Multiply the number of each item by its price, then add the two amounts to get the total paid.",
+          "explanation": "Two muffins and three coffees: $2m + 3c$. Four muffins and one coffee: $4m + c$. One muffin and four coffees: $m + 4c$.",
+          "pairs": [
+            {
+              "left": "2 muffins and 3 coffees cost £11.50; 4 muffins and 1 coffee cost £10.50",
+              "right": "2m + 3c = 11.5 and 4m + c = 10.5"
+            },
+            {
+              "left": "1 muffin and 4 coffees cost £12; 2 muffins and 3 coffees cost £11.50",
+              "right": "m + 4c = 12 and 2m + 3c = 11.5"
+            },
+            {
+              "left": "4 muffins and 1 coffee cost £10.50; 1 muffin and 4 coffees cost £12",
+              "right": "4m + c = 10.5 and m + 4c = 12"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-06-L1-P17",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Put these steps in the correct order to solve $3x + y = 14$ and $2x - 3y = 2$ by elimination.",
+          "hint": "The $y$ coefficients need to match (ignoring sign) before you can add or subtract.",
+          "explanation": "Multiply the first equation by 3 to get $9x + 3y = 42$, add it to the second to eliminate $y$, solve for $x$, substitute back, then check.",
+          "order": [
+            "Multiply the first equation by 3 to get 9x + 3y = 42",
+            "Add this to 2x − 3y = 2 to get 11x = 44",
+            "Solve to find x = 4",
+            "Substitute x = 4 into 3x + y = 14 to find y = 2",
+            "Check both values in 2x − 3y = 2"
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-06-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A café sells teas and slices of cake. Two teas and three slices of cake cost £9.10. Four teas and five slices of cake cost £15.90.\n\nForm two equations and work out the cost of one tea and the cost of one slice of cake.",
+          "hint": "Let $t$ = cost of a tea and $c$ = cost of a slice of cake. Multiply the first equation by 2 so the tea terms match.",
+          "explanation": "$2t + 3c = 9.1$ and $4t + 5c = 15.9$. Doubling the first: $4t + 6c = 18.2$. Subtract the second: $c = 2.3$. Then $2t + 6.9 = 9.1$, so $2t = 2.2$ and $t = 1.1$. A tea costs £1.10 and a slice of cake costs £2.30. Check: $4(1.1) + 5(2.3) = 4.4 + 11.5 = 15.9$ ✓.",
+          "markScheme": [
+            {
+              "criterion": "Forms the equations 2t + 3c = 9.10 and 4t + 5c = 15.90 (any letters)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2t + 3c",
+                  "2t+3c",
+                  "2x + 3y",
+                  "2x+3y",
+                  "9.1"
+                ],
+                [
+                  "4t + 5c",
+                  "4t+5c",
+                  "4x + 5y",
+                  "4x+5y",
+                  "15.9"
+                ]
+              ]
+            },
+            {
+              "criterion": "Correct method to eliminate one variable (e.g. doubles first equation and subtracts)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "4t + 6c",
+                  "4t+6c",
+                  "4x + 6y",
+                  "4x+6y",
+                  "subtract"
+                ]
+              ]
+            },
+            {
+              "criterion": "Cake costs £2.30 (c = 2.3)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2.3",
+                  "c = 2.3",
+                  "c=2.3",
+                  "£2.30",
+                  "y = 2.3"
+                ]
+              ]
+            },
+            {
+              "criterion": "Tea costs £1.10 (t = 1.1)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "1.1",
+                  "t = 1.1",
+                  "t=1.1",
+                  "£1.10",
+                  "x = 1.1"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

@@ -538,6 +538,192 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "What are the solutions of $(x - 3)(x + 8) = 0$?",
+          "hint": "If two things multiply to give zero, one of them must be zero. Set each bracket equal to zero.",
+          "explanation": "$x - 3 = 0$ gives $x = 3$; $x + 8 = 0$ gives $x = -8$.",
+          "options": [
+            {
+              "text": "x = 3 or x = −8",
+              "correct": true
+            },
+            {
+              "text": "x = −3 or x = 8",
+              "correct": false,
+              "feedback": "The signs are the wrong way round: $x - 3 = 0$ means $x = 3$."
+            },
+            {
+              "text": "x = 3 or x = 8",
+              "correct": false
+            },
+            {
+              "text": "x = −24",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P13",
+          "type": "Equation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Solve $x^2 - 2x - 35 = 0$. Type both solutions separated by a comma, smallest first, like -3,5.",
+          "hint": "Which two numbers multiply to −35 and add to −2?",
+          "explanation": "$-7 \\times 5 = -35$ and $-7 + 5 = -2$, so $(x - 7)(x + 5) = 0$. $x = -5$ or $x = 7$.",
+          "answers": [
+            {
+              "text": "-5,7",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P14",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Solve $2x^2 + 7x - 15 = 0$ by factorising. Type both solutions separated by a comma, smallest first, using fractions like -2/3 if needed.",
+          "hint": "$a \\times c = -30$. Find two numbers that multiply to −30 and add to 7, then split the middle term.",
+          "explanation": "$10$ and $-3$: $2x^2 + 10x - 3x - 15 = 2x(x + 5) - 3(x + 5) = (2x - 3)(x + 5)$. So $x = -5$ or $x = \\frac{3}{2}$.",
+          "answers": [
+            {
+              "text": "-5,3/2",
+              "caseSensitive": false,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P15",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Use the quadratic formula to solve $x^2 + 5x + 3 = 0$. Give the **larger** solution to 2 decimal places.",
+          "hint": "$a = 1$, $b = 5$, $c = 3$. The discriminant is $25 - 12 = 13$.",
+          "explanation": "$x = \\dfrac{-5 \\pm \\sqrt{13}}{2}$. $\\sqrt{13} \\approx 3.6056$, so the larger root is $\\dfrac{-5 + 3.6056}{2} = -0.697... \\approx -0.70$. The other root is $-4.30$.",
+          "answers": [
+            {
+              "numeric": -0.7,
+              "tolerance": 0.006,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P16",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Write $x^2 + 8x + 3$ in the form $(x + p)^2 + q$. Type your answer like (x+2)^2-3.",
+          "hint": "Halve 8 to get 4, and $4^2 = 16$.",
+          "explanation": "$(x + 4)^2 = x^2 + 8x + 16$, so $x^2 + 8x + 3 = (x + 4)^2 - 16 + 3 = (x + 4)^2 - 13$.",
+          "answers": [
+            {
+              "text": "(x+4)^2-13",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P17",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Work out the discriminant $b^2 - 4ac$ of each equation and match it to the number of real solutions the equation has.",
+          "hint": "Positive discriminant: two solutions. Zero: one repeated solution. Negative: no real solutions.",
+          "explanation": "$x^2 - 6x + 9$: $36 - 36 = 0$, one repeated root. $x^2 + x + 3$: $1 - 12 = -11$, none. $2x^2 + 5x - 1$: $25 + 8 = 33$, two.",
+          "pairs": [
+            {
+              "left": "x² − 6x + 9 = 0",
+              "right": "One repeated solution"
+            },
+            {
+              "left": "x² + x + 3 = 0",
+              "right": "No real solutions"
+            },
+            {
+              "left": "2x² + 5x − 1 = 0",
+              "right": "Two different solutions"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-07-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A rectangular patio is $x$ metres wide and $(2x - 1)$ metres long. Its area is 66 m².\n\n(a) Show that $2x^2 - x - 66 = 0$.\n\n(b) Solve the equation and hence find the length of the patio.",
+          "hint": "Area = width × length. Factorise using $a \\times c = -132$: which pair multiplies to −132 and adds to −1?",
+          "explanation": "(a) $x(2x - 1) = 66$ gives $2x^2 - x = 66$, so $2x^2 - x - 66 = 0$. (b) $-12 \\times 11 = -132$ and $-12 + 11 = -1$: $2x^2 - 12x + 11x - 66 = 2x(x - 6) + 11(x - 6) = (2x + 11)(x - 6) = 0$. $x = 6$ (reject $x = -5.5$ as a width cannot be negative). Length $= 2(6) - 1 = 11$ m. Check: $6 \\times 11 = 66$ ✓.",
+          "markScheme": [
+            {
+              "criterion": "Forms area equation x(2x − 1) = 66 and expands to 2x² − x = 66",
+              "marks": 1,
+              "keywords": [
+                [
+                  "x(2x - 1)",
+                  "x(2x-1)",
+                  "x(2x − 1)",
+                  "2x^2 - x = 66",
+                  "2x² − x = 66"
+                ]
+              ]
+            },
+            {
+              "criterion": "Correct factorisation (2x + 11)(x − 6) or correct use of formula",
+              "marks": 1,
+              "keywords": [
+                [
+                  "(2x + 11)(x - 6)",
+                  "(2x+11)(x-6)",
+                  "(x - 6)(2x + 11)",
+                  "(x-6)(2x+11)",
+                  "formula"
+                ]
+              ]
+            },
+            {
+              "criterion": "x = 6",
+              "marks": 1,
+              "keywords": [
+                [
+                  "x = 6",
+                  "x=6"
+                ]
+              ]
+            },
+            {
+              "criterion": "Rejects the negative solution with a reason",
+              "marks": 1,
+              "keywords": [
+                [
+                  "negative",
+                  "reject",
+                  "cannot be",
+                  "can't be",
+                  "-5.5"
+                ]
+              ]
+            },
+            {
+              "criterion": "Length = 11 m",
+              "marks": 1,
+              "keywords": [
+                [
+                  "11",
+                  "11.0"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

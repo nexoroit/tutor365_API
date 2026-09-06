@@ -530,6 +530,186 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P12",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 2,
+          "text": "A printer uses 8 ml of ink to print 20 pages. How many millilitres of ink are needed to print 75 pages?",
+          "hint": "Find the ink for one page first, or notice that 75 is 3.75 times 20.",
+          "explanation": "One page uses $8 \\div 20 = 0.4$ ml. Seventy-five pages use $0.4 \\times 75 = 30$ ml.",
+          "answers": [
+            {
+              "numeric": 30,
+              "tolerance": 0,
+              "unit": "ml",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P13",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A paddling pool can be filled by 5 identical taps in 36 minutes. How many minutes would it take 9 of these taps?",
+          "hint": "The product of taps and minutes stays the same: $5 \\times 36$.",
+          "explanation": "$5 \\times 36 = 180$ tap-minutes. $180 \\div 9 = 20$ minutes. More taps, less time ✓.",
+          "answers": [
+            {
+              "numeric": 20,
+              "tolerance": 0,
+              "unit": "minutes",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P14",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Which of these situations are examples of **inverse** proportion? Select **all** that apply.",
+          "hint": "In inverse proportion, doubling one quantity halves the other.",
+          "explanation": "More people sharing a pizza means smaller slices, and more taps means less time to fill the bath: both inverse. Pay rises with hours worked, and cost rises with the number of litres bought: both direct.",
+          "options": [
+            {
+              "text": "Number of people sharing a pizza equally and the size of each share",
+              "correct": true
+            },
+            {
+              "text": "Number of taps filling a bath and the time taken to fill it",
+              "correct": true
+            },
+            {
+              "text": "Number of hours worked and total pay at a fixed hourly rate",
+              "correct": false,
+              "feedback": "Pay increases with hours worked: direct proportion."
+            },
+            {
+              "text": "Number of litres of petrol bought and the total cost",
+              "correct": false,
+              "feedback": "Cost increases with the amount bought: direct proportion."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P15",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "$p$ is directly proportional to $q$. When $q = 8$, $p = 30$. Find the value of $p$ when $q = 20$.",
+          "hint": "$p = kq$; find $k$ from $30 = 8k$.",
+          "explanation": "$k = 30 \\div 8 = 3.75$, so $p = 3.75q$. When $q = 20$, $p = 3.75 \\times 20 = 75$.",
+          "answers": [
+            {
+              "numeric": 75,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P16",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "$a$ is inversely proportional to $b$. When $b = 5$, $a = 9.6$. Find the value of $b$ when $a = 12$.",
+          "hint": "$a = \\frac{k}{b}$; $k = 5 \\times 9.6$.",
+          "explanation": "$k = 48$, so $a = \\frac{48}{b}$. When $a = 12$: $12 = \\frac{48}{b}$, so $b = 4$.",
+          "answers": [
+            {
+              "numeric": 4,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 4,
+          "marks": 3,
+          "tier": "Higher",
+          "text": "$y$ is proportional to the square of $x$. When $x = 5$, $y = 100$. Find $y$ when $x = 8$.",
+          "hint": "$y = kx^2$; $100 = 25k$.",
+          "explanation": "$k = 4$, so $y = 4x^2$. When $x = 8$: $y = 4 \\times 64 = 256$.",
+          "answers": [
+            {
+              "numeric": 256,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-02-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "The time $T$ (minutes) taken to fill a tank is inversely proportional to the number of hoses $n$ used.\n\nWhen 3 hoses are used, the tank fills in 40 minutes.\n\n(a) Write a formula for $T$ in terms of $n$.\n\n(b) How long would the tank take to fill with 5 hoses?\n\n(c) The tank must be filled in 8 minutes. How many hoses are needed?",
+          "hint": "(a) $T = \\frac{k}{n}$; use $n = 3$, $T = 40$ to find $k$.",
+          "explanation": "(a) $T = \\frac{k}{n}$; $40 = \\frac{k}{3}$, so $k = 120$ and $T = \\frac{120}{n}$. (b) $T = \\frac{120}{5} = 24$ minutes. (c) $8 = \\frac{120}{n}$, so $n = 15$ hoses.",
+          "markScheme": [
+            {
+              "criterion": "Writes T = k/n (inverse proportion form with a constant)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "k/n",
+                  "k / n",
+                  "k ÷ n",
+                  "t = k",
+                  "t=k"
+                ]
+              ]
+            },
+            {
+              "criterion": "Finds k = 120",
+              "marks": 1,
+              "keywords": [
+                [
+                  "120",
+                  "120.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "States the formula T = 120/n",
+              "marks": 1,
+              "keywords": [
+                [
+                  "120/n",
+                  "120 / n",
+                  "120 ÷ n"
+                ]
+              ]
+            },
+            {
+              "criterion": "5 hoses take 24 minutes",
+              "marks": 1,
+              "keywords": [
+                [
+                  "24 minutes",
+                  "24 min",
+                  "= 24",
+                  "24mins"
+                ]
+              ]
+            },
+            {
+              "criterion": "15 hoses needed",
+              "marks": 1,
+              "keywords": [
+                [
+                  "15",
+                  "15.0"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

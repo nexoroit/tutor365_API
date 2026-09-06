@@ -535,6 +535,212 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-03-04-L1-P12",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Convert 4.2 cm² to mm².",
+          "hint": "1 cm² = 10 × 10 mm².",
+          "explanation": "$4.2 \\times 100 = 420$ mm².",
+          "answers": [
+            {
+              "numeric": 420,
+              "tolerance": 0,
+              "unit": "mm²"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-04-L1-P13",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each quantity on the left to the equal quantity on the right.",
+          "hint": "Decide whether each one is a length, area, volume or capacity conversion: areas use the square of the length factor and volumes use the cube.",
+          "explanation": "3.5 km = 3 500 m. 1.25 litres = 1 250 ml. 8 m³ = 8 × 1 000 000 = 8 000 000 cm³. 600 mm² = 600 ÷ 100 = 6 cm².",
+          "pairs": [
+            {
+              "left": "3.5 km",
+              "right": "3 500 m"
+            },
+            {
+              "left": "1.25 litres",
+              "right": "1 250 ml"
+            },
+            {
+              "left": "8 m³",
+              "right": "8 000 000 cm³"
+            },
+            {
+              "left": "600 mm²",
+              "right": "6 cm²"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-04-L1-P14",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A coach travels 195 km in 3 hours 15 minutes. Work out its average speed in km/h.",
+          "hint": "15 minutes is $\\frac{15}{60} = 0.25$ hours.",
+          "explanation": "$195 \\div 3.25 = 60$ km/h.",
+          "answers": [
+            {
+              "numeric": 60,
+              "tolerance": 0,
+              "unit": "km/h",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-04-L1-P15",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A cheetah sprints at 27 m/s. Convert this speed to km/h.",
+          "hint": "There are 3600 seconds in an hour and 1000 metres in a kilometre, so multiply by 3.6.",
+          "explanation": "$27 \\times 3600 = 97\\,200$ m per hour $= 97.2$ km/h.",
+          "answers": [
+            {
+              "numeric": 97.2,
+              "tolerance": 0.05,
+              "unit": "km/h",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-04-L1-P16",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A solid cuboid measures 8 cm by 5 cm by 6 cm and has a mass of 0.648 kg. Work out its density in g/cm³.",
+          "hint": "Volume $= 8 \\times 5 \\times 6$ cm³. Convert the mass to grams before dividing.",
+          "explanation": "Volume $= 240$ cm³. Mass $= 648$ g. Density $= 648 \\div 240 = 2.7$ g/cm³.",
+          "answers": [
+            {
+              "numeric": 2.7,
+              "tolerance": 0.01,
+              "unit": "g/cm³",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-04-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A force of 1 200 N acts on an area of 0.8 m². Work out the pressure in N/m².",
+          "hint": "Pressure = force ÷ area.",
+          "explanation": "$1200 \\div 0.8 = 1500$ N/m².",
+          "answers": [
+            {
+              "numeric": 1500,
+              "tolerance": 0,
+              "unit": "N/m²",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-04-L1-P18",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A journey time works out as 2.75 hours. What is this in hours and minutes?",
+          "hint": "Multiply the decimal part of the hours by 60.",
+          "explanation": "$0.75 \\times 60 = 45$ minutes, so 2 hours 45 minutes.",
+          "options": [
+            {
+              "text": "2 hours 45 minutes",
+              "correct": true
+            },
+            {
+              "text": "2 hours 75 minutes",
+              "correct": false,
+              "feedback": "0.75 of an hour is not 75 minutes; hours are not decimal."
+            },
+            {
+              "text": "2 hours 15 minutes",
+              "correct": false
+            },
+            {
+              "text": "2 hours 25 minutes",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-03-04-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A concrete block is a cuboid measuring 10 cm by 20 cm by 40 cm. The concrete has a density of 2.4 g/cm³.\n\n(a) Work out the mass of the block in kilograms.\n\n(b) The block stands upright on its 10 cm by 20 cm end. Its weight is 192 N. Work out the pressure it exerts on the ground, in N/cm².\n\n(c) The block is delivered 90 km at an average speed of 40 km/h. How long does the delivery take? Give your answer in hours and minutes.",
+          "hint": "(a) Volume first, then mass = density × volume, then convert to kg. (b) Force ÷ area with area = 10 × 20. (c) Time = distance ÷ speed, then convert the decimal part of the hour to minutes.",
+          "explanation": "(a) Volume $= 10 \\times 20 \\times 40 = 8000$ cm³; mass $= 2.4 \\times 8000 = 19\\,200$ g $= 19.2$ kg. (b) Area $= 200$ cm²; pressure $= 192 \\div 200 = 0.96$ N/cm². (c) $90 \\div 40 = 2.25$ h $= 2$ hours 15 minutes.",
+          "markScheme": [
+            {
+              "criterion": "Volume = 8 000 cm³",
+              "marks": 1,
+              "keywords": [
+                [
+                  "8000",
+                  "8 000"
+                ]
+              ]
+            },
+            {
+              "criterion": "Mass = 19 200 g = 19.2 kg",
+              "marks": 1,
+              "keywords": [
+                [
+                  "19.2",
+                  "19200",
+                  "19 200"
+                ]
+              ]
+            },
+            {
+              "criterion": "Pressure = 192 ÷ 200 = 0.96 N/cm²",
+              "marks": 1,
+              "keywords": [
+                [
+                  "0.96",
+                  "192/200",
+                  "192 ÷ 200"
+                ]
+              ]
+            },
+            {
+              "criterion": "Time = 2.25 hours",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2.25",
+                  "2.250"
+                ]
+              ]
+            },
+            {
+              "criterion": "Converts to 2 hours 15 minutes",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2 hours 15",
+                  "2 h 15",
+                  "2h 15",
+                  "2hr 15",
+                  "2 hrs 15"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }
