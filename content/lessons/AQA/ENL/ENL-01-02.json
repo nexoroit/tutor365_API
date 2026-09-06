@@ -441,6 +441,117 @@
               "keywords": [ ["safe", "comfort", "refuge", "warmth", "welcom"] ]
             }
           ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A writer describes the night sky over an estate: \"the moon hung over the flats like a coin somebody had dropped\".\n\nWhich language technique is this?",
+          "hint": "Look for a comparison word. Is the moon *said to be* a coin, or compared *with* one?",
+          "explanation": "This is a simile: the moon is compared with a dropped coin using 'like'. The image makes the moon seem small, ordinary and accidental rather than grand.",
+          "options": [
+            { "text": "Simile", "correct": true },
+            { "text": "Metaphor", "correct": false, "feedback": "A metaphor would say the moon *is* a coin. The word 'like' makes this a simile." },
+            { "text": "Personification", "correct": false, "feedback": "Nothing here is given human qualities." },
+            { "text": "Alliteration", "correct": false, "feedback": "Alliteration repeats a starting sound. Look at the comparison instead." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P12",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each of these quotations to the language technique it uses most clearly.",
+          "hint": "Look for something said to *be* another thing, a non-human thing that wants or acts, words that imitate sounds, and repeated first letters.",
+          "explanation": "'the classroom was a zoo' says one thing is another, so it is a metaphor. 'the branches scratched at the window, wanting in' gives branches a desire, so it is personification. 'the crunch and crackle of gravel' uses words that sound like the noise, so it is onomatopoeia. 'big, bold, brass letters' repeats the b sound, which is alliteration.",
+          "pairs": [
+            { "left": "the classroom was a zoo", "right": "Metaphor" },
+            { "left": "the branches scratched at the window, wanting in", "right": "Personification" },
+            { "left": "the crunch and crackle of gravel", "right": "Onomatopoeia" },
+            { "left": "big, bold, brass letters", "right": "Alliteration" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P13",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A passage describes a storm hitting a farmhouse. Which **two** of these sentences show genuine analysis rather than feature-spotting or empty comment?",
+          "hint": "Analysis names a specific word and explains what it suggests and why. A technique name or a phrase like 'very effective' on its own is not analysis.",
+          "explanation": "The sentences about 'clawed' and 'grumble' each pick a specific word and explain what it suggests about the storm. The other two name a technique or make a generic comment without explaining anything.",
+          "options": [
+            { "text": "The verb \"clawed\" suggests the wind is a wild animal trying to get in, so the farmhouse feels under attack.", "correct": true },
+            { "text": "The writer uses personification, which makes the storm seem alive and is very effective.", "correct": false, "feedback": "This names a technique and praises it, but explains nothing specific." },
+            { "text": "Calling the thunder a \"grumble\" implies the storm is bad-tempered rather than dangerous, which makes it feel almost comic.", "correct": true },
+            { "text": "The description of the storm creates a vivid image for the reader.", "correct": false, "feedback": "This could be said of any description. No word or effect is identified." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P14",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete this analytical paragraph about the phrase \"the sky hung like a bruise\" with the correct terms.",
+          "metadata": { "blanksText": "The writer says \"the sky hung like a bruise\". This is a ___ because the sky is compared with a bruise using 'like'. The ___ of the word \"bruise\" include pain, injury and something that has been hit, suggesting the sky itself has been hurt. The ___ \"hung\" makes the sky seem heavy and lifeless, as if it cannot hold itself up." },
+          "hint": "The three missing words are: the name of the technique, the term for the ideas a word carries beyond its literal meaning, and the word class of 'hung'.",
+          "explanation": "A simile compares using 'like' or 'as'. Connotations are the associated ideas and feelings of a word. 'Hung' is a verb describing what the sky does.",
+          "answers": [
+            { "text": "simile", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "connotations", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+            { "text": "verb", "blankIndex": 2, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P15",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Read the extract below.\n\n> The path along the cliff was no wider than a doormat. To the left, gorse; to the right, nothing at all, just air and the long grey drop to the sea, which chewed at the rocks below with a sound like breaking plates. Kofi kept his eyes on his boots. The wind came in shoves, each one a hand in the small of his back.\n\n**Choose ONE quotation and write a short analytical paragraph explaining how the writer uses language to create a sense of danger.** Name the technique, zoom in on a word, and explain the effect on the reader.",
+          "hint": "Good choices are the doormat comparison, the sea that 'chewed' at the rocks, the simile of breaking plates, or the wind as a hand in Kofi's back. Pick one, name what it is, and say what individual words suggest.",
+          "explanation": "A strong answer might say: the verb \"chewed\" personifies the sea as a creature eating the rocks, so the reader feels that it could just as easily eat Kofi; \"chewed\" suggests slow, patient destruction rather than one violent moment. Alternatively: the wind 'came in shoves, each one a hand in the small of his back' is a metaphor that turns the weather into a person pushing Kofi towards the edge; \"shoves\" suggests hostility and intent, so the danger feels deliberate. Or: comparing the path to a doormat makes it seem absurdly small and domestic next to the 'long grey drop', so the reader senses how little is keeping him safe.",
+          "markScheme": [
+            { "criterion": "Identifies a language technique or word class accurately (e.g. simile, metaphor, verb, personification)", "marks": 1, "keywords": [ ["simile", "metaphor", "verb", "personif", "noun"] ] },
+            { "criterion": "Uses a relevant short quotation from the extract", "marks": 1, "keywords": [ ["doormat", "chewed", "breaking plates", "shoves", "hand"] ] },
+            { "criterion": "Zooms in on a single word or phrase and explores its connotations or what it suggests", "marks": 1, "keywords": [ ["suggests", "implies", "connotation", "the word", "sounds"] ] },
+            { "criterion": "Explains the effect on the reader in relation to danger or fear", "marks": 1, "keywords": [ ["reader", "danger", "tension", "fear", "threat"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P16",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these steps in the best order for choosing quotations for a Question 2 answer.",
+          "hint": "You cannot underline anything until you know the focus, and you should trim a quotation before deciding how to label it.",
+          "explanation": "Re-read with the focus in mind, underline the words that create it, choose the richest two or three, shorten each to its key words, then decide what technique or word class each uses.",
+          "order": [
+            "Re-read the given lines with the question focus in mind",
+            "Underline words and phrases that create that focus",
+            "Choose the two or three with the richest connotations",
+            "Shorten each one to the fewest words that still carry the effect",
+            "Decide which technique or word class each one uses"
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-02-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "Look in detail at this extract.\n\n> Heat. That was the first thing, before the light or the smell: a wet wool blanket of air that wrapped itself round Aisha as soon as the door sighed shut behind her. Tomato plants leaned on their canes like tired soldiers. A wasp bumped and bumped against the glass, stupid with the warmth. Overhead the panes had gone milky with age, so the sun came through as a blur rather than a shape, and in the corner an old heater ticked to itself like a clock that had lost count. The whole place was drowsing, and it wanted her to drowse too.\n\n**How does the writer use language here to describe the greenhouse?**\n\nYou could include the writer's choice of:\n- words and phrases\n- language features and techniques\n- sentence forms.\n\n[8 marks]",
+          "hint": "Aim for three developed points. Consider the one-word opening sentence, the metaphor of the air as a wet wool blanket, the similes (tired soldiers, a clock that had lost count), the repetition 'bumped and bumped', and the personification of the greenhouse drowsing and wanting.",
+          "explanation": "A top-band answer would: analyse the one-word sentence 'Heat.' as hitting the reader before anything else, just as the heat hits Aisha; explore the metaphor of the air as 'a wet wool blanket' that 'wrapped itself round' her, suggesting something heavy, smothering and almost alive; examine the simile of the plants as 'tired soldiers', implying exhaustion and defeat, and the heater 'like a clock that had lost count', suggesting time has stopped mattering; comment on the repetition 'bumped and bumped' and 'stupid with the warmth', which make the wasp's dazed persistence mirror the numbing effect of the heat; and link these to the personification of the place 'drowsing' and wanting Aisha to drowse too, so the greenhouse becomes a drugged, oppressive presence rather than a pleasant garden room.",
+          "markScheme": [
+            { "criterion": "Identifies a language technique accurately (metaphor, simile, personification, minor sentence, repetition etc.)", "marks": 1, "keywords": [ ["personif", "simile", "metaphor", "minor sentence", "short sentence"] ] },
+            { "criterion": "Uses a relevant short quotation from the extract", "marks": 1, "keywords": [ ["heat", "wool blanket", "tired soldiers", "stupid", "drowsing"] ] },
+            { "criterion": "Explains an effect on the reader using analytical language", "marks": 1, "keywords": [ ["reader", "suggests", "implies", "creates", "sense of"] ] },
+            { "criterion": "Analyses the metaphor of the air as a wet wool blanket that wraps itself round Aisha (heavy, smothering, alive)", "marks": 1, "keywords": [ ["blanket", "wool", "heavy", "smother", "wrap"] ] },
+            { "criterion": "Analyses a simile and its connotations (tired soldiers suggesting exhaustion or defeat; a clock that has lost count suggesting time drifting)", "marks": 1, "keywords": [ ["soldier", "clock", "exhaust", "defeat", "lost count"] ] },
+            { "criterion": "Zooms in on a single word and explores its connotations", "marks": 1, "keywords": [ ["connotation", "the word", "the verb", "the adjective", "the noun"] ] },
+            { "criterion": "Comments on sentence forms, e.g. the one-word opening 'Heat.' or the repetition 'bumped and bumped'", "marks": 1, "keywords": [ ["one word", "short sentence", "bumped and bumped", "repetition", "minor"] ] },
+            { "criterion": "Links language choices to the overall mood of drowsiness, oppression or suffocating heat", "marks": 1, "keywords": [ ["drows", "sleepy", "oppress", "suffocat", "lazy"] ] }
+          ]
         }
       ]
     }

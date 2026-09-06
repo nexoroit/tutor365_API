@@ -456,6 +456,119 @@
             { "text": "About 45 minutes", "correct": false, "feedback": "That is the time for the 40-mark writing task." },
             { "text": "About 10 minutes", "correct": false, "feedback": "That is closer to the time for Questions 2 and 3." }
           ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Question 4 always quotes the opinion of another student. What is the purpose of giving you someone else's view?",
+          "hint": "Think about what you are asked to do with the statement: not accept it, but judge it.",
+          "explanation": "The statement is a claim for you to test against the text. You can agree, disagree or qualify it, but whatever you decide must be supported with evidence and evaluation of the writer's methods.",
+          "options": [
+            { "text": "To give you a claim to test against the text, so that you can agree, disagree or qualify it with evidence", "correct": true },
+            { "text": "To tell you the correct interpretation, which you must then prove", "correct": false, "feedback": "The statement is an opinion, not the answer." },
+            { "text": "To show you the vocabulary the examiner expects you to copy", "correct": false },
+            { "text": "To warn you that the student is wrong", "correct": false, "feedback": "The student may be largely right; your job is to judge how far." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P12",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each sentence from an evaluation answer about a character called Ravi to the step it performs.",
+          "hint": "Judgement states an opinion on the statement; impression gives your view of the character; method names what the writer does; evaluation judges how well it works.",
+          "explanation": "'I agree only partly' is the judgement. 'Ravi seems lonely rather than unfriendly' is the impression. 'The writer places him at the edge of every scene' names the method. 'This works well because...' evaluates its success.",
+          "pairs": [
+            { "left": "I agree with the statement only partly.", "right": "Judgement" },
+            { "left": "Ravi seems lonely rather than unfriendly.", "right": "Impression" },
+            { "left": "The writer places him at the edge of every scene, always in a doorway.", "right": "Method" },
+            { "left": "This works well because the reader notices his isolation before anyone in the story does.", "right": "Evaluation" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P13",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Which **two** of these sentences about a story featuring Ravi are genuinely **evaluative**?",
+          "hint": "Evaluative sentences judge how well something works and give a reason. Retelling and vague praise do not count.",
+          "explanation": "The sentences about the unopened letter being more powerful than showing him read it, and about making Ravi sympathetic without pity, both judge how well a method works and explain why. The other two retell events or offer empty praise.",
+          "options": [
+            { "text": "Ending on the unopened letter is more powerful than showing Ravi read it, because the reader is left to imagine what it says.", "correct": true },
+            { "text": "Ravi goes to the post office, buys a stamp, and walks home.", "correct": false, "feedback": "This retells the events without judging anything." },
+            { "text": "The writer succeeds in making Ravi sympathetic without making him pitiful, by giving him a dry sense of humour.", "correct": true },
+            { "text": "The writer describes Ravi in a lot of detail.", "correct": false, "feedback": "Vague comment with no method or reason." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P14",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete this evaluative paragraph about Ravi with suitable words.",
+          "metadata": { "blanksText": "I agree with the statement to a large ___, because the writer shows Ravi's loneliness very ___ through what he does not say. ___, the joke he makes about the postman suggests he is not entirely without hope." },
+          "hint": "The first blank completes the phrase 'to a large...'; the second is an adverb formed from 'effective'; the third is a linking word that introduces a qualification.",
+          "explanation": "A judgement of degree ('to a large extent'), an evaluative adverb ('effectively') and a qualifying connective ('However') are the three ingredients of confident evaluation.",
+          "answers": [
+            { "text": "extent", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "effectively", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+            { "text": "However", "blankIndex": 2, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P15",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these steps for planning a Question 4 answer in the recommended order.",
+          "hint": "Understand the statement before judging it, judge it before hunting for evidence, and save the complication for last.",
+          "explanation": "Split the statement into its claims, decide your judgement on each, gather supporting evidence, note the methods in that evidence, then find the piece of evidence that complicates the statement for your 'however'.",
+          "order": [
+            "Underline the key words of the statement and split it into its separate claims",
+            "Decide your overall judgement on each claim",
+            "Find two or three pieces of evidence that support your view",
+            "Note the methods the writer uses in each piece of evidence",
+            "Find one piece of evidence that complicates the statement for your 'however'"
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P16",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Read the final paragraph of a short extract:\n\n> Nan folded the letter twice, then once more, until it was small enough to hide in her fist. \"Nothing important,\" she said, and put the kettle on, and stood with her back to the room for a long time while it boiled.\n\nA student said: *\"This ending is effective because the writer shows Nan is upset without ever saying so.\"*\n\n**How far do you agree? Write one evaluative paragraph.** Include a judgement, a method the writer uses, a short quotation and a comment on how effective it is.",
+          "hint": "Think about the folding 'until it was small enough to hide', the lie 'Nothing important', the kettle as a distraction, and her back turned 'for a long time'. Is not saying she is upset more effective than saying it?",
+          "explanation": "A strong response might argue: I largely agree. The writer shows Nan's feelings through action: folding the letter 'small enough to hide in her fist' suggests she wants to make the news disappear, and the quotation 'Nothing important' is effective because the reader can tell it is untrue. Turning her 'back to the room for a long time' is subtle and convincing, because it lets us see her hiding her face without the writer ever naming her emotion. One might qualify: 'for a long time' comes close to telling us, but the restraint still works.",
+          "markScheme": [
+            { "criterion": "Gives a clear judgement about the extent of agreement", "marks": 1, "keywords": [ ["agree", "extent", "partly", "largely", "disagree"] ] },
+            { "criterion": "Identifies a method the writer uses (folding the letter, the lie 'Nothing important', the kettle, her back to the room)", "marks": 1, "keywords": [ ["fold", "fist", "nothing important", "back to the room", "kettle"] ] },
+            { "criterion": "Explains the impression created (hiding, upset, pretending, protecting others)", "marks": 1, "keywords": [ ["hid", "upset", "pretend", "protect", "conceal"] ] },
+            { "criterion": "Uses evaluative language to judge how well the moment works", "marks": 1, "keywords": [ ["effective", "powerful", "success", "convincing", "subtle"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-04-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 10,
+          "examStyle": true,
+          "text": "Read the extract.\n\n> The removal van had gone by ten. Idris walked through the empty rooms one last time, his trainers squeaking on floorboards he had never seen bare before.\n>\n> In the kitchen, the outline of the fridge was a pale rectangle on the wall, and the pencil marks on the door frame still climbed, year by year, to a line marked *I, 14* that was almost as tall as he was now.\n>\n> \"Ready?\" his dad called from the hall, too brightly.\n>\n> Idris put his thumb on the highest mark. Then he took the key from his pocket, turned it over twice, and set it down on the windowsill, exactly in the centre, as if it mattered where it went.\n>\n> \"Coming,\" he said, and did not move.\n\nA student, having read this extract, said: **\"The writer shows that Idris is far more upset about leaving than his father is. I think the house means more to him than to anyone else.\"**\n\n**To what extent do you agree?**\n\nIn your response, you could:\n- write about your own impressions of Idris and his father\n- evaluate how the writer has created these impressions\n- support your opinion with references to the text.\n\n*(In the exam this question is worth 20 marks. Here it is checked against ten key features.)*",
+          "hint": "Test both halves of the statement. Evidence of Idris's feelings: walking the rooms 'one last time', his thumb on the pencil mark, the key placed 'exactly in the centre', saying 'Coming' but not moving. Evidence about the father: a single word, 'too brightly'. Then ask whether 'far more upset' is fair: what might 'too brightly' be hiding?",
+          "explanation": "A top-band answer would agree with the first half of the statement, showing how the writer builds Idris's attachment through physical detail: the bare floorboards he has 'never seen', the pencil marks that record his growth, and his thumb on the highest mark, which is effective because it shows him touching his own childhood. The key placed 'exactly in the centre, as if it mattered where it went' is a powerful, quiet ritual, and the ending, 'Coming' followed by 'did not move', captures the gap between what he says and what he feels. The father is given only one line, called 'too brightly', so by contrast he seems untouched. A thoughtful answer would then qualify the second half: 'too brightly' is the writer's hint that the father is performing cheerfulness, perhaps to make it easier for his son, so the house may mean a great deal to him too; the extract shows two ways of being upset rather than one.",
+          "markScheme": [
+            { "criterion": "Gives a clear judgement about the extent of agreement with the statement", "marks": 1, "keywords": [ ["agree", "extent", "partly", "largely", "disagree"] ] },
+            { "criterion": "Supports Idris's feelings with evidence (walking the rooms one last time, his thumb on the mark, the key, not moving)", "marks": 1, "keywords": [ ["thumb", "key", "did not move", "one last time", "exactly"] ] },
+            { "criterion": "Supports the impression of the father with evidence ('Ready?' called 'too brightly' from the hall)", "marks": 1, "keywords": [ ["too brightly", "bright", "dad", "hall", "ready"] ] },
+            { "criterion": "Evaluates the writer's use of contrast between Idris and his father as a method", "marks": 1, "keywords": [ ["contrast", "compar", "whereas", "while", "difference"] ] },
+            { "criterion": "Evaluates the pencil marks or the fridge outline as traces of the family's past in the house", "marks": 1, "keywords": [ ["pencil", "mark", "outline", "fridge", "rectangle"] ] },
+            { "criterion": "Evaluates the key placed 'exactly in the centre, as if it mattered' as a ritual or a sign of care", "marks": 1, "keywords": [ ["centre", "key", "mattered", "ritual", "care"] ] },
+            { "criterion": "Uses evaluative vocabulary to judge how well the writer succeeds", "marks": 1, "keywords": [ ["effective", "successful", "powerful", "convincing", "moving"] ] },
+            { "criterion": "Explains the effect on the reader (sympathy, sadness, recognition)", "marks": 1, "keywords": [ ["reader", "sympath", "sad", "pity", "emotion"] ] },
+            { "criterion": "Considers the ending ('Coming' followed by 'did not move') as the gap between words and action", "marks": 1, "keywords": [ ["coming", "did not move", "ending", "final", "action"] ] },
+            { "criterion": "Qualifies or challenges the statement thoughtfully (e.g. 'too brightly' suggests the father is hiding his own upset)", "marks": 1, "keywords": [ ["however", "although", "hid", "also upset", "mask"] ] }
+          ]
         }
       ]
     }

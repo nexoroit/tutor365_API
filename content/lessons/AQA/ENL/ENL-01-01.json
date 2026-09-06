@@ -315,6 +315,97 @@
           "hint": "Think about what AO1 is testing: finding information, not copying.",
           "explanation": "False. You may quote or paraphrase. As long as the information is explicit, on focus and from the right lines, either way earns the mark.",
           "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P11",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Read the extract.\n\n> The bakery opened at six, but Tomasz had been there since four. He wiped flour from the counter with the side of his hand, counted the trays twice, and turned the sign on the door to OPEN a full minute early. Outside, the street was still blue with the last of the night. A van went past with its headlights on. Tomasz straightened his apron, tucked a pencil behind his ear, and waited for the bell above the door to ring.\n\nSelect the **four** statements about **Tomasz** that are true according to the text.",
+          "hint": "Only choose statements that the text actually says. If you have to guess or assume, it is not explicit.",
+          "explanation": "The text states that Tomasz had been there since four, counted the trays twice, turned the sign a minute early and tucked a pencil behind his ear. It never says he owns the bakery, that he is worried, that he serves a customer, or that he drove the van. Those are either untrue or guesses.",
+          "options": [
+            { "text": "He had been at the bakery since four o'clock.", "correct": true },
+            { "text": "He counted the trays twice.", "correct": true },
+            { "text": "He turned the sign to OPEN a minute early.", "correct": true },
+            { "text": "He tucked a pencil behind his ear.", "correct": true },
+            { "text": "He owns the bakery.", "correct": false, "feedback": "Nothing in the text tells us who owns the bakery." },
+            { "text": "He is worried that the bakery will fail.", "correct": false, "feedback": "The text never says this. It is a guess." },
+            { "text": "He serves his first customer.", "correct": false, "feedback": "He is waiting for the bell; nobody has come in." },
+            { "text": "He drove the van past the shop.", "correct": false, "feedback": "The van simply goes past; Tomasz is inside." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A question asks: *\"Read lines 1 to 5. List four things about the kitchen.\"*\n\nLines 1 to 5 read:\n\n> The kitchen was the warmest room in the house. A pot of something brown bubbled on the stove, and the window above the sink had steamed over completely. Three mismatched chairs stood around a table scarred with knife marks, and on the windowsill a row of jam jars held pencils, rubber bands and one dead wasp.\n\nWhich of these answers would score **zero**?",
+          "hint": "Check each answer against the three rules: right lines, right focus, explicit only.",
+          "explanation": "\"The family cannot afford matching furniture\" is an inference. The mismatched chairs might suggest it, but the text does not state it, so it cannot score on a retrieval question. The other three are explicit details about the kitchen.",
+          "options": [
+            { "text": "The family cannot afford matching furniture.", "correct": true },
+            { "text": "It was the warmest room in the house.", "correct": false, "feedback": "This is stated directly in the first sentence." },
+            { "text": "The window above the sink had steamed over.", "correct": false, "feedback": "This is an explicit detail about the kitchen." },
+            { "text": "There were jam jars on the windowsill.", "correct": false, "feedback": "This is stated in the text." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P13",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Read the extract below.\n\n> The bus station smelled of diesel and wet dog. Under the orange strip lights, a queue for the number 12 stretched past the closed café and out into the drizzle. A pigeon with one foot worked its way along the benches, checking for crumbs, and the departure screen had frozen at 07:14, though it was nearly eight. Behind the glass of the ticket office a woman in a blue fleece was doing a crossword.\n\n**List four things from this extract about the bus station.** Write each thing on a new line.",
+          "hint": "You can quote or use your own words. Pick details that are clearly stated, and make sure each one is about the bus station rather than a guess about the people.",
+          "explanation": "Any four explicit details about the bus station would score, for example: it smelled of diesel and wet dog; it had orange strip lights; there was a queue for the number 12; the café was closed; a one-footed pigeon was on the benches; the departure screen had frozen at 07:14; a woman in the ticket office was doing a crossword. Each point is stated directly in the text.",
+          "markScheme": [
+            { "criterion": "Gives an explicit detail about the smell or the lighting (e.g. diesel and wet dog, orange strip lights)", "marks": 1, "keywords": [ ["diesel", "dog", "smell", "orange", "strip light"] ] },
+            { "criterion": "Gives an explicit detail about the queue or the café (e.g. a queue for the number 12, the café was closed, out into the drizzle)", "marks": 1, "keywords": [ ["queue", "number 12", "caf", "closed", "drizzle"] ] },
+            { "criterion": "Gives an explicit detail about the pigeon or the departure screen", "marks": 1, "keywords": [ ["pigeon", "bench", "screen", "frozen", "07:14"] ] },
+            { "criterion": "Gives a further explicit detail (e.g. the woman in the ticket office, the crossword, the blue fleece)", "marks": 1, "keywords": [ ["ticket", "fleece", "crossword", "glass", "woman"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P14",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "A short passage describes Tomasz opening a bakery. Match each explicit detail to the most sensible inference a reader could make from it.",
+          "hint": "Ask: what would this detail make most readers think? Choose the inference that the words most directly support.",
+          "explanation": "Arriving two hours early suggests he is hard-working or anxious to be ready. Counting the trays twice suggests care and a fear of mistakes. Turning the sign early suggests eagerness for customers. A street still blue with the last of the night tells us it is very early in the morning.",
+          "pairs": [
+            { "left": "Tomasz had been there since four, two hours before opening", "right": "He is hard-working or anxious to be ready in time" },
+            { "left": "He counted the trays twice", "right": "He is careful and does not want to make a mistake" },
+            { "left": "He turned the sign to OPEN a full minute early", "right": "He is eager for customers to arrive" },
+            { "left": "The street was still blue with the last of the night", "right": "It is very early in the morning" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence using the words **retrieve** or **infer**.",
+          "metadata": { "blanksText": "When you find information that is stated openly in the text, you ___ it; when you work out something that is only suggested by the words, you ___ it." },
+          "hint": "One word means 'fetch what is there'; the other means 'read between the lines'.",
+          "explanation": "Retrieving is finding explicit information on the page. Inferring is working out implicit meaning from clues in the words.",
+          "answers": [ { "text": "retrieve", "blankIndex": 0, "marks": 1, "caseSensitive": false }, { "text": "infer", "blankIndex": 1, "marks": 1, "caseSensitive": false } ]
+        },
+        {
+          "key": "AQA-ENL-01-01-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 3,
+          "marks": 4,
+          "examStyle": true,
+          "text": "Read again the opening of the source, **lines 1 to 7**.\n\n> 1  Snow had fallen in the night, silently, and by morning the yard was a\n> 2  white page nobody had written on. It lay along the top of the wall like\n> 3  icing, and bent the washing line into a low, sagging smile. The bins had\n> 4  become soft white boulders. Where the cat had crossed, a neat line of\n> 5  prints ran to the fence and stopped, as if she had simply been lifted away.\n> 6  Above it all the sky was the colour of a dirty sheet, heavy with more to\n> 7  come. Ayesha pressed her palm to the cold glass and grinned.\n> 8  Her brother was still asleep. She was going to change that.\n\n**List four things from this part of the text about the snow.** [4 marks]",
+          "hint": "Stay inside lines 1 to 7, keep every point about the snow or the weather, and only write what the text actually says. Ayesha grinning is not about the snow.",
+          "explanation": "Possible answers include: it fell in the night; it fell silently; it made the yard white like a blank page; it lay along the top of the wall like icing; it bent the washing line; it made the bins look like boulders; the cat's prints ran to the fence and stopped; the sky was heavy with more snow to come. Line 8 is outside the given lines, and Ayesha's grin is not about the snow, so neither would score.",
+          "markScheme": [
+            { "criterion": "Gives an explicit detail about when or how the snow fell, or the yard being white (e.g. in the night, silently, like a page)", "marks": 1, "keywords": [ ["night", "silent", "yard", "white", "page"] ] },
+            { "criterion": "Gives an explicit detail about the snow on the wall or the washing line (e.g. like icing, bent the line into a smile)", "marks": 1, "keywords": [ ["wall", "icing", "washing line", "smile", "bent"] ] },
+            { "criterion": "Gives an explicit detail about the bins or the cat's prints (e.g. bins like boulders, prints ran to the fence and stopped)", "marks": 1, "keywords": [ ["bin", "boulder", "cat", "print", "fence"] ] },
+            { "criterion": "Gives a further explicit detail (e.g. the sky heavy with more snow to come, the colour of a dirty sheet)", "marks": 1, "keywords": [ ["sky", "more to come", "heavy", "sheet", "colour"] ] }
+          ]
         }
       ]
     }

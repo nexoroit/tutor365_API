@@ -442,6 +442,117 @@
               "keywords": [ ["fear", "calm", "control", "confiden", "change"] ]
             }
           ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A student is answering Question 3 on an extract about a mysterious visitor. Which of these comments belongs in a **structure** answer rather than a language answer?",
+          "hint": "Structure is about what the writer shows you, in what order, and what is held back, not about the meaning of individual words.",
+          "explanation": "Only the comment about withholding the visitor's name until the final paragraph is about structure: it concerns the order in which information is released. The others analyse individual words or techniques, which belongs in Question 2.",
+          "options": [
+            { "text": "The writer withholds the visitor's name until the final paragraph, so the reader's curiosity builds throughout.", "correct": true },
+            { "text": "The simile 'like a shut fist' makes the visitor seem hostile.", "correct": false, "feedback": "This is language analysis of a simile." },
+            { "text": "The adjective 'thin' suggests the visitor has been unwell.", "correct": false, "feedback": "This zooms in on a word, which is a language point." },
+            { "text": "The onomatopoeia 'rap' makes the knock sound sharp and sudden.", "correct": false, "feedback": "This is about a sound technique, so it is a language point." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P12",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each of these structural terms to its correct definition.",
+          "hint": "Think about hints of the future, camera movement, whose eyes we see through, and information kept back.",
+          "explanation": "Foreshadowing hints at a later event. Zooming in narrows the focus from a wide view to a small detail. A shift in perspective moves from one character's viewpoint to another. Withholding delays information to create suspense.",
+          "pairs": [
+            { "left": "Foreshadowing", "right": "A hint early in the text of something that will happen later" },
+            { "left": "Zooming in", "right": "Narrowing the focus from a wide view to a single small detail" },
+            { "left": "Shift in perspective", "right": "Moving from one character's viewpoint to another's" },
+            { "left": "Withholding", "right": "Delaying a piece of information to create suspense" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P13",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A student has written four comments about an extract in which a family searches a beach at dawn. Which **two** of the comments are about **structure**?",
+          "hint": "Structure comments are about order, focus, pace and what the writer shows when; language comments are about specific words and techniques.",
+          "explanation": "The comment about opening wide and then narrowing to a pair of shoes (focus) and the comment about the flashback interrupting the search (order and pace) are structural. The comments about the metaphor and the verb are language analysis.",
+          "options": [
+            { "text": "The writer opens on the whole beach at dawn and then narrows to a single pair of shoes at the water's edge, so the reader immediately senses something is wrong.", "correct": true },
+            { "text": "The metaphor 'a knife of light' makes the dawn seem dangerous.", "correct": false, "feedback": "This is about a metaphor: a language point." },
+            { "text": "The flashback to the previous evening interrupts the search, delaying the outcome and building tension.", "correct": true },
+            { "text": "The verb 'nudged' suggests the sea is gentle, almost apologetic.", "correct": false, "feedback": "This zooms in on a word: a language point." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P14",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put the stages of the flood extract about Priya (from the lesson) in the order the writer presents them.",
+          "hint": "The camera starts wide on the river, moves to the village, then to one girl at a window, then downstairs, and finally to the next morning.",
+          "explanation": "The extract opens wide with the river, moves to the villagers stacking sandbags, narrows to Priya watching the memorial steps, shifts briefly to her mother on the phone, and ends the next morning with the heron in the high street.",
+          "order": [
+            "The river, swollen by three days of rain, carries things through the valley",
+            "Villagers stack sandbags and make thinning jokes",
+            "Priya watches the water climb the steps of the war memorial",
+            "Her mother is on the phone downstairs",
+            "The next morning, a heron stands in the high street"
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete this paragraph about a short story with the correct structural terms.",
+          "metadata": { "blanksText": "The writer ___ the identity of the caller until the last line, creating suspense. The change from past tense to present tense in the final paragraph is a ___ in time. The repeated image of the locked door is a ___ that links the beginning and the end." },
+          "hint": "The first blank is a verb meaning 'holds back'; the second is a word for a change or move; the third is a term for a repeated image.",
+          "explanation": "Withholding delays information. A shift (in time, tense or focus) is a structural change. A motif is a repeated image or idea that runs through the text.",
+          "answers": [
+            { "text": "withholds", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "shift", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+            { "text": "motif", "blankIndex": 2, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P16",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Read the extract below.\n\n> The playground was full of noise: skipping ropes slapping the ground, a football thudding against the wall, someone shrieking with laughter that might have been tears.\n>\n> By the railings, a boy in a coat too big for him stood with his hands in his pockets. He was watching the gate.\n>\n> The bell went. Everyone ran in.\n>\n> He did not.\n\n**Explain how the writer uses structure to interest the reader in this extract.** Refer to the shift in focus and the final two paragraphs.",
+          "hint": "The writer starts with a noisy wide shot and then narrows to one boy. Why? Then look at what the two very short paragraphs at the end tell us without saying it.",
+          "explanation": "The extract opens with a wide, noisy view of the whole playground, then zooms in on a single boy by the railings, which isolates him and makes him seem significant. The contrast between the moving, shrieking crowd and his stillness makes the reader wonder who he is waiting for at the gate. The final two paragraphs are very short: the bell goes and everyone runs in, but 'He did not.' The three-word paragraph stops the reader dead and shows, without explaining, that the boy is refusing or unable to leave, creating sympathy and a question the reader wants answered.",
+          "markScheme": [
+            { "criterion": "Identifies the shift from the wide, noisy playground to a single boy (zooming in / narrowing focus)", "marks": 1, "keywords": [ ["zoom", "narrow", "shift", "focus", "single"] ] },
+            { "criterion": "Explains the effect of the contrast between the busy crowd and the still boy (isolation, significance, curiosity)", "marks": 1, "keywords": [ ["contrast", "isolat", "alone", "stand out", "significan"] ] },
+            { "criterion": "Comments on the two short final paragraphs and what they show (the bell, everyone leaving, the boy staying)", "marks": 1, "keywords": [ ["short", "bell", "did not", "stays", "refus"] ] },
+            { "criterion": "Explains the effect on the reader (curiosity, sympathy, questions)", "marks": 1, "keywords": [ ["reader", "curious", "sympath", "wonder", "question"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-01-03-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "You now need to think about the **whole** of this extract, which is from the opening of a novel.\n\n> The heat had settled on the town like a lid. For nine days nothing had moved that did not have to: the flags on the seafront hung straight down, the dogs lay under cars, and the ice-cream van gave up ringing its tune and simply parked.\n>\n> On the pier, the old men fished for nothing and caught it.\n>\n> Daniel sat on the harbour wall with his feet over the edge and watched the tide come in over the mud. He counted the boats as they lifted, one by one, from the silt. Seven. Eight. The ninth, his father's, stayed where it was.\n>\n> Behind him, in the flat above the chip shop, his mother was not answering the phone.\n>\n> By evening the tide had turned and the boats had settled back into the mud, and the ninth was still there, and still empty.\n>\n> When the storm finally broke that night, Daniel was the only person in town who did not go to the window to watch.\n\n**How has the writer structured the text to interest you as a reader?**\n\nYou could write about:\n- what the writer focuses your attention on at the beginning\n- how and why the writer changes this focus as the source develops\n- any other structural features that interest you.\n\n[8 marks]",
+          "hint": "Plan in three parts: the wide opening on the heat and the stalled town; the narrowing of focus to Daniel on the harbour wall and the counted boats (with the ninth boat as something the writer keeps returning to); and the time jumps to evening and night, ending with Daniel not going to the window.",
+          "explanation": "A top-band answer would note that the writer opens wide with the heat pressing on the whole town 'like a lid', so that the reader feels stillness and pressure before any person appears. The focus then narrows through the old men on the pier to one boy on the harbour wall, which makes the story personal. The counted boats become a device for measuring what is wrong: the short sentences 'Seven. Eight.' build a rhythm that the ninth boat breaks, and the writer withholds why the father's boat is empty, so the reader must infer. The brief shift to the mother not answering the phone adds adult fear without explanation. Time jumps to evening and then night compress the waiting, and the ending reverses the opening: the town finally moves, everyone goes to the window, and Daniel alone does not, so the reader understands that the storm is not the real event for him.",
+          "markScheme": [
+            { "criterion": "Identifies a structural feature accurately (opening focus, shift, zoom, motif, withholding, ending)", "marks": 1, "keywords": [ ["opening", "shift", "zoom", "motif", "narrow"] ] },
+            { "criterion": "Refers to a specific part of the text with a quotation or precise reference", "marks": 1, "keywords": [ ["heat", "pier", "boat", "ninth", "storm"] ] },
+            { "criterion": "Explains an effect on the reader using analytical language", "marks": 1, "keywords": [ ["reader", "creates", "suggests", "sense of", "makes us"] ] },
+            { "criterion": "Comments on the wide opening focus on the heat and the stalled town and its effect (stillness, pressure)", "marks": 1, "keywords": [ ["wide", "town", "still", "lid", "begin"] ] },
+            { "criterion": "Explains the narrowing of focus to Daniel on the harbour wall, making the story personal", "marks": 1, "keywords": [ ["daniel", "personal", "individual", "harbour", "wall"] ] },
+            { "criterion": "Analyses the counted boats and the ninth, empty boat as a repeated focus or a withheld explanation", "marks": 1, "keywords": [ ["ninth", "father", "withh", "repeat", "count"] ] },
+            { "criterion": "Comments on short sentences or paragraphs and the time shifts (evening, night) and their effect on pace or tension", "marks": 1, "keywords": [ ["short", "time", "pace", "tension", "evening"] ] },
+            { "criterion": "Analyses the ending (the storm breaks, everyone but Daniel goes to the window) as a contrast with the opening or a reversal", "marks": 1, "keywords": [ ["ending", "storm", "window", "contrast", "final"] ] }
+          ]
         }
       ]
     }
