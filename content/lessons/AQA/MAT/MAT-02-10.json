@@ -566,6 +566,207 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P12",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Complete the table for $y = x^2 + 3x - 2$: what is the value of $y$ when $x = -2$?",
+          "hint": "$(-2)^2 = 4$ and $3 \\times (-2) = -6$.",
+          "explanation": "$4 - 6 - 2 = -4$.",
+          "answers": [
+            {
+              "numeric": -4,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A quadratic graph crosses the $x$-axis at $x = -1$ and $x = 7$. What is the equation of its line of symmetry?",
+          "hint": "The line of symmetry is a vertical line exactly halfway between the two roots.",
+          "explanation": "Halfway between −1 and 7 is $\\dfrac{-1 + 7}{2} = 3$, so the line of symmetry is $x = 3$.",
+          "options": [
+            {
+              "text": "x = 3",
+              "correct": true
+            },
+            {
+              "text": "x = 4",
+              "correct": false,
+              "feedback": "4 is half the distance between the roots, not the midpoint. Add the roots and halve."
+            },
+            {
+              "text": "y = 3",
+              "correct": false,
+              "feedback": "A parabola's line of symmetry is vertical, so its equation is $x = $ a number."
+            },
+            {
+              "text": "x = 6",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "The graph of $y = x^2 + 4x + 1$ has its minimum point at (−2, −3). Find the **minimum value of $y$** on the graph of $y = x^2 + 4x - 6$.",
+          "hint": "Compare the two equations: only the constant has changed. How far has the curve moved?",
+          "explanation": "The constant changes from $+1$ to $-6$, a decrease of 7, so the whole curve moves down 7 and the minimum value is $-3 - 7 = -10$. Equivalently, $x^2 + 4x - 6 = (x + 2)^2 - 10$.",
+          "answers": [
+            {
+              "numeric": -10,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P15",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each of these four equations to the shape of the graph it produces.",
+          "hint": "Look at the highest power of $x$, the sign in front of it, and whether $x$ is in a denominator or a power.",
+          "explanation": "$y = x^2 - 4$: positive $x^2$, a u-shaped parabola with minimum at (0, −4). $y = 2 - x^3$: negative $x^3$, an S-shaped cubic that falls from top-left to bottom-right through (0, 2). $y = -\\frac{4}{x}$: reciprocal graph with two branches in the top-left and bottom-right regions. $y = 3^x$: exponential through (0, 1), always above the $x$-axis.",
+          "pairs": [
+            {
+              "left": "y = x² − 4",
+              "right": "u-shaped curve with a minimum point at (0, −4)"
+            },
+            {
+              "left": "y = 2 − x³",
+              "right": "S-shaped curve falling from top-left to bottom-right through (0, 2)"
+            },
+            {
+              "left": "y = −4/x",
+              "right": "Two separate branches, top-left and bottom-right, that never touch the axes"
+            },
+            {
+              "left": "y = 3ˣ",
+              "right": "Curve through (0, 1) that flattens towards the x-axis on the left and rises steeply on the right"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P16",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Work out the value of $y$ on the graph of $y = x^3 + 4x$ when $x = -2$.",
+          "hint": "$(-2)^3 = -8$ and $4 \\times (-2) = -8$.",
+          "explanation": "$-8 + (-8) = -16$.",
+          "answers": [
+            {
+              "numeric": -16,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P17",
+          "type": "MultipleChoice",
+          "difficulty": 4,
+          "marks": 1,
+          "text": "The graph of $y = x^2 - 3x + 1$ has been drawn. Which straight line should be drawn on the same axes to solve $x^2 - 5x + 4 = 0$?",
+          "hint": "Rearrange $x^2 - 5x + 4 = 0$ so that the left-hand side becomes $x^2 - 3x + 1$. What must be added to both sides?",
+          "explanation": "Add $2x$ to both sides and subtract 3: $x^2 - 3x + 1 = 2x - 3$. So draw $y = 2x - 3$. Check: $x^2 - 3x + 1 - (2x - 3) = x^2 - 5x + 4$ ✓.",
+          "options": [
+            {
+              "text": "y = 2x − 3",
+              "correct": true
+            },
+            {
+              "text": "y = 2x + 3",
+              "correct": false,
+              "feedback": "Check the constant: $1 - 4 = -3$, so the line must have intercept −3."
+            },
+            {
+              "text": "y = −2x + 3",
+              "correct": false
+            },
+            {
+              "text": "y = −2x − 3",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-10-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "The curve $y = x^2 - 4x - 12$ is to be sketched.\n\n(a) Write down the coordinates of the point where the curve crosses the $y$-axis.\n\n(b) Find the values of $x$ where the curve crosses the $x$-axis.\n\n(c) Find the coordinates of the turning point of the curve.",
+          "hint": "(a) Substitute $x = 0$. (b) Factorise: two numbers that multiply to −12 and add to −4. (c) The turning point is on the line of symmetry, midway between the roots.",
+          "explanation": "(a) (0, −12). (b) $(x - 6)(x + 2) = 0$, so $x = 6$ and $x = -2$. (c) Line of symmetry $x = \\dfrac{6 + (-2)}{2} = 2$; $y = 4 - 8 - 12 = -16$. Turning point (2, −16).",
+          "markScheme": [
+            {
+              "criterion": "y-intercept (0, −12)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "-12",
+                  "−12"
+                ]
+              ]
+            },
+            {
+              "criterion": "Factorises to (x − 6)(x + 2) or equivalent working",
+              "marks": 1,
+              "keywords": [
+                [
+                  "(x - 6)(x + 2)",
+                  "(x-6)(x+2)",
+                  "(x + 2)(x - 6)",
+                  "(x+2)(x-6)",
+                  "factoris"
+                ]
+              ]
+            },
+            {
+              "criterion": "Roots x = 6 and x = −2",
+              "marks": 1,
+              "keywords": [
+                [
+                  "6",
+                  "6.0"
+                ],
+                [
+                  "-2",
+                  "−2"
+                ]
+              ]
+            },
+            {
+              "criterion": "Line of symmetry x = 2 (turning point x-coordinate 2)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "x = 2",
+                  "x=2",
+                  "(2,",
+                  "(2 ,"
+                ]
+              ]
+            },
+            {
+              "criterion": "Turning point y-coordinate −16",
+              "marks": 1,
+              "keywords": [
+                [
+                  "-16",
+                  "−16"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

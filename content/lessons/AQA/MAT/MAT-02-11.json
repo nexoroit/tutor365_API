@@ -537,6 +537,210 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-02-11-L1-P12",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A plumber's charges are shown by a straight-line graph of cost against time. The line crosses the cost axis at £40 and passes through the point (5 hours, £165). Work out the charge per hour in pounds.",
+          "hint": "Gradient = change in cost ÷ change in time. The £40 is the fixed call-out fee.",
+          "explanation": "$(165 - 40) \\div 5 = 125 \\div 5 = 25$. The plumber charges £25 per hour on top of a £40 call-out fee.",
+          "answers": [
+            {
+              "numeric": 25,
+              "tolerance": 0.01,
+              "unit": "£",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-11-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "On a speed-time graph, what does a straight line sloping upwards represent?",
+          "hint": "Think about what is changing: the speed is going up steadily as time passes.",
+          "explanation": "On a speed-time graph the gradient is acceleration. A straight line sloping upwards means the speed increases by the same amount each second: constant acceleration.",
+          "options": [
+            {
+              "text": "The object is accelerating at a constant rate",
+              "correct": true
+            },
+            {
+              "text": "The object is moving at a constant speed",
+              "correct": false,
+              "feedback": "Constant speed is a horizontal line on a speed-time graph."
+            },
+            {
+              "text": "The object is stationary",
+              "correct": false
+            },
+            {
+              "text": "The object is slowing down",
+              "correct": false,
+              "feedback": "Slowing down would be a line sloping downwards."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-11-L1-P14",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A distance-time graph shows a cyclist covering 10.5 km between 08:20 and 08:55 in a straight line. Work out the cyclist's speed in km/h.",
+          "hint": "35 minutes is $\\frac{35}{60}$ hours. Speed = distance ÷ time.",
+          "explanation": "The time taken is 35 minutes $= \\frac{35}{60}$ h. Speed $= 10.5 \\div \\frac{35}{60} = 10.5 \\times \\frac{60}{35} = 18$ km/h.",
+          "answers": [
+            {
+              "numeric": 18,
+              "tolerance": 0,
+              "unit": "km/h",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-11-L1-P15",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A speed-time graph shows a car accelerating uniformly from rest to 24 m/s in 15 seconds, then travelling at 24 m/s for a further 25 seconds. Work out the total distance travelled in metres.",
+          "hint": "Distance is the area under the graph: a triangle for the first part and a rectangle for the second.",
+          "explanation": "Triangle: $\\frac{1}{2} \\times 15 \\times 24 = 180$ m. Rectangle: $25 \\times 24 = 600$ m. Total $= 780$ m.",
+          "answers": [
+            {
+              "numeric": 780,
+              "tolerance": 0,
+              "unit": "m",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-11-L1-P16",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each graph feature to what it tells you.",
+          "hint": "Decide first whether the feature is on a distance-time graph or a speed-time graph, because the same shape means different things on each.",
+          "explanation": "Distance-time: a straight sloping line is constant speed; sloping downwards means distance from the start is decreasing, so the object is heading back. Speed-time: a straight line sloping upwards is constant acceleration, and the area under the graph is the distance travelled.",
+          "pairs": [
+            {
+              "left": "Straight line sloping upwards on a distance-time graph",
+              "right": "Constant speed"
+            },
+            {
+              "left": "Straight line sloping upwards on a speed-time graph",
+              "right": "Constant acceleration"
+            },
+            {
+              "left": "Line sloping downwards on a distance-time graph",
+              "right": "Travelling back towards the start"
+            },
+            {
+              "left": "Area under a speed-time graph",
+              "right": "Distance travelled"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-11-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 4,
+          "marks": 3,
+          "tier": "Higher",
+          "text": "A speed-time curve has readings of 0, 5, 8 and 10 m/s at times 0, 4, 8 and 12 seconds. Use three trapeziums to estimate the distance travelled in the first 12 seconds, in metres.",
+          "hint": "Each trapezium has width 4. Area $= \\frac{1}{2}(a + b) \\times 4$, where $a$ and $b$ are the speeds at each end.",
+          "explanation": "$\\frac{1}{2}(0 + 5)(4) + \\frac{1}{2}(5 + 8)(4) + \\frac{1}{2}(8 + 10)(4) = 10 + 26 + 36 = 72$ m.",
+          "answers": [
+            {
+              "numeric": 72,
+              "tolerance": 0.1,
+              "unit": "m",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-11-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "Leo walks from home to the library. His distance-time graph shows: a straight line from (0 min, 0 km) to (30 min, 2.5 km); a horizontal line from 30 min to 45 min; then a straight line from (45 min, 2.5 km) to (60 min, 4 km).\n\n(a) Work out Leo's speed for the first 30 minutes, in km/h.\n\n(b) Describe what happens between 30 and 45 minutes.\n\n(c) In which section was Leo walking faster, the first or the last? Justify your answer with a calculation.",
+          "hint": "(a) 30 minutes is 0.5 hours. (c) Work out the speed of the last section in km/h too, then compare.",
+          "explanation": "(a) $2.5 \\div 0.5 = 5$ km/h. (b) Horizontal line: Leo is stationary (stopped) for 15 minutes. (c) Last section: 1.5 km in 15 minutes $= 1.5 \\div 0.25 = 6$ km/h. 6 km/h is greater than 5 km/h, so he was walking faster in the last section.",
+          "markScheme": [
+            {
+              "criterion": "Converts 30 minutes to 0.5 hours (or equivalent method)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "0.5",
+                  "1/2",
+                  "half",
+                  "÷ 60",
+                  "/60"
+                ]
+              ]
+            },
+            {
+              "criterion": "Speed = 5 km/h for the first section",
+              "marks": 1,
+              "keywords": [
+                [
+                  "5 km/h",
+                  "5km/h",
+                  "= 5",
+                  "is 5",
+                  "5 kilometres per hour"
+                ]
+              ]
+            },
+            {
+              "criterion": "States Leo is stationary/stopped for 15 minutes",
+              "marks": 1,
+              "keywords": [
+                [
+                  "stationary",
+                  "stopped",
+                  "not moving",
+                  "rest",
+                  "still"
+                ],
+                [
+                  "15",
+                  "15.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Calculates the last section speed as 6 km/h (1.5 km in 15 minutes)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "1.5 ÷ 0.25",
+                  "1.5/0.25",
+                  "1.5 km in 15",
+                  "6 km/h",
+                  "6km/h"
+                ]
+              ]
+            },
+            {
+              "criterion": "Concludes the last section was faster",
+              "marks": 1,
+              "keywords": [
+                [
+                  "last",
+                  "final",
+                  "third"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

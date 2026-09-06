@@ -508,6 +508,172 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-02-13-L1-P12",
+          "type": "FormulaCalculation",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "$f(x) = 6x - 5$. Work out $f(-2)$.",
+          "hint": "Replace every $x$ with −2 and be careful with the signs.",
+          "explanation": "$6(-2) - 5 = -12 - 5 = -17$.",
+          "answers": [
+            {
+              "numeric": -17,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-13-L1-P13",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "$g(x) = x^2 + 7$. Find the positive value of $x$ for which $g(x) = 88$.",
+          "hint": "Set $x^2 + 7 = 88$ and solve for $x^2$ first.",
+          "explanation": "$x^2 + 7 = 88$, so $x^2 = 81$ and $x = 9$ (taking the positive root).",
+          "answers": [
+            {
+              "numeric": 9,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-13-L1-P14",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "$f(x) = 5x - 4$. Find $f^{-1}(x)$. Type your answer like (x-3)/4.",
+          "hint": "Write $y = 5x - 4$, swap $x$ and $y$, then make $y$ the subject.",
+          "explanation": "$x = 5y - 4$, so $5y = x + 4$ and $y = \\dfrac{x + 4}{5}$. $f^{-1}(x) = \\dfrac{x + 4}{5}$.",
+          "answers": [
+            {
+              "text": "(x+4)/5",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-13-L1-P15",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "$f(x) = 2x + 5$ and $g(x) = x^2 - 3$. Work out $fg(3)$.",
+          "hint": "$fg(3)$ means $f(g(3))$: work out $g(3)$ first, then put that answer into $f$.",
+          "explanation": "$g(3) = 9 - 3 = 6$. $f(6) = 12 + 5 = 17$.",
+          "answers": [
+            {
+              "numeric": 17,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-13-L1-P16",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "$f(x) = 2x + 5$ and $g(x) = x^2 - 3$. Find an expression for $gf(x)$, expanded and simplified. Type your answer like 9x^2-6x+3.",
+          "hint": "$gf(x) = g(f(x))$: replace $x$ in $g$ with $(2x + 5)$, giving $(2x + 5)^2 - 3$.",
+          "explanation": "$(2x + 5)^2 - 3 = 4x^2 + 20x + 25 - 3 = 4x^2 + 20x + 22$.",
+          "answers": [
+            {
+              "text": "4x^2+20x+22",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-13-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 4,
+          "marks": 3,
+          "text": "Use the iterative formula $x_{n+1} = \\sqrt{3x_n + 10}$ with $x_0 = 3$ to find $x_2$. Give your answer to 4 decimal places.",
+          "hint": "$x_1 = \\sqrt{3(3) + 10} = \\sqrt{19}$. Keep the full value on your calculator and put it back into the formula.",
+          "explanation": "$x_1 = \\sqrt{19} = 4.3589$. $x_2 = \\sqrt{3(4.3589) + 10} = \\sqrt{23.0767} = 4.8038$.",
+          "answers": [
+            {
+              "numeric": 4.8038,
+              "tolerance": 0.001,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-13-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "(a) Show that the equation $x^3 - 6x - 1 = 0$ has a solution between $x = 2$ and $x = 3$.\n\n(b) Show that the equation can be rearranged to give $x = \\sqrt[3]{6x + 1}$.\n\n(c) Starting with $x_0 = 2$, use the iteration $x_{n+1} = \\sqrt[3]{6x_n + 1}$ to find $x_1$ and $x_2$. Give your answers to 3 decimal places.",
+          "hint": "(a) Substitute $x = 2$ and $x = 3$ into $x^3 - 6x - 1$ and look for a change of sign. (b) Move $6x + 1$ to the other side, then cube root. (c) Use the ANS key so you do not lose accuracy.",
+          "explanation": "(a) $f(2) = 8 - 12 - 1 = -5$ and $f(3) = 27 - 18 - 1 = 8$. There is a change of sign, so a root lies between 2 and 3. (b) $x^3 = 6x + 1$, so $x = \\sqrt[3]{6x + 1}$. (c) $x_1 = \\sqrt[3]{13} = 2.351$; $x_2 = \\sqrt[3]{6(2.3513) + 1} = \\sqrt[3]{15.108} = 2.472$.",
+          "markScheme": [
+            {
+              "criterion": "Evaluates f(2) = −5 and f(3) = 8",
+              "marks": 1,
+              "keywords": [
+                [
+                  "-5",
+                  "−5"
+                ],
+                [
+                  "8",
+                  "8.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "States there is a change of sign so a root lies between 2 and 3",
+              "marks": 1,
+              "keywords": [
+                [
+                  "change of sign",
+                  "changes sign",
+                  "sign change",
+                  "negative to positive"
+                ]
+              ]
+            },
+            {
+              "criterion": "Rearranges to x³ = 6x + 1 and cube roots both sides",
+              "marks": 1,
+              "keywords": [
+                [
+                  "x^3 = 6x + 1",
+                  "x³ = 6x + 1",
+                  "x^3=6x+1",
+                  "x³=6x+1",
+                  "cube root"
+                ]
+              ]
+            },
+            {
+              "criterion": "x₁ = 2.351",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2.351",
+                  "2.3510"
+                ]
+              ]
+            },
+            {
+              "criterion": "x₂ = 2.472",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2.472",
+                  "2.4720"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

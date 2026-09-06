@@ -558,6 +558,224 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-06-05-L1-P12",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A cumulative frequency graph represents 80 values. On the vertical axis, which value should you read across from to find the lower quartile?",
+          "hint": "The lower quartile is one quarter of the way through the data.",
+          "explanation": "$\\frac{1}{4} \\times 80 = 20$.",
+          "answers": [
+            {
+              "numeric": 20,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-05-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "The class $50 \\le t < 60$ has frequency 12 and cumulative frequency 37. Where should its point be plotted on a cumulative frequency graph?",
+          "hint": "The cumulative frequency tells you how many values are below the top of the class.",
+          "explanation": "37 values are less than 60, so plot (60, 37) at the upper class boundary.",
+          "options": [
+            {
+              "text": "(60, 37)",
+              "correct": true
+            },
+            {
+              "text": "(55, 37)",
+              "correct": false,
+              "feedback": "Midpoints are used for frequency polygons and estimated means, not cumulative frequency graphs."
+            },
+            {
+              "text": "(50, 37)",
+              "correct": false,
+              "feedback": "At the lower boundary only the values from earlier classes have been counted."
+            },
+            {
+              "text": "(60, 12)",
+              "correct": false,
+              "feedback": "12 is the class frequency, not the cumulative frequency."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-05-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A box plot has minimum 8, lower quartile 15, median 22, upper quartile 34 and maximum 45. Work out the interquartile range.",
+          "hint": "The interquartile range is the width of the box: upper quartile minus lower quartile.",
+          "explanation": "$34 - 15 = 19$.",
+          "answers": [
+            {
+              "numeric": 19,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-05-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Find the upper quartile of the data set 3, 6, 8, 11, 12, 14, 17, 19, 23, 27, 29.",
+          "hint": "11 values: the median is the 6th value (14). The upper half is the 5 values above it; take the middle one.",
+          "explanation": "Upper half: 17, 19, 23, 27, 29. The middle value is 23.",
+          "answers": [
+            {
+              "numeric": 23,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-05-L1-P16",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A class $5 \\le x < 30$ has frequency 45. Work out its frequency density.",
+          "hint": "Frequency density = frequency ÷ class width; the width here is $30 - 5$.",
+          "explanation": "$45 \\div 25 = 1.8$.",
+          "answers": [
+            {
+              "numeric": 1.8,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-05-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "On a histogram, the bar for the class $15 \\le x < 40$ has a frequency density of 2.2. How many values are in this class?",
+          "hint": "Frequency = frequency density × class width. The width is 25.",
+          "explanation": "$2.2 \\times 25 = 55$.",
+          "answers": [
+            {
+              "numeric": 55,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-05-L1-P18",
+          "type": "FormulaCalculation",
+          "difficulty": 4,
+          "marks": 3,
+          "text": "A histogram bar covers the class $20 \\le x < 60$ with frequency density 1.6. Estimate how many values lie between 20 and 35.",
+          "hint": "Only part of the bar is needed: its width is $35 - 20 = 15$. Multiply that width by the frequency density.",
+          "explanation": "$1.6 \\times 15 = 24$.",
+          "answers": [
+            {
+              "numeric": 24,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-05-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 5,
+          "marks": 6,
+          "examStyle": true,
+          "text": "The table shows the times, in minutes, taken by 160 people to finish a 5 km fun run.\n\n| Time $t$ | Frequency |\n|---|---|\n| $15 \\le t < 20$ | 24 |\n| $20 \\le t < 25$ | 40 |\n| $25 \\le t < 30$ | 48 |\n| $30 \\le t < 40$ | 32 |\n| $40 \\le t < 60$ | 16 |\n\n(a) Complete the cumulative frequencies for the five classes.\n\n(b) State the coordinates of the point you would plot for the class $25 \\le t < 30$.\n\n(c) Work out the frequency density for the class $40 \\le t < 60$.\n\n(d) A box plot for a rival fun run shows a median of 31 minutes and an interquartile range of 12 minutes. From your cumulative frequency graph the median for this run is about 27 minutes and the IQR about 10 minutes. Compare the finishing times of the two runs.",
+          "hint": "(a) Keep a running total. (b) Upper class boundary against cumulative frequency. (c) Frequency ÷ class width. (d) One comparison of average, one of spread, both in context.",
+          "explanation": "(a) 24, 64, 112, 144, 160. (b) (30, 112). (c) $16 \\div 20 = 0.8$. (d) People in this run finished more quickly on average (median 27 < 31), and their times were more consistent (IQR 10 < 12).",
+          "markScheme": [
+            {
+              "criterion": "Cumulative frequencies 24, 64, 112, 144, 160",
+              "marks": 1,
+              "keywords": [
+                [
+                  "64",
+                  "64.0"
+                ],
+                [
+                  "112",
+                  "112.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Final cumulative frequency 160 (matching the total)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "160",
+                  "160.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Point (30, 112) plotted at the upper boundary",
+              "marks": 1,
+              "keywords": [
+                [
+                  "(30, 112)",
+                  "(30,112)"
+                ]
+              ]
+            },
+            {
+              "criterion": "Frequency density = 16 ÷ 20 = 0.8",
+              "marks": 1,
+              "keywords": [
+                [
+                  "0.8",
+                  "0.80",
+                  "4/5",
+                  "density 0.8"
+                ]
+              ]
+            },
+            {
+              "criterion": "Compares medians in context: this run's finishers were quicker on average",
+              "marks": 1,
+              "keywords": [
+                [
+                  "less time",
+                  "shorter",
+                  "lower",
+                  "quicker",
+                  "faster"
+                ],
+                [
+                  "average",
+                  "median"
+                ]
+              ]
+            },
+            {
+              "criterion": "Compares IQRs in context: this run's times are more consistent / less spread",
+              "marks": 1,
+              "keywords": [
+                [
+                  "consistent",
+                  "spread",
+                  "varied",
+                  "vary"
+                ],
+                [
+                  "iqr",
+                  "interquartile",
+                  "10",
+                  "12"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

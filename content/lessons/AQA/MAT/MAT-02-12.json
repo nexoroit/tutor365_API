@@ -517,6 +517,188 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Simplify fully $\\dfrac{x^2 - 9}{x^2 - 3x}$.",
+          "hint": "The numerator is a difference of two squares. Take out the common factor $x$ in the denominator, then cancel.",
+          "explanation": "$\\dfrac{(x - 3)(x + 3)}{x(x - 3)} = \\dfrac{x + 3}{x}$.",
+          "options": [
+            {
+              "text": "(x + 3)/x",
+              "correct": true
+            },
+            {
+              "text": "3/x",
+              "correct": false,
+              "feedback": "You cannot cancel $x^2$ from the top and bottom; $x^2$ is a term, not a factor of the whole expression."
+            },
+            {
+              "text": "(x − 3)/x",
+              "correct": false
+            },
+            {
+              "text": "x + 3",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P13",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Simplify fully $\\dfrac{x^2 - 16}{x^2 + 9x + 20}$. Type your answer like (x+1)/(x-2).",
+          "hint": "Factorise both: the top is a difference of two squares, the bottom needs two numbers that multiply to 20 and add to 9.",
+          "explanation": "$\\dfrac{(x - 4)(x + 4)}{(x + 4)(x + 5)} = \\dfrac{x - 4}{x + 5}$.",
+          "answers": [
+            {
+              "text": "(x-4)/(x+5)",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P14",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Write $\\dfrac{2}{x + 5} + \\dfrac{3}{x - 4}$ as a single fraction in its simplest form. Type your answer like (5x+1)/((x+2)(x-1)).",
+          "hint": "Use the common denominator $(x + 5)(x - 4)$. The numerator becomes $2(x - 4) + 3(x + 5)$.",
+          "explanation": "$\\dfrac{2(x - 4) + 3(x + 5)}{(x + 5)(x - 4)} = \\dfrac{2x - 8 + 3x + 15}{(x + 5)(x - 4)} = \\dfrac{5x + 7}{(x + 5)(x - 4)}$.",
+          "answers": [
+            {
+              "text": "(5x+7)/((x+5)(x-4))",
+              "caseSensitive": false,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Solve $\\dfrac{5}{x + 2} = \\dfrac{2}{x - 4}$.",
+          "hint": "Cross-multiply: $5(x - 4) = 2(x + 2)$, then expand and collect the $x$ terms.",
+          "explanation": "$5x - 20 = 2x + 4$, so $3x = 24$ and $x = 8$. Check: $\\frac{5}{10} = \\frac{2}{4} = \\frac{1}{2}$ ✓.",
+          "answers": [
+            {
+              "numeric": 8,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P16",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each description to the algebraic expression that represents it, where $n$ is any integer.",
+          "hint": "A multiple of 5 is 5 × something. Consecutive even numbers are 2 apart.",
+          "explanation": "Multiple of 5: $5n$. One more than a multiple of 4: $4n + 1$. Consecutive even numbers differ by 2: $2n$ and $2n + 2$. An odd number is $2n + 1$, so its square is $(2n + 1)^2$.",
+          "pairs": [
+            {
+              "left": "Any multiple of 5",
+              "right": "5n"
+            },
+            {
+              "left": "One more than a multiple of 4",
+              "right": "4n + 1"
+            },
+            {
+              "left": "Two consecutive even numbers",
+              "right": "2n and 2n + 2"
+            },
+            {
+              "left": "The square of an odd number",
+              "right": "(2n + 1)²"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P17",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Put the lines of this proof in order. Statement: the sum of any two consecutive odd numbers is always a multiple of 4.",
+          "hint": "Define the numbers with algebra, add them, factorise, then explain why the result is a multiple of 4.",
+          "explanation": "Let the odd numbers be $2n + 1$ and $2n + 3$; their sum is $4n + 4 = 4(n + 1)$; since $n + 1$ is an integer, this is a multiple of 4.",
+          "order": [
+            "Let the two consecutive odd numbers be 2n + 1 and 2n + 3, where n is an integer",
+            "Their sum is (2n + 1) + (2n + 3) = 4n + 4",
+            "Factorise: 4n + 4 = 4(n + 1)",
+            "n + 1 is an integer, so 4(n + 1) is always a multiple of 4"
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-12-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "Prove that the sum of the squares of any two consecutive integers is always an odd number.",
+          "hint": "Let the integers be $n$ and $n + 1$. Expand $(n + 1)^2$, add $n^2$, and write the result as 2 × (something) + 1.",
+          "explanation": "$n^2 + (n + 1)^2 = n^2 + n^2 + 2n + 1 = 2n^2 + 2n + 1 = 2(n^2 + n) + 1$. Since $n^2 + n$ is an integer, $2(n^2 + n)$ is even, so $2(n^2 + n) + 1$ is odd for every integer $n$.",
+          "markScheme": [
+            {
+              "criterion": "Defines consecutive integers as n and n + 1 (or equivalent)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "n + 1",
+                  "n+1",
+                  "n - 1",
+                  "n-1"
+                ]
+              ]
+            },
+            {
+              "criterion": "Expands (n + 1)² correctly as n² + 2n + 1",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2n + 1",
+                  "2n+1"
+                ]
+              ]
+            },
+            {
+              "criterion": "Simplifies the sum to 2n² + 2n + 1",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2n^2 + 2n + 1",
+                  "2n² + 2n + 1",
+                  "2n^2+2n+1",
+                  "2n²+2n+1"
+                ]
+              ]
+            },
+            {
+              "criterion": "Writes as 2(n² + n) + 1 (or 2n(n + 1) + 1) and states this is odd",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2(n^2 + n)",
+                  "2(n² + n)",
+                  "2(n^2+n)",
+                  "2(n²+n)",
+                  "2n(n + 1)"
+                ],
+                [
+                  "odd",
+                  "even + 1",
+                  "even plus 1"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

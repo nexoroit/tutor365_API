@@ -518,6 +518,185 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-02-08-L1-P12",
+          "type": "Matching",
+          "difficulty": 1,
+          "marks": 4,
+          "text": "Match each sequence to the type of sequence it is.",
+          "hint": "Check whether the same number is added, the same number is multiplied, or the previous two terms are added. One is a list of special numbers.",
+          "explanation": "40, 20, 10, 5 halves each time (geometric, ratio $\\frac{1}{2}$). 6, 13, 20, 27 adds 7 (arithmetic). 1, 4, 9, 16, 25 are the square numbers. 4, 5, 9, 14, 23 adds the previous two terms (Fibonacci-type).",
+          "pairs": [
+            {
+              "left": "40, 20, 10, 5, …",
+              "right": "Geometric"
+            },
+            {
+              "left": "6, 13, 20, 27, …",
+              "right": "Arithmetic"
+            },
+            {
+              "left": "1, 4, 9, 16, 25, …",
+              "right": "Square numbers"
+            },
+            {
+              "left": "4, 5, 9, 14, 23, …",
+              "right": "Fibonacci-type"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-08-L1-P13",
+          "type": "Equation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Find the nth term of the sequence 2, 8, 14, 20, … Type your answer like 5n-1.",
+          "hint": "The common difference is 6. Compare each term with the 6 times table: 6, 12, 18, 24.",
+          "explanation": "The difference is 6, so start with $6n$: 6, 12, 18, 24. Each term of the sequence is 4 less, giving $6n - 4$. Check: $n = 3$ gives $18 - 4 = 14$ ✓.",
+          "answers": [
+            {
+              "text": "6n-4",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-08-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "The nth term of a sequence is $9n + 4$. Which term of the sequence is 202?",
+          "hint": "Set $9n + 4 = 202$ and solve for $n$.",
+          "explanation": "$9n + 4 = 202$, so $9n = 198$ and $n = 22$. 202 is the 22nd term.",
+          "answers": [
+            {
+              "numeric": 22,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-08-L1-P15",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "The nth term of a sequence is $6n - 5$. Which of these numbers is a term of the sequence?",
+          "hint": "Add 5 to each option and check whether the result is a multiple of 6.",
+          "explanation": "$6n - 5 = 151$ gives $6n = 156$, $n = 26$, a whole number, so 151 is the 26th term. For the others $n$ is not a whole number: 92 → $6n = 97$, $n = 16.17$; 130 → $6n = 135$, $n = 22.5$; 200 → $6n = 205$, $n = 34.17$.",
+          "options": [
+            {
+              "text": "151",
+              "correct": true
+            },
+            {
+              "text": "92",
+              "correct": false,
+              "feedback": "$97 \\div 6$ is not a whole number."
+            },
+            {
+              "text": "130",
+              "correct": false,
+              "feedback": "$135 \\div 6 = 22.5$, which is not a whole number."
+            },
+            {
+              "text": "200",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-08-L1-P16",
+          "type": "Equation",
+          "difficulty": 4,
+          "marks": 3,
+          "text": "Find the nth term of the quadratic sequence 4, 14, 30, 52, 80, … Type your answer like 2n^2+n+3.",
+          "hint": "First differences 10, 16, 22, 28; second difference 6, so start with $3n^2$. Then look at what is left over.",
+          "explanation": "The second difference is 6, so $a = 3$ and the rule starts $3n^2$: 3, 12, 27, 48, 75. Subtracting from the sequence leaves 1, 2, 3, 4, 5, which is $n$. nth term $= 3n^2 + n$. Check $n = 4$: $48 + 4 = 52$ ✓.",
+          "answers": [
+            {
+              "text": "3n^2+n",
+              "caseSensitive": false,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-08-L1-P17",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "The nth term of a sequence is $2n^2 + 5n$. Work out the 6th term.",
+          "hint": "Substitute $n = 6$, remembering to square before multiplying by 2.",
+          "explanation": "$2 \\times 36 + 5 \\times 6 = 72 + 30 = 102$.",
+          "answers": [
+            {
+              "numeric": 102,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-08-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "Here are the first four terms of an arithmetic sequence: 5, 14, 23, 32.\n\n(a) Find an expression for the nth term.\n\n(b) Explain whether 400 is a term of the sequence.\n\n(c) The first three terms of a different sequence are 7, 14, 28. The sequence is geometric. Write down the 6th term.",
+          "hint": "(a) The difference is 9. (b) Set the nth term equal to 400 and solve; is $n$ a whole number? (c) Keep multiplying by the same ratio.",
+          "explanation": "(a) Difference 9, so $9n$: 9, 18, 27, 36. Each term is 4 less, so the nth term is $9n - 4$. (b) $9n - 4 = 400$ gives $9n = 404$, $n = 44.89$, not a whole number, so 400 is not a term. (c) The ratio is 2: 7, 14, 28, 56, 112, 224. The 6th term is 224.",
+          "markScheme": [
+            {
+              "criterion": "nth term 9n − 4",
+              "marks": 1,
+              "keywords": [
+                [
+                  "9n - 4",
+                  "9n-4",
+                  "9n − 4",
+                  "-4 + 9n",
+                  "-4+9n"
+                ]
+              ]
+            },
+            {
+              "criterion": "Sets 9n − 4 = 400 and finds n is not a whole number (n ≈ 44.9)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "44.",
+                  "404",
+                  "not a whole",
+                  "not an integer",
+                  "not whole"
+                ]
+              ]
+            },
+            {
+              "criterion": "Concludes 400 is not a term",
+              "marks": 1,
+              "keywords": [
+                [
+                  "not a term",
+                  "not in the sequence",
+                  "isn't a term",
+                  "is not"
+                ]
+              ]
+            },
+            {
+              "criterion": "6th term of the geometric sequence is 224",
+              "marks": 1,
+              "keywords": [
+                [
+                  "224",
+                  "224.0"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

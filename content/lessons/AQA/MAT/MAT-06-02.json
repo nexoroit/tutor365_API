@@ -567,6 +567,219 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P12",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 2,
+          "text": "Find the median of 18, 6, 13, 21, 10, 8, 16, 11, 14.",
+          "hint": "Put the numbers in order first. There are 9 values, so the median is the 5th one.",
+          "explanation": "In order: 6, 8, 10, 11, 13, 14, 16, 18, 21. The 5th value is 13.",
+          "answers": [
+            {
+              "numeric": 13,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P13",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "The mean of five numbers is 7.2. Four of the numbers are 4, 6, 9 and 10. Find the fifth number.",
+          "hint": "The total of all five numbers is $5 \\times 7.2$.",
+          "explanation": "Total $= 5 \\times 7.2 = 36$. $36 - 4 - 6 - 9 - 10 = 7$.",
+          "answers": [
+            {
+              "numeric": 7,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P14",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "The number of goals a hockey team scored in each of 20 matches: 0 goals (frequency 3), 1 goal (frequency 6), 2 goals (frequency 7), 3 goals (frequency 3), 4 goals (frequency 1). Calculate the mean number of goals per match.",
+          "hint": "Total goals $= 0 \\times 3 + 1 \\times 6 + 2 \\times 7 + 3 \\times 3 + 4 \\times 1$; then divide by 20.",
+          "explanation": "$0 + 6 + 14 + 9 + 4 = 33$. Mean $= 33 \\div 20 = 1.65$.",
+          "answers": [
+            {
+              "numeric": 1.65,
+              "tolerance": 0.005,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Using the same data (0 goals: 3, 1 goal: 6, 2 goals: 7, 3 goals: 3, 4 goals: 1; 20 matches), find the median number of goals.",
+          "hint": "20 values, so the median is halfway between the 10th and 11th values. Count up through the frequencies.",
+          "explanation": "The first 3 values are 0; values 4 to 9 are 1; values 10 to 16 are 2. Both the 10th and 11th values are 2, so the median is 2.",
+          "answers": [
+            {
+              "numeric": 2,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P16",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Times taken by 40 people to complete a puzzle: $0 \\le t < 10$ min (frequency 5), $10 \\le t < 20$ (frequency 12), $20 \\le t < 30$ (frequency 15), $30 \\le t < 40$ (frequency 8). Estimate the mean time in minutes.",
+          "hint": "Use the midpoints 5, 15, 25 and 35, multiply each by its frequency, add, then divide by 40.",
+          "explanation": "$5(5) + 12(15) + 15(25) + 8(35) = 25 + 180 + 375 + 280 = 860$. Mean $\\approx 860 \\div 40 = 21.5$ minutes.",
+          "answers": [
+            {
+              "numeric": 21.5,
+              "tolerance": 0.1,
+              "unit": "min",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P17",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "For the puzzle-time data above, which is the modal class?",
+          "hint": "The modal class is the group with the largest frequency, written as the class itself.",
+          "explanation": "The class $20 \\le t < 30$ has the highest frequency, 15.",
+          "options": [
+            {
+              "text": "20 ≤ t < 30",
+              "correct": true
+            },
+            {
+              "text": "10 ≤ t < 20",
+              "correct": false
+            },
+            {
+              "text": "15",
+              "correct": false,
+              "feedback": "15 is the frequency of the modal class, not the class itself."
+            },
+            {
+              "text": "25",
+              "correct": false,
+              "feedback": "25 is the midpoint of the modal class; the answer should be the whole class."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P18",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Match each situation to the average that would be most sensible to use.",
+          "hint": "Extreme values distort the mean; categories can only have a mode.",
+          "explanation": "Most popular meal: mode (it is the most common category). Salaries with one very high earner: median (not distorted by the outlier). Rainfall with no extremes: mean (uses every value).",
+          "pairs": [
+            {
+              "left": "The most popular meal choice in a school canteen",
+              "right": "Mode"
+            },
+            {
+              "left": "Typical salary at a company where the owner earns far more than everyone else",
+              "right": "Median"
+            },
+            {
+              "left": "Average daily rainfall over 30 days with no unusual values",
+              "right": "Mean"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-02-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "The journey times, in minutes, of 40 commuters using bus company A are grouped: $0 \\le t < 10$ (frequency 6), $10 \\le t < 20$ (frequency 15), $20 \\le t < 30$ (frequency 12), $30 \\le t < 50$ (frequency 7).\n\n(a) Write down the modal class.\n\n(b) Calculate an estimate of the mean journey time.\n\n(c) For bus company B the estimated mean journey time was 23.5 minutes and the range was 22 minutes. The range for company A was 45 minutes. Compare the journey times of the two companies.",
+          "hint": "(b) Midpoints 5, 15, 25, 40. (c) Make two statements: one about the average, one about the spread, both in context.",
+          "explanation": "(a) $10 \\le t < 20$. (b) $6(5) + 15(15) + 12(25) + 7(40) = 30 + 225 + 300 + 280 = 835$; mean $\\approx 835 \\div 40 = 20.875 \\approx 20.9$ minutes. (c) Company A has a shorter mean journey time (20.9 < 23.5), so its journeys are quicker on average; but its range is larger (45 > 22), so its journey times are less consistent.",
+          "markScheme": [
+            {
+              "criterion": "Modal class 10 ≤ t < 20",
+              "marks": 1,
+              "keywords": [
+                [
+                  "10 ≤ t < 20",
+                  "10 <= t < 20",
+                  "10 to 20",
+                  "10-20",
+                  "10 – 20"
+                ]
+              ]
+            },
+            {
+              "criterion": "Uses midpoints 5, 15, 25, 40 and finds total 835",
+              "marks": 1,
+              "keywords": [
+                [
+                  "835",
+                  "835.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Estimated mean 20.875 minutes (accept 20.9 or 20.88)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "20.875",
+                  "20.9",
+                  "20.88"
+                ]
+              ]
+            },
+            {
+              "criterion": "Compares means in context: company A quicker / shorter on average",
+              "marks": 1,
+              "keywords": [
+                [
+                  "shorter",
+                  "lower",
+                  "less",
+                  "quicker",
+                  "faster"
+                ],
+                [
+                  "average",
+                  "mean"
+                ]
+              ]
+            },
+            {
+              "criterion": "Compares ranges in context: company A less consistent / more spread out",
+              "marks": 1,
+              "keywords": [
+                [
+                  "consistent",
+                  "spread",
+                  "varied",
+                  "vary"
+                ],
+                [
+                  "range",
+                  "45",
+                  "22"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

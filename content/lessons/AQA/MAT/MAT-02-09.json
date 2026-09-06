@@ -533,6 +533,208 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-02-09-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which of these points lies on the line $y = 5 - 2x$?",
+          "hint": "Substitute the $x$-coordinate into $5 - 2x$ and see whether you get the $y$-coordinate.",
+          "explanation": "For (3, −1): $5 - 6 = -1$ ✓. For (1, 2): $5 - 2 = 3$, not 2. For (0, −5): $5 - 0 = 5$, not −5. For (2, 0): $5 - 4 = 1$, not 0.",
+          "options": [
+            {
+              "text": "(3, −1)",
+              "correct": true
+            },
+            {
+              "text": "(1, 2)",
+              "correct": false
+            },
+            {
+              "text": "(0, −5)",
+              "correct": false,
+              "feedback": "At $x = 0$, $y = 5$: the $y$-intercept is +5, not −5."
+            },
+            {
+              "text": "(2, 0)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-09-L1-P13",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Find the gradient of the line through (−3, −4) and (5, 2). Give your answer as a decimal.",
+          "hint": "Gradient $= \\dfrac{y_2 - y_1}{x_2 - x_1}$. Subtracting a negative number means adding.",
+          "explanation": "$\\dfrac{2 - (-4)}{5 - (-3)} = \\dfrac{6}{8} = \\dfrac{3}{4} = 0.75$.",
+          "answers": [
+            {
+              "numeric": 0.75,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-09-L1-P14",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Match each equation to its gradient and $y$-intercept.",
+          "hint": "Get $y$ on its own first, so the equation reads $y = mx + c$.",
+          "explanation": "$y = 6 - 2x$: gradient −2, intercept 6. $3y = 6x - 9$ gives $y = 2x - 3$: gradient 2, intercept −3. $4x + 2y = 6$ gives $2y = -4x + 6$, so $y = -2x + 3$: gradient −2, intercept 3.",
+          "pairs": [
+            {
+              "left": "y = 6 − 2x",
+              "right": "gradient −2, y-intercept 6"
+            },
+            {
+              "left": "3y = 6x − 9",
+              "right": "gradient 2, y-intercept −3"
+            },
+            {
+              "left": "4x + 2y = 6",
+              "right": "gradient −2, y-intercept 3"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-09-L1-P15",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Find the equation of the straight line through (1, 7) and (4, 1). Type your answer in the form y=mx+c, like y=2x-3.",
+          "hint": "Gradient first: $\\dfrac{1 - 7}{4 - 1}$. Then substitute one of the points to find $c$.",
+          "explanation": "Gradient $= \\dfrac{1 - 7}{4 - 1} = \\dfrac{-6}{3} = -2$. So $y = -2x + c$; using (1, 7): $7 = -2 + c$, so $c = 9$. Equation: $y = -2x + 9$. Check with (4, 1): $-8 + 9 = 1$ ✓.",
+          "answers": [
+            {
+              "text": "y=-2x+9",
+              "caseSensitive": false,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-09-L1-P16",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Select **all** the lines that are parallel to $y = 2x - 3$.",
+          "hint": "Parallel lines have the same gradient. Rearrange each equation into $y = mx + c$ before comparing.",
+          "explanation": "$y = 2x + 9$ has gradient 2. $3y = 6x - 1$ gives $y = 2x - \\frac{1}{3}$, gradient 2. Both are parallel to $y = 2x - 3$. $y = -2x + 3$ has gradient −2, and $2y = x + 4$ gives $y = 0.5x + 2$, gradient 0.5, so neither is parallel.",
+          "options": [
+            {
+              "text": "y = 2x + 9",
+              "correct": true
+            },
+            {
+              "text": "3y = 6x − 1",
+              "correct": true
+            },
+            {
+              "text": "y = −2x + 3",
+              "correct": false,
+              "feedback": "Gradient −2 is not the same as 2; the sign matters."
+            },
+            {
+              "text": "2y = x + 4",
+              "correct": false,
+              "feedback": "Dividing by 2 gives gradient 0.5, not 2."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-09-L1-P17",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "tier": "Higher",
+          "text": "Write down the gradient of a line perpendicular to $y = -5x + 2$. Give your answer as a decimal.",
+          "hint": "Perpendicular gradients multiply to give −1. Flip the fraction and change the sign.",
+          "explanation": "The negative reciprocal of −5 is $\\frac{1}{5} = 0.2$. Check: $-5 \\times 0.2 = -1$ ✓.",
+          "answers": [
+            {
+              "numeric": 0.2,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-02-09-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "Line L passes through the points P(−2, 9) and Q(2, 1).\n\n(a) Find the equation of line L in the form $y = mx + c$.\n\n(b) Line M is parallel to L and passes through (0, 3). Write down the equation of M.\n\n(c) Find the midpoint of PQ.",
+          "hint": "(a) Gradient $= \\dfrac{1 - 9}{2 - (-2)}$. (b) Parallel means the same gradient; the point given is on the $y$-axis. (c) Average the $x$-coordinates and average the $y$-coordinates.",
+          "explanation": "(a) Gradient $= \\dfrac{1 - 9}{2 - (-2)} = \\dfrac{-8}{4} = -2$. Using (2, 1): $1 = -4 + c$, so $c = 5$; $y = -2x + 5$. (b) Same gradient, $y$-intercept 3: $y = -2x + 3$. (c) Midpoint $= \\left(\\frac{-2 + 2}{2}, \\frac{9 + 1}{2}\\right) = (0, 5)$.",
+          "markScheme": [
+            {
+              "criterion": "Gradient of L = −2",
+              "marks": 1,
+              "keywords": [
+                [
+                  "gradient -2",
+                  "gradient = -2",
+                  "gradient is -2",
+                  "m = -2",
+                  "m=-2"
+                ]
+              ]
+            },
+            {
+              "criterion": "Equation of L: y = −2x + 5",
+              "marks": 1,
+              "keywords": [
+                [
+                  "y = -2x + 5",
+                  "y=-2x+5",
+                  "-2x + 5",
+                  "-2x+5",
+                  "−2x + 5"
+                ]
+              ]
+            },
+            {
+              "criterion": "Equation of M: y = −2x + 3",
+              "marks": 1,
+              "keywords": [
+                [
+                  "-2x + 3",
+                  "-2x+3",
+                  "−2x + 3"
+                ]
+              ]
+            },
+            {
+              "criterion": "Midpoint x-coordinate 0",
+              "marks": 1,
+              "keywords": [
+                [
+                  "(0,",
+                  "(0 ,",
+                  "x = 0",
+                  "0, 5"
+                ]
+              ]
+            },
+            {
+              "criterion": "Midpoint y-coordinate 5",
+              "marks": 1,
+              "keywords": [
+                [
+                  ", 5)",
+                  ",5)",
+                  "y = 5",
+                  "0, 5"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

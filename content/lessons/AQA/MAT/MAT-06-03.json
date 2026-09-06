@@ -566,6 +566,208 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P12",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "In a pictogram, one symbol represents 8 cars. Friday shows 2 and three-quarter symbols. How many cars were sold on Friday?",
+          "hint": "Three-quarters of a symbol is worth three-quarters of 8.",
+          "explanation": "$2.75 \\times 8 = 22$ cars.",
+          "answers": [
+            {
+              "numeric": 22,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P13",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A survey of 90 people asked their favourite fruit. 24 said apple. Work out the angle for apple on a pie chart.",
+          "hint": "Each person is worth $360 \\div 90 = 4°$.",
+          "explanation": "$\\frac{24}{90} \\times 360 = 24 \\times 4 = 96°$.",
+          "answers": [
+            {
+              "numeric": 96,
+              "tolerance": 0,
+              "unit": "°",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P14",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A pie chart shows where 240 visitors to a town went first. The angle for \"museum\" is 75°. How many visitors went to the museum first?",
+          "hint": "$\\frac{75}{360} \\times 240$.",
+          "explanation": "$75 \\div 360 = 0.2083$; $0.2083 \\times 240 = 50$. Alternatively each visitor is worth $1.5°$, and $75 \\div 1.5 = 50$.",
+          "answers": [
+            {
+              "numeric": 50,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A stem-and-leaf diagram (key: 2 | 3 means 23) has rows: 2 | 3 5 8; 3 | 1 1 4 7 9; 4 | 0 2 6; 5 | 3. Find the median.",
+          "hint": "Count the leaves: 12 values, so the median is halfway between the 6th and 7th values.",
+          "explanation": "Values in order: 23, 25, 28, 31, 31, 34, 37, 39, 40, 42, 46, 53. The 6th is 34 and the 7th is 37, so the median is $\\frac{34 + 37}{2} = 35.5$.",
+          "answers": [
+            {
+              "numeric": 35.5,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P16",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Using the same stem-and-leaf diagram (rows 2 | 3 5 8; 3 | 1 1 4 7 9; 4 | 0 2 6; 5 | 3), find the range.",
+          "hint": "The smallest value is in the first row and the largest is in the last row.",
+          "explanation": "$53 - 23 = 30$.",
+          "answers": [
+            {
+              "numeric": 30,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P17",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A frequency polygon is being drawn. The class $40 \\le m < 50$ has frequency 11. Where should its point be plotted?",
+          "hint": "Points on a frequency polygon go at the middle of each class, with frequency on the vertical axis.",
+          "explanation": "The midpoint of 40 and 50 is 45, so plot (45, 11).",
+          "options": [
+            {
+              "text": "At (45, 11)",
+              "correct": true
+            },
+            {
+              "text": "At (40, 11)",
+              "correct": false,
+              "feedback": "That is the lower class boundary; use the midpoint."
+            },
+            {
+              "text": "At (50, 11)",
+              "correct": false,
+              "feedback": "The upper boundary is used for cumulative frequency graphs, not frequency polygons."
+            },
+            {
+              "text": "At (11, 45)",
+              "correct": false,
+              "feedback": "The frequency belongs on the vertical axis, so the coordinates are the wrong way round."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P18",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A two-way table shows 120 students. 52 are in Year 10 and the rest are in Year 11. 45 students walk to school, of whom 19 are in Year 10. How many Year 11 students do **not** walk to school?",
+          "hint": "Find the number of Year 11 students, then the number of Year 11 walkers ($45 - 19$), and subtract.",
+          "explanation": "Year 11 students $= 120 - 52 = 68$. Year 11 walkers $= 45 - 19 = 26$. Year 11 non-walkers $= 68 - 26 = 42$.",
+          "answers": [
+            {
+              "numeric": 42,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-03-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 3,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A youth club surveyed its 90 members about their favourite activity. The results were: football 30, swimming 20, drama 25, crafts 15.\n\n(a) Work out the angle for each activity on a pie chart.\n\n(b) A second youth club with 240 members drew a pie chart in which the angle for football was 60°. Mia says: \"Football is more popular at the first club because its angle is bigger.\" Is Mia right? Explain your answer with a calculation.",
+          "hint": "(a) Each member is worth $360 \\div 90 = 4°$. (b) Work out how many members of the second club chose football and compare the numbers.",
+          "explanation": "(a) Football $30 \\times 4 = 120°$; swimming $80°$; drama $100°$; crafts $60°$. (b) At the second club, $\\frac{60}{360} \\times 240 = 40$ members chose football, compared with 30 at the first club. So more members chose football at the second club: a bigger angle shows a bigger proportion, not a bigger number, because the clubs have different totals. Mia is wrong.",
+          "markScheme": [
+            {
+              "criterion": "Football angle 120°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "120",
+                  "120.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Swimming 80°, drama 100°, crafts 60°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "80",
+                  "80.0"
+                ],
+                [
+                  "100",
+                  "100.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Calculates 40 members at the second club",
+              "marks": 1,
+              "keywords": [
+                [
+                  "40",
+                  "40.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "States Mia is wrong: more members (40 > 30) chose football at the second club",
+              "marks": 1,
+              "keywords": [
+                [
+                  "wrong",
+                  "not right",
+                  "incorrect",
+                  "no"
+                ],
+                [
+                  "40",
+                  "more members",
+                  "more people",
+                  "more students"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explains that pie charts show proportions, not numbers, so angles cannot be compared directly when totals differ",
+              "marks": 1,
+              "keywords": [
+                [
+                  "proportion",
+                  "fraction",
+                  "percentage",
+                  "different total",
+                  "different number"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

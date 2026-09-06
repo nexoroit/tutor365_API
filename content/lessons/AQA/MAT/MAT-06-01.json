@@ -612,6 +612,230 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-06-01-L1-P12",
+          "type": "Matching",
+          "difficulty": 1,
+          "marks": 3,
+          "text": "Match each piece of data to the type of data it is.",
+          "hint": "Words describe categories. For numbers, ask whether they are counted in whole units or measured on a scale.",
+          "explanation": "Type of pet is a category (qualitative). Goals scored are counted in whole numbers (discrete). Time taken is measured and can take any value (continuous).",
+          "pairs": [
+            {
+              "left": "Type of pet",
+              "right": "Qualitative"
+            },
+            {
+              "left": "Number of goals scored in a match",
+              "right": "Quantitative, discrete"
+            },
+            {
+              "left": "Time taken to run 100 m in seconds",
+              "right": "Quantitative, continuous"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-01-L1-P13",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A questionnaire asks: \"How much do you spend on lunch each day?\" with boxes: £0–£2, £2–£4, £4–£6. Select **all** the faults with this question.",
+          "hint": "Check the boundaries of the boxes, and think about someone who spends a lot.",
+          "explanation": "The boxes overlap (£2 and £4 each appear in two boxes), and there is no box for someone who spends more than £6, so the options are not exhaustive. The question gives a time frame (each day) and does not push towards any answer, so those are not faults.",
+          "options": [
+            {
+              "text": "The response boxes overlap",
+              "correct": true
+            },
+            {
+              "text": "There is no box for spending more than £6",
+              "correct": true
+            },
+            {
+              "text": "It is a leading question",
+              "correct": false,
+              "feedback": "The wording does not suggest any particular answer."
+            },
+            {
+              "text": "There is no time frame",
+              "correct": false,
+              "feedback": "The question says \"each day\", so the time frame is clear."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-01-L1-P14",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A council wants to find out what residents think of a proposed new cycle lane. It surveys 40 people at a cycling club meeting. Why might this sample be biased?",
+          "hint": "Think about who goes to a cycling club and what they are likely to think about cycle lanes.",
+          "explanation": "Cycling club members are far more likely than the average resident to support a cycle lane, so their views do not represent the whole town. A random sample of all residents would be fairer.",
+          "options": [
+            {
+              "text": "Cycling club members are more likely to support cycle lanes, so the sample does not represent all residents",
+              "correct": true
+            },
+            {
+              "text": "40 people is far too many to survey",
+              "correct": false,
+              "feedback": "Sample size is not the problem here; who was chosen is."
+            },
+            {
+              "text": "People at meetings never answer honestly",
+              "correct": false
+            },
+            {
+              "text": "Cyclists do not use roads, so they have no opinion",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-01-L1-P15",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Put the steps in order to select a simple random sample of 30 pupils from a school of 1200.",
+          "hint": "You need a numbered list before you can use random numbers, and you must deal with repeats before choosing the pupils.",
+          "explanation": "Obtain and number the full list, generate random numbers in the range, discard repeats until there are 30 different numbers, then select those pupils.",
+          "order": [
+            "Obtain a list of all 1200 pupils and give each one a number from 1 to 1200",
+            "Use a random number generator to produce numbers between 1 and 1200",
+            "Discard any repeated numbers and keep going until there are 30 different numbers",
+            "Select the pupils whose numbers were generated"
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-01-L1-P16",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "tier": "Higher",
+          "text": "A gym has 420 female members and 280 male members. A stratified sample of 50 members is taken. How many male members should be in the sample?",
+          "hint": "$\\frac{280}{700} \\times 50$.",
+          "explanation": "Total members $= 420 + 280 = 700$. $280 \\div 700 = 0.4$; $0.4 \\times 50 = 20$.",
+          "answers": [
+            {
+              "numeric": 20,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-01-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "tier": "Higher",
+          "text": "A warden nets 80 fish in a lake, tags them and returns them to the water. Two weeks later he nets 60 fish, of which 12 are tagged. Estimate the number of fish in the lake.",
+          "hint": "The proportion tagged in the second catch should equal the proportion tagged in the whole lake: $\\frac{12}{60} = \\frac{80}{N}$.",
+          "explanation": "$\\frac{12}{60} = \\frac{1}{5}$, so one fifth of the lake is tagged. $N = \\frac{80 \\times 60}{12} = 400$.",
+          "answers": [
+            {
+              "numeric": 400,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-01-L1-P18",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: in a census, only a randomly chosen part of the population is surveyed.",
+          "hint": "Which word describes surveying part of a population, and which describes surveying all of it?",
+          "explanation": "False. A census surveys every member of the population. Surveying only part of it is taking a sample.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-01-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 3,
+          "marks": 5,
+          "examStyle": true,
+          "text": "Priya wants to find out how often students at her school use the library. She writes this question:\n\n\"Everyone agrees the library is boring, so how rarely do you visit it?\"\n\n☐ 0–2 times a month    ☐ 2–4 times a month    ☐ 4–6 times a month\n\nShe plans to give the questionnaire to the 20 members of her book club.\n\n(a) Write down two criticisms of Priya's question.\n\n(b) Explain one problem with Priya's sample.\n\n(c) The school has 1200 students. Describe how Priya could select a random sample of 60 students.",
+          "hint": "(a) Look at the wording and at the boxes. (b) Are book club members typical library users? (c) Think about numbering and random numbers.",
+          "explanation": "(a) The question is leading (\"everyone agrees the library is boring\", \"how rarely\"); the boxes overlap (2 and 4 each appear twice); there is no box for more than 6 visits a month. (b) Book club members are likely to use the library more than most students, so the sample is biased and not representative; 20 is also a small sample. (c) Number the students from 1 to 1200, use a random number generator to produce 60 different numbers in that range, and survey those students.",
+          "markScheme": [
+            {
+              "criterion": "Identifies the question as leading/biased",
+              "marks": 1,
+              "keywords": [
+                [
+                  "leading",
+                  "bias",
+                  "pushes",
+                  "suggests",
+                  "boring"
+                ]
+              ]
+            },
+            {
+              "criterion": "Identifies overlapping boxes or the missing option for more than 6 visits",
+              "marks": 1,
+              "keywords": [
+                [
+                  "overlap",
+                  "more than 6",
+                  "over 6",
+                  "no box",
+                  "not cover"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explains the sample is biased/not representative (book club members read more) or too small",
+              "marks": 1,
+              "keywords": [
+                [
+                  "not representative",
+                  "bias",
+                  "book club",
+                  "like reading",
+                  "small"
+                ]
+              ]
+            },
+            {
+              "criterion": "Numbers all 1200 students",
+              "marks": 1,
+              "keywords": [
+                [
+                  "number",
+                  "list",
+                  "1 to 1200",
+                  "1-1200"
+                ]
+              ]
+            },
+            {
+              "criterion": "Uses a random number generator (or similar) to pick 60 different numbers",
+              "marks": 1,
+              "keywords": [
+                [
+                  "random number",
+                  "generator",
+                  "calculator",
+                  "hat",
+                  "computer"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

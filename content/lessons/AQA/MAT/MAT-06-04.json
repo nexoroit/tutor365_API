@@ -605,6 +605,240 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P12",
+          "type": "Matching",
+          "difficulty": 1,
+          "marks": 3,
+          "text": "Match each pair of variables to the type of correlation you would expect to see.",
+          "hint": "Ask: as the first variable increases, does the second tend to increase, decrease, or neither?",
+          "explanation": "The further a car is driven, the less fuel is left (negative). Children grow taller as they get older (positive). A house number has nothing to do with how many pets live there (none).",
+          "pairs": [
+            {
+              "left": "Distance driven and fuel remaining in the tank",
+              "right": "Negative correlation"
+            },
+            {
+              "left": "Age of a child (up to 15) and height",
+              "right": "Positive correlation"
+            },
+            {
+              "left": "House number and number of pets",
+              "right": "No correlation"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "On a scatter graph of hours of piano practice against the number of mistakes made in a performance, the points slope downwards from top-left to bottom-right but are widely scattered. Which describes the correlation?",
+          "hint": "The direction of the slope gives the sign; how tightly the points cluster gives the strength.",
+          "explanation": "Downward slope means negative; widely scattered points mean the correlation is weak.",
+          "options": [
+            {
+              "text": "Weak negative",
+              "correct": true
+            },
+            {
+              "text": "Strong negative",
+              "correct": false,
+              "feedback": "Widely scattered points show a weak correlation, not a strong one."
+            },
+            {
+              "text": "Weak positive",
+              "correct": false,
+              "feedback": "Positive correlation slopes upwards."
+            },
+            {
+              "text": "No correlation",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P14",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A line of best fit on a scatter graph of a laptop's age (years, $x$) against its resale value (£, $y$) passes through (1, 450) and (5, 170). Estimate the resale value of a laptop that is 3 years old.",
+          "hint": "Gradient $= \\frac{170 - 450}{5 - 1} = -70$ pounds per year.",
+          "explanation": "Gradient −70. From (1, 450), going 2 years on to 3 years reduces the value by $2 \\times 70 = 140$: estimate £310. (3 is also halfway between 1 and 5, so the value is halfway between 450 and 170.)",
+          "answers": [
+            {
+              "numeric": 310,
+              "tolerance": 5,
+              "unit": "£",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P15",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "The laptop data above covers ages from 1 to 6 years. Which estimate from the line of best fit is the **least** reliable?",
+          "hint": "Using the line beyond the range of the plotted data is extrapolation.",
+          "explanation": "12 years is far outside the range of the data (1 to 6 years), so estimating there is extrapolation: the trend may not continue (the value cannot go below zero), so it is unreliable. The other ages are within the range.",
+          "options": [
+            {
+              "text": "Value at 12 years",
+              "correct": true
+            },
+            {
+              "text": "Value at 2 years",
+              "correct": false
+            },
+            {
+              "text": "Value at 4 years",
+              "correct": false
+            },
+            {
+              "text": "Value at 5.5 years",
+              "correct": false,
+              "feedback": "5.5 is still inside the range 1 to 6, so this is interpolation."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P16",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: a negative correlation between two variables proves that an increase in one causes a decrease in the other.",
+          "hint": "Could something else be affecting both variables?",
+          "explanation": "False. Correlation only shows that the variables tend to change together. A third factor could be affecting both, or the link could be coincidence; correlation does not prove causation.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P17",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A student is drawing a line of best fit on a scatter graph. Select **all** the statements that are correct.",
+          "hint": "Think about how the line is drawn and what it can sensibly be used for.",
+          "explanation": "A line of best fit follows the overall trend and can be used to estimate values inside the range of the data. It does not need to go through the first and last points, and it will usually not pass through every point.",
+          "options": [
+            {
+              "text": "It should follow the overall trend of the points",
+              "correct": true
+            },
+            {
+              "text": "It can be used to estimate values within the range of the data",
+              "correct": true
+            },
+            {
+              "text": "It must join the first plotted point to the last plotted point",
+              "correct": false,
+              "feedback": "The line follows the trend of all the points, not two particular ones."
+            },
+            {
+              "text": "Every plotted point should lie on the line",
+              "correct": false,
+              "feedback": "Points are scattered either side of the line; that is normal."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-06-04-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 3,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A scatter graph shows the hours of sleep the night before a test and the reaction time (milliseconds, ms) of 12 students. Hours of sleep range from 4 to 10. The points slope downwards and lie fairly close to a straight line, except one student who slept for 8 hours and had a reaction time of 400 ms, well above the others.\n\n(a) Describe the correlation and what it tells you about sleep and reaction time.\n\n(b) Identify the outlier and explain what you should do with it when drawing a line of best fit.\n\n(c) The line of best fit passes through (4, 340) and (10, 220). Estimate the reaction time of a student who slept for 7 hours.\n\n(d) Explain why the line should not be used to estimate the reaction time of someone who slept for 16 hours.",
+          "hint": "(c) Gradient $= \\frac{220 - 340}{10 - 4} = -20$ ms per hour. (d) Is 16 hours inside the range of the data?",
+          "explanation": "(a) Strong negative correlation: students who slept longer tended to have quicker (lower) reaction times. (b) The outlier is the student with 8 hours of sleep and 400 ms; ignore it when drawing the line of best fit. (c) Gradient −20; from (4, 340), 3 more hours gives $340 - 60 = 280$ ms. (d) 16 hours is outside the range of the data (4 to 10 hours), so this would be extrapolation; the trend may not continue, so the estimate would be unreliable.",
+          "markScheme": [
+            {
+              "criterion": "Strong negative correlation",
+              "marks": 1,
+              "keywords": [
+                [
+                  "negative",
+                  "downward",
+                  "slopes down"
+                ],
+                [
+                  "strong",
+                  "close to a line",
+                  "clear"
+                ]
+              ]
+            },
+            {
+              "criterion": "Interprets: more sleep tends to give quicker / lower reaction times",
+              "marks": 1,
+              "keywords": [
+                [
+                  "more",
+                  "longer",
+                  "increase"
+                ],
+                [
+                  "quicker",
+                  "faster",
+                  "lower",
+                  "shorter",
+                  "decrease"
+                ]
+              ]
+            },
+            {
+              "criterion": "Identifies the (8, 400) student as the outlier and says to ignore it",
+              "marks": 1,
+              "keywords": [
+                [
+                  "400",
+                  "8 hours",
+                  "8 h"
+                ],
+                [
+                  "ignore",
+                  "leave out",
+                  "exclude",
+                  "not include",
+                  "disregard"
+                ]
+              ]
+            },
+            {
+              "criterion": "Estimate about 280 ms (accept 278–282)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "280",
+                  "278",
+                  "279",
+                  "281",
+                  "282"
+                ]
+              ]
+            },
+            {
+              "criterion": "16 hours is outside the data range: extrapolation, so unreliable",
+              "marks": 1,
+              "keywords": [
+                [
+                  "outside",
+                  "beyond",
+                  "extrapolat",
+                  "out of the range"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }
