@@ -89,4 +89,39 @@ public class AuthController : ApiControllerBase
     [HttpGet("me")]
     [ProducesResponseType(typeof(ApiResponse<MeResponse>), StatusCodes.Status200OK)]
     public async Task<IActionResult> Me(CancellationToken ct) => Ok(await _auth.GetMeAsync(ct));
+
+    /// <summary>Update the current user's name, avatar, time zone (and school name for students).</summary>
+    [HttpPut("me")]
+    [ProducesResponseType(typeof(ApiResponse<MeResponse>), StatusCodes.Status200OK)]
+    public async Task<IActionResult> UpdateMe([FromBody] UpdateMeRequest request, CancellationToken ct)
+        => Ok(await _auth.UpdateMeAsync(request, ct), "Profile updated.");
+
+    /// <summary>Start an email change: checks the password and emails a code to the new address.</summary>
+    [HttpPost("change-email/request")]
+    [ProducesResponseType(typeof(ApiResponse<RegisterResponse>), StatusCodes.Status200OK)]
+    public async Task<IActionResult> RequestEmailChange([FromBody] ChangeEmailRequest request, CancellationToken ct)
+    {
+        var res = await _auth.RequestEmailChangeAsync(request, ct);
+        return Ok(res, res.Message);
+    }
+
+    /// <summary>Finish an email change with the code sent to the new address.</summary>
+    [HttpPost("change-email/confirm")]
+    [ProducesResponseType(typeof(ApiResponse<MeResponse>), StatusCodes.Status200OK)]
+    public async Task<IActionResult> ConfirmEmailChange([FromBody] ConfirmEmailChangeRequest request, CancellationToken ct)
+        => Ok(await _auth.ConfirmEmailChangeAsync(request, ct), "Email address updated.");
+
+    /// <summary>Active sign-ins for the current user.</summary>
+    [HttpGet("sessions")]
+    [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<SessionDto>>), StatusCodes.Status200OK)]
+    public async Task<IActionResult> Sessions(CancellationToken ct) => Ok(await _auth.GetSessionsAsync(ct));
+
+    /// <summary>Sign out on every device by revoking all refresh tokens.</summary>
+    [HttpPost("logout-all")]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
+    public async Task<IActionResult> LogoutAll(CancellationToken ct)
+    {
+        await _auth.LogoutAllAsync(ct);
+        return OkMessage("Signed out everywhere.");
+    }
 }

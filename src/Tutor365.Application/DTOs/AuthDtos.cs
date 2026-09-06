@@ -11,6 +11,11 @@ public record LogoutRequest(string? RefreshToken);
 public record ForgotPasswordRequest(string Email);
 public record ResetPasswordRequest(string Email, string Code, string NewPassword);
 public record ChangePasswordRequest(string CurrentPassword, string NewPassword);
+/// <summary>Self-service profile update for any role. Null fields are left unchanged; SchoolName applies to students only.</summary>
+public record UpdateMeRequest(string? FirstName, string? LastName, string? AvatarUrl, string? TimeZone, string? SchoolName);
+public record ChangeEmailRequest(string NewEmail, string CurrentPassword);
+public record ConfirmEmailChangeRequest(string NewEmail, string Code);
+public record SessionDto(Guid Id, DateTime CreatedAt, DateTime ExpiresAt, string? IpAddress, string? UserAgent);
 
 public record UserSummaryDto(
     Guid Id,
@@ -22,7 +27,8 @@ public record UserSummaryDto(
     Guid? ProfileId,
     bool EmailConfirmed,
     bool MustChangePassword,
-    string? AvatarUrl);
+    string? AvatarUrl,
+    string? TimeZone);
 
 public record AuthResponse(
     string AccessToken,

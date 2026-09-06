@@ -270,6 +270,86 @@ public class AuthService : IAuthService
         return new MeResponse(ToSummary(user, ProfileIdOf(user)), student, parent);
     }
 
+    public async Task<MeResponse> UpdateMeAsync(UpdateMeRequest request, CancellationToken ct = default)
+    {
+        var userId = _current.RequireUserId();
+        var user = await _db.Users.Include(u => u.Student).FirstAsync(u => u.Id == userId, ct);
+        if (request.FirstName != null) user.FirstName = request.FirstName.Trim();
+        if (request.LastName != null) user.LastName = request.LastName.Trim();
+        if (request.AvatarUrl != null) user.AvatarUrl = string.IsNullOrWhiteSpace(request.AvatarUrl) ? null : request.AvatarUrl.Trim();
+        if (request.TimeZone != null && !string.IsNullOrWhiteSpace(request.TimeZone)) user.TimeZone = request.TimeZone.Trim();
+        if (request.SchoolName != null && user.Student != null)
+            user.Student.SchoolName = string.IsNullOrWhiteSpace(request.SchoolName) ? null : request.SchoolName.Trim();
+        user.UpdatedAt = DateTime.UtcNow;
+        await _db.SaveChangesAsync(ct);
+        await _audit.LogAsync("Auth.UpdateProfile", "User", user.Id.ToString(), null, true, ct);
+        return await GetMeAsync(ct);
+    }
+
+    public async Task<RegisterResponse> RequestEmailChangeAsync(ChangeEmailRequest request, CancellationToken ct = default)
+    {
+        var userId = _current.RequireUserId();
+        var user = await _db.Users.FirstAsync(u => u.Id == userId, ct);
+        if (!_hasher.Verify(user.PasswordHash, request.CurrentPassword))
+            throw new BusinessRuleException("INVALID_CURRENT_PASSWORD", "The current password is incorrect.");
+
+        var newEmail = request.NewEmail.Trim();
+        var normalized = newEmail.ToUpperInvariant();
+        if (normalized == user.NormalizedEmail)
+            throw new BusinessRuleException("SAME_EMAIL", "That is already the email address on this account.");
+        if (await _db.Users.AnyAsync(u => u.NormalizedEmail == normalized, ct))
+            throw new BusinessRuleException("EMAIL_IN_USE", "That email address is already used by another account.");
+
+        var minutes = await _otp.GenerateAndSendAsync(newEmail, user.FirstName, OtpPurpose.EmailChange, user.Id, ct);
+        await _audit.LogAsync("Auth.EmailChangeRequested", "User", user.Id.ToString(), new { newEmail }, true, ct);
+        return new RegisterResponse(newEmail, true, minutes, $"We sent a 6-digit code to {newEmail}. Enter it to confirm the change.");
+    }
+
+    public async Task<MeResponse> ConfirmEmailChangeAsync(ConfirmEmailChangeRequest request, CancellationToken ct = default)
+    {
+        var userId = _current.RequireUserId();
+        var user = await _db.Users.FirstAsync(u => u.Id == userId, ct);
+        var newEmail = request.NewEmail.Trim();
+        var normalized = newEmail.ToUpperInvariant();
+
+        // The code must have been issued to this user for this exact address.
+        var issued = await _db.OtpCodes.AnyAsync(o => o.Email == normalized && o.Purpose == OtpPurpose.EmailChange && o.UserId == user.Id && o.ConsumedAt == null, ct);
+        if (!issued || !await _otp.ValidateAndConsumeAsync(newEmail, OtpPurpose.EmailChange, request.Code, ct))
+            throw new BusinessRuleException("INVALID_OTP", "That code is not valid or has expired. Request a new one.");
+        if (await _db.Users.AnyAsync(u => u.NormalizedEmail == normalized && u.Id != user.Id, ct))
+            throw new BusinessRuleException("EMAIL_IN_USE", "That email address is already used by another account.");
+
+        var oldEmail = user.Email;
+        user.Email = newEmail;
+        user.NormalizedEmail = normalized;
+        user.EmailConfirmed = true;
+        user.UpdatedAt = DateTime.UtcNow;
+        await _db.SaveChangesAsync(ct);
+        await _audit.LogAsync("Auth.EmailChanged", "User", user.Id.ToString(), new { oldEmail, newEmail }, true, ct);
+        _logger.LogInformation("User {UserId} changed email from {Old} to {New}", user.Id, oldEmail, newEmail);
+        return await GetMeAsync(ct);
+    }
+
+    public async Task<IReadOnlyList<SessionDto>> GetSessionsAsync(CancellationToken ct = default)
+    {
+        var userId = _current.RequireUserId();
+        var now = DateTime.UtcNow;
+        return await _db.RefreshTokens
+            .Where(t => t.UserId == userId && t.RevokedAt == null && t.ExpiresAt > now)
+            .OrderByDescending(t => t.CreatedAt)
+            .Select(t => new SessionDto(t.Id, t.CreatedAt, t.ExpiresAt, t.CreatedByIp, t.UserAgent))
+            .ToListAsync(ct);
+    }
+
+    public async Task LogoutAllAsync(CancellationToken ct = default)
+    {
+        var userId = _current.RequireUserId();
+        var tokens = await _db.RefreshTokens.Where(t => t.UserId == userId && t.RevokedAt == null).ToListAsync(ct);
+        foreach (var t in tokens) t.RevokedAt = DateTime.UtcNow;
+        await _db.SaveChangesAsync(ct);
+        await _audit.LogAsync("Auth.LogoutAll", "User", userId.ToString(), new { revoked = tokens.Count }, true, ct);
+    }
+
     // ---- helpers ----
 
     private async Task<User?> FindUserByEmailAsync(string email, CancellationToken ct)
@@ -314,5 +394,5 @@ public class AuthService : IAuthService
 
     public static UserSummaryDto ToSummary(User user, Guid? profileId) =>
         new(user.Id, user.Email, user.FirstName, user.LastName, user.FullName, user.Role.ToString(), profileId,
-            user.EmailConfirmed, user.MustChangePassword, user.AvatarUrl);
+            user.EmailConfirmed, user.MustChangePassword, user.AvatarUrl, user.TimeZone);
 }

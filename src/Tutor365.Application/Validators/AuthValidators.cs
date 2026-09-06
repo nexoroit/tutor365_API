@@ -79,3 +79,33 @@ public class ChangePasswordRequestValidator : AbstractValidator<ChangePasswordRe
         RuleFor(x => x.NewPassword).StrongPassword();
     }
 }
+
+public class UpdateMeRequestValidator : AbstractValidator<UpdateMeRequest>
+{
+    public UpdateMeRequestValidator()
+    {
+        RuleFor(x => x.FirstName).MaximumLength(100).Must(v => v == null || v.Trim().Length > 0).WithMessage("First name cannot be blank.");
+        RuleFor(x => x.LastName).MaximumLength(100).Must(v => v == null || v.Trim().Length > 0).WithMessage("Last name cannot be blank.");
+        RuleFor(x => x.AvatarUrl).MaximumLength(500);
+        RuleFor(x => x.TimeZone).MaximumLength(64);
+        RuleFor(x => x.SchoolName).MaximumLength(200);
+    }
+}
+
+public class ChangeEmailRequestValidator : AbstractValidator<ChangeEmailRequest>
+{
+    public ChangeEmailRequestValidator()
+    {
+        RuleFor(x => x.NewEmail).NotEmpty().EmailAddress().MaximumLength(256);
+        RuleFor(x => x.CurrentPassword).NotEmpty();
+    }
+}
+
+public class ConfirmEmailChangeRequestValidator : AbstractValidator<ConfirmEmailChangeRequest>
+{
+    public ConfirmEmailChangeRequestValidator()
+    {
+        RuleFor(x => x.NewEmail).NotEmpty().EmailAddress();
+        RuleFor(x => x.Code).NotEmpty().Length(6).Matches("^[0-9]{6}$").WithMessage("Code must be 6 digits.");
+    }
+}

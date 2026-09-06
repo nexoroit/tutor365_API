@@ -48,6 +48,7 @@ public class OtpService : IOtpService
         {
             OtpPurpose.Registration => ($"{_app.Name}: verify your email", "Verify your email address", "Thanks for registering. Enter this code in the app to verify your email and finish setting up your account."),
             OtpPurpose.PasswordReset => ($"{_app.Name}: your password reset code", "Reset your password", "We received a request to reset your password. Enter this code in the app to choose a new password. If you didn't request this, you can ignore this email."),
+            OtpPurpose.EmailChange => ($"{_app.Name}: confirm your new email address", "Confirm your new email address", "You asked to change the email address on your account to this one. Enter this code in the app to confirm. If this wasn't you, ignore this email and your address will stay as it is."),
             _ => ($"{_app.Name}: your verification code", "Your verification code", "Enter this code in the app to continue.")
         };
         var body = EmailTemplates.Para($"Hi {EmailTemplates.E(recipientName)},") + EmailTemplates.Para(intro) + EmailTemplates.CodeBox(code)
