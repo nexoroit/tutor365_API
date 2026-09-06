@@ -434,6 +434,116 @@
               "keywords": [ ["smell", "cold", "warm", "sweet", "damp"] ]
             }
           ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Four students plan their Paper 1 Question 5 answer in different ways. Whose plan is most likely to help them in the 45 minutes?",
+          "hint": "The best plan is quick to write and tells you where the piece is going.",
+          "explanation": "Ravi's plan takes about five minutes and settles the ending and the purpose of each paragraph, so every paragraph has a job. Copying the task word for word achieves nothing; drafting the first paragraph in full is writing, not planning; and a list of similes is decoration without a shape.",
+          "options": [
+            { "text": "Ravi: five minutes, one line per paragraph, ending decided first", "correct": true },
+            { "text": "Mia: copies the task out neatly at the top of the page", "correct": false, "feedback": "This uses time without deciding anything." },
+            { "text": "Kofi: writes the whole first paragraph in full as his plan", "correct": false, "feedback": "That is drafting, not planning, and leaves the rest of the piece unplanned." },
+            { "text": "Ellie: lists ten similes she wants to fit in somewhere", "correct": false, "feedback": "Similes are not a structure; the piece still needs a shape and an ending." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P12",
+          "type": "FillInTheBlank",
+          "difficulty": 1,
+          "marks": 4,
+          "text": "Complete the sentences about when to start a new paragraph (TiPToP).",
+          "metadata": { "blanksText": "'Two hours later' signals a change of ___. 'Out in the yard' signals a change of ___. Moving from describing the storm to the character's memories is a change of ___. When a different speaker starts talking, that is a change of ___." },
+          "hint": "TiPToP: when, where, what, who.",
+          "explanation": "Time ('two hours later'), place ('out in the yard'), topic (storm to memories) and person (a new speaker). Each of these is a reason to begin a new paragraph, and a new speaker in dialogue always needs one.",
+          "answers": [
+            { "text": "time", "blankIndex": 0, "marks": 1 },
+            { "text": "place", "blankIndex": 1, "marks": 1 },
+            { "text": "topic", "blankIndex": 2, "marks": 1 },
+            { "text": "person", "blankIndex": 3, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P13",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each opening line to the hook technique it uses.",
+          "hint": "Ask: is something physically happening, is someone speaking, is a place being painted, or is a thing being introduced?",
+          "explanation": "'The ladder shifted' is action in progress. The quoted line is dialogue. The description of heat on the estate is setting and atmosphere. The suitcase in the loft introduces an object with a question attached.",
+          "pairs": [
+            { "left": "The ladder shifted under me and I stopped breathing.", "right": "In the action" },
+            { "left": "\"Whatever you do, don't tell Dad,\" my sister whispered.", "right": "Dialogue" },
+            { "left": "Heat sat on the estate like a hand pressing down.", "right": "Setting and atmosphere" },
+            { "left": "The suitcase in the loft had a label in handwriting nobody recognised.", "right": "An object" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P14",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A student has planned a description of a bus station late at night. Put the paragraph plans in the most effective structural order.",
+          "hint": "Wide shot, zoom, shift, second zoom, then an ending that returns to the opening with something changed.",
+          "explanation": "Start wide (the empty concourse), zoom to one detail (the flickering timetable), introduce a shift (the last bus arrives, doors, a driver), zoom to a contrasting detail (a passenger's hands), and end by returning to the wide view with the bus gone and the lights dimmed.",
+          "order": [
+            "Wide shot: the concourse empty under strip lights, bays numbered one to twelve, no engines",
+            "Zoom in on the timetable screen flickering, one destination stuck between two names",
+            "Shift: the last bus of the night swings in, doors hiss, a driver stretches",
+            "Zoom in on the only passenger folding and refolding her ticket as she boards",
+            "Ending: the bus pulls out; the concourse is empty again, and half the strip lights click off"
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P15",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A story opens with a boy watching his grandfather wind a pocket watch. Which **two** of these endings would work best?",
+          "hint": "Strong endings echo the opening with a change or close on a small telling action; weak ones summarise or wipe the story out.",
+          "explanation": "The boy winding the watch himself returns to the opening image, now changed in meaning. Setting the watch on the empty chair shows what has happened through a small action. A sentence explaining the moral tells rather than shows, and the dream ending cancels the story.",
+          "options": [
+            { "text": "Years later, the boy winds the same watch, his own hands now the ones that shake", "correct": true },
+            { "text": "The boy sets the watch on the empty armchair and leaves the room without looking back", "correct": true },
+            { "text": "A final sentence explains that the boy had learned an important lesson about time and family", "correct": false, "feedback": "Explaining the message is a summary; it tells rather than shows." },
+            { "text": "The boy wakes up and realises the grandfather and the watch were a dream", "correct": false, "feedback": "A dream ending throws away everything the reader has invested in." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P16",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "**Write a five-box plan** for the task: *Write a description of a swimming pool just after it closes for the night.*\n\nWrite one line for each box (wide opening, zoom, shift, second zoom, ending). Make sure your ending returns to your opening image with a change.",
+          "hint": "Wide: the still water, echo, chlorine, lane ropes. Zoom: one float left drifting, a wet footprint drying. Shift: the lights dropping, a lifeguard's keys, the pump starting. Second zoom: the lifeguard's hand on the switch, or a lost goggle lens on the tiles. Ending: the same water, now black and flat, the echo gone.",
+          "explanation": "A good plan: 1 Wide: the water settling flat, lane ropes slack, the smell of chlorine hanging under a high roof. 2 Zoom: a single orange float turning slowly in the deep end. 3 Shift: the main lights drop to a single row; a lifeguard's keys jangle; the filter pump starts its hum. 4 Zoom: a small wet footprint on the tiles, drying from the edges inward. 5 Ending: the same water, now black and mirror-still, the float stopped against the side.",
+          "markScheme": [
+            { "criterion": "Opens with a wide shot establishing the pool (water, lane ropes, echo, smell, roof)", "marks": 1, "keywords": [ ["water", "pool", "lane", "chlorine", "echo"] ] },
+            { "criterion": "Includes a zoom onto one precise detail (a float, a footprint, a lens, a locker)", "marks": 1, "keywords": [ ["zoom", "one ", "single", "float", "footprint"] ] },
+            { "criterion": "Includes a shift (lights dropping, a lifeguard, the pump, a door locking)", "marks": 1, "keywords": [ ["light", "lifeguard", "pump", "lock", "hum"] ] },
+            { "criterion": "Ends by returning to the opening image with a change (still, dark, silent, stopped)", "marks": 1, "keywords": [ ["same", "again", "now", "still", "dark"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-03-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "**Task: Write a story about a gift that was not what it seemed.**\n\nWrite the **opening paragraph** and the **final paragraph** of this story (around 80 to 120 words each). Leave a line between them.\n\nYour opening should:\n- hook the reader using action, dialogue, setting or an object (not waking up);\n- include one precise sensory detail;\n- withhold some information so the reader has a question.\n\nYour ending should:\n- return to an image, object or line from your opening, now changed;\n- show the change through a small action rather than a summary;\n- finish on a short, deliberate final sentence.\n\n*(In the exam this task would be worth 40 marks. Here the opening and ending are checked against six key features.)*",
+          "hint": "Decide the ending first. If your opening has a wrapped box, a ribbon, a card with a message or a spoken 'open it later', let the ending show the same thing changed: the box empty, the ribbon kept, the card read aloud in a different voice.",
+          "explanation": "A strong response might open: 'Don't open it until I'm gone,' Dad said, and pushed the parcel across the table. The brown paper smelt of his shed, of oil and sawdust, and something inside it shifted when I picked it up. It might end: I set the box on the shelf where his tools had been, the paper folded flat beside it, and turned the small brass key once more until the tune began. It was not a toy. It never had been. The ending returns to the parcel, shows the change through action (placing it, turning the key), and finishes on a short sentence.",
+          "markScheme": [
+            { "criterion": "Opening hooks with action, dialogue, setting or an object rather than a routine start", "marks": 1, "keywords": [ ["\"", "the ", "had ", "was ", "said"] ] },
+            { "criterion": "Opening includes a precise sensory detail (touch, sound, smell, light)", "marks": 1, "keywords": [ ["smell", "cold", "light", "sound", "rough"] ] },
+            { "criterion": "Opening introduces the gift or the person who gave it", "marks": 1, "keywords": [ ["gift", "present", "parcel", "box", "wrapped"] ] },
+            { "criterion": "Ending returns to an image, object or line from the opening", "marks": 1, "keywords": [ ["again", "same", "back", "still", "now"] ] },
+            { "criterion": "Ending shows change through a small action rather than summarising", "marks": 1, "keywords": [ ["put", "placed", "set", "opened", "held"] ] },
+            { "criterion": "Ending finishes on a short, deliberate final sentence", "marks": 1, "keywords": [ ["never", "not ", "gone", "kept", "enough"] ] }
+          ]
         }
       ]
     }

@@ -318,6 +318,102 @@
           "hint": "Think about the words *and yet* or *but then*.",
           "explanation": "True. Many writers shift their view, often signalled by *and yet*, *but* or a change in tone. Tracking the shift is a sign of perceptive reading.",
           "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which of these statements describes a writer's **perspective** rather than the **topic** or **context** of the text?",
+          "hint": "A perspective is an attitude or feeling towards the subject. Topic is what the text is about; context is when and where it appeared.",
+          "explanation": "Only the option about thinking the festival is overpriced but wanting to go again expresses an attitude. The others describe the subject matter, the content, or where the piece was published.",
+          "options": [
+            { "text": "The writer thinks the festival is absurdly overpriced but would go again tomorrow.", "correct": true },
+            { "text": "The text is about a weekend at a music festival.", "correct": false, "feedback": "This is the topic." },
+            { "text": "The text describes the bands, the mud and the food stalls.", "correct": false, "feedback": "This is content, not attitude." },
+            { "text": "The text appeared in a Sunday newspaper in 2019.", "correct": false, "feedback": "This is context, not perspective." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P12",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Match each extract to the tone word that best fits the writer's voice.",
+          "hint": "Listen for the voice: is it resentful about being wronged, fond of something imperfect, frightened, or refusing to give in?",
+          "explanation": "Listing the closures and the excuse *for our own good* is bitter. Loving the slow, smelly bus and wanting to ride it again is affectionate. Ice that sounds like a door opening below is fearful. Promising to walk the path whatever the fines is defiant.",
+          "pairs": [
+            { "left": "They closed the pool, then the library, then the youth club, and told us it was for our own good.", "right": "Bitter" },
+            { "left": "The old bus was slow, smelt of wet dog and broke down twice a term, and I would give anything to ride it again.", "right": "Affectionate" },
+            { "left": "Every creak of the ice under my boots sounded like a door opening somewhere below.", "right": "Fearful" },
+            { "left": "They can fine me and they can fence it off, and I will still walk this path every Sunday of my life.", "right": "Defiant" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P13",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "**Source A** (modern column about a Christmas Day sea swim):\n\n> Twenty seconds in and I could not feel my feet. Forty seconds and I could not feel my opinions. Everyone on the beach was shrieking, and I have never been so certain that I was alive, or so keen to get out.\n\n**Source B** (account of sea bathing, 1858):\n\n> The bathing woman held me under twice, as is the custom, and I emerged blue, choking and entirely cured of any wish to repeat the experiment. I am told it is beneficial. So, I imagine, is being run over by a cart.\n\nWrite **one** paragraph comparing the two writers' perspectives on swimming in the sea. Use evidence from both texts and comment on at least one method.",
+          "hint": "Source A is exhilarated but mixed (alive, yet keen to get out); Source B is miserable and mocking. Notice how A counts the seconds and how B uses a sarcastic comparison. Quote from both and use *whereas* or *while*.",
+          "explanation": "A strong paragraph: *The writers have contrasting perspectives on sea swimming. Source A's writer is exhilarated but honest about the discomfort, counting the seconds until she \"could not feel my opinions\", a joke that suggests the cold has emptied her mind in a way she enjoys, and she has \"never been so certain that I was alive\". Source B's writer, by contrast, is thoroughly miserable and mocks the practice, emerging \"blue, choking\" and using the sarcastic comparison with \"being run over by a cart\" to dismiss the claim that bathing is beneficial. Both find the sea a shock, but whereas the modern writer treats the shock as the point, the Victorian writer treats it as proof that the whole thing is absurd.*",
+          "markScheme": [
+            { "criterion": "Identifies Source A's perspective as exhilarated, alive, thrilled or mixed", "marks": 1, "keywords": [ ["alive", "exhilarat", "thrill", "mixed", "ambival"] ] },
+            { "criterion": "Identifies Source B's perspective as miserable, mocking, sarcastic or dismissive", "marks": 1, "keywords": [ ["sarcas", "miserable", "mock", "dismiss", "hate"] ] },
+            { "criterion": "Comments on a method (counting seconds, humour, sarcastic comparison, contrast, understatement)", "marks": 1, "keywords": [ ["contrast", "sarcas", "humour", "comparison", "seconds"] ] },
+            { "criterion": "Uses comparison language and evidence from both sources", "marks": 1, "keywords": [ ["whereas", "while", "in contrast", "both", "unlike"], ["feet", "opinions", "shrieking", "held me under", "cart"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P14",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Arrange these sentences into the order that makes the best comparative paragraph.",
+          "hint": "Open with the comparison, then Source A (view, evidence, method), then Source B, then say what the difference reveals.",
+          "explanation": "The topic sentence sets up the comparison. Source A's view and method come next, then the contrast to Source B, and finally an evaluative sentence explaining what the difference shows about the two writers.",
+          "order": [
+            "Both writers describe the silence of the countryside at night, but they experience it very differently.",
+            "Source A's writer finds it unnerving, calling the silence \"a held breath\" that \"waited for me to make a mistake\", personification that suggests she feels watched and out of place.",
+            "In contrast, Source B's writer is soothed by the same silence, describing it as \"a blanket drawn up to the chin\", an image of comfort that turns the darkness into something protective.",
+            "This difference suggests that the modern writer feels like an intruder in the countryside, whereas the Victorian writer feels entirely at home in it."
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P15",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Which **three** of the following are *methods* a writer can use to convey a perspective, rather than context?",
+          "hint": "Methods are choices made on the page: words, structure, tone, what evidence to include. Facts about the writer's life or the publication are context.",
+          "explanation": "Ending on a rhetorical question, repeating a key word, and selecting statistics that support the argument are all deliberate choices the writer makes. Living in the city for twenty years is biography, and the price of the magazine is context, not a method.",
+          "options": [
+            { "text": "Ending the article with a rhetorical question", "correct": true },
+            { "text": "Repeating a key word such as 'ours' for emphasis", "correct": true },
+            { "text": "Selecting statistics that support the argument", "correct": true },
+            { "text": "Having lived in the city for twenty years", "correct": false, "feedback": "This is biography, not a method used on the page." },
+            { "text": "Writing for a magazine that cost sixpence", "correct": false, "feedback": "This is context about the publication, not a method." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-04-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 16,
+          "examStyle": true,
+          "text": "For this question you need to refer to the whole of **Source A** together with the whole of **Source B**.\n\n**Source A** (modern newspaper column):\n\n> I have cycled to work for six years and I have been knocked off twice, sworn at more times than I can count and once, memorably, chased by a van. I still do it. Not because I am brave, and not because I am saving the planet, though that is what I tell people. I do it because for twenty minutes each morning nobody can reach me. No calls, no messages, just the road and my own breathing. My mother thinks I am mad. She may be right. I am also, for those twenty minutes, entirely happy.\n\n**Source B** (magazine article, 1896):\n\n> The bicycle has done more for the freedom of women than any Act of Parliament. A lady who may ride ten miles before breakfast, unchaperoned and unremarked, is a lady who will not long be told what she may read or where she may go. Let the doctors warn of 'bicycle face' and let the vicars preach against the divided skirt; the wheels turn, and every turn carries us further from the drawing room. I have ridden to Brighton and back, and I shall ride further yet.\n\nCompare how the writers convey their **different perspectives on cycling**. In your answer, you could:\n- compare their different perspectives\n- compare the methods they use to convey those perspectives\n- support your response with references to both texts. [16 marks]",
+          "hint": "Source A is personal and wry: cycling is a private escape worth the danger. Source B is public and political: cycling is a liberation for women. Compare: how each treats disapproval (the mother, the van driver versus the doctors and vicars); what cycling gives each writer (twenty minutes of peace versus distance from the drawing room); and their methods (A's list of dangers, short sentences and honest admissions; B's grand assertion, imperatives and the metaphor of the turning wheels).",
+          "explanation": "A top-band answer might argue: Source B's writer is confident and political, claiming the bicycle has done more for women *than any Act of Parliament* and using imperatives (*let the doctors warn*) to brush aside critics, whereas Source A's writer is private and wry, listing the dangers (*knocked off twice*, *chased by a van*) and admitting she is neither brave nor green. B's method is grand assertion and the metaphor of wheels carrying women *further from the drawing room*, while A's is a personal anecdote in short, honest sentences (*I still do it.* *She may be right.*). Both face disapproval, but B answers it with defiance and A with a shrug. Both find freedom, yet B's is collective and public, a freedom of movement and opinion, while A's is solitary: *twenty minutes* when *nobody can reach me*. Overall, B sees the bicycle as changing the world, while A sees it as a small daily escape from it.",
+          "markScheme": [
+            { "criterion": "Identifies Source A's perspective as personal, wry, quietly happy or valuing escape despite danger", "marks": 2, "keywords": [ ["escape", "wry", "happy", "private", "danger"] ] },
+            { "criterion": "Identifies Source B's perspective as confident, political, celebratory or triumphant about freedom", "marks": 2, "keywords": [ ["confident", "political", "celebrat", "triumph", "freedom"] ] },
+            { "criterion": "Compares how the writers treat disapproval or danger (knocked off, mother thinks mad versus doctors warn, vicars preach)", "marks": 2, "keywords": [ ["knocked", "mother", "mad", "van"], ["doctor", "vicar", "warn", "preach", "disapprov"] ] },
+            { "criterion": "Compares what cycling gives each writer (twenty minutes when nobody can reach me versus distance from the drawing room, riding unchaperoned)", "marks": 2, "keywords": [ ["twenty minutes", "reach me", "breathing", "alone"], ["drawing room", "unchaperoned", "ten miles", "told what", "brighton"] ] },
+            { "criterion": "Analyses Source A's methods (personal anecdote, list of dangers, short sentences, honest admission, first person)", "marks": 2, "keywords": [ ["anecdote", "list", "short sentence", "honest", "first person"] ] },
+            { "criterion": "Analyses Source B's methods (grand assertion, imperatives 'let', metaphor of the turning wheels, mocking the critics)", "marks": 2, "keywords": [ ["assert", "imperative", "let the", "metaphor", "wheels"] ] },
+            { "criterion": "Uses precise references from both texts throughout", "marks": 2, "keywords": [ ["source a", "text a", "the first source", "a's writer"], ["source b", "text b", "the second source", "b's writer"] ] },
+            { "criterion": "Sustains comparison with connectives and ends with an evaluative overview", "marks": 2, "keywords": [ ["whereas", "while", "in contrast", "both", "unlike"], ["overall", "ultimately", "in conclusion", "reveals", "shows that"] ] }
+          ]
         }
       ]
     }

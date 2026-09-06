@@ -320,6 +320,100 @@
             { "text": "It should have compared the two sources.", "correct": false, "feedback": "Question 3 uses one source only." },
             { "text": "It does not mention sentence forms.", "correct": false, "feedback": "You do not have to cover every bullet point; depth matters more." }
           ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P11",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Read this extract from an 1861 account of a slum street.\n\n> The street was a gutter with houses. Washing hung from window to window, from sill to sill, from rope to rope, and none of it was clean. A child sat in a doorway. She did not move as we passed, and she did not move when we came back an hour later, and I do not believe she moved at all that day.\n\nMatch each quotation to the technique it uses.",
+          "hint": "Look for a direct comparison without *like* (metaphor), a run of three items (list), a sentence of only five words (short sentence), and the same words used again for emphasis (repetition).",
+          "explanation": "*A gutter with houses* calls the street a gutter directly: metaphor. *From window to window, from sill to sill, from rope to rope* is a list of three. *A child sat in a doorway.* is a short, plain sentence for impact. *She did not move… she did not move…* repeats the same phrase for emphasis.",
+          "pairs": [
+            { "left": "The street was a gutter with houses", "right": "Metaphor" },
+            { "left": "from window to window, from sill to sill, from rope to rope", "right": "List" },
+            { "left": "A child sat in a doorway.", "right": "Short sentence" },
+            { "left": "She did not move as we passed, and she did not move when we came back", "right": "Repetition" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "The text says: *The new bypass is a noose around the village.*\n\nWhich response is the **strongest** analysis?",
+          "hint": "Look for the answer that zooms in on the image, unpacks what it suggests, and states the effect on the reader.",
+          "explanation": "The strongest answer identifies the metaphor, explores the connotations of a noose (hanging, strangling, a slow death) and states the effect on the reader (they see the road as killing the village). The other options either just name the technique, misidentify it as a simile, or give a vague effect that ignores the image.",
+          "options": [
+            { "text": "The metaphor compares the road to a noose, suggesting it is slowly strangling the village to death, which makes the reader see the bypass as a killer rather than an improvement.", "correct": true },
+            { "text": "The writer uses a metaphor, which makes the sentence powerful.", "correct": false, "feedback": "Naming the technique is not enough; what does the image suggest and do?" },
+            { "text": "The simile shows the writer thinks the road is bad.", "correct": false, "feedback": "It is a metaphor (no *like* or *as*), and *bad* ignores the connotations of a noose." },
+            { "text": "This tells the reader that the writer lives in the village.", "correct": false, "feedback": "Possibly, but this says nothing about the image or its effect." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P13",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Read this line from a 19th-century letter about a new factory.\n\n> The chimney vomited its black breath over the rooftops all day, and by evening the washing on every line in the town hung grey and stinking.\n\nChoose **one** word or phrase, name the technique or word class, and explain its effect on the reader.",
+          "hint": "*Vomited* is a verb normally used for a body being sick. *Black breath* makes the chimney sound like a creature. What does each suggest about the writer's feelings towards the factory?",
+          "explanation": "For example: The verb *vomited* is personification, making the chimney behave like a sick body. It suggests the smoke is something foul and uncontrollable rather than a sign of progress, and the connotations of sickness make the reader feel disgust at what the factory is doing to the town. Alternatively, *black breath* is a metaphor that turns the chimney into a living creature, suggesting the factory is a monster that poisons everything it touches.",
+          "markScheme": [
+            { "criterion": "Quotes a specific word or phrase (e.g. vomited, black breath, grey and stinking, every line)", "marks": 1, "keywords": [ ["vomit", "black breath", "stinking", "grey", "every line"] ] },
+            { "criterion": "Names a technique or word class (verb, metaphor, personification, adjective)", "marks": 1, "keywords": [ ["verb", "metaphor", "personif", "adjective", "imagery"] ] },
+            { "criterion": "Explains the effect on the reader (e.g. disgust, sickness, pollution, monster, foul)", "marks": 1, "keywords": [ ["reader", "audience", "us feel", "we feel"], ["disgust", "sick", "pollut", "monster", "foul"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P14",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Read this sentence from an 1888 report on a match factory.\n\n> She had dipped matches for eleven years, for twelve hours a day, for four shillings a week, and for the last of those years with a jaw that ached so badly she could not chew, and when I asked whether she would give it up she laughed at me.\n\nWhat is the main effect of the long sentence with its repeated *for* phrases?",
+          "hint": "Think about what each new *for* phrase adds to the reader's picture of the woman's life before the sentence reaches its ending.",
+          "explanation": "Each *for* phrase adds another cost of the work (years, hours, low pay, injury), so the reader's sense of the woman's suffering builds up before the ending. The delay makes her laugh feel shocking, which strengthens the writer's point that workers have been forced to accept the unacceptable.",
+          "options": [
+            { "text": "It piles up the costs of her work one after another, so the reader's sympathy builds before the shocking ending.", "correct": true },
+            { "text": "It makes the sentence hard to follow, which shows that the writer was confused.", "correct": false, "feedback": "The structure is deliberate; difficulty is not an effect on meaning." },
+            { "text": "It speeds up the pace to show how quickly she works.", "correct": false, "feedback": "Long, list-like sentences slow the reader down, and the effect is about hardship, not speed." },
+            { "text": "It shows that the writer disapproves of the woman for laughing.", "correct": false, "feedback": "The laugh is shocking because of what comes before it; the writer's target is the factory, not the woman." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete the analytical sentence using the words **verb**, **connotations** and **implies**.",
+          "metadata": { "blanksText": "The ___ 'clawed' has ___ of violence and desperation, which ___ that the writer sees the crowd as something dangerous rather than something to join." },
+          "hint": "Word class first, then the associations the word carries, then the analytical verb.",
+          "explanation": "*Clawed* is a verb. Its connotations are the associations it carries (violence, desperation, animals). *Implies* is the analytical verb that introduces the effect.",
+          "answers": [
+            { "text": "verb", "blankIndex": 0, "marks": 1 },
+            { "text": "connotations", "blankIndex": 1, "marks": 1 },
+            { "text": "implies", "blankIndex": 2, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-03-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 12,
+          "examStyle": true,
+          "text": "You now need to refer **only to Source B**, an account of a visit to a cotton mill written in 1861, **lines 1 to 9**.\n\n> 1  The noise met us on the stairs. It was not a sound so much as a weather, a\n> 2  hard rain of iron that fell on the ears and did not stop, and by the time we\n> 3  reached the spinning floor I could not hear my own voice, nor the overseer's,\n> 4  nor the bell. The machines stood in rows like soldiers and, like soldiers,\n> 5  did not care who was beneath them. Girls ran between the frames. They\n> 6  ducked. They spliced. They did not look up. One of them, I was told, had lost\n> 7  three fingers to a roller in the spring and was back at her frame within the\n> 8  fortnight, for the frame does not wait and neither does the rent. I came away\n> 9  deaf for an hour, and I had been there for twenty minutes.\n\n**How does the writer use language to describe the mill?** [12 marks]\n\nYou could include the writer's choice of:\n- words and phrases\n- language features and techniques\n- sentence forms",
+          "hint": "Strong choices include: the metaphor of the noise as *a weather, a hard rain of iron*; the simile of the machines as *soldiers* who *did not care*; the run of short sentences *They ducked. They spliced. They did not look up.*; and the closing contrast between *deaf for an hour* and *twenty minutes*. For each one, zoom in on a word, give the effect, and link it to the writer's purpose of exposing conditions in the mill.",
+          "explanation": "A top-band answer analyses three or four choices in depth. For example: the metaphor of noise as *a weather, a hard rain of iron* makes the sound seem as unstoppable as the climate and as violent as falling metal, so the reader feels it as a physical assault; the simile of machines as *soldiers* that *did not care who was beneath them* suggests a cold, regimented force with the workers as its casualties; the three short sentences *They ducked. They spliced. They did not look up.* mimic the mechanical rhythm of the work and reduce the girls to parts of the machine; the plain phrase *the frame does not wait and neither does the rent* explains, without emotion, why a girl who lost three fingers returned within a fortnight, and the final contrast between an hour's deafness and a twenty-minute visit invites the reader to imagine a twelve-hour shift. Each point ends with the effect on the reader and the writer's purpose of exposing the mill.",
+          "markScheme": [
+            { "criterion": "Analyses the metaphor of the noise as a weather / hard rain of iron and its connotations of violence, relentlessness or assault", "marks": 2, "keywords": [ ["weather", "rain of iron", "metaphor"], ["relentless", "violent", "assault", "unstoppable", "overwhelm"] ] },
+            { "criterion": "Analyses the simile of the machines as soldiers who did not care, suggesting a cold, regimented or menacing force", "marks": 2, "keywords": [ ["soldier", "simile"], ["did not care", "cold", "menac", "threat", "regiment"] ] },
+            { "criterion": "Analyses the short sentences (They ducked. They spliced. They did not look up.) for pace, mechanical rhythm or the girls becoming part of the machine", "marks": 2, "keywords": [ ["short sentence", "ducked", "spliced", "look up"], ["pace", "mechanical", "rhythm", "machine", "repetit"] ] },
+            { "criterion": "Analyses the ending (deaf for an hour / twenty minutes) or the lost fingers and the rent as shocking the reader through contrast or understatement", "marks": 2, "keywords": [ ["twenty minutes", "deaf", "fingers", "rent"], ["shock", "contrast", "understate", "imagine", "horrif"] ] },
+            { "criterion": "Analyses further word choices (hard, fell, met us, does not wait) or the sensory imagery of sound", "marks": 1, "keywords": [ ["hard", "fell", "met us", "does not wait", "sensory"] ] },
+            { "criterion": "Uses precise, short quotations throughout", "marks": 1, "keywords": [ ["\"", "'"] ] },
+            { "criterion": "Consistently explains effects on the reader using analytical verbs (suggests, implies, evokes, conveys)", "marks": 1, "keywords": [ ["reader", "audience", "us feel", "we feel"], ["suggest", "impl", "evoke", "convey", "creates"] ] },
+            { "criterion": "Links effects to the writer's purpose of exposing or criticising conditions in the mill", "marks": 1, "keywords": [ ["purpose", "criticis", "expose", "condemn", "wants the reader"] ] }
+          ]
         }
       ]
     }

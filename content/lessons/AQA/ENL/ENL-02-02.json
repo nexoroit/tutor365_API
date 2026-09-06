@@ -444,6 +444,117 @@
               "keywords": [ ["home", "arrived", "finally", "still", "again"] ]
             }
           ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A student's story is full of vivid ideas and well-organised paragraphs, but the spelling and punctuation are weak. Which assessment objective will lose them marks on Paper 1 Question 5, and how many marks is it worth?",
+          "hint": "One objective covers what you write and how you shape it; the other covers accuracy.",
+          "explanation": "Spelling, punctuation and grammar are assessed under AO6 (technical accuracy), which is worth 16 of the 40 marks. AO5 (content and organisation) is worth the other 24, so strong ideas alone cannot make up for careless accuracy.",
+          "options": [
+            { "text": "AO6, technical accuracy, worth 16 marks", "correct": true },
+            { "text": "AO5, content and organisation, worth 24 marks", "correct": false, "feedback": "AO5 rewards ideas and structure, which this student is doing well." },
+            { "text": "AO6, technical accuracy, worth 24 marks", "correct": false, "feedback": "AO6 is the smaller share." },
+            { "text": "AO5, content and organisation, worth 16 marks", "correct": false, "feedback": "The numbers are the wrong way round and AO5 is not about accuracy." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P12",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A student has planned a story about a swimmer who freezes on the starting block. Put the planned events into the correct five-part order.",
+          "hint": "The story should open at an intriguing moment, build, turn, reach its most pressured point and then settle.",
+          "explanation": "Hook: the whistle and the frozen swimmer. Build: who she is and what she wants (to qualify). Turning point: she notices her younger brother in the crowd. Climax: the dive itself, slowed down. Resolution: on the poolside afterwards, the whistle echoing the opening.",
+          "order": [
+            "Hook: the starting whistle goes and Leah does not move",
+            "Build: we learn Leah has trained for two years to qualify and that her coach is watching",
+            "Turning point: she spots her younger brother waving from the back of the gallery",
+            "Climax: the dive, described second by second, water closing over her",
+            "Resolution: on the poolside afterwards she hears another whistle and smiles"
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P13",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each narrative choice to the effect it is most likely to have in an exam story.",
+          "hint": "Think about how much the narrator can know, how close the reader feels, and how easy each choice is to control under time pressure.",
+          "explanation": "An omniscient narrator can enter any character's head and comment on all of them. Second person ('you') pulls the reader into the character's place but is hard to sustain. A retrospective narrator looks back on events, so can hint at what is coming. A single, consistent viewpoint is easiest to control in 45 minutes.",
+          "pairs": [
+            { "left": "Third-person omniscient narration", "right": "Can move between several characters' thoughts and comment on all of them" },
+            { "left": "Second-person narration ('you')", "right": "Puts the reader in the character's position but is difficult to sustain" },
+            { "left": "A retrospective narrator looking back", "right": "Allows hints of what is to come, since the narrator already knows the ending" },
+            { "left": "Sticking to one viewpoint throughout", "right": "Easiest to control under time pressure and avoids confusing shifts" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P14",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete the advice about shaping a story.",
+          "metadata": { "blanksText": "The opening of a story that grabs attention is called the ___. The moment of greatest pressure, which should be slowed down with close detail, is the ___. The final part, where the consequences are shown, is the ___." },
+          "hint": "The first word also means something you catch a fish with; the second is the peak of a story; the third begins with 'res'.",
+          "explanation": "Hook, climax, resolution. The hook drags the reader in, the climax is the point of highest tension and should be written slowly, and the resolution shows what has changed, often echoing the opening.",
+          "answers": [
+            { "text": "hook", "blankIndex": 0, "marks": 1 },
+            { "text": "climax", "blankIndex": 1, "marks": 1 },
+            { "text": "resolution", "blankIndex": 2, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P15",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Which **two** of these story openings should you avoid in an exam?",
+          "hint": "Openings that are routine or that give nothing to wonder about are the weak ones.",
+          "explanation": "Waking up to an alarm on 'a normal day' is the most overused opening in exam stories, and a paragraph of the weather with no character delays the story. Starting with a line of speech or with a specific, strange detail both hook the reader immediately.",
+          "options": [
+            { "text": "The alarm went off at seven and Sam got up for what seemed like a normal day.", "correct": true },
+            { "text": "\"Don't open that,\" said my grandmother, without looking up from her knitting.", "correct": false, "feedback": "Opening with speech drops the reader straight into a situation." },
+            { "text": "It was a sunny day with a few clouds and a light breeze; the birds were singing in the trees.", "correct": true },
+            { "text": "There were forty-three keys on the ring and none of them fitted the door.", "correct": false, "feedback": "A specific, odd detail makes the reader ask questions, which is exactly what a hook should do." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P16",
+          "type": "LongAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "**Write the opening paragraph (80 to 120 words) of a story about an unexpected visitor.**\n\nYour opening should:\n- begin in the middle of something (a knock, a voice, an object on the step), not with waking up or the weather;\n- name your main character;\n- include one precise, specific detail about the setting;\n- show a feeling through an action rather than naming it.",
+          "hint": "Try opening with the sound at the door, or with what the character is doing when it comes. Show surprise or unease through hands, breath or a pause rather than the word 'nervous'.",
+          "explanation": "A strong opening might begin: 'The knock came again, three short raps, just as Tomasz put the kettle on. He stood with his hand on the switch and did not press it. Through the frosted glass of the front door a shape waited, taller than anyone he knew, dripping onto the mat. The hallway clock ticked twice. He wiped his palms down his jeans and reached for the latch.' It starts with the knock, names the character, gives a precise detail (frosted glass, the mat) and shows unease through the paused hand and wiped palms.",
+          "markScheme": [
+            { "criterion": "Opens in the middle of the action with a knock, voice, object or line of speech rather than a routine start", "marks": 1, "keywords": [ ["knock", "door", "\"", "bell", "step"] ] },
+            { "criterion": "Names the main character", "marks": 1, "keywords": [ ["she ", "he ", "i ", "her ", "his "] ] },
+            { "criterion": "Includes a precise setting detail (hallway, glass, kettle, rain, light)", "marks": 1, "keywords": [ ["hall", "glass", "kettle", "rain", "window"] ] },
+            { "criterion": "Shows a feeling through action or body detail rather than naming it", "marks": 1, "keywords": [ ["hand", "breath", "still", "paus", "palm"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-02-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "**Write a story that ends with the sentence: *\"She put the key back exactly where she had found it.\"***\n\nWrite around 350 to 500 words. Aim to:\n\n- follow the five-part shape (hook, build, turning point, climax, resolution);\n- keep to one main character, one setting and a short stretch of time;\n- show at least one feeling through action rather than naming it;\n- include a short exchange of correctly punctuated dialogue;\n- vary your sentence lengths, using at least one deliberately short sentence;\n- end with the given sentence so that it links back to the opening (not a dream).\n\n*(In the exam this task would be worth 40 marks. Here it is checked against eight key features.)*",
+          "hint": "Plan for two minutes first: where the key is found, what it opens, why the character decides to put it back. Because you know the last line, write towards it: the opening should show the key being found.",
+          "explanation": "A strong response opens with the key being found and makes it specific (where, what it looks like, who finds it). The build establishes one named character and one setting through precise detail. The turning point is a decision to use the key or to open something. The climax slows down what she finds with short sentences and close detail. The resolution returns to the key's hiding place, so the final sentence lands with new meaning. Feelings are shown through hands, breath or repeated actions; dialogue is short, correctly punctuated and reveals character; paragraphs are clearly organised.",
+          "markScheme": [
+            { "criterion": "Opens with the key being found and makes the situation specific (where it is, what it looks like)", "marks": 1, "keywords": [ ["key", "found", "drawer", "pocket", "under"] ] },
+            { "criterion": "Establishes one named main character with a clear want or fear", "marks": 1, "keywords": [ ["she ", "he ", "i ", "wanted", "needed"] ] },
+            { "criterion": "Establishes the setting through precise sensory detail", "marks": 1, "keywords": [ ["room", "house", "kitchen", "hall", "light"] ] },
+            { "criterion": "Includes a clear turning point or decision that changes the situation", "marks": 1, "keywords": [ ["decided", "then", "until", "suddenly", "realised"] ] },
+            { "criterion": "Shows a feeling through physical action or body detail rather than naming it", "marks": 1, "keywords": [ ["hand", "breath", "heart", "stomach", "finger"] ] },
+            { "criterion": "Includes correctly punctuated dialogue", "marks": 1, "keywords": [ ["\"", "said", "asked", "replied", "whispered"] ] },
+            { "criterion": "Includes a climax slowed down with close detail and short sentences", "marks": 1, "keywords": [ ["waited", "silence", "still", "nothing", "stopped"] ] },
+            { "criterion": "Ends with the given sentence so that the key echoes the opening rather than a dream or cliffhanger", "marks": 1, "keywords": [ ["put the key back", "exactly where", "found it"] ] }
+          ]
         }
       ]
     }

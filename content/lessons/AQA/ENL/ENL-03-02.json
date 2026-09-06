@@ -319,6 +319,102 @@
             { "text": "It does not analyse language.", "correct": false, "feedback": "Language analysis is not required on Question 2." },
             { "text": "It uses too many quotations.", "correct": false }
           ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P11",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "A student is answering Paper 2 Question 2. Which **three** of the following would earn credit?",
+          "hint": "Question 2 rewards summary and synthesis (AO1): pairing details from both sources and inferring from them. Anything about how the writing is crafted belongs elsewhere.",
+          "explanation": "Pairing a detail from each source on the same focus, linking them within a sentence using *whereas*, and interpreting what a detail implies all earn credit on Question 2. Discussing the first-person form is a comment on the writer's method (AO2), and judging whether an argument is convincing is evaluation, which is not what Question 2 assesses.",
+          "options": [
+            { "text": "Pairing a detail from Source A with a detail from Source B on the same focus", "correct": true },
+            { "text": "Linking the two sources within one sentence using a connective such as 'whereas'", "correct": true },
+            { "text": "Interpreting what a detail implies about the writer's situation", "correct": true },
+            { "text": "Pointing out that Source B is written in the first person and explaining why", "correct": false, "feedback": "Commenting on form or method is not rewarded on Question 2." },
+            { "text": "Judging whether Source A's argument is convincing", "correct": false, "feedback": "Evaluation is not what Question 2 assesses." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P12",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Arrange these sentences into a well-structured synthesis paragraph about the two writers' meals on their journeys.",
+          "hint": "Statement of difference first, then evidence from Source A, then evidence from Source B linked with a contrast word, then the inference.",
+          "explanation": "The paragraph opens by naming the difference. Evidence from Source A comes next, followed by Source B's evidence introduced with *whereas*. The inference, introduced by *This implies*, comes last.",
+          "order": [
+            "The two writers eat very differently while they travel.",
+            "The writer of Source A survives on \"a bag of crisps and whatever the trolley has left\",",
+            "whereas the Victorian writer of Source B unpacks \"cold chicken, a pie and a bottle of claret\" from a hamper.",
+            "This implies that eating on a journey was once treated as an occasion, while for the modern traveller it is an afterthought."
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P13",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "**Source A** (modern article about the school run):\n\n> The school run takes eleven minutes by car, and most of that is spent queuing outside the gates behind other parents doing exactly the same thing. My daughter watches a screen in the back and does not look up when we arrive.\n\n**Source B** (memoir, 1895):\n\n> We walked the three miles to school in every weather, my brother and I, carrying our boots round our necks to save the leather and putting them on at the stile. We knew every bird's nest on the way and were late more often than not.\n\nWrite **one** synthesis paragraph summarising a difference between the two journeys to school. Use evidence from both sources and include an inference.",
+          "hint": "Possible differences: how far and how the children travel, how much they notice on the way, how much effort the journey takes. Pick one, quote from both, then say what it suggests.",
+          "explanation": "A strong answer: *The modern journey is short and passive while the Victorian one was long and active. Source A's school run takes \"eleven minutes by car\" and the daughter \"does not look up\", whereas the children in Source B \"walked the three miles\" and \"knew every bird's nest on the way\". This suggests that the modern child experiences the journey as dead time, while for the Victorian children it was part of the day's adventure.*",
+          "markScheme": [
+            { "criterion": "States a clear difference on the focus (distance, transport, effort, attention to surroundings)", "marks": 1, "keywords": [ ["different", "whereas", "while", "contrast", "unlike"] ] },
+            { "criterion": "Uses evidence from Source A (e.g. eleven minutes, by car, queuing, screen, does not look up)", "marks": 1, "keywords": [ ["eleven minutes", "car", "queu", "screen", "look up"] ] },
+            { "criterion": "Uses evidence from Source B (e.g. three miles, every weather, boots, stile, bird's nest, late)", "marks": 1, "keywords": [ ["three miles", "weather", "boots", "nest", "late"] ] },
+            { "criterion": "Makes an inference introduced by suggests / implies / indicates / shows", "marks": 1, "keywords": [ ["suggest", "impl", "indicat", "shows that", "seems"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P14",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "The question asks for a summary of the **differences between the two writers' homes**. Which of these points would score **least** on Question 2?",
+          "hint": "Check each option: is it on the focus, and is it summarising ideas or analysing the writer's language?",
+          "explanation": "Explaining the effect of the adjective *cavernous* on the reader is language analysis (AO2), which earns nothing on Question 2, even though it is about the home. The other three all summarise a difference between the homes, use details from both texts, or draw an inference.",
+          "options": [
+            { "text": "Source B's writer chooses the adjective \"cavernous\" to make the house feel intimidating and unwelcoming to the reader.", "correct": true },
+            { "text": "Source A's flat has \"one room that is also the kitchen\", whereas Source B's house has \"a room for every purpose\", suggesting the Victorian writer was far wealthier.", "correct": false, "feedback": "This is a valid difference with evidence from both and an inference." },
+            { "text": "Both writers mention the cold, but only Source B's writer has \"a fire in every grate\", unlike Source A's \"radiator that ticks but never warms\".", "correct": false, "feedback": "This contrasts the homes with evidence from each source." },
+            { "text": "Source A's writer lives alone, while Source B's writer shares the house with \"eleven of us and a dog\".", "correct": false, "feedback": "This is a clear, on-focus difference." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P15",
+          "type": "Matching",
+          "difficulty": 1,
+          "marks": 4,
+          "text": "Match each linking phrase to the job it does in a Question 2 synthesis answer.",
+          "hint": "Two of these signal a contrast, one signals a similarity, and one introduces an inference.",
+          "explanation": "*Unlike* and *on the other hand* both signal a difference: *unlike* sits inside one sentence, while *on the other hand* usually opens a new sentence. *Likewise* links two points that agree. *This suggests* introduces an inference that goes beyond what the text states.",
+          "pairs": [
+            { "left": "unlike", "right": "Introduces a difference within one sentence" },
+            { "left": "on the other hand", "right": "Opens a new sentence that gives the opposite side" },
+            { "left": "likewise", "right": "Links a point that agrees with the previous one" },
+            { "left": "this suggests", "right": "Introduces an inference" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-02-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "You need to refer to **Source A** and **Source B** for this question.\n\n**Source A** (modern newspaper column):\n\n> We booked the caravan in January, when the photographs promised sand and sun, and arrived in August to a week of sideways rain. The site had a heated pool, a clubhouse with a quiz every night and Wi-Fi that worked if you stood next to the reception hut. The children were happy anywhere with a screen. I spent most of the week reading in the car with the heater on and, by Thursday, had stopped checking the forecast.\n\n**Source B** (letter from a seaside town, 1890):\n\n> We came down by the early train and have taken rooms at Mrs Fenwick's on the front, two guineas for the fortnight with breakfast and dinner included. Every morning the bathing machines are drawn into the sea by a patient horse, and one is dipped, squealing, by a large woman called Martha. Papa reads his newspaper on the promenade, Mama sketches, and the boys have collected forty-one shells and one dead crab. It has been fine all week and we are all as brown as nuts.\n\nUse details from **both** sources. Write a summary of the **differences** between the two writers' experiences of a seaside holiday. [8 marks]",
+          "hint": "Look for what separates the two holidays: the weather, where they stay, how people spend their time, and how each writer feels about it. Pair a detail from A with a detail from B for each point, then add what the pairing suggests.",
+          "explanation": "Strong answers might include: (1) The weather is opposite: Source A has *a week of sideways rain* while Source B has been *fine all week*, suggesting the modern holiday was spoiled from the start. (2) The accommodation differs: A stays on a caravan site with a pool and clubhouse, whereas B takes rooms with a landlady with meals included, implying that Victorian holidays were more domestic and personal. (3) The activities differ: A's children are *happy anywhere with a screen* while B's boys collect shells and are dipped from bathing machines, suggesting Victorian children were more engaged with the sea itself. (4) The writers' moods differ: A hides in the car and stops checking the forecast, whereas B's family is *brown as nuts* and clearly enjoying itself.",
+          "markScheme": [
+            { "criterion": "Identifies a difference in the weather (rain versus fine, sun)", "marks": 1, "keywords": [ ["rain", "fine", "sun", "weather", "forecast"] ] },
+            { "criterion": "Identifies a difference in the accommodation or facilities (caravan, pool, clubhouse versus rooms, landlady, meals)", "marks": 1, "keywords": [ ["caravan", "rooms", "landlady", "pool", "fenwick"] ] },
+            { "criterion": "Identifies a difference in how people spend their time (screens, quiz versus bathing, shells, sketching)", "marks": 1, "keywords": [ ["screen", "quiz", "bath", "shell", "sketch"] ] },
+            { "criterion": "Identifies a further difference (the writers' moods, transport, cost, family involvement)", "marks": 1, "keywords": [ ["car", "train", "guinea", "brown", "happy"] ] },
+            { "criterion": "Supports points with evidence from Source A", "marks": 1, "keywords": [ ["source a", "text a", "the first source", "a's writer"], ["sideways", "caravan", "screen", "heater", "forecast"] ] },
+            { "criterion": "Supports points with evidence from Source B", "marks": 1, "keywords": [ ["source b", "text b", "the second source", "b's writer"], ["fenwick", "bathing machine", "martha", "shells", "brown as nuts"] ] },
+            { "criterion": "Makes inferences using suggests / implies / indicates / shows", "marks": 1, "keywords": [ ["suggest", "impl", "indicat", "shows that", "seems"] ] },
+            { "criterion": "Links the sources with contrast connectives (whereas, while, unlike, in contrast, however)", "marks": 1, "keywords": [ ["whereas", "while", "unlike", "in contrast", "however"] ] }
+          ]
         }
       ]
     }

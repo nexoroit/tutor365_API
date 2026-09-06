@@ -320,6 +320,103 @@
             { "text": "10 to 12 minutes", "correct": false, "feedback": "Too long for 4 marks; you would run short later." },
             { "text": "20 minutes", "correct": false }
           ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P11",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Read lines 1 to 7 of this travel article.\n\n> The ferry to the island runs twice a day in summer and once a day in winter, weather permitting, and the crossing takes forty minutes. I have made it perhaps twenty times and been sick on exactly one occasion, which the crew still remind me about. There is a small café on the upper deck that sells tea, sandwiches and, for reasons nobody has ever explained, a single brand of Danish liquorice. On a clear morning you can see the mainland hills the whole way across, but on the day I am describing the fog was so thick that the island appeared all at once, like a photograph developing, about two hundred metres off the bow.\n\nChoose the **four** statements that are TRUE.",
+          "hint": "Check every number against the text, and notice the difference between what happens on a clear morning and what happened on the day being described.",
+          "explanation": "True: the ferry runs twice a day in summer; the crossing takes forty minutes; the writer has been sick once; the café is on the upper deck. False: in winter the ferry runs once a day, not twice; the writer *has* been sick, on one occasion; the café sells a *single* brand of liquorice; on the day described the fog hid the hills, so they were not visible.",
+          "options": [
+            { "text": "In summer the ferry runs twice a day.", "correct": true },
+            { "text": "The crossing takes forty minutes.", "correct": true },
+            { "text": "The writer has been seasick on one crossing.", "correct": true },
+            { "text": "The café is on the upper deck.", "correct": true },
+            { "text": "In winter the ferry runs twice a day.", "correct": false, "feedback": "In winter it runs *once* a day." },
+            { "text": "The writer has never been seasick on the ferry.", "correct": false, "feedback": "The writer has been sick *on exactly one occasion*." },
+            { "text": "The café sells several brands of liquorice.", "correct": false, "feedback": "It sells *a single brand*." },
+            { "text": "On the day described, the mainland hills were visible for the whole crossing.", "correct": false, "feedback": "The hills are visible on a clear morning, but on this day the fog was thick." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P12",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "The text says:\n\n> The bakery opened at five, and by half past seven the first batch of loaves was usually gone. The owner, a woman in her seventies, had worked there for more than forty years and swore she would never retire.\n\nMatch each false statement to the type of trap it uses.",
+          "hint": "Ask what has been changed: a number, the direction of the meaning, the strength of the claim, or has something been added that the text never mentions?",
+          "explanation": "*Opened at six* changes a number (wrong detail). *Looking forward to retiring* reverses *swore she would never retire* (opposite meaning). *Always gone* stretches *usually gone* (exaggeration). Nothing in the text says who owned the bakery before her, so *inherited from her parents* is an unsupported inference.",
+          "pairs": [
+            { "left": "The bakery opened at six.", "right": "Wrong detail" },
+            { "left": "The owner was looking forward to retiring.", "right": "Opposite meaning" },
+            { "left": "The first batch of loaves was always gone by half past seven.", "right": "Exaggeration" },
+            { "left": "The owner had inherited the bakery from her parents.", "right": "Unsupported inference" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P13",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "The text says: *The library is open until eight on weekdays, but on Saturdays it shuts at lunchtime, and it does not open on Sundays at all.*\n\nIs this statement TRUE or FALSE according to the text?\n\n**The library is open until eight every day except Sunday.**",
+          "hint": "Test each part of the statement against the text. One wrong part makes the whole statement false.",
+          "explanation": "False. The library is open until eight on weekdays only. On Saturdays it shuts at lunchtime, so 'every day except Sunday' is not supported, and the whole statement is false.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P14",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Read lines 1 to 8 of this extract from a diary written at sea in 1852.\n\n> We have been eleven days at sea and I have found my legs at last, though my brother has not left his berth since Wednesday and declares he will never eat again. The ship carries a hundred and forty passengers in steerage and nine in the cabins, of whom we are two, and I confess I have never been so grateful for a little money. The captain is a silent man who is said to have made the crossing thirty times; the mate, by contrast, talks to everyone and has promised to show me the wheel. I am told we shall see land in a fortnight if the wind holds, and I would gladly give a year of my life to see it tomorrow.\n\nChoose the **four** statements that are TRUE.",
+          "hint": "Separate the writer from the brother, and the captain from the mate. Add up the passenger numbers carefully.",
+          "explanation": "True: they have been at sea eleven days; the brother has stayed in his berth since Wednesday; there are nine cabin passengers; the mate has promised to show the writer the wheel. False: the writer has *found my legs*, so is no longer seasick; there are 140 in steerage *plus* nine in cabins, so more than 140 in total; it is the mate, not the captain, who talks to everyone; land is expected in a fortnight, not tomorrow.",
+          "options": [
+            { "text": "The ship has been at sea for eleven days.", "correct": true },
+            { "text": "The writer's brother has not left his berth since Wednesday.", "correct": true },
+            { "text": "There are nine passengers travelling in the cabins.", "correct": true },
+            { "text": "The mate has promised to show the writer the wheel.", "correct": true },
+            { "text": "The writer is still suffering from seasickness.", "correct": false, "feedback": "The writer has *found my legs at last*; it is the brother who is suffering." },
+            { "text": "The ship carries a hundred and forty passengers in total.", "correct": false, "feedback": "A hundred and forty in steerage *and* nine in the cabins." },
+            { "text": "The captain talks to everyone on board.", "correct": false, "feedback": "The captain is *a silent man*; the mate is the talker." },
+            { "text": "The passengers expect to see land tomorrow.", "correct": false, "feedback": "Land is expected *in a fortnight*; the writer only wishes it were tomorrow." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 1,
+          "marks": 3,
+          "text": "Complete the sentence about how Paper 2 Question 1 is set up.",
+          "metadata": { "blanksText": "Question 1 is based on Source ___ only, offers you eight statements, and asks you to shade exactly ___ boxes for a maximum of ___ marks." },
+          "hint": "The first source in the paper; half of eight; one mark for each correct choice.",
+          "explanation": "Question 1 uses Source A only. You shade four of the eight boxes, and each correct choice earns one mark, so the maximum is four marks.",
+          "answers": [
+            { "text": "A", "blankIndex": 0, "marks": 1 },
+            { "text": "four", "blankIndex": 1, "marks": 1 },
+            { "text": "four", "blankIndex": 2, "marks": 1 }
+          ]
+        },
+        {
+          "key": "AQA-ENL-03-01-L1-P16",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Read again the first part of Source A, **lines 1 to 9**.\n\n> 1  My uncle bought the narrowboat for four hundred pounds from a man who\n> 2  swore it would float. It did not. For the first two summers it sat on blocks in\n> 3  a boatyard outside Stoke while he replaced the hull plate by plate, working\n> 4  every Saturday and most Sundays with a welder he had borrowed and never\n> 5  returned. My aunt visited once, looked at it for a long time, and went home.\n> 6  In the third summer he launched it, painted it green and cream, and named it\n> 7  after his mother, who had never in her life been on a boat. It now moves at\n> 8  four miles an hour along the Trent and Mersey, and he says, without any\n> 9  irony at all, that he has never been in a hurry since.\n\nChoose **four** statements below which are TRUE. [4 marks]",
+          "hint": "Check the numbers (four hundred, two summers, four miles an hour) and notice what the aunt actually does when she visits.",
+          "explanation": "True: the boat cost four hundred pounds; it sat on blocks for two summers; the boatyard was outside Stoke; the boat is named after the uncle's mother. False: the boat did *not* float when bought; he worked most Sundays as well as Saturdays; the aunt only looked and went home; the welder was *never returned*.",
+          "options": [
+            { "text": "The uncle paid four hundred pounds for the narrowboat.", "correct": true },
+            { "text": "The boat spent two summers on blocks before it was launched.", "correct": true },
+            { "text": "The boatyard was outside Stoke.", "correct": true },
+            { "text": "The boat is named after the uncle's mother.", "correct": true },
+            { "text": "The boat floated when the uncle first bought it.", "correct": false, "feedback": "The seller swore it would float. *It did not.*" },
+            { "text": "The uncle worked on the boat only on Saturdays.", "correct": false, "feedback": "He worked *every Saturday and most Sundays*." },
+            { "text": "The aunt helped to repair the hull.", "correct": false, "feedback": "She *looked at it for a long time, and went home*." },
+            { "text": "The uncle returned the welder after the work was finished.", "correct": false, "feedback": "The welder was *borrowed and never returned*." }
+          ]
         }
       ]
     }

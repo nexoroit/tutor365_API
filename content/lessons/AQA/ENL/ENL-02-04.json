@@ -326,6 +326,94 @@
             "Add a short sentence at the most dramatic moment",
             "Vary sentence openings within each paragraph"
           ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A writer wants to show that a boy arriving late to class is nervous and hoping not to be noticed. Which verb is the most precise choice?\n\n*He ___ into the room.*",
+          "hint": "Which single verb carries the nervousness and the wish to be unseen, without needing an adverb to help it?",
+          "explanation": "*Crept* shows slow, quiet, careful movement and suggests he is trying not to attract attention, all in one word. *Came* is vague, *strode* suggests confidence, and *walked quietly* is a weak verb propped up by an adverb.",
+          "options": [
+            { "text": "crept", "correct": true },
+            { "text": "came", "correct": false, "feedback": "This tells us nothing about how he moved or how he felt." },
+            { "text": "strode", "correct": false, "feedback": "Striding suggests confidence and purpose, the opposite of what the writer wants." },
+            { "text": "walked quietly", "correct": false, "feedback": "It works, but one precise verb is stronger than a weak verb plus an adverb." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P12",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each example from a description of a fairground to the technique it uses.",
+          "hint": "Look for *like* or *as* (simile), a direct claim that one thing is another (metaphor), an object behaving like a person (personification), or an appeal to one of the senses (sensory imagery).",
+          "explanation": "*As a dropped plate* compares using *as*, so it is a simile. *The fairground was a furnace of colour* claims the fairground *is* something else: a metaphor. The generator *grumbled and complained* gives a machine a human mood, so it is personification. Hot sugar and diesel appeal directly to the sense of smell.",
+          "pairs": [
+            { "left": "The big wheel stopped as suddenly as a dropped plate.", "right": "Simile" },
+            { "left": "After dark the fairground was a furnace of colour.", "right": "Metaphor" },
+            { "left": "The generator grumbled and complained behind the waltzers.", "right": "Personification" },
+            { "left": "The air smelled of hot sugar and diesel.", "right": "Sensory imagery" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P13",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A writer is describing a hospital corridor in the middle of the night and wants the reader to feel its eerie stillness.\n\nWrite **one or two sentences** containing an original simile or metaphor that suits this mood. Then, in one sentence, explain the effect you want it to have on the reader.",
+          "hint": "What does a long, silent, lit corridor at night remind you of: a tunnel, a held breath, a stopped clock, an empty stage? Avoid anything you have heard before, then build the comparison with *like*, *as* or *was*.",
+          "explanation": "A strong answer might be: *The corridor stretched ahead like a held breath, every door shut, the strip lights humming to nobody.* Effect: the held breath suggests the building itself is waiting for something, which makes the reader tense and expectant. Any fresh comparison that suggests silence, waiting or unease would score.",
+          "markScheme": [
+            { "criterion": "Uses a recognisable simile or metaphor (e.g. 'like', 'as', or a direct comparison)", "marks": 1, "keywords": [ ["like", "as if", " as ", "was a", "were a"] ] },
+            { "criterion": "The image suits the mood of eerie stillness (e.g. a held breath, a tunnel, a tomb, a stage, a museum)", "marks": 1, "keywords": [ ["breath", "tunnel", "tomb", "stage", "museum"] ] },
+            { "criterion": "Explains the intended effect on the reader", "marks": 1, "keywords": [ ["reader", "effect", "feel", "suggest", "sense"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P14",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: writing every sentence in a paragraph as a short sentence is the most reliable way to make the whole paragraph feel tense and dramatic.",
+          "hint": "Think about what gives a short sentence its punch. Does it still have that if every sentence around it is just as short?",
+          "explanation": "False. A short sentence gets its impact from contrast with longer sentences around it. If every sentence is short, the writing becomes jerky and monotonous and the dramatic effect is lost.",
+          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P15",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Arrange these sentences so that the tension builds most effectively, from a calm opening to a sudden shock.",
+          "hint": "Begin with the longest, calmest sentence. Keep the shortest fragment for the moment the shock lands, and let the last sentence show the aftermath.",
+          "explanation": "The long descriptive sentence establishes the calm kitchen. The medium sentence introduces a small disturbance. *Then the back door swung open.* delivers the shock. The fragment *Nothing.* lets it land in silence. The final sentence shows Amir's reaction and moves the story forward.",
+          "order": [
+            "The kitchen was warm with the smell of the bread Amir had left to prove, and the radio murmured the shipping forecast to nobody in particular.",
+            "Outside, the dog stopped barking mid-bark.",
+            "Then the back door swung open.",
+            "Nothing.",
+            "He set the knife down very slowly and made himself look."
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-04-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "Read this weak paragraph from a student's descriptive writing about a forest at night.\n\n> The forest was very dark and quiet. The trees were big and tall. It was very cold and I could hear some noises. There was an old path going through the trees. It looked scary. I walked along the path and felt frightened.\n\n**Rewrite the paragraph** to make it more effective. You should:\n\n- replace vague words with precise vocabulary\n- include at least one original simile, metaphor or personification\n- include at least one sensory detail other than sight\n- vary your sentence lengths, including one deliberately short sentence\n\nAim for 80 to 120 words. [6 marks]",
+          "hint": "Attack the weak words first: *very dark, big and tall, very cold, some noises, old, scary, walked, felt frightened*. Then decide where your one short sentence should go for maximum impact.",
+          "explanation": "A strong rewrite might read: *Under the pines the dark was total. Trunks rose on either side of the track like the columns of a drowned cathedral, and somewhere above them the wind dragged its fingers through the needles. The cold had teeth. It worked in under my collar and found the damp at the back of my neck, and every few steps a twig cracked behind me, then stopped, then cracked again. The path was little more than a rumour, a paler strip of mud between the roots. I kept my eyes on it. I did not turn round.* This uses precise vocabulary (*pines, trunks, needles, rumour*), an original simile and personification, touch and sound imagery, and sets a three-word sentence against long ones.",
+          "markScheme": [
+            { "criterion": "Replaces vague words with precise, ambitious vocabulary (e.g. pines, trunks, canopy, undergrowth, pitch)", "marks": 1, "keywords": [ ["pine", "trunk", "canopy", "undergrowth", "pitch"] ] },
+            { "criterion": "Uses at least one simile or metaphor that suits the eerie mood", "marks": 1, "keywords": [ ["like", " as ", "as if", "was a", "were a"] ] },
+            { "criterion": "Uses personification or gives the trees, wind or dark a human quality", "marks": 1, "keywords": [ ["finger", "whisper", "watch", "reach", "breath"] ] },
+            { "criterion": "Includes a sensory detail other than sight (sound, touch, smell or taste)", "marks": 1, "keywords": [ ["crack", "snap", "rustl", "damp", "smell"] ] },
+            { "criterion": "Uses a deliberately short sentence or fragment for impact", "marks": 1, "keywords": [ ["silence", "nothing", "i stopped", "i kept", "still"] ] },
+            { "criterion": "Shows rather than tells the feeling of fear or cold through physical detail", "marks": 1, "keywords": [ ["collar", "neck", "breath", "shiver", "heart"] ] }
+          ]
         }
       ]
     }

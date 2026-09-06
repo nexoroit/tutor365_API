@@ -332,6 +332,96 @@
             { "criterion": "Describes the crowd or people waiting", "marks": 1, "keywords": [ ["crowd", "people", "passenger", "commuter", "traveller"] ] },
             { "criterion": "Includes a shift or change in the scene (the train arrives, the crowd moves, the platform empties)", "marks": 1, "keywords": [ ["arriv", "pull", "surge", "empt", "door"] ] }
           ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A student scores full marks for **content and organisation** (AO5) on Paper 1 Question 5 but nothing for technical accuracy. What is the highest total they could have earned out of 40?",
+          "hint": "AO5 is the larger of the two shares.",
+          "explanation": "Content and organisation (AO5) is worth 24 marks and technical accuracy (AO6) is worth 16. Full AO5 with no AO6 gives 24 out of 40, which shows why accuracy is worth checking: those 16 marks are a big chunk of the total.",
+          "options": [
+            { "text": "24 marks", "correct": true },
+            { "text": "16 marks", "correct": false, "feedback": "16 is the AO6 technical accuracy share, not AO5." },
+            { "text": "32 marks", "correct": false },
+            { "text": "20 marks", "correct": false, "feedback": "The two shares are not equal; AO5 takes 24." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P12",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Fill in the two literary terms described in the sentences.",
+          "metadata": { "blanksText": "Giving human feelings or actions to an object, such as 'the kettle grumbled', is called ___. Describing weather that matches the mood of a scene, such as rain at a funeral, is called ___ fallacy." },
+          "hint": "The first term contains the word 'person'. The second is a two-word phrase whose first word means 'moving' or 'sad'.",
+          "explanation": "Personification gives a non-human thing a human action or feeling ('the kettle grumbled'). Pathetic fallacy is when the weather or surroundings mirror the emotion of the scene, such as a storm during an argument.",
+          "answers": [ { "text": "personification", "blankIndex": 0, "marks": 1 }, { "text": "pathetic", "blankIndex": 1, "marks": 1 } ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P13",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each example from a description of a harbour to the technique it uses.",
+          "hint": "A comparison with 'like' or 'as' is a simile; saying one thing *is* another is a metaphor; a human action for an object is personification; weather or setting that matches feeling is pathetic fallacy.",
+          "explanation": "'As a dropped coin' compares with 'as', so it is a simile. 'Was a forest of bare masts' claims the harbour *is* something else: a metaphor. Boats 'nudging' and 'impatient' have human behaviour: personification. The sky darkening as the fishermen wait for news of the missing boat is pathetic fallacy, because the weather mirrors the dread.",
+          "pairs": [
+            { "left": "The moon sat on the water as flat and bright as a dropped coin.", "right": "Simile" },
+            { "left": "The harbour was a forest of bare masts.", "right": "Metaphor" },
+            { "left": "The boats nudged the jetty, impatient for morning.", "right": "Personification" },
+            { "left": "The sky darkened over the harbour as the families waited for news of the missing trawler.", "right": "Pathetic fallacy" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P14",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A student is using a **zoom-in then zoom-out** camera structure to describe a seaside town in winter. Put the paragraph ideas in the correct order.",
+          "hint": "Begin with the widest possible view, move steadily closer, then pull back at the end to close the piece.",
+          "explanation": "The camera opens wide (the whole bay from the cliff path), moves to a mid-shot (the shuttered seafront), reaches a close-up (one glove on the railing), then pulls back as the tide and light change. The final zoom-out gives the description a sense of closure without needing a plot.",
+          "order": [
+            "Wide shot: the whole bay seen from the cliff path, grey sea, empty beach, a line of huts",
+            "Mid-shot: the seafront, shutters down on the arcade, a sign swinging over the chip shop",
+            "Close-up: a single child's glove caught on the railing, salt crusted in its wool",
+            "Pull back: the tide turns, the huts blur into mist and the lamps along the front flicker on"
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P15",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A student is writing a **description** of an abandoned cinema. Which of the following show that the piece is turning into a **story**? Select all that apply.",
+          "hint": "Description builds atmosphere from detail; a story moves through events with characters doing things.",
+          "explanation": "Introducing a named character who arrives and starts exploring, a sudden discovery of a body, and the phrase 'and that was when everything changed' all signal plot and sequence. Moving from the foyer to the screen room and spending a paragraph on one torn seat are both perfectly good descriptive structures.",
+          "options": [
+            { "text": "A named character called Jamal arrives with a torch and starts exploring room by room.", "correct": true },
+            { "text": "In the third paragraph the narrator discovers a body behind the screen.", "correct": true },
+            { "text": "The piece ends with 'and that was when everything changed'.", "correct": true },
+            { "text": "The writer moves from the foyer, through the doors, to the screen room.", "correct": false, "feedback": "Moving the reader through a space is a descriptive structure, not plot." },
+            { "text": "A whole paragraph is spent on one torn velvet seat.", "correct": false, "feedback": "Lingering on a single detail is exactly what description should do." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-02-01-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "**Write a description of an empty school corridor during the summer holidays.**\n\nWrite two or three paragraphs (around 150–250 words). Aim to:\n\n- open with a wide view, then zoom in on one object;\n- use at least two senses (not just sight);\n- include a simile or metaphor;\n- show the mood through detail rather than naming it;\n- end by shifting the light or time.\n\n*(In the exam this task would be worth 40 marks. Here it is checked against six key features.)*",
+          "hint": "Think about what is left behind when everyone has gone: a display peeling off the wall, a lost jumper on a peg, the hum of a fridge somewhere, the smell of floor polish, sunlight lying in long stripes on the floor. Plan three paragraphs before you write.",
+          "explanation": "A strong answer might open wide ('The corridor ran the length of the building like a held breath'), zoom to one object ('A single blue jumper hung from a peg, its sleeve brushing the floor'), add sound or silence ('somewhere a fridge hummed to itself'), include smell ('the sweetish tang of floor polish'), show mood through detail rather than saying 'lonely', and close with a change in light ('By four the sun had slid off the lockers and the corridor went the colour of ash'). Nothing has to happen; the point is atmosphere.",
+          "markScheme": [
+            { "criterion": "Names specific school features to build the setting (lockers, pegs, display, classroom door, noticeboard)", "marks": 1, "keywords": [ ["locker", "peg", "display", "classroom", "notice"] ] },
+            { "criterion": "Includes visual detail of light or shadow", "marks": 1, "keywords": [ ["light", "shadow", "sun", "glow", "stripe"] ] },
+            { "criterion": "Includes sound or silence (a sense other than sight)", "marks": 1, "keywords": [ ["silen", "quiet", "hum", "echo", "creak"] ] },
+            { "criterion": "Uses a simile or comparison", "marks": 1, "keywords": [ ["like", "as if", "as though"] ] },
+            { "criterion": "Includes smell, touch or temperature detail", "marks": 1, "keywords": [ ["smell", "polish", "warm", "cold", "dust"] ] },
+            { "criterion": "Ends by shifting the light or time (afternoon, evening, the sun moving)", "marks": 1, "keywords": [ ["evening", "afternoon", "dusk", "sun", "fade"] ] }
+          ]
         }
       ]
     }
