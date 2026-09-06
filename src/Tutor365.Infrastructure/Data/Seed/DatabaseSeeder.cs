@@ -186,7 +186,10 @@ public class DatabaseSeeder
             ("Reports.WeeklyReportDay", "Sunday", "Day on which weekly parent reports are generated.", false),
             ("Timetable.Year11ExamStart", "05-10", "MM-dd: Year 11 curriculum should be complete by this date (GCSE exams start).", true),
             ("Timetable.SchoolYearEnd", "07-20", "MM-dd: Year 9/10 curriculum scope should be complete by this date.", true),
-            ("Schedule.PlanAheadDays", "14", "How many days ahead the calendar is generated.", true)
+            ("Schedule.PlanAheadDays", "14", "How many days ahead the calendar is generated.", true),
+            ("Questions.GenerateVariants", "true", "Let the AI write new variant questions when a student has seen every variant of a lesson question (needs the AI provider).", false),
+            ("Questions.MinUnseenPerActivity", "1", "Variants a student should still have unseen for each question step before the generator tops up.", false),
+            ("Questions.MaxGeneratedPerDay", "200", "Upper limit on AI-generated questions per day across the platform.", false)
         };
         foreach (var (key, value, desc, pub) in defaults)
         {

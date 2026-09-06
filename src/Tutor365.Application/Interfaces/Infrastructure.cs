@@ -71,3 +71,16 @@ public interface IAiMarker
 }
 
 public record AiMarkResult(decimal Score, decimal MaxScore, bool Correct, string Feedback, IReadOnlyList<string> MissingCriteria, string Model);
+
+/// <summary>Generates new variant questions with the AI provider so a student never has to repeat one. Returns how many were created.</summary>
+public interface IQuestionGenerator
+{
+    /// <summary>Tops up every question activity of the lesson until the student has at least the configured number of unseen variants (studentId null: create <paramref name="count"/> per activity).</summary>
+    Task<int> GenerateVariantsAsync(Guid lessonId, Guid? studentId, int count = 1, CancellationToken ct = default);
+}
+
+/// <summary>Fire-and-forget queue: a background worker generates variants for (lesson, student) pairs.</summary>
+public interface IQuestionTopUpQueue
+{
+    void Enqueue(Guid lessonId, Guid studentId);
+}

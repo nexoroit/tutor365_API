@@ -59,6 +59,10 @@ public static class DependencyInjection
         services.AddScoped<IReportService, ReportService>();
         services.AddScoped<IAdminService, AdminService>();
         services.AddHostedService<MaintenanceHostedService>();
+        services.AddSingleton<Services.QuestionTopUpQueue>();
+        services.AddSingleton<IQuestionTopUpQueue>(sp => sp.GetRequiredService<Services.QuestionTopUpQueue>());
+        services.AddHostedService<Services.QuestionTopUpHostedService>();
+        services.AddScoped<IQuestionGenerator, AI.AiQuestionGeneratorService>();
 
         services.AddScoped<Data.Seed.DatabaseSeeder>();
         services.AddScoped<Data.Seed.ContentSeeder>();

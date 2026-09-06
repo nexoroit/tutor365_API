@@ -26,4 +26,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Data\Seed\Curriculum\*.json" />
   </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Tutor365.UnitTests" />
+    <InternalsVisibleTo Include="Tutor365.IntegrationTests" />
+  </ItemGroup>
 </Project>

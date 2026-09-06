@@ -51,7 +51,7 @@ public class AnthropicAiProvider : IAiProvider
             var response = await client.Messages.Create(new MessageCreateParams
             {
                 Model = model,
-                MaxTokens = Math.Min(request.MaxTokens, cfg.MaxTokens),
+                MaxTokens = request.Purpose == "generation" ? request.MaxTokens : Math.Min(request.MaxTokens, cfg.MaxTokens),
                 System = request.SystemPrompt,
                 Messages = messages,
             }, cancellationToken: ct);

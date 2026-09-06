@@ -154,6 +154,15 @@ public class AdminController : ApiControllerBase
     [HttpPut("lessons/{id:guid}")]
     [ProducesResponseType(typeof(ApiResponse<LessonDetailDto>), 200)]
     public async Task<IActionResult> UpdateLesson(Guid id, [FromBody] UpsertLessonRequest request, CancellationToken ct) => Ok(await _admin.UpsertLessonAsync(id, request, ct));
+    /// <summary>Ask the AI to write new variant questions for every question step of a lesson (count per step). Returns how many were created.</summary>
+    [HttpPost("lessons/{id:guid}/generate-variants")]
+    [ProducesResponseType(typeof(ApiResponse<int>), 200)]
+    public async Task<IActionResult> GenerateVariants([FromServices] Application.Interfaces.IQuestionGenerator generator, Guid id, [FromQuery] int count = 1, CancellationToken ct = default)
+    {
+        var made = await generator.GenerateVariantsAsync(id, null, Math.Clamp(count, 1, 3), ct);
+        return Ok(made, made == 0 ? "No variants were generated. Check that the AI provider is enabled and Questions.GenerateVariants is true." : $"{made} new variant question{(made == 1 ? "" : "s")} added.");
+    }
+
     /// <summary>Replace the ordered activity list of a lesson.</summary>
     [HttpPut("lessons/{id:guid}/activities")]
     [ProducesResponseType(typeof(ApiResponse<LessonDetailDto>), 200)]

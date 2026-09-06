@@ -136,7 +136,7 @@ public class ContentSeeder
         return (lessonCount, questionCount);
     }
 
-    private async Task<Question> UpsertQuestionAsync(ContentQuestion cq, Guid subTopicId, Guid lessonId, Guid boardId, string fallbackKey, CancellationToken ct)
+    public async Task<Question> UpsertQuestionAsync(ContentQuestion cq, Guid subTopicId, Guid lessonId, Guid boardId, string fallbackKey, CancellationToken ct)
     {
         var key = string.IsNullOrWhiteSpace(cq.Key) ? fallbackKey : cq.Key;
         var id = DeterministicGuid.Create($"question:{key}");

@@ -36,9 +36,10 @@ public class StudySessionService : IStudySessionService
     private readonly IAiMarker _aiMarker;
     private readonly IAssessmentService _assessments;
 
-    public StudySessionService(IAppDbContext db, ICurrentUser current, IAccessService access, IMarkingService marking, IProgressService progress, IAuditService audit, IAiMarker aiMarker, IAssessmentService assessments)
+    private readonly IQuestionTopUpQueue _topUp;
+    public StudySessionService(IAppDbContext db, ICurrentUser current, IAccessService access, IMarkingService marking, IProgressService progress, IAuditService audit, IAiMarker aiMarker, IAssessmentService assessments, IQuestionTopUpQueue topUp)
     {
-        _db = db; _current = current; _access = access; _marking = marking; _progress = progress; _audit = audit; _aiMarker = aiMarker; _assessments = assessments;
+        _db = db; _current = current; _access = access; _marking = marking; _progress = progress; _audit = audit; _aiMarker = aiMarker; _assessments = assessments; _topUp = topUp;
     }
 
     private static bool IsAssessment(StudySession s) => s.Type is StudySessionType.Assessment or StudySessionType.Mock;
@@ -216,17 +217,21 @@ public class StudySessionService : IStudySessionService
     {
         var list = new List<SessionActivity>();
         var order = 0;
-        // Variant pool: this lesson's published practice questions. Each question activity is swapped for a
-        // same-type, similar-difficulty variant chosen per student, so two students rarely see the same paper,
-        // and a re-attempt avoids questions the student has already got right.
+        // Variant pool: this lesson's published practice questions (hand-written and AI-generated). Each question activity is
+        // swapped for a same-type, same-marks, similar-difficulty variant chosen per student. On a re-attempt the student gets
+        // questions they have never seen; only when every variant has been seen do we fall back to the least recently seen ones,
+        // and we ask the background generator to write new variants for next time.
         var activityQuestionIds = lesson.Activities.Where(a => a.QuestionId.HasValue).Select(a => a.QuestionId!.Value).ToList();
         var originals = await _db.Questions.Where(q => activityQuestionIds.Contains(q.Id)).Select(q => new { q.Id, q.Difficulty, q.QuestionType, q.MaxMarks }).ToListAsync(ct);
         var pool = await _db.Questions.Where(q => q.LessonId == lesson.Id && q.Status == ContentStatus.Published && !activityQuestionIds.Contains(q.Id))
             .Select(q => new { q.Id, q.Difficulty, q.QuestionType, q.MaxMarks }).ToListAsync(ct);
-        var correctlyAnswered = attempt > 1
-            ? await _db.StudentAnswers.Where(a => a.StudentId == studentId && a.IsCorrect).Select(a => a.QuestionId).Distinct().ToListAsync(ct)
-            : new List<Guid>();
+        var seen = new Dictionary<Guid, SeenInfo>();
+        if (attempt > 1)
+            seen = await _db.StudentAnswers.Where(a => a.StudentId == studentId).GroupBy(a => a.QuestionId)
+                .Select(g => new { QuestionId = g.Key, LastAt = g.Max(a => a.AnsweredAt), Correct = g.Any(a => a.IsCorrect) })
+                .ToDictionaryAsync(x => x.QuestionId, x => new SeenInfo(x.LastAt, x.Correct), ct);
         var used = new HashSet<Guid>();
+        var exhausted = false;
         foreach (var a in lesson.Activities.OrderBy(a => a.SortOrder))
         {
             order++;
@@ -237,14 +242,27 @@ public class StudySessionService : IStudySessionService
                 var candidates = pool.Where(p => !used.Contains(p.Id) && p.QuestionType == original.QuestionType && p.MaxMarks == original.MaxMarks && Math.Abs(p.Difficulty - original.Difficulty) <= 1)
                     .Select(p => p.Id).ToList();
                 if (!used.Contains(original.Id)) candidates.Add(original.Id);
-                if (attempt > 1) { var fresh = candidates.Where(c => !correctlyAnswered.Contains(c)).ToList(); if (fresh.Count > 0) candidates = fresh; }
+                if (attempt > 1 && candidates.Count > 0)
+                {
+                    var unseen = candidates.Where(c => !seen.ContainsKey(c)).ToList();
+                    if (unseen.Count > 0) candidates = unseen;
+                    else
+                    {
+                        exhausted = true;
+                        // Prefer ones answered wrongly, then the least recently seen; keep two so the choice still varies.
+                        candidates = candidates.OrderBy(c => seen[c].Correct ? 1 : 0).ThenBy(c => seen[c].LastAt).Take(2).ToList();
+                    }
+                }
                 if (candidates.Count > 0) qid = PickVariant(candidates, studentId, a.Id, attempt);
                 used.Add(qid!.Value);
             }
             list.Add(new SessionActivity { SessionId = session.Id, LessonActivityId = a.Id, QuestionId = qid, SortOrder = order });
         }
+        if (exhausted) _topUp.Enqueue(lesson.Id, studentId);
         return list;
     }
+
+    private sealed record SeenInfo(DateTime LastAt, bool Correct);
 
     /// <summary>Deterministic choice: the same student gets the same variant for an activity on a given attempt, different students differ.</summary>
     internal static Guid PickVariant(IReadOnlyList<Guid> candidates, Guid studentId, Guid activityId, int attempt)
@@ -517,6 +535,8 @@ public class StudySessionService : IStudySessionService
         await _db.SaveChangesAsync(ct);
 
         await _progress.RecordSessionCompletionAsync(session, ct);
+        // A lesson not yet passed will be re-attempted: make sure fresh variants exist by then.
+        if (session.LessonId.HasValue && session.Passed != true && !IsAssessment(session)) _topUp.Enqueue(session.LessonId.Value, session.StudentId);
         if (IsAssessment(session)) await _assessments.RecordResultAsync(session, ct);
         await _audit.LogAsync("Session.Complete", "StudySession", session.Id.ToString(), new { session.Type, session.ScorePercent, session.Passed, session.ElapsedSeconds }, true, ct);
     }
