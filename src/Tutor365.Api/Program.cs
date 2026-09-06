@@ -130,8 +130,9 @@ using (var scope = app.Services.CreateScope())
 }
 
 // ---- pipeline ----
-app.UseMiddleware<ExceptionHandlingMiddleware>();
+// Request logging first so handled errors (e.g. 422 business rules) are logged with their real status, not as 500s.
 app.UseSerilogRequestLogging();
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseSwagger();
 app.UseSwaggerUI(o =>
