@@ -594,6 +594,214 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P11",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Which of the following are renewable resources? Select all that apply.",
+          "hint": "A renewable resource can be replaced at least as fast as it is used up.",
+          "explanation": "Wool is regrown by sheep every year and ethanol can be made by fermenting sugar cane that is replanted each season, so both are renewable. Natural gas and aluminium ore took millions of years to form and cannot be replaced, so they are finite.",
+          "options": [
+            {
+              "text": "wool",
+              "correct": true
+            },
+            {
+              "text": "ethanol made by fermenting sugar cane",
+              "correct": true
+            },
+            {
+              "text": "natural gas",
+              "correct": false,
+              "feedback": "Natural gas is a fossil fuel that formed over millions of years, so it is finite."
+            },
+            {
+              "text": "aluminium ore (bauxite)",
+              "correct": false,
+              "feedback": "Metal ores are not replaced once they are mined."
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P12",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the definitions.",
+          "metadata": {
+            "blanksText": "Water that is safe for humans to drink is called ___ water. Water found in rivers, lakes and underground that contains only low levels of dissolved salts is called ___ water."
+          },
+          "hint": "The first word is not 'pure'. The second word is the opposite of salty.",
+          "explanation": "Potable water is water that is safe to drink; fresh water is water with low levels of dissolved substances, which needs the least treatment to make it potable.",
+          "answers": [
+            {
+              "text": "potable",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "fresh",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P13",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Put the stages that the liquid effluent from sewage goes through at a waste water treatment plant in the correct order.",
+          "hint": "Large solids are removed first; the water is only released once bacteria have broken down the organic matter.",
+          "explanation": "Screening removes grit and large solids; sedimentation lets the sludge settle and leaves the effluent; the effluent is treated aerobically by bubbling air through it so bacteria break down organic matter; the treated water is then safe to release into rivers.",
+          "order": [
+            "Screening removes grit and large solids",
+            "Sedimentation separates the sludge from the effluent",
+            "Air is bubbled through the effluent so bacteria break down organic matter",
+            "The treated water is released into a river"
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A distillation plant needs 25 kWh of energy to produce 1 m³ of fresh water from sea water. Electricity costs £0.15 per kWh. Calculate the cost of producing 400 m³ of fresh water.",
+          "hint": "Find the total energy first, then multiply by the cost per kWh.",
+          "explanation": "Energy = 25 × 400 = 10 000 kWh. Cost = 10 000 × £0.15 = £1500.",
+          "answers": [
+            {
+              "numeric": 1500,
+              "tolerance": 0,
+              "unit": "£",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P15",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Match each process used to produce potable water to its description.",
+          "hint": "Two of the processes treat fresh water; two remove salt from sea water.",
+          "explanation": "Filtration through sand and gravel removes solid particles; sterilisation with chlorine, ozone or UV light kills microbes; distillation boils the water and condenses the vapour, leaving the salts behind; reverse osmosis forces water through a partially permeable membrane under pressure so salt ions are held back.",
+          "pairs": [
+            {
+              "left": "filtration",
+              "right": "water passes through sand and gravel beds to remove solid particles"
+            },
+            {
+              "left": "sterilisation",
+              "right": "chlorine, ozone or ultraviolet light kills microbes"
+            },
+            {
+              "left": "distillation",
+              "right": "water is boiled and the vapour condensed, leaving the salts behind"
+            },
+            {
+              "left": "reverse osmosis",
+              "right": "water is forced through a partially permeable membrane under pressure"
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-10-01-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "A small island normally obtains its potable water from groundwater in an aquifer. During a long drought the aquifer runs low and the island turns to the sea.\n\n(a) Explain why groundwater is a better source of potable water than sea water.\n\n(b) Describe the two main treatment steps used to make groundwater potable, and state the purpose of each.\n\n(c) The island installs a reverse osmosis plant. Describe how reverse osmosis produces fresh water from sea water.\n\n(d) Explain two disadvantages of using desalination to supply the island's water.",
+          "hint": "Fresh water has few dissolved salts. Filter, then kill microbes. Membrane and pressure. Think about energy costs and what is left behind.",
+          "explanation": "(a) Groundwater is fresh water containing only low levels of dissolved salts, so it needs much less treatment than sea water, which contains far too much dissolved salt to drink. (b) Filtration through sand and gravel removes solid particles; sterilisation with chlorine, ozone or UV light kills harmful microbes. (c) Sea water is forced under high pressure through a partially permeable membrane that allows water molecules through but holds back the salt ions. (d) Desalination needs a large amount of energy, so it is expensive; it also produces concentrated brine, which can harm marine life when it is returned to the sea.",
+          "markScheme": [
+            {
+              "criterion": "Groundwater is fresh water with low levels of dissolved salts, so it needs less treatment",
+              "marks": 1,
+              "keywords": [
+                [
+                  "fresh",
+                  "low levels of dissolved",
+                  "less salt",
+                  "fewer dissolved",
+                  "little salt"
+                ]
+              ]
+            },
+            {
+              "criterion": "Filtration through sand / gravel to remove solids",
+              "marks": 1,
+              "keywords": [
+                [
+                  "filter",
+                  "filtration",
+                  "sand",
+                  "gravel"
+                ]
+              ]
+            },
+            {
+              "criterion": "Sterilisation with chlorine / ozone / UV to kill microbes",
+              "marks": 1,
+              "keywords": [
+                [
+                  "chlorine",
+                  "ozone",
+                  "ultraviolet",
+                  "uv",
+                  "sterilis"
+                ]
+              ]
+            },
+            {
+              "criterion": "Water forced through a partially permeable membrane under high pressure; salt ions held back",
+              "marks": 1,
+              "keywords": [
+                [
+                  "membrane",
+                  "pressure",
+                  "reverse osmosis",
+                  "osmosis"
+                ]
+              ]
+            },
+            {
+              "criterion": "Needs a lot of energy, so it is expensive",
+              "marks": 1,
+              "keywords": [
+                [
+                  "energy",
+                  "electricity",
+                  "heat"
+                ],
+                [
+                  "expensive",
+                  "cost",
+                  "costly"
+                ]
+              ]
+            },
+            {
+              "criterion": "Produces concentrated brine / salt waste that can harm marine life",
+              "marks": 1,
+              "keywords": [
+                [
+                  "brine",
+                  "salt",
+                  "concentrated"
+                ],
+                [
+                  "marine",
+                  "sea life",
+                  "harm",
+                  "damage",
+                  "environment"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

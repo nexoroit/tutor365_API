@@ -604,6 +604,236 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P11",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 5,
+          "text": "A student carries out flame tests on five different compounds. Match each compound to the flame colour it gives.",
+          "hint": "Only the metal ion decides the colour, so look at the metal in each compound. Lithium and calcium both give reddish flames.",
+          "explanation": "The flame colour comes from the metal ion: copper(II) gives green, potassium gives lilac, sodium gives yellow, calcium gives orange-red and lithium gives crimson. The negative ion (chloride, nitrate, carbonate, sulfate) has no effect on the colour.",
+          "pairs": [
+            {
+              "left": "copper(II) chloride",
+              "right": "green"
+            },
+            {
+              "left": "potassium nitrate",
+              "right": "lilac"
+            },
+            {
+              "left": "sodium carbonate",
+              "right": "yellow"
+            },
+            {
+              "left": "calcium chloride",
+              "right": "orange-red"
+            },
+            {
+              "left": "lithium sulfate",
+              "right": "crimson"
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A few drops of sodium hydroxide solution are added to an unknown solution and a brown precipitate forms. Which ion is present?",
+          "hint": "Two different iron ions give coloured hydroxide precipitates; one is green and one is brown.",
+          "explanation": "Iron(III) hydroxide is a brown precipitate. Iron(II) hydroxide is green, copper(II) hydroxide is blue and magnesium hydroxide is white.",
+          "options": [
+            {
+              "text": "iron(III), Fe³⁺",
+              "correct": true
+            },
+            {
+              "text": "iron(II), Fe²⁺",
+              "correct": false,
+              "feedback": "Iron(II) gives a green precipitate."
+            },
+            {
+              "text": "copper(II), Cu²⁺",
+              "correct": false,
+              "feedback": "Copper(II) gives a blue precipitate."
+            },
+            {
+              "text": "magnesium, Mg²⁺",
+              "correct": false,
+              "feedback": "Magnesium gives a white precipitate."
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P13",
+          "type": "FillInTheBlank",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Complete the sentences about the test for carbonate ions.",
+          "metadata": {
+            "blanksText": "To test for carbonate ions, add dilute ___ acid to the sample. If carbonate ions are present the mixture ___ because a gas is given off. Bubbling this gas through ___ turns it cloudy, confirming that the gas is carbon dioxide."
+          },
+          "hint": "The acid is the same one added at the start of the sulfate test. Bubbles of gas are seen. The cloudy solution is calcium hydroxide solution.",
+          "explanation": "Dilute hydrochloric acid reacts with carbonates to release carbon dioxide, which is seen as fizzing (effervescence). Carbon dioxide turns limewater cloudy because insoluble calcium carbonate forms.",
+          "answers": [
+            {
+              "text": "hydrochloric",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "fizzes",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "limewater",
+              "blankIndex": 2,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P14",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Which statements about the test for halide ions are correct? Select all that apply.",
+          "hint": "Think about which acid is used to acidify the sample, and the colour sequence white, cream, yellow.",
+          "explanation": "The sample is acidified with dilute nitric acid before silver nitrate solution is added, and iodide ions give a yellow precipitate of silver iodide. Hydrochloric acid must not be used because it contains chloride ions, which would themselves give a white precipitate; chloride gives a white, not cream, precipitate.",
+          "options": [
+            {
+              "text": "Dilute nitric acid is added before the silver nitrate solution.",
+              "correct": true
+            },
+            {
+              "text": "Iodide ions give a yellow precipitate.",
+              "correct": true
+            },
+            {
+              "text": "Dilute hydrochloric acid can be used to acidify the sample.",
+              "correct": false,
+              "feedback": "Hydrochloric acid contains chloride ions, which would give a false positive white precipitate."
+            },
+            {
+              "text": "Chloride ions give a cream precipitate.",
+              "correct": false,
+              "feedback": "Silver chloride is white; silver bromide is cream."
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A student adds excess sodium hydroxide solution to a solution containing iron(III) ions and collects 0.015 mol of iron(III) hydroxide, Fe(OH)₃, as a brown precipitate. Calculate the mass of the precipitate in grams. (Mr of Fe(OH)₃ = 107)",
+          "hint": "mass = moles × Mr.",
+          "explanation": "mass = 0.015 × 107 = 1.605 g, which rounds to 1.61 g (3 significant figures).",
+          "answers": [
+            {
+              "numeric": 1.605,
+              "tolerance": 0.02,
+              "unit": "g",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-08-03-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "A student is given a solution that contains one metal ion and one negative ion. Tests give these results:\n\n- Sodium hydroxide solution: a green precipitate forms.\n- Dilute hydrochloric acid: no bubbles.\n- Dilute hydrochloric acid then barium chloride solution: a white precipitate forms.\n\n(a) Identify the metal ion and the negative ion, and give the name of the compound.\n\n(b) Explain why dilute hydrochloric acid is added before the barium chloride solution.\n\n(c) **Higher tier:** Write the ionic equation for the formation of the green precipitate.\n\n(d) The student's teacher analyses the same solution using flame emission spectroscopy. Give two pieces of information this method can provide that a simple flame test cannot.",
+          "hint": "Green hydroxide precipitate is one of the iron ions. White barium precipitate is sulfate. The acid removes an ion that would give a false result. Instrumental methods give numbers, not just colours.",
+          "explanation": "(a) Fe²⁺ and SO₄²⁻: iron(II) sulfate. (b) The acid removes any carbonate ions, which would otherwise react with barium chloride to give a white precipitate of barium carbonate and a false positive result. (c) Fe²⁺ + 2OH⁻ → Fe(OH)₂. (d) Flame emission spectroscopy can identify each metal ion in a mixture (colours are not masked) and can measure the concentration of each ion.",
+          "markScheme": [
+            {
+              "criterion": "Iron(II) ion, Fe²⁺, from the green precipitate",
+              "marks": 1,
+              "keywords": [
+                [
+                  "iron(ii)",
+                  "iron 2",
+                  "fe²⁺",
+                  "fe2+",
+                  "iron(2)"
+                ]
+              ]
+            },
+            {
+              "criterion": "Sulfate ion from the white precipitate with barium chloride; compound is iron(II) sulfate",
+              "marks": 1,
+              "keywords": [
+                [
+                  "sulfate",
+                  "sulphate",
+                  "so₄",
+                  "so4"
+                ]
+              ]
+            },
+            {
+              "criterion": "Hydrochloric acid removes carbonate ions that would give a (white) precipitate with barium chloride",
+              "marks": 1,
+              "keywords": [
+                [
+                  "carbonate",
+                  "co₃",
+                  "co3"
+                ],
+                [
+                  "remove",
+                  "react",
+                  "interfere",
+                  "false",
+                  "get rid"
+                ]
+              ]
+            },
+            {
+              "criterion": "Ionic equation Fe²⁺ + 2OH⁻ → Fe(OH)₂",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2oh",
+                  "2 oh"
+                ],
+                [
+                  "fe(oh)₂",
+                  "fe(oh)2"
+                ]
+              ]
+            },
+            {
+              "criterion": "Can identify ions in a mixture / colours not masked",
+              "marks": 1,
+              "keywords": [
+                [
+                  "mixture",
+                  "several",
+                  "more than one",
+                  "each ion",
+                  "masked"
+                ]
+              ]
+            },
+            {
+              "criterion": "Can measure the concentration / amount of each ion",
+              "marks": 1,
+              "keywords": [
+                [
+                  "concentration",
+                  "how much",
+                  "amount",
+                  "quantity"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

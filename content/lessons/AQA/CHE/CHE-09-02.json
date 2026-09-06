@@ -619,6 +619,231 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P11",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these steps in order to show how burning more fossil fuels leads to a rise in the Earth's average temperature.",
+          "hint": "Start with the fuel. The gas has to build up before it can absorb more radiation.",
+          "explanation": "Burning fossil fuels releases carbon dioxide; its concentration in the atmosphere rises; more of the infrared radiation emitted by the surface is absorbed; more energy is re-radiated back towards the surface; the average global temperature increases.",
+          "order": [
+            "Fossil fuels are burned, releasing carbon dioxide",
+            "The concentration of carbon dioxide in the atmosphere increases",
+            "More of the infrared radiation emitted by the Earth's surface is absorbed",
+            "More energy is re-radiated back towards the surface",
+            "The Earth's average temperature rises"
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P12",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each activity to the greenhouse gas it mainly adds to the atmosphere.",
+          "hint": "Burning any fuel or forest gives carbon dioxide; waterlogged soils, animals and natural gas give methane.",
+          "explanation": "Aircraft burn hydrocarbon fuel and burning forests both release carbon dioxide (and clearing forest also removes trees that absorb it). Flooded rice paddies release methane from decaying plant material, and natural gas is mostly methane, so leaks add methane directly.",
+          "pairs": [
+            {
+              "left": "flying in a jet aircraft",
+              "right": "carbon dioxide (from burning fuel)"
+            },
+            {
+              "left": "burning forest to clear land for farming",
+              "right": "carbon dioxide (from combustion and fewer trees)"
+            },
+            {
+              "left": "growing rice in flooded paddy fields",
+              "right": "methane (from decaying plant material)"
+            },
+            {
+              "left": "leaks from natural gas pipelines",
+              "right": "methane (natural gas is mostly methane)"
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P13",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A climate scientist reports that her model predicts a temperature rise of 'between 1.5 °C and 4 °C by 2100'. Which statements explain why the prediction is given as a range rather than a single value? Select all that apply.",
+          "hint": "Think about how many things affect the climate and how a computer model is built.",
+          "explanation": "The climate depends on many interacting factors (oceans, clouds, ice, living things), and a model cannot include every one exactly, so it uses simplifications and gives a range of possible outcomes. The absorption of infrared radiation by greenhouse gases is well established, and long temperature records do exist.",
+          "options": [
+            {
+              "text": "The climate is a very complex system with many interacting factors.",
+              "correct": true
+            },
+            {
+              "text": "The model has to simplify the real climate system.",
+              "correct": true
+            },
+            {
+              "text": "It has not been shown that greenhouse gases absorb infrared radiation.",
+              "correct": false,
+              "feedback": "This has been measured directly in the laboratory."
+            },
+            {
+              "text": "There are no reliable temperature records from the past.",
+              "correct": false,
+              "feedback": "Records from thermometers, tree rings and ice cores are available."
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A household's gas boiler produces 3.2 tonnes of CO₂ per year. After the loft is insulated, the household uses 25% less gas. Assuming emissions fall in proportion, calculate the new annual CO₂ emissions from the boiler in tonnes.",
+          "hint": "A 25% reduction leaves 75% of the original.",
+          "explanation": "0.75 × 3.2 = 2.4 tonnes per year.",
+          "answers": [
+            {
+              "numeric": 2.4,
+              "tolerance": 0.02,
+              "unit": "tonnes",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete the sentences about greenhouse gases.",
+          "metadata": {
+            "blanksText": "Water vapour, carbon dioxide and methane are all ___ gases. They allow short-wavelength radiation from the Sun to pass through the atmosphere, but they absorb ___-wavelength infrared radiation given out by the Earth's surface. Cattle farming and landfill sites increase the amount of ___ in the atmosphere."
+          },
+          "hint": "The gases are named after a glass building. The Earth's radiation is the opposite of short. The last gas is the main part of natural gas.",
+          "explanation": "They are greenhouse gases; they absorb long-wavelength infrared; cattle and landfill release methane.",
+          "answers": [
+            {
+              "text": "greenhouse",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "long",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "methane",
+              "blankIndex": 2,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-CHE-09-02-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "The concentration of methane in the atmosphere has more than doubled since 1750.\n\n(a) Describe two human activities that have increased the amount of methane in the atmosphere.\n\n(b) Explain how methane in the atmosphere causes the Earth's average temperature to rise.\n\n(c) Describe two possible consequences of a rising global temperature.\n\n(d) Suggest one action an individual could take to reduce their carbon footprint, and give one reason why many people do not take it.",
+          "hint": "Cattle, rice and rubbish. Infrared absorption and re-radiation. Ice, sea levels and weather. Transport or diet choices, and why they are inconvenient.",
+          "explanation": "(a) Cattle and other livestock farming; growing rice in flooded fields; decaying waste in landfill sites; leaks of natural gas. (b) The Earth's surface emits long-wavelength infrared radiation; methane absorbs it and re-radiates some back towards the surface, so less energy escapes into space and the atmosphere warms. (c) Melting ice caps and rising sea levels causing flooding; more frequent extreme weather such as storms and droughts; changes in rainfall affecting crops; loss of habitats. (d) Cycle or walk instead of driving, eat less meat, insulate the home, fly less; people may find these expensive, inconvenient or time-consuming.",
+          "markScheme": [
+            {
+              "criterion": "Activity 1: livestock / cattle farming or rice growing",
+              "marks": 1,
+              "keywords": [
+                [
+                  "cattle",
+                  "cow",
+                  "livestock",
+                  "rice",
+                  "sheep"
+                ]
+              ]
+            },
+            {
+              "criterion": "Activity 2: landfill / decaying waste or natural gas leaks",
+              "marks": 1,
+              "keywords": [
+                [
+                  "landfill",
+                  "waste",
+                  "rubbish",
+                  "natural gas",
+                  "leak"
+                ]
+              ]
+            },
+            {
+              "criterion": "Methane absorbs (long-wavelength) infrared radiation emitted by the Earth's surface",
+              "marks": 1,
+              "keywords": [
+                [
+                  "absorb",
+                  "trap"
+                ],
+                [
+                  "infrared",
+                  "long wavelength",
+                  "long-wavelength",
+                  "heat radiation"
+                ]
+              ]
+            },
+            {
+              "criterion": "Energy is re-radiated back towards the surface so less escapes / the atmosphere warms",
+              "marks": 1,
+              "keywords": [
+                [
+                  "re-radiat",
+                  "reradiat",
+                  "back",
+                  "less escapes",
+                  "warms"
+                ]
+              ]
+            },
+            {
+              "criterion": "Two consequences: sea level rise / melting ice / flooding; extreme weather; crops; habitats",
+              "marks": 1,
+              "keywords": [
+                [
+                  "sea level",
+                  "flood",
+                  "ice",
+                  "glacier",
+                  "melt"
+                ],
+                [
+                  "weather",
+                  "storm",
+                  "drought",
+                  "crop",
+                  "habitat"
+                ]
+              ]
+            },
+            {
+              "criterion": "Individual action (cycle, walk, public transport, insulate, eat less meat) with a reason it is not taken (cost, inconvenience, time)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "cycl",
+                  "walk",
+                  "public transport",
+                  "insulat",
+                  "meat"
+                ],
+                [
+                  "expensive",
+                  "cost",
+                  "inconvenien",
+                  "time",
+                  "effort"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }
