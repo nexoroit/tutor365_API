@@ -29,10 +29,11 @@ public class ParentService : IParentService
     private readonly IAccessService _access;
     private readonly IPasswordHasher _hasher;
     private readonly IAuditService _audit;
+    private readonly IAppEmailService _emails;
 
-    public ParentService(IAppDbContext db, ICurrentUser current, IAccessService access, IPasswordHasher hasher, IAuditService audit)
+    public ParentService(IAppDbContext db, ICurrentUser current, IAccessService access, IPasswordHasher hasher, IAuditService audit, IAppEmailService emails)
     {
-        _db = db; _current = current; _access = access; _hasher = hasher; _audit = audit;
+        _db = db; _current = current; _access = access; _hasher = hasher; _audit = audit; _emails = emails;
     }
 
     public async Task<ParentProfileDto> UpdateProfileAsync(UpdateParentProfileRequest request, CancellationToken ct = default)
@@ -121,6 +122,7 @@ public class ParentService : IParentService
         _db.Users.Add(user);
         await _db.SaveChangesAsync(ct);
         await _audit.LogAsync("Parent.CreateChild", "Student", user.Student.Id.ToString(), new { user.Email, Year = year.Number }, true, ct);
+        await _emails.SendChildCreatedAsync(parent.User, user, ct);
         return await BuildDetailAsync(user.Student.Id, ct);
     }
 

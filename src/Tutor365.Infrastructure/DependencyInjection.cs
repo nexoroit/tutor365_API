@@ -35,6 +35,7 @@ public static class DependencyInjection
         services.AddScoped<IAuditService, AuditService>();
         services.AddSingleton<ISecretProtector, SecretProtector>();
         services.AddScoped<IMailSettingsService, MailSettingsService>();
+        services.AddScoped<IAppEmailService, AppEmailService>();
         services.AddScoped<IAiProvider, AnthropicAiProvider>();
         services.AddScoped<IAiSettingsService, AiSettingsService>();
         services.AddScoped<IAiMarker, AiMarkingService>();

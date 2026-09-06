@@ -44,22 +44,18 @@ public class OtpService : IOtpService
         });
         await _db.SaveChangesAsync(ct);
 
-        var (subject, intro) = purpose switch
+        var (subject, title, intro) = purpose switch
         {
-            OtpPurpose.Registration => ($"{_app.Name}: verify your email", "Thanks for registering. Use the code below to verify your email address."),
-            OtpPurpose.PasswordReset => ($"{_app.Name}: reset your password", "We received a request to reset your password. Use the code below to continue."),
-            _ => ($"{_app.Name}: your verification code", "Use the code below to continue.")
+            OtpPurpose.Registration => ($"{_app.Name}: verify your email", "Verify your email address", "Thanks for registering. Enter this code in the app to verify your email and finish setting up your account."),
+            OtpPurpose.PasswordReset => ($"{_app.Name}: your password reset code", "Reset your password", "We received a request to reset your password. Enter this code in the app to choose a new password. If you didn't request this, you can ignore this email."),
+            _ => ($"{_app.Name}: your verification code", "Your verification code", "Enter this code in the app to continue.")
         };
+        var body = EmailTemplates.Para($"Hi {EmailTemplates.E(recipientName)},") + EmailTemplates.Para(intro) + EmailTemplates.CodeBox(code)
+                 + EmailTemplates.Para($"<span style=\"color:#6B7280\">This code expires in {_auth.OtpExpiryMinutes} minutes.</span>");
+        var (html, text) = EmailTemplates.Layout(_app.Name, _app.FrontendUrl, _app.SupportEmail, title, $"Your {_app.Name} code is {code}", body,
+            $"Hi {recipientName},\n\n{intro}\n\nYour code: {code}\n\nThis code expires in {_auth.OtpExpiryMinutes} minutes.");
 
-        var html = $@"<div style=""font-family:Segoe UI,Arial,sans-serif;max-width:520px;margin:auto;padding:24px"">
-<h2 style=""color:#3b5bdb"">{_app.Name}</h2>
-<p>Hi {System.Net.WebUtility.HtmlEncode(recipientName)},</p>
-<p>{intro}</p>
-<p style=""font-size:32px;letter-spacing:8px;font-weight:bold;background:#f1f3f9;padding:16px;text-align:center;border-radius:8px"">{code}</p>
-<p>This code expires in {_auth.OtpExpiryMinutes} minutes. If you did not request it, you can ignore this email.</p>
-<p style=""color:#888;font-size:12px"">{_app.Name} &middot; {_app.SupportEmail}</p></div>";
-
-        await _email.SendAsync(new EmailMessage(email, recipientName, subject, html, $"Your {_app.Name} code is {code}. It expires in {_auth.OtpExpiryMinutes} minutes."), ct);
+        await _email.SendAsync(new EmailMessage(email, recipientName, subject, html, text), ct);
         _logger.LogInformation("OTP ({Purpose}) generated for {Email}", purpose, normalized);
         return _auth.OtpExpiryMinutes;
     }

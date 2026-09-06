@@ -22,7 +22,11 @@ public class NotificationService : INotificationService
 {
     private readonly IAppDbContext _db;
     private readonly ICurrentUser _current;
-    public NotificationService(IAppDbContext db, ICurrentUser current) { _db = db; _current = current; }
+    private readonly IAppEmailService _emails;
+    public NotificationService(IAppDbContext db, ICurrentUser current, IAppEmailService emails) { _db = db; _current = current; _emails = emails; }
+
+    /// <summary>Notification types that are also emailed (the rest stay in-app to avoid noise).</summary>
+    private static readonly NotificationType[] Emailed = { NotificationType.SessionCompleted, NotificationType.PerformanceAlert, NotificationType.WeeklyReport, NotificationType.WorkAssigned };
 
     public async Task NotifyAsync(Guid userId, NotificationType type, string title, string message, object? data = null, CancellationToken ct = default)
     {
@@ -32,18 +36,26 @@ public class NotificationService : INotificationService
             DataJson = data == null ? null : System.Text.Json.JsonSerializer.Serialize(data)
         });
         await _db.SaveChangesAsync(ct);
+        if (type == NotificationType.WorkAssigned)
+        {
+            var user = await _db.Users.FirstOrDefaultAsync(u => u.Id == userId, ct);
+            if (user != null && user.IsActive) await _emails.SendNotificationAsync(user, type, title, message, null, ct);
+        }
     }
 
     public async Task NotifyParentsOfStudentAsync(Guid studentId, NotificationType type, string title, string message, object? data = null, CancellationToken ct = default)
     {
-        var parentUserIds = await _db.StudentParents.Where(sp => sp.StudentId == studentId).Select(sp => sp.Parent.UserId).ToListAsync(ct);
-        foreach (var uid in parentUserIds)
+        var parents = await _db.StudentParents.Where(sp => sp.StudentId == studentId).Select(sp => new { sp.Parent.User, sp.Parent.EmailNotifications }).ToListAsync(ct);
+        foreach (var p in parents)
             _db.Notifications.Add(new Notification
             {
-                UserId = uid, Type = type, Title = title, Message = message,
+                UserId = p.User.Id, Type = type, Title = title, Message = message,
                 DataJson = data == null ? null : System.Text.Json.JsonSerializer.Serialize(data)
             });
-        if (parentUserIds.Count > 0) await _db.SaveChangesAsync(ct);
+        if (parents.Count > 0) await _db.SaveChangesAsync(ct);
+        if (Emailed.Contains(type))
+            foreach (var p in parents.Where(p => p.EmailNotifications && p.User.IsActive))
+                await _emails.SendNotificationAsync(p.User, type, title, message, null, ct);
     }
 
     public async Task<PagedResult<NotificationDto>> GetMineAsync(PagingQuery paging, bool unreadOnly, CancellationToken ct = default)

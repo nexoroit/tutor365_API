@@ -75,11 +75,11 @@ public class AdminController : ApiControllerBase
 
     /// <summary>Send a test email with the stored settings.</summary>
     [HttpPost("mail-settings/test")]
-    public async Task<IActionResult> TestMail([FromServices] Application.Interfaces.IEmailSender sender, [FromBody] SendTestMailRequest request, CancellationToken ct)
+    public async Task<IActionResult> TestMail([FromServices] IAppEmailService emails, [FromBody] SendTestMailRequest request, CancellationToken ct)
     {
         try
         {
-            await sender.SendAsync(new Application.Interfaces.EmailMessage(request.ToEmail, request.ToEmail, "tutor365 test email", "<p>This is a test email from <strong>tutor365</strong>. Your SMTP settings are working.</p>", "This is a test email from tutor365. Your SMTP settings are working."), ct);
+            await emails.SendTestAsync(request.ToEmail, ct);
             return OkMessage($"Test email sent to {request.ToEmail}.");
         }
         catch (Domain.Exceptions.BusinessRuleException ex) when (ex.Data.Contains("detail"))
@@ -88,6 +88,11 @@ public class AdminController : ApiControllerBase
             return UnprocessableEntity(ApiResponse.Fail(ex.ErrorCode, $"SMTP failed: {ex.Data["detail"]}"));
         }
     }
+
+    /// <summary>Rendered HTML of a branded email for preview: kind = otp | welcome | child | weekly | notification.</summary>
+    [HttpGet("mail-settings/preview")]
+    [Produces("text/html")]
+    public IActionResult PreviewMail([FromServices] IAppEmailService emails, [FromQuery] string kind = "otp") => Content(emails.Preview(kind).Html, "text/html");
 
     // ---- AI settings (stored in SystemSettings, key encrypted and only shown as a hint) ----
     [HttpGet("ai-settings")]

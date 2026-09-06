@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Tutor365.Application.Services;
 using Tutor365.Domain.Entities;
 using Tutor365.Domain.Enums;
 using Tutor365.Infrastructure.Data;
@@ -54,17 +55,20 @@ public class MaintenanceHostedService : BackgroundService
             var weekStart = today.AddDays(-(((int)today.DayOfWeek + 6) % 7));
             var links = await db.StudentParents.Include(sp => sp.Parent).ThenInclude(p => p.User).Include(sp => sp.Student).ThenInclude(s => s.User)
                 .Where(sp => sp.Parent.WeeklyReportEnabled).ToListAsync(ct);
+            var reports = scope.ServiceProvider.GetRequiredService<IReportService>();
+            var emails = scope.ServiceProvider.GetRequiredService<IAppEmailService>();
             foreach (var link in links)
             {
                 var already = await db.Notifications.AnyAsync(n => n.UserId == link.Parent.UserId && n.Type == NotificationType.WeeklyReport && n.CreatedAt >= weekStart.ToDateTime(TimeOnly.MinValue) && n.DataJson!.Contains(link.StudentId.ToString()), ct);
                 if (already) continue;
-                var minutes = await db.StudySessions.Where(s => s.StudentId == link.StudentId && s.Status == StudySessionStatus.Completed && s.CompletedAt >= weekStart.ToDateTime(TimeOnly.MinValue)).SumAsync(s => s.ElapsedSeconds, ct) / 60;
+                var report = await reports.BuildWeeklyReportAsync(link.StudentId, weekStart, ct);
                 db.Notifications.Add(new Notification
                 {
                     UserId = link.Parent.UserId, Type = NotificationType.WeeklyReport, Title = $"Weekly report for {link.Student.User.FirstName}",
-                    Message = $"{link.Student.User.FirstName} studied for {minutes / 60}h {minutes % 60}m this week. Open the weekly report for details.",
+                    Message = report.Summary,
                     DataJson = System.Text.Json.JsonSerializer.Serialize(new { studentId = link.StudentId, weekStart })
                 });
+                if (link.Parent.EmailNotifications && link.Parent.User.IsActive) await emails.SendWeeklyReportAsync(link.Parent.User, report, ct);
             }
         }
 

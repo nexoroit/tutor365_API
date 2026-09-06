@@ -20,12 +20,13 @@ public class AuthService : IAuthService
     private readonly IAuditService _audit;
     private readonly AuthOptions _options;
     private readonly ILogger<AuthService> _logger;
+    private readonly IAppEmailService _emails;
 
     public AuthService(IAppDbContext db, IPasswordHasher hasher, ITokenService tokens, IOtpService otp,
-        ICurrentUser current, IAuditService audit, IOptions<AuthOptions> options, ILogger<AuthService> logger)
+        ICurrentUser current, IAuditService audit, IOptions<AuthOptions> options, ILogger<AuthService> logger, IAppEmailService emails)
     {
         _db = db; _hasher = hasher; _tokens = tokens; _otp = otp; _current = current; _audit = audit;
-        _options = options.Value; _logger = logger;
+        _options = options.Value; _logger = logger; _emails = emails;
     }
 
     public async Task<RegisterResponse> RegisterParentAsync(RegisterParentRequest request, CancellationToken ct = default)
@@ -86,6 +87,7 @@ public class AuthService : IAuthService
             user.UpdatedAt = DateTime.UtcNow;
             await _db.SaveChangesAsync(ct);
             await _audit.LogAsync("Auth.VerifyEmail", "User", user.Id.ToString(), null, true, ct);
+            if (user.Role == UserRole.Parent) await _emails.SendParentWelcomeAsync(user, ct);
         }
 
         return await IssueTokensAsync(user, rememberMe: false, ct);

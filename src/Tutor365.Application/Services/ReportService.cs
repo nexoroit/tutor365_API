@@ -10,6 +10,8 @@ namespace Tutor365.Application.Services;
 public interface IReportService
 {
     Task<WeeklyReportDto> GetWeeklyReportAsync(Guid studentId, DateOnly? weekStart, CancellationToken ct = default);
+    /// <summary>No access check: for background jobs.</summary>
+    Task<WeeklyReportDto> BuildWeeklyReportAsync(Guid studentId, DateOnly? weekStart, CancellationToken ct = default);
 }
 
 public class ReportService : IReportService
@@ -27,6 +29,11 @@ public class ReportService : IReportService
     public async Task<WeeklyReportDto> GetWeeklyReportAsync(Guid studentId, DateOnly? weekStart, CancellationToken ct = default)
     {
         if (!await _access.CanAccessStudentAsync(studentId, ct)) throw new ForbiddenException();
+        return await BuildWeeklyReportAsync(studentId, weekStart, ct);
+    }
+
+    public async Task<WeeklyReportDto> BuildWeeklyReportAsync(Guid studentId, DateOnly? weekStart, CancellationToken ct = default)
+    {
         var student = await _db.Students.Include(s => s.User).Include(s => s.YearGroup).FirstAsync(s => s.Id == studentId, ct);
         var today = DateOnly.FromDateTime(DateTime.UtcNow);
         var start = weekStart ?? today.AddDays(-(((int)today.DayOfWeek + 6) % 7));
