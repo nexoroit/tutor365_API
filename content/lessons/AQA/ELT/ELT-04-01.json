@@ -16,91 +16,1049 @@
       "difficulty": 3,
       "tier": "NotApplicable",
       "activities": [
-        { "type": "Explanation", "title": "What does 'power of nature' mean in this cluster?", "minutes": 4, "content": "## Nature as the ultimate power\n\nThe **Power and Conflict** anthology is full of people who want power: rulers, soldiers, governments. Three poems show what happens when human beings come face to face with a power far bigger than themselves: **nature**.\n\n| Poem | Poet | Written | Human power vs nature |\n|---|---|---|---|\n| *Ozymandias* | Percy Bysshe Shelley | 1817 | A king's statue crumbles in the desert |\n| *Extract from The Prelude* | William Wordsworth | 1850 (published) | A boy is terrified by a mountain |\n| *Storm on the Island* | Seamus Heaney | 1966 | Islanders wait for a storm to hit |\n\nThe big ideas the three poems share:\n\n- Nature is **vast, permanent and indifferent**. It does not care about human ambition.\n- Human power is **temporary and fragile**. Statues crumble, confidence collapses, houses shake.\n- Meeting nature's power can change how a person **sees themselves**.\n\nAs you study each poem, keep asking: *how does the poet make nature seem powerful, and what happens to the human beings in the poem?* That question will drive almost every exam answer you write on this cluster." },
-        { "type": "Explanation", "title": "Ozymandias: the king who thought he was mighty", "minutes": 5, "content": "## Ozymandias (Shelley, 1817)\n\n**What happens:** The speaker meets a traveller who describes a ruined statue in the desert. Only the legs and a shattered face remain. On the pedestal is a boast: \"*Look on my Works, ye Mighty, and despair!*\" But nothing else survives: \"*Nothing beside remains.*\"\n\n**Key ideas**\n- **Irony**: the inscription commands the mighty to despair at Ozymandias's greatness, but the reader despairs at how *little* is left. The words now mean the opposite of what the king intended.\n- **Nature outlasts power**: the closing image of \"*The lone and level sands stretch far away*\" shows the desert calmly swallowing the statue. Nature did not fight the king; it simply outlived him.\n- **Art outlasts power too**: the sculptor's skill still shows the king's \"*sneer of cold command*\" centuries later, while the king himself is dust.\n\n**Form and structure**\n- It is a **sonnet** (14 lines), but the rhyme scheme is irregular and the ending fades into the sand. The broken form mirrors the broken statue.\n- A **framed narrative** (speaker, then traveller, then the inscription) distances us from the king. Even his voice only reaches us third-hand.\n\n**Context:** Shelley was a Romantic poet who hated tyranny and mocked the arrogance of rulers. The Egyptian statue in the poem was inspired by the pharaoh Ramesses II." },
-        { "type": "Example", "title": "Worked analysis: a model AO2 paragraph on Ozymandias", "minutes": 4, "content": "**Question focus:** How does Shelley present the power of nature?\n\n> Shelley presents nature as a quiet but unstoppable force that outlasts human ambition. The closing line, \"The lone and level sands stretch far away\", uses **alliteration** of the soft *l* sound to create a calm, almost soothing rhythm. This is deliberately different from the harsh *c* sounds of the king's \"cold command\" earlier in the poem: the king's power was loud and aggressive, but nature's power is patient. The adjective \"level\" suggests that the desert has flattened everything, including the king's pride, so that nothing stands above anything else. Because the poem is a **sonnet** that ends not with a neat rhyming couplet but with sand stretching into the distance, the form itself seems to dissolve, just as the statue has. Shelley, writing as a Romantic who distrusted rulers, uses this ending to suggest that every empire eventually meets the same fate.\n\n**What makes this work?**\n1. A clear point that answers the question.\n2. Short, embedded quotations.\n3. Zooming in on a specific word (\"level\") and a technique (alliteration).\n4. Form (the sonnet) linked to meaning.\n5. Context (Romantic views) woven in, not bolted on at the end." },
-        { "type": "Question", "title": "Quick check", "question": {
-          "key": "AQA-ELT-04-01-L1-Q1", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
-          "text": "Why is the inscription \"Look on my Works, ye Mighty, and despair!\" ironic in *Ozymandias*?",
-          "hint": "Think about what the king expected visitors to feel, and what a visitor actually sees.",
-          "explanation": "The king wanted rivals to despair because his achievements were so great. Instead, the works have vanished, so any 'mighty' visitor would despair at how powerless even a king becomes. The words now carry the opposite meaning.",
-          "options": [
-            { "text": "The king wanted rivals to despair at his greatness, but now there is nothing left to admire, so the words mean the opposite of what he intended.", "correct": true },
-            { "text": "The traveller is lying about what the pedestal says.", "correct": false, "feedback": "There is no suggestion the traveller is lying; the irony comes from the contrast between the words and the ruins." },
-            { "text": "The inscription was written by the sculptor, not the king.", "correct": false, "feedback": "The poem presents the words as the king's own boast." },
-            { "text": "The word 'despair' shows that Ozymandias was sad when he died.", "correct": false, "feedback": "'Despair' is aimed at other rulers, not at the king himself." } ] } },
-        { "type": "Explanation", "title": "Storm on the Island: waiting for the blow", "minutes": 5, "content": "## Storm on the Island (Heaney, 1966)\n\n**What happens:** A speaker, talking on behalf of an island community (\"we\"), explains how they have prepared for a storm: squat houses, rock foundations, no trees or crops to lose. Then the storm arrives, and the confident tone cracks.\n\n**Key ideas**\n- **Confidence turns to fear.** The poem opens with the community sure it is ready (the first three words are a flat statement that they are prepared). By the end, the speaker admits that what they fear is a \"*huge nothing*\": the wind, invisible and empty, yet terrifying.\n- **Nature becomes an enemy.** Heaney borrows the language of **war**: the sea *strafes*, the wind fires *salvoes*, the island is *bombarded*. Nature attacks like an army, but there is nothing to fight back against.\n- **False comfort.** The sea is described as *exploding comfortably*, an **oxymoron** that shows how the familiar can suddenly turn violent.\n\n**Form and structure**\n- **Blank verse** (unrhymed, roughly iambic pentameter) gives a steady, conversational voice, as if the speaker is chatting to a visitor.\n- A single unbroken stanza: no shelter, no pause, like the storm itself.\n- A **volta** (turn) partway through, where the calm preparation gives way to the storm's assault.\n\n**Context:** Heaney grew up in rural Northern Ireland. Many readers notice that the first eight letters of the title spell *Stormont*, the seat of the Northern Irish parliament, and read the storm as a hint at political conflict brewing in the 1960s." },
-        { "type": "Question", "title": "Practice: analysing attitude", "question": {
-          "key": "AQA-ELT-04-01-L1-Q2", "type": "ShortAnswer", "difficulty": 3, "marks": 4, "examStyle": true,
-          "text": "How does Heaney present the islanders' changing attitude towards the storm in *Storm on the Island*? Refer to language and structure in your answer.",
-          "hint": "Track the poem from beginning to end. What is the tone at the start, and what has changed by the final line?",
-          "explanation": "A strong answer notes that the poem begins with the confident, collective voice of 'we' stating that the community is prepared, with practical details about houses built low and on rock. As the storm arrives, Heaney switches to military language (strafing, salvoes, bombardment) which turns nature into an attacking army. The oxymoron of the sea exploding comfortably shows how safety turns to danger. The final line admits that what they fear is a 'huge nothing', a paradox showing that the invisible wind is more frightening than anything solid. The single-stanza blank verse gives no shelter or pause, mirroring the relentless storm.",
-          "markScheme": [
-            { "criterion": "AO1: Identifies that the poem begins with confidence or preparedness and ends in fear", "marks": 1, "keywords": [ ["prepared", "confident", "ready", "secure"], ["fear", "afraid", "frighten", "terrif"] ] },
-            { "criterion": "AO2: Analyses the military or war language used to describe the storm", "marks": 1, "keywords": [ ["military", "war", "army", "bombard", "strafe"] ] },
-            { "criterion": "AO2: Comments on a specific technique such as the oxymoron 'exploding comfortably' or the paradox 'huge nothing'", "marks": 1, "keywords": [ ["oxymoron", "paradox", "exploding comfortably", "huge nothing", "contradict"] ] },
-            { "criterion": "AO2: Explains the effect of form or structure (blank verse, single stanza, collective 'we', the turn)", "marks": 1, "keywords": [ ["blank verse", "single stanza", "one stanza", "volta", "conversational"] ] } ] } },
-        { "type": "Explanation", "title": "The Prelude: a boy, a boat and a mountain", "minutes": 5, "content": "## Extract from The Prelude (Wordsworth, 1850)\n\n**What happens:** One summer evening the young Wordsworth 'borrows' a small boat and rows out onto a lake, feeling proud and skilful. As he rows further, a huge mountain peak appears from behind a ridge and seems to chase him. Terrified, he turns back, and for days afterwards his thoughts are haunted by dark, unfamiliar images.\n\n**Key ideas**\n- **Confidence to terror.** At first the boy is in control, rowing \"*lustily*\" with the boat moving \"*like a swan*\". Then \"*a huge peak, black and huge*\" rises up. The clumsy repetition of \"huge\" shows a mind struggling for words.\n- **Nature seems alive.** The peak \"*Upreared its head*\" and \"*strode after me*\", personified as a living giant. Nature is not just big; it seems to have a will.\n- **A lasting change.** Afterwards the boy cannot shake the experience: it is \"*a trouble to my dreams*\". His sense of himself has been permanently altered.\n\n**Form and structure**\n- **Blank verse**, like an epic poem, giving the memory weight and seriousness.\n- One long, flowing section of a much longer autobiographical work. **Enjambment** carries the reader forward, like the boat and the growing panic.\n- A clear **three-part structure**: confidence, fear, aftermath.\n\n**Context:** Wordsworth was a Romantic poet who believed nature could teach people humility and awe. *The Prelude* is the story of how his own mind grew, and this episode is one of its turning points." },
-        { "type": "Example", "title": "Connecting the three poems", "minutes": 3, "content": "## Same theme, different angles\n\n| | *Ozymandias* | *Storm on the Island* | *The Prelude* |\n|---|---|---|---|\n| **How is nature powerful?** | Slow, patient: the desert simply outlasts the king | Sudden, violent: the storm attacks like an army | Overwhelming, almost alive: the mountain seems to hunt the boy |\n| **What happens to the humans?** | Their pride is exposed as empty | Their confidence collapses into fear | The boy's confidence is replaced by awe and haunting |\n| **Key technique** | Irony and alliteration | Military imagery and oxymoron | Personification and repetition |\n| **Form** | Broken sonnet | Blank verse, one stanza | Blank verse, epic |\n\n**Useful comparative sentences**\n- *Whereas Shelley's nature is silent and patient, Heaney's is aggressive and loud.*\n- *Both Wordsworth and Heaney use the first person to show a speaker whose confidence is shaken.*\n- *All three poets suggest that human power is temporary, but only Shelley uses this to attack a specific ruler.*" },
-        { "type": "Question", "title": "Technique check", "question": {
-          "key": "AQA-ELT-04-01-L1-Q3", "type": "Matching", "difficulty": 2, "marks": 4,
-          "text": "Match each technique to its definition.",
-          "hint": "Think about what each word literally describes: 'oxy-moron' joins two opposite ideas; a 'volta' is a turn.",
-          "explanation": "Oxymoron places contradictory words side by side (e.g. exploding comfortably). Personification gives human qualities to something non-human (the peak striding). Blank verse is unrhymed iambic pentameter. A volta is the turning point in a poem, often in a sonnet.",
-          "pairs": [
-            { "left": "Oxymoron", "right": "Two contradictory words placed together" },
-            { "left": "Personification", "right": "Giving human actions or feelings to something non-human" },
-            { "left": "Blank verse", "right": "Unrhymed lines with a regular iambic rhythm" },
-            { "left": "Volta", "right": "A turning point where the mood or argument shifts" } ] } },
-        { "type": "Question", "title": "Structure check", "question": {
-          "key": "AQA-ELT-04-01-L1-Q4", "type": "Ordering", "difficulty": 2, "marks": 1,
-          "text": "Put the events of the extract from *The Prelude* in the correct order.",
-          "hint": "The poem follows a journey out and back, then the after-effects.",
-          "explanation": "The boy takes the boat, rows out proudly, sees the mountain appear and grow, rows back in fear, and is then haunted for days.",
-          "order": [ "The boy unties a boat that is not his", "He rows confidently, the boat gliding like a swan", "A huge peak rises up and seems to follow him", "He turns and rows home, shaken", "For days his thoughts are troubled by dark images" ] } },
-        { "type": "Question", "title": "Form and context recall", "question": {
-          "key": "AQA-ELT-04-01-L1-Q5", "type": "FillInTheBlank", "difficulty": 2, "marks": 3,
-          "text": "Complete the sentences about the poems' forms and contexts.",
-          "metadata": { "blanksText": "Ozymandias is written as a fourteen-line ___. Both The Prelude and Storm on the Island are written in unrhymed ___ verse. Shelley and Wordsworth both belonged to the ___ movement, which valued nature, emotion and freedom." },
-          "hint": "The first blank is a poetic form; the second is a type of unrhymed verse; the third is a literary movement of the early 1800s.",
-          "explanation": "Ozymandias is a sonnet. The Prelude and Storm on the Island use blank verse. Shelley and Wordsworth were Romantic poets.",
-          "answers": [
-            { "text": "sonnet", "blankIndex": 0, "marks": 1 },
-            { "text": "blank", "blankIndex": 1, "marks": 1 },
-            { "text": "Romantic", "blankIndex": 2, "marks": 1 } ] } },
-        { "type": "Question", "title": "True or false", "question": {
-          "key": "AQA-ELT-04-01-L1-Q6", "type": "TrueFalse", "difficulty": 1, "marks": 1,
-          "text": "True or false: in *Storm on the Island*, the community's fear is caused by something they can see and touch.",
-          "hint": "Recall the final line's description of what they fear.",
-          "explanation": "False. The final line says the islanders fear a 'huge nothing': the invisible, empty wind. That paradox is the point of the poem.",
-          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] } },
-        { "type": "Question", "title": "Exam-style checkpoint", "checkpoint": true, "question": {
-          "key": "AQA-ELT-04-01-L1-Q7", "type": "ExamQuestion", "difficulty": 4, "marks": 8, "examStyle": true,
-          "text": "Compare how poets present the power of nature in *Ozymandias* and in **one** other poem from this lesson (*Storm on the Island* or *The Prelude*).\n\nWrite two or three developed paragraphs. In each, make a comparative point, support it with short quotations or close references, analyse the poet's methods, and link to context.",
-          "hint": "Plan first: (1) how nature's power is shown in each poem, (2) what happens to human power, (3) one key technique per poem, (4) one context point per poem. Use 'whereas', 'similarly' and 'both' to compare.",
-          "explanation": "A top answer argues that both poets show nature overpowering human confidence, but in different ways. In Ozymandias, nature acts slowly: the desert's level sands outlast the king's boast, with the irony of the inscription and the crumbling sonnet form reinforcing the message. Shelley's Romantic distrust of tyrants gives this a political edge. In Storm on the Island, nature attacks suddenly with military force, turning comfort into terror, with the single stanza and blank verse offering no shelter; Heaney's Northern Irish context adds a possible political layer. Alternatively, in The Prelude, nature is personified as a living giant that shakes the boy's self-belief and leaves a lasting mark, reflecting Wordsworth's Romantic belief in nature as a teacher.",
-          "markScheme": [
-            { "criterion": "AO1: Makes a clear comparative point about nature outlasting or overpowering human power in both poems", "marks": 1, "keywords": [ ["both", "whereas", "similarly", "in contrast", "compar"], ["nature", "desert", "storm", "mountain"] ] },
-            { "criterion": "AO1: Supports the point about Ozymandias with a relevant quotation or close reference (e.g. the sands, 'nothing beside remains', the inscription)", "marks": 1, "keywords": [ ["sands", "nothing beside", "despair", "remains", "wreck"] ] },
-            { "criterion": "AO2: Analyses the irony of the inscription or the contrast between the boast and the ruins", "marks": 1, "keywords": [ ["iron", "boast", "contrast", "mocked"] ] },
-            { "criterion": "AO2: Comments on the sonnet form or a sound technique such as alliteration in Ozymandias", "marks": 1, "keywords": [ ["sonnet", "alliterat", "form", "rhyme"] ] },
-            { "criterion": "AO3: Links Ozymandias to Shelley's Romantic or anti-tyranny views", "marks": 1, "keywords": [ ["romantic", "tyran", "shelley", "political", "rulers"] ] },
-            { "criterion": "AO1: Supports the second poem with a relevant reference (e.g. military language or 'huge nothing' in Storm; the peak or troubled dreams in The Prelude)", "marks": 1, "keywords": [ ["huge nothing", "strafe", "bombard", "huge peak", "dreams"] ] },
-            { "criterion": "AO2: Analyses a technique in the second poem (military imagery, oxymoron, personification, repetition, blank verse)", "marks": 1, "keywords": [ ["military", "oxymoron", "personif", "repetition", "blank verse"] ] },
-            { "criterion": "AO3: Links the second poem to its context (Heaney and Northern Ireland; Wordsworth and Romantic ideas about nature)", "marks": 1, "keywords": [ ["ireland", "stormont", "romantic", "wordsworth", "heaney"] ] } ] } },
-        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Ozymandias**: nature is patient; the desert outlasts a tyrant. Irony, broken sonnet, framed narrative. Shelley = Romantic, anti-tyranny.\n- **Storm on the Island**: nature attacks like an army; confidence turns to fear of a 'huge nothing'. Military imagery, oxymoron, single-stanza blank verse. Heaney = Northern Ireland, possible political undertone.\n- **The Prelude**: nature is a living giant that humbles a proud boy and haunts him. Personification, repetition, enjambment, epic blank verse. Wordsworth = Romantic, nature as teacher.\n- **Always** link method to meaning, and meaning to context." }
+        {
+          "type": "Explanation",
+          "title": "What does 'power of nature' mean in this cluster?",
+          "minutes": 4,
+          "content": "## Nature as the ultimate power\n\nThe **Power and Conflict** anthology is full of people who want power: rulers, soldiers, governments. Three poems show what happens when human beings come face to face with a power far bigger than themselves: **nature**.\n\n| Poem | Poet | Written | Human power vs nature |\n|---|---|---|---|\n| *Ozymandias* | Percy Bysshe Shelley | 1817 | A king's statue crumbles in the desert |\n| *Extract from The Prelude* | William Wordsworth | 1850 (published) | A boy is terrified by a mountain |\n| *Storm on the Island* | Seamus Heaney | 1966 | Islanders wait for a storm to hit |\n\nThe big ideas the three poems share:\n\n- Nature is **vast, permanent and indifferent**. It does not care about human ambition.\n- Human power is **temporary and fragile**. Statues crumble, confidence collapses, houses shake.\n- Meeting nature's power can change how a person **sees themselves**.\n\nAs you study each poem, keep asking: *how does the poet make nature seem powerful, and what happens to the human beings in the poem?* That question will drive almost every exam answer you write on this cluster."
+        },
+        {
+          "type": "Explanation",
+          "title": "Ozymandias: the king who thought he was mighty",
+          "minutes": 5,
+          "content": "## Ozymandias (Shelley, 1817)\n\n**What happens:** The speaker meets a traveller who describes a ruined statue in the desert. Only the legs and a shattered face remain. On the pedestal is a boast: \"*Look on my Works, ye Mighty, and despair!*\" But nothing else survives: \"*Nothing beside remains.*\"\n\n**Key ideas**\n- **Irony**: the inscription commands the mighty to despair at Ozymandias's greatness, but the reader despairs at how *little* is left. The words now mean the opposite of what the king intended.\n- **Nature outlasts power**: the closing image of \"*The lone and level sands stretch far away*\" shows the desert calmly swallowing the statue. Nature did not fight the king; it simply outlived him.\n- **Art outlasts power too**: the sculptor's skill still shows the king's \"*sneer of cold command*\" centuries later, while the king himself is dust.\n\n**Form and structure**\n- It is a **sonnet** (14 lines), but the rhyme scheme is irregular and the ending fades into the sand. The broken form mirrors the broken statue.\n- A **framed narrative** (speaker, then traveller, then the inscription) distances us from the king. Even his voice only reaches us third-hand.\n\n**Context:** Shelley was a Romantic poet who hated tyranny and mocked the arrogance of rulers. The Egyptian statue in the poem was inspired by the pharaoh Ramesses II."
+        },
+        {
+          "type": "Example",
+          "title": "Worked analysis: a model AO2 paragraph on Ozymandias",
+          "minutes": 4,
+          "content": "**Question focus:** How does Shelley present the power of nature?\n\n> Shelley presents nature as a quiet but unstoppable force that outlasts human ambition. The closing line, \"The lone and level sands stretch far away\", uses **alliteration** of the soft *l* sound to create a calm, almost soothing rhythm. This is deliberately different from the harsh *c* sounds of the king's \"cold command\" earlier in the poem: the king's power was loud and aggressive, but nature's power is patient. The adjective \"level\" suggests that the desert has flattened everything, including the king's pride, so that nothing stands above anything else. Because the poem is a **sonnet** that ends not with a neat rhyming couplet but with sand stretching into the distance, the form itself seems to dissolve, just as the statue has. Shelley, writing as a Romantic who distrusted rulers, uses this ending to suggest that every empire eventually meets the same fate.\n\n**What makes this work?**\n1. A clear point that answers the question.\n2. Short, embedded quotations.\n3. Zooming in on a specific word (\"level\") and a technique (alliteration).\n4. Form (the sonnet) linked to meaning.\n5. Context (Romantic views) woven in, not bolted on at the end."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check",
+          "question": {
+            "key": "AQA-ELT-04-01-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Why is the inscription \"Look on my Works, ye Mighty, and despair!\" ironic in *Ozymandias*?",
+            "hint": "Think about what the king expected visitors to feel, and what a visitor actually sees.",
+            "explanation": "The king wanted rivals to despair because his achievements were so great. Instead, the works have vanished, so any 'mighty' visitor would despair at how powerless even a king becomes. The words now carry the opposite meaning.",
+            "options": [
+              {
+                "text": "The king wanted rivals to despair at his greatness, but now there is nothing left to admire, so the words mean the opposite of what he intended.",
+                "correct": true
+              },
+              {
+                "text": "The traveller is lying about what the pedestal says.",
+                "correct": false,
+                "feedback": "There is no suggestion the traveller is lying; the irony comes from the contrast between the words and the ruins."
+              },
+              {
+                "text": "The inscription was written by the sculptor, not the king.",
+                "correct": false,
+                "feedback": "The poem presents the words as the king's own boast."
+              },
+              {
+                "text": "The word 'despair' shows that Ozymandias was sad when he died.",
+                "correct": false,
+                "feedback": "'Despair' is aimed at other rulers, not at the king himself."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Storm on the Island: waiting for the blow",
+          "minutes": 5,
+          "content": "## Storm on the Island (Heaney, 1966)\n\n**What happens:** A speaker, talking on behalf of an island community (\"we\"), explains how they have prepared for a storm: squat houses, rock foundations, no trees or crops to lose. Then the storm arrives, and the confident tone cracks.\n\n**Key ideas**\n- **Confidence turns to fear.** The poem opens with the community sure it is ready (the first three words are a flat statement that they are prepared). By the end, the speaker admits that what they fear is a \"*huge nothing*\": the wind, invisible and empty, yet terrifying.\n- **Nature becomes an enemy.** Heaney borrows the language of **war**: the sea *strafes*, the wind fires *salvoes*, the island is *bombarded*. Nature attacks like an army, but there is nothing to fight back against.\n- **False comfort.** The sea is described as *exploding comfortably*, an **oxymoron** that shows how the familiar can suddenly turn violent.\n\n**Form and structure**\n- **Blank verse** (unrhymed, roughly iambic pentameter) gives a steady, conversational voice, as if the speaker is chatting to a visitor.\n- A single unbroken stanza: no shelter, no pause, like the storm itself.\n- A **volta** (turn) partway through, where the calm preparation gives way to the storm's assault.\n\n**Context:** Heaney grew up in rural Northern Ireland. Many readers notice that the first eight letters of the title spell *Stormont*, the seat of the Northern Irish parliament, and read the storm as a hint at political conflict brewing in the 1960s."
+        },
+        {
+          "type": "Question",
+          "title": "Practice: analysing attitude",
+          "question": {
+            "key": "AQA-ELT-04-01-L1-Q2",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 4,
+            "examStyle": true,
+            "text": "How does Heaney present the islanders' changing attitude towards the storm in *Storm on the Island*? Refer to language and structure in your answer.",
+            "hint": "Track the poem from beginning to end. What is the tone at the start, and what has changed by the final line?",
+            "explanation": "A strong answer notes that the poem begins with the confident, collective voice of 'we' stating that the community is prepared, with practical details about houses built low and on rock. As the storm arrives, Heaney switches to military language (strafing, salvoes, bombardment) which turns nature into an attacking army. The oxymoron of the sea exploding comfortably shows how safety turns to danger. The final line admits that what they fear is a 'huge nothing', a paradox showing that the invisible wind is more frightening than anything solid. The single-stanza blank verse gives no shelter or pause, mirroring the relentless storm.",
+            "markScheme": [
+              {
+                "criterion": "AO1: Identifies that the poem begins with confidence or preparedness and ends in fear",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "prepared",
+                    "confident",
+                    "ready",
+                    "secure"
+                  ],
+                  [
+                    "fear",
+                    "afraid",
+                    "frighten",
+                    "terrif"
+                  ]
+                ]
+              },
+              {
+                "criterion": "AO2: Analyses the military or war language used to describe the storm",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "military",
+                    "war",
+                    "army",
+                    "bombard",
+                    "strafe"
+                  ]
+                ]
+              },
+              {
+                "criterion": "AO2: Comments on a specific technique such as the oxymoron 'exploding comfortably' or the paradox 'huge nothing'",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "oxymoron",
+                    "paradox",
+                    "exploding comfortably",
+                    "huge nothing",
+                    "contradict"
+                  ]
+                ]
+              },
+              {
+                "criterion": "AO2: Explains the effect of form or structure (blank verse, single stanza, collective 'we', the turn)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "blank verse",
+                    "single stanza",
+                    "one stanza",
+                    "volta",
+                    "conversational"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "The Prelude: a boy, a boat and a mountain",
+          "minutes": 5,
+          "content": "## Extract from The Prelude (Wordsworth, 1850)\n\n**What happens:** One summer evening the young Wordsworth 'borrows' a small boat and rows out onto a lake, feeling proud and skilful. As he rows further, a huge mountain peak appears from behind a ridge and seems to chase him. Terrified, he turns back, and for days afterwards his thoughts are haunted by dark, unfamiliar images.\n\n**Key ideas**\n- **Confidence to terror.** At first the boy is in control, rowing \"*lustily*\" with the boat moving \"*like a swan*\". Then \"*a huge peak, black and huge*\" rises up. The clumsy repetition of \"huge\" shows a mind struggling for words.\n- **Nature seems alive.** The peak \"*Upreared its head*\" and \"*strode after me*\", personified as a living giant. Nature is not just big; it seems to have a will.\n- **A lasting change.** Afterwards the boy cannot shake the experience: it is \"*a trouble to my dreams*\". His sense of himself has been permanently altered.\n\n**Form and structure**\n- **Blank verse**, like an epic poem, giving the memory weight and seriousness.\n- One long, flowing section of a much longer autobiographical work. **Enjambment** carries the reader forward, like the boat and the growing panic.\n- A clear **three-part structure**: confidence, fear, aftermath.\n\n**Context:** Wordsworth was a Romantic poet who believed nature could teach people humility and awe. *The Prelude* is the story of how his own mind grew, and this episode is one of its turning points."
+        },
+        {
+          "type": "Example",
+          "title": "Connecting the three poems",
+          "minutes": 3,
+          "content": "## Same theme, different angles\n\n| | *Ozymandias* | *Storm on the Island* | *The Prelude* |\n|---|---|---|---|\n| **How is nature powerful?** | Slow, patient: the desert simply outlasts the king | Sudden, violent: the storm attacks like an army | Overwhelming, almost alive: the mountain seems to hunt the boy |\n| **What happens to the humans?** | Their pride is exposed as empty | Their confidence collapses into fear | The boy's confidence is replaced by awe and haunting |\n| **Key technique** | Irony and alliteration | Military imagery and oxymoron | Personification and repetition |\n| **Form** | Broken sonnet | Blank verse, one stanza | Blank verse, epic |\n\n**Useful comparative sentences**\n- *Whereas Shelley's nature is silent and patient, Heaney's is aggressive and loud.*\n- *Both Wordsworth and Heaney use the first person to show a speaker whose confidence is shaken.*\n- *All three poets suggest that human power is temporary, but only Shelley uses this to attack a specific ruler.*"
+        },
+        {
+          "type": "Question",
+          "title": "Technique check",
+          "question": {
+            "key": "AQA-ELT-04-01-L1-Q3",
+            "type": "Matching",
+            "difficulty": 2,
+            "marks": 4,
+            "text": "Match each technique to its definition.",
+            "hint": "Think about what each word literally describes: 'oxy-moron' joins two opposite ideas; a 'volta' is a turn.",
+            "explanation": "Oxymoron places contradictory words side by side (e.g. exploding comfortably). Personification gives human qualities to something non-human (the peak striding). Blank verse is unrhymed iambic pentameter. A volta is the turning point in a poem, often in a sonnet.",
+            "pairs": [
+              {
+                "left": "Oxymoron",
+                "right": "Two contradictory words placed together"
+              },
+              {
+                "left": "Personification",
+                "right": "Giving human actions or feelings to something non-human"
+              },
+              {
+                "left": "Blank verse",
+                "right": "Unrhymed lines with a regular iambic rhythm"
+              },
+              {
+                "left": "Volta",
+                "right": "A turning point where the mood or argument shifts"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Structure check",
+          "question": {
+            "key": "AQA-ELT-04-01-L1-Q4",
+            "type": "Ordering",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Put the events of the extract from *The Prelude* in the correct order.",
+            "hint": "The poem follows a journey out and back, then the after-effects.",
+            "explanation": "The boy takes the boat, rows out proudly, sees the mountain appear and grow, rows back in fear, and is then haunted for days.",
+            "order": [
+              "The boy unties a boat that is not his",
+              "He rows confidently, the boat gliding like a swan",
+              "A huge peak rises up and seems to follow him",
+              "He turns and rows home, shaken",
+              "For days his thoughts are troubled by dark images"
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Form and context recall",
+          "question": {
+            "key": "AQA-ELT-04-01-L1-Q5",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete the sentences about the poems' forms and contexts.",
+            "metadata": {
+              "blanksText": "Ozymandias is written as a fourteen-line ___. Both The Prelude and Storm on the Island are written in unrhymed ___ verse. Shelley and Wordsworth both belonged to the ___ movement, which valued nature, emotion and freedom."
+            },
+            "hint": "The first blank is a poetic form; the second is a type of unrhymed verse; the third is a literary movement of the early 1800s.",
+            "explanation": "Ozymandias is a sonnet. The Prelude and Storm on the Island use blank verse. Shelley and Wordsworth were Romantic poets.",
+            "answers": [
+              {
+                "text": "sonnet",
+                "blankIndex": 0,
+                "marks": 1
+              },
+              {
+                "text": "blank",
+                "blankIndex": 1,
+                "marks": 1
+              },
+              {
+                "text": "Romantic",
+                "blankIndex": 2,
+                "marks": 1
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "True or false",
+          "question": {
+            "key": "AQA-ELT-04-01-L1-Q6",
+            "type": "TrueFalse",
+            "difficulty": 1,
+            "marks": 1,
+            "text": "True or false: in *Storm on the Island*, the community's fear is caused by something they can see and touch.",
+            "hint": "Recall the final line's description of what they fear.",
+            "explanation": "False. The final line says the islanders fear a 'huge nothing': the invisible, empty wind. That paradox is the point of the poem.",
+            "options": [
+              {
+                "text": "True",
+                "correct": false
+              },
+              {
+                "text": "False",
+                "correct": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style checkpoint",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ELT-04-01-L1-Q7",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 8,
+            "examStyle": true,
+            "text": "Compare how poets present the power of nature in *Ozymandias* and in **one** other poem from this lesson (*Storm on the Island* or *The Prelude*).\n\nWrite two or three developed paragraphs. In each, make a comparative point, support it with short quotations or close references, analyse the poet's methods, and link to context.",
+            "hint": "Plan first: (1) how nature's power is shown in each poem, (2) what happens to human power, (3) one key technique per poem, (4) one context point per poem. Use 'whereas', 'similarly' and 'both' to compare.",
+            "explanation": "A top answer argues that both poets show nature overpowering human confidence, but in different ways. In Ozymandias, nature acts slowly: the desert's level sands outlast the king's boast, with the irony of the inscription and the crumbling sonnet form reinforcing the message. Shelley's Romantic distrust of tyrants gives this a political edge. In Storm on the Island, nature attacks suddenly with military force, turning comfort into terror, with the single stanza and blank verse offering no shelter; Heaney's Northern Irish context adds a possible political layer. Alternatively, in The Prelude, nature is personified as a living giant that shakes the boy's self-belief and leaves a lasting mark, reflecting Wordsworth's Romantic belief in nature as a teacher.",
+            "markScheme": [
+              {
+                "criterion": "AO1: Makes a clear comparative point about nature outlasting or overpowering human power in both poems",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "both",
+                    "whereas",
+                    "similarly",
+                    "in contrast",
+                    "compar"
+                  ],
+                  [
+                    "nature",
+                    "desert",
+                    "storm",
+                    "mountain"
+                  ]
+                ]
+              },
+              {
+                "criterion": "AO1: Supports the point about Ozymandias with a relevant quotation or close reference (e.g. the sands, 'nothing beside remains', the inscription)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "sands",
+                    "nothing beside",
+                    "despair",
+                    "remains",
+                    "wreck"
+                  ]
+                ]
+              },
+              {
+                "criterion": "AO2: Analyses the irony of the inscription or the contrast between the boast and the ruins",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "iron",
+                    "boast",
+                    "contrast",
+                    "mocked"
+                  ]
+                ]
+              },
+              {
+                "criterion": "AO2: Comments on the sonnet form or a sound technique such as alliteration in Ozymandias",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "sonnet",
+                    "alliterat",
+                    "form",
+                    "rhyme"
+                  ]
+                ]
+              },
+              {
+                "criterion": "AO3: Links Ozymandias to Shelley's Romantic or anti-tyranny views",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "romantic",
+                    "tyran",
+                    "shelley",
+                    "political",
+                    "rulers"
+                  ]
+                ]
+              },
+              {
+                "criterion": "AO1: Supports the second poem with a relevant reference (e.g. military language or 'huge nothing' in Storm; the peak or troubled dreams in The Prelude)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "huge nothing",
+                    "strafe",
+                    "bombard",
+                    "huge peak",
+                    "dreams"
+                  ]
+                ]
+              },
+              {
+                "criterion": "AO2: Analyses a technique in the second poem (military imagery, oxymoron, personification, repetition, blank verse)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "military",
+                    "oxymoron",
+                    "personif",
+                    "repetition",
+                    "blank verse"
+                  ]
+                ]
+              },
+              {
+                "criterion": "AO3: Links the second poem to its context (Heaney and Northern Ireland; Wordsworth and Romantic ideas about nature)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "ireland",
+                    "stormont",
+                    "romantic",
+                    "wordsworth",
+                    "heaney"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Ozymandias**: nature is patient; the desert outlasts a tyrant. Irony, broken sonnet, framed narrative. Shelley = Romantic, anti-tyranny.\n- **Storm on the Island**: nature attacks like an army; confidence turns to fear of a 'huge nothing'. Military imagery, oxymoron, single-stanza blank verse. Heaney = Northern Ireland, possible political undertone.\n- **The Prelude**: nature is a living giant that humbles a proud boy and haunts him. Personification, repetition, enjambment, epic blank verse. Wordsworth = Romantic, nature as teacher.\n- **Always** link method to meaning, and meaning to context."
+        }
       ],
       "practiceQuestions": [
-        { "key": "AQA-ELT-04-01-L1-P1", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "Which poem uses the language of warfare (strafing, salvoes, bombardment) to describe nature?", "hint": "Think about which poem describes a community under attack from weather.", "explanation": "Storm on the Island uses military vocabulary to make the storm seem like an attacking army.", "options": [ { "text": "Storm on the Island", "correct": true }, { "text": "Ozymandias", "correct": false }, { "text": "The Prelude", "correct": false }, { "text": "None of them", "correct": false } ] },
-        { "key": "AQA-ELT-04-01-L1-P2", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: the speaker of *Ozymandias* has seen the statue himself.", "hint": "Who describes the statue in the poem?", "explanation": "False. The speaker reports what a traveller told him, creating a framed narrative that distances the reader from the king.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
-        { "key": "AQA-ELT-04-01-L1-P3", "type": "Matching", "difficulty": 2, "marks": 3, "text": "Match each poem to the way nature's power is presented.", "hint": "Slow, sudden, or alive?", "explanation": "Ozymandias shows nature slowly outlasting human power; Storm on the Island shows a sudden violent attack; The Prelude personifies nature as a living presence that pursues the boy.", "pairs": [ { "left": "Ozymandias", "right": "Nature patiently outlasts a ruler's monument" }, { "left": "Storm on the Island", "right": "Nature attacks suddenly like an army" }, { "left": "The Prelude", "right": "Nature seems alive and pursues a frightened boy" } ] },
-        { "key": "AQA-ELT-04-01-L1-P4", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentence about *The Prelude*.", "metadata": { "blanksText": "Wordsworth describes the mountain as a huge peak that 'upreared its head', an example of ___, and the boy is left with 'a trouble to my ___'." }, "hint": "The technique gives the mountain a human body; the second word is where the boy is haunted at night.", "explanation": "Giving the peak a head is personification. The experience becomes a trouble to his dreams.", "answers": [ { "text": "personification", "blankIndex": 0, "marks": 1 }, { "text": "dreams", "blankIndex": 1, "marks": 1 } ] },
-        { "key": "AQA-ELT-04-01-L1-P5", "type": "ShortAnswer", "difficulty": 3, "marks": 3, "examStyle": true, "text": "Read this line from *Ozymandias*: \"Round the decay / Of that colossal Wreck, boundless and bare / The lone and level sands stretch far away.\"\n\nExplain how Shelley uses language here to present the power of nature.", "hint": "Look at the sounds of the words, the adjectives describing the sand, and the contrast between 'colossal' and what surrounds it.", "explanation": "The alliteration of 'boundless and bare' and 'lone and level' creates a soft, endless rhythm that suggests the desert goes on forever. 'Boundless' shows nature has no limits, while the statue is limited to a 'Wreck'. The word 'level' hints that nature flattens everything, including human pride. The sands 'stretch far away', pushing the king into insignificance.", "markScheme": [ { "criterion": "Identifies alliteration or sound patterning and explains its effect", "marks": 1, "keywords": [ ["alliterat", "sound", "soft", "repetition of"] ] }, { "criterion": "Analyses a specific adjective such as 'boundless', 'bare', 'lone' or 'level'", "marks": 1, "keywords": [ ["boundless", "bare", "lone", "level"] ] }, { "criterion": "Explains the contrast between the once-colossal statue and the endless desert", "marks": 1, "keywords": [ ["colossal", "wreck", "contrast", "insignificant", "small"] ] } ] },
-        { "key": "AQA-ELT-04-01-L1-P6", "type": "MultipleAnswer", "difficulty": 3, "marks": 2, "text": "Select **all** the statements that are true about the form of *Storm on the Island*.", "hint": "Think about rhyme, stanzas and rhythm.", "explanation": "The poem is a single stanza of blank verse. It does not rhyme and it is not a sonnet.", "options": [ { "text": "It is written in one continuous stanza", "correct": true }, { "text": "It uses blank verse", "correct": true }, { "text": "It is a sonnet", "correct": false, "feedback": "It has more than 14 lines and no sonnet structure." }, { "text": "It uses a regular rhyme scheme", "correct": false, "feedback": "Blank verse is unrhymed." } ] },
-        { "key": "AQA-ELT-04-01-L1-P7", "type": "Ordering", "difficulty": 2, "marks": 1, "text": "Put these stages of *Storm on the Island* in order.", "hint": "The poem moves from preparation, through the storm, to a final admission.", "explanation": "The islanders describe their preparations, note there are no trees or crops to lose, then the storm arrives with military force, and the speaker admits they fear a 'huge nothing'.", "order": [ "The community explains how its houses are built to withstand storms", "The speaker notes there are no trees or crops on the island to be damaged", "The storm hits, described in the language of war", "The speaker admits it is strange to fear a 'huge nothing'" ] },
-        { "key": "AQA-ELT-04-01-L1-P8", "type": "MultipleChoice", "difficulty": 3, "marks": 1, "text": "Which statement best explains the effect of the repetition in \"a huge peak, black and huge\" in *The Prelude*?", "hint": "Why might a writer as skilled as Wordsworth repeat a simple word?", "explanation": "The clumsy repetition mimics the boy's panic: he is so overwhelmed that he cannot find a better word. It makes the mountain's size feel beyond description.", "options": [ { "text": "It mimics a frightened mind struggling to describe something overwhelming", "correct": true }, { "text": "It shows that Wordsworth had a limited vocabulary", "correct": false, "feedback": "The repetition is deliberate, not a weakness." }, { "text": "It makes the mountain sound gentle and friendly", "correct": false }, { "text": "It creates a regular rhyme with the previous line", "correct": false, "feedback": "The poem is in unrhymed blank verse." } ] },
-        { "key": "AQA-ELT-04-01-L1-P9", "type": "ExamQuestion", "difficulty": 4, "marks": 6, "examStyle": true, "text": "Compare how the speakers' feelings about nature change in *The Prelude* and *Storm on the Island*.\n\nWrite two developed paragraphs, referring closely to both poems' language and structure and to their contexts.", "hint": "Both poems start with confidence and end with fear. Compare how each poet shows the shift, and what nature seems to represent for each poet.", "explanation": "Both poems track a shift from confidence to fear. Wordsworth's boy begins proud and skilful, but the personified peak that seems to pursue him leaves him troubled for days; the flowing blank verse and enjambment carry the panic forward. Heaney's islanders begin sure they are prepared, but the military imagery of the storm and the final paradox of a 'huge nothing' show that their confidence was misplaced. Wordsworth, as a Romantic, treats the fear as a lesson in awe; Heaney's title hints at political storms in Northern Ireland.", "markScheme": [ { "criterion": "AO1: Identifies that both speakers move from confidence to fear", "marks": 1, "keywords": [ ["both", "each", "two poems"], ["confiden", "prepared", "proud", "control"] ] }, { "criterion": "AO2: Analyses personification or repetition in The Prelude", "marks": 1, "keywords": [ ["personif", "repetition", "strode", "upreared", "huge"] ] }, { "criterion": "AO2: Analyses military imagery, oxymoron or paradox in Storm on the Island", "marks": 1, "keywords": [ ["military", "war", "oxymoron", "paradox", "huge nothing"] ] }, { "criterion": "AO2: Comments on structure or form in either poem (blank verse, enjambment, single stanza, turning point)", "marks": 1, "keywords": [ ["blank verse", "enjamb", "stanza", "volta", "structure"] ] }, { "criterion": "AO3: Links The Prelude to Wordsworth's Romantic ideas about nature", "marks": 1, "keywords": [ ["romantic", "wordsworth", "awe", "teach"] ] }, { "criterion": "AO3: Links Storm on the Island to Heaney's Northern Irish context or the Stormont hint", "marks": 1, "keywords": [ ["ireland", "stormont", "political", "troubles", "heaney"] ] } ] },
-        { "key": "AQA-ELT-04-01-L1-P10", "type": "ShortAnswer", "difficulty": 2, "marks": 2, "text": "Explain what a 'framed narrative' is and why Shelley uses one in *Ozymandias*.", "hint": "Count how many voices stand between the reader and the king.", "explanation": "A framed narrative is a story told inside another story. Here the speaker reports the traveller, who reports the inscription. This distance makes the king seem even more remote and forgotten: his voice only reaches us third-hand.", "markScheme": [ { "criterion": "Defines a framed narrative as a story within a story or reported through another voice", "marks": 1, "keywords": [ ["story within", "within a story", "traveller", "reported", "second-hand"] ] }, { "criterion": "Explains that the distance makes the king seem remote, forgotten or less powerful", "marks": 1, "keywords": [ ["distan", "remote", "forgotten", "less powerful", "insignificant"] ] } ] }
+        {
+          "key": "AQA-ELT-04-01-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Which poem uses the language of warfare (strafing, salvoes, bombardment) to describe nature?",
+          "hint": "Think about which poem describes a community under attack from weather.",
+          "explanation": "Storm on the Island uses military vocabulary to make the storm seem like an attacking army.",
+          "options": [
+            {
+              "text": "Storm on the Island",
+              "correct": true
+            },
+            {
+              "text": "Ozymandias",
+              "correct": false
+            },
+            {
+              "text": "The Prelude",
+              "correct": false
+            },
+            {
+              "text": "None of them",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: the speaker of *Ozymandias* has seen the statue himself.",
+          "hint": "Who describes the statue in the poem?",
+          "explanation": "False. The speaker reports what a traveller told him, creating a framed narrative that distances the reader from the king.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P3",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Match each poem to the way nature's power is presented.",
+          "hint": "Slow, sudden, or alive?",
+          "explanation": "Ozymandias shows nature slowly outlasting human power; Storm on the Island shows a sudden violent attack; The Prelude personifies nature as a living presence that pursues the boy.",
+          "pairs": [
+            {
+              "left": "Ozymandias",
+              "right": "Nature patiently outlasts a ruler's monument"
+            },
+            {
+              "left": "Storm on the Island",
+              "right": "Nature attacks suddenly like an army"
+            },
+            {
+              "left": "The Prelude",
+              "right": "Nature seems alive and pursues a frightened boy"
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P4",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence about *The Prelude*.",
+          "metadata": {
+            "blanksText": "Wordsworth describes the mountain as a huge peak that 'upreared its head', an example of ___, and the boy is left with 'a trouble to my ___'."
+          },
+          "hint": "The technique gives the mountain a human body; the second word is where the boy is haunted at night.",
+          "explanation": "Giving the peak a head is personification. The experience becomes a trouble to his dreams.",
+          "answers": [
+            {
+              "text": "personification",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "dreams",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P5",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "examStyle": true,
+          "text": "Read this line from *Ozymandias*: \"Round the decay / Of that colossal Wreck, boundless and bare / The lone and level sands stretch far away.\"\n\nExplain how Shelley uses language here to present the power of nature.",
+          "hint": "Look at the sounds of the words, the adjectives describing the sand, and the contrast between 'colossal' and what surrounds it.",
+          "explanation": "The alliteration of 'boundless and bare' and 'lone and level' creates a soft, endless rhythm that suggests the desert goes on forever. 'Boundless' shows nature has no limits, while the statue is limited to a 'Wreck'. The word 'level' hints that nature flattens everything, including human pride. The sands 'stretch far away', pushing the king into insignificance.",
+          "markScheme": [
+            {
+              "criterion": "Identifies alliteration or sound patterning and explains its effect",
+              "marks": 1,
+              "keywords": [
+                [
+                  "alliterat",
+                  "sound",
+                  "soft",
+                  "repetition of"
+                ]
+              ]
+            },
+            {
+              "criterion": "Analyses a specific adjective such as 'boundless', 'bare', 'lone' or 'level'",
+              "marks": 1,
+              "keywords": [
+                [
+                  "boundless",
+                  "bare",
+                  "lone",
+                  "level"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explains the contrast between the once-colossal statue and the endless desert",
+              "marks": 1,
+              "keywords": [
+                [
+                  "colossal",
+                  "wreck",
+                  "contrast",
+                  "insignificant",
+                  "small"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P6",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Select **all** the statements that are true about the form of *Storm on the Island*.",
+          "hint": "Think about rhyme, stanzas and rhythm.",
+          "explanation": "The poem is a single stanza of blank verse. It does not rhyme and it is not a sonnet.",
+          "options": [
+            {
+              "text": "It is written in one continuous stanza",
+              "correct": true
+            },
+            {
+              "text": "It uses blank verse",
+              "correct": true
+            },
+            {
+              "text": "It is a sonnet",
+              "correct": false,
+              "feedback": "It has more than 14 lines and no sonnet structure."
+            },
+            {
+              "text": "It uses a regular rhyme scheme",
+              "correct": false,
+              "feedback": "Blank verse is unrhymed."
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P7",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these stages of *Storm on the Island* in order.",
+          "hint": "The poem moves from preparation, through the storm, to a final admission.",
+          "explanation": "The islanders describe their preparations, note there are no trees or crops to lose, then the storm arrives with military force, and the speaker admits they fear a 'huge nothing'.",
+          "order": [
+            "The community explains how its houses are built to withstand storms",
+            "The speaker notes there are no trees or crops on the island to be damaged",
+            "The storm hits, described in the language of war",
+            "The speaker admits it is strange to fear a 'huge nothing'"
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P8",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Which statement best explains the effect of the repetition in \"a huge peak, black and huge\" in *The Prelude*?",
+          "hint": "Why might a writer as skilled as Wordsworth repeat a simple word?",
+          "explanation": "The clumsy repetition mimics the boy's panic: he is so overwhelmed that he cannot find a better word. It makes the mountain's size feel beyond description.",
+          "options": [
+            {
+              "text": "It mimics a frightened mind struggling to describe something overwhelming",
+              "correct": true
+            },
+            {
+              "text": "It shows that Wordsworth had a limited vocabulary",
+              "correct": false,
+              "feedback": "The repetition is deliberate, not a weakness."
+            },
+            {
+              "text": "It makes the mountain sound gentle and friendly",
+              "correct": false
+            },
+            {
+              "text": "It creates a regular rhyme with the previous line",
+              "correct": false,
+              "feedback": "The poem is in unrhymed blank verse."
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P9",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "Compare how the speakers' feelings about nature change in *The Prelude* and *Storm on the Island*.\n\nWrite two developed paragraphs, referring closely to both poems' language and structure and to their contexts.",
+          "hint": "Both poems start with confidence and end with fear. Compare how each poet shows the shift, and what nature seems to represent for each poet.",
+          "explanation": "Both poems track a shift from confidence to fear. Wordsworth's boy begins proud and skilful, but the personified peak that seems to pursue him leaves him troubled for days; the flowing blank verse and enjambment carry the panic forward. Heaney's islanders begin sure they are prepared, but the military imagery of the storm and the final paradox of a 'huge nothing' show that their confidence was misplaced. Wordsworth, as a Romantic, treats the fear as a lesson in awe; Heaney's title hints at political storms in Northern Ireland.",
+          "markScheme": [
+            {
+              "criterion": "AO1: Identifies that both speakers move from confidence to fear",
+              "marks": 1,
+              "keywords": [
+                [
+                  "both",
+                  "each",
+                  "two poems"
+                ],
+                [
+                  "confiden",
+                  "prepared",
+                  "proud",
+                  "control"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO2: Analyses personification or repetition in The Prelude",
+              "marks": 1,
+              "keywords": [
+                [
+                  "personif",
+                  "repetition",
+                  "strode",
+                  "upreared",
+                  "huge"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO2: Analyses military imagery, oxymoron or paradox in Storm on the Island",
+              "marks": 1,
+              "keywords": [
+                [
+                  "military",
+                  "war",
+                  "oxymoron",
+                  "paradox",
+                  "huge nothing"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO2: Comments on structure or form in either poem (blank verse, enjambment, single stanza, turning point)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "blank verse",
+                  "enjamb",
+                  "stanza",
+                  "volta",
+                  "structure"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO3: Links The Prelude to Wordsworth's Romantic ideas about nature",
+              "marks": 1,
+              "keywords": [
+                [
+                  "romantic",
+                  "wordsworth",
+                  "awe",
+                  "teach"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO3: Links Storm on the Island to Heaney's Northern Irish context or the Stormont hint",
+              "marks": 1,
+              "keywords": [
+                [
+                  "ireland",
+                  "stormont",
+                  "political",
+                  "troubles",
+                  "heaney"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P10",
+          "type": "ShortAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Explain what a 'framed narrative' is and why Shelley uses one in *Ozymandias*.",
+          "hint": "Count how many voices stand between the reader and the king.",
+          "explanation": "A framed narrative is a story told inside another story. Here the speaker reports the traveller, who reports the inscription. This distance makes the king seem even more remote and forgotten: his voice only reaches us third-hand.",
+          "markScheme": [
+            {
+              "criterion": "Defines a framed narrative as a story within a story or reported through another voice",
+              "marks": 1,
+              "keywords": [
+                [
+                  "story within",
+                  "within a story",
+                  "traveller",
+                  "reported",
+                  "second-hand"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explains that the distance makes the king seem remote, forgotten or less powerful",
+              "marks": 1,
+              "keywords": [
+                [
+                  "distan",
+                  "remote",
+                  "forgotten",
+                  "less powerful",
+                  "insignificant"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "In *Ozymandias*, the sculptor's carved face survives while the king's empire has vanished. Why is this ironic?",
+          "hint": "Think about who Ozymandias believed was more important: himself or the craftsman who worked for him.",
+          "explanation": "The king would have seen the sculptor as a mere servant, yet it is the artist's skill in capturing the 'sneer' that has lasted, not the king's power. Art has outlived the tyrant it was meant to glorify, which is the reverse of what Ozymandias intended.",
+          "options": [
+            {
+              "text": "The king treated the sculptor as a servant, yet the artist's work has outlasted the king's power, so the monument now celebrates the artist rather than the ruler.",
+              "correct": true
+            },
+            {
+              "text": "The sculptor deliberately carved an unflattering face to mock the king in secret.",
+              "correct": false,
+              "feedback": "The sculptor 'well those passions read'; the face is accurate, not a secret joke. The irony lies in what has survived, not in the sculptor's motives."
+            },
+            {
+              "text": "The face has survived because the king ordered it to be protected.",
+              "correct": false,
+              "feedback": "Nothing in the poem suggests any protection; the face is 'shattered' and 'half sunk' in the sand."
+            },
+            {
+              "text": "The traveller admires the king more than the sculptor.",
+              "correct": false,
+              "feedback": "The traveller simply reports what he saw; the poem's sympathy, if anything, lies with the sculptor's skill."
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P12",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "examStyle": true,
+          "text": "How does Wordsworth present the boy's changing attitude towards nature in the extract from *The Prelude*? Refer to language and structure in your answer.",
+          "hint": "Compare the boy's mood as he rows out with his mood once the peak appears, and think about how the verse itself changes as the fear takes hold.",
+          "explanation": "A strong answer notes that the boy begins proud and in control: the rowing is described as an 'act of stealth' with 'troubled pleasure', and the boat glides like a swan, a simile suggesting grace and mastery. When the 'huge peak' rises, nature is personified as a living giant that 'strode after' him, and the repetition of 'huge' shows the boy's mind struggling to describe what he sees. The turn happens mid-line, and the blank verse and heavy enjambment let the fear spill across lines without pause. After the event, negatives such as 'no pleasant images' and 'no colours of green fields' show that nature's beauty has been replaced by a lasting 'darkness', so the boy's confident attitude has been humbled.",
+          "markScheme": [
+            {
+              "criterion": "AO1: Identifies that the boy starts proud, confident or in control and ends fearful, humbled or troubled",
+              "marks": 1,
+              "keywords": [
+                [
+                  "proud",
+                  "confident",
+                  "control",
+                  "pleasure",
+                  "stealth"
+                ],
+                [
+                  "fear",
+                  "troubl",
+                  "humbled",
+                  "haunt",
+                  "dark"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO2: Analyses the personification of the mountain as a living or pursuing giant",
+              "marks": 1,
+              "keywords": [
+                [
+                  "personif",
+                  "alive",
+                  "strode",
+                  "giant",
+                  "living"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO2: Comments on a specific technique such as the swan simile, the repetition of 'huge', or the negatives at the end",
+              "marks": 1,
+              "keywords": [
+                [
+                  "simile",
+                  "swan",
+                  "repetition",
+                  "huge",
+                  "negative"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO2: Explains the effect of form or structure (blank verse, enjambment, the turn when the peak appears, the shift to reflection)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "blank verse",
+                  "enjambment",
+                  "turn",
+                  "volta",
+                  "structure"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P13",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each poetic technique to its definition.",
+          "hint": "Enjambment comes from a French word meaning 'to stride over'; a caesura is a 'cut' in a line.",
+          "explanation": "A simile compares using 'like' or 'as' (the boat gliding like a swan). Enjambment carries a sentence over a line break without punctuation, common in blank verse. A caesura is a pause inside a line, often marked by a full stop or colon. Sibilance is the repetition of 's' sounds, as in Shelley's description of the sands.",
+          "pairs": [
+            {
+              "left": "Simile",
+              "right": "A comparison using 'like' or 'as'"
+            },
+            {
+              "left": "Enjambment",
+              "right": "A sentence runs on past the end of a line without a pause"
+            },
+            {
+              "left": "Caesura",
+              "right": "A deliberate pause or break in the middle of a line"
+            },
+            {
+              "left": "Sibilance",
+              "right": "Repeated 's' or 'sh' sounds creating a hissing effect"
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P14",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put the details of the traveller's account in *Ozymandias* in the order they appear in the poem.",
+          "hint": "The poem moves from the speaker meeting the traveller, to the statue's parts, to the words on the pedestal, to the empty desert.",
+          "explanation": "The sonnet opens with the speaker meeting a traveller, who first describes the legs, then the shattered face and its sneer, then the boastful inscription, and finally the bare sands stretching around the wreck.",
+          "order": [
+            "The speaker meets a traveller from an ancient land",
+            "The traveller describes two huge stone legs standing in the desert",
+            "A shattered face with a frowning, sneering expression lies nearby",
+            "The boastful words carved on the pedestal are reported",
+            "Nothing else remains and the level sands stretch far away"
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Fill in the gaps about the metre, genre and authorship of the three poems.",
+          "metadata": {
+            "blanksText": "Ozymandias is written mainly in ___ pentameter, the rhythm of five unstressed-stressed beats per line. The Prelude is an extract from Wordsworth's long ___ poem about the growth of his own mind. Storm on the Island was written by the Northern Irish poet Seamus ___."
+          },
+          "hint": "The first blank names the metre used in sonnets; the second describes a poem about the poet's own life; the third is a surname.",
+          "explanation": "Sonnets are written in iambic pentameter. The Prelude is autobiographical, tracing Wordsworth's development from childhood. Storm on the Island is by Seamus Heaney.",
+          "answers": [
+            {
+              "text": "iambic",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "autobiographical",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "Heaney",
+              "blankIndex": 2,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P16",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: in the extract from *The Prelude*, the boy's fear disappears as soon as he returns the boat to the shore.",
+          "hint": "Think about what the closing lines say about the days that follow.",
+          "explanation": "False. After returning the boat, the boy is troubled for many days: his thoughts are filled with 'huge and mighty forms' and his sleep is disturbed. The experience leaves a lasting mark.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-01-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "Compare how poets present human beings as small or powerless in the face of nature in *Storm on the Island* and in **one** other poem from this lesson (*Ozymandias* or *The Prelude*).\n\nWrite two or three developed paragraphs. In each, make a comparative point, support it with short quotations or close references, analyse the poet's methods, and link to context.",
+          "hint": "Plan first: (1) how humans try to control or resist nature in each poem, (2) how that control fails, (3) one key technique per poem, (4) one context point per poem. Use 'both', 'whereas' and 'similarly' to compare.",
+          "explanation": "A top answer argues that both poets show human confidence collapsing before nature. In Storm on the Island, the community's preparations (squat houses, rock foundations) seem to give control, but the military imagery of strafing and bombardment turns nature into an army, and the final paradox of fearing a 'huge nothing' shows how small the islanders really are; the single stanza of blank verse offers no shelter, and Heaney's Northern Irish context (the opening letters spelling Stormont) suggests a political reading. In Ozymandias, human power is even more thoroughly erased: the boastful inscription is mocked by the empty sands, the broken sonnet form mirrors the broken statue, and Shelley's Romantic distrust of tyrants shapes the message. Alternatively, in The Prelude, the boy's proud rowing is dwarfed by a personified peak that seems to pursue him, and the lasting 'darkness' afterwards reflects Wordsworth's Romantic belief that nature humbles and teaches.",
+          "markScheme": [
+            {
+              "criterion": "AO1: Makes a clear comparative point about humans being powerless, small or humbled by nature in both poems",
+              "marks": 1,
+              "keywords": [
+                [
+                  "both",
+                  "whereas",
+                  "similarly",
+                  "in contrast",
+                  "compar"
+                ],
+                [
+                  "powerless",
+                  "small",
+                  "humbl",
+                  "weak",
+                  "insignific"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO1: Supports the point about Storm on the Island with a relevant quotation or close reference (e.g. squat houses, 'huge nothing', bombarded, exploding comfortably)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "squat",
+                  "huge nothing",
+                  "bombard",
+                  "exploding",
+                  "prepared"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO2: Analyses the military imagery or the paradox/oxymoron in Storm on the Island",
+              "marks": 1,
+              "keywords": [
+                [
+                  "military",
+                  "war",
+                  "army",
+                  "paradox",
+                  "oxymoron"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO2: Comments on the form of Storm on the Island (single stanza, blank verse, collective voice, the turn)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "single stanza",
+                  "one stanza",
+                  "blank verse",
+                  "collective",
+                  "turn"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO3: Links Storm on the Island to Heaney's Northern Irish context or a political reading",
+              "marks": 1,
+              "keywords": [
+                [
+                  "ireland",
+                  "irish",
+                  "stormont",
+                  "political",
+                  "troubles"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO1: Supports the second poem with a relevant reference (e.g. the sands, the sneer or the pedestal in Ozymandias; the peak, the swan or the troubled dreams in The Prelude)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "sands",
+                  "sneer",
+                  "pedestal",
+                  "peak",
+                  "swan"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO2: Analyses a technique in the second poem (irony, sonnet form, alliteration, personification, repetition, simile)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "iron",
+                  "sonnet",
+                  "personif",
+                  "repetition",
+                  "simile"
+                ]
+              ]
+            },
+            {
+              "criterion": "AO3: Links the second poem to its context (Shelley's Romantic or anti-tyranny views; Wordsworth's Romantic view of nature)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "romantic",
+                  "tyran",
+                  "shelley",
+                  "wordsworth",
+                  "sublime"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

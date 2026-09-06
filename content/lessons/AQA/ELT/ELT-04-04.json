@@ -16,82 +16,965 @@
       "difficulty": 3,
       "tier": "NotApplicable",
       "activities": [
-        { "type": "Explanation", "title": "Poppies (Jane Weir)", "minutes": 5, "content": "## A mother at the door\n\nJane Weir is a textile designer as well as a poet, and *Poppies* (2009) was written for a collection responding to the wars in Iraq and Afghanistan. It is a **dramatic monologue** spoken by a mother whose son has left for the army. Crucially, we never learn whether he has died. The poem may describe him leaving for war, or a mother visiting a memorial years later; Weir keeps both possible.\n\n**Time.** The poem opens three days before Armistice Sunday, then moves back to the morning the son left, then forward to the mother walking to the churchyard. These **shifts** mirror how grief and memory refuse to run in order.\n\n**Textile imagery.** The mother pins a poppy to his blazer, smooths his collar, and describes the fabric and stitching in loving detail. Domestic craft words such as *bias binding* and *sellotape bandaged* fuse ordinary caring with the language of injury. She is preparing him for school and for battle at once.\n\n**Birds and release.** When he leaves, the world seems to overflow like a songbird released from a cage, and later a dove flies from a pear tree. The images suggest both freedom for him and loss for her; the dove, a symbol of peace, follows the son she can no longer follow.\n\n**Form.** Free verse with heavy **enjambment**; sentences spill over line and stanza breaks as her control slips. There is no rhyme and no comfort of pattern.\n\n**Effect of conflict.** War here is a private, domestic wound: the poem never shows a battle, only the empty house, the bedroom door, and the mother's longing to hear his voice again." },
-        { "type": "Question", "title": "Quick check: Poppies", "question": {
-          "key": "AQA-ELT-04-04-L1-Q1", "type": "MultipleChoice", "difficulty": 2, "marks": 1,
-          "text": "Why does Weir combine domestic textile words such as *bias binding* with words of injury such as *bandaged* in *Poppies*?",
-          "hint": "Think about what the mother is doing with her hands, and what she is afraid of.",
-          "explanation": "The mixed language shows that the mother's ordinary acts of care are shadowed by fear of wounds and death. Sewing, dressing and bandaging blur together, so her love and her dread cannot be separated.",
-          "options": [
-            { "text": "To show that the mother's caring, everyday actions are shadowed by fear of her son being wounded", "correct": true },
-            { "text": "To show that the mother works as a nurse in a military hospital", "correct": false },
-            { "text": "To suggest that the son has already been injured in battle", "correct": false, "feedback": "The poem never confirms what has happened to the son." },
-            { "text": "To make the poem rhyme more regularly", "correct": false, "feedback": "The poem is free verse with no rhyme scheme." } ] } },
-        { "type": "Explanation", "title": "War Photographer (Carol Ann Duffy)", "minutes": 5, "content": "## The darkroom\n\nCarol Ann Duffy wrote *War Photographer* (1985) after talking with a friend who photographed war zones. The poem imagines such a photographer at home in his darkroom, developing pictures from Belfast, Beirut and Phnom Penh.\n\n**Structure.** Four six-line stanzas with a regular rhyme scheme. The **ordered form** contrasts with the chaos of the images and echoes the photographer's attempt to impose control: he lays out his spools in ordered rows. The poem itself is a darkroom, developing meaning slowly.\n\n**Religious imagery.** The red darkroom light is compared to a church, and the photographer to a priest preparing to say a Mass. This gives his work a sacred seriousness, as if he is performing a ritual for the dead, and it also isolates him: like a priest, he stands apart from ordinary life.\n\n**Contrast.** Rural England, with its ordinary pain, is set against fields that explode beneath children's feet. The photographer's hands, steady abroad, tremble now that he is safe. Distance, not danger, is what unsettles him.\n\n**The developing image.** A dead man's face begins to appear on the paper, a half-formed ghost, and the photographer remembers the cries of the man's wife. Memory is developed alongside the photograph, and both are unfinished.\n\n**The reader.** The final stanza turns on the public. An editor will choose a few pictures for a Sunday supplement; readers will feel briefly moved between the bath and pre-lunch drinks, then forget. Duffy's anger is aimed at the comfortable audience, which includes us. The photographer, flying back to another war, stares down at a country that, in the poem's bitter last words, does not care." },
-        { "type": "Example", "title": "Analysing form in War Photographer", "minutes": 3, "content": "**Question:** How does Duffy use form to present the photographer's state of mind?\n\n> Duffy contains the chaos of war within an unusually strict form. Each of the four stanzas has six lines and the same rhyme scheme, and the photographer likewise lays out his spools in ordered rows. Both the poem and the man are trying to impose control on material that resists it. The effect is a tension between surface calm and inner turmoil: the rhyme keeps ticking steadily even as a dead man's face develops into a ghost on the paper and the photographer's hands begin to tremble. By the final stanza, the neat form becomes bitter. The steady rhyme that matches the reader's comfortable Sunday routine, with its bath and pre-lunch drinks, underlines how easily suffering is packaged and consumed. Form, then, is not decoration here; it is Duffy's way of showing that order can be a kind of denial.\n\n**Methods used in the analysis:** identifying regular stanza and rhyme, linking form to the photographer's behaviour, describing a **tension**, tracking how the effect **changes** by the end, and stating the **purpose**." },
-        { "type": "Question", "title": "Quick check: War Photographer", "question": {
-          "key": "AQA-ELT-04-04-L1-Q2", "type": "Matching", "difficulty": 3, "marks": 4,
-          "text": "Match each method in *War Photographer* to its effect.",
-          "hint": "Think about the church comparison, the strict stanzas, the contrast of settings and the ending aimed at readers.",
-          "explanation": "The priest simile makes his work a solemn ritual. The regular form contrasts with chaotic content and reflects his attempt at control. The contrast between England and war zones shows his displacement. The final stanza criticises readers who feel briefly and forget.",
-          "pairs": [
-            { "left": "The photographer is compared to a priest preparing a Mass", "right": "His work becomes a solemn ritual for the dead, and he stands apart from ordinary life" },
-            { "left": "Four regular six-line stanzas with a fixed rhyme scheme", "right": "Order imposed on chaos, mirroring his attempt at control" },
-            { "left": "Rural England set against fields that explode beneath children's feet", "right": "Shows how out of place he feels in a safe country" },
-            { "left": "Readers weep briefly between the bath and pre-lunch drinks", "right": "Criticises the public's shallow, short-lived response to suffering" } ] } },
-        { "type": "Explanation", "title": "Kamikaze (Beatrice Garland)", "minutes": 5, "content": "## The pilot who turned back\n\nBeatrice Garland's *Kamikaze* (2013) imagines a Japanese pilot in the Second World War who sets out on a suicide mission and turns back. Kamikaze pilots were expected to die crashing into enemy ships; returning alive brought deep shame on the pilot and his family.\n\n**Perspective.** The story is told mostly in the third person by the pilot's daughter, reporting what her mother told her. Partway through, the voice shifts into the daughter's own first-person memory (printed in italics). The layered telling shows how the story has been passed down, and how the family's shame was inherited.\n\n**Why he turned back.** Looking down, he sees fishing boats and a shoal of fish flashing silver, and remembers his father, the sea and childhood. Nature and family pull him back to life. The description of the sea is the poem's most vivid, sensory writing, suggesting that life itself is what he chooses.\n\n**The consequence.** His wife never speaks to him again, the neighbours turn away, and his children learn to treat him as if he were not there. The poem ends with the daughter imagining that he must have wondered which was the better way to die: in the plane, or slowly, shunned at home.\n\n**Form.** Seven six-line stanzas, no rhyme, long flowing sentences with enjambment, so the pilot's journey and the family's story run on without pause. The final stanza narrows to a single, quiet question.\n\n**Ideas.** Conflict here damages a man who never fights. Honour, patriotism and social expectation are shown as forces that can destroy a family as surely as a bomb." },
-        { "type": "Question", "title": "Quick check: Kamikaze", "question": {
-          "key": "AQA-ELT-04-04-L1-Q3", "type": "FillInTheBlank", "difficulty": 2, "marks": 3,
-          "text": "Complete the sentences about *Kamikaze*.",
-          "metadata": { "blanksText": "The pilot turns back after seeing fishing boats and a shoal of ___ below him, which remind him of his ___. When he returns home, his family and neighbours treat him as though he no longer ___." },
-          "hint": "What swims in shoals; the family member who fished; a word meaning 'was alive' or 'was present'.",
-          "explanation": "The silver fish and boats remind him of his father and his childhood by the sea. On his return he is shunned, treated as if he no longer existed, a slow social death.",
-          "answers": [
-            { "text": "fish", "blankIndex": 0, "marks": 1, "caseSensitive": false },
-            { "text": "father", "blankIndex": 1, "marks": 1, "caseSensitive": false },
-            { "text": "existed", "blankIndex": 2, "marks": 1, "caseSensitive": false } ] } },
-        { "type": "Explanation", "title": "The Emigree (Carol Rumens)", "minutes": 5, "content": "## A city remembered in sunlight\n\nCarol Rumens's *The Emigree* (1993) is spoken by someone who left a city as a child and can never go back. The city and the country are never named, and the spelling *emigree* (a female emigrant) is unusual, so the poem applies to anyone forced to leave home by war or tyranny.\n\n**Memory versus reality.** The speaker admits the news from her city is bad: it may be at war, or ruled by tyrants. But her memory of it is fixed in childhood and bathed in light. Each of the three stanzas ends with the word **sunlight**, a refrain that keeps returning like the memory itself.\n\n**Language and identity.** The speaker carries the city's language like a child's vocabulary she cannot update. The language may now be banned by the state, but she holds onto it as part of who she is. Losing a place, the poem suggests, means holding onto its words.\n\n**Personification.** The city becomes a living companion: it lies down in front of her, comes to her with white plane trees, takes her dancing. In the final stanza, threatening figures (the tyrants, the enemies) surround them, but the city and speaker stand together, her shadow falling as proof that sunlight exists.\n\n**Form.** Three stanzas of eight, eight and nine lines, unrhymed, with the extra line in the last stanza breaking the pattern just as danger intrudes. The repeated first-person *I* and the possessive *my city* insist on ownership that no regime can remove.\n\n**Ideas.** Conflict here is experienced as exile, a wound to identity rather than the body. Yet the poem is defiant: memory and love outlast the walls and the tyrants." },
-        { "type": "Example", "title": "A model comparison paragraph", "minutes": 3, "content": "**Question:** Compare how poets present the effects of conflict on families in *Poppies* and *Kamikaze*.\n\n> Both Weir and Garland show conflict damaging a family without a single battle being described, but the damage runs in opposite directions. In *Poppies* the wound is absence: the mother's hands are busy with collars and poppies, yet the poem circles an empty bedroom and a memorial, and the enjambed free verse lets her sentences spill over line breaks as her composure fails. Weir never confirms the son's death, so the reader shares the mother's suspended grief. In *Kamikaze* the wound is presence: the pilot comes home alive, but his wife never speaks to him again and his children learn to act as if he were not there. Garland tells the story through the daughter, with the shift into her first-person memory showing how shame is inherited across generations. Where Weir's mother longs for a voice she cannot hear, Garland's family silences a voice that is still in the house. Both poets suggest that the deepest effects of conflict are felt at home, in what is not said.\n\n**Comparison skeleton:** shared idea → difference → evidence from poem A (method) → evidence from poem B (method) → *Where X... Y* → shared conclusion." },
-        { "type": "Question", "title": "Quick check: The Emigree", "question": {
-          "key": "AQA-ELT-04-04-L1-Q4", "type": "TrueFalse", "difficulty": 2, "marks": 1,
-          "text": "True or false: in *The Emigree*, the speaker accepts that her memory of the city is false and stops thinking about it.",
-          "hint": "Think about the word that ends every stanza and the image of her shadow in the final lines.",
-          "explanation": "False. Although she knows the news from the city is bad, she holds on to her sunlit memory; each stanza ends with 'sunlight', and the poem closes with her shadow as evidence of that light. Memory defies the reality of tyranny.",
-          "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] } },
-        { "type": "Question", "title": "Practice: analysing perspective", "question": {
-          "key": "AQA-ELT-04-04-L1-Q5", "type": "ShortAnswer", "difficulty": 3, "marks": 3, "examStyle": true,
-          "text": "Explain why Garland tells the story of *Kamikaze* through the pilot's daughter rather than through the pilot himself.",
-          "hint": "Think about what the daughter can show that the pilot cannot: the family's reaction, the passing of time, and the shift into her own memory.",
-          "explanation": "Using the daughter shows the effects of the pilot's decision on the next generation, not just on him. Her account is second-hand, passed down from her mother, which mirrors how family shame is inherited. The shift into her own first-person memory reveals her guilt at having joined in the silence as a child, and the pilot's own thoughts remain unknown, which makes his suffering more haunting.",
-          "markScheme": [
-            { "criterion": "Explains that the daughter's perspective shows the effects on the family or the next generation", "marks": 1, "keywords": [ ["family", "generation", "children", "daughter", "inherit", "passed down"] ] },
-            { "criterion": "Comments on the shift into the daughter's first-person memory and what it reveals (her part in shunning him, guilt, regret)", "marks": 1, "keywords": [ ["first person", "first-person", "italic", "her own", "shift", "guilt", "regret", "joined in"] ] },
-            { "criterion": "Notes that the pilot's own thoughts are never given directly, making his experience more mysterious or moving", "marks": 1, "keywords": [ ["never speaks", "his thoughts", "unknown", "silent", "mystery", "imagine", "haunt", "must have"] ] } ] } },
-        { "type": "Question", "title": "Exam-style question", "checkpoint": true, "question": {
-          "key": "AQA-ELT-04-04-L1-Q6", "type": "ExamQuestion", "difficulty": 4, "marks": 6, "examStyle": true,
-          "text": "Compare how poets present the effects of conflict on those who are not fighting in *War Photographer* and one other poem from this group (*Poppies*, *Kamikaze* or *The Emigree*).",
-          "hint": "Make a clear comparative point (for example, both show conflict felt at a distance but differ in who is blamed or how memory works). Use a method from each poem, brief evidence, and context: Duffy's friendship with a photographer; Weir's textile work and the Iraq and Afghanistan wars; Japanese kamikaze pilots; exile from an unnamed city.",
-          "explanation": "A strong answer compares Duffy's photographer, caught between war zones and an indifferent public, with the chosen poem's speaker; analyses methods such as Duffy's regular form and religious imagery against Weir's textile imagery and enjambment, Garland's shifting perspective, or Rumens's refrain and personification; explains attitudes (anger at indifference, grief, shame, defiant memory) and links each to context.",
-          "markScheme": [
-            { "criterion": "Makes a clear comparative point about how conflict affects non-combatants in both poems", "marks": 1, "keywords": [ ["both", "whereas", "however", "similarly", "in contrast", "compared", "while"] ] },
-            { "criterion": "Analyses a method in War Photographer (regular form, priest simile, contrast of settings, the developing image, the final stanza) with evidence", "marks": 1, "keywords": [ ["priest", "church", "stanza", "rhyme", "ordered", "rural england", "ghost", "supplement", "do not care", "darkroom"] ] },
-            { "criterion": "Analyses a method in the second poem with evidence", "marks": 1, "keywords": [ ["textile", "bias binding", "enjamb", "dove", "songbird", "shoal", "fish", "italic", "third person", "sunlight", "personif", "refrain", "my city"] ] },
-            { "criterion": "Explains Duffy's attitude (anger at public indifference, sympathy for the photographer's isolation)", "marks": 1, "keywords": [ ["indifferen", "do not care", "don't care", "anger", "isolat", "guilt", "reader", "public"] ] },
-            { "criterion": "Explains the second poet's attitude or ideas (grief and loss; shame and honour; memory and identity)", "marks": 1, "keywords": [ ["grief", "loss", "shame", "honour", "memory", "identity", "exile", "defian"] ] },
-            { "criterion": "Links to relevant context for one or both poems", "marks": 1, "keywords": [ ["photographer friend", "mccullin", "belfast", "beirut", "1985", "iraq", "afghanistan", "textile", "japan", "second world war", "suicide mission", "exile", "tyran", "1993"] ] } ] } },
-        { "type": "Summary", "title": "Key points", "minutes": 2, "content": "- **Poppies** (Weir): a mother's dramatic monologue; **textile imagery** mixed with injury; **time shifts**; birds of release; free verse and **enjambment**; the son's fate left open.\n- **War Photographer** (Duffy): darkroom as **church**, photographer as **priest**; strict **regular form** against chaotic content; contrast of Rural England and war zones; anger at readers who **do not care**.\n- **Kamikaze** (Garland): pilot turns back after seeing the **sea and fish** and remembering his father; told by his **daughter**, shifting into first person; shunned at home; which death is better?\n- **The Emigree** (Rumens): exile from an unnamed city; each stanza ends in **sunlight**; **personified city**; language as identity; defiant memory against tyrants.\n- Compare by **who is affected**, **how memory works**, **form and imagery**, and **context**." }
+        {
+          "type": "Explanation",
+          "title": "Poppies (Jane Weir)",
+          "minutes": 5,
+          "content": "## A mother at the door\n\nJane Weir is a textile designer as well as a poet, and *Poppies* (2009) was written for a collection responding to the wars in Iraq and Afghanistan. It is a **dramatic monologue** spoken by a mother whose son has left for the army. Crucially, we never learn whether he has died. The poem may describe him leaving for war, or a mother visiting a memorial years later; Weir keeps both possible.\n\n**Time.** The poem opens three days before Armistice Sunday, then moves back to the morning the son left, then forward to the mother walking to the churchyard. These **shifts** mirror how grief and memory refuse to run in order.\n\n**Textile imagery.** The mother pins a poppy to his blazer, smooths his collar, and describes the fabric and stitching in loving detail. Domestic craft words such as *bias binding* and *sellotape bandaged* fuse ordinary caring with the language of injury. She is preparing him for school and for battle at once.\n\n**Birds and release.** When he leaves, the world seems to overflow like a songbird released from a cage, and later a dove flies from a pear tree. The images suggest both freedom for him and loss for her; the dove, a symbol of peace, follows the son she can no longer follow.\n\n**Form.** Free verse with heavy **enjambment**; sentences spill over line and stanza breaks as her control slips. There is no rhyme and no comfort of pattern.\n\n**Effect of conflict.** War here is a private, domestic wound: the poem never shows a battle, only the empty house, the bedroom door, and the mother's longing to hear his voice again."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: Poppies",
+          "question": {
+            "key": "AQA-ELT-04-04-L1-Q1",
+            "type": "MultipleChoice",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "Why does Weir combine domestic textile words such as *bias binding* with words of injury such as *bandaged* in *Poppies*?",
+            "hint": "Think about what the mother is doing with her hands, and what she is afraid of.",
+            "explanation": "The mixed language shows that the mother's ordinary acts of care are shadowed by fear of wounds and death. Sewing, dressing and bandaging blur together, so her love and her dread cannot be separated.",
+            "options": [
+              {
+                "text": "To show that the mother's caring, everyday actions are shadowed by fear of her son being wounded",
+                "correct": true
+              },
+              {
+                "text": "To show that the mother works as a nurse in a military hospital",
+                "correct": false
+              },
+              {
+                "text": "To suggest that the son has already been injured in battle",
+                "correct": false,
+                "feedback": "The poem never confirms what has happened to the son."
+              },
+              {
+                "text": "To make the poem rhyme more regularly",
+                "correct": false,
+                "feedback": "The poem is free verse with no rhyme scheme."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "War Photographer (Carol Ann Duffy)",
+          "minutes": 5,
+          "content": "## The darkroom\n\nCarol Ann Duffy wrote *War Photographer* (1985) after talking with a friend who photographed war zones. The poem imagines such a photographer at home in his darkroom, developing pictures from Belfast, Beirut and Phnom Penh.\n\n**Structure.** Four six-line stanzas with a regular rhyme scheme. The **ordered form** contrasts with the chaos of the images and echoes the photographer's attempt to impose control: he lays out his spools in ordered rows. The poem itself is a darkroom, developing meaning slowly.\n\n**Religious imagery.** The red darkroom light is compared to a church, and the photographer to a priest preparing to say a Mass. This gives his work a sacred seriousness, as if he is performing a ritual for the dead, and it also isolates him: like a priest, he stands apart from ordinary life.\n\n**Contrast.** Rural England, with its ordinary pain, is set against fields that explode beneath children's feet. The photographer's hands, steady abroad, tremble now that he is safe. Distance, not danger, is what unsettles him.\n\n**The developing image.** A dead man's face begins to appear on the paper, a half-formed ghost, and the photographer remembers the cries of the man's wife. Memory is developed alongside the photograph, and both are unfinished.\n\n**The reader.** The final stanza turns on the public. An editor will choose a few pictures for a Sunday supplement; readers will feel briefly moved between the bath and pre-lunch drinks, then forget. Duffy's anger is aimed at the comfortable audience, which includes us. The photographer, flying back to another war, stares down at a country that, in the poem's bitter last words, does not care."
+        },
+        {
+          "type": "Example",
+          "title": "Analysing form in War Photographer",
+          "minutes": 3,
+          "content": "**Question:** How does Duffy use form to present the photographer's state of mind?\n\n> Duffy contains the chaos of war within an unusually strict form. Each of the four stanzas has six lines and the same rhyme scheme, and the photographer likewise lays out his spools in ordered rows. Both the poem and the man are trying to impose control on material that resists it. The effect is a tension between surface calm and inner turmoil: the rhyme keeps ticking steadily even as a dead man's face develops into a ghost on the paper and the photographer's hands begin to tremble. By the final stanza, the neat form becomes bitter. The steady rhyme that matches the reader's comfortable Sunday routine, with its bath and pre-lunch drinks, underlines how easily suffering is packaged and consumed. Form, then, is not decoration here; it is Duffy's way of showing that order can be a kind of denial.\n\n**Methods used in the analysis:** identifying regular stanza and rhyme, linking form to the photographer's behaviour, describing a **tension**, tracking how the effect **changes** by the end, and stating the **purpose**."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: War Photographer",
+          "question": {
+            "key": "AQA-ELT-04-04-L1-Q2",
+            "type": "Matching",
+            "difficulty": 3,
+            "marks": 4,
+            "text": "Match each method in *War Photographer* to its effect.",
+            "hint": "Think about the church comparison, the strict stanzas, the contrast of settings and the ending aimed at readers.",
+            "explanation": "The priest simile makes his work a solemn ritual. The regular form contrasts with chaotic content and reflects his attempt at control. The contrast between England and war zones shows his displacement. The final stanza criticises readers who feel briefly and forget.",
+            "pairs": [
+              {
+                "left": "The photographer is compared to a priest preparing a Mass",
+                "right": "His work becomes a solemn ritual for the dead, and he stands apart from ordinary life"
+              },
+              {
+                "left": "Four regular six-line stanzas with a fixed rhyme scheme",
+                "right": "Order imposed on chaos, mirroring his attempt at control"
+              },
+              {
+                "left": "Rural England set against fields that explode beneath children's feet",
+                "right": "Shows how out of place he feels in a safe country"
+              },
+              {
+                "left": "Readers weep briefly between the bath and pre-lunch drinks",
+                "right": "Criticises the public's shallow, short-lived response to suffering"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "Kamikaze (Beatrice Garland)",
+          "minutes": 5,
+          "content": "## The pilot who turned back\n\nBeatrice Garland's *Kamikaze* (2013) imagines a Japanese pilot in the Second World War who sets out on a suicide mission and turns back. Kamikaze pilots were expected to die crashing into enemy ships; returning alive brought deep shame on the pilot and his family.\n\n**Perspective.** The story is told mostly in the third person by the pilot's daughter, reporting what her mother told her. Partway through, the voice shifts into the daughter's own first-person memory (printed in italics). The layered telling shows how the story has been passed down, and how the family's shame was inherited.\n\n**Why he turned back.** Looking down, he sees fishing boats and a shoal of fish flashing silver, and remembers his father, the sea and childhood. Nature and family pull him back to life. The description of the sea is the poem's most vivid, sensory writing, suggesting that life itself is what he chooses.\n\n**The consequence.** His wife never speaks to him again, the neighbours turn away, and his children learn to treat him as if he were not there. The poem ends with the daughter imagining that he must have wondered which was the better way to die: in the plane, or slowly, shunned at home.\n\n**Form.** Seven six-line stanzas, no rhyme, long flowing sentences with enjambment, so the pilot's journey and the family's story run on without pause. The final stanza narrows to a single, quiet question.\n\n**Ideas.** Conflict here damages a man who never fights. Honour, patriotism and social expectation are shown as forces that can destroy a family as surely as a bomb."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: Kamikaze",
+          "question": {
+            "key": "AQA-ELT-04-04-L1-Q3",
+            "type": "FillInTheBlank",
+            "difficulty": 2,
+            "marks": 3,
+            "text": "Complete the sentences about *Kamikaze*.",
+            "metadata": {
+              "blanksText": "The pilot turns back after seeing fishing boats and a shoal of ___ below him, which remind him of his ___. When he returns home, his family and neighbours treat him as though he no longer ___."
+            },
+            "hint": "What swims in shoals; the family member who fished; a word meaning 'was alive' or 'was present'.",
+            "explanation": "The silver fish and boats remind him of his father and his childhood by the sea. On his return he is shunned, treated as if he no longer existed, a slow social death.",
+            "answers": [
+              {
+                "text": "fish",
+                "blankIndex": 0,
+                "marks": 1,
+                "caseSensitive": false
+              },
+              {
+                "text": "father",
+                "blankIndex": 1,
+                "marks": 1,
+                "caseSensitive": false
+              },
+              {
+                "text": "existed",
+                "blankIndex": 2,
+                "marks": 1,
+                "caseSensitive": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "Explanation",
+          "title": "The Emigree (Carol Rumens)",
+          "minutes": 5,
+          "content": "## A city remembered in sunlight\n\nCarol Rumens's *The Emigree* (1993) is spoken by someone who left a city as a child and can never go back. The city and the country are never named, and the spelling *emigree* (a female emigrant) is unusual, so the poem applies to anyone forced to leave home by war or tyranny.\n\n**Memory versus reality.** The speaker admits the news from her city is bad: it may be at war, or ruled by tyrants. But her memory of it is fixed in childhood and bathed in light. Each of the three stanzas ends with the word **sunlight**, a refrain that keeps returning like the memory itself.\n\n**Language and identity.** The speaker carries the city's language like a child's vocabulary she cannot update. The language may now be banned by the state, but she holds onto it as part of who she is. Losing a place, the poem suggests, means holding onto its words.\n\n**Personification.** The city becomes a living companion: it lies down in front of her, comes to her with white plane trees, takes her dancing. In the final stanza, threatening figures (the tyrants, the enemies) surround them, but the city and speaker stand together, her shadow falling as proof that sunlight exists.\n\n**Form.** Three stanzas of eight, eight and nine lines, unrhymed, with the extra line in the last stanza breaking the pattern just as danger intrudes. The repeated first-person *I* and the possessive *my city* insist on ownership that no regime can remove.\n\n**Ideas.** Conflict here is experienced as exile, a wound to identity rather than the body. Yet the poem is defiant: memory and love outlast the walls and the tyrants."
+        },
+        {
+          "type": "Example",
+          "title": "A model comparison paragraph",
+          "minutes": 3,
+          "content": "**Question:** Compare how poets present the effects of conflict on families in *Poppies* and *Kamikaze*.\n\n> Both Weir and Garland show conflict damaging a family without a single battle being described, but the damage runs in opposite directions. In *Poppies* the wound is absence: the mother's hands are busy with collars and poppies, yet the poem circles an empty bedroom and a memorial, and the enjambed free verse lets her sentences spill over line breaks as her composure fails. Weir never confirms the son's death, so the reader shares the mother's suspended grief. In *Kamikaze* the wound is presence: the pilot comes home alive, but his wife never speaks to him again and his children learn to act as if he were not there. Garland tells the story through the daughter, with the shift into her first-person memory showing how shame is inherited across generations. Where Weir's mother longs for a voice she cannot hear, Garland's family silences a voice that is still in the house. Both poets suggest that the deepest effects of conflict are felt at home, in what is not said.\n\n**Comparison skeleton:** shared idea → difference → evidence from poem A (method) → evidence from poem B (method) → *Where X... Y* → shared conclusion."
+        },
+        {
+          "type": "Question",
+          "title": "Quick check: The Emigree",
+          "question": {
+            "key": "AQA-ELT-04-04-L1-Q4",
+            "type": "TrueFalse",
+            "difficulty": 2,
+            "marks": 1,
+            "text": "True or false: in *The Emigree*, the speaker accepts that her memory of the city is false and stops thinking about it.",
+            "hint": "Think about the word that ends every stanza and the image of her shadow in the final lines.",
+            "explanation": "False. Although she knows the news from the city is bad, she holds on to her sunlit memory; each stanza ends with 'sunlight', and the poem closes with her shadow as evidence of that light. Memory defies the reality of tyranny.",
+            "options": [
+              {
+                "text": "True",
+                "correct": false
+              },
+              {
+                "text": "False",
+                "correct": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Practice: analysing perspective",
+          "question": {
+            "key": "AQA-ELT-04-04-L1-Q5",
+            "type": "ShortAnswer",
+            "difficulty": 3,
+            "marks": 3,
+            "examStyle": true,
+            "text": "Explain why Garland tells the story of *Kamikaze* through the pilot's daughter rather than through the pilot himself.",
+            "hint": "Think about what the daughter can show that the pilot cannot: the family's reaction, the passing of time, and the shift into her own memory.",
+            "explanation": "Using the daughter shows the effects of the pilot's decision on the next generation, not just on him. Her account is second-hand, passed down from her mother, which mirrors how family shame is inherited. The shift into her own first-person memory reveals her guilt at having joined in the silence as a child, and the pilot's own thoughts remain unknown, which makes his suffering more haunting.",
+            "markScheme": [
+              {
+                "criterion": "Explains that the daughter's perspective shows the effects on the family or the next generation",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "family",
+                    "generation",
+                    "children",
+                    "daughter",
+                    "inherit",
+                    "passed down"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Comments on the shift into the daughter's first-person memory and what it reveals (her part in shunning him, guilt, regret)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "first person",
+                    "first-person",
+                    "italic",
+                    "her own",
+                    "shift",
+                    "guilt",
+                    "regret",
+                    "joined in"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Notes that the pilot's own thoughts are never given directly, making his experience more mysterious or moving",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "never speaks",
+                    "his thoughts",
+                    "unknown",
+                    "silent",
+                    "mystery",
+                    "imagine",
+                    "haunt",
+                    "must have"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Question",
+          "title": "Exam-style question",
+          "checkpoint": true,
+          "question": {
+            "key": "AQA-ELT-04-04-L1-Q6",
+            "type": "ExamQuestion",
+            "difficulty": 4,
+            "marks": 6,
+            "examStyle": true,
+            "text": "Compare how poets present the effects of conflict on those who are not fighting in *War Photographer* and one other poem from this group (*Poppies*, *Kamikaze* or *The Emigree*).",
+            "hint": "Make a clear comparative point (for example, both show conflict felt at a distance but differ in who is blamed or how memory works). Use a method from each poem, brief evidence, and context: Duffy's friendship with a photographer; Weir's textile work and the Iraq and Afghanistan wars; Japanese kamikaze pilots; exile from an unnamed city.",
+            "explanation": "A strong answer compares Duffy's photographer, caught between war zones and an indifferent public, with the chosen poem's speaker; analyses methods such as Duffy's regular form and religious imagery against Weir's textile imagery and enjambment, Garland's shifting perspective, or Rumens's refrain and personification; explains attitudes (anger at indifference, grief, shame, defiant memory) and links each to context.",
+            "markScheme": [
+              {
+                "criterion": "Makes a clear comparative point about how conflict affects non-combatants in both poems",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "both",
+                    "whereas",
+                    "however",
+                    "similarly",
+                    "in contrast",
+                    "compared",
+                    "while"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Analyses a method in War Photographer (regular form, priest simile, contrast of settings, the developing image, the final stanza) with evidence",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "priest",
+                    "church",
+                    "stanza",
+                    "rhyme",
+                    "ordered",
+                    "rural england",
+                    "ghost",
+                    "supplement",
+                    "do not care",
+                    "darkroom"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Analyses a method in the second poem with evidence",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "textile",
+                    "bias binding",
+                    "enjamb",
+                    "dove",
+                    "songbird",
+                    "shoal",
+                    "fish",
+                    "italic",
+                    "third person",
+                    "sunlight",
+                    "personif",
+                    "refrain",
+                    "my city"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Explains Duffy's attitude (anger at public indifference, sympathy for the photographer's isolation)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "indifferen",
+                    "do not care",
+                    "don't care",
+                    "anger",
+                    "isolat",
+                    "guilt",
+                    "reader",
+                    "public"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Explains the second poet's attitude or ideas (grief and loss; shame and honour; memory and identity)",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "grief",
+                    "loss",
+                    "shame",
+                    "honour",
+                    "memory",
+                    "identity",
+                    "exile",
+                    "defian"
+                  ]
+                ]
+              },
+              {
+                "criterion": "Links to relevant context for one or both poems",
+                "marks": 1,
+                "keywords": [
+                  [
+                    "photographer friend",
+                    "mccullin",
+                    "belfast",
+                    "beirut",
+                    "1985",
+                    "iraq",
+                    "afghanistan",
+                    "textile",
+                    "japan",
+                    "second world war",
+                    "suicide mission",
+                    "exile",
+                    "tyran",
+                    "1993"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "Summary",
+          "title": "Key points",
+          "minutes": 2,
+          "content": "- **Poppies** (Weir): a mother's dramatic monologue; **textile imagery** mixed with injury; **time shifts**; birds of release; free verse and **enjambment**; the son's fate left open.\n- **War Photographer** (Duffy): darkroom as **church**, photographer as **priest**; strict **regular form** against chaotic content; contrast of Rural England and war zones; anger at readers who **do not care**.\n- **Kamikaze** (Garland): pilot turns back after seeing the **sea and fish** and remembering his father; told by his **daughter**, shifting into first person; shunned at home; which death is better?\n- **The Emigree** (Rumens): exile from an unnamed city; each stanza ends in **sunlight**; **personified city**; language as identity; defiant memory against tyrants.\n- Compare by **who is affected**, **how memory works**, **form and imagery**, and **context**."
+        }
       ],
       "practiceQuestions": [
-        { "key": "AQA-ELT-04-04-L1-P1", "type": "MultipleChoice", "difficulty": 1, "marks": 1, "text": "Who is the speaker of *Poppies*?", "hint": "Think about who pins the poppy to the blazer.", "explanation": "The poem is a dramatic monologue spoken by a mother whose son has left for the army.", "options": [ { "text": "A mother whose son has gone to war", "correct": true }, { "text": "A soldier writing home", "correct": false }, { "text": "A war photographer", "correct": false }, { "text": "A young woman remembering a lost city", "correct": false } ] },
-        { "key": "AQA-ELT-04-04-L1-P2", "type": "TrueFalse", "difficulty": 1, "marks": 1, "text": "True or false: *War Photographer* is written in free verse with no regular rhyme scheme.", "hint": "Count the lines in each stanza and listen for rhyme.", "explanation": "False. The poem has four six-line stanzas with a regular rhyme scheme, which contrasts with the chaos of the images and reflects the photographer's attempt at control.", "options": [ { "text": "True", "correct": false }, { "text": "False", "correct": true } ] },
-        { "key": "AQA-ELT-04-04-L1-P3", "type": "MultipleChoice", "difficulty": 2, "marks": 1, "text": "What is the significance of the word that ends every stanza of *The Emigree*?", "hint": "It is the opposite of darkness and appears three times.", "explanation": "Each stanza ends with 'sunlight', a refrain that keeps the speaker's bright memory returning and closing every section, no matter what dark news arrives.", "options": [ { "text": "The word 'sunlight' returns as a refrain, showing the speaker's memory stays bright despite bad news", "correct": true }, { "text": "The word 'tyrants' returns to show the city has been destroyed", "correct": false }, { "text": "The word 'war' returns to show the speaker has become a soldier", "correct": false }, { "text": "The word 'child' returns to show the speaker never grew up", "correct": false } ] },
-        { "key": "AQA-ELT-04-04-L1-P4", "type": "Matching", "difficulty": 2, "marks": 4, "text": "Match each poem to its central situation.", "hint": "A darkroom, a doorway, a cockpit, a remembered city.", "explanation": "Duffy's photographer develops pictures at home; Weir's mother prepares her son to leave; Garland's pilot abandons a suicide mission; Rumens's speaker remembers a city she cannot return to.", "pairs": [ { "left": "War Photographer", "right": "A photographer develops images of war in his darkroom in England" }, { "left": "Poppies", "right": "A mother remembers dressing her son before he left for the army" }, { "left": "Kamikaze", "right": "A pilot turns back from a suicide mission and is shunned by his family" }, { "left": "The Emigree", "right": "An exile holds on to a sunlit memory of a city she cannot revisit" } ] },
-        { "key": "AQA-ELT-04-04-L1-P5", "type": "FillInTheBlank", "difficulty": 2, "marks": 2, "text": "Complete the sentence about *War Photographer*.", "metadata": { "blanksText": "Duffy compares the photographer in his red-lit darkroom to a ___ preparing a Mass, and ends the poem by saying that the readers of the Sunday supplement do not ___." }, "hint": "A religious figure who leads a service; a verb meaning to be concerned.", "explanation": "The priest simile gives his work a sacred seriousness; the final line bitterly states that the public does not care.", "answers": [ { "text": "priest", "blankIndex": 0, "marks": 1, "caseSensitive": false }, { "text": "care", "blankIndex": 1, "marks": 1, "caseSensitive": false } ] },
-        { "key": "AQA-ELT-04-04-L1-P6", "type": "MultipleAnswer", "difficulty": 3, "marks": 2, "text": "Which TWO of the following are true about the structure of *Kamikaze*?", "hint": "Think about who is speaking and what the last stanza does.", "explanation": "The voice shifts from third-person narration to the daughter's first-person memory, and the poem ends with a quiet question about which death is better. It is unrhymed, and the pilot's own voice is never given.", "options": [ { "text": "The narrative shifts from third person into the daughter's own first-person memory", "correct": true }, { "text": "The final stanza ends with the daughter imagining her father wondering which death was better", "correct": true }, { "text": "The pilot narrates the whole poem in his own voice", "correct": false }, { "text": "Every stanza uses a strict rhyme scheme", "correct": false } ] },
-        { "key": "AQA-ELT-04-04-L1-P7", "type": "Ordering", "difficulty": 2, "marks": 1, "text": "Put the moments of *Poppies* in the order they appear in the poem.", "hint": "The poem begins near Armistice Sunday, moves back to the morning he left, and ends at the memorial.", "explanation": "The poem opens three days before Armistice Sunday with the poppy being pinned; the son leaves and the mother feels the world overflow; she goes to his empty bedroom and releases the dove; finally she stands at the war memorial hoping to hear his voice.", "order": [ "The mother pins a poppy to her son's blazer before Armistice Sunday", "The son walks away and the mother feels the world overflow like a released songbird", "She enters his empty bedroom and a dove flies from the pear tree", "She leans on the war memorial, hoping to hear his voice on the wind" ] },
-        { "key": "AQA-ELT-04-04-L1-P8", "type": "ShortAnswer", "difficulty": 3, "marks": 3, "examStyle": true, "text": "Explain how Rumens uses personification of the city in *The Emigree* to present the speaker's relationship with her lost home.", "hint": "Think about the city lying down, coming to her, taking her dancing, and standing with her against the tyrants.", "explanation": "The city is personified as a loving companion: it comes to her, takes her dancing, and stands beside her when enemies surround them. This turns a place into a person she has a relationship with, showing that her identity is bound up with it. The intimacy also reveals that the city she loves exists now mainly in her memory and imagination, which is why no tyrant can take it from her.", "markScheme": [ { "criterion": "Identifies personification of the city as a companion, lover or friend with a specific example (dancing, lying down, coming to her)", "marks": 1, "keywords": [ ["personif", "dancing", "companion", "lover", "friend", "comes to", "lies down", "living"] ] }, { "criterion": "Explains that this shows her identity or sense of self is bound up with the city", "marks": 1, "keywords": [ ["identity", "who she is", "part of her", "belong", "bound", "self"] ] }, { "criterion": "Comments that the city now exists in memory or imagination, which makes it safe from tyrants or shows defiance", "marks": 1, "keywords": [ ["memory", "imagin", "tyrant", "defian", "cannot take", "safe", "protect"] ] } ] },
-        { "key": "AQA-ELT-04-04-L1-P9", "type": "MultipleChoice", "difficulty": 3, "marks": 1, "text": "Which statement best compares the treatment of memory in *The Emigree* and *War Photographer*?", "hint": "Think about whether memory is a comfort or a torment in each poem.", "explanation": "For Rumens's speaker, memory is a bright refuge that defies bad news; for Duffy's photographer, memory intrudes painfully as a dead man's face develops and his wife's cries return. One clings to memory, the other is haunted by it.", "options": [ { "text": "In The Emigree memory is a sunlit refuge, whereas in War Photographer memory returns as a haunting", "correct": true }, { "text": "Both poems show memory as entirely comforting", "correct": false }, { "text": "Neither poem is concerned with memory", "correct": false }, { "text": "In War Photographer memory is joyful, while in The Emigree it is a torment", "correct": false } ] },
-        { "key": "AQA-ELT-04-04-L1-P10", "type": "ExamQuestion", "difficulty": 4, "marks": 5, "examStyle": true, "text": "Compare how poets present loss in *Poppies* and *The Emigree*.", "hint": "Consider what has been lost in each poem (a son; a city and a childhood), how each speaker holds on (textile care and memorial visits; sunlit memory and language), and the form each poet uses (enjambed free verse; three stanzas ending in sunlight).", "explanation": "A good answer compares the mother's grief for a son whose fate is uncertain with the exile's loss of a city she cannot revisit; analyses Weir's textile imagery and enjambment against Rumens's refrain and personification; notes that both speakers hold on to what they have lost through memory, and explains the different tones: suspended grief versus defiant brightness.", "markScheme": [ { "criterion": "Makes a clear comparative point about what is lost or how loss is felt in both poems", "marks": 1, "keywords": [ ["both", "whereas", "however", "in contrast", "similarly", "while"] ] }, { "criterion": "Analyses a method in Poppies with evidence (textile imagery, enjambment, birds, time shifts, ambiguity about the son)", "marks": 1, "keywords": [ ["textile", "sew", "bias binding", "enjamb", "dove", "songbird", "time", "ambigu", "memorial"] ] }, { "criterion": "Analyses a method in The Emigree with evidence (sunlight refrain, personification, language, stanza pattern)", "marks": 1, "keywords": [ ["sunlight", "refrain", "personif", "language", "vocabulary", "stanza", "my city", "dancing"] ] }, { "criterion": "Comments on how each speaker holds on to what is lost (memory, ritual, imagination)", "marks": 1, "keywords": [ ["memory", "hold on", "cling", "imagin", "ritual", "remember"] ] }, { "criterion": "Contrasts the tone or attitude of the two poems (grief versus defiance), or links to context", "marks": 1, "keywords": [ ["grief", "defian", "tone", "hope", "iraq", "afghanistan", "exile", "tyran", "context"] ] } ] }
+        {
+          "key": "AQA-ELT-04-04-L1-P1",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Who is the speaker of *Poppies*?",
+          "hint": "Think about who pins the poppy to the blazer.",
+          "explanation": "The poem is a dramatic monologue spoken by a mother whose son has left for the army.",
+          "options": [
+            {
+              "text": "A mother whose son has gone to war",
+              "correct": true
+            },
+            {
+              "text": "A soldier writing home",
+              "correct": false
+            },
+            {
+              "text": "A war photographer",
+              "correct": false
+            },
+            {
+              "text": "A young woman remembering a lost city",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P2",
+          "type": "TrueFalse",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "True or false: *War Photographer* is written in free verse with no regular rhyme scheme.",
+          "hint": "Count the lines in each stanza and listen for rhyme.",
+          "explanation": "False. The poem has four six-line stanzas with a regular rhyme scheme, which contrasts with the chaos of the images and reflects the photographer's attempt at control.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P3",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "What is the significance of the word that ends every stanza of *The Emigree*?",
+          "hint": "It is the opposite of darkness and appears three times.",
+          "explanation": "Each stanza ends with 'sunlight', a refrain that keeps the speaker's bright memory returning and closing every section, no matter what dark news arrives.",
+          "options": [
+            {
+              "text": "The word 'sunlight' returns as a refrain, showing the speaker's memory stays bright despite bad news",
+              "correct": true
+            },
+            {
+              "text": "The word 'tyrants' returns to show the city has been destroyed",
+              "correct": false
+            },
+            {
+              "text": "The word 'war' returns to show the speaker has become a soldier",
+              "correct": false
+            },
+            {
+              "text": "The word 'child' returns to show the speaker never grew up",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P4",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each poem to its central situation.",
+          "hint": "A darkroom, a doorway, a cockpit, a remembered city.",
+          "explanation": "Duffy's photographer develops pictures at home; Weir's mother prepares her son to leave; Garland's pilot abandons a suicide mission; Rumens's speaker remembers a city she cannot return to.",
+          "pairs": [
+            {
+              "left": "War Photographer",
+              "right": "A photographer develops images of war in his darkroom in England"
+            },
+            {
+              "left": "Poppies",
+              "right": "A mother remembers dressing her son before he left for the army"
+            },
+            {
+              "left": "Kamikaze",
+              "right": "A pilot turns back from a suicide mission and is shunned by his family"
+            },
+            {
+              "left": "The Emigree",
+              "right": "An exile holds on to a sunlit memory of a city she cannot revisit"
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P5",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the sentence about *War Photographer*.",
+          "metadata": {
+            "blanksText": "Duffy compares the photographer in his red-lit darkroom to a ___ preparing a Mass, and ends the poem by saying that the readers of the Sunday supplement do not ___."
+          },
+          "hint": "A religious figure who leads a service; a verb meaning to be concerned.",
+          "explanation": "The priest simile gives his work a sacred seriousness; the final line bitterly states that the public does not care.",
+          "answers": [
+            {
+              "text": "priest",
+              "blankIndex": 0,
+              "marks": 1,
+              "caseSensitive": false
+            },
+            {
+              "text": "care",
+              "blankIndex": 1,
+              "marks": 1,
+              "caseSensitive": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P6",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Which TWO of the following are true about the structure of *Kamikaze*?",
+          "hint": "Think about who is speaking and what the last stanza does.",
+          "explanation": "The voice shifts from third-person narration to the daughter's first-person memory, and the poem ends with a quiet question about which death is better. It is unrhymed, and the pilot's own voice is never given.",
+          "options": [
+            {
+              "text": "The narrative shifts from third person into the daughter's own first-person memory",
+              "correct": true
+            },
+            {
+              "text": "The final stanza ends with the daughter imagining her father wondering which death was better",
+              "correct": true
+            },
+            {
+              "text": "The pilot narrates the whole poem in his own voice",
+              "correct": false
+            },
+            {
+              "text": "Every stanza uses a strict rhyme scheme",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P7",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put the moments of *Poppies* in the order they appear in the poem.",
+          "hint": "The poem begins near Armistice Sunday, moves back to the morning he left, and ends at the memorial.",
+          "explanation": "The poem opens three days before Armistice Sunday with the poppy being pinned; the son leaves and the mother feels the world overflow; she goes to his empty bedroom and releases the dove; finally she stands at the war memorial hoping to hear his voice.",
+          "order": [
+            "The mother pins a poppy to her son's blazer before Armistice Sunday",
+            "The son walks away and the mother feels the world overflow like a released songbird",
+            "She enters his empty bedroom and a dove flies from the pear tree",
+            "She leans on the war memorial, hoping to hear his voice on the wind"
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P8",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "examStyle": true,
+          "text": "Explain how Rumens uses personification of the city in *The Emigree* to present the speaker's relationship with her lost home.",
+          "hint": "Think about the city lying down, coming to her, taking her dancing, and standing with her against the tyrants.",
+          "explanation": "The city is personified as a loving companion: it comes to her, takes her dancing, and stands beside her when enemies surround them. This turns a place into a person she has a relationship with, showing that her identity is bound up with it. The intimacy also reveals that the city she loves exists now mainly in her memory and imagination, which is why no tyrant can take it from her.",
+          "markScheme": [
+            {
+              "criterion": "Identifies personification of the city as a companion, lover or friend with a specific example (dancing, lying down, coming to her)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "personif",
+                  "dancing",
+                  "companion",
+                  "lover",
+                  "friend",
+                  "comes to",
+                  "lies down",
+                  "living"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explains that this shows her identity or sense of self is bound up with the city",
+              "marks": 1,
+              "keywords": [
+                [
+                  "identity",
+                  "who she is",
+                  "part of her",
+                  "belong",
+                  "bound",
+                  "self"
+                ]
+              ]
+            },
+            {
+              "criterion": "Comments that the city now exists in memory or imagination, which makes it safe from tyrants or shows defiance",
+              "marks": 1,
+              "keywords": [
+                [
+                  "memory",
+                  "imagin",
+                  "tyrant",
+                  "defian",
+                  "cannot take",
+                  "safe",
+                  "protect"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P9",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Which statement best compares the treatment of memory in *The Emigree* and *War Photographer*?",
+          "hint": "Think about whether memory is a comfort or a torment in each poem.",
+          "explanation": "For Rumens's speaker, memory is a bright refuge that defies bad news; for Duffy's photographer, memory intrudes painfully as a dead man's face develops and his wife's cries return. One clings to memory, the other is haunted by it.",
+          "options": [
+            {
+              "text": "In The Emigree memory is a sunlit refuge, whereas in War Photographer memory returns as a haunting",
+              "correct": true
+            },
+            {
+              "text": "Both poems show memory as entirely comforting",
+              "correct": false
+            },
+            {
+              "text": "Neither poem is concerned with memory",
+              "correct": false
+            },
+            {
+              "text": "In War Photographer memory is joyful, while in The Emigree it is a torment",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P10",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "Compare how poets present loss in *Poppies* and *The Emigree*.",
+          "hint": "Consider what has been lost in each poem (a son; a city and a childhood), how each speaker holds on (textile care and memorial visits; sunlit memory and language), and the form each poet uses (enjambed free verse; three stanzas ending in sunlight).",
+          "explanation": "A good answer compares the mother's grief for a son whose fate is uncertain with the exile's loss of a city she cannot revisit; analyses Weir's textile imagery and enjambment against Rumens's refrain and personification; notes that both speakers hold on to what they have lost through memory, and explains the different tones: suspended grief versus defiant brightness.",
+          "markScheme": [
+            {
+              "criterion": "Makes a clear comparative point about what is lost or how loss is felt in both poems",
+              "marks": 1,
+              "keywords": [
+                [
+                  "both",
+                  "whereas",
+                  "however",
+                  "in contrast",
+                  "similarly",
+                  "while"
+                ]
+              ]
+            },
+            {
+              "criterion": "Analyses a method in Poppies with evidence (textile imagery, enjambment, birds, time shifts, ambiguity about the son)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "textile",
+                  "sew",
+                  "bias binding",
+                  "enjamb",
+                  "dove",
+                  "songbird",
+                  "time",
+                  "ambigu",
+                  "memorial"
+                ]
+              ]
+            },
+            {
+              "criterion": "Analyses a method in The Emigree with evidence (sunlight refrain, personification, language, stanza pattern)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "sunlight",
+                  "refrain",
+                  "personif",
+                  "language",
+                  "vocabulary",
+                  "stanza",
+                  "my city",
+                  "dancing"
+                ]
+              ]
+            },
+            {
+              "criterion": "Comments on how each speaker holds on to what is lost (memory, ritual, imagination)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "memory",
+                  "hold on",
+                  "cling",
+                  "imagin",
+                  "ritual",
+                  "remember"
+                ]
+              ]
+            },
+            {
+              "criterion": "Contrasts the tone or attitude of the two poems (grief versus defiance), or links to context",
+              "marks": 1,
+              "keywords": [
+                [
+                  "grief",
+                  "defian",
+                  "tone",
+                  "hope",
+                  "iraq",
+                  "afghanistan",
+                  "exile",
+                  "tyran",
+                  "context"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Why does Rumens never name the city or the country in *The Emigree*, and never explain exactly why the speaker had to leave?",
+          "hint": "Think about who the poem is able to speak for if the details are left open.",
+          "explanation": "Leaving the city unnamed makes the poem universal: it can stand for any exile from any oppressive regime. The focus stays on memory and feeling rather than on one political situation, and the reader can imagine the city for themselves.",
+          "options": [
+            {
+              "text": "So that the poem can speak for anyone forced to leave a home, keeping the focus on memory and feeling rather than one political event",
+              "correct": true
+            },
+            {
+              "text": "Because the speaker has forgotten the name of the city",
+              "correct": false,
+              "feedback": "The speaker remembers the city vividly; her memory is the whole point of the poem."
+            },
+            {
+              "text": "Because naming the city would break the poem's rhyme scheme",
+              "correct": false,
+              "feedback": "The poem is in free verse with no rhyme scheme."
+            },
+            {
+              "text": "Because the city no longer exists",
+              "correct": false,
+              "feedback": "The city still exists; the speaker hears news of it, though it is now under the control of tyrants."
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P12",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Match each method in *The Emigree* to its effect.",
+          "hint": "Think about the city treated as a person, the repeated last word of each stanza, the closed borders, and the shadow at the end.",
+          "explanation": "Personifying the city as someone she dresses and dances with makes it a loved companion rather than a place. The refrain of 'sunlight' shows a memory that refuses to fade. Admitting that she has no passport and the borders are closed shows the exile is permanent, yet her attachment defies those facts. The final shadow shows tyranny threatening her, while proving that her sunlight still shines.",
+          "pairs": [
+            {
+              "left": "The city is personified as a companion she dresses and dances with",
+              "right": "Turns the city into a loved one, showing intimacy and care rather than politics"
+            },
+            {
+              "left": "Every stanza ends with the same word, 'sunlight'",
+              "right": "A refrain showing that her bright memory persists in spite of bad news"
+            },
+            {
+              "left": "She admits she has no passport and the borders are closed",
+              "right": "Shows the exile is permanent, yet her attachment defies the facts"
+            },
+            {
+              "left": "The poem ends with walls and a shadow falling beside her",
+              "right": "Tyranny threatens her even in memory, but the shadow proves the light still exists"
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P13",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Fill in the gaps in these sentences about *Poppies*.",
+          "metadata": {
+            "blanksText": "The poem begins three days before ___ Sunday, when poppies are worn in memory of the war dead. After her son has left, the mother goes into his empty ___ and releases a songbird from its cage. The poem ends with her leaning against the war ___, hoping to catch his voice on the wind."
+          },
+          "hint": "The first blank is the day in November that marks the end of the First World War; the second is a room in the house; the third is a monument to the dead.",
+          "explanation": "Poppies is set around Armistice Sunday. The mother enters her son's bedroom, and finishes at the war memorial, where the ending remains uncertain about whether the son is alive or dead.",
+          "answers": [
+            {
+              "text": "Armistice",
+              "blankIndex": 0,
+              "marks": 1,
+              "caseSensitive": false
+            },
+            {
+              "text": "bedroom",
+              "blankIndex": 1,
+              "marks": 1,
+              "caseSensitive": false
+            },
+            {
+              "text": "memorial",
+              "blankIndex": 2,
+              "marks": 1,
+              "caseSensitive": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P14",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: in *Kamikaze*, the pilot's family welcome his decision to turn back as an act of courage.",
+          "hint": "Think about how his wife and neighbours behave once he is home, and what the daughter says about his children.",
+          "explanation": "False. Because turning back was seen as a shameful failure of duty, his wife refuses to speak to him, the neighbours avoid him and the children learn to treat him as if he were not there. The daughter wonders whether he came to think that dying would have been the better choice.",
+          "options": [
+            {
+              "text": "True",
+              "correct": false
+            },
+            {
+              "text": "False",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P15",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "examStyle": true,
+          "text": "Explain why Duffy sets *War Photographer* in a darkroom in England rather than in the war zones where the photographs were taken.",
+          "hint": "Think about the contrast between safe and dangerous places, what happens as the pictures slowly develop, and who the photographs are meant for.",
+          "explanation": "Setting the poem in a quiet darkroom in 'Rural England' creates a sharp contrast between the safety of home and the horror in the photographs, showing how out of place the photographer feels. As the images develop in the chemical trays, his memories surface with them, so the darkroom becomes a place where he processes trauma as well as film. It also lets Duffy show the gap between the suffering he witnessed and the readers who glance at his pictures in the Sunday supplement and forget them, criticising public indifference.",
+          "markScheme": [
+            {
+              "criterion": "Explains the contrast between the safety or calm of England and the danger or horror of the war zones",
+              "marks": 1,
+              "keywords": [
+                [
+                  "contrast",
+                  "safe",
+                  "calm",
+                  "peaceful",
+                  "ordinary"
+                ],
+                [
+                  "horror",
+                  "danger",
+                  "war zone",
+                  "suffer",
+                  "explode"
+                ]
+              ]
+            },
+            {
+              "criterion": "Comments on the developing photographs bringing back memories, so the darkroom is where he processes or relives trauma",
+              "marks": 1,
+              "keywords": [
+                [
+                  "develop",
+                  "memor",
+                  "relive",
+                  "process",
+                  "ghost"
+                ]
+              ]
+            },
+            {
+              "criterion": "Links the setting to the readers or public who see the pictures at home and quickly forget, showing indifference",
+              "marks": 1,
+              "keywords": [
+                [
+                  "reader",
+                  "public",
+                  "supplement",
+                  "indifferen",
+                  "forget"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-ELT-04-04-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "Compare how poets present memory as a response to conflict in *Kamikaze* and one other poem from this group (*Poppies*, *War Photographer* or *The Emigree*).",
+          "hint": "Make a clear comparative point (for example, both poems show memory outliving the event, but differ in whether memory brings comfort, guilt or shame). Use a method from each poem, brief evidence, and context: Japanese kamikaze pilots and ideas of honour; Weir and the Iraq and Afghanistan wars; Duffy's photographer friend; exile from an unnamed city.",
+          "explanation": "A strong answer compares the daughter's inherited memory in Kamikaze, told second-hand and shifting into her own italicised voice, with the chosen poem's speaker; analyses methods such as Garland's sea imagery and changing perspective against Weir's textile imagery and enjambment, Duffy's regular stanzas and developing images, or Rumens's refrain and personification; explains attitudes (shame passed down a family, a mother's grief, guilt and public indifference, defiant nostalgia) and links each to context.",
+          "markScheme": [
+            {
+              "criterion": "Makes a clear comparative point about how memory of conflict works in both poems",
+              "marks": 1,
+              "keywords": [
+                [
+                  "both",
+                  "whereas",
+                  "however",
+                  "similarly",
+                  "in contrast"
+                ],
+                [
+                  "memor",
+                  "remember",
+                  "past",
+                  "haunt",
+                  "forget"
+                ]
+              ]
+            },
+            {
+              "criterion": "Analyses a method in Kamikaze (shifting perspective, italics, sea and fish imagery, the daughter's voice, long unpunctuated sentences) with evidence",
+              "marks": 1,
+              "keywords": [
+                [
+                  "italic",
+                  "third person",
+                  "shoal",
+                  "fish",
+                  "perspective"
+                ]
+              ]
+            },
+            {
+              "criterion": "Analyses a method in the second poem with evidence",
+              "marks": 1,
+              "keywords": [
+                [
+                  "textile",
+                  "enjamb",
+                  "priest",
+                  "stanza",
+                  "sunlight"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explains Garland's attitude or ideas (shame passed down the family, the cost of honour, a slow social death, sympathy for the pilot)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "shame",
+                  "honour",
+                  "shun",
+                  "silence",
+                  "existed"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explains the second poet's attitude or ideas (grief and uncertainty; guilt and public indifference; defiant memory of home)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "grief",
+                  "loss",
+                  "indifferen",
+                  "guilt",
+                  "defian"
+                ]
+              ]
+            },
+            {
+              "criterion": "Links to relevant context for one or both poems",
+              "marks": 1,
+              "keywords": [
+                [
+                  "japan",
+                  "second world war",
+                  "suicide mission",
+                  "iraq",
+                  "afghanistan"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]
