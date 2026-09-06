@@ -565,6 +565,223 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-05-03-L1-P12",
+          "type": "Matching",
+          "difficulty": 1,
+          "marks": 4,
+          "text": "Match each piece of set notation to its meaning.",
+          "hint": "$n(\\ldots)$ counts elements; $\\in$ means \"is a member of\"; a dash means \"not in\".",
+          "explanation": "$n(A)$ is the number of elements in A. $x \\in A$ means x is a member of A. $A \\cap B'$ is the part of A that is not in B. $(A \\cup B)'$ is everything outside both A and B.",
+          "pairs": [
+            {
+              "left": "n(A)",
+              "right": "The number of elements in A"
+            },
+            {
+              "left": "x ∈ A",
+              "right": "x is a member of A"
+            },
+            {
+              "left": "A ∩ B′",
+              "right": "In A but not in B"
+            },
+            {
+              "left": "(A ∪ B)′",
+              "right": "In neither A nor B"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-03-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "$\\xi = \\{1, 2, 3, \\ldots, 10\\}$, $O = \\{\\text{odd numbers}\\}$ and $M = \\{\\text{multiples of 3}\\}$. Which set is $O \\cap M'$?",
+          "hint": "Write out $O = \\{1, 3, 5, 7, 9\\}$ and $M = \\{3, 6, 9\\}$. Then keep the odd numbers that are **not** multiples of 3.",
+          "explanation": "$M' = \\{1, 2, 4, 5, 7, 8, 10\\}$. The odd numbers in that set are $\\{1, 5, 7\\}$.",
+          "options": [
+            {
+              "text": "{1, 5, 7}",
+              "correct": true
+            },
+            {
+              "text": "{3, 9}",
+              "correct": false,
+              "feedback": "That is $O \\cap M$, the odd multiples of 3."
+            },
+            {
+              "text": "{1, 2, 4, 5, 7, 8, 10}",
+              "correct": false,
+              "feedback": "That is $M'$ on its own; you still need to keep only the odd ones."
+            },
+            {
+              "text": "{6}",
+              "correct": false,
+              "feedback": "That is $M \\cap O'$."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-03-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "In a class of 32 students, 19 have a brother, 15 have a sister and 8 have both a brother and a sister. How many students have neither a brother nor a sister?",
+          "hint": "Fill in the overlap first, then brother only = 19 − 8 and sister only = 15 − 8.",
+          "explanation": "Brother only 11, sister only 7, both 8: total $11 + 7 + 8 = 26$. Neither $= 32 - 26 = 6$.",
+          "answers": [
+            {
+              "numeric": 6,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-03-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "At a festival, 150 people were asked what they bought. 92 bought food, 64 bought a drink and 27 bought neither. How many people bought both food and a drink?",
+          "hint": "At least one $= 150 - 27$. Then $n(\\text{food}) + n(\\text{drink}) - n(\\text{both})$ equals that number.",
+          "explanation": "At least one $= 150 - 27 = 123$. $92 + 64 - \\text{both} = 123$, so both $= 156 - 123 = 33$.",
+          "answers": [
+            {
+              "numeric": 33,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-03-L1-P16",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "75 pupils were asked which sports they play. 4 play all three of hockey, netball and tennis. 12 play hockey and netball, 9 play hockey and tennis, and 7 play netball and tennis. 30 play hockey in total. How many play **hockey only**?",
+          "hint": "Hockey and netball only = 12 − 4; hockey and tennis only = 9 − 4. Subtract these and the centre from 30.",
+          "explanation": "Hockey and netball only $= 8$; hockey and tennis only $= 5$; centre $= 4$. Hockey only $= 30 - 8 - 5 - 4 = 13$.",
+          "answers": [
+            {
+              "numeric": 13,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-03-L1-P17",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A Venn diagram shows: 14 in C only, 9 in both C and D, 15 in D only, and 7 in neither. A person who is in C is chosen at random. Work out the probability that they are also in D. Give your answer as a decimal to 3 decimal places.",
+          "hint": "The condition restricts you to the C circle, which contains $14 + 9$ people.",
+          "explanation": "$P(D | C) = \\frac{9}{23} = 0.391$ (3 d.p.).",
+          "answers": [
+            {
+              "numeric": 0.391,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-03-L1-P18",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "$\\xi = \\{1, 2, \\ldots, 15\\}$, $M = \\{\\text{multiples of 3}\\}$ and $F = \\{\\text{factors of 30}\\}$. Select **all** the statements that are true.",
+          "hint": "$M = \\{3, 6, 9, 12, 15\\}$ and $F = \\{1, 2, 3, 5, 6, 10, 15\\}$.",
+          "explanation": "$M \\cap F = \\{3, 6, 15\\}$, so $n(M \\cap F) = 3$. $M \\cup F = \\{1, 2, 3, 5, 6, 9, 10, 12, 15\\}$, so $n(M \\cup F) = 9$, not 12. $10$ is not a multiple of 3, so $10 \\in M'$. $9$ is not a factor of 30, so \"9 ∈ F\" is false.",
+          "options": [
+            {
+              "text": "n(M ∩ F) = 3",
+              "correct": true
+            },
+            {
+              "text": "10 ∈ M′",
+              "correct": true
+            },
+            {
+              "text": "n(M ∪ F) = 12",
+              "correct": false,
+              "feedback": "The union has 9 elements; do not count the shared elements twice."
+            },
+            {
+              "text": "9 ∈ F",
+              "correct": false,
+              "feedback": "9 is not a factor of 30."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-03-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "120 visitors to a museum were asked whether they went to the dinosaur hall (D) and whether they went to the space gallery (S). 71 went to the dinosaur hall, 58 went to the space gallery and 22 went to neither.\n\n(a) Work out how many visitors went to both the dinosaur hall and the space gallery.\n\n(b) Draw or describe the completed Venn diagram, giving the number in each of the four regions.\n\n(c) A visitor who went to the space gallery is chosen at random. Work out the probability that they also went to the dinosaur hall.",
+          "hint": "(a) At least one $= 120 - 22 = 98$; then $71 + 58 - \\text{both} = 98$. (c) The denominator is 58.",
+          "explanation": "(a) $98$ went to at least one; both $= 71 + 58 - 98 = 31$. (b) Dinosaur hall only $= 71 - 31 = 40$; both $= 31$; space gallery only $= 58 - 31 = 27$; neither $= 22$. Check: $40 + 31 + 27 + 22 = 120$ ✓. (c) $P(D | S) = \\frac{31}{58} = 0.53$ (2 d.p.).",
+          "markScheme": [
+            {
+              "criterion": "Finds 98 went to at least one (120 − 22)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "98",
+                  "98.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Both = 31",
+              "marks": 1,
+              "keywords": [
+                [
+                  "31",
+                  "31.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Dinosaur hall only = 40",
+              "marks": 1,
+              "keywords": [
+                [
+                  "40",
+                  "40.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Space gallery only = 27 and neither = 22 (all four regions correct)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "22",
+                  "22.0"
+                ],
+                [
+                  "27",
+                  "27.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "P(D | S) = 31/58 ≈ 0.53",
+              "marks": 1,
+              "keywords": [
+                [
+                  "31/58",
+                  "0.53",
+                  "0.534"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

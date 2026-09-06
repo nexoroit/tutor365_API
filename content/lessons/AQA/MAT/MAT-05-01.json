@@ -528,6 +528,200 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P12",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A fair spinner has 8 equal sections numbered 1 to 8. Work out the probability that it lands on a square number. Give your answer as a decimal.",
+          "hint": "The square numbers between 1 and 8 are 1 and 4.",
+          "explanation": "Two square numbers (1 and 4) out of eight equally likely outcomes: $\\frac{2}{8} = 0.25$.",
+          "answers": [
+            {
+              "numeric": 0.25,
+              "tolerance": 0.001
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P13",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A box contains only gold, silver and bronze tokens. A token is taken at random. The probability that it is gold is 0.15 and the probability that it is bronze is 0.55. Work out the probability that it is silver.",
+          "hint": "Gold, silver and bronze are the only possibilities, so their probabilities total 1.",
+          "explanation": "$P(\\text{silver}) = 1 - 0.15 - 0.55 = 0.3$.",
+          "answers": [
+            {
+              "numeric": 0.3,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P14",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "The probability that a set of traffic lights is on red when a car arrives is 0.38. On one day, 450 cars arrive at the lights. How many of them would you expect to arrive while the lights are on red?",
+          "hint": "Expected frequency = probability × number of trials.",
+          "explanation": "$0.38 \\times 450 = 171$ cars.",
+          "answers": [
+            {
+              "numeric": 171,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Two fair six-sided dice are rolled. Work out the probability that the difference between the two scores is exactly 2. Give your answer as a fraction of 36, i.e. enter the numerator only.",
+          "hint": "List the pairs with a difference of 2, such as (1, 3) and (3, 1). Both orders count as separate outcomes.",
+          "explanation": "Pairs with a difference of 2: (1, 3), (3, 1), (2, 4), (4, 2), (3, 5), (5, 3), (4, 6), (6, 4). That is 8 of the 36 outcomes, so the numerator is 8 ($P = \\frac{8}{36} = \\frac{2}{9}$).",
+          "answers": [
+            {
+              "numeric": 8,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P16",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A new car can be ordered in 5 paint colours, with 3 wheel designs and 2 interior finishes. How many different combinations of one colour, one wheel design and one interior finish can be ordered?",
+          "hint": "For each colour there are 3 wheel designs, and for each of those there are 2 finishes.",
+          "explanation": "$5 \\times 3 \\times 2 = 30$ combinations.",
+          "answers": [
+            {
+              "numeric": 30,
+              "tolerance": 0
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A drawing pin is dropped 400 times. It lands point up 148 times. Work out the relative frequency of landing point up as a decimal.",
+          "hint": "Relative frequency = number of times it happened ÷ total number of trials.",
+          "explanation": "$148 \\div 400 = 0.37$.",
+          "answers": [
+            {
+              "numeric": 0.37,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P18",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Three friends test the same spinner to estimate the probability that it lands on red. Dev spins it 30 times and gets 8 reds. Ella spins it 120 times and gets 33 reds. Finn spins it 600 times and gets 171 reds. Whose result gives the most reliable estimate of the probability of red?",
+          "hint": "The reliability of a relative frequency depends on the number of trials, not on how neat the fraction looks.",
+          "explanation": "Finn carried out by far the most spins, so his relative frequency ($\\frac{171}{600} = 0.285$) is the most reliable estimate. The other two have far fewer trials, so their results are more affected by chance.",
+          "options": [
+            {
+              "text": "Finn, because he did the most spins",
+              "correct": true
+            },
+            {
+              "text": "Dev, because he got the highest proportion of reds",
+              "correct": false,
+              "feedback": "A higher proportion does not make an estimate more reliable; 30 spins is a small sample."
+            },
+            {
+              "text": "Ella, because 33 out of 120 is a simpler fraction",
+              "correct": false
+            },
+            {
+              "text": "All three estimates are equally reliable",
+              "correct": false,
+              "feedback": "Estimates improve as the number of trials increases."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-01-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 3,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A biased spinner has four sections labelled A, B, C and D. The table shows some of the probabilities.\n\n| Section | A | B | C | D |\n|---|---|---|---|---|\n| Probability | 0.2 | $y$ | $y$ | 0.1 |\n\n(a) Work out the value of $y$.\n\n(b) The spinner is spun 300 times. Work out how many times you would expect it to land on B.\n\n(c) Kai spins the spinner 50 times and it lands on D nine times. He says the probability of D in the table must be wrong. Comment on his claim.",
+          "hint": "(a) The four probabilities add up to 1, and two of them are equal. (c) Compare his relative frequency with 0.1, then think about how many trials he did.",
+          "explanation": "(a) $0.2 + y + y + 0.1 = 1$, so $2y = 0.7$ and $y = 0.35$. (b) $0.35 \\times 300 = 105$. (c) Kai's relative frequency is $\\frac{9}{50} = 0.18$, which is higher than 0.1 (he would expect about 5 Ds from 50 spins). However, 50 spins is a small number of trials, so a difference like this could easily be due to chance. The table is not necessarily wrong; he would need many more spins before drawing that conclusion.",
+          "markScheme": [
+            {
+              "criterion": "Sets up 0.2 + 0.1 + 2y = 1 (or 2y = 0.7)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2y = 0.7",
+                  "2y=0.7",
+                  "0.7",
+                  "= 1",
+                  "=1"
+                ]
+              ]
+            },
+            {
+              "criterion": "y = 0.35",
+              "marks": 1,
+              "keywords": [
+                [
+                  "0.35",
+                  "0.350"
+                ]
+              ]
+            },
+            {
+              "criterion": "Expected frequency 105",
+              "marks": 1,
+              "keywords": [
+                [
+                  "105",
+                  "105.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Calculates Kai's relative frequency 9/50 = 0.18 (or expected about 5 from 50 spins)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "0.18",
+                  "9/50",
+                  "18%",
+                  "expect 5",
+                  "about 5"
+                ]
+              ]
+            },
+            {
+              "criterion": "States that 50 spins is too few to be sure / results vary with small samples, so the table is not necessarily wrong",
+              "marks": 1,
+              "keywords": [
+                [
+                  "not enough",
+                  "too few",
+                  "small",
+                  "more spins",
+                  "chance"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

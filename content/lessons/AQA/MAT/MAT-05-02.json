@@ -537,6 +537,209 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-05-02-L1-P12",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 2,
+          "text": "On any given day, the probability that an office printer jams is 0.2 and, independently, the probability that the lift is out of order is 0.25. Work out the probability that **both** happen on the same day.",
+          "hint": "The events are independent and you want both, so multiply.",
+          "explanation": "$0.2 \\times 0.25 = 0.05$.",
+          "answers": [
+            {
+              "numeric": 0.05,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-02-L1-P13",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A basketball player scores a free throw with probability 0.7. She takes two free throws. Work out the probability that she scores **both** of them.",
+          "hint": "Each throw is independent of the other: multiply the two probabilities.",
+          "explanation": "$0.7 \\times 0.7 = 0.49$.",
+          "answers": [
+            {
+              "numeric": 0.49,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-02-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "The probability that an archer hits the target with any arrow is 0.6. She shoots two arrows independently. Work out the probability that **at least one** arrow hits the target.",
+          "hint": "Find the probability that both arrows miss, then subtract from 1.",
+          "explanation": "$P(\\text{miss}) = 0.4$, so $P(\\text{both miss}) = 0.4 \\times 0.4 = 0.16$. $P(\\text{at least one hit}) = 1 - 0.16 = 0.84$.",
+          "answers": [
+            {
+              "numeric": 0.84,
+              "tolerance": 0.001,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-02-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A tin holds 5 oat biscuits and 7 ginger biscuits. Two biscuits are taken at random without replacement. Work out the probability that both are ginger biscuits. Give your answer as a fraction of 132, entering the numerator only.",
+          "hint": "After one ginger biscuit is taken there are 6 ginger biscuits left out of 11.",
+          "explanation": "$\\frac{7}{12} \\times \\frac{6}{11} = \\frac{42}{132} = \\frac{7}{22}$. The numerator over 132 is 42.",
+          "answers": [
+            {
+              "numeric": 42,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-02-L1-P16",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A pencil case has 4 red pens and 5 blue pens. Two pens are taken out at random without replacement. Which calculation gives the probability of getting one pen of each colour?",
+          "hint": "There are two routes on the tree diagram: red then blue, or blue then red. The second denominator is smaller because a pen has been removed.",
+          "explanation": "$P(\\text{R, B}) = \\frac{4}{9} \\times \\frac{5}{8}$ and $P(\\text{B, R}) = \\frac{5}{9} \\times \\frac{4}{8}$. Adding gives $\\frac{20}{72} + \\frac{20}{72} = \\frac{40}{72} = \\frac{5}{9}$.",
+          "options": [
+            {
+              "text": "(4/9 × 5/8) + (5/9 × 4/8)",
+              "correct": true
+            },
+            {
+              "text": "4/9 × 5/8",
+              "correct": false,
+              "feedback": "That is only red then blue; blue then red also gives one of each."
+            },
+            {
+              "text": "(4/9 × 5/9) + (5/9 × 4/9)",
+              "correct": false,
+              "feedback": "The second pick is from 8 pens, not 9, because one has been removed."
+            },
+            {
+              "text": "4/9 + 5/8",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-02-L1-P17",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "In a café, 60 customers were surveyed. 25 of them bought a coffee. Of the customers who bought a coffee, 7 also bought a pastry. A customer who bought a coffee is chosen at random. Work out the probability that they also bought a pastry. Give your answer as a decimal to 2 decimal places.",
+          "hint": "The condition is \"bought a coffee\", so only those 25 customers are possible outcomes.",
+          "explanation": "$\\frac{7}{25} = 0.28$.",
+          "answers": [
+            {
+              "numeric": 0.28,
+              "tolerance": 0.01,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-02-L1-P18",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "The probability of rain on any day is 0.3, independently of other days. Match each event for Saturday and Sunday to the calculation that gives its probability.",
+          "hint": "Both days: one route, multiply. Exactly one day: two routes, add. At least one day: 1 minus the no-rain route.",
+          "explanation": "Rain on both days is a single route: $0.3 \\times 0.3$. Rain on exactly one day has two routes (rain then dry, or dry then rain): $0.3 \\times 0.7 + 0.7 \\times 0.3$. Rain on at least one day is everything except dry both days: $1 - 0.7 \\times 0.7$.",
+          "pairs": [
+            {
+              "left": "It rains on both days",
+              "right": "0.3 × 0.3"
+            },
+            {
+              "left": "It rains on exactly one of the two days",
+              "right": "(0.3 × 0.7) + (0.7 × 0.3)"
+            },
+            {
+              "left": "It rains on at least one of the two days",
+              "right": "1 − (0.7 × 0.7)"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-05-02-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A box contains 8 blue pens and 4 red pens. Two pens are taken at random without replacement.\n\n(a) Work out the probability that both pens are red.\n\n(b) Work out the probability that the two pens are different colours.\n\n(c) Given that the second pen is red, work out the probability that the first pen was blue.",
+          "hint": "(a) $\\frac{4}{12} \\times \\frac{3}{11}$. (b) Add the Blue-Red and Red-Blue routes. (c) Only look at the routes where the second pen is red.",
+          "explanation": "(a) $\\frac{4}{12} \\times \\frac{3}{11} = \\frac{12}{132} = \\frac{1}{11}$. (b) $\\frac{8}{12} \\times \\frac{4}{11} + \\frac{4}{12} \\times \\frac{8}{11} = \\frac{32}{132} + \\frac{32}{132} = \\frac{64}{132} = \\frac{16}{33}$. (c) Routes ending in red: BR $= \\frac{32}{132}$ and RR $= \\frac{12}{132}$, total $\\frac{44}{132} = \\frac{1}{3}$. $P(\\text{B first} | \\text{R second}) = \\frac{32}{44} = \\frac{8}{11}$.",
+          "markScheme": [
+            {
+              "criterion": "P(RR) = 4/12 × 3/11 = 12/132 = 1/11",
+              "marks": 1,
+              "keywords": [
+                [
+                  "1/11",
+                  "12/132",
+                  "0.091",
+                  "0.0909"
+                ]
+              ]
+            },
+            {
+              "criterion": "Identifies both routes BR and RB with correct second-stage denominators of 11",
+              "marks": 1,
+              "keywords": [
+                [
+                  "/11",
+                  "÷ 11",
+                  " over 11"
+                ]
+              ]
+            },
+            {
+              "criterion": "P(different) = 64/132 = 16/33",
+              "marks": 1,
+              "keywords": [
+                [
+                  "16/33",
+                  "64/132",
+                  "0.485",
+                  "0.48"
+                ]
+              ]
+            },
+            {
+              "criterion": "P(second red) = 44/132 = 1/3 (BR + RR) used as the denominator",
+              "marks": 1,
+              "keywords": [
+                [
+                  "44/132",
+                  "44",
+                  "1/3",
+                  "0.333"
+                ]
+              ]
+            },
+            {
+              "criterion": "P(B first | R second) = 32/44 = 8/11",
+              "marks": 1,
+              "keywords": [
+                [
+                  "8/11",
+                  "32/44",
+                  "0.73",
+                  "0.727"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }
