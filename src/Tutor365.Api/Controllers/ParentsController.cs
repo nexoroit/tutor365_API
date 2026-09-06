@@ -63,6 +63,15 @@ public class ParentsController : ApiControllerBase
         return OkMessage(isActive ? "Account enabled." : "Account disabled.");
     }
 
+    /// <summary>Permanently delete the child's account and all their learning history. The email can then be used again.</summary>
+    [HttpDelete("me/children/{studentId:guid}")]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
+    public async Task<IActionResult> DeleteChild(Guid studentId, CancellationToken ct)
+    {
+        await _parents.DeleteChildAsync(studentId, ct);
+        return OkMessage("Child account deleted.");
+    }
+
     /// <summary>Get the child's study schedule (sessions per day, minutes, active days).</summary>
     [HttpGet("me/children/{studentId:guid}/schedule")]
     [ProducesResponseType(typeof(ApiResponse<StudyScheduleDto>), StatusCodes.Status200OK)]

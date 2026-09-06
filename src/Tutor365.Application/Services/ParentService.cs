@@ -16,6 +16,8 @@ public interface IParentService
     Task<ChildDetailDto> UpdateChildAsync(Guid studentId, UpdateChildRequest request, CancellationToken ct = default);
     Task SetChildPasswordAsync(Guid studentId, SetChildPasswordRequest request, CancellationToken ct = default);
     Task SetChildActiveAsync(Guid studentId, bool isActive, CancellationToken ct = default);
+    /// <summary>Permanently deletes the child's account and all learning history, freeing the email address.</summary>
+    Task DeleteChildAsync(Guid studentId, CancellationToken ct = default);
     Task<StudyScheduleDto> GetScheduleAsync(Guid studentId, CancellationToken ct = default);
     Task<StudyScheduleDto> UpdateScheduleAsync(Guid studentId, UpdateStudyScheduleRequest request, CancellationToken ct = default);
     Task<IReadOnlyList<SubjectSettingDto>> GetSubjectSettingsAsync(Guid studentId, CancellationToken ct = default);
@@ -173,6 +175,23 @@ public class ParentService : IParentService
         student.User.UpdatedAt = DateTime.UtcNow;
         await _db.SaveChangesAsync(ct);
         await _audit.LogAsync("Parent.SetChildActive", "Student", studentId.ToString(), new { isActive }, true, ct);
+    }
+
+    public async Task DeleteChildAsync(Guid studentId, CancellationToken ct = default)
+    {
+        EnsureParentOrAdmin();
+        var student = await _access.GetAccessibleStudentAsync(studentId, true, ct);
+        var user = student.User;
+        // Rows without a cascading FK to the student.
+        var results = await _db.AssessmentResults.Where(r => r.StudentId == studentId).ToListAsync(ct);
+        _db.AssessmentResults.RemoveRange(results);
+        var otps = await _db.OtpCodes.Where(o => o.UserId == user.Id).ToListAsync(ct);
+        _db.OtpCodes.RemoveRange(otps);
+        // Sessions cascade their activities and answers; progress, slots, plans, conversations and parent links cascade from the student; tokens and notifications from the user.
+        _db.Students.Remove(student);
+        _db.Users.Remove(user);
+        await _db.SaveChangesAsync(ct);
+        await _audit.LogAsync("Parent.DeleteChild", "Student", studentId.ToString(), new { user.Email, user.FullName }, true, ct);
     }
 
     public async Task<StudyScheduleDto> GetScheduleAsync(Guid studentId, CancellationToken ct = default)
