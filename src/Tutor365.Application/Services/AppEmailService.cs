@@ -17,6 +17,8 @@ public interface IAppEmailService
     Task SendWeeklyReportAsync(User parent, WeeklyReportDto report, CancellationToken ct = default);
     Task SendNotificationAsync(User recipient, NotificationType type, string title, string message, string? childName, CancellationToken ct = default);
     Task SendTestAsync(string toEmail, CancellationToken ct = default);
+    /// <summary>Sends a sample of the given kind (otp | welcome | child | weekly | notification) to an address.</summary>
+    Task SendSampleAsync(string kind, string toEmail, CancellationToken ct = default);
     /// <summary>Rendered HTML for previews (admin).</summary>
     (string Html, string Text) Preview(string kind);
 }
@@ -103,6 +105,20 @@ public class AppEmailService : IAppEmailService
             Para("This is a test message from <strong>tutor365</strong>.") + Para("If you can read this, outgoing email is configured correctly and students and parents will receive verification codes, welcome emails and weekly reports.") + CodeBox("123456") + Para("<span style=\"color:#6B7280\">Example of how a verification code appears.</span>"),
             "This is a test message from tutor365. Outgoing email is configured correctly.", ("Open tutor365", _app.FrontendUrl));
         return _sender.SendAsync(new EmailMessage(toEmail, toEmail, $"{_app.Name} test email", c.Html, c.Text), ct);
+    }
+
+    public Task SendSampleAsync(string kind, string toEmail, CancellationToken ct = default)
+    {
+        var (html, text) = Preview(kind);
+        var subject = kind.ToLowerInvariant() switch
+        {
+            "otp" => $"{_app.Name}: verify your email (sample)",
+            "welcome" => $"Welcome to {_app.Name} (sample)",
+            "child" => $"Welcome to {_app.Name}, Sam (sample)",
+            "weekly" => "Sam's weekly report · 31 Aug (sample)",
+            _ => $"{_app.Name}: Test passed! (sample)"
+        };
+        return _sender.SendAsync(new EmailMessage(toEmail, toEmail, subject, html, text), ct);
     }
 
     public (string Html, string Text) Preview(string kind)

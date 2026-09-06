@@ -94,6 +94,14 @@ public class AdminController : ApiControllerBase
     [Produces("text/html")]
     public IActionResult PreviewMail([FromServices] IAppEmailService emails, [FromQuery] string kind = "otp") => Content(emails.Preview(kind).Html, "text/html");
 
+    /// <summary>Send a sample branded email of the given kind to an address (for checking templates in real mail clients).</summary>
+    [HttpPost("mail-settings/send-sample")]
+    public async Task<IActionResult> SendSample([FromServices] IAppEmailService emails, [FromQuery] string kind, [FromBody] SendTestMailRequest request, CancellationToken ct)
+    {
+        await emails.SendSampleAsync(kind, request.ToEmail, ct);
+        return OkMessage($"Sample '{kind}' sent to {request.ToEmail}.");
+    }
+
     // ---- AI settings (stored in SystemSettings, key encrypted and only shown as a hint) ----
     [HttpGet("ai-settings")]
     [ProducesResponseType(typeof(ApiResponse<AiSettingsDto>), 200)]
