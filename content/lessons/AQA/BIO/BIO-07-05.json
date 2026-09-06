@@ -97,7 +97,247 @@
         { "key": "AQA-BIO-07-05-L1-P8", "type": "Ordering", "difficulty": 3, "marks": 1, "text": "Put these food sources in order from the most efficient use of a field of crops to the least efficient, in terms of biomass reaching people.", "hint": "The more trophic levels between the crop and the person, the more biomass is lost.", "explanation": "Eating the crop directly loses least biomass. Feeding the crop to chickens adds one trophic level. Feeding it to fish that are then fed to farmed salmon adds two levels, so it is the least efficient.", "order": [ "People eat the crop directly", "The crop is fed to chickens that people eat", "The crop is fed to small fish that are fed to farmed salmon that people eat" ] },
         { "key": "AQA-BIO-07-05-L1-P9", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "text": "Explain how golden rice could improve the health of children in countries where rice is the main food.", "hint": "What has been added to golden rice, and what does the body do with it?", "explanation": "Golden rice is genetically modified to produce beta-carotene, which the body converts into vitamin A. Eating it prevents vitamin A deficiency, which otherwise causes blindness and can be fatal.", "markScheme": [ { "criterion": "Golden rice is modified to contain / produce beta-carotene or vitamin A", "marks": 1, "keywords": [ ["beta-carotene", "beta carotene", "carotene", "vitamin a"] ] }, { "criterion": "Prevents vitamin A deficiency / blindness / deficiency disease", "marks": 1, "keywords": [ ["deficien", "blind", "disease", "eyesight", "death", "die"] ] } ] },
         { "key": "AQA-BIO-07-05-L1-P10", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "Some people argue that everyone should eat less meat to improve global food security.\n\n(a) Explain, in terms of trophic levels, why eating less meat would allow more people to be fed from the same area of farmland. **(2 marks)**\n\n(b) Suggest **two** reasons why it might be difficult to persuade people to eat less meat. **(2 marks)**", "hint": "Every extra trophic level loses about 90 % of biomass. For (b), think about culture, taste, income and jobs.", "explanation": "(a) When crops are fed to animals, about 90 % of the biomass is lost through respiration, faeces and urea before the meat reaches people. Eating the crops directly removes a trophic level, so far more of the biomass reaches people and the same land can feed many more. (b) Meat is part of many cultures and diets; people enjoy the taste; as countries become wealthier, demand for meat rises; and many farmers depend on livestock for their income.", "markScheme": [ { "criterion": "Biomass / energy is lost at each trophic level (about 90 %)", "marks": 1, "keywords": [ ["lost", "loss", "90", "10%", "10 %", "wasted"] ] }, { "criterion": "Eating crops directly removes a trophic level so more biomass reaches people / same land feeds more people", "marks": 1, "keywords": [ ["directly", "fewer levels", "shorter", "one level", "more people", "more biomass", "feed more"] ] }, { "criterion": "One reason: culture / taste / tradition / rising wealth / farmers' income", "marks": 1, "keywords": [ ["culture", "taste", "tradition", "enjoy", "like", "wealth", "income", "jobs", "farmers", "habit", "religion"] ] }, { "criterion": "A second, different reason", "marks": 1, "keywords": [ ["cultur", "tast", "tradition", "enjoy", "richer", "wealth", "money", "livelihood", "job", "farm", "habit", "prefer", "protein"] ] } ] },
-        { "key": "AQA-BIO-07-05-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Describe how the conditions inside a fermenter are controlled so that Fusarium grows as quickly as possible when producing mycoprotein.", "hint": "The fungus needs food, oxygen and the right temperature and pH.", "explanation": "Glucose syrup is added as a food (energy) source together with a nitrogen source. Air is bubbled through to keep the conditions aerobic so the fungus can respire aerobically. The temperature and pH are kept at the optimum for the fungus's enzymes, and the contents are stirred so nutrients and oxygen are spread evenly.", "markScheme": [ { "criterion": "Glucose syrup supplied as food / energy source", "marks": 1, "keywords": [ ["glucose", "sugar", "syrup"] ] }, { "criterion": "Air / oxygen bubbled through for aerobic respiration", "marks": 1, "keywords": [ ["air", "oxygen", "aerobic"] ] }, { "criterion": "Temperature and / or pH kept at the optimum", "marks": 1, "keywords": [ ["temperature", "ph"], ["optimum", "control", "kept", "maintain", "constant", "ideal"] ] } ] }
+        { "key": "AQA-BIO-07-05-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Describe how the conditions inside a fermenter are controlled so that Fusarium grows as quickly as possible when producing mycoprotein.", "hint": "The fungus needs food, oxygen and the right temperature and pH.", "explanation": "Glucose syrup is added as a food (energy) source together with a nitrogen source. Air is bubbled through to keep the conditions aerobic so the fungus can respire aerobically. The temperature and pH are kept at the optimum for the fungus's enzymes, and the contents are stirred so nutrients and oxygen are spread evenly.", "markScheme": [ { "criterion": "Glucose syrup supplied as food / energy source", "marks": 1, "keywords": [ ["glucose", "sugar", "syrup"] ] }, { "criterion": "Air / oxygen bubbled through for aerobic respiration", "marks": 1, "keywords": [ ["air", "oxygen", "aerobic"] ] }, { "criterion": "Temperature and / or pH kept at the optimum", "marks": 1, "keywords": [ ["temperature", "ph"], ["optimum", "control", "kept", "maintain", "constant", "ideal"] ] } ] },
+        {
+          "key": "AQA-BIO-07-05-L1-P12",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A government report lists factors that could affect whether the country has enough food in 2050. Which of the following would **threaten** food security? Select all that apply.",
+          "hint": "A threat is anything that reduces the amount of food that can be produced or moved to the people who need it.",
+          "explanation": "More frequent droughts reduce harvests, conflict disrupts farming and transport, and rising costs of fertiliser and fuel make food harder to produce. A higher-yielding wheat variety and a falling birth rate would both make it easier to feed everyone.",
+          "options": [
+            {
+              "text": "A changing climate bringing more frequent droughts",
+              "correct": true
+            },
+            {
+              "text": "A war that disrupts farming and the transport of food",
+              "correct": true
+            },
+            {
+              "text": "The development of a new wheat variety with a higher yield",
+              "correct": false,
+              "feedback": "Higher yields increase the food supply."
+            },
+            {
+              "text": "Rising costs of fertiliser and diesel for farm machinery",
+              "correct": true
+            },
+            {
+              "text": "A fall in the birth rate",
+              "correct": false,
+              "feedback": "Fewer new mouths to feed reduces demand for food."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-05-L1-P13",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Chickens reared in a heated shed with very little room to move reach their market weight faster than free-range chickens given the same amount of food. Explain why.",
+          "hint": "Animals lose energy from their food in two main ways: moving about and staying warm.",
+          "explanation": "In the shed the chickens move very little, so less energy is used in respiration for movement. Because the shed is heated, they lose less heat to the surroundings and use less energy keeping their body temperature up. More of the biomass in their food is therefore left over for growth.",
+          "markScheme": [
+            {
+              "criterion": "Less movement so less energy used / lost in respiration",
+              "marks": 1,
+              "keywords": [
+                [
+                  "move",
+                  "movement",
+                  "moving"
+                ],
+                [
+                  "less energy",
+                  "less respiration",
+                  "respire less",
+                  "not wasted",
+                  "save"
+                ]
+              ]
+            },
+            {
+              "criterion": "Warm so less heat lost / less energy used keeping warm",
+              "marks": 1,
+              "keywords": [
+                [
+                  "heat",
+                  "warm",
+                  "temperature"
+                ]
+              ]
+            },
+            {
+              "criterion": "So more of the food / biomass is used for growth",
+              "marks": 1,
+              "keywords": [
+                [
+                  "growth",
+                  "grow",
+                  "biomass",
+                  "put on weight",
+                  "gain mass"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-05-L1-P14",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A fisheries inspector measures the holes in a trawler's net and fines the captain because they are too small. Why does the law set a **minimum** mesh size for fishing nets?",
+          "hint": "Which fish are caught by small holes, and what would those fish have done if they had escaped?",
+          "explanation": "Small holes trap young fish that have not yet bred. If they are caught, they cannot grow up and reproduce, so the population cannot replace the fish that are taken. A larger mesh lets the young fish escape.",
+          "options": [
+            {
+              "text": "Small holes trap young fish before they have bred, so the population cannot replace itself",
+              "correct": true
+            },
+            {
+              "text": "Small holes make the net too heavy to lift out of the water",
+              "correct": false
+            },
+            {
+              "text": "Small holes let the biggest fish escape",
+              "correct": false,
+              "feedback": "Large fish cannot pass through small holes."
+            },
+            {
+              "text": "Small holes catch fewer fish, so the boat makes less money",
+              "correct": false,
+              "feedback": "Small holes catch more fish, not fewer, and the law is about protecting the population."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-05-L1-P15",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Golden rice is produced by genetic engineering. Put the stages in the correct order.",
+          "hint": "The useful gene must be found and cut out before it can be carried into the rice cells.",
+          "explanation": "Scientists first identify the gene for making beta-carotene in another plant, cut it out with enzymes, insert it into a vector such as a bacterial plasmid, use the vector to carry the gene into rice cells, and finally grow the cells into rice plants that make beta-carotene in their grains.",
+          "order": [
+            "The gene that controls beta-carotene production is identified in another plant",
+            "The gene is cut out of the plant's DNA using enzymes",
+            "The gene is inserted into a vector such as a bacterial plasmid",
+            "The vector carries the gene into rice cells",
+            "The rice cells grow into plants whose grains contain beta-carotene"
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-05-L1-P16",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete the sentences about producing mycoprotein.",
+          "metadata": {
+            "blanksText": "Mycoprotein is a protein-rich food that is suitable for ___, people who do not eat meat. The fungus is grown in a large stirred vessel called a ___, supplied with glucose syrup and air. The fungal biomass is then harvested and ___ before being made into food products."
+          },
+          "hint": "The first blank is the group of people who avoid meat; the second is the industrial container used for growing microorganisms; the third means cleaned up to remove unwanted material.",
+          "explanation": "Mycoprotein is popular with vegetarians. Fusarium is grown in a fermenter with glucose syrup and air, and the harvested biomass is purified before being turned into food.",
+          "answers": [
+            {
+              "text": "vegetarians",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "fermenter",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "purified",
+              "blankIndex": 2,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-05-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "Villages around a large African lake depend on fish from the lake as their main source of protein. Over the last 20 years the number of people living around the lake has doubled, while the total catch has fallen by 40 % and the fish being caught are noticeably smaller than before.\n\n(a) Explain why this situation threatens the food security of the villages. **(2 marks)**\n\n(b) Describe **two** ways the local authority could make the fishery sustainable, and explain how each one works. **(3 marks)**",
+          "hint": "For (a), link the rising number of people to the falling supply of fish. For (b), think about limiting catches and about letting young fish escape, and say *why* each helps the fish population recover.",
+          "explanation": "(a) Food security means having enough food for everyone. Twice as many people now need protein, but the falling catch means the supply is shrinking, so there may not be enough fish to feed the villages. (b) The authority could introduce quotas that limit the mass of fish each boat may take, so that enough fish are left to breed and keep the population going. It could also require nets with a larger mesh size so that small, young fish escape and grow to breeding age, replacing the fish that are caught. Banning fishing during the breeding season would also help.",
+          "markScheme": [
+            {
+              "criterion": "More people means more food / protein is needed (demand rising)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "more people",
+                  "population",
+                  "more food",
+                  "more protein",
+                  "demand"
+                ]
+              ]
+            },
+            {
+              "criterion": "Falling catches mean less food available / not enough to feed everyone",
+              "marks": 1,
+              "keywords": [
+                [
+                  "fewer fish",
+                  "less fish",
+                  "less food",
+                  "not enough",
+                  "supply"
+                ]
+              ]
+            },
+            {
+              "criterion": "Fishing quotas: limit the mass / number of fish caught",
+              "marks": 1,
+              "keywords": [
+                [
+                  "quota",
+                  "limit",
+                  "maximum",
+                  "restrict"
+                ]
+              ]
+            },
+            {
+              "criterion": "Larger mesh size: young fish escape and survive",
+              "marks": 1,
+              "keywords": [
+                [
+                  "mesh",
+                  "net",
+                  "hole"
+                ],
+                [
+                  "young",
+                  "small",
+                  "escape",
+                  "juvenile"
+                ]
+              ]
+            },
+            {
+              "criterion": "Explanation: enough fish left to breed / reach breeding age so population is maintained",
+              "marks": 1,
+              "keywords": [
+                [
+                  "breed",
+                  "reproduce",
+                  "recover",
+                  "maintain",
+                  "replace"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

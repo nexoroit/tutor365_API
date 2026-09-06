@@ -91,7 +91,221 @@
         { "key": "AQA-BIO-07-04-L1-P8", "type": "MultipleAnswer", "difficulty": 3, "marks": 2, "text": "Which of the following are ways in which biomass is lost from a food chain between trophic levels? Select all that apply.", "hint": "Think about what leaves an animal's body.", "explanation": "Biomass is lost through respiration (energy transferred as heat), and through waste such as faeces and urea. Growth and reproduction are the ways biomass is retained and passed on.", "options": [ { "text": "Energy released in respiration is transferred to the surroundings as heat", "correct": true }, { "text": "Undigested material is lost as faeces", "correct": true }, { "text": "Biomass is stored when the organism grows", "correct": false, "feedback": "Growth keeps biomass in the chain." }, { "text": "Biomass passed on when the organism reproduces", "correct": false, "feedback": "Offspring are new biomass at the same level, not a loss." } ] },
         { "key": "AQA-BIO-07-04-L1-P9", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "text": "A pyramid of biomass for a woodland has a very wide base representing a single oak tree, yet a pyramid of numbers for the same food chain would have a very narrow base. Explain the difference.", "hint": "One tree is one organism, but it has an enormous mass.", "explanation": "A pyramid of numbers counts individuals, and there is only one oak tree, so the base is narrow. A pyramid of biomass shows mass, and the single oak has a huge mass – far more than all the insects feeding on it – so the base is wide.", "markScheme": [ { "criterion": "Pyramid of numbers counts individuals; only one tree so base is narrow", "marks": 1, "keywords": [ ["one tree", "single tree", "number of", "individuals", "count"] ] }, { "criterion": "Pyramid of biomass shows mass; the tree has a very large mass so base is wide", "marks": 1, "keywords": [ ["mass", "biomass"], ["large", "huge", "big", "heavy", "greater", "more"] ] } ] },
         { "key": "AQA-BIO-07-04-L1-P10", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "A farmer keeps cattle in a barn heated to 20 °C rather than in an open field. She claims the cattle grow faster on the same amount of food.\n\n(a) Explain why the farmer's claim is likely to be correct. **(2 marks)**\n\n(b) The cattle are fed 4800 kg of hay and gain 360 kg of biomass. Calculate the efficiency of biomass transfer. **(2 marks)**", "hint": "Warm animals use less energy in respiration to keep warm, leaving more for growth. Then divide 360 by 4800.", "explanation": "(a) In the warm barn the cattle lose less heat to the surroundings, so they use less of the biomass they absorb in respiration to maintain body temperature. They also move less in a barn. More of the food is therefore converted into growth (new biomass). (b) 360 ÷ 4800 × 100 = 7.5 %.", "markScheme": [ { "criterion": "Cattle use less energy / respire less to keep warm (or move less)", "marks": 1, "keywords": [ ["less energy", "less respiration", "respire less", "less heat", "keep warm", "body temperature", "move less", "less movement", "warm"] ] }, { "criterion": "So more of the food biomass is used for growth / converted into biomass", "marks": 1, "keywords": [ ["growth", "grow", "biomass", "gain mass", "put on"] ] }, { "criterion": "Working: 360 ÷ 4800 × 100", "marks": 1, "keywords": [ ["360 / 4800", "360/4800", "360 ÷ 4800", "÷ 4800", "/4800", "divided by 4800"] ] }, { "criterion": "Efficiency = 7.5 %", "marks": 1, "keywords": [ ["7.5"] ] } ] },
-        { "key": "AQA-BIO-07-04-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Only about 1 % of the light energy reaching a field of wheat is converted into biomass by the plants. Give **three** reasons why the other 99 % is not converted into biomass.", "hint": "Think about what can happen to light when it hits a leaf, and about what the plant does with the glucose it makes.", "explanation": "Some light is reflected from the leaf surface; some passes straight through the leaves or misses them; some is of the wrong wavelength for chlorophyll to absorb; and some of the glucose made is used by the plant in respiration rather than being stored as biomass.", "markScheme": [ { "criterion": "Light is reflected from the leaves", "marks": 1, "keywords": [ ["reflect"] ] }, { "criterion": "Light passes through / misses the leaves, or is of the wrong wavelength / colour to be absorbed", "marks": 1, "keywords": [ ["pass through", "passes through", "transmitted", "miss", "wavelength", "colour", "green light", "not absorbed", "wrong"] ] }, { "criterion": "Some glucose produced is used in respiration by the plant", "marks": 1, "keywords": [ ["respir"] ] } ] }
+        { "key": "AQA-BIO-07-04-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Only about 1 % of the light energy reaching a field of wheat is converted into biomass by the plants. Give **three** reasons why the other 99 % is not converted into biomass.", "hint": "Think about what can happen to light when it hits a leaf, and about what the plant does with the glucose it makes.", "explanation": "Some light is reflected from the leaf surface; some passes straight through the leaves or misses them; some is of the wrong wavelength for chlorophyll to absorb; and some of the glucose made is used by the plant in respiration rather than being stored as biomass.", "markScheme": [ { "criterion": "Light is reflected from the leaves", "marks": 1, "keywords": [ ["reflect"] ] }, { "criterion": "Light passes through / misses the leaves, or is of the wrong wavelength / colour to be absorbed", "marks": 1, "keywords": [ ["pass through", "passes through", "transmitted", "miss", "wavelength", "colour", "green light", "not absorbed", "wrong"] ] }, { "criterion": "Some glucose produced is used in respiration by the plant", "marks": 1, "keywords": [ ["respir"] ] } ] },
+        {
+          "key": "AQA-BIO-07-04-L1-P12",
+          "type": "Matching",
+          "difficulty": 1,
+          "marks": 4,
+          "text": "In the food chain *oak leaves → caterpillar → blue tit → sparrowhawk*, match each organism to its trophic level.",
+          "hint": "The producer is level 1; count up one level for each arrow.",
+          "explanation": "Oak leaves are the producer (level 1), the caterpillar eats them (level 2), the blue tit eats the caterpillar (level 3) and the sparrowhawk eats the blue tit (level 4).",
+          "pairs": [
+            {
+              "left": "Oak leaves",
+              "right": "Level 1 – producer"
+            },
+            {
+              "left": "Caterpillar",
+              "right": "Level 2 – primary consumer"
+            },
+            {
+              "left": "Blue tit",
+              "right": "Level 3 – secondary consumer"
+            },
+            {
+              "left": "Sparrowhawk",
+              "right": "Level 4 – tertiary consumer"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-04-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A student draws a pyramid of biomass for the food chain *grass → rabbit → fox*. Which statement about the pyramid is correct?",
+          "hint": "Which organism goes at the bottom, and what does the width of each bar represent?",
+          "explanation": "The producers (grass) always form the bottom bar, and it is the widest because biomass decreases at each level up the pyramid. The bars show biomass, not numbers, and the size of an individual animal does not decide its position.",
+          "options": [
+            {
+              "text": "The grass bar is the widest and is drawn at the bottom",
+              "correct": true
+            },
+            {
+              "text": "The fox bar is the widest because foxes are the largest animals",
+              "correct": false,
+              "feedback": "Bar width shows total biomass at that level, not the size of one animal."
+            },
+            {
+              "text": "The bars show how many organisms there are at each level",
+              "correct": false,
+              "feedback": "That would be a pyramid of numbers."
+            },
+            {
+              "text": "The rabbit bar is wider than the grass bar",
+              "correct": false,
+              "feedback": "Biomass decreases up the pyramid, so the rabbit bar must be narrower."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-04-L1-P14",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A caterpillar eats oak leaves. Which of the following explain why not all the biomass in the leaves becomes biomass in the caterpillar? Select all that apply.",
+          "hint": "Think about what passes straight through the caterpillar's gut and what the absorbed glucose is used for.",
+          "explanation": "Tough parts of the leaf cannot be digested and are lost as faeces, and much of the glucose that is absorbed is used in respiration, transferring energy to the surroundings as heat rather than building new tissue. Animals do not make light or chlorophyll.",
+          "options": [
+            {
+              "text": "Tough parts of the leaf pass through the gut undigested and are lost as faeces",
+              "correct": true
+            },
+            {
+              "text": "Much of the absorbed glucose is used in respiration, and the energy released is eventually lost as heat",
+              "correct": true
+            },
+            {
+              "text": "The caterpillar converts some of the biomass into light",
+              "correct": false,
+              "feedback": "Animals do not give out light energy from their food."
+            },
+            {
+              "text": "The caterpillar stores the leaf biomass as chlorophyll",
+              "correct": false,
+              "feedback": "Only plants make chlorophyll."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-04-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "In a meadow, the grass has a biomass of 3 200 kg. The grasshoppers that feed on it have a biomass of 416 kg. Calculate the efficiency of biomass transfer from the grass to the grasshoppers. Give your answer as a percentage.",
+          "hint": "Divide the biomass at the higher trophic level by the biomass at the lower level, then multiply by 100.",
+          "explanation": "$\\frac{416}{3200} \\times 100 = 13$ %.",
+          "answers": [
+            {
+              "numeric": 13,
+              "tolerance": 0.1,
+              "unit": "%",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-04-L1-P16",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A marine food chain has six trophic levels: *phytoplankton → zooplankton → small fish → large fish → seal → killer whale*. Explain why food chains as long as this are very unusual.",
+          "hint": "Think about how much biomass reaches each level compared with the level below.",
+          "explanation": "Only about 10 % of the biomass at each level is passed on to the next, so after several transfers very little biomass is left. There is normally not enough to support a population of organisms at a further level.",
+          "markScheme": [
+            {
+              "criterion": "Biomass / energy is lost at each level (only about 10 % passed on)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "lost",
+                  "loss",
+                  "10%",
+                  "10 %",
+                  "decreases"
+                ]
+              ]
+            },
+            {
+              "criterion": "Eventually not enough biomass to support another level / population",
+              "marks": 1,
+              "keywords": [
+                [
+                  "not enough",
+                  "insufficient",
+                  "too little",
+                  "cannot support",
+                  "can't support"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-04-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "The table shows the biomass at each trophic level of a food chain on a rocky shore.\n\n| Trophic level | Organism | Biomass (g/m²) |\n|---|---|---|\n| 1 | seaweed | 1500 |\n| 2 | limpets | 120 |\n| 3 | oystercatchers (birds) | 9 |\n\n(a) Calculate the efficiency of biomass transfer from the limpets to the oystercatchers. **(2 marks)**\n\n(b) Explain **two** reasons why most of the biomass in the limpets is not transferred to the oystercatchers. **(2 marks)**\n\n(c) Explain why the oystercatchers are described as the apex predator in this food chain. **(1 mark)**",
+          "hint": "Efficiency = next level ÷ previous level × 100. For (b), think about shells, faeces, urine and respiration.",
+          "explanation": "(a) $\\frac{9}{120} \\times 100 = 7.5$ %. (b) The limpet shells are not eaten or digested, so that biomass is lost as waste or faeces; much of the food that is absorbed is used in respiration to release energy for movement and keeping warm, and this energy is lost as heat; some is also lost as urea in the birds' waste. (c) Nothing in this food chain eats the oystercatchers, so they are at the top of the chain.",
+          "markScheme": [
+            {
+              "criterion": "Correct working: 9 ÷ 120 × 100",
+              "marks": 1,
+              "keywords": [
+                [
+                  "9 / 120",
+                  "9/120",
+                  "9 ÷ 120",
+                  "÷ 120",
+                  "/120"
+                ]
+              ]
+            },
+            {
+              "criterion": "Efficiency = 7.5 %",
+              "marks": 1,
+              "keywords": [
+                [
+                  "7.5",
+                  "7.50"
+                ]
+              ]
+            },
+            {
+              "criterion": "Some material not eaten / not digested, lost as faeces (e.g. shells)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "faeces",
+                  "feces",
+                  "not digested",
+                  "shell",
+                  "egest"
+                ]
+              ]
+            },
+            {
+              "criterion": "Biomass used in respiration for movement / keeping warm, lost as heat (or lost as urea)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "respiration",
+                  "heat",
+                  "movement",
+                  "urea",
+                  "warm"
+                ]
+              ]
+            },
+            {
+              "criterion": "Oystercatchers have no predators / nothing eats them",
+              "marks": 1,
+              "keywords": [
+                [
+                  "no predator",
+                  "not eaten",
+                  "nothing eats",
+                  "top of",
+                  "not preyed"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

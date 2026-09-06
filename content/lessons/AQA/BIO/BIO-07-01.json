@@ -678,6 +678,243 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P12",
+          "type": "Matching",
+          "difficulty": 1,
+          "marks": 4,
+          "text": "A pond is home to frogs, snails, pondweed and many microorganisms. Match each description to the correct ecological term.",
+          "hint": "One species = population; every species together = community; add the non-living surroundings = ecosystem.",
+          "explanation": "All the frogs in the pond are one species, so they form a population. All the living things together make up the community. The muddy bottom is the place where the snail lives, its habitat. The whole pond with its water, temperature and all the organisms is the ecosystem.",
+          "pairs": [
+            {
+              "left": "All the frogs living in the pond",
+              "right": "Population"
+            },
+            {
+              "left": "All the plants, animals and microorganisms in the pond",
+              "right": "Community"
+            },
+            {
+              "left": "The muddy bottom of the pond where a snail lives",
+              "right": "Habitat"
+            },
+            {
+              "left": "The pond with its water, temperature and all the living things in it",
+              "right": "Ecosystem"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P13",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Hundreds of oak seedlings sprout close together on a forest floor and compete with each other. Which resources are they competing for? Select all that apply.",
+          "hint": "Seedlings make their own food, so ask what photosynthesis and growth need and what a crowded space limits.",
+          "explanation": "Plants compete for light, water, space and mineral ions. Mates and prey are resources that animals compete for.",
+          "options": [
+            {
+              "text": "Water from the soil",
+              "correct": true
+            },
+            {
+              "text": "Space to grow",
+              "correct": true
+            },
+            {
+              "text": "Light",
+              "correct": true
+            },
+            {
+              "text": "Mates",
+              "correct": false,
+              "feedback": "Competing for mates is an animal behaviour."
+            },
+            {
+              "text": "Prey",
+              "correct": false,
+              "feedback": "Plants make their own food by photosynthesis; they do not hunt."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P14",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "The harlequin ladybird was introduced to Britain from Asia. It is larger than the native two-spot ladybird, eats the same aphids and also eats the larvae of other ladybirds. Since it arrived, the number of two-spot ladybirds has fallen sharply. Explain how the arrival of harlequin ladybirds has affected the two-spot ladybird population.",
+          "hint": "Both species need the same food. What happens to the weaker competitor when a stronger one arrives?",
+          "explanation": "The two species compete for the same food (aphids). Harlequins are larger, eat more and even eat two-spot larvae, so they are the better competitors and take most of the resource. Two-spot ladybirds get less food, fewer survive and breed, so their population declines.",
+          "markScheme": [
+            {
+              "criterion": "The species compete for the same resources (food / aphids)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "compet",
+                  "same food"
+                ],
+                [
+                  "food",
+                  "aphid",
+                  "resource",
+                  "prey",
+                  "habitat"
+                ]
+              ]
+            },
+            {
+              "criterion": "Harlequins are better competitors / out-compete the two-spots (larger, eat more, eat larvae)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "out-compete",
+                  "outcompete",
+                  "better competitor",
+                  "larger",
+                  "bigger"
+                ]
+              ]
+            },
+            {
+              "criterion": "Two-spots have less food so fewer survive / reproduce and population falls",
+              "marks": 1,
+              "keywords": [
+                [
+                  "less food",
+                  "fewer",
+                  "starve",
+                  "fall",
+                  "decline"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete the sentences by naming the type of adaptation shown in each example.",
+          "metadata": {
+            "blanksText": "A cactus storing water in its thick, fleshy stem is a ___ adaptation. A fennec fox staying in its burrow by day and hunting at night is a ___ adaptation. A seal slowing its heart rate to save oxygen while it dives is a ___ adaptation."
+          },
+          "hint": "Body features, actions, and internal processes, in that order.",
+          "explanation": "A thick stem is a physical feature (structural). Hunting at night is something the animal does (behavioural). Slowing the heart rate is an internal body process (functional).",
+          "answers": [
+            {
+              "text": "structural",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "behavioural",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "functional",
+              "blankIndex": 2,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-01-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A rock pool on the seashore contains seaweed, limpets that graze on the seaweed, and shore crabs that eat the limpets. During a heatwave the water in the pool becomes much warmer, and as water evaporates the salt concentration of the pool rises. Crabs are far less able to cope with a high salt concentration than limpets are.\n\n(a) Name **two** abiotic factors mentioned in the passage. **(1 mark)**\n\n(b) Explain why the crab population in the pool is likely to decrease. **(2 marks)**\n\n(c) Predict and explain the effect of the fall in crab numbers on the seaweed. **(2 marks)**",
+          "hint": "Abiotic factors are the non-living conditions. Then follow the food chain: fewer crabs means more of what they eat, which means less of what *that* eats.",
+          "explanation": "(a) Temperature and salt concentration. (b) Crabs cannot tolerate the high salt concentration (and the higher temperature), so many die or leave the pool and the population falls. (c) With fewer crabs to eat them, the limpet population increases; more limpets graze on the seaweed, so the amount of seaweed decreases.",
+          "markScheme": [
+            {
+              "criterion": "Two abiotic factors: temperature and salt concentration",
+              "marks": 1,
+              "keywords": [
+                [
+                  "temperature",
+                  "warm",
+                  "heat"
+                ],
+                [
+                  "salt",
+                  "salinity"
+                ]
+              ]
+            },
+            {
+              "criterion": "Crabs cannot cope with / tolerate the high salt concentration (or warmer water)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "salt",
+                  "salin",
+                  "temperature",
+                  "warm"
+                ],
+                [
+                  "cannot cope",
+                  "tolerate",
+                  "less able",
+                  "survive",
+                  "too high"
+                ]
+              ]
+            },
+            {
+              "criterion": "So crabs die / leave the pool and the population falls",
+              "marks": 1,
+              "keywords": [
+                [
+                  "die",
+                  "dead",
+                  "leave",
+                  "fewer survive",
+                  "killed"
+                ]
+              ]
+            },
+            {
+              "criterion": "Limpet population increases because fewer are eaten",
+              "marks": 1,
+              "keywords": [
+                [
+                  "limpet",
+                  "snail"
+                ],
+                [
+                  "increase",
+                  "rise",
+                  "more",
+                  "grow",
+                  "fewer eaten"
+                ]
+              ]
+            },
+            {
+              "criterion": "More limpets graze more seaweed, so seaweed decreases",
+              "marks": 1,
+              "keywords": [
+                [
+                  "seaweed",
+                  "algae",
+                  "weed"
+                ],
+                [
+                  "decrease",
+                  "fall",
+                  "less",
+                  "eaten",
+                  "reduce"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

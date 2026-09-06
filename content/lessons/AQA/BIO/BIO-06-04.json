@@ -83,7 +83,182 @@
         { "key": "AQA-BIO-06-04-L1-P8", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "text": "The brown bear is *Ursus arctos* and the polar bear is *Ursus maritimus*. What do the names tell you about how the two bears are related, and why are they still classed as separate species?", "hint": "Compare the first words, then the second words.", "explanation": "Both are in the genus *Ursus*, so they are closely related and share a recent common ancestor. Their species names are different, so they are separate species - in the wild they do not normally interbreed to produce fertile offspring.", "markScheme": [ { "criterion": "Same genus (Ursus) so closely related", "marks": 1, "keywords": [ ["same genus", "genus", "ursus"] ] }, { "criterion": "Different species names / cannot normally produce fertile offspring together", "marks": 1, "keywords": [ ["fertile", "different species", "species name", "second name", "separate species"] ] } ] },
         { "key": "AQA-BIO-06-04-L1-P9", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "The evolutionary tree shows four small mammals. Time runs upwards; the top is the present day.\n\n```\npresent  Hedgehog   Mole    Shrew    Bat\n             \\       /        |       |\n              \\     /         |       |\n               (P)            |       |\n                 \\            |       |\n                  (Q)---------+       |\n                    \\                 |\n                     (R)--------------+\n past\n```\n\n(a) Which two animals are the most closely related? **(1 mark)**\n\n(b) Which animal is the least closely related to the other three? **(1 mark)**\n\n(c) A fossil of ancestor Q is dated at 60 million years old. What does this tell you about when the hedgehog and the mole separated from each other? **(1 mark)**\n\n(d) Suggest one type of evidence scientists could use to build the tree for the **living** species. **(1 mark)**", "hint": "Trace back from each animal until the lines meet. The most recent meeting point means the closest relationship.", "explanation": "(a) Hedgehog and mole - they share the most recent branch point, P. (b) The bat, which joins the others at R, the oldest branch point. (c) P is more recent than Q, so the hedgehog and mole separated less than 60 million years ago. (d) DNA (or protein) comparisons, or other classification data such as skeletal structure.", "markScheme": [ { "criterion": "Hedgehog and mole", "marks": 1, "keywords": [ ["hedgehog", "hedge hog"], ["mole", "moles"] ] }, { "criterion": "The bat", "marks": 1, "keywords": [ ["bat", "bats"] ] }, { "criterion": "They separated more recently than / less than 60 million years ago", "marks": 1, "keywords": [ ["less than 60", "more recent", "after", "fewer than 60", "later"] ] }, { "criterion": "DNA / protein / RNA comparison or other classification data", "marks": 1, "keywords": [ ["dna", "gene", "protein", "rna", "classification data"] ] } ] },
         { "key": "AQA-BIO-06-04-L1-P10", "type": "ShortAnswer", "difficulty": 4, "marks": 3, "text": "Explain how developments in microscopes and in biochemistry have improved the classification of organisms.", "hint": "What could each development show that Linnaeus could not see? What was the result for how organisms are grouped?", "explanation": "Better microscopes revealed the internal structure of cells, such as whether a nucleus is present, so prokaryotes and eukaryotes could be separated. Biochemistry allowed molecules such as DNA, RNA and proteins to be compared, showing how closely organisms are related. Together this evidence led to new groupings, such as Woese's three domains, that reflect evolutionary relationships more accurately.", "markScheme": [ { "criterion": "Microscopes revealed cell structure / internal features (e.g. presence of a nucleus)", "marks": 1, "keywords": [ ["microscop", "magnif"], ["cell", "internal", "nucleus", "organelle", "structure"] ] }, { "criterion": "Biochemistry allowed comparison of molecules such as DNA, RNA or proteins", "marks": 1, "keywords": [ ["dna", "rna", "protein", "molecul", "chemical"] ] }, { "criterion": "Led to new / more accurate groupings, e.g. the three domains", "marks": 1, "keywords": [ ["domain", "archaea", "accurate", "related", "regroup"] ] } ] },
-        { "key": "AQA-BIO-06-04-L1-P11", "type": "NumericalAnswer", "difficulty": 3, "marks": 1, "text": "On a scale drawing of an evolutionary tree, 1 cm represents 5 million years. The branch point where two species separated is drawn 3.6 cm below the present-day line. How many million years ago did the two species separate?", "hint": "Multiply the distance by the number of million years each centimetre represents.", "explanation": "3.6 cm × 5 million years per cm = 18 million years ago.", "answers": [ { "numeric": 18, "tolerance": 0, "unit": "million years" } ] }
+        { "key": "AQA-BIO-06-04-L1-P11", "type": "NumericalAnswer", "difficulty": 3, "marks": 1, "text": "On a scale drawing of an evolutionary tree, 1 cm represents 5 million years. The branch point where two species separated is drawn 3.6 cm below the present-day line. How many million years ago did the two species separate?", "hint": "Multiply the distance by the number of million years each centimetre represents.", "explanation": "3.6 cm × 5 million years per cm = 18 million years ago.", "answers": [ { "numeric": 18, "tolerance": 0, "unit": "million years" } ] },
+        {
+          "key": "AQA-BIO-06-04-L1-P12",
+          "type": "Ordering",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Put these Linnaean ranks in order, starting with the **smallest** group. (Two ranks have been left out.)",
+          "hint": "Species is the smallest group. Then work back up the list: King Prawn Curry Or Fish Gets Soggy, in reverse.",
+          "explanation": "From smallest to largest the full order is species, genus, family, order, class, phylum, kingdom. Leaving out class and kingdom gives: species, genus, family, order, phylum.",
+          "order": [
+            "Species",
+            "Genus",
+            "Family",
+            "Order",
+            "Phylum"
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-04-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "The house sparrow belongs to the genus *Passer* and the species *domesticus*. Which option shows its binomial name written correctly?",
+          "hint": "The genus comes first and starts with a capital letter; the species comes second, all in lower case.",
+          "explanation": "*Passer domesticus* is correct: genus first with a capital P, species second in lower case. The other options swap the order or use the wrong capital letters.",
+          "options": [
+            {
+              "text": "Passer domesticus",
+              "correct": true
+            },
+            {
+              "text": "passer domesticus",
+              "correct": false,
+              "feedback": "The genus name must begin with a capital letter."
+            },
+            {
+              "text": "Passer Domesticus",
+              "correct": false,
+              "feedback": "The species name is always written in lower case."
+            },
+            {
+              "text": "Domesticus passer",
+              "correct": false,
+              "feedback": "The genus is written first, then the species."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-04-L1-P14",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Match each organism to the domain it belongs to in Woese's three-domain system.",
+          "hint": "Any organism whose cells contain a nucleus is a eukaryote; the primitive bacteria found in extreme places are archaea.",
+          "explanation": "Methane-producing microorganisms from a hot spring are archaea, the primitive bacteria that often live in extreme conditions. Salmonella is a true bacterium. A mushroom is a fungus, and fungal cells have a nucleus, so it belongs to the Eukaryota.",
+          "pairs": [
+            {
+              "left": "A methane-producing microorganism living in a hot spring",
+              "right": "Archaea"
+            },
+            {
+              "left": "Salmonella, a cause of food poisoning",
+              "right": "Bacteria"
+            },
+            {
+              "left": "A mushroom, whose cells contain a nucleus",
+              "right": "Eukaryota"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-04-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete the sentences about what an evolutionary tree shows.",
+          "metadata": {
+            "blanksText": "An evolutionary tree is a diagram that shows how closely different species are ___. The more recently two species shared a common ancestor, the more ___ their DNA base sequences are. Species whose branches split off from each other a very long time ago are only ___ related."
+          },
+          "hint": "The first and third blanks are about how close the relationship is; the second describes DNA that has few differences.",
+          "explanation": "Evolutionary trees show how closely species are related. Species that split from a common ancestor recently have had little time to build up differences, so their DNA is very similar. Species that split long ago are only distantly related.",
+          "answers": [
+            {
+              "text": "related",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "similar",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "distantly",
+              "blankIndex": 2,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-04-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "The red fox is *Vulpes vulpes*. The Arctic fox is *Vulpes lagopus*.\n\nA student says: \"Both names start with *Vulpes*, so the two foxes must be the same species.\"\n\n(a) Explain why the student is wrong, and state what the names **do** tell you about the two foxes. **(2 marks)**\n\n(b) Explain why scientists working in different countries prefer to use binomial names rather than common names. **(1 mark)**\n\n(c) Describe how Carl Woese's classification system differs from the Linnaean system, and state what evidence he used to develop it. **(2 marks)**",
+          "hint": "Compare the two parts of each name separately. For (c), think about the new top level of classification Woese added and the kind of chemical evidence he used.",
+          "explanation": "(a) The second word of the name is different, so they are different species; the shared first word shows they are in the same genus and so are closely related. (b) Common names change from one country and language to another, so a single agreed Latin name means scientists everywhere know they are discussing the same organism. (c) Woese added a new level above kingdom, dividing life into three domains (Archaea, Bacteria and Eukaryota), based on chemical analysis comparing the RNA of different organisms.",
+          "markScheme": [
+            {
+              "criterion": "Different species names mean they are different species",
+              "marks": 1,
+              "keywords": [
+                [
+                  "different species",
+                  "not the same species",
+                  "separate species",
+                  "two species",
+                  "not the same"
+                ]
+              ]
+            },
+            {
+              "criterion": "Same genus (Vulpes) so they are closely related",
+              "marks": 1,
+              "keywords": [
+                [
+                  "same genus",
+                  "genus"
+                ],
+                [
+                  "related",
+                  "relative",
+                  "ancestor"
+                ]
+              ]
+            },
+            {
+              "criterion": "Binomial names are the same worldwide / avoid confusion caused by local names",
+              "marks": 1,
+              "keywords": [
+                [
+                  "confus",
+                  "worldwide",
+                  "universal",
+                  "different countries",
+                  "same name"
+                ]
+              ]
+            },
+            {
+              "criterion": "Woese proposed the three-domain system (Archaea, Bacteria, Eukaryota) above kingdom",
+              "marks": 1,
+              "keywords": [
+                [
+                  "three domain",
+                  "3 domain",
+                  "archaea",
+                  "domain"
+                ]
+              ]
+            },
+            {
+              "criterion": "Based on chemical analysis / comparing RNA",
+              "marks": 1,
+              "keywords": [
+                [
+                  "chemical",
+                  "rna",
+                  "biochem",
+                  "molecul"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

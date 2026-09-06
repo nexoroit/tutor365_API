@@ -83,7 +83,176 @@
         { "key": "AQA-BIO-07-03-L1-P8", "type": "ShortAnswer", "difficulty": 3, "marks": 3, "examStyle": true, "text": "Explain why the destruction of peat bogs increases the concentration of carbon dioxide in the atmosphere.", "hint": "What is peat made of, and what happens to it once it is exposed to the air or burned?", "explanation": "Peat is partly decayed plant material that stores carbon. When it is dug up and exposed to oxygen, or burned, decomposers respire (or combustion occurs) and the stored carbon is released as carbon dioxide.", "markScheme": [ { "criterion": "Peat contains stored carbon / partly decayed plant material", "marks": 1, "keywords": [ ["stored", "store", "locked", "plant material", "organic"] ] }, { "criterion": "Peat is exposed to oxygen/air so decomposers respire, or it is burned", "marks": 1, "keywords": [ ["oxygen", "air", "burn", "decompos", "microorganism"] ] }, { "criterion": "Carbon is released as carbon dioxide", "marks": 1, "keywords": [ ["carbon dioxide", "co2", "co₂"] ] } ] },
         { "key": "AQA-BIO-07-03-L1-P9", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "Global warming is causing changes to ecosystems around the world.\n\nDescribe **two** consequences of global warming for living organisms, and explain how each one could reduce biodiversity. (4 marks)", "hint": "Consequences include rising sea levels, changes in the distribution of species and changes in migration patterns. For each, say why species might be lost.", "explanation": "Rising sea levels flood coastal habitats, so species living there lose their homes. Changing temperatures shift the distribution of species; some move towards the poles or to higher ground, but species that cannot move (e.g. on mountain tops) become extinct. Changes in migration timing can mean animals arrive when their food is not available.", "markScheme": [ { "criterion": "Sea levels rise, flooding coastal or low-lying habitats", "marks": 1, "keywords": [ ["sea level", "flood", "coast", "ice"] ] }, { "criterion": "Distribution of species changes as climate zones shift", "marks": 1, "keywords": [ ["distribution", "range", "poles", "cooler", "higher ground"] ] }, { "criterion": "Migration patterns or timing of seasonal events change", "marks": 1, "keywords": [ ["migrat", "season", "timing", "earlier", "breeding"] ] }, { "criterion": "Species that cannot adapt or move become extinct, or lose their food source", "marks": 1, "keywords": [ ["extinct", "die", "starv", "cannot move", "nowhere"] ] } ] },
         { "key": "AQA-BIO-07-03-L1-P10", "type": "MultipleChoice", "difficulty": 3, "marks": 1, "text": "A farmer is paid a grant to leave a 3-metre strip of wild plants around each of her wheat fields. Which is the best biological reason for the grant?", "hint": "The strips are not there to help the wheat grow.", "explanation": "Field margins provide food and shelter for insects, birds and small mammals, increasing the biodiversity of farmland that would otherwise contain a single crop species.", "options": [ { "text": "The strips provide habitat and food for insects, birds and mammals, increasing biodiversity", "correct": true }, { "text": "The strips increase the yield of wheat from each field", "correct": false, "feedback": "Leaving margins actually reduces the area of crop." }, { "text": "The strips stop the soil from freezing in winter", "correct": false }, { "text": "The strips remove the need for fertiliser", "correct": false } ] },
-        { "key": "AQA-BIO-07-03-L1-P11", "type": "NumericalAnswer", "difficulty": 4, "marks": 3, "text": "A peat bog covers 12 hectares and stores 900 tonnes of carbon per hectare. A company is given permission to extract peat from 25 % of the bog. Assume all the carbon in the extracted peat is eventually released as carbon dioxide, and that 1 tonne of carbon produces 3.67 tonnes of carbon dioxide.\n\nCalculate the mass of carbon dioxide released. Give your answer to the nearest 10 tonnes.", "hint": "Find the total carbon stored, take 25 % of it, then multiply by 3.67.", "explanation": "Total carbon = 12 × 900 = 10 800 tonnes. Extracted = 0.25 × 10 800 = 2 700 tonnes of carbon. Carbon dioxide = 2 700 × 3.67 = 9 909 tonnes, which is about 9 910 tonnes.", "answers": [ { "numeric": 9910, "tolerance": 100, "unit": "tonnes", "marks": 3 } ] }
+        { "key": "AQA-BIO-07-03-L1-P11", "type": "NumericalAnswer", "difficulty": 4, "marks": 3, "text": "A peat bog covers 12 hectares and stores 900 tonnes of carbon per hectare. A company is given permission to extract peat from 25 % of the bog. Assume all the carbon in the extracted peat is eventually released as carbon dioxide, and that 1 tonne of carbon produces 3.67 tonnes of carbon dioxide.\n\nCalculate the mass of carbon dioxide released. Give your answer to the nearest 10 tonnes.", "hint": "Find the total carbon stored, take 25 % of it, then multiply by 3.67.", "explanation": "Total carbon = 12 × 900 = 10 800 tonnes. Extracted = 0.25 × 10 800 = 2 700 tonnes of carbon. Carbon dioxide = 2 700 × 3.67 = 9 909 tonnes, which is about 9 910 tonnes.", "answers": [ { "numeric": 9910, "tolerance": 100, "unit": "tonnes", "marks": 3 } ] },
+        {
+          "key": "AQA-BIO-07-03-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A wildlife charity says: \"A wood containing 40 species of tree and shrub is more likely to survive a new tree disease than a plantation of a single species of conifer.\" Which statement best explains this?",
+          "hint": "Think about the animals that feed on the trees. What can they do if one tree species dies?",
+          "explanation": "In a wood with many species, the animals and other organisms do not depend on any single species. If one tree species is killed by disease, consumers can switch to others, so the community as a whole survives.",
+          "options": [
+            {
+              "text": "If one tree species is lost, the animals that fed on it can switch to other species, so the community carries on",
+              "correct": true
+            },
+            {
+              "text": "A wood with more species receives more sunlight",
+              "correct": false,
+              "feedback": "The amount of sunlight does not depend on the number of species."
+            },
+            {
+              "text": "Diseases cannot spread at all in woods with many species",
+              "correct": false,
+              "feedback": "Disease can still spread; the point is that the ecosystem is less disrupted when it does."
+            },
+            {
+              "text": "Woods with more species always have more predators, which kill the disease",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-03-L1-P13",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each pollutant to the harm it causes to living organisms.",
+          "hint": "Think about where each pollutant ends up: in a river, the sea, the air or a food chain.",
+          "explanation": "Sewage feeds bacteria that use up the oxygen dissolved in the river. Pesticides are toxic and build up along food chains. Nitrogen oxides from exhausts contribute to acid rain and smog. Oil coats seabirds so they cannot keep warm or float.",
+          "pairs": [
+            {
+              "left": "Untreated sewage released into a river",
+              "right": "Bacteria multiply and use up dissolved oxygen, so fish die"
+            },
+            {
+              "left": "Pesticides sprayed on crops that wash into ponds",
+              "right": "Toxic chemicals build up along food chains, harming predators"
+            },
+            {
+              "left": "Nitrogen oxides from car exhausts",
+              "right": "Contribute to acid rain and smog, damaging plants and lungs"
+            },
+            {
+              "left": "Oil spilt from a tanker at sea",
+              "right": "Coats the feathers of seabirds so they cannot keep warm or float"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-03-L1-P14",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete the sentences about why forests are cleared and what this does to the atmosphere.",
+          "metadata": {
+            "blanksText": "Deforestation is the cutting down of large areas of forest. In tropical countries it is often done to provide land for cattle and for ___ fields, and to grow crops such as sugar cane that are made into ___. Trees store carbon in their wood, so burning felled trees releases carbon ___ into the atmosphere."
+          },
+          "hint": "The first blank is a cereal grown in flooded fields; the second is a type of fuel made from plants; the third completes the name of a greenhouse gas.",
+          "explanation": "Forest is cleared for cattle, rice fields and crops grown for biofuels. Burning the felled trees releases the carbon stored in their wood as carbon dioxide.",
+          "answers": [
+            {
+              "text": "rice",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "biofuels",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "dioxide",
+              "blankIndex": 2,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-03-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "In 1985 a survey of a hedgerow recorded 65 species of flowering plant. By 2015, after half of the hedgerow had been removed to enlarge the fields, only 52 species were recorded.\n\nCalculate the percentage decrease in the number of flowering plant species.",
+          "hint": "Percentage decrease = (original − new) ÷ original × 100.",
+          "explanation": "Decrease = 65 − 52 = 13 species. Percentage decrease = $\\frac{13}{65} \\times 100 = 20$ %.",
+          "answers": [
+            {
+              "numeric": 20,
+              "tolerance": 0,
+              "unit": "%",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-03-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A developer clears 300 hectares of woodland to build a new town. The felled trees and branches are burnt on site. The finished town has thousands of homes and a large car park, and most residents drive to work.\n\nExplain how this development affects the concentration of carbon dioxide in the atmosphere **and** the biodiversity of the area. (4 marks)",
+          "hint": "Think about what the trees were doing before they were removed, what happens when wood is burnt, what the cars burn, and where the woodland animals and plants will live now.",
+          "explanation": "Fewer trees means less photosynthesis, so less carbon dioxide is removed from the air. Burning the felled trees releases the carbon stored in their wood as carbon dioxide. The residents' cars burn fossil fuels, adding more carbon dioxide. The woodland habitat is destroyed, so the species that lived there die out or leave and biodiversity falls.",
+          "markScheme": [
+            {
+              "criterion": "Fewer trees, so less carbon dioxide is removed from the atmosphere by photosynthesis",
+              "marks": 1,
+              "keywords": [
+                [
+                  "photosynthesis",
+                  "absorb",
+                  "taken in",
+                  "removed"
+                ]
+              ]
+            },
+            {
+              "criterion": "Burning the felled trees releases carbon dioxide",
+              "marks": 1,
+              "keywords": [
+                [
+                  "burn",
+                  "combustion",
+                  "released",
+                  "stored carbon"
+                ]
+              ]
+            },
+            {
+              "criterion": "Cars burn fossil fuels, releasing more carbon dioxide",
+              "marks": 1,
+              "keywords": [
+                [
+                  "car",
+                  "vehicle",
+                  "fossil fuel",
+                  "petrol",
+                  "exhaust"
+                ]
+              ]
+            },
+            {
+              "criterion": "Loss of habitat, so species are lost or become extinct and biodiversity decreases",
+              "marks": 1,
+              "keywords": [
+                [
+                  "habitat",
+                  "extinct",
+                  "species"
+                ],
+                [
+                  "lost",
+                  "loss",
+                  "reduc",
+                  "fewer",
+                  "decrease"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

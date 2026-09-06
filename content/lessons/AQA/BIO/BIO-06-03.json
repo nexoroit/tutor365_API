@@ -97,7 +97,248 @@
         { "key": "AQA-BIO-06-03-L1-P8", "type": "Ordering", "difficulty": 3, "marks": 1, "text": "Put the stages in the correct order to describe how a population of bacteria becomes resistant to an antibiotic.", "hint": "It starts with a random change in the DNA.", "explanation": "A mutation gives resistance; the antibiotic kills non-resistant bacteria; the resistant ones survive and reproduce; the resistance gene spreads through the population.", "order": [ "A random mutation makes one bacterium resistant", "The antibiotic kills the non-resistant bacteria", "The resistant bacterium survives and reproduces", "The resistance gene is passed to the offspring", "The whole population becomes resistant" ] },
         { "key": "AQA-BIO-06-03-L1-P9", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "text": "Explain why scientists cannot be certain about how life on Earth began.", "hint": "What evidence would they need, and why is it missing?", "explanation": "The fossil record is incomplete. The earliest organisms were soft-bodied so left few fossils, fossils only form in special conditions, and many have been destroyed by geological activity.", "markScheme": [ { "criterion": "The fossil record is incomplete / few early fossils exist", "marks": 1, "keywords": [ ["incomplete", "gaps", "few fossils", "not many fossils", "lack of fossils", "missing"] ] }, { "criterion": "Reason: early organisms soft-bodied / decayed, or fossils destroyed by geological activity", "marks": 1, "keywords": [ ["soft", "decay", "destroyed", "geological", "earthquake", "volcan", "conditions"] ] } ] },
         { "key": "AQA-BIO-06-03-L1-P10", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "MRSA is a strain of bacteria that is resistant to several antibiotics.\n\n(a) Explain why MRSA is a particular problem in hospitals. **(1 mark)**\n\n(b) Explain why it is difficult to solve the problem of antibiotic resistance simply by developing new antibiotics. **(3 marks)**", "hint": "For (b) think about cost, time and how quickly bacteria evolve.", "explanation": "(a) Hospitals contain many vulnerable patients with wounds or weak immune systems, and the bacteria spread easily between them. (b) Developing new antibiotics is very expensive and takes many years, whereas bacteria reproduce rapidly and new resistant strains can appear quickly, so development cannot keep up.", "markScheme": [ { "criterion": "Patients are vulnerable / infection spreads easily between patients", "marks": 1, "keywords": [ ["vulnerable", "weak", "ill", "wound", "spread", "immune", "sick"] ] }, { "criterion": "Developing new antibiotics is expensive", "marks": 1, "keywords": [ ["expensive", "cost", "money"] ] }, { "criterion": "Development is slow / takes many years", "marks": 1, "keywords": [ ["slow", "long time", "years", "takes time"] ] }, { "criterion": "Bacteria reproduce quickly so new resistant strains appear faster than new antibiotics", "marks": 1, "keywords": [ ["quick", "rapid", "fast", "keep up", "new strains", "mutat"] ] } ] },
-        { "key": "AQA-BIO-06-03-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Describe how Darwin's theory of natural selection would explain why giraffes have long necks, and state how this differs from Lamarck's explanation.", "hint": "Darwin starts with variation that already exists; Lamarck starts with an individual changing during its life.", "explanation": "Darwin: giraffes naturally varied in neck length; those with longer necks could reach more leaves, so they were more likely to survive and reproduce, passing on the alleles for long necks, which became more common over generations. Lamarck: each giraffe stretched its neck during its life and passed the longer neck to its offspring – an acquired characteristic, which we now know cannot be inherited.", "markScheme": [ { "criterion": "Variation in neck length existed; longer-necked giraffes could reach more food and were more likely to survive", "marks": 1, "keywords": [ ["variation", "varied", "some had longer", "longer necks"], ["survive", "food", "leaves", "reach"] ] }, { "criterion": "They reproduced and passed on the alleles/characteristic, so it became more common", "marks": 1, "keywords": [ ["reproduce", "breed", "offspring", "passed on", "inherit"] ] }, { "criterion": "Lamarck: neck lengthened by stretching during life and this acquired change was passed on", "marks": 1, "keywords": [ ["stretch", "acquired", "during its life", "during their life", "lifetime"] ] } ] }
+        { "key": "AQA-BIO-06-03-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Describe how Darwin's theory of natural selection would explain why giraffes have long necks, and state how this differs from Lamarck's explanation.", "hint": "Darwin starts with variation that already exists; Lamarck starts with an individual changing during its life.", "explanation": "Darwin: giraffes naturally varied in neck length; those with longer necks could reach more leaves, so they were more likely to survive and reproduce, passing on the alleles for long necks, which became more common over generations. Lamarck: each giraffe stretched its neck during its life and passed the longer neck to its offspring – an acquired characteristic, which we now know cannot be inherited.", "markScheme": [ { "criterion": "Variation in neck length existed; longer-necked giraffes could reach more food and were more likely to survive", "marks": 1, "keywords": [ ["variation", "varied", "some had longer", "longer necks"], ["survive", "food", "leaves", "reach"] ] }, { "criterion": "They reproduced and passed on the alleles/characteristic, so it became more common", "marks": 1, "keywords": [ ["reproduce", "breed", "offspring", "passed on", "inherit"] ] }, { "criterion": "Lamarck: neck lengthened by stretching during life and this acquired change was passed on", "marks": 1, "keywords": [ ["stretch", "acquired", "during its life", "during their life", "lifetime"] ] } ] },
+        {
+          "key": "AQA-BIO-06-03-L1-P12",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "When *On the Origin of Species* was published in 1859, many people did not accept the idea of evolution by natural selection straight away. Which of the following contributed to this? Select all that apply.",
+          "hint": "Consider what most people believed at the time, and what scientists could not yet explain.",
+          "explanation": "The theory went against the widely held religious view that every species had been created separately; nobody yet knew about genes, so the mechanism of inheritance could not be explained; and it took many years for enough supporting evidence to be gathered. Darwin did write down and publish his ideas, and no one had proved that species never change.",
+          "options": [
+            {
+              "text": "It went against the widely held religious view that every species was created separately",
+              "correct": true
+            },
+            {
+              "text": "Scientists did not yet know about genes, so nobody could explain how characteristics were passed on",
+              "correct": true
+            },
+            {
+              "text": "There was not enough evidence at first, and it took many years to collect more",
+              "correct": true
+            },
+            {
+              "text": "Darwin never wrote his ideas down",
+              "correct": false,
+              "feedback": "He published them in a famous book in 1859."
+            },
+            {
+              "text": "Other scientists had already proved that species never change",
+              "correct": false,
+              "feedback": "No such proof existed; fossils already suggested that species do change."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-03-L1-P13",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these events in the history of ideas about evolution and inheritance in the order in which they happened.",
+          "hint": "Lamarck's idea came before Darwin's; the structure of DNA was not known until the 1950s.",
+          "explanation": "Lamarck proposed inheritance of acquired characteristics in the early 1800s. Darwin and Wallace presented natural selection jointly in 1858, and Darwin published *On the Origin of Species* in 1859. Mendel published his pea-plant results in 1866, and the structure of DNA was worked out in 1953.",
+          "order": [
+            "Lamarck proposes that characteristics gained during life are passed on",
+            "Darwin and Wallace present the idea of natural selection together",
+            "Darwin publishes On the Origin of Species",
+            "Mendel publishes the results of his pea-plant experiments",
+            "The double-helix structure of DNA is worked out"
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-03-L1-P14",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Scientists have found very few fossils of the first living things, which appeared around 3.5 billion years ago. Which of these is the main reason?",
+          "hint": "Fossils usually form from hard parts such as bones, teeth and shells.",
+          "explanation": "The first organisms had no hard parts, so their bodies rotted away completely before they could be turned into fossils. Only hard parts such as shells and bones fossilise easily.",
+          "options": [
+            {
+              "text": "Their bodies had no hard parts, so they rotted away before they could fossilise",
+              "correct": true
+            },
+            {
+              "text": "The Earth was too hot for any rocks to form",
+              "correct": false,
+              "feedback": "Rocks from that time do exist; they just contain very few fossils."
+            },
+            {
+              "text": "They lived only in the air, so they were never buried in sediment",
+              "correct": false
+            },
+            {
+              "text": "Their fossils were all eaten by later animals",
+              "correct": false,
+              "feedback": "Fossils are made of rock or minerals; animals do not eat them."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-03-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Complete the sentences about speciation.",
+          "metadata": {
+            "blanksText": "Alfred Russel ___ worked independently of Darwin and collected evidence for how new species form. Speciation begins when two populations of a species become ___, for example by a river or mountain range, so that they cannot interbreed. Over many generations, ___ selection acts differently on each population until they can no longer interbreed to produce fertile offspring."
+          },
+          "hint": "The first blank is a scientist's surname; the second means cut off from each other; the third is the process Darwin described.",
+          "explanation": "Wallace gathered evidence for speciation. Two populations must first become isolated; natural selection then favours different characteristics in each, until they are so different that they cannot interbreed to produce fertile offspring.",
+          "answers": [
+            {
+              "text": "Wallace",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "isolated",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "natural",
+              "blankIndex": 2,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-03-L1-P16",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A GP surgery puts up a poster called \"Help us keep antibiotics working\". Describe **three** pieces of advice, aimed at doctors, patients or farmers, that the poster could include to slow down the development of antibiotic-resistant bacteria.",
+          "hint": "One piece of advice for each group: doctors deciding what to prescribe, patients taking their medicine, and farmers looking after animals.",
+          "explanation": "Doctors should only prescribe antibiotics when they are really needed and never for viral infections such as colds. Patients should finish the whole course so that all the bacteria are killed and none survive to develop resistance. Farmers should limit the use of antibiotics on livestock.",
+          "markScheme": [
+            {
+              "criterion": "Doctors should not prescribe antibiotics unnecessarily / not for viral infections",
+              "marks": 1,
+              "keywords": [
+                [
+                  "prescri",
+                  "viral",
+                  "virus",
+                  "doctor",
+                  "unnecessar"
+                ]
+              ]
+            },
+            {
+              "criterion": "Patients should complete the full course of antibiotics",
+              "marks": 1,
+              "keywords": [
+                [
+                  "complete",
+                  "finish",
+                  "full course",
+                  "whole course",
+                  "entire course"
+                ]
+              ]
+            },
+            {
+              "criterion": "Restrict the use of antibiotics in farming / on livestock",
+              "marks": 1,
+              "keywords": [
+                [
+                  "farm",
+                  "agricultur",
+                  "livestock",
+                  "animals",
+                  "cattle"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-03-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A single population of cichlid fish lived in one large lake in Africa. During a long period of drought the lake shrank and became two separate lakes. Thousands of years later, the fish in the two lakes look different, and when they are placed together they cannot produce fertile offspring.\n\nExplain how the two populations of cichlid fish have become separate species. **(5 marks)**",
+          "hint": "Structure your answer: isolation → different conditions in each lake → natural selection in each population → different characteristics → can no longer interbreed.",
+          "explanation": "The drought isolated the two populations so they could not interbreed. The two lakes had different conditions, such as different food, depth or predators. In each lake, fish with the characteristics best suited to that lake survived and reproduced, passing on their alleles (natural selection). Over many generations, the alleles and phenotypes of the two populations became more and more different. Eventually they were so different that they could no longer interbreed to produce fertile offspring, which means they are now separate species.",
+          "markScheme": [
+            {
+              "criterion": "The populations were geographically isolated so could not interbreed",
+              "marks": 1,
+              "keywords": [
+                [
+                  "isolat",
+                  "separat",
+                  "split",
+                  "cut off",
+                  "could not mix"
+                ]
+              ]
+            },
+            {
+              "criterion": "The two lakes had different environmental conditions / selection pressures",
+              "marks": 1,
+              "keywords": [
+                [
+                  "different",
+                  "not the same"
+                ],
+                [
+                  "condition",
+                  "environment",
+                  "food",
+                  "predator",
+                  "selection pressure"
+                ]
+              ]
+            },
+            {
+              "criterion": "Natural selection: individuals with favourable variation survive and reproduce",
+              "marks": 1,
+              "keywords": [
+                [
+                  "surviv",
+                  "natural selection",
+                  "best adapted",
+                  "more likely to breed"
+                ]
+              ]
+            },
+            {
+              "criterion": "Advantageous alleles / characteristics are passed on so the populations become genetically different over many generations",
+              "marks": 1,
+              "keywords": [
+                [
+                  "allele",
+                  "gene",
+                  "characteristic",
+                  "passed on",
+                  "inherit"
+                ],
+                [
+                  "generations",
+                  "over time",
+                  "many years",
+                  "thousands"
+                ]
+              ]
+            },
+            {
+              "criterion": "Eventually cannot interbreed to produce fertile offspring so are separate species",
+              "marks": 1,
+              "keywords": [
+                [
+                  "fertile",
+                  "interbreed",
+                  "produce offspring"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

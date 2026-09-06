@@ -589,6 +589,184 @@
               "correct": false
             }
           ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P12",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which of the following are true of **sexual** reproduction? Select all that apply.",
+          "hint": "Think about how many parents contribute genes and which type of cell division makes the gametes.",
+          "explanation": "Sexual reproduction needs two parents, whose gametes are made by meiosis and fuse at fertilisation. Because the gametes carry different mixtures of alleles, the offspring show genetic variation. Offspring that are identical to one parent are a feature of asexual reproduction, and mitosis alone cannot make gametes.",
+          "options": [
+            {
+              "text": "Two parents are needed",
+              "correct": true
+            },
+            {
+              "text": "Gametes are made by meiosis",
+              "correct": true
+            },
+            {
+              "text": "Offspring are genetically identical to one parent",
+              "correct": false,
+              "feedback": "Mixing genes from two parents produces variation, not clones."
+            },
+            {
+              "text": "Offspring show genetic variation",
+              "correct": true
+            },
+            {
+              "text": "Only mitosis is involved",
+              "correct": false,
+              "feedback": "Gametes must be made by meiosis so that the chromosome number is halved."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P13",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Put these events in the correct order, starting from a cell inside the anther of a flower and ending with a seedling.",
+          "hint": "DNA must be copied before any division, and fertilisation can only happen once pollen exists.",
+          "explanation": "The cell in the anther copies its DNA, then divides twice by meiosis to make pollen grains with half the chromosome number. A pollen nucleus fuses with the egg cell nucleus in the ovule at fertilisation, restoring the full chromosome number in the zygote. The zygote divides by mitosis to form the embryo inside the seed, and its cells then differentiate into root and shoot tissues as the seedling grows.",
+          "order": [
+            "A cell in the anther copies all of its DNA",
+            "The cell divides twice by meiosis to form pollen grains with half the chromosome number",
+            "A pollen nucleus fuses with the egg cell nucleus in the ovule at fertilisation",
+            "The zygote has the full number of chromosomes restored",
+            "The zygote divides repeatedly by mitosis to form an embryo inside the seed",
+            "Cells in the embryo differentiate into root and shoot tissues"
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P14",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Complete the sentences about DNA and genes. For the third blank, write the complementary base sequence for the strand **TACGG** (five letters, no spaces).",
+          "metadata": {
+            "blanksText": "In a body cell, DNA is found in the ___, packed into chromosomes. A short section of DNA that codes for one protein is called a ___. The strand that pairs with TACGG reads ___. Each gene is a sequence of ___ that determines the order of amino acids in the protein."
+          },
+          "hint": "A pairs with T and C pairs with G. Work along TACGG one letter at a time.",
+          "explanation": "Chromosomes, and therefore DNA, are in the nucleus. A gene is the section of DNA coding for one protein. T pairs with A, A with T, C with G, G with C, G with C, so TACGG pairs with ATGCC. The order of bases in a gene fixes the order of amino acids in the protein.",
+          "answers": [
+            {
+              "text": "nucleus",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "gene",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "ATGCC",
+              "blankIndex": 2,
+              "marks": 1
+            },
+            {
+              "text": "bases",
+              "blankIndex": 3,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P15",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "In guinea pigs, rough coat (**R**) is dominant to smooth coat (**r**). Two heterozygous rough-coated guinea pigs are bred together over several years and produce 60 offspring in total. How many of the offspring would you **expect** to have a rough coat?",
+          "hint": "Draw the Punnett square for Rr × Rr, find the fraction of offspring that have at least one R, then apply that fraction to 60.",
+          "explanation": "Rr × Rr gives the boxes RR, Rr, Rr, rr. Three of the four boxes contain at least one R, so $\\frac{3}{4}$ of the offspring are expected to be rough-coated. $\\frac{3}{4} \\times 60 = 45$ rough-coated guinea pigs. This is only the expected number; the real number could differ because fertilisation is random.",
+          "answers": [
+            {
+              "numeric": 45,
+              "tolerance": 0,
+              "unit": "guinea pigs",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-01-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "Huntington's disease is caused by a dominant allele, **H**. Lena has Huntington's disease and is heterozygous. Her partner Tom does not have the disease.\n\n(a) Give the genotype of Tom. (1 mark)\n\n(b) Draw or describe a Punnett square for a child of Lena and Tom, and state the **percentage** chance that the child inherits Huntington's disease. (2 marks)\n\n(c) Tom's sister does not have cystic fibrosis but is a carrier of the cystic fibrosis allele. Explain why a person can carry the cystic fibrosis allele without having the disorder, but cannot carry the Huntington's allele without developing the disease. (2 marks)",
+          "hint": "Because H is dominant, anyone without the disease can only have recessive alleles. For (c), think about what \"dominant\" and \"recessive\" mean for whether a single copy of an allele shows in the phenotype.",
+          "explanation": "(a) Tom must be hh, because a single H allele would give him the disease. (b) Hh × hh gives Hh, Hh, hh, hh, so 2 out of 4 = 50 % chance that the child inherits Huntington's disease. (c) The cystic fibrosis allele is recessive, so a heterozygous person has one normal dominant allele that masks it and they show no symptoms; they are a carrier. The Huntington's allele is dominant, so one copy is enough for it to be expressed, meaning anyone who has the allele develops the disease.",
+          "markScheme": [
+            {
+              "criterion": "Tom's genotype is hh (homozygous recessive)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "hh",
+                  "homozygous recessive",
+                  "two recessive"
+                ]
+              ]
+            },
+            {
+              "criterion": "Punnett square gives offspring Hh, Hh, hh, hh (or two Hh and two hh)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "hh",
+                  "hh and hh",
+                  "two of each",
+                  "half"
+                ]
+              ]
+            },
+            {
+              "criterion": "50 % chance of Huntington's disease",
+              "marks": 1,
+              "keywords": [
+                [
+                  "50",
+                  "half",
+                  "1 in 2",
+                  "0.5"
+                ]
+              ]
+            },
+            {
+              "criterion": "Cystic fibrosis allele is recessive so a heterozygous person / carrier is unaffected because the dominant allele masks it",
+              "marks": 1,
+              "keywords": [
+                [
+                  "recessive",
+                  "carrier",
+                  "heterozygous",
+                  "masked",
+                  "one copy"
+                ]
+              ]
+            },
+            {
+              "criterion": "Huntington's allele is dominant so one copy is always expressed / shows in the phenotype",
+              "marks": 1,
+              "keywords": [
+                [
+                  "dominant",
+                  "one copy"
+                ],
+                [
+                  "expressed",
+                  "shows",
+                  "one copy",
+                  "one allele",
+                  "develop"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

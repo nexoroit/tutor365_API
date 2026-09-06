@@ -88,7 +88,191 @@
         { "key": "AQA-BIO-06-02-L1-P8", "type": "FillInTheBlank", "difficulty": 2, "marks": 3, "text": "Complete the sentences about evolution.", "metadata": { "blanksText": "Darwin proposed that all species evolved from simple life forms that first developed more than ___ billion years ago. The process that drives evolution is called natural ___. Two populations become separate species when they can no longer interbreed to produce ___ offspring." }, "hint": "The number is a small whole number; the last word describes offspring that can themselves reproduce.", "explanation": "Life began more than three billion years ago; evolution happens by natural selection; species are defined by the ability to produce fertile offspring.", "answers": [ { "text": "three", "blankIndex": 0, "marks": 1 }, { "text": "selection", "blankIndex": 1, "marks": 1 }, { "text": "fertile", "blankIndex": 2, "marks": 1 } ] },
         { "key": "AQA-BIO-06-02-L1-P9", "type": "ShortAnswer", "difficulty": 3, "marks": 3, "examStyle": true, "text": "Explain why selective breeding over many generations can be harmful to a breed of dog.", "hint": "Think about what happens to the range of alleles when the same few parents are always used.", "explanation": "Selective breeding uses closely related individuals (inbreeding), which reduces the variation in the gene pool. With little variation the breed may be unable to cope with a new disease or change in conditions, and harmful recessive alleles are more likely to be inherited in pairs, causing inherited defects such as breathing or hip problems.", "markScheme": [ { "criterion": "Closely related animals are bred together (inbreeding)", "marks": 1, "keywords": [ ["inbreed", "closely related", "related"] ] }, { "criterion": "Reduces variation / fewer different alleles in the population", "marks": 1, "keywords": [ ["variation", "gene pool", "fewer alleles"] ] }, { "criterion": "More likely to inherit defects / disorders, or less able to survive a new disease", "marks": 1, "keywords": [ ["defect", "disorder", "disease", "health problem", "genetic problem"] ] } ] },
         { "key": "AQA-BIO-06-02-L1-P10", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "Scientists want to produce a variety of rice that contains a gene from a daffodil, allowing the rice to make a substance the body converts to vitamin A.\n\n(a) Describe how genetic engineering could be used to transfer the daffodil gene into rice. (3 marks)\n\n(b) Give **one** reason why some people are concerned about growing this rice. (1 mark)", "hint": "Name the tools used to cut and carry the gene, and say when it must be inserted.", "explanation": "(a) Enzymes are used to cut the vitamin A gene out of daffodil DNA. The gene is inserted into a vector such as a plasmid or virus. The vector carries the gene into rice cells at an early stage of development so the plant develops with the gene in every cell. (b) Concerns include the gene spreading to wild plants through pollen, unknown long-term health effects, or effects on insects and food chains.", "markScheme": [ { "criterion": "Enzymes used to cut out / isolate the gene from daffodil DNA", "marks": 1, "keywords": [ ["enzyme"], ["cut", "isolate", "remove"] ] }, { "criterion": "Gene inserted into a vector such as a plasmid or virus", "marks": 1, "keywords": [ ["vector", "plasmid", "virus"] ] }, { "criterion": "Vector carries the gene into rice cells at an early stage of development / embryo", "marks": 1, "keywords": [ ["early", "embryo", "rice cell", "into the cell"] ] }, { "criterion": "A valid concern: spread of gene to wild plants, unknown health effects, effect on insects / wildlife, cost of seed", "marks": 1, "keywords": [ ["wild", "health", "insect", "wildlife", "cost"] ] } ] },
-        { "key": "AQA-BIO-06-02-L1-P11", "type": "MultipleChoice", "difficulty": 4, "marks": 1, "text": "A herbicide-resistant weed appears in a field that has been sprayed with the same herbicide for ten years. Which statement best explains this?", "hint": "Remember that mutations are random and happen regardless of whether they are useful.", "explanation": "A random mutation gave a few weeds resistance. The herbicide killed the others, so the resistant plants survived, reproduced and passed on the allele. The herbicide selected for the mutation; it did not cause it.", "options": [ { "text": "A random mutation gave some weeds resistance, and repeated spraying selected for them", "correct": true }, { "text": "The herbicide caused the weeds to mutate so that they could survive", "correct": false, "feedback": "Herbicide does not create useful mutations on demand; it only selects among existing variation." }, { "text": "The weeds learned to tolerate the herbicide and passed the skill on", "correct": false, "feedback": "Learned behaviour is not inherited through alleles." }, { "text": "The weeds were genetically engineered by the farmer", "correct": false } ] }
+        { "key": "AQA-BIO-06-02-L1-P11", "type": "MultipleChoice", "difficulty": 4, "marks": 1, "text": "A herbicide-resistant weed appears in a field that has been sprayed with the same herbicide for ten years. Which statement best explains this?", "hint": "Remember that mutations are random and happen regardless of whether they are useful.", "explanation": "A random mutation gave a few weeds resistance. The herbicide killed the others, so the resistant plants survived, reproduced and passed on the allele. The herbicide selected for the mutation; it did not cause it.", "options": [ { "text": "A random mutation gave some weeds resistance, and repeated spraying selected for them", "correct": true }, { "text": "The herbicide caused the weeds to mutate so that they could survive", "correct": false, "feedback": "Herbicide does not create useful mutations on demand; it only selects among existing variation." }, { "text": "The weeds learned to tolerate the herbicide and passed the skill on", "correct": false, "feedback": "Learned behaviour is not inherited through alleles." }, { "text": "The weeds were genetically engineered by the farmer", "correct": false } ] },
+        {
+          "key": "AQA-BIO-06-02-L1-P12",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "For each of these human features or events, decide what mainly causes the variation and match it to the correct cause.",
+          "hint": "Ask: could this feature be different in an identical twin who ate differently, lived elsewhere or had a different accident?",
+          "explanation": "Blood group is fixed entirely by inherited alleles. A tattoo comes purely from the environment. Adult height depends on inherited alleles and on diet during childhood, so it is a combination. A new allele produced by a change in the DNA base sequence is, by definition, a mutation.",
+          "pairs": [
+            {
+              "left": "A person's blood group",
+              "right": "Genetic only"
+            },
+            {
+              "left": "A tattoo on someone's arm",
+              "right": "Environmental only"
+            },
+            {
+              "left": "Adult height",
+              "right": "Genetic and environmental combined"
+            },
+            {
+              "left": "A new allele appearing because a DNA base was copied wrongly",
+              "right": "Mutation"
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-02-L1-P13",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Rats living under a warehouse are targeted with the poison warfarin. Put the stages of natural selection in the correct order to explain how the rat population becomes resistant to the poison.",
+          "hint": "There has to be variation in the population before the poison can select anything.",
+          "explanation": "A random mutation first gives one rat an allele for resistance. The warfarin is then the selection pressure that kills most of the non-resistant rats. The resistant rat survives, breeds and passes on the resistance allele, so after many generations most of the population is resistant.",
+          "order": [
+            "A random mutation gives one rat an allele for resistance to warfarin",
+            "Warfarin is put down and kills most of the non-resistant rats",
+            "The resistant rat survives and breeds",
+            "The resistance allele is passed on to its offspring",
+            "After many generations most of the rat population is resistant"
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-02-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A poultry farmer's hens laid an average of 210 eggs per hen per year. After several generations of selectively breeding from the hens that laid the most eggs, the average rose to 273 eggs per hen per year. Calculate the **percentage increase** in egg production.",
+          "hint": "Percentage increase = (increase ÷ original value) × 100. Work out the increase first.",
+          "explanation": "Increase = 273 − 210 = 63 eggs. Percentage increase = $\\frac{63}{210} \\times 100 = 30$ %.",
+          "answers": [
+            {
+              "numeric": 30,
+              "tolerance": 0,
+              "unit": "%",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-02-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Complete the description of genetically modified crops.",
+          "metadata": {
+            "blanksText": "Genetically modified (GM) crops have had their ___ changed by introducing DNA from another organism. GM crops are often made resistant to insect ___ or to herbicides, and they usually produce a bigger ___ (the amount of crop harvested). Some people are concerned that GM crops could affect populations of wild flowers and ___."
+          },
+          "hint": "The first blank is the unit of inheritance; the second is the word for insects that damage crops; the third is the farmer's word for the amount harvested; the fourth is a group of small animals that visit wild flowers.",
+          "explanation": "GM crops have had their genes altered. Common modifications give resistance to insect pests or to herbicides, and the crops usually give a bigger yield. A concern is the effect on wild flowers and insects living around the fields.",
+          "answers": [
+            {
+              "text": "genes",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "pests",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "yield",
+              "blankIndex": 2,
+              "marks": 1
+            },
+            {
+              "text": "insects",
+              "blankIndex": 3,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-06-02-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 6,
+          "examStyle": true,
+          "text": "Rock pocket mice live in a desert. Most have sandy-coloured fur, which hides them from owls on the pale sand. A rare dark-furred form also exists. About a thousand years ago, a volcanic eruption covered part of the desert in black lava rock. Today the mice living on the black rock are almost all dark-furred, while those on the sand are still almost all sandy-coloured.\n\n(a) Explain, in terms of natural selection, why the dark form became the most common form on the lava. (4 marks)\n\n(b) A student says: \"The mice on the lava changed their fur colour so that they could hide on the black rock.\" Explain **two** reasons why this statement is scientifically wrong. (2 marks)",
+          "hint": "Follow the sequence: variation already present, selection pressure (owls hunting on black rock), survival, reproduction, passing on alleles. For (b), think about whether an individual can change its alleles and where the dark allele came from.",
+          "explanation": "(a) Variation already existed: a mutation had produced the allele for dark fur. On the black lava, sandy mice were easily seen and eaten by owls, whereas dark mice were camouflaged. Dark mice were therefore more likely to survive and breed, passing on the dark-fur allele, so over many generations it became the most common allele on the lava. (b) An individual mouse cannot change its alleles or its fur colour; it is the population that changes. The dark allele arose by a random mutation before the eruption and was selected because the environment changed, not because the mice needed it.",
+          "markScheme": [
+            {
+              "criterion": "Variation already existed / dark form arose by mutation",
+              "marks": 1,
+              "keywords": [
+                [
+                  "variation",
+                  "mutation",
+                  "already existed",
+                  "rare dark"
+                ]
+              ]
+            },
+            {
+              "criterion": "On black rock sandy mice are seen and eaten by predators while dark mice are camouflaged",
+              "marks": 1,
+              "keywords": [
+                [
+                  "camouflag",
+                  "eaten",
+                  "predator",
+                  "owl",
+                  "seen"
+                ]
+              ]
+            },
+            {
+              "criterion": "Dark mice more likely to survive and reproduce / breed",
+              "marks": 1,
+              "keywords": [
+                [
+                  "surviv",
+                  "live"
+                ],
+                [
+                  "reproduc",
+                  "breed",
+                  "offspring"
+                ]
+              ]
+            },
+            {
+              "criterion": "Allele for dark fur passed on so it becomes more common over generations",
+              "marks": 1,
+              "keywords": [
+                [
+                  "pass",
+                  "inherit",
+                  "more common",
+                  "frequency"
+                ]
+              ]
+            },
+            {
+              "criterion": "Individual mice cannot change their fur colour / alleles; it is the population that changes",
+              "marks": 1,
+              "keywords": [
+                [
+                  "cannot change",
+                  "can't change",
+                  "individual",
+                  "population",
+                  "not choose"
+                ]
+              ]
+            },
+            {
+              "criterion": "The mutation was random and happened before / regardless of the lava, not because it was needed",
+              "marks": 1,
+              "keywords": [
+                [
+                  "random",
+                  "before",
+                  "not because",
+                  "chance",
+                  "need"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

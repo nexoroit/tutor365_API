@@ -90,7 +90,212 @@
         { "key": "AQA-BIO-07-02-L1-P8", "type": "Ordering", "difficulty": 3, "marks": 1, "text": "Put these stages of a predator–prey cycle in order, starting with an increase in the prey population.", "hint": "More food comes before more predators; more predators come before fewer prey.", "explanation": "Prey increase gives predators more food; predators increase; they eat more prey so prey decrease; predators then run short of food and decrease; with fewer predators, prey increase again.", "order": [ "The prey population increases", "Predators have more food, so the predator population increases", "More prey are eaten, so the prey population decreases", "Predators have less food, so the predator population decreases", "Fewer prey are eaten, so the prey population begins to increase again" ] },
         { "key": "AQA-BIO-07-02-L1-P9", "type": "ShortAnswer", "difficulty": 3, "marks": 2, "text": "Explain how a biogas generator produces a useful fuel from animal waste.", "hint": "What kind of decay produces methane – with or without oxygen?", "explanation": "The waste is kept in a sealed, warm tank without oxygen. Microorganisms decompose it anaerobically, producing methane gas, which is collected and burnt as a fuel.", "markScheme": [ { "criterion": "Microorganisms decompose the waste anaerobically / without oxygen", "marks": 1, "keywords": [ ["anaerobic", "without oxygen", "no oxygen", "sealed", "absence of oxygen"] ] }, { "criterion": "Methane gas is produced and can be burnt", "marks": 1, "keywords": [ ["methane", "biogas"] ] } ] },
         { "key": "AQA-BIO-07-02-L1-P10", "type": "ExamQuestion", "difficulty": 4, "marks": 4, "examStyle": true, "text": "A student wants to find out whether the number of plantain plants changes between the shaded edge of a wood and an open field next to it.\n\n(a) Explain why a transect is more suitable than random sampling for this investigation. **(2 marks)**\n\n(b) Describe how the student should use a transect and a quadrat to collect the data. **(2 marks)**", "hint": "The question is about change across the habitat, and a transect follows a line.", "explanation": "(a) The student is investigating how the distribution changes with distance from the wood, and a transect samples systematically along a line from one area to the other, whereas random sampling would only give an overall average. (b) Lay a tape measure from the wood edge into the field; place a quadrat at regular intervals along the tape (e.g. every 2 m) and count the plantain plants in each quadrat; also measure light intensity at each point.", "markScheme": [ { "criterion": "Transect shows how distribution / abundance changes across the habitat / with distance", "marks": 1, "keywords": [ ["change", "distance", "across", "gradient", "along"] ] }, { "criterion": "Random sampling gives an overall estimate, not the pattern between the two areas", "marks": 1, "keywords": [ ["random"], ["overall", "average", "not show", "would not", "wouldn't", "no pattern", "does not show", "doesn't show"] ] }, { "criterion": "Lay a tape / line from the wood into the field", "marks": 1, "keywords": [ ["tape", "line", "string", "rope"] ] }, { "criterion": "Place quadrat at regular intervals along the line and count plants in each", "marks": 1, "keywords": [ ["interval", "regular", "every", "each metre", "each meter"], ["count", "record", "number"] ] } ] },
-        { "key": "AQA-BIO-07-02-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Explain why decomposers are essential for the continued growth of plants in a woodland.", "hint": "Think about what would happen to dead leaves and the mineral ions inside them if nothing broke them down.", "explanation": "Decomposers break down dead plants and animals and their waste. This returns mineral ions such as nitrates to the soil, which plants need to make proteins and grow. It also releases carbon dioxide by respiration, which plants need for photosynthesis. Without decomposers, nutrients would stay locked in dead material.", "markScheme": [ { "criterion": "Decomposers break down dead organisms / waste", "marks": 1, "keywords": [ ["break down", "decompose", "decay", "digest", "rot"] ] }, { "criterion": "Returns mineral ions / nutrients to the soil for plants to absorb", "marks": 1, "keywords": [ ["mineral", "nutrient", "nitrate", "ions"], ["soil", "absorb", "roots", "take up", "recycle", "return"] ] }, { "criterion": "Releases carbon dioxide for photosynthesis / recycles carbon", "marks": 1, "keywords": [ ["carbon dioxide", "co2", "co₂", "carbon"], ["photosynthesis", "recycle", "returned", "released", "atmosphere"] ] } ] }
+        { "key": "AQA-BIO-07-02-L1-P11", "type": "ExamQuestion", "difficulty": 4, "marks": 3, "examStyle": true, "text": "Explain why decomposers are essential for the continued growth of plants in a woodland.", "hint": "Think about what would happen to dead leaves and the mineral ions inside them if nothing broke them down.", "explanation": "Decomposers break down dead plants and animals and their waste. This returns mineral ions such as nitrates to the soil, which plants need to make proteins and grow. It also releases carbon dioxide by respiration, which plants need for photosynthesis. Without decomposers, nutrients would stay locked in dead material.", "markScheme": [ { "criterion": "Decomposers break down dead organisms / waste", "marks": 1, "keywords": [ ["break down", "decompose", "decay", "digest", "rot"] ] }, { "criterion": "Returns mineral ions / nutrients to the soil for plants to absorb", "marks": 1, "keywords": [ ["mineral", "nutrient", "nitrate", "ions"], ["soil", "absorb", "roots", "take up", "recycle", "return"] ] }, { "criterion": "Releases carbon dioxide for photosynthesis / recycles carbon", "marks": 1, "keywords": [ ["carbon dioxide", "co2", "co₂", "carbon"], ["photosynthesis", "recycle", "returned", "released", "atmosphere"] ] } ] },
+        {
+          "key": "AQA-BIO-07-02-L1-P12",
+          "type": "Ordering",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Arrange these grassland organisms into a correct food chain, starting with the producer.",
+          "hint": "The producer is the one that photosynthesises. Then ask who eats whom.",
+          "explanation": "Grass is the producer; grasshoppers eat the grass; frogs eat the grasshoppers; grass snakes eat the frogs.",
+          "order": [
+            "Grass",
+            "Grasshopper",
+            "Frog",
+            "Grass snake"
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-02-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Ecologists count the tawny owls and the voles they hunt in a forest every year for 25 years, and plot both populations on the same graph. Which statement about the graph is correct?",
+          "hint": "A predator population can only grow after there is more prey for it to eat.",
+          "explanation": "Vole (prey) numbers rise first; with more food the owl (predator) numbers rise a little later, so the owl peaks come shortly after the vole peaks. The owl line stays lower because each owl needs to eat many voles.",
+          "options": [
+            {
+              "text": "The vole peaks come shortly before the owl peaks",
+              "correct": true
+            },
+            {
+              "text": "The owl peaks come shortly before the vole peaks",
+              "correct": false,
+              "feedback": "Predators cannot increase until there is more prey to feed on."
+            },
+            {
+              "text": "Both populations peak in exactly the same year every time",
+              "correct": false
+            },
+            {
+              "text": "There are always more owls than voles",
+              "correct": false,
+              "feedback": "It takes many prey animals to feed one predator, so predators are fewer."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-02-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A school playing field has an area of 1 200 m². A 1 m² quadrat is placed at random 10 times and the numbers of dandelion plants counted are: 4, 7, 5, 8, 6, 3, 9, 6, 5, 2. Estimate the total number of dandelion plants on the field.",
+          "hint": "Work out the mean number per quadrat first, then multiply by the number of 1 m² quadrats that would fit into 1 200 m².",
+          "explanation": "Total counted = 4 + 7 + 5 + 8 + 6 + 3 + 9 + 6 + 5 + 2 = 55. Mean = 55 ÷ 10 = 5.5 per m². Estimate = 5.5 × 1 200 = 6 600 dandelions.",
+          "answers": [
+            {
+              "numeric": 6600,
+              "tolerance": 0,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-02-L1-P15",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete the sentences about how carbon moves through an ecosystem.",
+          "metadata": {
+            "blanksText": "Plants use carbon dioxide to make glucose, and this carbon passes along food chains when animals ___ the plants. When plants and animals die, ___ break down their remains and release carbon dioxide by respiration. Over millions of years some dead remains are turned into ___ fuels, which lock carbon away until they are burnt."
+          },
+          "hint": "The first blank is what consumers do; the second is the group of microorganisms that rot dead material; the third describes coal, oil and gas.",
+          "explanation": "Animals eat plants, passing the carbon on. Decomposers (bacteria and fungi) break down dead remains and respire, releasing carbon dioxide. Some remains become fossil fuels, which release their carbon when burnt.",
+          "answers": [
+            {
+              "text": "eat",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "decomposers",
+              "blankIndex": 1,
+              "marks": 1
+            },
+            {
+              "text": "fossil",
+              "blankIndex": 2,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-02-L1-P16",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A student puts a slice of bread in each of several jars to investigate decay. Which of the following would make the bread go mouldy faster? Select all that apply.",
+          "hint": "Mould is a living microorganism. Which conditions help microorganisms grow and respire?",
+          "explanation": "Warmth speeds up the enzymes in the mould, a little water lets it grow, and loosening the lid supplies oxygen for aerobic respiration. Keeping the jar cold slows the enzymes, and completely dry bread gives the mould no water.",
+          "options": [
+            {
+              "text": "Keeping the jar in a warm cupboard at about 25 °C",
+              "correct": true
+            },
+            {
+              "text": "Sprinkling a few drops of water on the bread",
+              "correct": true
+            },
+            {
+              "text": "Loosening the lid so that air can get in",
+              "correct": true
+            },
+            {
+              "text": "Keeping the jar in the fridge",
+              "correct": false,
+              "feedback": "Cold slows down the enzymes in the mould."
+            },
+            {
+              "text": "Toasting the bread until it is completely dry",
+              "correct": false,
+              "feedback": "Microorganisms need water to grow."
+            }
+          ]
+        },
+        {
+          "key": "AQA-BIO-07-02-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A student investigates how temperature affects the rate of decay. She puts 10 g of dried grass cuttings and a spoonful of garden soil into each of five containers and keeps them at 5 °C, 15 °C, 25 °C, 35 °C and 65 °C. After 10 days she dries and reweighs the cuttings.\n\n| Temperature (°C) | 5 | 15 | 25 | 35 | 65 |\n|---|---|---|---|---|---|\n| Mass of cuttings lost (g) | 0.8 | 1.9 | 3.6 | 5.4 | 0.1 |\n\n(a) Describe the pattern shown by the results from 5 °C to 35 °C. **(1 mark)**\n\n(b) Explain the pattern from 5 °C to 35 °C. **(2 marks)**\n\n(c) Explain why almost no mass was lost at 65 °C. **(2 marks)**",
+          "hint": "The soil contains decomposers that use enzymes to break down the cuttings. How does enzyme activity change as it gets warmer, and what happens if it gets too hot?",
+          "explanation": "(a) As the temperature increases, more mass is lost, so decay is faster. (b) The enzymes in the decomposing microorganisms work faster at higher temperatures because the molecules have more kinetic energy and collide more often, so the cuttings are broken down more quickly. (c) At 65 °C the enzymes denature: their active sites change shape so they can no longer break down the cuttings, and the microorganisms may be killed, so decay almost stops.",
+          "markScheme": [
+            {
+              "criterion": "Mass lost increases as temperature increases / decay gets faster",
+              "marks": 1,
+              "keywords": [
+                [
+                  "increase",
+                  "more mass",
+                  "faster",
+                  "quicker",
+                  "greater"
+                ]
+              ]
+            },
+            {
+              "criterion": "Enzymes in the microorganisms / decomposers work faster at higher temperature",
+              "marks": 1,
+              "keywords": [
+                [
+                  "enzyme",
+                  "microorganism",
+                  "bacteria",
+                  "decomposer",
+                  "microbe"
+                ],
+                [
+                  "faster",
+                  "quicker",
+                  "more active",
+                  "increase"
+                ]
+              ]
+            },
+            {
+              "criterion": "Because particles have more energy / more collisions",
+              "marks": 1,
+              "keywords": [
+                [
+                  "energy",
+                  "collision",
+                  "collide",
+                  "move faster",
+                  "kinetic"
+                ]
+              ]
+            },
+            {
+              "criterion": "At 65 °C enzymes denature / microorganisms killed",
+              "marks": 1,
+              "keywords": [
+                [
+                  "denature",
+                  "killed",
+                  "die",
+                  "dead",
+                  "destroyed"
+                ]
+              ]
+            },
+            {
+              "criterion": "Active site changes shape so substrate cannot fit / no reaction",
+              "marks": 1,
+              "keywords": [
+                [
+                  "active site",
+                  "shape",
+                  "no longer work",
+                  "cannot work",
+                  "stop working"
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]
