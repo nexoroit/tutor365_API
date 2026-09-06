@@ -566,6 +566,216 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Work out $3\\begin{pmatrix} -2 \\\\ 4 \\end{pmatrix} - \\begin{pmatrix} 1 \\\\ 5 \\end{pmatrix}$.",
+          "hint": "Multiply the first vector by 3, then subtract each component.",
+          "explanation": "$\\begin{pmatrix} -6 \\\\ 12 \\end{pmatrix} - \\begin{pmatrix} 1 \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} -7 \\\\ 7 \\end{pmatrix}$.",
+          "options": [
+            {
+              "text": "(−7, 7) as a column vector",
+              "correct": true
+            },
+            {
+              "text": "(−5, 17) as a column vector",
+              "correct": false,
+              "feedback": "You added the vectors instead of subtracting."
+            },
+            {
+              "text": "(−3, −1) as a column vector",
+              "correct": false,
+              "feedback": "You forgot to multiply the first vector by 3."
+            },
+            {
+              "text": "(−7, −7) as a column vector",
+              "correct": false,
+              "feedback": "Check the bottom component: $12 - 5 = 7$."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P13",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Work out the magnitude of the vector $\\begin{pmatrix} -7 \\\\ 24 \\end{pmatrix}$.",
+          "hint": "Magnitude $= \\sqrt{x^2 + y^2}$; the negative sign disappears when you square.",
+          "explanation": "$\\sqrt{(-7)^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$.",
+          "answers": [
+            {
+              "numeric": 25,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P14",
+          "type": "Equation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "In triangle OXY, $\\overrightarrow{OX} = \\mathbf{x}$ and $\\overrightarrow{OY} = \\mathbf{y}$. Write $\\overrightarrow{YX}$ in terms of $\\mathbf{x}$ and $\\mathbf{y}$. Type your answer like a-b.",
+          "hint": "Go from Y back to O, then from O to X.",
+          "explanation": "$\\overrightarrow{YX} = \\overrightarrow{YO} + \\overrightarrow{OX} = -\\mathbf{y} + \\mathbf{x} = \\mathbf{x} - \\mathbf{y}$.",
+          "answers": [
+            {
+              "text": "x-y",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P15",
+          "type": "Equation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "In triangle OAB, $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OB} = \\mathbf{b}$. Point Q lies on AB such that AQ : QB = 1 : 4. Write $\\overrightarrow{OQ}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$, simplified. Type your answer like (2/7)a+(5/7)b.",
+          "hint": "Q is $\\frac{1}{5}$ of the way from A to B. $\\overrightarrow{OQ} = \\mathbf{a} + \\frac{1}{5}(\\mathbf{b} - \\mathbf{a})$.",
+          "explanation": "$\\overrightarrow{AQ} = \\frac{1}{5}(\\mathbf{b} - \\mathbf{a})$. $\\overrightarrow{OQ} = \\mathbf{a} + \\frac{1}{5}\\mathbf{b} - \\frac{1}{5}\\mathbf{a} = \\frac{4}{5}\\mathbf{a} + \\frac{1}{5}\\mathbf{b}$.",
+          "answers": [
+            {
+              "text": "(4/5)a+(1/5)b",
+              "caseSensitive": false,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P16",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Which vector is parallel to $2\\mathbf{a} + 8\\mathbf{b}$?",
+          "hint": "Factorise $2\\mathbf{a} + 8\\mathbf{b} = 2(\\mathbf{a} + 4\\mathbf{b})$ and look for another multiple of $\\mathbf{a} + 4\\mathbf{b}$.",
+          "explanation": "$-3\\mathbf{a} - 12\\mathbf{b} = -3(\\mathbf{a} + 4\\mathbf{b})$, a multiple of $\\mathbf{a} + 4\\mathbf{b}$, so it is parallel (pointing the opposite way). The others are not multiples.",
+          "options": [
+            {
+              "text": "−3a − 12b",
+              "correct": true
+            },
+            {
+              "text": "2a − 8b",
+              "correct": false,
+              "feedback": "The signs do not match: this is $2(\\mathbf{a} - 4\\mathbf{b})$."
+            },
+            {
+              "text": "8a + 2b",
+              "correct": false,
+              "feedback": "The coefficients are the wrong way round."
+            },
+            {
+              "text": "a + 2b",
+              "correct": false,
+              "feedback": "The ratio of coefficients is 1 : 2, not 1 : 4."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P17",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "OPQR is a parallelogram with $\\overrightarrow{OP} = \\mathbf{p}$ and $\\overrightarrow{OR} = \\mathbf{r}$. K is the midpoint of RQ. Match each vector to its expression.",
+          "hint": "RQ is equal and parallel to OP, so $\\overrightarrow{RQ} = \\mathbf{p}$.",
+          "explanation": "$\\overrightarrow{OQ} = \\mathbf{p} + \\mathbf{r}$. $\\overrightarrow{PR} = \\mathbf{r} - \\mathbf{p}$. $\\overrightarrow{OK} = \\mathbf{r} + \\frac{1}{2}\\mathbf{p}$.",
+          "pairs": [
+            {
+              "left": "OQ",
+              "right": "p + r"
+            },
+            {
+              "left": "PR",
+              "right": "r − p"
+            },
+            {
+              "left": "OK",
+              "right": "½p + r"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-11-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "In triangle OAB, $\\overrightarrow{OA} = 4\\mathbf{a}$ and $\\overrightarrow{OB} = 4\\mathbf{b}$. P lies on OA with OP : PA = 1 : 3, and Q lies on OB with OQ : QB = 1 : 3.\n\n(a) Find $\\overrightarrow{AB}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.\n\n(b) Find $\\overrightarrow{PQ}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.\n\n(c) Use your answers to show that PQ is parallel to AB, and state the ratio PQ : AB.",
+          "hint": "OP is a quarter of OA, so $\\overrightarrow{OP} = \\mathbf{a}$, and similarly $\\overrightarrow{OQ} = \\mathbf{b}$. Then compare $\\overrightarrow{PQ}$ with $\\overrightarrow{AB}$.",
+          "explanation": "(a) $\\overrightarrow{AB} = -4\\mathbf{a} + 4\\mathbf{b} = 4\\mathbf{b} - 4\\mathbf{a}$. (b) $\\overrightarrow{OP} = \\frac{1}{4} \\times 4\\mathbf{a} = \\mathbf{a}$ and $\\overrightarrow{OQ} = \\mathbf{b}$, so $\\overrightarrow{PQ} = -\\mathbf{a} + \\mathbf{b} = \\mathbf{b} - \\mathbf{a}$. (c) $\\overrightarrow{AB} = 4(\\mathbf{b} - \\mathbf{a}) = 4\\overrightarrow{PQ}$, so AB is a multiple of PQ and the lines are parallel. PQ : AB = 1 : 4.",
+          "markScheme": [
+            {
+              "criterion": "AB = 4b − 4a (or −4a + 4b)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "4b - 4a",
+                  "4b-4a",
+                  "-4a + 4b",
+                  "-4a+4b",
+                  "4b − 4a"
+                ]
+              ]
+            },
+            {
+              "criterion": "OP = a and OQ = b used",
+              "marks": 1,
+              "keywords": [
+                [
+                  "op = a",
+                  "op=a",
+                  "op is a"
+                ],
+                [
+                  "oq = b",
+                  "oq=b",
+                  "oq is b"
+                ]
+              ]
+            },
+            {
+              "criterion": "PQ = b − a (or −a + b)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "b - a",
+                  "b-a",
+                  "-a + b",
+                  "-a+b",
+                  "b − a"
+                ]
+              ]
+            },
+            {
+              "criterion": "Shows AB = 4PQ so the vectors are multiples and the lines are parallel",
+              "marks": 1,
+              "keywords": [
+                [
+                  "multiple",
+                  "parallel",
+                  "4pq",
+                  "4 × pq",
+                  "four times"
+                ]
+              ]
+            },
+            {
+              "criterion": "Ratio PQ : AB = 1 : 4",
+              "marks": 1,
+              "keywords": [
+                [
+                  "1 : 4",
+                  "1:4",
+                  "quarter",
+                  "1/4"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

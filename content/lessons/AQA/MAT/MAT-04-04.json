@@ -549,6 +549,205 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P12",
+          "type": "FormulaCalculation",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A triangular flag has a base of 16 cm and a perpendicular height of 7.5 cm. Work out its area in cm².",
+          "hint": "Half of base × height.",
+          "explanation": "$\\frac{1}{2} \\times 16 \\times 7.5 = 60$ cm².",
+          "answers": [
+            {
+              "numeric": 60,
+              "tolerance": 0,
+              "unit": "cm²",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P13",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A trapezium-shaped road sign has parallel sides of 9 cm and 14 cm, and the perpendicular distance between them is 6 cm. Work out its area in cm².",
+          "hint": "$\\frac{1}{2}(a + b)h$ with $a = 9$, $b = 14$ and $h = 6$.",
+          "explanation": "$\\frac{1}{2}(9 + 14) \\times 6 = \\frac{1}{2} \\times 23 \\times 6 = 69$ cm².",
+          "answers": [
+            {
+              "numeric": 69,
+              "tolerance": 0,
+              "unit": "cm²",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P14",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A shape is made from a square of side 7 cm with an isosceles triangle attached to one side. The base of the triangle is the 7 cm side of the square and its perpendicular height (measured out from the square) is 5 cm. Work out the total area in cm².",
+          "hint": "Square area plus triangle area.",
+          "explanation": "Square $7 \\times 7 = 49$ cm². Triangle $\\frac{1}{2} \\times 7 \\times 5 = 17.5$ cm². Total $66.5$ cm².",
+          "answers": [
+            {
+              "numeric": 66.5,
+              "tolerance": 0,
+              "unit": "cm²",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P15",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A circular rug has a diameter of 2.6 m. Work out its area in m². Give your answer to 1 decimal place.",
+          "hint": "Radius is 1.3 m. Area $= \\pi r^2$.",
+          "explanation": "$\\pi \\times 1.3^2 = 1.69\\pi = 5.3$ m².",
+          "answers": [
+            {
+              "numeric": 5.3,
+              "tolerance": 0.1,
+              "unit": "m²",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P16",
+          "type": "Equation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A circle has radius 6.5 cm. Write its circumference in terms of $\\pi$. Type your answer like 12pi.",
+          "hint": "$2\\pi r$ with $r = 6.5$.",
+          "explanation": "$2 \\times \\pi \\times 6.5 = 13\\pi$ cm.",
+          "answers": [
+            {
+              "text": "13pi",
+              "caseSensitive": false,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A sector has radius 6 cm and an angle of 210° at the centre. Work out the area of the sector in cm². Give your answer to 1 decimal place.",
+          "hint": "$\\frac{210}{360} \\times \\pi \\times 6^2$.",
+          "explanation": "$\\frac{210}{360} = \\frac{7}{12}$. $\\frac{7}{12} \\times 36\\pi = 21\\pi = 66.0$ cm².",
+          "answers": [
+            {
+              "numeric": 66,
+              "tolerance": 0.15,
+              "unit": "cm²",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P18",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each shape to the formula for its area. Use $l$ and $w$ for length and width, $b$ and $h$ for base and perpendicular height, and $a$ and $c$ for the two parallel sides of a trapezium.",
+          "hint": "Only the triangle and the trapezium have a half in their formula.",
+          "explanation": "Rectangle $= lw$; triangle $= \\frac{1}{2}bh$; parallelogram $= bh$; trapezium $= \\frac{1}{2}(a + c)h$.",
+          "pairs": [
+            {
+              "left": "Rectangle",
+              "right": "l × w"
+            },
+            {
+              "left": "Triangle",
+              "right": "½ × b × h"
+            },
+            {
+              "left": "Parallelogram",
+              "right": "b × h"
+            },
+            {
+              "left": "Trapezium",
+              "right": "½ × (a + c) × h"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-04-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A patio is made from a rectangle 12 m long and 6 m wide, with a semicircle of diameter 6 m attached to one of the short ends.\n\n(a) Work out the total area of the patio. Give your answer to 1 decimal place.\n\n(b) A decorative border is fixed all the way round the outside edge of the patio. Work out the length of border needed, to 1 decimal place.\n\n(c) Paving slabs cost £27 per square metre. Work out the cost of paving the whole patio.",
+          "hint": "The semicircle has radius 3 m. Its curved edge is half a circumference; the flat side joins the rectangle so it is not part of the outside edge.",
+          "explanation": "(a) Rectangle $12 \\times 6 = 72$ m². Semicircle $\\frac{1}{2}\\pi(3)^2 = 4.5\\pi = 14.14$ m². Total $86.1$ m². (b) Rectangle edges: $12 + 12 + 6 = 30$ m (the end joined to the semicircle is not on the outside). Arc: $\\frac{1}{2} \\times \\pi \\times 6 = 3\\pi = 9.42$ m. Total $39.4$ m. (c) $86.14 \\times 27 = £2\\,325.70$ (accept £2 324.70 using the rounded 86.1).",
+          "markScheme": [
+            {
+              "criterion": "Semicircle area = ½ × π × 3² = 4.5π ≈ 14.14 m²",
+              "marks": 1,
+              "keywords": [
+                [
+                  "14.1",
+                  "14.14",
+                  "4.5π",
+                  "4.5 π",
+                  "4.5pi"
+                ]
+              ]
+            },
+            {
+              "criterion": "Total area ≈ 86.1 m²",
+              "marks": 1,
+              "keywords": [
+                [
+                  "86.1",
+                  "86.14"
+                ]
+              ]
+            },
+            {
+              "criterion": "Arc length = ½ × π × 6 = 3π ≈ 9.42 m",
+              "marks": 1,
+              "keywords": [
+                [
+                  "9.42",
+                  "9.4",
+                  "3π",
+                  "3 π",
+                  "3pi"
+                ]
+              ]
+            },
+            {
+              "criterion": "Border = 12 + 12 + 6 + 9.42 ≈ 39.4 m",
+              "marks": 1,
+              "keywords": [
+                [
+                  "39.4",
+                  "39.42"
+                ]
+              ]
+            },
+            {
+              "criterion": "Cost ≈ £2 326 (accept £2 324 to £2 326)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "2325",
+                  "2 325",
+                  "2,325",
+                  "2324",
+                  "2326"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

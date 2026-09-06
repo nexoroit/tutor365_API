@@ -553,6 +553,211 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P12",
+          "type": "NumericalAnswer",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Points P and Q lie on a circle with centre O. Point R is on the circumference on the major arc. Angle PRQ = 58°. Work out angle POQ in degrees.",
+          "hint": "The angle at the centre is double the angle at the circumference standing on the same arc.",
+          "explanation": "$2 \\times 58° = 116°$.",
+          "answers": [
+            {
+              "numeric": 116,
+              "tolerance": 0,
+              "unit": "°",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P13",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "PQ is a diameter of a circle and R is a point on the circumference. Angle RQP = 71°. Work out angle RPQ in degrees.",
+          "hint": "The angle at R is 90° (angle in a semicircle). Angles in a triangle sum to 180°.",
+          "explanation": "Angle PRQ = 90°, so angle RPQ $= 180° - 90° - 71° = 19°$.",
+          "answers": [
+            {
+              "numeric": 19,
+              "tolerance": 0,
+              "unit": "°",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P14",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "PQRS is a cyclic quadrilateral. Angle PQR = 112° and angle QRS = 65°. Work out angle SPQ in degrees.",
+          "hint": "Angle P and angle R are opposite angles of the quadrilateral.",
+          "explanation": "Opposite angles of a cyclic quadrilateral add to 180°, so angle SPQ $= 180° - 65° = 115°$. (The 112° pairs with angle S, not angle P.)",
+          "answers": [
+            {
+              "numeric": 115,
+              "tolerance": 0,
+              "unit": "°",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P15",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "A circle has radius 17 cm. A chord of the circle is 30 cm long. Work out the perpendicular distance from the centre of the circle to the chord, in cm.",
+          "hint": "The perpendicular from the centre bisects the chord, giving a right-angled triangle with hypotenuse 17 and one side 15.",
+          "explanation": "Half the chord is 15 cm. Distance $= \\sqrt{17^2 - 15^2} = \\sqrt{289 - 225} = \\sqrt{64} = 8$ cm.",
+          "answers": [
+            {
+              "numeric": 8,
+              "tolerance": 0,
+              "unit": "cm",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P16",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A tangent touches a circle with centre O at point M. N is a point on the tangent with angle MON = 53°. Work out angle MNO in degrees.",
+          "hint": "The radius OM meets the tangent at 90°.",
+          "explanation": "Angle OMN = 90° (tangent meets radius at right angles). In triangle OMN, angle MNO $= 180° - 90° - 53° = 37°$.",
+          "answers": [
+            {
+              "numeric": 37,
+              "tolerance": 0,
+              "unit": "°",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P17",
+          "type": "NumericalAnswer",
+          "difficulty": 4,
+          "marks": 2,
+          "text": "A tangent touches a circle at P. Chord PQ is drawn, and R is a point on the circumference in the alternate segment. Angle PRQ = 49°. Work out the angle between the tangent and the chord PQ, in degrees.",
+          "hint": "Alternate segment theorem, used in reverse.",
+          "explanation": "By the alternate segment theorem, the angle between the tangent and chord PQ equals the angle in the alternate segment, so it is 49°.",
+          "answers": [
+            {
+              "numeric": 49,
+              "tolerance": 0,
+              "unit": "°",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P18",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Match each description of a circle diagram to the theorem it illustrates.",
+          "hint": "Look for the key feature: a tangent, two tangents, a chord with a perpendicular, or an angle at the centre.",
+          "explanation": "Radius to the point of contact: the tangent and radius are perpendicular. Two tangents from one external point are equal in length. A line from the centre perpendicular to a chord bisects the chord. An angle at the centre is twice the angle at the circumference on the same arc.",
+          "pairs": [
+            {
+              "left": "A radius drawn to the point where a tangent touches the circle",
+              "right": "Tangent and radius meet at 90°"
+            },
+            {
+              "left": "Two tangents drawn to the circle from the same external point",
+              "right": "Tangents from an external point are equal in length"
+            },
+            {
+              "left": "A line from the centre meeting a chord at right angles",
+              "right": "The perpendicular from the centre bisects the chord"
+            },
+            {
+              "left": "An angle at the centre and an angle at the circumference on the same arc",
+              "right": "Angle at the centre is twice the angle at the circumference"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-10-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 5,
+          "marks": 5,
+          "examStyle": true,
+          "text": "Points A, B and C lie on a circle with centre O. Tangents from an external point T touch the circle at A and at B. Angle ATB = 46°. Point C lies on the major arc AB.\n\n(a) Work out angle AOB. Give a reason.\n\n(b) Work out angle ACB. Give a reason.\n\n(c) Work out angle OAB. Give a reason.",
+          "hint": "(a) Both radii meet the tangents at 90°; use angles in the quadrilateral OATB. (b) Angle at the centre. (c) Triangle OAB is isosceles because OA and OB are radii.",
+          "explanation": "(a) Angle OAT = angle OBT = 90° (tangent meets radius at right angles). Angles in quadrilateral OATB sum to 360°, so angle AOB $= 360° - 90° - 90° - 46° = 134°$. (b) Angle ACB $= 134° ÷ 2 = 67°$ (angle at the centre is twice the angle at the circumference). (c) OA = OB (radii), so triangle OAB is isosceles and angle OAB $= (180° - 134°) ÷ 2 = 23°$. Check: angle TAB = 90° − 23° = 67°, which matches the alternate segment theorem.",
+          "markScheme": [
+            {
+              "criterion": "Angle AOB = 134°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "134",
+                  "134.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Reason: tangent meets radius at 90° and angles in a quadrilateral sum to 360°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "tangent",
+                  "radius",
+                  "90"
+                ],
+                [
+                  "quadrilateral",
+                  "360"
+                ]
+              ]
+            },
+            {
+              "criterion": "Angle ACB = 67° with reason angle at the centre is twice the angle at the circumference",
+              "marks": 1,
+              "keywords": [
+                [
+                  "67",
+                  "67.0"
+                ],
+                [
+                  "centre",
+                  "center",
+                  "twice",
+                  "double",
+                  "half"
+                ]
+              ]
+            },
+            {
+              "criterion": "Angle OAB = 23°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "23",
+                  "23.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Reason: isosceles triangle from two radii (or tangent–radius 90° with the alternate segment theorem)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "isosceles",
+                  "radii",
+                  "radius",
+                  "alternate segment"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

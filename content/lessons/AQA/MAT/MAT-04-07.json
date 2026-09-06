@@ -537,6 +537,201 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-04-07-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "In a right-angled triangle you know the side opposite an angle and the side adjacent to it, and you want to find the angle. Which ratio should you use?",
+          "hint": "Which of SOH CAH TOA contains both O and A?",
+          "explanation": "Opposite and adjacent appear together in TOA: $\\tan\\theta = \\frac{O}{A}$, then use $\\tan^{-1}$ to find the angle.",
+          "options": [
+            {
+              "text": "tan",
+              "correct": true
+            },
+            {
+              "text": "sin",
+              "correct": false,
+              "feedback": "sin links opposite and hypotenuse."
+            },
+            {
+              "text": "cos",
+              "correct": false,
+              "feedback": "cos links adjacent and hypotenuse."
+            },
+            {
+              "text": "Pythagoras",
+              "correct": false,
+              "feedback": "Pythagoras finds a missing side, not an angle."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-07-L1-P13",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A right-angled triangle has an angle of 34° and a hypotenuse of 22 cm. Work out the length of the side **adjacent** to the 34° angle, to 2 decimal places.",
+          "hint": "$\\cos 34° = \\frac{x}{22}$.",
+          "explanation": "$x = 22 \\times \\cos 34° = 22 \\times 0.82904 = 18.24$ cm.",
+          "answers": [
+            {
+              "numeric": 18.24,
+              "tolerance": 0.02,
+              "unit": "cm",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-07-L1-P14",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "In a right-angled triangle, the side adjacent to a 41° angle is 9 cm. Work out the length of the hypotenuse to 1 decimal place.",
+          "hint": "$\\cos 41° = \\frac{9}{h}$, so $h = \\frac{9}{\\cos 41°}$.",
+          "explanation": "$h = 9 \\div 0.7547 = 11.9$ cm.",
+          "answers": [
+            {
+              "numeric": 11.9,
+              "tolerance": 0.1,
+              "unit": "cm",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-07-L1-P15",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A right-angled triangle has opposite side 7 cm and adjacent side 11 cm. Work out the angle between the adjacent side and the hypotenuse, to 1 decimal place.",
+          "hint": "$\\tan\\theta = \\frac{7}{11}$, then use $\\tan^{-1}$.",
+          "explanation": "$\\tan^{-1}(0.63636) = 32.5°$.",
+          "answers": [
+            {
+              "numeric": 32.5,
+              "tolerance": 0.15,
+              "unit": "°",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-07-L1-P16",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each trigonometric expression to its exact value (no calculator).",
+          "hint": "Use the half-equilateral triangle for 30° and 60°, the half-square for 45°, and think about what happens to cos as the angle shrinks to 0°.",
+          "explanation": "$\\sin 60° = \\frac{\\sqrt{3}}{2}$, $\\cos 45° = \\frac{\\sqrt{2}}{2}$ (the same as $\\frac{1}{\\sqrt{2}}$), $\\tan 30° = \\frac{1}{\\sqrt{3}}$, $\\cos 0° = 1$.",
+          "pairs": [
+            {
+              "left": "sin 60°",
+              "right": "√3 ⁄ 2"
+            },
+            {
+              "left": "cos 45°",
+              "right": "√2 ⁄ 2"
+            },
+            {
+              "left": "tan 30°",
+              "right": "1 ⁄ √3"
+            },
+            {
+              "left": "cos 0°",
+              "right": "1"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-07-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "From a boat on the sea, 120 m from the base of a vertical cliff, the angle of elevation of the top of the cliff is 27°. Work out the height of the cliff to 1 decimal place.",
+          "hint": "The height is opposite and 120 m is adjacent: $h = 120 \\tan 27°$.",
+          "explanation": "$120 \\times 0.5095 = 61.1$ m.",
+          "answers": [
+            {
+              "numeric": 61.1,
+              "tolerance": 0.2,
+              "unit": "m",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-07-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A straight wheelchair ramp rises 0.75 m over a horizontal distance of 9 m.\n\n(a) Work out the angle the ramp makes with the horizontal, to 1 decimal place.\n\n(b) Work out the length of the sloping surface of the ramp, to 2 decimal places.\n\n(c) Building rules say a wheelchair ramp must not be steeper than 5°. A second ramp has a sloping length of 6 m and rises 0.45 m. Does it meet the rule? Show your working.",
+          "hint": "(a) tan. (b) Pythagoras or cos. (c) $\\sin\\theta = \\frac{0.45}{6}$.",
+          "explanation": "(a) $\\tan\\theta = \\frac{0.75}{9}$, so $\\theta = \\tan^{-1}(0.08333) = 4.8°$. (b) $\\sqrt{0.75^2 + 9^2} = \\sqrt{81.5625} = 9.03$ m. (c) $\\sin\\theta = \\frac{0.45}{6} = 0.075$, so $\\theta = 4.3°$, which is less than 5°. It does meet the rule.",
+          "markScheme": [
+            {
+              "criterion": "Uses tan θ = 0.75 ÷ 9 (or equivalent)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "0.75/9",
+                  "0.75 ÷ 9",
+                  "0.75 / 9",
+                  "0.0833",
+                  "0.083"
+                ]
+              ]
+            },
+            {
+              "criterion": "Angle ≈ 4.8°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "4.8",
+                  "4.76",
+                  "4.7"
+                ]
+              ]
+            },
+            {
+              "criterion": "Slope length ≈ 9.03 m",
+              "marks": 1,
+              "keywords": [
+                [
+                  "9.03",
+                  "9.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Second ramp angle: sin⁻¹(0.45 ÷ 6) ≈ 4.3°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "4.3",
+                  "4.30",
+                  "0.075"
+                ]
+              ]
+            },
+            {
+              "criterion": "Concludes it meets the rule because 4.3° < 5°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "meets",
+                  "does meet",
+                  "yes",
+                  "allowed",
+                  "less than 5"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

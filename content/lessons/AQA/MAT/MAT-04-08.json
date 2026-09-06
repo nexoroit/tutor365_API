@@ -573,6 +573,233 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-04-08-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "In triangle XYZ you know XY = 7 cm, angle X = 40° and angle Z = 65°. You want to find YZ. Which rule should you use?",
+          "hint": "XY is opposite angle Z, and YZ is opposite angle X. Is there a side paired with its opposite angle?",
+          "explanation": "XY is paired with its opposite angle Z, and you want the side opposite the known angle X, so use the sine rule: $\\dfrac{YZ}{\\sin 40°} = \\dfrac{7}{\\sin 65°}$.",
+          "options": [
+            {
+              "text": "Sine rule",
+              "correct": true
+            },
+            {
+              "text": "Cosine rule",
+              "correct": false,
+              "feedback": "The cosine rule needs two sides and the angle between them, or all three sides."
+            },
+            {
+              "text": "Pythagoras",
+              "correct": false,
+              "feedback": "There is no right angle."
+            },
+            {
+              "text": "Area = ½ab sin C",
+              "correct": false,
+              "feedback": "That finds an area, not a side."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-08-L1-P13",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "In triangle ABC, angle B = 41°, angle C = 68° and side b = 9.5 cm. Work out side c, to 1 decimal place.",
+          "hint": "$\\dfrac{c}{\\sin 68°} = \\dfrac{9.5}{\\sin 41°}$.",
+          "explanation": "$c = \\dfrac{9.5 \\sin 68°}{\\sin 41°} = \\dfrac{8.808}{0.6561} = 13.4$ cm.",
+          "answers": [
+            {
+              "numeric": 13.4,
+              "tolerance": 0.1,
+              "unit": "cm",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-08-L1-P14",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "In triangle DEF, side d = 8 cm, side e = 13 cm and angle E = 82°. Work out angle D, to 1 decimal place.",
+          "hint": "$\\dfrac{\\sin D}{8} = \\dfrac{\\sin 82°}{13}$.",
+          "explanation": "$\\sin D = \\dfrac{8 \\sin 82°}{13} = 0.6094$, so $D = 37.5°$.",
+          "answers": [
+            {
+              "numeric": 37.5,
+              "tolerance": 0.15,
+              "unit": "°",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-08-L1-P15",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Two sides of a triangle are 5.5 cm and 8 cm and the angle between them is 63°. Work out the length of the third side, to 2 decimal places.",
+          "hint": "$x^2 = 5.5^2 + 8^2 - 2(5.5)(8)\\cos 63°$.",
+          "explanation": "$x^2 = 30.25 + 64 - 88 \\times 0.4540 = 94.25 - 39.95 = 54.30$, so $x = 7.37$ cm.",
+          "answers": [
+            {
+              "numeric": 7.37,
+              "tolerance": 0.02,
+              "unit": "cm",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-08-L1-P16",
+          "type": "FormulaCalculation",
+          "difficulty": 4,
+          "marks": 3,
+          "text": "A triangle has sides 7 cm, 9 cm and 13 cm. Work out the size of the angle opposite the 13 cm side, to 1 decimal place.",
+          "hint": "$\\cos A = \\dfrac{7^2 + 9^2 - 13^2}{2 \\times 7 \\times 9}$.",
+          "explanation": "$\\cos A = \\dfrac{49 + 81 - 169}{126} = \\dfrac{-39}{126} = -0.30952$, so $A = 108.0°$.",
+          "answers": [
+            {
+              "numeric": 108,
+              "tolerance": 0.15,
+              "unit": "°",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-08-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A triangle has sides of 6.4 cm and 9 cm with an included angle of 72°. Work out its area, to 1 decimal place.",
+          "hint": "$\\frac{1}{2} \\times 6.4 \\times 9 \\times \\sin 72°$.",
+          "explanation": "$28.8 \\times 0.9511 = 27.4$ cm².",
+          "answers": [
+            {
+              "numeric": 27.4,
+              "tolerance": 0.1,
+              "unit": "cm²",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-08-L1-P18",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "For each description of what is known about a triangle, match it to the method you would use to find the unknown.",
+          "hint": "Only the cosine rule works when all three sides are known. A right angle lets you use the basic ratios.",
+          "explanation": "Three sides and an angle wanted: the cosine rule rearranged for cos A. A side with its opposite angle plus another angle: the sine rule. A right-angled triangle with one side and one angle: SOH CAH TOA.",
+          "pairs": [
+            {
+              "left": "Three sides; find an angle",
+              "right": "Cosine rule rearranged for cos A"
+            },
+            {
+              "left": "One side, its opposite angle and one other angle; find another side",
+              "right": "Sine rule"
+            },
+            {
+              "left": "A right-angled triangle with one side and one angle; find another side",
+              "right": "SOH CAH TOA"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-08-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 5,
+          "marks": 6,
+          "examStyle": true,
+          "text": "In triangle PQR, PQ = 7 cm, PR = 11 cm and angle QPR = 62°.\n\n(a) Work out the length of QR. Give your answer to 3 significant figures.\n\n(b) Work out the size of angle PQR. Give your answer to 1 decimal place.\n\n(c) Work out the area of the triangle. Give your answer to 3 significant figures.",
+          "hint": "(a) Cosine rule with the 62° angle. (b) Sine rule with QR and 62°, or cosine rule again. (c) ½ × 7 × 11 × sin 62°.",
+          "explanation": "(a) $QR^2 = 49 + 121 - 2(7)(11)\\cos 62° = 170 - 72.30 = 97.70$, so $QR = 9.88$ cm. (b) $\\dfrac{\\sin Q}{11} = \\dfrac{\\sin 62°}{9.884}$, so $\\sin Q = 0.9826$ and $Q = 79.3°$. (c) Area $= \\frac{1}{2}(7)(11)\\sin 62° = 34.0$ cm².",
+          "markScheme": [
+            {
+              "criterion": "Correct cosine rule statement 7² + 11² − 2(7)(11)cos 62°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "cos 62",
+                  "cos62",
+                  "cos(62"
+                ],
+                [
+                  "2 × 7 × 11",
+                  "2(7)(11)",
+                  "154",
+                  "2*7*11",
+                  "2 x 7 x 11"
+                ]
+              ]
+            },
+            {
+              "criterion": "QR² ≈ 97.7",
+              "marks": 1,
+              "keywords": [
+                [
+                  "97.7",
+                  "97.70",
+                  "97.6",
+                  "97.8"
+                ]
+              ]
+            },
+            {
+              "criterion": "QR ≈ 9.88 cm",
+              "marks": 1,
+              "keywords": [
+                [
+                  "9.88",
+                  "9.9"
+                ]
+              ]
+            },
+            {
+              "criterion": "Correct sine rule (or cosine rule) set-up for angle Q",
+              "marks": 1,
+              "keywords": [
+                [
+                  "sin q",
+                  "sinq",
+                  "sin(q",
+                  "/11",
+                  "÷ 11"
+                ]
+              ]
+            },
+            {
+              "criterion": "Angle PQR ≈ 79.3°",
+              "marks": 1,
+              "keywords": [
+                [
+                  "79.3",
+                  "79.2",
+                  "79.4",
+                  "79°"
+                ]
+              ]
+            },
+            {
+              "criterion": "Area ≈ 34.0 cm²",
+              "marks": 1,
+              "keywords": [
+                [
+                  "34.0",
+                  "34.00",
+                  "33.99",
+                  "34 cm"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

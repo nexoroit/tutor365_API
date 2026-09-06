@@ -582,6 +582,213 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-04-03-L1-P12",
+          "type": "Ordering",
+          "difficulty": 1,
+          "marks": 2,
+          "text": "Put the steps in order to construct the perpendicular bisector of a line segment PQ that is 10 cm long.",
+          "hint": "You need arcs from both ends of the segment before you can draw anything with the ruler.",
+          "explanation": "Draw PQ, draw arcs above and below from P with the compasses open to more than 5 cm, repeat from Q with the same radius, then join the two crossing points with a straight line.",
+          "order": [
+            "Draw the line segment PQ 10 cm long using a ruler",
+            "Open the compasses to more than 5 cm and draw arcs above and below the line from P",
+            "Keeping the same radius, draw arcs above and below the line from Q so they cross the first arcs",
+            "Join the two crossing points with a straight line using a ruler"
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-03-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "You are bisecting an angle at vertex V. You have drawn one arc centred on V that crosses both arms of the angle. What is the next step?",
+          "hint": "The next arcs are drawn from the two points where your first arc crosses the arms.",
+          "explanation": "From each crossing point, draw an arc of the same radius inside the angle so that the two arcs cross. Joining V to that crossing point gives the bisector.",
+          "options": [
+            {
+              "text": "From each crossing point, draw an arc of the same radius inside the angle so that they cross",
+              "correct": true
+            },
+            {
+              "text": "Join the two crossing points on the arms with a straight line",
+              "correct": false,
+              "feedback": "That draws a line across the angle, not the bisector."
+            },
+            {
+              "text": "Measure the angle with a protractor and mark half of it",
+              "correct": false,
+              "feedback": "A construction must use compasses and a straight edge only, not a protractor."
+            },
+            {
+              "text": "Draw a second, larger arc centred on V",
+              "correct": false,
+              "feedback": "Another arc from V does not locate a point on the bisector."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-03-L1-P14",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each construction to the final step that completes it.",
+          "hint": "Every construction ends with a ruler line, but the line passes through different points each time.",
+          "explanation": "Perpendicular bisector: join the two arc crossings above and below the segment. Angle bisector: draw from the vertex through the crossing of the two inner arcs. Perpendicular from a point: draw from the point through the crossing of the arcs made from the two points on the line. 60° angle: draw from the end of the line through the point where the two arcs cross.",
+          "pairs": [
+            {
+              "left": "Perpendicular bisector of a segment AB",
+              "right": "Join the two points where the arcs cross, above and below AB"
+            },
+            {
+              "left": "Bisector of an angle at vertex V",
+              "right": "Draw a line from V through the point where the two arcs inside the angle cross"
+            },
+            {
+              "left": "Perpendicular from a point P to a line",
+              "right": "Draw a line from P through the point where the arcs from the two crossings on the line meet"
+            },
+            {
+              "left": "A 60° angle at the end A of a line",
+              "right": "Draw a line from A through the point where the arc from A and the arc from the crossing meet"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-03-L1-P15",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "A boat must keep at least 50 m away from a lighthouse standing on a rock. Which describes the region where the boat is allowed to be?",
+          "hint": "Being at least 50 m away means the distance can be 50 m or more, in any direction.",
+          "explanation": "Points that are at least 50 m from a fixed point are on or outside a circle of radius 50 m centred on the lighthouse.",
+          "options": [
+            {
+              "text": "Everywhere on or outside a circle of radius 50 m centred on the lighthouse",
+              "correct": true
+            },
+            {
+              "text": "Everywhere inside a circle of radius 50 m centred on the lighthouse",
+              "correct": false,
+              "feedback": "That is the region the boat must avoid."
+            },
+            {
+              "text": "Only the circumference of a circle of radius 50 m",
+              "correct": false,
+              "feedback": "The boat may be further away than 50 m as well."
+            },
+            {
+              "text": "A straight line 50 m from the lighthouse",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-03-L1-P16",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A plan of a park is drawn to a scale of 2 cm to 25 m. A fountain sprays water up to 15 m from its centre. What radius, in cm, should be used to draw the circle showing the wet area on the plan?",
+          "hint": "First work out how many cm on the plan represent 1 m, then multiply by 15.",
+          "explanation": "$25$ m is $2$ cm, so $1$ m is $2 ÷ 25 = 0.08$ cm. $15 × 0.08 = 1.2$ cm.",
+          "answers": [
+            {
+              "numeric": 1.2,
+              "tolerance": 0.01,
+              "unit": "cm",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-03-L1-P17",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete the two facts about loci by filling in the blanks.",
+          "metadata": {
+            "blanksText": "The locus of points that are a fixed distance from a single fixed point is a ___. The locus of points that are a fixed distance from a straight line is a pair of ___ lines, one on each side of it."
+          },
+          "hint": "Think of a goat on a rope, then a path running alongside a straight road.",
+          "explanation": "A fixed distance from a point gives a circle. A fixed distance from a line gives two parallel lines, one on each side (with semicircular ends if the line is a segment).",
+          "answers": [
+            {
+              "text": "circle",
+              "blankIndex": 0,
+              "marks": 1
+            },
+            {
+              "text": "parallel",
+              "blankIndex": 1,
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-03-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 4,
+          "examStyle": true,
+          "text": "A rectangular garden ABCD is drawn to a scale of 1 cm to 4 m. AB is 10 cm long and BC is 6 cm long. A shed is to be placed so that it is:\n\n- no more than 12 m from corner C, and\n- nearer to corner B than to corner D.\n\nDescribe fully the constructions you would draw, including the compass radius, and describe the region where the shed can go.",
+          "hint": "Convert 12 m to cm on the drawing. \"Nearer to B than to D\" means the side of the perpendicular bisector of BD that contains B.",
+          "explanation": "12 m = 3 cm. Draw an arc of radius 3 cm centred on C; the shed must be inside it. Construct the perpendicular bisector of the diagonal BD using equal arcs from B and D; the shed must be on the B side of this line. The region is the part of the garden inside the 3 cm arc around C and on B's side of the perpendicular bisector of BD.",
+          "markScheme": [
+            {
+              "criterion": "Converts 12 m to 3 cm using the scale",
+              "marks": 1,
+              "keywords": [
+                [
+                  "3 cm",
+                  "3cm",
+                  "radius 3",
+                  "radius of 3"
+                ]
+              ]
+            },
+            {
+              "criterion": "Arc/circle centred on C of radius 3 cm, with the region inside it",
+              "marks": 1,
+              "keywords": [
+                [
+                  "arc",
+                  "circle"
+                ],
+                [
+                  "inside",
+                  "within",
+                  "no more than",
+                  "less than"
+                ]
+              ]
+            },
+            {
+              "criterion": "Perpendicular bisector of BD constructed with equal arcs from B and D",
+              "marks": 1,
+              "keywords": [
+                [
+                  "perpendicular bisector",
+                  "bisector of bd",
+                  "equidistant",
+                  "midway"
+                ]
+              ]
+            },
+            {
+              "criterion": "Region is on B's side of the bisector and inside the arc",
+              "marks": 1,
+              "keywords": [
+                [
+                  "side of b",
+                  "nearer b",
+                  "closer to b",
+                  "b side",
+                  "towards b"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

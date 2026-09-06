@@ -540,6 +540,198 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "Triangle PQR has its right angle at vertex R. Which side is the hypotenuse?",
+          "hint": "The hypotenuse is opposite the right angle; it is the one side that does not touch R.",
+          "explanation": "The right angle is at R, so the hypotenuse is the side that does not include R: PQ.",
+          "options": [
+            {
+              "text": "PQ",
+              "correct": true
+            },
+            {
+              "text": "PR",
+              "correct": false,
+              "feedback": "PR touches the right angle at R, so it is one of the shorter sides."
+            },
+            {
+              "text": "QR",
+              "correct": false,
+              "feedback": "QR touches the right angle at R."
+            },
+            {
+              "text": "Whichever side is drawn horizontally",
+              "correct": false,
+              "feedback": "The hypotenuse is fixed by the position of the right angle, not by how the diagram is drawn."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P13",
+          "type": "FormulaCalculation",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A right-angled triangle has shorter sides of 20 cm and 21 cm. Work out the length of the hypotenuse in cm.",
+          "hint": "$20^2 + 21^2$, then square root.",
+          "explanation": "$400 + 441 = 841$, and $\\sqrt{841} = 29$ cm.",
+          "answers": [
+            {
+              "numeric": 29,
+              "tolerance": 0,
+              "unit": "cm",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P14",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A right-angled triangle has hypotenuse 26 cm and one shorter side 10 cm. Work out the other shorter side in cm.",
+          "hint": "$26^2 - 10^2$, then square root.",
+          "explanation": "$676 - 100 = 576$, $\\sqrt{576} = 24$ cm.",
+          "answers": [
+            {
+              "numeric": 24,
+              "tolerance": 0,
+              "unit": "cm",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P15",
+          "type": "FormulaCalculation",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Find the distance between the points (1, −4) and (13, 1). Give your answer to 1 decimal place.",
+          "hint": "Horizontal change 12, vertical change 5.",
+          "explanation": "$\\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13.0$.",
+          "answers": [
+            {
+              "numeric": 13,
+              "tolerance": 0.05,
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P16",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "Four sets of side lengths are shown. Select **all** the sets that could be the sides of a right-angled triangle.",
+          "hint": "Square the two shorter lengths and add them. Compare the total with the square of the longest length.",
+          "explanation": "9, 40, 41: $81 + 1600 = 1681 = 41^2$ ✓. 7, 24, 25: $49 + 576 = 625 = 25^2$ ✓. 8, 10, 12: $64 + 100 = 164 \\ne 144$. 6, 7, 9: $36 + 49 = 85 \\ne 81$.",
+          "options": [
+            {
+              "text": "9 cm, 40 cm, 41 cm",
+              "correct": true
+            },
+            {
+              "text": "7 cm, 24 cm, 25 cm",
+              "correct": true
+            },
+            {
+              "text": "8 cm, 10 cm, 12 cm",
+              "correct": false,
+              "feedback": "$64 + 100 = 164$, not 144."
+            },
+            {
+              "text": "6 cm, 7 cm, 9 cm",
+              "correct": false,
+              "feedback": "$36 + 49 = 85$, not 81."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P17",
+          "type": "FormulaCalculation",
+          "difficulty": 4,
+          "marks": 3,
+          "tier": "Higher",
+          "text": "A cuboid has edges 2 cm, 6 cm and 9 cm. Work out the length of its longest diagonal in cm.",
+          "hint": "$\\sqrt{2^2 + 6^2 + 9^2}$.",
+          "explanation": "$4 + 36 + 81 = 121$, and $\\sqrt{121} = 11$ cm.",
+          "answers": [
+            {
+              "numeric": 11,
+              "tolerance": 0,
+              "unit": "cm",
+              "marks": 3
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-06-L1-P18",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "A rectangular park is 120 m long and 90 m wide. Amira jogs from one corner to the diagonally opposite corner, straight across the grass. Leo jogs between the same two corners but along two sides of the park.\n\n(a) How far does Amira jog?\n\n(b) How much further does Leo jog than Amira?\n\n(c) An isosceles triangle has two equal sides of 25 cm and a base of 14 cm. Work out its area.",
+          "hint": "(a) The diagonal is the hypotenuse of a 120 by 90 right-angled triangle. (c) Halve the base, find the height with Pythagoras, then use ½ × base × height.",
+          "explanation": "(a) $\\sqrt{120^2 + 90^2} = \\sqrt{14400 + 8100} = \\sqrt{22500} = 150$ m. (b) Leo jogs $120 + 90 = 210$ m, which is $60$ m further. (c) Height $= \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$ cm. Area $= \\frac{1}{2} \\times 14 \\times 24 = 168$ cm².",
+          "markScheme": [
+            {
+              "criterion": "Uses 120² + 90² (= 22 500)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "22500",
+                  "22 500",
+                  "22,500",
+                  "120^2 + 90^2",
+                  "120² + 90²"
+                ]
+              ]
+            },
+            {
+              "criterion": "Amira jogs 150 m",
+              "marks": 1,
+              "keywords": [
+                [
+                  "150",
+                  "150.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Leo jogs 60 m further (210 − 150)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "60",
+                  "60.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Height of isosceles triangle = 24 cm (using half-base 7)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "24",
+                  "24.0"
+                ]
+              ]
+            },
+            {
+              "criterion": "Area = 168 cm²",
+              "marks": 1,
+              "keywords": [
+                [
+                  "168",
+                  "168.0"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }

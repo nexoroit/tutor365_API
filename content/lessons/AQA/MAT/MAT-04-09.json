@@ -633,6 +633,261 @@
               ]
             }
           ]
+        },
+        {
+          "key": "AQA-MAT-04-09-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 1,
+          "marks": 1,
+          "text": "A point at (−3, 6) is translated by the vector $\\begin{pmatrix} 7 \\\\ -8 \\end{pmatrix}$. Where is its image?",
+          "hint": "Add the top number to the $x$-coordinate and the bottom number to the $y$-coordinate.",
+          "explanation": "$-3 + 7 = 4$ and $6 + (-8) = -2$, so the image is at (4, −2).",
+          "options": [
+            {
+              "text": "(4, −2)",
+              "correct": true
+            },
+            {
+              "text": "(−10, 14)",
+              "correct": false,
+              "feedback": "You subtracted the vector instead of adding it."
+            },
+            {
+              "text": "(4, 14)",
+              "correct": false,
+              "feedback": "Check the sign of the bottom number: −8 moves the point down."
+            },
+            {
+              "text": "(−10, −2)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-09-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "The point (−4, 1) is reflected in the line $y = -x$. What are the coordinates of its image?",
+          "hint": "Reflecting in $y = -x$ swaps the coordinates and changes both signs.",
+          "explanation": "$(x, y) \\to (-y, -x)$, so (−4, 1) becomes (−1, 4).",
+          "options": [
+            {
+              "text": "(−1, 4)",
+              "correct": true
+            },
+            {
+              "text": "(1, −4)",
+              "correct": false,
+              "feedback": "That is a reflection in $y = x$."
+            },
+            {
+              "text": "(4, 1)",
+              "correct": false,
+              "feedback": "That is a reflection in the $y$-axis."
+            },
+            {
+              "text": "(−4, −1)",
+              "correct": false,
+              "feedback": "That is a reflection in the $x$-axis."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-09-L1-P14",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "The point (3, −5) is rotated 90° anticlockwise about the origin. What are the coordinates of its image?",
+          "hint": "A quarter turn anticlockwise about the origin sends $(x, y)$ to $(-y, x)$.",
+          "explanation": "$(x, y) \\to (-y, x)$, so (3, −5) becomes (5, 3).",
+          "options": [
+            {
+              "text": "(5, 3)",
+              "correct": true
+            },
+            {
+              "text": "(−5, −3)",
+              "correct": false,
+              "feedback": "That is a 90° clockwise rotation."
+            },
+            {
+              "text": "(−3, 5)",
+              "correct": false,
+              "feedback": "That is a 180° rotation."
+            },
+            {
+              "text": "(5, −3)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-09-L1-P15",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A student describes a transformation as \"a rotation about the origin\". Select **all** the pieces of information that are missing from a full description.",
+          "hint": "A rotation needs three details; the centre has already been given.",
+          "explanation": "A full description of a rotation needs the angle, the direction (clockwise or anticlockwise) and the centre. The centre (the origin) has been given; the angle and the direction are missing. A column vector describes a translation, and a scale factor belongs to an enlargement.",
+          "options": [
+            {
+              "text": "The angle of rotation",
+              "correct": true
+            },
+            {
+              "text": "The direction (clockwise or anticlockwise)",
+              "correct": true
+            },
+            {
+              "text": "A column vector",
+              "correct": false,
+              "feedback": "Column vectors describe translations."
+            },
+            {
+              "text": "The scale factor",
+              "correct": false,
+              "feedback": "Scale factors are for enlargements."
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-09-L1-P16",
+          "type": "NumericalAnswer",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "A shape is enlarged by scale factor 1.5 with centre (0, 0). One vertex of the original shape is at (8, 6). What is the $x$-coordinate of the corresponding vertex on the image?",
+          "hint": "With the centre at the origin, multiply both coordinates by the scale factor.",
+          "explanation": "$8 \\times 1.5 = 12$. The image vertex is at (12, 9).",
+          "answers": [
+            {
+              "numeric": 12,
+              "tolerance": 0,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-09-L1-P17",
+          "type": "NumericalAnswer",
+          "difficulty": 3,
+          "marks": 2,
+          "text": "A pentagon with a side of 8 cm is enlarged and the corresponding side on the image is 14 cm. Write down the scale factor of the enlargement as a decimal.",
+          "hint": "Scale factor = image length ÷ object length.",
+          "explanation": "$14 \\div 8 = 1.75$. The image is bigger, so the scale factor is greater than 1.",
+          "answers": [
+            {
+              "numeric": 1.75,
+              "tolerance": 0.001,
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-09-L1-P18",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each transformation to the correct description of its image.",
+          "hint": "Three of the transformations keep the shape exactly the same size; one does not.",
+          "explanation": "A translation slides the shape without turning or flipping it. A reflection produces a congruent mirror image. A rotation produces a congruent image turned about a centre. An enlargement produces a similar image whose lengths have all been multiplied by the scale factor.",
+          "pairs": [
+            {
+              "left": "Translation",
+              "right": "Congruent and the same way up – every point slides the same distance in the same direction"
+            },
+            {
+              "left": "Reflection",
+              "right": "Congruent but flipped – a mirror image"
+            },
+            {
+              "left": "Rotation",
+              "right": "Congruent and turned about a fixed centre"
+            },
+            {
+              "left": "Enlargement",
+              "right": "Similar – angles unchanged, every length multiplied by the scale factor"
+            }
+          ]
+        },
+        {
+          "key": "AQA-MAT-04-09-L1-P19",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 5,
+          "examStyle": true,
+          "text": "Triangle P has vertices at (1, 2), (3, 2) and (3, 5).\n\n(a) Triangle Q is the image of P after a reflection in the line $y = -1$. Write down the coordinates of the vertices of Q.\n\n(b) Triangle R has vertices at (−2, 1), (−2, 3) and (−5, 3). Describe fully the single transformation that maps P onto R.\n\n(c) Triangle S is the image of P after an enlargement, scale factor 3, centre (3, 2). Write down the coordinates of the vertices of S.",
+          "hint": "(a) Each point's distance above $y = -1$ is mirrored below the line. (b) Compare each vertex $(x, y)$ with its image: it has become $(-y, x)$. (c) The centre is a vertex of P, so that vertex does not move.",
+          "explanation": "(a) (1, 2) is 3 above $y = -1$, so its image is 3 below: (1, −4). Similarly (3, 2) → (3, −4), and (3, 5), which is 6 above, → (3, −7). (b) Every point $(x, y)$ has become $(-y, x)$: (1, 2) → (−2, 1), (3, 2) → (−2, 3), (3, 5) → (−5, 3). This is a rotation of 90° anticlockwise about the origin (0, 0). (c) Centre (3, 2) stays fixed. (1, 2) is 2 left of the centre, so its image is 6 left: (−3, 2). (3, 5) is 3 up, so its image is 9 up: (3, 11). S has vertices (3, 2), (−3, 2), (3, 11).",
+          "markScheme": [
+            {
+              "criterion": "Q has vertices (1, −4), (3, −4) and (3, −7)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "(1, -4)",
+                  "(1,-4)",
+                  "(1, −4)",
+                  "(1,−4)"
+                ],
+                [
+                  "(3, -7)",
+                  "(3,-7)",
+                  "(3, −7)",
+                  "(3,−7)"
+                ]
+              ]
+            },
+            {
+              "criterion": "Identifies the transformation P to R as a rotation",
+              "marks": 1,
+              "keywords": [
+                [
+                  "rotation",
+                  "rotate",
+                  "rotated"
+                ]
+              ]
+            },
+            {
+              "criterion": "States 90° anticlockwise (or 270° clockwise) about the origin (0, 0)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "anticlockwise",
+                  "anti-clockwise",
+                  "270"
+                ],
+                [
+                  "origin",
+                  "(0, 0)",
+                  "(0,0)"
+                ]
+              ]
+            },
+            {
+              "criterion": "S includes the invariant vertex (3, 2) and (−3, 2)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "(-3, 2)",
+                  "(-3,2)",
+                  "(−3, 2)",
+                  "(−3,2)"
+                ]
+              ]
+            },
+            {
+              "criterion": "S includes the vertex (3, 11)",
+              "marks": 1,
+              "keywords": [
+                [
+                  "(3, 11)",
+                  "(3,11)"
+                ]
+              ]
+            }
+          ]
         }
       ]
     }
