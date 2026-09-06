@@ -26,9 +26,10 @@ public class AiTutorService : IAiTutorService
     private readonly IMarkingService _marking;
     private readonly IAiSettingsService _settings;
 
-    public AiTutorService(IAppDbContext db, IAccessService access, IAiProvider ai, IMarkingService marking, IAiSettingsService settings)
+    private readonly Microsoft.Extensions.Logging.ILogger<AiTutorService> _logger;
+    public AiTutorService(IAppDbContext db, IAccessService access, IAiProvider ai, IMarkingService marking, IAiSettingsService settings, Microsoft.Extensions.Logging.ILogger<AiTutorService> logger)
     {
-        _db = db; _access = access; _ai = ai; _marking = marking; _settings = settings;
+        _db = db; _access = access; _ai = ai; _marking = marking; _settings = settings; _logger = logger;
     }
 
     public async Task<AiTutorResponse> AskAsync(AiTutorRequest request, CancellationToken ct = default)
@@ -97,6 +98,16 @@ public class AiTutorService : IAiTutorService
             reply = completion.IsStub ? FallbackReply(intent, question, lesson, lastAnswer, student.User.FirstName) : Sanitise(completion.Content, question);
             isStub = completion.IsStub;
             conversation.TotalTokens += completion.InputTokens + completion.OutputTokens;
+            // The model must not solve the student's own question for these intents. If it did, ask once more with a firmer
+            // instruction; if it still leaks, fall back to the lesson's own worked example.
+            var guarded = intent is "example" or "hint" or "explain" or "easier" or "harder" && (lastAnswer == null || !lastAnswer.IsCorrect);
+            if (!completion.IsStub && guarded && LeaksAnswer(reply, question))
+            {
+                Microsoft.Extensions.Logging.LoggerExtensions.LogWarning(_logger, "AI tutor reply for intent {Intent} leaked the answer to question {QuestionId}; retrying", intent, question?.Id);
+                var retry = await _ai.CompleteAsync(new AiRequest(system + "\nIMPORTANT: your previous reply revealed the answer to the current question. Reply again using a completely different problem with different numbers, and never mention the current question's answer.", history, 700, "tutor"), ct);
+                conversation.TotalTokens += retry.InputTokens + retry.OutputTokens;
+                reply = !retry.IsStub && !LeaksAnswer(Sanitise(retry.Content, question), question) ? Sanitise(retry.Content, question) : FallbackReply(intent, question, lesson, lastAnswer, student.User.FirstName);
+            }
         }
         else
         {
@@ -167,6 +178,22 @@ public class AiTutorService : IAiTutorService
             sb.AppendLine($"Student's last answer: \"{DescribeAnswer(lastAnswer, question)}\" scored {lastAnswer.Score:0.##}/{lastAnswer.MaxScore:0.##}.{(string.IsNullOrWhiteSpace(lastAnswer.MissingCriteriaJson) ? "" : " Missing: " + lastAnswer.MissingCriteriaJson)}");
         if (mastery.HasValue) sb.AppendLine($"Topic mastery: {Math.Round(mastery.Value * 100)}%.");
         sb.AppendLine($"Intent: {intent}. Rules: give hints before answers; never give the final answer to an unanswered question; ask a guiding question back; keep replies under 150 words; encourage; stay on the learning topic; if asked about anything unrelated to GCSE study, politely steer back.");
+        switch (intent)
+        {
+            case "example":
+                sb.AppendLine("For this request write ONE NEW worked example that practises the same skill as the current question but is a DIFFERENT problem: change the numbers, quantities, names and context, and change the wording. Solve that new problem step by step. Do NOT reuse the numbers, objects or phrasing of the current question, and do NOT state or hint at the current question's answer. Finish by inviting the student to apply the same steps to their own question.");
+                break;
+            case "easier":
+                sb.AppendLine("Write ONE new, simpler question on the same skill (smaller numbers or fewer steps) for the student to try. Do not solve it and do not answer the current question.");
+                break;
+            case "harder":
+                sb.AppendLine("Write ONE new, more challenging question on the same skill for the student to try. Do not solve it and do not answer the current question.");
+                break;
+            case "hint":
+            case "explain":
+                sb.AppendLine("Explain the method or the idea; never state the final answer or the correct option of the current question.");
+                break;
+        }
         return sb.ToString();
     }
 
@@ -199,6 +226,33 @@ public class AiTutorService : IAiTutorService
     {
         // Strip any accidental echo of the system prompt markers.
         return content.Replace("Approved lesson content", "").Trim();
+    }
+
+    /// <summary>
+    /// True when a reply for a "don't give the answer" intent contains the current question's answer
+    /// (a correct option's text, an accepted answer, or a numeric answer written as a number).
+    /// </summary>
+    internal static bool LeaksAnswer(string reply, Question? question)
+    {
+        if (question == null || string.IsNullOrWhiteSpace(reply)) return false;
+        var text = reply.ToLowerInvariant();
+        foreach (var opt in question.Options.Where(o => o.IsCorrect))
+        {
+            var t = opt.Text.Trim().ToLowerInvariant();
+            if (t.Length >= 3 && text.Contains(t) && question.QuestionType is QuestionType.MultipleChoice or QuestionType.MultipleAnswer) return true;
+        }
+        foreach (var ans in question.AcceptedAnswers)
+        {
+            if (ans.NumericValue.HasValue)
+            {
+                var v = ans.NumericValue.Value;
+                var forms = new[] { v.ToString("0.####"), v.ToString("0.##"), v.ToString("0") };
+                foreach (var f in forms.Distinct())
+                    if (System.Text.RegularExpressions.Regex.IsMatch(text, $@"(?<!\d|\d\.){System.Text.RegularExpressions.Regex.Escape(f)}(?!\d|\.\d)")) return true;
+            }
+            else if (!string.IsNullOrWhiteSpace(ans.AnswerText) && ans.AnswerText.Trim().Length >= 3 && text.Contains(ans.AnswerText.Trim().ToLowerInvariant())) return true;
+        }
+        return false;
     }
 
     private string FallbackReply(string intent, Question? q, Lesson? lesson, StudentAnswer? last, string name)

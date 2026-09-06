@@ -16,4 +16,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <InternalsVisibleTo Include="Tutor365.UnitTests" />
+    <InternalsVisibleTo Include="Tutor365.IntegrationTests" />
+  </ItemGroup>
 </Project>

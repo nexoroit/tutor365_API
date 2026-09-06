@@ -139,3 +139,67 @@ public class AccountAndAlertTests : IClassFixture<ApiFactory>
         await _client.SendAsync(HttpMethod.Delete, $"/api/v1/parents/me/children/{studentId}", token: parentToken);
     }
 }
+
+public class VarietyTests : IClassFixture<ApiFactory>
+{
+    private readonly HttpClient _client;
+    private readonly ApiFactory _factory;
+    public VarietyTests(ApiFactory factory) { _factory = factory; _client = factory.CreateClient(); }
+
+    private async Task<string> ForceOtpAsync(string email)
+    {
+        using var scope = _factory.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        var normalized = email.ToUpperInvariant();
+        var otp = db.OtpCodes.Where(o => o.Email == normalized && o.Purpose == OtpPurpose.Registration && o.ConsumedAt == null).OrderByDescending(o => o.CreatedAt).First();
+        const string code = "123456";
+        otp.CodeHash = Convert.ToHexString(System.Security.Cryptography.SHA256.HashData(System.Text.Encoding.UTF8.GetBytes($"{normalized}:{code}")));
+        await db.SaveChangesAsync();
+        return code;
+    }
+
+    [Fact]
+    public async Task Different_students_get_different_question_variants_for_the_same_lesson()
+    {
+        var stamp = Guid.NewGuid().ToString("N")[..8];
+        var parentEmail = $"it-var-parent-{stamp}@tutor365.test";
+        var (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/auth/register", new { email = parentEmail, password = "Parent1234", firstName = "Var", lastName = "Parent" });
+        s.Should().Be(200);
+        (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/auth/verify-email", new { email = parentEmail, code = await ForceOtpAsync(parentEmail) });
+        var parentToken = b.Data().Str("accessToken");
+        var (_, years) = await _client.SendAsync(HttpMethod.Get, "/api/v1/year-groups");
+        var year10 = years.Data().EnumerateArray().First(y => y.GetProperty("number").GetInt32() == 10).Str("id");
+        var (_, subjects) = await _client.SendAsync(HttpMethod.Get, "/api/v1/subjects");
+        var maths = subjects.Data().EnumerateArray().First(x => x.Str("code") == "MAT").Str("id");
+        var (_, lessons) = await _client.SendAsync(HttpMethod.Get, $"/api/v1/lessons?subjectId={maths}", token: parentToken);
+        var lessonId = lessons.Data().EnumerateArray().First().Str("id");
+
+        var papers = new List<string>();
+        var studentIds = new List<string>();
+        for (var i = 0; i < 3; i++)
+        {
+            var childEmail = $"it-var-child-{stamp}-{i}@tutor365.test";
+            (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/parents/me/children", new { firstName = $"Kid{i}", lastName = "Var", email = childEmail, password = "Child1234", yearGroupId = year10, targetGrade = 6 }, parentToken);
+            s.Should().Be(201, b.ToString());
+            studentIds.Add(b.Data().GetProperty("summary").Str("studentId"));
+            (_, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/auth/login", new { email = childEmail, password = "Child1234" });
+            var childToken = b.Data().Str("accessToken");
+            (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/study-sessions", new { lessonId }, childToken);
+            s.Should().Be(200, b.ToString());
+            var qids = b.Data().GetProperty("activities").EnumerateArray()
+                .Where(a => a.TryGetProperty("question", out var q) && q.ValueKind == JsonValueKind.Object)
+                .Select(a => a.GetProperty("question").Str("id")).ToList();
+            qids.Should().NotBeEmpty();
+            papers.Add(string.Join(",", qids));
+            // Starting again (abandon + new) gives the same student the same paper for attempt 1.
+            var sessionId = b.Data().Str("id");
+            await _client.SendAsync(HttpMethod.Post, $"/api/v1/study-sessions/{sessionId}/abandon", token: childToken);
+            (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/study-sessions", new { lessonId }, childToken);
+            s.Should().Be(200, b.ToString());
+            var again = string.Join(",", b.Data().GetProperty("activities").EnumerateArray().Where(a => a.TryGetProperty("question", out var q) && q.ValueKind == JsonValueKind.Object).Select(a => a.GetProperty("question").Str("id")));
+            again.Should().Be(papers[^1], "the variant choice is stable for a student");
+        }
+        papers.Distinct().Count().Should().BeGreaterThan(1, "three students should not all receive the identical paper");
+        foreach (var id in studentIds) await _client.SendAsync(HttpMethod.Delete, $"/api/v1/parents/me/children/{id}", token: parentToken);
+    }
+}

@@ -216,29 +216,43 @@ public class StudySessionService : IStudySessionService
     {
         var list = new List<SessionActivity>();
         var order = 0;
-        // Alternate question pool for re-attempts: practice questions on this lesson not yet answered correctly.
-        List<Question> pool = new();
-        if (attempt > 1)
-        {
-            var activityQuestionIds = lesson.Activities.Where(a => a.QuestionId.HasValue).Select(a => a.QuestionId!.Value).ToList();
-            var correctlyAnswered = await _db.StudentAnswers.Where(a => a.StudentId == studentId && a.IsCorrect).Select(a => a.QuestionId).Distinct().ToListAsync(ct);
-            pool = await _db.Questions.Where(q => q.LessonId == lesson.Id && q.Status == ContentStatus.Published && !activityQuestionIds.Contains(q.Id) && !correctlyAnswered.Contains(q.Id))
-                .OrderBy(q => q.Difficulty).ToListAsync(ct);
-        }
+        // Variant pool: this lesson's published practice questions. Each question activity is swapped for a
+        // same-type, similar-difficulty variant chosen per student, so two students rarely see the same paper,
+        // and a re-attempt avoids questions the student has already got right.
+        var activityQuestionIds = lesson.Activities.Where(a => a.QuestionId.HasValue).Select(a => a.QuestionId!.Value).ToList();
+        var originals = await _db.Questions.Where(q => activityQuestionIds.Contains(q.Id)).Select(q => new { q.Id, q.Difficulty, q.QuestionType, q.MaxMarks }).ToListAsync(ct);
+        var pool = await _db.Questions.Where(q => q.LessonId == lesson.Id && q.Status == ContentStatus.Published && !activityQuestionIds.Contains(q.Id))
+            .Select(q => new { q.Id, q.Difficulty, q.QuestionType, q.MaxMarks }).ToListAsync(ct);
+        var correctlyAnswered = attempt > 1
+            ? await _db.StudentAnswers.Where(a => a.StudentId == studentId && a.IsCorrect).Select(a => a.QuestionId).Distinct().ToListAsync(ct)
+            : new List<Guid>();
         var used = new HashSet<Guid>();
         foreach (var a in lesson.Activities.OrderBy(a => a.SortOrder))
         {
             order++;
             var qid = a.QuestionId;
-            if (attempt > 1 && qid.HasValue && pool.Count > 0)
+            var original = qid.HasValue ? originals.FirstOrDefault(o => o.Id == qid) : null;
+            if (original != null)
             {
-                var original = await _db.Questions.Where(q => q.Id == qid).Select(q => new { q.Difficulty, q.QuestionType }).FirstOrDefaultAsync(ct);
-                var alt = pool.Where(p => !used.Contains(p.Id)).OrderBy(p => Math.Abs(p.Difficulty - (original?.Difficulty ?? 3))).ThenBy(p => p.QuestionType == original?.QuestionType ? 0 : 1).FirstOrDefault();
-                if (alt != null && (attempt % 2 == 0 || original == null)) { qid = alt.Id; used.Add(alt.Id); }
+                var candidates = pool.Where(p => !used.Contains(p.Id) && p.QuestionType == original.QuestionType && p.MaxMarks == original.MaxMarks && Math.Abs(p.Difficulty - original.Difficulty) <= 1)
+                    .Select(p => p.Id).ToList();
+                if (!used.Contains(original.Id)) candidates.Add(original.Id);
+                if (attempt > 1) { var fresh = candidates.Where(c => !correctlyAnswered.Contains(c)).ToList(); if (fresh.Count > 0) candidates = fresh; }
+                if (candidates.Count > 0) qid = PickVariant(candidates, studentId, a.Id, attempt);
+                used.Add(qid!.Value);
             }
             list.Add(new SessionActivity { SessionId = session.Id, LessonActivityId = a.Id, QuestionId = qid, SortOrder = order });
         }
         return list;
+    }
+
+    /// <summary>Deterministic choice: the same student gets the same variant for an activity on a given attempt, different students differ.</summary>
+    internal static Guid PickVariant(IReadOnlyList<Guid> candidates, Guid studentId, Guid activityId, int attempt)
+    {
+        if (candidates.Count == 1) return candidates[0];
+        var bytes = System.Security.Cryptography.SHA256.HashData(System.Text.Encoding.UTF8.GetBytes($"{studentId:N}:{activityId:N}:{attempt}"));
+        var index = (int)(BitConverter.ToUInt32(bytes, 0) % (uint)candidates.Count);
+        return candidates.OrderBy(c => c).ElementAt(index);
     }
 
     private async Task<List<SessionActivity>> BuildQuestionSetActivitiesAsync(StudySession session, Guid studentId, Guid topicId, Guid? lessonId, int count, CancellationToken ct)
@@ -684,12 +698,12 @@ public class StudySessionService : IStudySessionService
             IsAssessment(s), s.TimeLimitMinutes, s.Status == StudySessionStatus.Active ? SecondsRemaining(s) : null);
     }
 
-    /// <summary>Renders a question for the client without revealing answers. Ordering/matching options are shuffled deterministically per session.</summary>
+    /// <summary>Renders a question for the client without revealing answers. Choice and ordering options are shuffled deterministically per session (marking is by option id).</summary>
     public static QuestionDto RenderQuestion(Question q, Guid sessionId)
     {
         var rnd = new Random(unchecked(sessionId.GetHashCode() ^ q.Id.GetHashCode()));
         IEnumerable<QuestionOption> opts = q.Options.OrderBy(o => o.SortOrder);
-        if (q.QuestionType == QuestionType.Ordering) opts = q.Options.OrderBy(_ => rnd.Next());
+        if (q.QuestionType is QuestionType.Ordering or QuestionType.MultipleChoice or QuestionType.MultipleAnswer) opts = q.Options.OrderBy(_ => rnd.Next());
         var options = opts.Select((o, i) => new QuestionOptionDto(o.Id, o.Text, i)).ToList();
 
         IReadOnlyList<string>? targets = null; string? blanksText = null; JsonElement? meta = null;
