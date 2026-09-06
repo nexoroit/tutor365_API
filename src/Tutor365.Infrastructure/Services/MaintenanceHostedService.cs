@@ -73,6 +73,39 @@ public class MaintenanceHostedService : BackgroundService
         }
 
         var changed = await db.SaveChangesAsync(ct);
+
+        // Alerts for what was just marked missed/overdue. Statuses only transition once, so each alert is sent once.
+        var notifications = scope.ServiceProvider.GetRequiredService<INotificationService>();
+        foreach (var group in missed.GroupBy(s => new { s.StudentId, s.Date }))
+        {
+            var doneThatDay = await db.DailyStudySlots.CountAsync(s => s.StudentId == group.Key.StudentId && s.Date == group.Key.Date && (s.Status == DailySlotStatus.Completed || s.Status == DailySlotStatus.Skipped), ct);
+            if (doneThatDay > 0) continue; // partial days are visible on the dashboard; only a fully missed day warrants an alert
+            var first = await db.Students.Where(x => x.Id == group.Key.StudentId).Select(x => x.User.FirstName).FirstOrDefaultAsync(ct);
+            if (first == null) continue;
+            var n = group.Count();
+            var when = group.Key.Date == today.AddDays(-1) ? "yesterday" : $"on {group.Key.Date:ddd d MMM}";
+            await notifications.NotifyParentsOfStudentAsync(group.Key.StudentId, NotificationType.PerformanceAlert,
+                $"{first} missed {when}'s study sessions",
+                $"{first} didn't start any of the {n} study session{(n == 1 ? "" : "s")} planned {when}. A quick word of encouragement usually helps; the timetable will catch up automatically.",
+                new { studentId = group.Key.StudentId, missedDate = group.Key.Date, slots = n }, ct);
+        }
+        foreach (var item in overdue)
+        {
+            var info = await db.StudyPlanItems.Where(i => i.Id == item.Id)
+                .Select(i => new { StudentId = i.StudyPlan.StudentId, First = i.StudyPlan.Student.User.FirstName, StudentUserId = i.StudyPlan.Student.UserId, PlanTitle = i.StudyPlan.Title,
+                    Subject = i.Subject.Name, Lesson = i.Lesson != null ? i.Lesson.Title : null, Topic = db.Topics.Where(t => t.Id == i.TopicId).Select(t => t.Name).FirstOrDefault(), i.ItemType })
+                .FirstOrDefaultAsync(ct);
+            if (info == null || item.DueDate == null) continue;
+            var what = info.Lesson ?? info.Topic ?? info.Subject;
+            var kind = info.ItemType switch { StudyPlanItemType.TopicTest => "topic test", StudyPlanItemType.MockExam => "mock exam", StudyPlanItemType.TopicReview => "review", _ => "lesson" };
+            await notifications.NotifyAsync(info.StudentUserId, NotificationType.General, "Assigned work is overdue",
+                $"The {kind} \"{what}\" from \"{info.PlanTitle}\" was due {item.DueDate:ddd d MMM}. Open your plan to catch up.", new { planItemId = item.Id }, ct);
+            await notifications.NotifyParentsOfStudentAsync(info.StudentId, NotificationType.PerformanceAlert,
+                $"{info.First} has overdue assigned work",
+                $"The {kind} \"{what}\" from \"{info.PlanTitle}\" was due {item.DueDate:ddd d MMM} and hasn't been completed yet.",
+                new { studentId = info.StudentId, planItemId = item.Id }, ct);
+        }
+
         _logger.LogInformation("Maintenance: {Stale} sessions abandoned, {Missed} slots missed, {Overdue} items overdue, {Tokens} tokens pruned ({Changed} rows)", stale.Count, missed.Count, overdue.Count, expiredTokens.Count, changed);
     }
 }

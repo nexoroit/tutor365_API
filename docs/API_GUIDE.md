@@ -21,6 +21,9 @@ Enums are strings. Dates are ISO 8601 UTC. IDs are GUIDs.
 | `POST /auth/logout` `{refreshToken}` | |
 | `POST /auth/forgot-password` `{email}` → `POST /auth/reset-password` `{email,code,newPassword}` | Works for students and parents. |
 | `POST /auth/change-password`, `GET /auth/me` | `me` returns `student`/`parent` profile blocks. |
+| `PUT /auth/me` `{firstName?,lastName?,avatarUrl?,timeZone?,schoolName?}` | Self-service profile for any role; `schoolName` applies to students. `avatarUrl` holds an emoji or URL. |
+| `POST /auth/change-email/request` `{newEmail,currentPassword}` → `POST /auth/change-email/confirm` `{newEmail,code}` | Code is emailed to the **new** address (purpose `EmailChange`). Errors: `INVALID_CURRENT_PASSWORD`, `SAME_EMAIL`, `EMAIL_IN_USE`, `INVALID_OTP`. |
+| `GET /auth/sessions`, `POST /auth/logout-all` | Active sign-ins (refresh tokens) and revoke them all. |
 
 Access token: 60 min. Refresh: 30 days (90 with rememberMe). Send `Authorization: Bearer <accessToken>`.
 
@@ -36,6 +39,7 @@ Access token: 60 min. Refresh: 30 days (90 with rememberMe). Send `Authorization
 - Views: `…/dashboard`, `…/progress`, `…/progress/subjects`, `…/progress/topics?subjectId`, `…/topics/{topicId}/lessons`, `…/sessions`, `…/mistakes`, `…/today`, `…/week`, `…/recommendations`, `…/reports/weekly?weekStart=`
 - Assigned work: `POST|GET …/study-plans`, `DELETE /study-plans/{id}`, `DELETE /study-plans/{id}/items/{itemId}`
 - `GET /notifications?unreadOnly=&page=&pageSize=`, `GET /notifications/unread-count`, `POST /notifications/{id}/read`, `POST /notifications/read-all`
+- Parents are emailed (when `emailNotifications` is on) for `SessionCompleted` (topic test / mock), `PerformanceAlert` (second failed attempt at a lesson, a fully missed study day, overdue assigned work), `WeeklyReport` and `WorkAssigned`; `ChildActivity` and `StudyGoalCompleted` stay in-app. Students are emailed for `WorkAssigned` only. Missed-day and overdue alerts are raised by the hourly maintenance job, once per event.
 
 ## Student
 - `GET /students/me/dashboard` → greeting, today's plan (`today.slots[]` with `status` Scheduled/InProgress/Completed/Missed/Skipped), `continueSession`, `recommended`, `subjects[]`, `recentResults[]`, `weakAreas[]`, `assignedWork[]`, `unreadNotifications`.

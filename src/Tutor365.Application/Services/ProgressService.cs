@@ -44,6 +44,7 @@ public class ProgressService : IProgressService
         var minutes = Math.Max(1, session.ElapsedSeconds / 60);
 
         // ---- lesson progress ----
+        var lessonAttempts = 0;
         if (session.LessonId.HasValue)
         {
             var lp = await _db.StudentLessonProgress.FirstOrDefaultAsync(x => x.StudentId == student.Id && x.LessonId == session.LessonId, ct);
@@ -59,6 +60,7 @@ public class ProgressService : IProgressService
             lp.LastSessionId = session.Id;
             if (session.Passed == true && !lp.Passed) { lp.Passed = true; lp.PassedAt = session.CompletedAt; }
             lp.Status = lp.Passed ? LessonProgressStatus.Passed : LessonProgressStatus.Completed;
+            lessonAttempts = lp.Attempts;
         }
 
         // ---- topic progress ----
@@ -115,6 +117,12 @@ public class ProgressService : IProgressService
         {
             await _notifications.NotifyAsync(student.UserId, NotificationType.General, "Almost there",
                 $"You scored {Math.Round(scorePercent)}% on {what}. Review your mistakes and try again to unlock the next lesson.", new { sessionId = session.Id }, ct);
+            // Second attempt below the pass mark: tell the parent once so they can step in (emailed as a PerformanceAlert).
+            if (lessonAttempts == 2 && lessonTitle != null)
+                await _notifications.NotifyParentsOfStudentAsync(student.Id, NotificationType.PerformanceAlert,
+                    $"{student.User.FirstName} is finding \"{lessonTitle}\" hard",
+                    $"{student.User.FirstName} has now scored below the pass mark twice on \"{lessonTitle}\" ({subjectName}), most recently {Math.Round(scorePercent)}%. You could go through the lesson together, or lower the pass mark for {subjectName} in Timetable & settings.",
+                    new { studentId = student.Id, lessonId = session.LessonId, sessionId = session.Id, attempts = lessonAttempts }, ct);
         }
     }
 

@@ -94,7 +94,9 @@ public class AppEmailService : IAppEmailService
 
     public Task SendNotificationAsync(User recipient, NotificationType type, string title, string message, string? childName, CancellationToken ct = default)
     {
-        var link = recipient.Role == UserRole.Student ? $"{_app.FrontendUrl}/#/student/dashboard" : $"{_app.FrontendUrl}/#/parent/dashboard";
+        var page = recipient.Role == UserRole.Student ? "student/dashboard"
+            : type switch { NotificationType.WeeklyReport => "parent/reports", NotificationType.PerformanceAlert or NotificationType.SessionCompleted or NotificationType.ChildActivity => "parent/children", _ => "parent/dashboard" };
+        var link = $"{_app.FrontendUrl}/#/{page}";
         var c = Render(title, message, Para($"Hi {E(recipient.FirstName)},") + Para(E(message)), $"Hi {recipient.FirstName},\n\n{message}", ("Open tutor365", link));
         return SafeSendAsync(recipient.Email, recipient.FullName, $"{_app.Name}: {title}", c, ct);
     }
