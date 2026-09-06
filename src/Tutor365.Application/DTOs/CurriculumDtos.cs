@@ -7,11 +7,11 @@ public record QualificationDto(Guid Id, Guid ExamBoardId, string ExamBoard, Guid
 
 public record TopicDto(
     Guid Id, Guid QualificationId, Guid SubjectId, string SubjectCode, string Code, string Name, string? Description,
-    string? SpecificationReference, int SortOrder, int ExamWeight, string Tier, int? YearNumber, int SubTopicCount, int LessonCount);
+    string? SpecificationReference, int SortOrder, int ExamWeight, string Tier, int? YearNumber, int SubTopicCount, int LessonCount, string Status);
 
 public record SubTopicDto(
     Guid Id, Guid TopicId, string TopicName, string Code, string Name, string? Description, string? SpecificationReference,
-    int SortOrder, string Tier, int LessonCount, int QuestionCount, CurriculumMappingDto? Mapping);
+    int SortOrder, string Tier, int LessonCount, int QuestionCount, CurriculumMappingDto? Mapping, string Status);
 
 public record CurriculumMappingDto(Guid ExamBoardId, string ExamBoard, string? SpecificationReference, string? ReferenceBookTitle, string? ReferenceBookIsbn, string? ReferenceBookSection, string? Notes);
 

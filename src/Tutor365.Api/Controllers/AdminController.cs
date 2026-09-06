@@ -126,7 +126,7 @@ public class AdminController : ApiControllerBase
     /// <summary>Full curriculum for a subject including draft/archived items (admin view).</summary>
     [HttpGet("curriculum")]
     [ProducesResponseType(typeof(ApiResponse<CurriculumTreeDto>), 200)]
-    public async Task<IActionResult> Curriculum([FromQuery] Guid subjectId, [FromQuery] Guid? examBoardId, CancellationToken ct) => Ok(await _curriculum.GetTreeAsync(subjectId, examBoardId, ct));
+    public async Task<IActionResult> Curriculum([FromQuery] Guid subjectId, [FromQuery] Guid? examBoardId, CancellationToken ct) => Ok(await _curriculum.GetTreeAsync(subjectId, examBoardId, true, ct));
 
     [HttpPost("topics")]
     [ProducesResponseType(typeof(ApiResponse<TopicDto>), 200)]

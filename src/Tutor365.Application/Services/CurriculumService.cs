@@ -20,7 +20,8 @@ public interface ICurriculumService
     Task<SubTopicDto> GetSubTopicAsync(Guid id, CancellationToken ct = default);
     Task<IReadOnlyList<LessonSummaryDto>> GetLessonsAsync(Guid? subTopicId, Guid? topicId, Guid? subjectId, bool publishedOnly, CancellationToken ct = default);
     Task<LessonDetailDto> GetLessonAsync(Guid id, bool publishedOnly, CancellationToken ct = default);
-    Task<CurriculumTreeDto> GetTreeAsync(Guid subjectId, Guid? examBoardId, CancellationToken ct = default);
+    /// <summary>Subject tree. With includeUnpublished the draft/archived topics and sub-topics are returned too (admin view).</summary>
+    Task<CurriculumTreeDto> GetTreeAsync(Guid subjectId, Guid? examBoardId, bool includeUnpublished = false, CancellationToken ct = default);
 }
 
 public class CurriculumService : ICurriculumService
@@ -92,14 +93,15 @@ public class CurriculumService : ICurriculumService
         return new LessonDetailDto(ToLessonSummary(row), activities);
     }
 
-    public async Task<CurriculumTreeDto> GetTreeAsync(Guid subjectId, Guid? examBoardId, CancellationToken ct = default)
+    public async Task<CurriculumTreeDto> GetTreeAsync(Guid subjectId, Guid? examBoardId, bool includeUnpublished = false, CancellationToken ct = default)
     {
         var subject = (await GetSubjectsAsync(ct)).FirstOrDefault(s => s.Id == subjectId) ?? throw new NotFoundException("Subject", subjectId);
         var quals = await GetQualificationsAsync(examBoardId, subjectId, ct);
         var qual = quals.FirstOrDefault(q => examBoardId == null || q.ExamBoardId == examBoardId)
                    ?? throw new NotFoundException("QUALIFICATION_NOT_FOUND", "No qualification is configured for this subject and exam board yet.", true);
-        var topics = await GetTopicsAsync(null, qual.Id, null, null, ct);
-        var subs = await _db.SubTopics.Where(s => s.Topic.QualificationId == qual.Id && s.Status == ContentStatus.Published)
+        var topics = await _db.Topics.Where(t => t.QualificationId == qual.Id && (includeUnpublished || t.Status == ContentStatus.Published))
+            .OrderBy(t => t.SortOrder).Select(TopicProjection).ToListAsync(ct);
+        var subs = await _db.SubTopics.Where(s => s.Topic.QualificationId == qual.Id && (includeUnpublished || s.Status == ContentStatus.Published))
             .OrderBy(s => s.SortOrder).Select(SubTopicProjection).ToListAsync(ct);
         var tree = topics.Select(t => new TopicTreeDto(t, subs.Where(s => s.TopicId == t.Id).ToList())).ToList();
         return new CurriculumTreeDto(subject, qual, tree);
@@ -111,13 +113,15 @@ public class CurriculumService : ICurriculumService
         new TopicDto(t.Id, t.QualificationId, t.SubjectId, t.Subject.Code, t.Code, t.Name, t.Description, t.SpecificationReference,
             t.SortOrder, t.ExamWeight, t.Tier.ToString(), t.YearGroup != null ? t.YearGroup.Number : null,
             t.SubTopics.Count(s => s.Status == ContentStatus.Published),
-            t.SubTopics.SelectMany(s => s.Lessons).Count(l => l.Status == ContentStatus.Published));
+            t.SubTopics.SelectMany(s => s.Lessons).Count(l => l.Status == ContentStatus.Published),
+            t.Status.ToString());
 
     private static readonly System.Linq.Expressions.Expression<Func<SubTopic, SubTopicDto>> SubTopicProjection = s =>
         new SubTopicDto(s.Id, s.TopicId, s.Topic.Name, s.Code, s.Name, s.Description, s.SpecificationReference, s.SortOrder, s.Tier.ToString(),
             s.Lessons.Count(l => l.Status == ContentStatus.Published),
             s.Lessons.SelectMany(l => l.Activities).Count(a => a.QuestionId != null),
-            s.Mappings.Select(m => new CurriculumMappingDto(m.ExamBoardId, m.ExamBoard.Name, m.SpecificationReference, m.ReferenceBookTitle, m.ReferenceBookIsbn, m.ReferenceBookSection, m.Notes)).FirstOrDefault());
+            s.Mappings.Select(m => new CurriculumMappingDto(m.ExamBoardId, m.ExamBoard.Name, m.SpecificationReference, m.ReferenceBookTitle, m.ReferenceBookIsbn, m.ReferenceBookSection, m.Notes)).FirstOrDefault(),
+            s.Status.ToString());
 
     private record LessonRow(Guid Id, Guid SubTopicId, string SubTopicName, Guid TopicId, string TopicName, Guid SubjectId, string SubjectName,
         string Title, string? Summary, string? ObjectivesJson, int EstimatedMinutes, int Difficulty, int SortOrder, Tier Tier, ContentStatus Status, int ActivityCount, int QuestionCount);

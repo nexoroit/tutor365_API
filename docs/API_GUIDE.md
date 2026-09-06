@@ -28,7 +28,7 @@ Enums are strings. Dates are ISO 8601 UTC. IDs are GUIDs.
 Access token: 60 min. Refresh: 30 days (90 with rememberMe). Send `Authorization: Bearer <accessToken>`.
 
 ## Public reference data
-`GET /exam-boards`, `GET /year-groups`, `GET /subjects` (anonymous). Authenticated: `GET /subjects/{id}/tree`, `/topics?subjectId&year`, `/subtopics?topicId`, `/lessons?subjectId|topicId|subTopicId`, `/lessons/{id}`.
+`GET /exam-boards`, `GET /year-groups`, `GET /subjects` (anonymous). Topic and sub-topic DTOs carry `status`; the public tree returns published items only, `GET /admin/curriculum` returns drafts and archived too. Authenticated: `GET /subjects/{id}/tree`, `/topics?subjectId&year`, `/subtopics?topicId`, `/lessons?subjectId|topicId|subTopicId`, `/lessons/{id}`.
 
 ## Parent
 - `GET /parents/me/children` → cards (overall %, minutes this week, streak). `POST /parents/me/children` creates a child (`yearGroupId` from `/year-groups`, `targetGrade` 1–9, optional `sessionsPerDay`/`sessionMinutes`).

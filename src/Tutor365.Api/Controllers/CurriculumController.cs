@@ -31,7 +31,7 @@ public class CurriculumController : ApiControllerBase
     /// <summary>Full topic/sub-topic tree for a subject (defaults to the first configured exam board).</summary>
     [HttpGet("subjects/{subjectId:guid}/tree")]
     [ProducesResponseType(typeof(ApiResponse<CurriculumTreeDto>), 200)]
-    public async Task<IActionResult> Tree(Guid subjectId, [FromQuery] Guid? examBoardId, CancellationToken ct) => Ok(await _curriculum.GetTreeAsync(subjectId, examBoardId, ct));
+    public async Task<IActionResult> Tree(Guid subjectId, [FromQuery] Guid? examBoardId, CancellationToken ct) => Ok(await _curriculum.GetTreeAsync(subjectId, examBoardId, false, ct));
 
     [HttpGet("qualifications")]
     [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<QualificationDto>>), 200)]
