@@ -176,6 +176,48 @@ public class AdminController : ApiControllerBase
     [HttpPost("{entity}/{id:guid}/status")]
     public async Task<IActionResult> SetStatus(string entity, Guid id, [FromQuery] ContentStatus status, CancellationToken ct) { await _admin.SetStatusAsync(entity, id, status, ct); return OkMessage($"Status set to {status}."); }
 
+    // ---- logs ----
+    /// <summary>Dates that have a log file, newest first.</summary>
+    [HttpGet("logs")]
+    [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<LogFileDto>>), 200)]
+    public IActionResult LogFiles([FromServices] IWebHostEnvironment env)
+    {
+        var dir = Path.Combine(env.ContentRootPath, "Logs");
+        if (!Directory.Exists(dir)) return Ok(Array.Empty<LogFileDto>());
+        var files = new DirectoryInfo(dir).GetFiles("tutor365-*.log").OrderByDescending(f => f.Name)
+            .Select(f => new LogFileDto(f.Name.Substring(9, 8) is var d && d.Length == 8 ? $"{d[..4]}-{d[4..6]}-{d[6..]}" : f.Name, f.Length, f.LastWriteTimeUtc)).ToList();
+        return Ok(files);
+    }
+
+    /// <summary>Tail of one day's application log (newest last). Lines are capped at 2000.</summary>
+    [HttpGet("logs/{date}")]
+    [ProducesResponseType(typeof(ApiResponse<LogTailDto>), 200)]
+    public async Task<IActionResult> LogTail([FromServices] IWebHostEnvironment env, string date, [FromQuery] int lines = 500, [FromQuery] string? level = null, [FromQuery] string? search = null, CancellationToken ct = default)
+    {
+        if (!DateOnly.TryParseExact(date, "yyyy-MM-dd", out var day)) throw new Tutor365.Domain.Exceptions.AppValidationException("date", "Use yyyy-MM-dd.");
+        var path = Path.Combine(env.ContentRootPath, "Logs", $"tutor365-{day:yyyyMMdd}.log");
+        if (!System.IO.File.Exists(path)) return Ok(new LogTailDto(date, 0, Array.Empty<string>()));
+        lines = Math.Clamp(lines, 50, 2000);
+        var all = new List<string>();
+        using (var fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite | FileShare.Delete))
+        using (var reader = new StreamReader(fs))
+        {
+            // Group continuation lines (stack traces, email bodies) with the entry that started them.
+            string? current = null;
+            while (await reader.ReadLineAsync(ct) is { } line)
+            {
+                if (line.StartsWith('[') && line.Length > 14 && line[3] == ':') { if (current != null) all.Add(current); current = line; }
+                else current = current == null ? line : current + "\n" + line;
+            }
+            if (current != null) all.Add(current);
+        }
+        IEnumerable<string> q = all;
+        if (!string.IsNullOrWhiteSpace(level)) { var tag = $" {level.Trim().ToUpperInvariant()[..3]}] "; q = q.Where(l => l.Contains(tag)); }
+        if (!string.IsNullOrWhiteSpace(search)) q = q.Where(l => l.Contains(search, StringComparison.OrdinalIgnoreCase));
+        var filtered = q.ToList();
+        return Ok(new LogTailDto(date, filtered.Count, filtered.TakeLast(lines).ToList()));
+    }
+
     /// <summary>Re-import lesson content JSON from the configured content directory (idempotent).</summary>
     [HttpPost("content/import")]
     [ProducesResponseType(typeof(ApiResponse<ContentImportResultDto>), 200)]

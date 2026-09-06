@@ -43,3 +43,6 @@ public record AdminQuestionDto(Guid Id, Guid SubTopicId, string SubTopicName, st
 public record AdminQuestionQuery(Guid? SubjectId, Guid? TopicId, Guid? SubTopicId, Guid? LessonId, string? Type, int? Difficulty, string? Search, string? Status, int Page = 1, int PageSize = 20);
 
 public record ContentImportResultDto(int Files, int Lessons, int Questions, IReadOnlyList<string> Errors);
+
+public record LogFileDto(string Date, long SizeBytes, DateTime ModifiedAt);
+public record LogTailDto(string Date, int TotalEntries, IReadOnlyList<string> Entries);

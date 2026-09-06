@@ -17,6 +17,7 @@ public class ApiFactory : WebApplicationFactory<Program>
         {
             ["App:ImportContentOnStartup"] = "false",
             ["Smtp:Enabled"] = "false",
+            ["RateLimiting:Enabled"] = "false",
             ["Serilog:MinimumLevel:Default"] = "Warning"
         }));
     }

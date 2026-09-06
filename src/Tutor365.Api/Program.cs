@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using System.Threading.RateLimiting;
+using Microsoft.AspNetCore.RateLimiting;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Serilog;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Tutor365.Api.Configuration;
@@ -106,6 +109,25 @@ builder.Services.AddCors(o => o.AddDefaultPolicy(p =>
 
 builder.Services.AddHealthChecks().AddDbContextCheck<AppDbContext>("database");
 
+// ---- rate limiting (per client IP) ----
+// "auth": sign-in, refresh and profile calls. "otp": anything that sends an email code, so an address cannot be flooded.
+builder.Services.AddRateLimiter(o =>
+{
+    o.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+    static string ClientKey(HttpContext ctx) => ctx.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+    o.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(ctx =>
+        RateLimitPartition.GetFixedWindowLimiter(ClientKey(ctx), _ => new FixedWindowRateLimiterOptions { PermitLimit = 600, Window = TimeSpan.FromMinutes(1), QueueLimit = 0 }));
+    o.AddPolicy("auth", ctx => RateLimitPartition.GetFixedWindowLimiter(ClientKey(ctx), _ => new FixedWindowRateLimiterOptions { PermitLimit = 30, Window = TimeSpan.FromMinutes(1), QueueLimit = 0 }));
+    o.AddPolicy("otp", ctx => RateLimitPartition.GetFixedWindowLimiter(ClientKey(ctx), _ => new FixedWindowRateLimiterOptions { PermitLimit = 5, Window = TimeSpan.FromMinutes(10), QueueLimit = 0 }));
+    o.OnRejected = async (ctx, ct) =>
+    {
+        var retry = ctx.Lease.TryGetMetadata(MetadataName.RetryAfter, out var after) ? (int)after.TotalSeconds : 60;
+        ctx.HttpContext.Response.Headers.RetryAfter = retry.ToString();
+        ctx.HttpContext.Response.ContentType = "application/json";
+        await ctx.HttpContext.Response.WriteAsJsonAsync(ApiResponse.Fail("RATE_LIMITED", $"Too many requests. Try again in {retry} seconds."), ct);
+    };
+});
+
 var app = builder.Build();
 
 // ---- database migrate + seed ----
@@ -144,11 +166,43 @@ app.UseSwaggerUI(o =>
     o.DocumentTitle = "Tutor365 API";
 });
 
+// Security headers. HSTS is left to IIS, which terminates TLS.
+app.Use(async (ctx, next) =>
+{
+    var h = ctx.Response.Headers;
+    h["X-Content-Type-Options"] = "nosniff";
+    h["X-Frame-Options"] = "DENY";
+    h["Referrer-Policy"] = "strict-origin-when-cross-origin";
+    h["Permissions-Policy"] = "camera=(), microphone=(), geolocation=()";
+    await next();
+});
+
 app.UseCors();
+// RateLimiting:Enabled=false switches the limiter off for local development and integration tests, which register many accounts quickly.
+if (builder.Configuration.GetValue("RateLimiting:Enabled", true)) app.UseRateLimiter();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.MapHealthChecks("/health");
+// Detailed JSON for monitors and the admin dashboard: overall status, each check, version and uptime.
+app.MapHealthChecks("/health/ready", new HealthCheckOptions
+{
+    ResponseWriter = async (ctx, report) =>
+    {
+        ctx.Response.ContentType = "application/json";
+        var version = typeof(Program).Assembly.GetCustomAttributes(typeof(System.Reflection.AssemblyInformationalVersionAttribute), false)
+            .OfType<System.Reflection.AssemblyInformationalVersionAttribute>().FirstOrDefault()?.InformationalVersion ?? typeof(Program).Assembly.GetName().Version?.ToString() ?? "unknown";
+        await ctx.Response.WriteAsJsonAsync(new
+        {
+            status = report.Status.ToString(),
+            version,
+            environment = app.Environment.EnvironmentName,
+            uptimeSeconds = (long)(DateTime.UtcNow - System.Diagnostics.Process.GetCurrentProcess().StartTime.ToUniversalTime()).TotalSeconds,
+            checkedAt = DateTime.UtcNow,
+            checks = report.Entries.Select(e => new { name = e.Key, status = e.Value.Status.ToString(), durationMs = Math.Round(e.Value.Duration.TotalMilliseconds), error = e.Value.Exception?.Message }),
+        });
+    },
+});
 app.MapGet("/", () => Results.Redirect("/swagger")).ExcludeFromDescription();
 
 app.Run();

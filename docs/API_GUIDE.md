@@ -27,6 +27,10 @@ Enums are strings. Dates are ISO 8601 UTC. IDs are GUIDs.
 
 Access token: 60 min. Refresh: 30 days (90 with rememberMe). Send `Authorization: Bearer <accessToken>`.
 
+**Rate limits** (per client IP, `429` with `errorCode: RATE_LIMITED` and a `Retry-After` header): 600 requests/min overall, 30/min on `/auth/*`, and 5 per 10 minutes on the endpoints that email a code (`register`, `resend-otp`, `forgot-password`, `change-email/request`). `RateLimiting:Enabled=false` disables it (set in Development).
+
+**Health**: `GET /health` (plain text for IIS monitors) and `GET /health/ready` (JSON: status, version, environment, uptime, per-check results). **Admin logs**: `GET /admin/logs` lists daily files, `GET /admin/logs/{yyyy-MM-dd}?lines=&level=&search=` tails one.
+
 ## Public reference data
 `GET /exam-boards`, `GET /year-groups`, `GET /subjects` (anonymous). Topic and sub-topic DTOs carry `status`; the public tree returns published items only, `GET /admin/curriculum` returns drafts and archived too. Authenticated: `GET /subjects/{id}/tree`, `/topics?subjectId&year`, `/subtopics?topicId`, `/lessons?subjectId|topicId|subTopicId`, `/lessons/{id}`.
 

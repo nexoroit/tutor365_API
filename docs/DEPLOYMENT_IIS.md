@@ -27,3 +27,9 @@ Stop the app pool, copy the new publish output over the folder (keep `appsetting
 
 ## Frontend
 Add the Angular origin to `Cors:AllowedOrigins`. The frontend only needs the API base URL; no secrets.
+
+## Monitoring
+- Point the IIS or uptime monitor at `https://<api>/health` (returns `Healthy`). `https://<api>/health/ready` returns JSON with version, uptime and the database check; the admin dashboard shows it.
+- Daily logs are written to `Logs/tutor365-<yyyyMMdd>.log` under the site folder (30 days kept). Admins can read them from the portal (Admin → Logs) without server access. The app pool identity needs write access to `Logs`.
+- Rate limiting is on in Production (`RateLimiting:Enabled`). If the site sits behind a proxy that hides client IPs, every user shares one bucket: either forward client IPs or raise the limits in `Program.cs`.
+- Security headers (`X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`) are set by the API. Add HSTS at the IIS site level.

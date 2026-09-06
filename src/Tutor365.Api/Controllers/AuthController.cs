@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using Tutor365.Application.Common;
 using Tutor365.Application.DTOs;
 using Tutor365.Application.Interfaces;
@@ -7,6 +8,7 @@ using Tutor365.Application.Interfaces;
 namespace Tutor365.Api.Controllers;
 
 /// <summary>Registration, OTP verification, login, token refresh and password management.</summary>
+[EnableRateLimiting("auth")]
 public class AuthController : ApiControllerBase
 {
     private readonly IAuthService _auth;
@@ -14,6 +16,7 @@ public class AuthController : ApiControllerBase
 
     /// <summary>Register a new parent account. Sends a 6-digit OTP to the email address.</summary>
     [HttpPost("register")]
+    [EnableRateLimiting("otp")]
     [AllowAnonymous]
     [ProducesResponseType(typeof(ApiResponse<RegisterResponse>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status409Conflict)]
@@ -30,6 +33,7 @@ public class AuthController : ApiControllerBase
 
     /// <summary>Resend an OTP (purpose: Registration = 1, PasswordReset = 2).</summary>
     [HttpPost("resend-otp")]
+    [EnableRateLimiting("otp")]
     [AllowAnonymous]
     [ProducesResponseType(typeof(ApiResponse<RegisterResponse>), StatusCodes.Status200OK)]
     public async Task<IActionResult> ResendOtp([FromBody] ResendOtpRequest request, CancellationToken ct)
@@ -61,6 +65,7 @@ public class AuthController : ApiControllerBase
 
     /// <summary>Send a password-reset OTP. Always returns success to avoid account enumeration.</summary>
     [HttpPost("forgot-password")]
+    [EnableRateLimiting("otp")]
     [AllowAnonymous]
     [ProducesResponseType(typeof(ApiResponse<RegisterResponse>), StatusCodes.Status200OK)]
     public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordRequest request, CancellationToken ct)
@@ -98,6 +103,7 @@ public class AuthController : ApiControllerBase
 
     /// <summary>Start an email change: checks the password and emails a code to the new address.</summary>
     [HttpPost("change-email/request")]
+    [EnableRateLimiting("otp")]
     [ProducesResponseType(typeof(ApiResponse<RegisterResponse>), StatusCodes.Status200OK)]
     public async Task<IActionResult> RequestEmailChange([FromBody] ChangeEmailRequest request, CancellationToken ct)
     {
