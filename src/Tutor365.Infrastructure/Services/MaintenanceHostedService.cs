@@ -27,7 +27,17 @@ public class MaintenanceHostedService : BackgroundService
         }
     }
 
+    private static readonly SemaphoreSlim Gate = new(1, 1);
+
     public async Task RunOnceAsync(CancellationToken ct)
+    {
+        // Runs can be triggered by the timer and by tests/admin at the same time; never let two overlap.
+        await Gate.WaitAsync(ct);
+        try { await RunOnceCoreAsync(ct); }
+        finally { Gate.Release(); }
+    }
+
+    private async Task RunOnceCoreAsync(CancellationToken ct)
     {
         using var scope = _scopes.CreateScope();
         var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
@@ -82,6 +92,9 @@ public class MaintenanceHostedService : BackgroundService
             if (doneThatDay > 0) continue; // partial days are visible on the dashboard; only a fully missed day warrants an alert
             var first = await db.Students.Where(x => x.Id == group.Key.StudentId).Select(x => x.User.FirstName).FirstOrDefaultAsync(ct);
             if (first == null) continue;
+            var marker = $"\"missedDate\":\"{group.Key.Date:yyyy-MM-dd}\"";
+            var alreadySent = await db.Notifications.AnyAsync(n => n.Type == NotificationType.PerformanceAlert && n.DataJson != null && n.DataJson.Contains(marker) && n.DataJson.Contains(group.Key.StudentId.ToString()), ct);
+            if (alreadySent) continue;
             var n = group.Count();
             var when = group.Key.Date == today.AddDays(-1) ? "yesterday" : $"on {group.Key.Date:ddd d MMM}";
             await notifications.NotifyParentsOfStudentAsync(group.Key.StudentId, NotificationType.PerformanceAlert,
