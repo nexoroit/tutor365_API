@@ -77,8 +77,16 @@ public class AdminController : ApiControllerBase
     [HttpPost("mail-settings/test")]
     public async Task<IActionResult> TestMail([FromServices] Application.Interfaces.IEmailSender sender, [FromBody] SendTestMailRequest request, CancellationToken ct)
     {
-        await sender.SendAsync(new Application.Interfaces.EmailMessage(request.ToEmail, request.ToEmail, "tutor365 test email", "<p>This is a test email from <strong>tutor365</strong>. Your SMTP settings are working.</p>", "This is a test email from tutor365. Your SMTP settings are working."), ct);
-        return OkMessage($"Test email sent to {request.ToEmail}.");
+        try
+        {
+            await sender.SendAsync(new Application.Interfaces.EmailMessage(request.ToEmail, request.ToEmail, "tutor365 test email", "<p>This is a test email from <strong>tutor365</strong>. Your SMTP settings are working.</p>", "This is a test email from tutor365. Your SMTP settings are working."), ct);
+            return OkMessage($"Test email sent to {request.ToEmail}.");
+        }
+        catch (Domain.Exceptions.BusinessRuleException ex) when (ex.Data.Contains("detail"))
+        {
+            // Admin-only diagnostics: surface the SMTP failure reason so it can be fixed without server log access.
+            return UnprocessableEntity(ApiResponse.Fail(ex.ErrorCode, $"SMTP failed: {ex.Data["detail"]}"));
+        }
     }
 
     // ---- AI settings (stored in SystemSettings, key encrypted and only shown as a hint) ----

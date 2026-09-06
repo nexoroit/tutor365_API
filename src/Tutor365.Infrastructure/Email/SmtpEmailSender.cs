@@ -74,7 +74,7 @@ public class SmtpEmailSender : IEmailSender
         catch (Exception ex)
         {
             _logger.LogError(ex, "Failed to send email to {To} [{Subject}] via {Host}:{Port}", message.ToEmail, message.Subject, cfg.Host, cfg.Port);
-            throw new Domain.Exceptions.BusinessRuleException("EMAIL_SEND_FAILED", "We could not send the email right now. Please try again shortly.");
+            throw new Domain.Exceptions.BusinessRuleException("EMAIL_SEND_FAILED", "We could not send the email right now. Please try again shortly.") { Data = { ["detail"] = $"{ex.GetType().Name}: {ex.Message}{(ex.InnerException != null ? " | " + ex.InnerException.Message : "")} (host {cfg.Host}:{cfg.Port}, {cfg.Security}, user {cfg.Username})" } };
         }
     }
 }
