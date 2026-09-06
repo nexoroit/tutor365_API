@@ -324,6 +324,102 @@
             "Write the body paragraphs and ending",
             "Spend five minutes checking accuracy and sentence variety"
           ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P11",
+          "type": "Matching",
+          "difficulty": 1,
+          "marks": 3,
+          "text": "The task says: *Write an article for a broadsheet newspaper in which you argue that every town should have a free public swimming pool.*\n\nMatch each element to its correct identification.",
+          "hint": "Form is the kind of text you produce; audience is the people who will read it; purpose is the job the writing has to do.",
+          "explanation": "The form is a newspaper article; the audience is broadsheet readers, who are adults expecting a serious, well-argued piece; the purpose is to argue that every town should have a free public pool.",
+          "pairs": [
+            { "left": "Form", "right": "A newspaper article" },
+            { "left": "Audience", "right": "Adult readers of a broadsheet newspaper" },
+            { "left": "Purpose", "right": "To argue that every town should have a free public swimming pool" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which of these is the **strongest** opening sentence for a broadsheet article arguing that supermarkets should stop wrapping fruit and vegetables in plastic?",
+          "hint": "Rule out anything that announces the article or says nothing specific. The best hook gives the reader a concrete image or a surprising claim straight away.",
+          "explanation": "The image of a lorry-load of packaging being tipped into landfill in the time it takes to read a sentence is concrete, surprising and already making the argument. The other options announce the article, say something vague, or slip into slang that a broadsheet would never print.",
+          "options": [
+            { "text": "By the time you reach the end of this sentence, another lorry-load of plastic wrapping will have been tipped into a landfill site.", "correct": true },
+            { "text": "This article is going to look at the issue of plastic packaging in supermarkets.", "correct": false, "feedback": "Never announce the article; just begin it." },
+            { "text": "Plastic is a big issue that a lot of people have opinions about.", "correct": false, "feedback": "Vague: it gives the reader no reason to keep reading." },
+            { "text": "Wrapping a cucumber in plastic is well pointless and shops need to sort it out.", "correct": false, "feedback": "The register is far too casual for a broadsheet." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P13",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these paragraph summaries into the most effective order for an article arguing that the town needs a late-night bus service.",
+          "hint": "Open with a scene, build the argument, deal with the objection in the middle, keep the most powerful point for near the end, then close with a call to action that returns to the opening image.",
+          "explanation": "Begin with the anecdote of the nurse at the empty bus stop, make the two main points, answer the cost objection, save the strongest point (young people walking home alone) for late, and finish by picturing the same stop with a lit bus pulling in and urging readers to write to the council.",
+          "order": [
+            "Anecdote: a nurse finishing a late shift waits fifty minutes at a dark, empty bus stop",
+            "Point: a night service lets shift workers and students get home safely and cheaply",
+            "Point: towns that introduced one reported fewer late-night taxis and fewer drink-driving incidents",
+            "Counter-argument: some say it would run half-empty; but the council already subsidises daytime routes that carry fewer passengers",
+            "Strongest point: nobody should have to choose between an unaffordable taxi and a two-mile walk home alone in the dark",
+            "Ending: picture the same bus stop with a lit bus pulling in; tell readers to write to the council before the budget meeting"
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P14",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "You are writing an article arguing that **every secondary school pupil should do a week of work experience each year**.\n\nWrite a **counter-argument paragraph** (three to five sentences) that acknowledges an objection and then argues against it.",
+          "hint": "Give the opposing view fairly first (*Some teachers will argue that…*). Then pivot with *But*, *Yet*, *However* or *In fact* and give a reason or example that shows why the objection does not hold.",
+          "explanation": "A strong paragraph: *Some teachers will argue that a week out of school every year means a week of lost lessons, and that pupils already struggle to cover the course. It is a reasonable concern. But the schools that already run yearly placements report that pupils return more motivated, because for the first time they can see what the lessons are for. A pupil who knows why she is learning to write a formal letter learns it in half the time.* This states the objection fairly, concedes it briefly, then rebuts it with a reason and a memorable closing sentence.",
+          "markScheme": [
+            { "criterion": "States an opposing view fairly (e.g. some will say / critics argue / it could be argued)", "marks": 1, "keywords": [ ["some", "critics", "argue", "might say", "claim"] ] },
+            { "criterion": "Turns against the objection with a contrast word (but, yet, however, in fact)", "marks": 1, "keywords": [ ["but", "yet", "however", "the truth", "in fact"] ] },
+            { "criterion": "Gives a reason or example that undermines the objection", "marks": 1, "keywords": [ ["because", "example", "evidence", "found", "shows"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P15",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which sentence has the most appropriate register for an article in a **broadsheet newspaper** about junk-food advertising aimed at children?",
+          "hint": "Look for precise, measured wording that a serious newspaper would be happy to print.",
+          "explanation": "The first option is formal, precise and confident, which is what a broadsheet expects. The others use slang, exaggerated punctuation or the chatty voice of a very informal magazine.",
+          "options": [
+            { "text": "The link between television advertising and children's diets has been documented for more than a decade.", "correct": true },
+            { "text": "Those burger adverts are, like, everywhere and honestly it is doing my head in.", "correct": false, "feedback": "Slang and a chatty voice: far too informal." },
+            { "text": "Seriously?! Another advert for chicken nuggets?!", "correct": false, "feedback": "Exclamation marks and outrage belong in a very informal piece, if anywhere." },
+            { "text": "Right, folks, let's have a chat about junk food.", "correct": false, "feedback": "Direct address can work, but *folks* and *have a chat* are too casual for a broadsheet." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-01-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 10,
+          "examStyle": true,
+          "text": "*\"Every young person should be made to complete fifty hours of volunteering before they leave school.\"*\n\nWrite an **article for a broadsheet newspaper** in which you argue your point of view on this statement.\n\nFor this practice task, write the **headline, standfirst and first three paragraphs** (roughly 200 to 250 words). Your third paragraph should include a counter-argument. [10 marks]",
+          "hint": "Settle your view first: for, against, or a middle position such as encouraging rather than forcing. Then: a short headline; a one-sentence standfirst; a hook (anecdote, striking fact or bold claim); a paragraph making your main point with evidence; a paragraph that gives the other side fairly and then answers it.",
+          "explanation": "A strong response might use the headline *Kindness Cannot Be Timetabled*, a standfirst such as *Forcing teenagers to volunteer will produce fifty hours of clock-watching, not a generation of helpers.*, an opening anecdote about a food bank where a reluctant sixteen-year-old counts down the minutes, a second paragraph arguing that volunteering only changes people when they choose it, supported by a plausible statistic about volunteers who continue after leaving school, and a third paragraph conceding that many young people would never try volunteering without a push but arguing that a school scheme with real choice is different from a compulsory quota. The register stays formal and measured, paragraph openings vary, and the writing includes a rhetorical question, a list of three and a short sentence for impact.",
+          "markScheme": [
+            { "criterion": "Includes a short, engaging headline (not just the task statement)", "marks": 1, "keywords": [ ["volunteer", "hours", "kindness", "help", "charity"] ] },
+            { "criterion": "Includes a one-sentence standfirst that summarises the angle", "marks": 1, "keywords": [ ["*", "should", "will", "must", "why"] ] },
+            { "criterion": "Opens with a hook: anecdote, striking fact, rhetorical question or bold declaration", "marks": 1, "keywords": [ ["last", "imagine", "every", "?", "picture"] ] },
+            { "criterion": "States a clear point of view on the statement", "marks": 1, "keywords": [ ["should", "must", "wrong", "right", "need"] ] },
+            { "criterion": "Supports the argument with a reason, example or plausible evidence", "marks": 1, "keywords": [ ["because", "survey", "research", "found", "per cent"] ] },
+            { "criterion": "Includes a counter-argument that is acknowledged then rebutted", "marks": 2, "keywords": [ ["some", "critics", "argue", "of course", "admittedly"], ["but", "yet", "however", "the truth", "nevertheless"] ] },
+            { "criterion": "Maintains a formal, measured broadsheet register throughout", "marks": 1, "keywords": [ ["evidence", "however", "whether", "consider", "suggest"] ] },
+            { "criterion": "Uses at least two rhetorical or structural devices (rhetorical question, list of three, short sentence, direct address)", "marks": 1, "keywords": [ ["?", "we ", "you ", ", and ", "not "] ] },
+            { "criterion": "Varies paragraph openings and links ideas fluently rather than using Firstly / Secondly", "marks": 1, "keywords": [ ["consider", "take", "and yet", "of course", "imagine"] ] }
+          ]
         }
       ]
     }

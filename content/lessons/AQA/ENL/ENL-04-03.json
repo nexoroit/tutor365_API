@@ -326,6 +326,103 @@
             "Acknowledging and answering the doubters in the room",
             "Signposted call to action building to a short final line"
           ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P11",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Each of these sentences comes from either a speech or an essay about school life. Match each sentence to the form it belongs to.",
+          "hint": "A speech talks to people in a room and uses sound, questions and instructions. An essay states and reasons in a measured written voice.",
+          "explanation": "*Turn to the person next to you* and *do we shrug… No.* are addressed to a live audience: speech. *This essay will examine* and *It follows that* belong to the measured written voice of an essay.",
+          "pairs": [
+            { "left": "Turn to the person next to you and ask them when they last had a full night's sleep.", "right": "Speech" },
+            { "left": "And do we shrug and say that is just how things are? No. Not any more.", "right": "Speech" },
+            { "left": "This essay will examine whether homework improves attainment and will argue that, for younger pupils, it does not.", "right": "Essay" },
+            { "left": "It follows that the current policy cannot be justified on educational grounds.", "right": "Essay" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P12",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "These sentences are from a speech complaining about the school canteen. Match each one to the rhetorical device it uses.",
+          "hint": "Anaphora repeats the opening words of clauses; a tricolon is a list of three; antithesis balances two opposites; a rhetorical question expects no answer.",
+          "explanation": "*Every morning we… Every morning we… Every morning we…* repeats an opening: anaphora. *Cramped, cold and closed by two o'clock* is three items: tricolon. *Promised a garden and given a car park* sets opposites against each other: antithesis. *How many more winters…?* needs no answer: rhetorical question.",
+          "pairs": [
+            { "left": "Every morning we queue. Every morning we wait. Every morning we are told it will be fixed.", "right": "Anaphora" },
+            { "left": "Our canteen is cramped, cold and closed by two o'clock.", "right": "Tricolon" },
+            { "left": "We were promised a garden and given a car park.", "right": "Antithesis" },
+            { "left": "How many more winters must we eat lunch in our coats?", "right": "Rhetorical question" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P13",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Write the **first two paragraphs** (four to eight sentences) of a speech to your school's governors, arguing that the school day should start an hour later.\n\nDo not begin with *Good evening, my name is…*",
+          "hint": "Open with something the governors will recognise: a scene from the school gate, a question, a surprising figure. Address them as *you*, include *we* or *our*, and use at least one repetition or list of three.",
+          "explanation": "For example: *Stand at the school gate at twenty to nine and watch what comes through it. Not students. Sleepwalkers. Hoods up, eyes down, breakfast skipped. Doctors have been telling us for years that a teenage body clock runs later than an adult one, and yet we still ring the first bell at a time most of our students' brains have not switched on. You are the people who set that bell. Tonight I want to ask you to move it.* This opens with a scene, addresses the governors directly, uses a list of three and short sentences, and makes the argument about the start time clear.",
+          "markScheme": [
+            { "criterion": "Opens with a hook rather than an introduction (scene, question, striking figure or statement)", "marks": 1, "keywords": [ ["imagine", "think back", "?", "every", "picture"] ] },
+            { "criterion": "Addresses the audience directly and appropriately as governors", "marks": 1, "keywords": [ ["you", "your"], ["governor", "this room", "tonight", "our school", "our students"] ] },
+            { "criterion": "Uses a rhythm device (anaphora, list of three, antithesis, short sentence)", "marks": 1, "keywords": [ ["not ", ", and ", "that is", "every", "we "] ] },
+            { "criterion": "Makes the argument about a later start clear", "marks": 1, "keywords": [ ["start", "morning", "later", "bell"], ["sleep", "tired", "should", "need", "change"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P14",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which of these is the **strongest thesis statement** for an essay on whether primary schools should stop setting homework?",
+          "hint": "A thesis takes a clear, arguable position that the rest of the essay can prove. It is not a question, a description of the topic or a refusal to choose.",
+          "explanation": "The first option commits to a clear position and hints at the reasons the essay will develop. The others describe the topic, ask the question instead of answering it, or sit on the fence.",
+          "options": [
+            { "text": "Homework for primary-age children does little to raise attainment and a great deal to sour their attitude to learning, so schools should replace it with reading for pleasure.", "correct": true },
+            { "text": "Homework is something that primary schools, parents and children all have views about.", "correct": false, "feedback": "This describes the topic without taking a position." },
+            { "text": "Should primary schools stop setting homework altogether?", "correct": false, "feedback": "A thesis answers the question; it does not ask it." },
+            { "text": "Homework has some advantages and some disadvantages, so it depends.", "correct": false, "feedback": "An essay must commit to a view." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P15",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put the parts of this body paragraph, from an essay arguing that school uniform should be kept, into the correct order.",
+          "hint": "Point first, then proof, then an explanation of why the proof matters, then a link back to the thesis.",
+          "explanation": "A body paragraph opens with a topic sentence making one point, supports it with evidence, explains how that evidence proves the point, and finally links back to the essay's overall argument.",
+          "order": [
+            "Topic sentence: uniform removes one daily source of competition between pupils",
+            "Evidence: a survey at two local schools found pupils without uniform worried far more about what to wear each morning",
+            "Explanation: this shows that clothing becomes a status contest as soon as the choice is opened up",
+            "Link: uniform therefore protects the equality between pupils that this essay argues schools should defend"
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-03-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 10,
+          "examStyle": true,
+          "text": "*\"Part-time jobs are a distraction. Students should concentrate on their studies and nothing else.\"*\n\nWrite a **speech to be delivered to your year group** in which you argue your point of view on this statement.\n\nFor this practice task, write the **opening, one developed body section with an anecdote or evidence, and the ending with a call to action** (roughly 220 to 280 words). [10 marks]",
+          "hint": "Open by addressing the room with a question, an instruction or a scene, not an introduction. Use *we* and *you*. Include one short anecdote or plausible fact and explain why it matters. Build the ending with repetition and shortening sentences, and finish on a line the audience could quote.",
+          "explanation": "A strong answer might open: *Hands up if you have ever been told that a Saturday job would wreck your grades. Keep them up if the person telling you had one themselves. Thought so.* It then develops one section: an anecdote about a friend who stacks shelves on Sundays and learned more about turning up on time, dealing with rude customers and managing money than any lesson could teach, contrasted with a plausible statistic that students who work a few hours a week do no worse in exams than those who do not, and an explanation of what a job gives: confidence, independence and proof that you can be relied on. The ending builds with anaphora (*Not because…*), signposts the call to action (*So here is what I am asking*), and finishes short: *Get the job. Keep the grades. Prove them wrong.* Throughout, the voice is spoken and alive, with direct address, rhetorical questions and varied sentence length.",
+          "markScheme": [
+            { "criterion": "Opens by addressing the audience directly with a hook (question, scene, instruction), not an introduction of the speaker", "marks": 1, "keywords": [ ["hands up", "imagine", "?", "think", "look"] ] },
+            { "criterion": "Uses direct address and inclusive language throughout (you, we, us, our)", "marks": 1, "keywords": [ ["you", "your"], ["we", "us", "our"] ] },
+            { "criterion": "States a clear point of view on the statement", "marks": 1, "keywords": [ ["job", "work", "shift", "earn"], ["should", "need", "must", "wrong", "right"] ] },
+            { "criterion": "Includes an anecdote or plausible evidence", "marks": 1, "keywords": [ ["my friend", "my sister", "my brother", "survey", "found"] ] },
+            { "criterion": "Explains why the evidence matters to the argument", "marks": 1, "keywords": [ ["because", "that means", "this shows", "the point is", "so "] ] },
+            { "criterion": "Uses anaphora or a list of three", "marks": 1, "keywords": [ ["not ", ", and ", "every", "we can", "get the"] ] },
+            { "criterion": "Uses at least two rhetorical questions or acknowledges the audience's reactions", "marks": 1, "keywords": [ ["?", "some of you", "i know", "you might", "thought so"] ] },
+            { "criterion": "Signposts and delivers a clear call to action", "marks": 1, "keywords": [ ["so here", "i am asking", "ask", "tomorrow", "start"] ] },
+            { "criterion": "Ends on a short, memorable final line", "marks": 1, "keywords": [ ["prove", "start", "now", "keep", "get"] ] },
+            { "criterion": "Varies sentence length, including short sentences or fragments for emphasis", "marks": 1, "keywords": [ ["thought so", "that is", "one ", "now", "no "] ] }
+          ]
         }
       ]
     }

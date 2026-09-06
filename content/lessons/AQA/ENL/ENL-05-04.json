@@ -337,6 +337,111 @@
             "A one-line paragraph at the turning point",
             "A medium paragraph to close, echoing the opening"
           ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P11",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Each of these sentences opens a new paragraph in a story. Match each one to the reason a new paragraph was needed.",
+          "hint": "Ask what has changed: the time, the place, the person speaking, or the subject.",
+          "explanation": "*By the following winter* signals a change of time. *Down at the harbour* signals a change of place. *\"Where were you?\" asked Dad* introduces a new speaker. *But money was not the only problem* moves to a new topic.",
+          "pairs": [
+            { "left": "By the following winter, the shop had closed.", "right": "Change of time" },
+            { "left": "Down at the harbour, the boats were already in.", "right": "Change of place" },
+            { "left": "\"Where were you?\" asked Dad.", "right": "Change of person (new speaker)" },
+            { "left": "But money was not the only problem.", "right": "Change of topic" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P12",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Complete the paragraph openings with the most suitable discourse marker: **Furthermore**, **On the other hand** or **Ultimately**.",
+          "metadata": { "blanksText": "The later start has cut the number of late marks. ___, the new timetable gives students a longer lunch break. ___, teachers have lost twenty minutes of lesson time each day. ___, the question is whether students learn more or less." },
+          "hint": "First an added point, then a contrast, then the final judgement.",
+          "explanation": "*Furthermore* adds a second advantage; *On the other hand* introduces the contrasting drawback; *Ultimately* signals the final, deciding question.",
+          "answers": [
+            { "text": "Furthermore", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "On the other hand", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+            { "text": "Ultimately", "blankIndex": 2, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "A paragraph ends: *…and the council's own figures show that the swimming pool loses four thousand pounds a week.*\n\nWhich opening sentence for the **next** paragraph links best?",
+          "hint": "The best link picks up something from the previous sentence (the figure, the pool, the council) and pushes the argument forward rather than restarting it.",
+          "explanation": "*Four thousand pounds sounds like a lot until you ask what the town would lose without it* repeats the key figure and turns it round, moving the argument on. The others use a mechanical marker with no link, change the subject entirely, or repeat the point without developing it.",
+          "options": [
+            { "text": "Four thousand pounds sounds like a lot until you ask what the town would lose without it.", "correct": true },
+            { "text": "Thirdly, the pool is also good for fitness.", "correct": false, "feedback": "A mechanical marker with no link to the previous sentence." },
+            { "text": "The park has recently had a new bandstand built.", "correct": false, "feedback": "No connection to the previous paragraph." },
+            { "text": "The council's figures show that the pool loses money every week.", "correct": false, "feedback": "This repeats the point without moving on." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P14",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "The passage below has had its paragraph breaks removed. Rewrite it with **three** paragraph breaks inserted (mark each with **//**), and after the passage, state in one sentence the reason for each break.\n\n> The café was almost empty when Leon pushed open the door, and the only sound was the hiss of the coffee machine. He chose the table by the window and ordered nothing. By the time the clock above the counter reached six, the street outside had emptied too, and a woman in a green coat came in, looked around, and sat down opposite him without asking. \"You came,\" she said. \"I wasn't sure you would.\" He said nothing for a long moment. Across the road, the lights of the bookshop went out one by one, and somewhere a shutter came rattling down.",
+          "hint": "Look for a change of time (*By the time the clock…*), a change of person (the woman speaking), and a change of place (*Across the road…*).",
+          "explanation": "Breaks belong before *By the time the clock above the counter reached six* (change of time), before *\"You came,\"* (change of person: the woman speaks), and before *Across the road, the lights of the bookshop* (change of place). Any three sensible breaks justified by time, place, topic or person would score.",
+          "markScheme": [
+            { "criterion": "Places a break at a change of time (before 'By the time the clock')", "marks": 1, "keywords": [ ["// by the time", "//by the time", "time", "clock", "six"] ] },
+            { "criterion": "Places a break at the change of person / dialogue (before the woman speaks)", "marks": 1, "keywords": [ ["// \"you came", "//\"you came", "speaker", "person", "dialogue"] ] },
+            { "criterion": "Places a break at the change of place (before 'Across the road')", "marks": 1, "keywords": [ ["// across", "//across", "place", "location", "road"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P15",
+          "type": "TrueFalse",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "True or false: a single-sentence paragraph is most effective when it is saved for one key moment, such as a realisation or a twist.",
+          "hint": "Think about what makes a very short paragraph stand out on the page.",
+          "explanation": "True. A one-line paragraph draws the eye because it is different from the paragraphs around it. Saving it for a single key moment keeps that impact; using it repeatedly makes it predictable.",
+          "options": [ { "text": "True", "correct": true }, { "text": "False", "correct": false } ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P16",
+          "type": "Ordering",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "These are the topic sentences of five paragraphs from an article arguing that the school day should start an hour later. Put them in the most logical order.",
+          "hint": "Hook, then the main claim, then the evidence, then the objection, then the conclusion. The discourse markers give you clues.",
+          "explanation": "The scene-setting hook comes first, then the main claim about body clocks, then the evidence from schools that have tried it, then the concession about parents introduced by *Admittedly*, and finally the conclusion introduced by *So*.",
+          "order": [
+            "Stand at the school gate at half past eight and count the yawns.",
+            "The case for starting an hour later rests on a simple fact: teenage body clocks run late.",
+            "Schools that have tried it report exactly what the science predicts.",
+            "Admittedly, a later start makes life harder for parents who leave for work at eight, and their difficulty deserves a serious answer.",
+            "So the real question is not whether students can cope with early mornings, but why we insist that they should."
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-04-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "Write the **opening four paragraphs** of a story that begins with a character waking up in a house they do not recognise (roughly 180 to 240 words).\n\nYour paragraphs must show **deliberate organisation**:\n\n- each paragraph break must be justified by a change of time, place, topic or person\n- each paragraph should open with a signal of where, when or whose viewpoint we are in\n- include **one** one-line paragraph used for effect\n- link the paragraphs with pronouns, repeated ideas or echoes rather than with *Firstly / Secondly* [8 marks]",
+          "hint": "Plan the four paragraphs first: (1) waking, medium length, one detail that is wrong; (2) the room examined, longer; (3) a one-line paragraph at the moment of realisation; (4) a shift of place (the landing, the stairs, the window) that moves the story on. Choose one image (a clock, a door, a smell) that can echo across paragraphs.",
+          "explanation": "A strong answer might open with a medium paragraph of the character waking to a ceiling that is the wrong colour and a clock ticking somewhere it should not be; a longer second paragraph cataloguing the room, the unfamiliar curtains, the coat on the chair that is not hers, the same clock now louder; a one-line third paragraph, *Nothing in the room was hers.*; and a fourth paragraph shifting to *Out on the landing…* where the story moves forward. Each opening signals place, time or viewpoint (*When she opened her eyes*, *The room*, *Out on the landing*), the clock echoes across paragraphs, and pronouns and repeated ideas link each paragraph to the last.",
+          "markScheme": [
+            { "criterion": "Writes four clearly separated paragraphs", "marks": 1, "keywords": [ ["\n\n", "//"] ] },
+            { "criterion": "Paragraph breaks fall at changes of time, place, topic or person", "marks": 1, "keywords": [ ["later", "downstairs", "outside", "then", "when"] ] },
+            { "criterion": "Paragraph openings signal where, when or whose viewpoint (place, time or character first)", "marks": 1, "keywords": [ ["downstairs", "outside", "at ", "by ", "after"] ] },
+            { "criterion": "Includes one one-line paragraph used for effect at a key moment", "marks": 1, "keywords": [ ["nothing", "still", "gone", "silence", "hers"] ] },
+            { "criterion": "Links paragraphs with pronouns or reference words (it, this, that, she, he)", "marks": 1, "keywords": [ ["it ", "this ", "that ", "she ", "he "] ] },
+            { "criterion": "Uses a repeated image or echo across paragraphs", "marks": 1, "keywords": [ ["door", "window", "clock", "stairs", "curtain"] ] },
+            { "criterion": "Establishes the situation: a character waking somewhere unfamiliar", "marks": 1, "keywords": [ ["unfamiliar", "strange", "not her", "not his", "recognise"] ] },
+            { "criterion": "Avoids mechanical markers (Firstly, Secondly) and uses varied paragraph lengths", "marks": 1, "keywords": [ ["the ", "she ", "he ", "it "] ] }
+          ]
         }
       ]
     }

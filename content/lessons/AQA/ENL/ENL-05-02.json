@@ -339,6 +339,115 @@
             { "text": "As many as needed to show excitement", "correct": false },
             { "text": "At least five", "correct": false }
           ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P11",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which of these four sentences about the football pitch contains a **comma splice**?",
+          "hint": "Cover the comma and read each half. If both halves could stand alone as full sentences, the comma is doing a job it cannot do.",
+          "explanation": "*The rain stopped, the pitch was still flooded* joins two complete sentences with nothing but a comma. The others use the comma correctly: after an opening *Although* clause, before the joining word *so*, and around extra information.",
+          "options": [
+            { "text": "The rain stopped, the pitch was still flooded.", "correct": true },
+            { "text": "Although the rain stopped, the pitch was still flooded.", "correct": false, "feedback": "*Although the rain stopped* cannot stand alone, so this is correct." },
+            { "text": "The rain stopped, so the match went ahead.", "correct": false, "feedback": "The joining word *so* makes this correct." },
+            { "text": "The pitch, which had flooded overnight, was unplayable.", "correct": false, "feedback": "The commas bracket extra information." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P12",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each description to the correctly punctuated phrase.",
+          "hint": "Write the owner first, then add the apostrophe after it. A plural with no ownership gets no apostrophe.",
+          "explanation": "One nurse owns the coat: *nurse's*. Several nurses share the car park: *nurses'*. *Women* is a plural not ending in s, so it takes *'s*: *women's*. *Nurses* on its own is a simple plural with no ownership: no apostrophe.",
+          "pairs": [
+            { "left": "the coat belonging to one nurse", "right": "the nurse's coat" },
+            { "left": "the car park used by several nurses", "right": "the nurses' car park" },
+            { "left": "the changing room used by the women", "right": "the women's changing room" },
+            { "left": "more than one nurse, no ownership", "right": "the nurses" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P13",
+          "type": "FillInTheBlank",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Complete each sentence with the correctly punctuated word: **its** or **it's**; **Marcus** or **Marcus's**; **dogs** or **dogs'**.",
+          "metadata": { "blanksText": "___ raining again, so the match is off. ___ kit is still in the changing room. Both ___ leads were tangled together." },
+          "hint": "It is (needs an apostrophe). Belonging to Marcus (one person, so add 's even after an s). Belonging to two dogs (plural ending in s).",
+          "explanation": "*It's raining* (it is, so the apostrophe is needed). *Marcus's kit* (singular owner: add *'s*). *Dogs' leads* (plural owner ending in s: apostrophe after the s).",
+          "answers": [
+            { "text": "It's", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "Marcus's", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+            { "text": "dogs'", "blankIndex": 2, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P14",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which version of this line of dialogue is punctuated **correctly**?",
+          "hint": "The comma goes inside the closing speech mark, the tag starts with a lower-case letter, and the first spoken word takes a capital.",
+          "explanation": "*\"We should turn back,\" whispered Ana.* has the comma inside the speech marks and a lower-case tag. The others put the comma outside, break the sentence with a full stop and a capital *Whispered*, or forget the capital on the first spoken word.",
+          "options": [
+            { "text": "\"We should turn back,\" whispered Ana.", "correct": true },
+            { "text": "\"We should turn back\", whispered Ana.", "correct": false, "feedback": "The comma belongs inside the speech marks." },
+            { "text": "\"We should turn back.\" Whispered Ana.", "correct": false, "feedback": "A full stop and a capital *Whispered* split one sentence into two." },
+            { "text": "\"we should turn back,\" whispered Ana.", "correct": false, "feedback": "The first spoken word needs a capital." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P15",
+          "type": "Matching",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Each sentence has a punctuation mark missing where **[?]** appears. Match each sentence to the mark that belongs there.",
+          "hint": "A colon introduces a list or reveal; a semicolon joins two complete related sentences; a pair of dashes marks a dramatic interruption; brackets add a quiet aside.",
+          "explanation": "The list of essentials is introduced by a colon. Two complete, related sentences about the tide and the boat are joined by a semicolon. The emphatic interruption about the grandmother takes a pair of dashes. The quiet aside about when the café opened takes brackets.",
+          "pairs": [
+            { "left": "She packed only the essentials [?] a torch, a map and a bar of chocolate.", "right": "Colon" },
+            { "left": "The tide was coming in [?] the boat was still on the sand.", "right": "Semicolon" },
+            { "left": "My grandmother [?] who had never once complained [?] finally asked for help.", "right": "Pair of dashes" },
+            { "left": "The café [?] open since 1962 [?] serves the best chips in town.", "right": "Brackets" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P16",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Rewrite the following short sentences as **one or two sentences**, using a **semicolon** and a **colon** correctly.\n\n> The library was silent. Every desk was taken. One sound broke the hush. A phone ringing.",
+          "hint": "Join the two closely related sentences with a semicolon. Use the colon to introduce the reveal of what the sound was.",
+          "explanation": "For example: *The library was silent; every desk was taken. One sound broke the hush: a phone ringing.* The semicolon joins two related complete sentences; the colon introduces the reveal.",
+          "markScheme": [
+            { "criterion": "Uses a semicolon correctly between two complete, related sentences", "marks": 1, "keywords": [ ["silent;", "silent ;", "taken;", "taken ;"] ] },
+            { "criterion": "Uses a colon correctly to introduce the reveal (a phone ringing)", "marks": 1, "keywords": [ ["hush:", "hush :", "sound:", "silence:"] ] },
+            { "criterion": "Keeps all the original information and produces complete, correctly punctuated sentences", "marks": 1, "keywords": [ ["library", "the library"], ["phone", "ringing"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-02-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "Proofread and rewrite the passage below, correcting **all** punctuation errors. There are errors involving comma splices, apostrophes and speech punctuation.\n\n> The girls coats were still damp from the walk, nobody had thought to bring an umbrella. \"Is the kettle on\" asked Gran. \"Its boiling now.\" said Femi from the kitchen. \"Your the first ones back\". Gran nodded, she sat down heavily. The cats' fur was soaked as well. [8 marks]",
+          "hint": "Two girls own the coats. Fix two comma splices. The question needs a question mark inside the speech marks. *Its boiling* needs an apostrophe, and the tag after speech needs a comma, not a full stop. *Your the first* should be *You're*, with the full stop inside the marks. Only one cat owns the fur.",
+          "explanation": "Corrected: *The girls' coats were still damp from the walk; nobody had thought to bring an umbrella. \"Is the kettle on?\" asked Gran. \"It's boiling now,\" said Femi from the kitchen. \"You're the first ones back.\" Gran nodded. She sat down heavily. The cat's fur was soaked as well.*",
+          "markScheme": [
+            { "criterion": "Corrects 'girls coats' to 'girls' coats'", "marks": 1, "keywords": [ ["girls' coats", "girls’ coats"] ] },
+            { "criterion": "Fixes the first comma splice (walk, nobody) with a semicolon, full stop or connective", "marks": 1, "keywords": [ ["walk;", "walk.", "walk and", "walk, and", "walk but"] ] },
+            { "criterion": "Adds a question mark inside the speech marks: 'Is the kettle on?'", "marks": 1, "keywords": [ ["on?\"", "on?'", "on?”"] ] },
+            { "criterion": "Corrects 'Its boiling' to 'It's boiling'", "marks": 1, "keywords": [ ["it's boiling", "it’s boiling"] ] },
+            { "criterion": "Replaces the full stop before 'said Femi' with a comma inside the speech marks", "marks": 1, "keywords": [ ["now,\" said", "now,' said", "now,” said"] ] },
+            { "criterion": "Corrects 'Your the first' to 'You're the first' and moves the full stop inside the speech marks", "marks": 1, "keywords": [ ["you're the first", "you’re the first"], ["back.\"", "back.'", "back.”"] ] },
+            { "criterion": "Fixes the second comma splice (nodded, she sat)", "marks": 1, "keywords": [ ["nodded.", "nodded;", "nodded and", "nodded, and", "nodded, then"] ] },
+            { "criterion": "Corrects 'cats' fur' to 'cat's fur'", "marks": 1, "keywords": [ ["cat's fur", "cat’s fur"] ] }
+          ]
         }
       ]
     }

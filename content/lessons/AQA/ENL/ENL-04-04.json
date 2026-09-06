@@ -343,6 +343,113 @@
             "Write the piece",
             "Check each paragraph has between one and three devices"
           ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P11",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 5,
+          "text": "These sentences come from a leaflet campaigning for a safer road outside a primary school. Match each one to the persuasive device it uses.",
+          "hint": "Look for *you* or *your*, a question that needs no answer, three items in a row, an obvious exaggeration, and a word chosen to stir feeling.",
+          "explanation": "*Picture your own street* speaks to the reader directly. *How long must we wait…?* is a rhetorical question. *Warmer, brighter and quieter* is a triple. *Halfway to the next town* exaggerates. *Shameful* is chosen for its emotional charge.",
+          "pairs": [
+            { "left": "Picture your own street with the traffic gone.", "right": "Direct address" },
+            { "left": "How long must we wait for a crossing that takes a week to build?", "right": "Rhetorical question" },
+            { "left": "A school that is warmer, brighter and quieter.", "right": "Triple" },
+            { "left": "The queue of cars at the gate stretches halfway to the next town.", "right": "Hyperbole" },
+            { "left": "It is shameful that children cross this road in fear.", "right": "Emotive language" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P12",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "You are arguing that your school should start an hour later. Which **three** of these pieces of invented evidence are plausible enough to use?",
+          "hint": "Reject anything absolute, impossible or that relies on an invented famous expert with a suspiciously round figure.",
+          "explanation": "The survey of Year 10 pupils, the head of year's remark about lateness marks and the specific bus time all sound believable and checkable. *Scientists have proved that nobody under eighteen can learn anything before ten* is absolute and impossible, and *Dr Jones* with a *400 per cent* claim is an invented expert with an absurd figure.",
+          "options": [
+            { "text": "A survey of 250 Year 10 pupils at our school found that two thirds sleep fewer than seven hours on a school night.", "correct": true },
+            { "text": "Our head of year told me that late marks for period one are three times higher than for any other lesson.", "correct": true },
+            { "text": "The only bus from the estate that reaches school before half past eight leaves at five past seven.", "correct": true },
+            { "text": "Scientists have proved that nobody under eighteen can learn anything before ten o'clock.", "correct": false, "feedback": "Absolute and impossible." },
+            { "text": "A famous doctor called Dr Jones says that starting later makes pupils 400 per cent cleverer.", "correct": false, "feedback": "The invented expert and absurd figure destroy credibility." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "The task is: *Write a speech to Year 7 pupils persuading them to join a lunchtime club.* Which tone is most appropriate for the whole speech?",
+          "hint": "Who is listening, and what will make eleven-year-olds want to turn up?",
+          "explanation": "Year 7 pupils are a young, live audience who need to feel welcome; a warm, lively and encouraging tone with the odd joke will persuade them. A stern legal tone would bore them, sarcasm would confuse or upset them, and sustained anger is wrong for an invitation.",
+          "options": [
+            { "text": "Warm, lively and encouraging, with the occasional joke", "correct": true },
+            { "text": "Stern and formal, like a solicitor's letter", "correct": false, "feedback": "Far too cold for eleven-year-olds being invited to a club." },
+            { "text": "Heavily sarcastic throughout", "correct": false, "feedback": "Younger pupils may not follow sarcasm, and it makes the speaker sound unkind." },
+            { "text": "Furious about how few people currently attend", "correct": false, "feedback": "Anger is the wrong tone for an invitation." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P14",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Here is a sentence written in an **angry, informal** tone:\n\n> It's an absolute disgrace that they've axed the last bus and now loads of us are basically stranded after work.\n\nRewrite it in a **measured, formal** tone suitable for a letter to the bus company, keeping the same point.",
+          "hint": "Remove *absolute disgrace*, *axed*, *loads of us*, *basically* and the contractions. State precisely what has changed and what effect it has had.",
+          "explanation": "For example: *The withdrawal of the last evening service has left many people who finish work after nine with no way of getting home, and I am concerned that the effect on shift workers has not been considered.* This keeps the point but states it precisely, without slang or exaggeration.",
+          "markScheme": [
+            { "criterion": "Removes slang and informal intensifiers (absolute disgrace, axed, basically, loads) and avoids contractions", "marks": 1, "keywords": [ ["withdraw", "removal", "cancell", "no longer", "has left"] ] },
+            { "criterion": "Keeps the point that the last bus has gone and people cannot get home after work", "marks": 1, "keywords": [ ["last bus", "evening service", "final bus", "late bus"], ["stranded", "no way", "unable", "without", "cannot"] ] },
+            { "criterion": "Uses a measured register with precise vocabulary (e.g. concern, effect, impact, consequence)", "marks": 1, "keywords": [ ["concern", "effect", "impact", "consequence", "disappoint"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P15",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Read this paragraph from a student's persuasive speech about keeping the school playing fields.\n\n> Imagine it. Imagine the silence. Imagine the empty pitches, the locked gates, the weeds. Imagine a generation of children who have never, ever, ever kicked a ball. Imagine the tears, the heartbreak, the sheer unbearable tragedy of it all.\n\nWhat is the **main** weakness?",
+          "hint": "Count how many times the same word opens a sentence, and look at the emotional words piled up at the end. What would a sceptical listener think?",
+          "explanation": "The paragraph repeats *Imagine* five times, stacks emotive nouns (*tears, heartbreak, tragedy*) and exaggerates wildly (*never, ever, ever kicked a ball*), but offers no evidence or reasoning. The devices are so overused that the paragraph becomes melodramatic and loses credibility.",
+          "options": [
+            { "text": "It overuses repetition and stacked emotive language with no evidence, so it sounds melodramatic and loses credibility.", "correct": true },
+            { "text": "It does not use enough persuasive devices.", "correct": false, "feedback": "The opposite: it uses far too many." },
+            { "text": "It is too formal for a speech.", "correct": false },
+            { "text": "It needs more rhetorical questions.", "correct": false, "feedback": "Adding more devices would make the problem worse." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P16",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 2,
+          "text": "Complete these definitions of two persuasive techniques.",
+          "metadata": { "blanksText": "Setting two opposite ideas against each other in a single balanced sentence is called ___. Words chosen deliberately to stir the reader's feelings, such as 'heartbreaking' or 'shameful', are described as ___ language." },
+          "hint": "The first word begins with *anti-* and means placing opposites side by side. The second word is related to *emotion*.",
+          "explanation": "Antithesis balances opposites (*a garden promised, a car park delivered*). Emotive language is vocabulary chosen for its emotional charge.",
+          "answers": [ { "text": "antithesis", "blankIndex": 0, "marks": 1, "caseSensitive": false }, { "text": "emotive", "blankIndex": 1, "marks": 1, "caseSensitive": false } ]
+        },
+        {
+          "key": "AQA-ENL-04-04-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "*\"Energy drinks should be banned from every secondary school.\"*\n\nWrite **two paragraphs** (roughly 150 to 200 words) of a **speech to your school's governors** arguing your point of view. Your paragraphs must:\n\n- use at least **four different** persuasive devices from the lesson, each used once and deliberately\n- include one piece of **plausible evidence**\n- keep a **consistent, measured but urgent** tone suitable for addressing governors [8 marks]",
+          "hint": "Plan before you write: choose your four devices (for example direct address, one rhetorical question, a triple, an expert opinion) and decide where each will go. Write, then check you have not slipped in extras by accident.",
+          "explanation": "A strong answer might open: *Governors, stand by the front gate at twenty past eight and count the cans. Last Tuesday I counted nineteen before the bell. Nineteen. The school nurse told me that the number of pupils sent to her with headaches and racing hearts has doubled in two years, and almost all of them had drunk an energy drink before period one.* A second paragraph might acknowledge that pupils are old enough to choose what they drink, then argue that the school already bans smoking and vaping for the same reason: *We do not let pupils choose what the law and their own bodies are not ready for. A can before breakfast is not a choice; it is a habit sold to children. Ban them at the gate, ban them in the canteen, and ban them for good.* Devices: direct address, a short sentence, expert evidence, antithesis, an answered counter-argument and a final triple, all in a measured, urgent tone.",
+          "markScheme": [
+            { "criterion": "Uses direct address or inclusive language aimed at governors", "marks": 1, "keywords": [ ["governors", "you", "we", "us", "our"] ] },
+            { "criterion": "Uses one rhetorical question or a short sentence for impact", "marks": 1, "keywords": [ ["?", "nineteen.", "that is", "enough", "now."] ] },
+            { "criterion": "Uses a triple, repetition or antithesis", "marks": 1, "keywords": [ [", and ", "not a", "not ", "every", "ban them"] ] },
+            { "criterion": "Includes plausible evidence (statistic, expert view, specific fact or anecdote)", "marks": 1, "keywords": [ ["nurse", "doctor", "survey", "found", "counted"] ] },
+            { "criterion": "States a clear point of view on the ban", "marks": 1, "keywords": [ ["ban", "should", "must", "protect", "stop"] ] },
+            { "criterion": "Includes a counter-argument acknowledged and answered, or a reasoned justification", "marks": 1, "keywords": [ ["old enough", "some will", "of course", "but", "however"] ] },
+            { "criterion": "Tone is measured but urgent and consistent, without ranting or slang", "marks": 1, "keywords": [ ["evidence", "reason", "protect", "cannot", "responsib"] ] },
+            { "criterion": "Devices are controlled: no more than three per paragraph and no stacked emotive adjectives", "marks": 1, "keywords": [ ["gate", "canteen", "can", "pupils", "bell"] ] }
+          ]
         }
       ]
     }

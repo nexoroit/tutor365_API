@@ -334,6 +334,117 @@
             "She pushed the door and it swung inwards without a sound.",
             "Something moved."
           ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P11",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each of these sentences about a creaking door to its sentence type.",
+          "hint": "Count the main clauses. Look for a coordinating conjunction (*and, but, so*) or a subordinating one (*although, because, when*). A sentence with no subject and verb is a minor sentence.",
+          "explanation": "*The door creaked* has one main clause: simple. *The door creaked but nobody came* has two main clauses joined by *but*: compound. *Although the door creaked, nobody came* has a subordinate clause plus a main clause: complex. *Silence.* has no subject-verb pair: a minor sentence.",
+          "pairs": [
+            { "left": "The door creaked.", "right": "Simple" },
+            { "left": "The door creaked but nobody came.", "right": "Compound" },
+            { "left": "Although the door creaked, nobody came.", "right": "Complex" },
+            { "left": "Silence.", "right": "Minor sentence" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P12",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Choose the correct verb form for each gap: **was** or **were**; **has** or **have**; **did** or **done**.",
+          "metadata": { "blanksText": "The keys ___ on the table where I left them. Neither of the lamps ___ a bulb in it. She ___ her homework before tea." },
+          "hint": "A plural subject takes *were*. *Neither* is singular. *Done* needs a helper verb (*has done*); on its own the past tense is *did*.",
+          "explanation": "*The keys were* (plural subject). *Neither of the lamps has* (neither is singular). *She did* (simple past; *done* would need *has* or *had*).",
+          "answers": [
+            { "text": "were", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "has", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+            { "text": "did", "blankIndex": 2, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P13",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which of these passages keeps the **narration in one tense** throughout?",
+          "hint": "Check every verb in the narration. Words inside speech marks are allowed to be in a different tense because they are what the character says.",
+          "explanation": "The first option is consistently past tense; the speech is present tense, which is correct because it is what she says. The others slip between past and present in the narration.",
+          "options": [
+            { "text": "She unlocked the gate and stepped into the garden. \"Someone has been here,\" she said.", "correct": true },
+            { "text": "She unlocked the gate and steps into the garden. She said someone had been there.", "correct": false, "feedback": "*Unlocked* is past, *steps* is present." },
+            { "text": "She unlocks the gate and stepped into the garden. She looks around.", "correct": false, "feedback": "Present, past, present." },
+            { "text": "She unlocked the gate. In the garden she stops and looked around.", "correct": false, "feedback": "*Stops* is present in a past-tense passage." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P14",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Four of these five sentences contain a grammar error. Select the **four**.",
+          "hint": "Check pronouns (he/him, I/me), double negatives, who/which for people, and whether the opening phrase describes the right thing.",
+          "explanation": "*Him and me* should be *He and I*; *haven't got no* is a double negative; *the woman which* should be *who*; *Driving to the coast, the sea* is a dangling modifier (the sea was not driving). *They played brilliantly and won easily* is correct.",
+          "options": [
+            { "text": "Him and me are going to the match on Saturday.", "correct": true },
+            { "text": "We haven't got no tickets yet.", "correct": true },
+            { "text": "The woman which lives next door has a boat.", "correct": true },
+            { "text": "Driving to the coast, the sea suddenly appeared.", "correct": true },
+            { "text": "They played brilliantly and won easily.", "correct": false, "feedback": "This is correct: both adverbs are right and the sentence is well formed." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P15",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Rewrite this paragraph so that it contains **at least one complex sentence** starting with a subordinate clause, **one compound sentence**, and **one short simple sentence** for impact. Keep the events the same.\n\n> I opened the shed door. The light was off. Something rustled in the corner. My torch flickered. It went out. I froze.",
+          "hint": "Try opening with *When* or *As*. Join two ideas with *and* or *but*. Keep *I froze.* or something similar as your short sentence at the end.",
+          "explanation": "For example: *When I opened the shed door, the light was off and something rustled in the corner. My torch flickered, and then it went out. I froze.* The first sentence is complex (starts with *When…*), the second is compound (*and*), and the last is a short simple sentence for impact.",
+          "markScheme": [
+            { "criterion": "Includes a complex sentence beginning with a subordinating conjunction (when, as, although, while, because)", "marks": 1, "keywords": [ ["when i", "as i", "although", "while", "because"] ] },
+            { "criterion": "Includes a compound sentence joined by and, but or so", "marks": 1, "keywords": [ [", and ", " and the", ", but ", " but ", ", so "] ] },
+            { "criterion": "Ends with, or includes, a short simple sentence for impact", "marks": 1, "keywords": [ ["i froze.", "froze.", "dark.", "nothing.", "silence."] ] },
+            { "criterion": "Keeps all the original events (shed, light off, rustling, torch going out, freezing)", "marks": 1, "keywords": [ ["shed", "door"], ["torch", "light"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P16",
+          "type": "MultipleChoice",
+          "difficulty": 3,
+          "marks": 1,
+          "text": "Read this sentence from a story.\n\n> Long after the last bus had gone, after the shops had pulled down their shutters and the streetlights had flickered into life one by one, he was still waiting.\n\nWhat is the effect of holding back the main clause until the end?",
+          "hint": "Find the main clause. What does the reader have to do before reaching it, and what does that do to the pace?",
+          "explanation": "The main clause (*he was still waiting*) is delayed until the end, so the reader is made to live through the whole evening with him before learning that nothing has changed. The delay stretches time, mirrors his waiting, and makes the short main clause land with quiet force.",
+          "options": [
+            { "text": "It makes the reader wait through the whole evening with him, so the short main clause 'he was still waiting' lands with force.", "correct": true },
+            { "text": "It speeds up the action so the reader rushes to the end.", "correct": false, "feedback": "Long build-up clauses slow the reader down rather than speeding them up." },
+            { "text": "It is a run-on sentence that should be split into three.", "correct": false, "feedback": "It is a correctly built complex sentence." },
+            { "text": "It shows the writer forgot to use a full stop.", "correct": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-03-L1-P17",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 8,
+          "examStyle": true,
+          "text": "Rewrite the passage below so that it is **grammatically correct** and shows **deliberate sentence variety**. Fix every grammar error (there are **five**: tense, agreement, pronoun, double negative, dangling modifier) and reshape the sentences so the passage includes at least one complex sentence, one compound sentence and one short simple sentence for effect.\n\n> Me and Priya was waiting for the bus. It is freezing. We hadn't got no gloves. Stamping our feet, the bus finally appeared. Priya grinned at me. I grinned at Priya. We got on. [8 marks]",
+          "hint": "Fix: *Priya and I were*; *It was freezing*; *We had no gloves*; the bus was not stamping its feet, so restructure: *As we stamped our feet, the bus finally appeared*. Then vary the shapes: open one sentence with a subordinate clause, join two with *and* or *but*, and keep *We got on.* as the short ending.",
+          "explanation": "For example: *Priya and I were waiting for the bus, and it was freezing. We had no gloves. As we stamped our feet to keep warm, the bus finally appeared round the corner. Priya grinned at me and I grinned at Priya. We got on.* This corrects the pronoun, the agreement, the tense, the double negative and the dangling modifier, and it moves from compound to simple to complex to compound to a short simple ending.",
+          "markScheme": [
+            { "criterion": "Corrects 'Me and Priya' to 'Priya and I'", "marks": 1, "keywords": [ ["priya and i", "priya and i were"] ] },
+            { "criterion": "Corrects 'was waiting' to 'were waiting' (agreement)", "marks": 1, "keywords": [ ["were waiting", "were standing", "waited"] ] },
+            { "criterion": "Corrects 'It is freezing' to past tense", "marks": 1, "keywords": [ ["it was freezing", "was freezing", "it was cold", "was bitterly"] ] },
+            { "criterion": "Removes the double negative", "marks": 1, "keywords": [ ["had no gloves", "didn't have any gloves", "did not have any", "without gloves", "didn't have gloves"] ] },
+            { "criterion": "Fixes the dangling modifier so that 'we' (not the bus) are stamping our feet", "marks": 1, "keywords": [ ["as we stamped", "while we stamped", "we stamped", "when we stamped", "we were stamping"] ] },
+            { "criterion": "Includes a complex sentence opening with a subordinate clause", "marks": 1, "keywords": [ ["as we", "when we", "because", "although", "while we"] ] },
+            { "criterion": "Includes a compound sentence joined by and, but or so", "marks": 1, "keywords": [ [", and ", " and i ", " and it ", ", but ", ", so "] ] },
+            { "criterion": "Keeps a short simple sentence for impact (e.g. We got on.)", "marks": 1, "keywords": [ ["we got on.", "we climbed on.", "we jumped on.", "we boarded.", "we were on."] ] }
+          ]
         }
       ]
     }

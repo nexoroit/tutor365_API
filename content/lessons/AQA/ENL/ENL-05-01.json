@@ -327,6 +327,105 @@
             "Check no plural has an apostrophe",
             "Cross out errors with a single line and write corrections above"
           ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P11",
+          "type": "FillInTheBlank",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Fill each gap with the right homophone: **their / there / they're** or **its / it's**. Watch the capital letter at the start of a sentence.",
+          "metadata": { "blanksText": "___ waiting outside the hall because ___ coach has not arrived. Leave the bags over ___ by the door. The minibus is late again; ___ engine keeps stalling." },
+          "hint": "Ask each time: they are? belonging to them? a place? belonging to it? it is?",
+          "explanation": "*They're waiting* (they are); *their coach* (belonging to them); *over there* (a place); *its engine* (belonging to it, no apostrophe).",
+          "answers": [
+            { "text": "They're", "blankIndex": 0, "marks": 1, "caseSensitive": false },
+            { "text": "their", "blankIndex": 1, "marks": 1, "caseSensitive": false },
+            { "text": "there", "blankIndex": 2, "marks": 1, "caseSensitive": false },
+            { "text": "its", "blankIndex": 3, "marks": 1, "caseSensitive": false }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Which of these sentences about a noisy classroom is written correctly?",
+          "hint": "*Affect* is the verb (to influence). *Effect* is the noun (the result). And *would of* is never right.",
+          "explanation": "*The noise affected her concentration* uses the verb correctly, and *the effect on her marks* uses the noun correctly. The other options swap the two words or use *would of*.",
+          "options": [
+            { "text": "The noise affected her concentration, and the effect on her marks was clear.", "correct": true },
+            { "text": "The noise effected her concentration, and the affect on her marks was clear.", "correct": false, "feedback": "Both words are swapped." },
+            { "text": "The noise affected her concentration, and the affect on her marks was clear.", "correct": false, "feedback": "The second word should be the noun *effect*." },
+            { "text": "The noise would of affected her concentration, and the effect on her marks was clear.", "correct": false, "feedback": "*Would of* is never correct; it is *would have*." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P13",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Match each root word and ending to the correctly spelled result.",
+          "hint": "Decide each time: double the final consonant? drop the silent e? change y to i? or simply add the ending?",
+          "explanation": "*Stop* doubles the *p* (short vowel, single final consonant): *stopping*. *Hope* drops the *e* before *-ing*: *hoping*. *Easy* changes *y* to *i*: *easily*. *Usual* simply adds *-ly*: *usually*.",
+          "pairs": [
+            { "left": "stop + ing", "right": "stopping" },
+            { "left": "hope + ing", "right": "hoping" },
+            { "left": "easy + ly", "right": "easily" },
+            { "left": "usual + ly", "right": "usually" }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P14",
+          "type": "MultipleAnswer",
+          "difficulty": 3,
+          "marks": 4,
+          "text": "Read this student paragraph. Select the **four** words that are misspelled.\n\n> The goverment has recieved alot of complaints about the new timetable. Teachers were suprised by the change, and its effect on attendance was immediate.",
+          "hint": "Check the *-ern-* in *government*, the *i before e except after c* rule, the two-word *a lot*, and the *-ur-* in *surprised*.",
+          "explanation": "The errors are *goverment* (government), *recieved* (received), *alot* (a lot) and *suprised* (surprised). *Its* is the correct possessive here, *effect* is the noun and is correct, and *immediate* is spelled correctly.",
+          "options": [
+            { "text": "goverment", "correct": true },
+            { "text": "recieved", "correct": true },
+            { "text": "alot", "correct": true },
+            { "text": "suprised", "correct": true },
+            { "text": "its", "correct": false, "feedback": "*Its* (belonging to it) is correct here; no apostrophe is needed." },
+            { "text": "effect", "correct": false, "feedback": "*Effect* is the noun here, so it is correct." },
+            { "text": "immediate", "correct": false, "feedback": "Correct." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P15",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Only one of these groups of four words has **no spelling mistakes**. Which is it?",
+          "hint": "Check *argument* (no e after the u), *business* (busi-), *occurred* (double r), *embarrass* (double r, double s).",
+          "explanation": "*Argument, business, occurred, embarrass* are all correct. The other sets each contain at least one error: *arguement*, *buisness*, *occured*, *embarass*.",
+          "options": [
+            { "text": "argument, business, occurred, embarrass", "correct": true },
+            { "text": "arguement, business, occurred, embarrass", "correct": false, "feedback": "*Argument* drops the *e* of *argue*." },
+            { "text": "argument, buisness, occurred, embarrass", "correct": false, "feedback": "*Business* is *busi-* then *-ness*." },
+            { "text": "argument, business, occured, embarass", "correct": false, "feedback": "*Occurred* doubles the *r*; *embarrass* has two *r*s and two *s*s." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-05-01-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 3,
+          "marks": 8,
+          "examStyle": true,
+          "text": "Proofread the paragraph below. It contains **ten** spelling or confused-word errors. Rewrite the paragraph with all errors corrected.\n\n> The auther describes the city at night in a series of short sentances. Its obvious that the narrator feels lonely: she walks passed the lit windows and wonders wether anyone notices her. The writer definately wants us to feel her isolation, which is emphasised threw the repetition of 'nobody'. Their is a change of tone at the end, when the narrator recieves a message and the mood begins to seperate from the darkness. [8 marks]",
+          "hint": "Look for: *author*, *sentences*, its/it's, passed/past, *whether*, *definitely*, threw/through, there/their, the *i before e* rule in *receives*, and the *-par-* in *separate*.",
+          "explanation": "Corrected: *The author describes the city at night in a series of short sentences. It's obvious that the narrator feels lonely: she walks past the lit windows and wonders whether anyone notices her. The writer definitely wants us to feel her isolation, which is emphasised through the repetition of 'nobody'. There is a change of tone at the end, when the narrator receives a message and the mood begins to separate from the darkness.* Ten errors are corrected; marks are awarded as in the scheme, with two pairs of corrections sharing a mark.",
+          "markScheme": [
+            { "criterion": "Corrects 'auther' to 'author' and 'sentances' to 'sentences'", "marks": 1, "keywords": [ ["author", "the author"], ["sentences", "short sentences"] ] },
+            { "criterion": "Corrects 'Its obvious' to 'It's obvious'", "marks": 1, "keywords": [ ["it's obvious", "it is obvious"] ] },
+            { "criterion": "Corrects 'walks passed' to 'walks past'", "marks": 1, "keywords": [ ["walks past", "past the"] ] },
+            { "criterion": "Corrects 'wether' to 'whether'", "marks": 1, "keywords": [ ["whether", "wonders whether"] ] },
+            { "criterion": "Corrects 'definately' to 'definitely'", "marks": 1, "keywords": [ ["definitely", "definitely wants"] ] },
+            { "criterion": "Corrects 'threw' to 'through'", "marks": 1, "keywords": [ ["through", "through the"] ] },
+            { "criterion": "Corrects 'Their is' to 'There is'", "marks": 1, "keywords": [ ["there is a", "there is"] ] },
+            { "criterion": "Corrects 'recieves' to 'receives' and 'seperate' to 'separate'", "marks": 1, "keywords": [ ["receives", "receives a"], ["separate", "separate from"] ] }
+          ]
         }
       ]
     }

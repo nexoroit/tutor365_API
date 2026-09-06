@@ -327,6 +327,105 @@
             "The likely counter-argument, acknowledged and answered",
             "A clear request for action, polite close and sign-off"
           ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P11",
+          "type": "Matching",
+          "difficulty": 2,
+          "marks": 3,
+          "text": "Match each letter greeting to the closing that goes with it.",
+          "hint": "A greeting with no name takes *faithfully*; a greeting with a surname takes *sincerely*; family and friends get something warmer.",
+          "explanation": "*Dear Madam* (name not known) closes with *Yours faithfully*. *Dear Mrs Okafor* (name known) closes with *Yours sincerely*. A letter to a grandparent can close with *Love from* or something similarly warm.",
+          "pairs": [
+            { "left": "Dear Madam,", "right": "Yours faithfully," },
+            { "left": "Dear Mrs Okafor,", "right": "Yours sincerely," },
+            { "left": "Dear Grandad,", "right": "Love from," }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P12",
+          "type": "MultipleChoice",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "You are writing to a bus company to complain that the school service has been running late for a whole term. Which sentence has the best tone?",
+          "hint": "Aim for firm but courteous: give the facts precisely, show you expect action, and do not insult or apologise.",
+          "explanation": "The first option gives exact facts, expresses concern politely and makes clear that the writer expects a response. The others attack the reader, sound unsure of the right to complain, or are far too chatty.",
+          "options": [
+            { "text": "I am writing to express my concern that the 7.40 service to Hillcrest School has arrived more than fifteen minutes late on twelve occasions since September.", "correct": true },
+            { "text": "Your drivers clearly could not care less whether a bus full of children gets to school on time.", "correct": false, "feedback": "Accusing the reader makes them defensive rather than helpful." },
+            { "text": "I hope you do not mind me mentioning this, but the bus is sometimes a little bit late, if that is all right to say.", "correct": false, "feedback": "Far too feeble; the writer sounds as though they have no right to complain." },
+            { "text": "Hiya, just flagging that the school bus has been rocking up late loads this term.", "correct": false, "feedback": "Too casual for a formal complaint." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P13",
+          "type": "ShortAnswer",
+          "difficulty": 3,
+          "marks": 3,
+          "text": "Write the **greeting and opening paragraph** (two to four sentences) of a formal letter to the editor of a local newspaper, arguing that the town needs a youth centre.",
+          "hint": "Begin with *Sir,* or *Dear Editor,*. Say who you are and why you are writing, then make the first sentence count with a contrast, a striking detail or a short punchy sentence.",
+          "explanation": "For example: *Dear Editor, As a fifteen-year-old who has lived in Fenbridge all my life, I read your report on the closure of the old youth club with real anger. This town has four coffee shops, two gyms for adults and a bowling green, but not one warm, safe room where teenagers are actually welcome. I am writing to ask the council, and your readers, to change that.* This has a correct greeting, identifies the writer, states the purpose, and uses a list and a contrast to make the case.",
+          "markScheme": [
+            { "criterion": "Uses an appropriate formal greeting (Sir, Dear Editor, Dear Sir or Madam)", "marks": 1, "keywords": [ ["dear editor", "sir", "dear sir", "madam"] ] },
+            { "criterion": "States who the writer is and why they are writing", "marks": 1, "keywords": [ ["i am writing", "as a", "resident", "student", "i read"] ] },
+            { "criterion": "Makes the case for a youth centre with a reason or contrast in a formal register", "marks": 1, "keywords": [ ["youth", "centre", "young people", "teenager"], ["nowhere", "safe", "welcome", "somewhere", "bored"] ] }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P14",
+          "type": "MultipleAnswer",
+          "difficulty": 2,
+          "marks": 4,
+          "text": "Which **four** of these features would an examiner credit in a leaflet persuading families to visit a new nature reserve?",
+          "hint": "Only written features count. Anything drawn, coloured or laid out with a ruler earns nothing.",
+          "explanation": "An opening hook, a rhetorical question, short paragraphs under subheadings and a clear closing instruction are all written features that show command of the form. A hand-drawn map, coloured pens and a ruled table are presentation, which is not marked.",
+          "options": [
+            { "text": "An opening paragraph that hooks the reader with a vivid picture of the reserve", "correct": true },
+            { "text": "A rhetorical question that speaks directly to the reader", "correct": true },
+            { "text": "Short paragraphs organised under clear subheadings", "correct": true },
+            { "text": "A closing line that tells the reader exactly what to do next", "correct": true },
+            { "text": "A hand-drawn map showing how to get there", "correct": false, "feedback": "Drawings earn nothing; describe the route in words if it matters." },
+            { "text": "A different coloured pen for each section", "correct": false, "feedback": "Presentation is not marked." },
+            { "text": "A price list set out in a table drawn with a ruler", "correct": false, "feedback": "Layout is not marked; prices can be mentioned in a sentence." }
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P15",
+          "type": "Ordering",
+          "difficulty": 2,
+          "marks": 1,
+          "text": "Put these leaflet sections into the most logical order for a leaflet persuading residents to join a community litter-pick.",
+          "hint": "Title first, then a hook, then the reasons, then the practical details, then the call to action.",
+          "explanation": "Title, then an opening that paints the picture and states the message, then *Why bother?* for the persuasive reasons, then *What happens on the day?* for practical detail, then a call to action giving the time and place.",
+          "order": [
+            "Title: Our Streets, Our Job",
+            "Opening: a short paragraph picturing the estate as it could look by the summer",
+            "Why bother? Reasons: pride in the area, safer for children and wildlife, a chance to meet neighbours",
+            "What happens on the day? Practical details: gloves and bags provided, two hours, tea afterwards",
+            "Call to action: Meet outside the community hall at ten on Saturday. Bring the family."
+          ]
+        },
+        {
+          "key": "AQA-ENL-04-02-L1-P16",
+          "type": "ExamQuestion",
+          "difficulty": 4,
+          "marks": 10,
+          "examStyle": true,
+          "text": "*\"Councils should charge every car that enters the town centre and spend the money on cheaper buses.\"*\n\nWrite a **letter to your local councillor** in which you argue your point of view on this statement.\n\nFor this practice task, write the **greeting, opening paragraph, one body paragraph containing evidence, one counter-argument paragraph, and the closing paragraph with sign-off** (roughly 220 to 280 words). [10 marks]",
+          "hint": "Decide your view first. Open with *Dear Councillor [Name],* and say who you are and why you are writing. Use a plausible statistic or example in the body. Acknowledge the other side (*I appreciate that drivers will argue…*) and answer it. End with a clear request and *Yours sincerely,*.",
+          "explanation": "A strong answer: *Dear Councillor Mensah, I am writing as a Year 11 student at Ashdown High to urge you to support a charge for cars entering the town centre. Every morning I stand at a bus stop on Station Road breathing the fumes of a queue that has not moved since the lights changed. A recent survey by our school council found that four in ten pupils would take the bus if the fare were under a pound, and cities that introduced a charge report that traffic fell by a fifth within a year. I appreciate that drivers will argue that they already pay enough to use the roads. But a driver sitting in a jam pays in wasted time and petrol every day; a small charge that clears the road would cost most of them less than the fuel they burn idling. I would be grateful if you would raise this at the next transport meeting, and I would be happy to present our survey to the committee. Yours sincerely, Amira Hassan.* This shows the conventions, states the view, gives plausible evidence, rebuts a counter-argument, requests action and stays formal and courteous.",
+          "markScheme": [
+            { "criterion": "Uses a correct formal greeting addressed to the councillor", "marks": 1, "keywords": [ ["dear councillor", "dear mr", "dear mrs", "dear ms", "dear sir"] ] },
+            { "criterion": "Opening paragraph states who the writer is and why they are writing", "marks": 1, "keywords": [ ["i am writing", "as a", "student", "resident", "to urge"] ] },
+            { "criterion": "States a clear point of view on charging cars to enter the town centre", "marks": 1, "keywords": [ ["should", "must", "support", "oppose", "believe"] ] },
+            { "criterion": "Body paragraph gives plausible evidence, example or statistic", "marks": 1, "keywords": [ ["survey", "research", "found", "per cent", "study"] ] },
+            { "criterion": "Counter-argument is acknowledged fairly", "marks": 1, "keywords": [ ["i understand", "i appreciate", "some", "of course", "it is true"] ] },
+            { "criterion": "Counter-argument is answered with a contrast word and reason", "marks": 1, "keywords": [ ["but", "however", "yet", "nevertheless", "in fact"] ] },
+            { "criterion": "Closing paragraph makes a clear request for action", "marks": 1, "keywords": [ ["i urge", "grateful", "please", "i ask", "raise"] ] },
+            { "criterion": "Correct sign-off matching the greeting (Yours sincerely with a named recipient)", "marks": 1, "keywords": [ ["yours sincerely", "yours faithfully"] ] },
+            { "criterion": "Maintains a formal, courteous register throughout (no slang, minimal contractions)", "marks": 1, "keywords": [ ["would", "grateful", "concern", "consider", "believe"] ] },
+            { "criterion": "Uses at least one rhetorical device (direct address, rhetorical question, list of three, short sentence, repetition)", "marks": 1, "keywords": [ ["you", "?", ", and ", "every", "not "] ] }
+          ]
         }
       ]
     }
