@@ -298,4 +298,46 @@ public class ScheduleAndHelpOptionTests : IClassFixture<ApiFactory>
 
         await _client.SendAsync(HttpMethod.Delete, $"/api/v1/parents/me/children/{studentId}", token: parentToken);
     }
+
+    [Fact]
+    public async Task Changing_todays_session_count_mid_day_tops_up_the_plan_and_keeps_the_slot_in_progress()
+    {
+        var stamp = Guid.NewGuid().ToString("N")[..8];
+        var parentEmail = $"it-topup-parent-{stamp}@tutor365.test"; var childEmail = $"it-topup-child-{stamp}@tutor365.test";
+        var (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/auth/register", new { email = parentEmail, password = "Parent1234", firstName = "Top", lastName = "Up" });
+        s.Should().Be(200);
+        (_, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/auth/verify-email", new { email = parentEmail, code = await ForceOtpAsync(parentEmail) });
+        var parentToken = b.Data().Str("accessToken");
+        var (_, years) = await _client.SendAsync(HttpMethod.Get, "/api/v1/year-groups");
+        var year10 = years.Data().EnumerateArray().First(y => y.GetProperty("number").GetInt32() == 10).Str("id");
+        (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/parents/me/children", new { firstName = "Tia", lastName = "Up", email = childEmail, password = "Child1234", yearGroupId = year10, targetGrade = 6, sessionsPerDay = 1, sessionMinutes = 30 }, parentToken);
+        s.Should().Be(201, b.ToString());
+        var studentId = b.Data().GetProperty("summary").Str("studentId");
+        var todayName = DateTime.UtcNow.DayOfWeek.ToString();
+
+        // Today is planned with one slot; the student starts it.
+        (_, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/auth/login", new { email = childEmail, password = "Child1234" });
+        var childToken = b.Data().Str("accessToken");
+        (s, b) = await _client.SendAsync(HttpMethod.Get, "/api/v1/students/me/today", token: childToken);
+        s.Should().Be(200, b.ToString());
+        var slot = b.Data().GetProperty("slots").EnumerateArray().First();
+        (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/study-sessions", new { lessonId = slot.Str("lessonId"), dailyStudySlotId = slot.Str("id") }, childToken);
+        s.Should().Be(200, b.ToString());
+        var sessionId = b.Data().Str("id");
+
+        // Parent raises today to three sessions of 20 minutes and rebuilds the week (what the UI does on save).
+        (s, b) = await _client.SendAsync(HttpMethod.Put, $"/api/v1/parents/me/children/{studentId}/schedule", new { days = new[] { new { day = todayName, active = true, sessions = 3, minutes = 20 } } }, parentToken);
+        s.Should().Be(200, b.ToString());
+        (s, b) = await _client.SendAsync(HttpMethod.Post, $"/api/v1/parents/me/children/{studentId}/week/regenerate", token: parentToken);
+        s.Should().Be(200, b.ToString());
+
+        (s, b) = await _client.SendAsync(HttpMethod.Get, "/api/v1/students/me/today", token: childToken);
+        var slots = b.Data().GetProperty("slots").EnumerateArray().ToList();
+        slots.Should().HaveCount(3, "today is topped up to the new session count");
+        slots.Should().Contain(x => x.Str("status") == "InProgress" && x.Str("id") == slot.Str("id"), "the started slot is kept");
+        slots.Where(x => x.Str("status") == "Scheduled").Should().OnlyContain(x => x.GetProperty("durationMinutes").GetInt32() == 20);
+
+        await _client.SendAsync(HttpMethod.Post, $"/api/v1/study-sessions/{sessionId}/abandon", token: childToken);
+        await _client.SendAsync(HttpMethod.Delete, $"/api/v1/parents/me/children/{studentId}", token: parentToken);
+    }
 }

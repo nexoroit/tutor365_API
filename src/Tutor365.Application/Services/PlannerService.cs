@@ -107,14 +107,17 @@ public class PlannerService : IPlannerService
         var slots = await _db.DailyStudySlots.Where(s => s.StudentId == studentId && s.Date == date).OrderBy(s => s.SlotNumber).ToListAsync(ct);
         var today = DateOnly.FromDateTime(DateTime.UtcNow);
 
-        if (slots.Count == 0 && isActiveDay && schedule.AutoPlanEnabled && date >= today && date <= today.AddDays(14))
+        // Top the day up to its planned session count. A day may already hold completed or in-progress slots (for example
+        // when the parent changes the schedule part-way through today): those are kept and only the missing ones are added.
+        var (sessionsToday, _) = schedule.PlanFor(date.DayOfWeek);
+        if (slots.Count < sessionsToday && isActiveDay && schedule.AutoPlanEnabled && date >= today && date <= today.AddDays(14))
         {
             slots = await StudentLocks.RunAsync(studentId, async () =>
             {
                 // Another request may have generated this day while we waited for the lock.
                 var existing = await _db.DailyStudySlots.Where(s => s.StudentId == studentId && s.Date == date).OrderBy(s => s.SlotNumber).ToListAsync(ct);
-                if (existing.Count > 0) return existing;
-                try { return await GenerateAsync(studentId, date, schedule, ct); }
+                if (existing.Count >= sessionsToday) return existing;
+                try { return await GenerateAsync(studentId, date, schedule, ct, existing); }
                 catch (DbUpdateException)
                 {
                     _db.ClearTracking();
