@@ -43,8 +43,7 @@ public class StudentService : IStudentService
         var studied = subjects.Where(s => s.SessionsCompleted > 0).ToList();
         var overall = studied.Count == 0 ? 0 : Math.Round(studied.Average(s => s.AverageScore), 1);
         var schedule = student.Schedule;
-        var activeDays = schedule == null ? 7 : Enum.GetValues<DaysOfWeek>().Count(d => d is not (DaysOfWeek.None or DaysOfWeek.Weekdays or DaysOfWeek.All) && schedule.ActiveDays.HasFlag(d));
-        var goal = (schedule?.SessionsPerDay ?? 2) * (schedule?.SessionMinutes ?? 45) * activeDays;
+        var goal = schedule?.WeeklyMinutes ?? 2 * 45 * 7;
         var assigned = await GetAssignedWorkAsync(studentId, false, ct);
         var unread = _current.UserId == student.UserId ? await _notifications.GetUnreadCountAsync(ct) : 0;
 

@@ -83,6 +83,16 @@ public class ParentsController : ApiControllerBase
     public async Task<IActionResult> UpdateSchedule(Guid studentId, [FromBody] UpdateStudyScheduleRequest request, CancellationToken ct)
         => Ok(await _parents.UpdateScheduleAsync(studentId, request, ct));
 
+    /// <summary>Which in-lesson help buttons the child may use (hint, explain differently, show an example).</summary>
+    [HttpGet("me/children/{studentId:guid}/help-options")]
+    [ProducesResponseType(typeof(ApiResponse<HelpOptionsDto>), StatusCodes.Status200OK)]
+    public async Task<IActionResult> GetHelpOptions(Guid studentId, CancellationToken ct) => Ok(await _parents.GetHelpOptionsAsync(studentId, ct));
+
+    [HttpPut("me/children/{studentId:guid}/help-options")]
+    [ProducesResponseType(typeof(ApiResponse<HelpOptionsDto>), StatusCodes.Status200OK)]
+    public async Task<IActionResult> UpdateHelpOptions(Guid studentId, [FromBody] UpdateHelpOptionsRequest request, CancellationToken ct)
+        => Ok(await _parents.UpdateHelpOptionsAsync(studentId, request, ct), "Help options updated.");
+
     /// <summary>Per-subject settings: tier, target grade, pass threshold that gates the next lesson.</summary>
     [HttpGet("me/children/{studentId:guid}/subjects")]
     [ProducesResponseType(typeof(ApiResponse<IReadOnlyList<SubjectSettingDto>>), StatusCodes.Status200OK)]

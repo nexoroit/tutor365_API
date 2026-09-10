@@ -203,3 +203,99 @@ public class VarietyTests : IClassFixture<ApiFactory>
         foreach (var id in studentIds) await _client.SendAsync(HttpMethod.Delete, $"/api/v1/parents/me/children/{id}", token: parentToken);
     }
 }
+
+public class ScheduleAndHelpOptionTests : IClassFixture<ApiFactory>
+{
+    private readonly HttpClient _client;
+    private readonly ApiFactory _factory;
+    public ScheduleAndHelpOptionTests(ApiFactory factory) { _factory = factory; _client = factory.CreateClient(); }
+
+    private async Task<string> ForceOtpAsync(string email)
+    {
+        using var scope = _factory.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        var normalized = email.ToUpperInvariant();
+        var otp = db.OtpCodes.Where(o => o.Email == normalized && o.Purpose == OtpPurpose.Registration && o.ConsumedAt == null).OrderByDescending(o => o.CreatedAt).First();
+        const string code = "123456";
+        otp.CodeHash = Convert.ToHexString(System.Security.Cryptography.SHA256.HashData(System.Text.Encoding.UTF8.GetBytes($"{normalized}:{code}")));
+        await db.SaveChangesAsync();
+        return code;
+    }
+
+    [Fact]
+    public async Task Parent_sets_a_weekday_schedule_and_help_options_that_the_student_experiences()
+    {
+        var stamp = Guid.NewGuid().ToString("N")[..8];
+        var parentEmail = $"it-sched-parent-{stamp}@tutor365.test"; var childEmail = $"it-sched-child-{stamp}@tutor365.test";
+        var (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/auth/register", new { email = parentEmail, password = "Parent1234", firstName = "Sched", lastName = "Parent" });
+        s.Should().Be(200);
+        (_, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/auth/verify-email", new { email = parentEmail, code = await ForceOtpAsync(parentEmail) });
+        var parentToken = b.Data().Str("accessToken");
+        var (_, years) = await _client.SendAsync(HttpMethod.Get, "/api/v1/year-groups");
+        var year10 = years.Data().EnumerateArray().First(y => y.GetProperty("number").GetInt32() == 10).Str("id");
+        (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/parents/me/children", new { firstName = "Sam", lastName = "Sched", email = childEmail, password = "Child1234", yearGroupId = year10, targetGrade = 6 }, parentToken);
+        s.Should().Be(201, b.ToString());
+        var studentId = b.Data().GetProperty("summary").Str("studentId");
+
+        // Weekday schedule: light Monday, heavy Saturday, Sunday off.
+        var days = new[]
+        {
+            new { day = "Monday", active = true, sessions = 1, minutes = 20 }, new { day = "Tuesday", active = true, sessions = 2, minutes = 30 },
+            new { day = "Wednesday", active = true, sessions = 2, minutes = 45 }, new { day = "Thursday", active = true, sessions = 3, minutes = 30 },
+            new { day = "Friday", active = true, sessions = 1, minutes = 60 }, new { day = "Saturday", active = true, sessions = 4, minutes = 45 },
+            new { day = "Sunday", active = false, sessions = 0, minutes = 0 },
+        };
+        (s, b) = await _client.SendAsync(HttpMethod.Put, $"/api/v1/parents/me/children/{studentId}/schedule", new { days }, parentToken);
+        s.Should().Be(200, b.ToString());
+        var sched = b.Data();
+        sched.GetProperty("weeklySessions").GetInt32().Should().Be(13);
+        sched.GetProperty("weeklyMinutes").GetInt32().Should().Be(20 + 60 + 90 + 90 + 60 + 180);
+        sched.GetProperty("days").EnumerateArray().First(d => d.Str("day") == "Sunday").GetProperty("active").GetBoolean().Should().BeFalse();
+        sched.GetProperty("activeDays").EnumerateArray().Select(d => d.GetString()).Should().NotContain("Sunday");
+        // Validation: 7 sessions or 10 minutes are rejected.
+        (s, _) = await _client.SendAsync(HttpMethod.Put, $"/api/v1/parents/me/children/{studentId}/schedule", new { days = new[] { new { day = "Monday", active = true, sessions = 7, minutes = 45 } } }, parentToken);
+        s.Should().Be(400);
+        (s, _) = await _client.SendAsync(HttpMethod.Put, $"/api/v1/parents/me/children/{studentId}/schedule", new { days = new[] { new { day = "Monday", active = true, sessions = 2, minutes = 10 } } }, parentToken);
+        s.Should().Be(400);
+
+        // The plan for next Monday has one 20-minute slot; next Saturday has four 45-minute slots.
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        DateOnly Next(DayOfWeek d) { var x = today.AddDays(1); while (x.DayOfWeek != d) x = x.AddDays(1); return x; }
+        (s, b) = await _client.SendAsync(HttpMethod.Get, $"/api/v1/parents/me/children/{studentId}/calendar?from={Next(DayOfWeek.Monday):yyyy-MM-dd}&to={Next(DayOfWeek.Monday):yyyy-MM-dd}", token: parentToken);
+        s.Should().Be(200, b.ToString());
+        var monday = b.Data().EnumerateArray().First();
+        monday.GetProperty("slots").GetArrayLength().Should().Be(1);
+        monday.GetProperty("slots")[0].GetProperty("durationMinutes").GetInt32().Should().Be(20);
+        (s, b) = await _client.SendAsync(HttpMethod.Get, $"/api/v1/parents/me/children/{studentId}/calendar?from={Next(DayOfWeek.Saturday):yyyy-MM-dd}&to={Next(DayOfWeek.Saturday):yyyy-MM-dd}", token: parentToken);
+        var saturday = b.Data().EnumerateArray().First();
+        saturday.GetProperty("slots").GetArrayLength().Should().BeGreaterThanOrEqualTo(1).And.BeLessThanOrEqualTo(4);
+        saturday.GetProperty("slots")[0].GetProperty("durationMinutes").GetInt32().Should().Be(45);
+
+        // Help options: switch hints and examples off.
+        (s, b) = await _client.SendAsync(HttpMethod.Put, $"/api/v1/parents/me/children/{studentId}/help-options", new { hints = false, examples = false }, parentToken);
+        s.Should().Be(200, b.ToString());
+        b.Data().GetProperty("hints").GetBoolean().Should().BeFalse();
+        b.Data().GetProperty("explainDifferently").GetBoolean().Should().BeTrue();
+        (_, b) = await _client.SendAsync(HttpMethod.Get, $"/api/v1/parents/me/children/{studentId}", token: parentToken);
+        b.Data().GetProperty("helpOptions").GetProperty("examples").GetBoolean().Should().BeFalse();
+
+        // The student sees the flags on the session and the hint endpoint refuses.
+        (_, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/auth/login", new { email = childEmail, password = "Child1234" });
+        var childToken = b.Data().Str("accessToken");
+        (_, b) = await _client.SendAsync(HttpMethod.Get, "/api/v1/students/me/dashboard", token: childToken);
+        var lessonId = b.Data().GetProperty("recommended").Str("lessonId");
+        (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/study-sessions", new { lessonId }, childToken);
+        s.Should().Be(200, b.ToString());
+        var session = b.Data();
+        session.GetProperty("helpOptions").GetProperty("hints").GetBoolean().Should().BeFalse();
+        var qid = session.GetProperty("activities").EnumerateArray().First(a => a.TryGetProperty("question", out var q) && q.ValueKind == JsonValueKind.Object).GetProperty("question").Str("id");
+        (s, b) = await _client.SendAsync(HttpMethod.Get, $"/api/v1/study-sessions/{session.Str("id")}/questions/{qid}/hint", token: childToken);
+        s.Should().Be(422); b.Str("errorCode").Should().Be("HELP_DISABLED");
+        (s, b) = await _client.SendAsync(HttpMethod.Post, "/api/v1/ai-tutor/example", new { sessionId = session.Str("id"), questionId = qid }, childToken);
+        s.Should().Be(422); b.Str("errorCode").Should().Be("HELP_DISABLED");
+        (s, _) = await _client.SendAsync(HttpMethod.Post, "/api/v1/ai-tutor/explain", new { sessionId = session.Str("id"), questionId = qid }, childToken);
+        s.Should().Be(200, "explain differently is still allowed");
+
+        await _client.SendAsync(HttpMethod.Delete, $"/api/v1/parents/me/children/{studentId}", token: parentToken);
+    }
+}

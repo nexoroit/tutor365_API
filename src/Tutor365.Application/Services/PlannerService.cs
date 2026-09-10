@@ -162,7 +162,8 @@ public class PlannerService : IPlannerService
     private async Task<List<DailyStudySlot>> GenerateAsync(Guid studentId, DateOnly date, StudySchedule schedule, CancellationToken ct, List<DailyStudySlot>? keep = null)
     {
         var slots = keep ?? new List<DailyStudySlot>();
-        var needed = Math.Max(0, schedule.SessionsPerDay - slots.Count);
+        var (sessionsToday, minutesToday) = schedule.PlanFor(date.DayOfWeek);
+        var needed = Math.Max(0, sessionsToday - slots.Count);
         if (needed == 0) return slots;
 
         var weekStart = date.AddDays(-(((int)date.DayOfWeek + 6) % 7));
@@ -193,7 +194,7 @@ public class PlannerService : IPlannerService
                 if (rec == null) continue;
                 var slot = new DailyStudySlot
                 {
-                    StudentId = studentId, Date = date, SlotNumber = slotNo++, DurationMinutes = schedule.SessionMinutes,
+                    StudentId = studentId, Date = date, SlotNumber = slotNo++, DurationMinutes = minutesToday,
                     SubjectId = rec.SubjectId, TopicId = rec.TopicId, LessonId = rec.LessonId,
                     SessionType = Enum.TryParse<StudySessionType>(rec.SessionType, out var t) ? t : StudySessionType.Lesson,
                     Reason = rec.Reason, Status = DailySlotStatus.Scheduled

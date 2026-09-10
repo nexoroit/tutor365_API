@@ -31,6 +31,10 @@ Access token: 60 min. Refresh: 30 days (90 with rememberMe). Send `Authorization
 
 **Health**: `GET /health` (plain text for IIS monitors) and `GET /health/ready` (JSON: status, version, environment, uptime, per-check results). **Admin logs**: `GET /admin/logs` lists daily files, `GET /admin/logs/{yyyy-MM-dd}?lines=&level=&search=` tails one.
 
+### Study schedule and help options
+- `GET/PUT /parents/me/children/{id}/schedule`. Send `days: [{day, active, sessions, minutes}]` for a per-weekday plan (sessions 1–6, minutes 20–120, at least one active day). The response lists `days` (inactive days show 0/0), `weeklySessions` and `weeklyMinutes`. The legacy `sessionsPerDay`/`sessionMinutes`/`activeDays` fields still work and act as defaults for days without an entry. Saving drops future planned slots so the calendar rebuilds.
+- `GET/PUT /parents/me/children/{id}/help-options` `{hints, explainDifferently, examples}`: switches individual in-lesson help buttons off for the child. The session DTO carries `helpOptions` so the UI hides them, and the hint and tutor endpoints return `422 HELP_DISABLED` if called anyway.
+
 ## Public reference data
 `GET /exam-boards`, `GET /year-groups`, `GET /subjects` (anonymous). Topic and sub-topic DTOs carry `status`; the public tree returns published items only, `GET /admin/curriculum` returns drafts and archived too. Authenticated: `GET /subjects/{id}/tree`, `/topics?subjectId&year`, `/subtopics?topicId`, `/lessons?subjectId|topicId|subTopicId`, `/lessons/{id}`.
 

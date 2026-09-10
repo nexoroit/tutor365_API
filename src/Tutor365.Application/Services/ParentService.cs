@@ -20,6 +20,8 @@ public interface IParentService
     Task DeleteChildAsync(Guid studentId, CancellationToken ct = default);
     Task<StudyScheduleDto> GetScheduleAsync(Guid studentId, CancellationToken ct = default);
     Task<StudyScheduleDto> UpdateScheduleAsync(Guid studentId, UpdateStudyScheduleRequest request, CancellationToken ct = default);
+    Task<HelpOptionsDto> GetHelpOptionsAsync(Guid studentId, CancellationToken ct = default);
+    Task<HelpOptionsDto> UpdateHelpOptionsAsync(Guid studentId, UpdateHelpOptionsRequest request, CancellationToken ct = default);
     Task<IReadOnlyList<SubjectSettingDto>> GetSubjectSettingsAsync(Guid studentId, CancellationToken ct = default);
     Task<IReadOnlyList<SubjectSettingDto>> UpdateSubjectSettingsAsync(Guid studentId, IReadOnlyList<UpdateSubjectSettingRequest> requests, CancellationToken ct = default);
 }
@@ -209,6 +211,26 @@ public class ParentService : IParentService
         if (request.SessionsPerDay.HasValue) schedule.SessionsPerDay = request.SessionsPerDay.Value;
         if (request.SessionMinutes.HasValue) schedule.SessionMinutes = request.SessionMinutes.Value;
         if (request.ActiveDays != null) schedule.ActiveDays = ParseDays(request.ActiveDays);
+        if (request.Days != null && request.Days.Count > 0)
+        {
+            var active = DaysOfWeek.None;
+            var plans = schedule.ReadDayPlans();
+            foreach (var d in request.Days)
+            {
+                if (!Enum.TryParse<DayOfWeek>(d.Day, true, out var day)) continue;
+                if (d.Active) { active |= StudySchedule.FlagFor(day); plans[day] = (d.Sessions, d.Minutes); }
+                else plans.Remove(day);
+            }
+            schedule.ActiveDays = active == DaysOfWeek.None ? schedule.ActiveDays : active;
+            schedule.WriteDayPlans(plans);
+            // Keep the legacy defaults meaningful: the most common active-day values.
+            var activePlans = plans.Values.ToList();
+            if (activePlans.Count > 0)
+            {
+                schedule.SessionsPerDay = activePlans.GroupBy(x => x.Sessions).OrderByDescending(g => g.Count()).First().Key;
+                schedule.SessionMinutes = activePlans.GroupBy(x => x.Minutes).OrderByDescending(g => g.Count()).First().Key;
+            }
+        }
         if (request.PreferredStartTime.HasValue) schedule.PreferredStartTime = request.PreferredStartTime;
         if (request.AutoPlanEnabled.HasValue) schedule.AutoPlanEnabled = request.AutoPlanEnabled.Value;
         schedule.UpdatedByUserId = _current.UserId;
@@ -217,6 +239,25 @@ public class ParentService : IParentService
         await DropPlannedSlotsAsync(studentId, ct);
         await _audit.LogAsync("Parent.UpdateSchedule", "Student", studentId.ToString(), request, true, ct);
         return ToDto(schedule);
+    }
+
+    public async Task<HelpOptionsDto> GetHelpOptionsAsync(Guid studentId, CancellationToken ct = default)
+    {
+        var s = await _access.GetAccessibleStudentAsync(studentId, false, ct);
+        return new HelpOptionsDto(s.AllowHints, s.AllowExplainDifferently, s.AllowExamples);
+    }
+
+    public async Task<HelpOptionsDto> UpdateHelpOptionsAsync(Guid studentId, UpdateHelpOptionsRequest request, CancellationToken ct = default)
+    {
+        EnsureParentOrAdmin();
+        var s = await _access.GetAccessibleStudentAsync(studentId, false, ct);
+        if (request.Hints.HasValue) s.AllowHints = request.Hints.Value;
+        if (request.ExplainDifferently.HasValue) s.AllowExplainDifferently = request.ExplainDifferently.Value;
+        if (request.Examples.HasValue) s.AllowExamples = request.Examples.Value;
+        s.UpdatedAt = DateTime.UtcNow;
+        await _db.SaveChangesAsync(ct);
+        await _audit.LogAsync("Parent.UpdateHelpOptions", "Student", studentId.ToString(), request, true, ct);
+        return new HelpOptionsDto(s.AllowHints, s.AllowExplainDifferently, s.AllowExamples);
     }
 
     public async Task<IReadOnlyList<SubjectSettingDto>> GetSubjectSettingsAsync(Guid studentId, CancellationToken ct = default)
@@ -289,8 +330,9 @@ public class ParentService : IParentService
         var days = Enum.GetValues<DaysOfWeek>()
             .Where(d => d is not (DaysOfWeek.None or DaysOfWeek.Weekdays or DaysOfWeek.All) && s.ActiveDays.HasFlag(d))
             .Select(d => d.ToString()).ToList();
-        return new StudyScheduleDto(s.SessionsPerDay, s.SessionMinutes, days, s.PreferredStartTime, s.AutoPlanEnabled,
-            s.SessionsPerDay * s.SessionMinutes * days.Count);
+        var perDay = new[] { DayOfWeek.Monday, DayOfWeek.Tuesday, DayOfWeek.Wednesday, DayOfWeek.Thursday, DayOfWeek.Friday, DayOfWeek.Saturday, DayOfWeek.Sunday }
+            .Select(d => { var (n, m) = s.PlanFor(d); return new DayScheduleDto(d.ToString(), s.IsActive(d), n, m); }).ToList();
+        return new StudyScheduleDto(s.SessionsPerDay, s.SessionMinutes, days, s.PreferredStartTime, s.AutoPlanEnabled, s.WeeklyMinutes, perDay, s.WeeklySessions);
     }
 
     private static DaysOfWeek ParseDays(IReadOnlyList<string> days)
@@ -334,6 +376,6 @@ public class ParentService : IParentService
         var s = await _db.Students.FirstAsync(x => x.Id == studentId, ct);
         var schedule = await GetOrCreateScheduleAsync(studentId, ct);
         var subjects = await QuerySettingsAsync(studentId, ct);
-        return new ChildDetailDto(summary, s.DateOfBirth, s.SchoolName, ToDto(schedule), subjects);
+        return new ChildDetailDto(summary, s.DateOfBirth, s.SchoolName, ToDto(schedule), subjects, new HelpOptionsDto(s.AllowHints, s.AllowExplainDifferently, s.AllowExamples));
     }
 }

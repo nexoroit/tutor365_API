@@ -315,6 +315,8 @@ public class StudySessionService : IStudySessionService
     {
         var session = await LoadAsync(sessionId, requireOwner: true, ct);
         if (IsAssessment(session)) throw new BusinessRuleException("NO_HINTS_IN_ASSESSMENT", "Hints aren't available during a test.");
+        if (!await _db.Students.Where(x => x.Id == session.StudentId).Select(x => x.AllowHints).FirstAsync(ct))
+            throw new BusinessRuleException("HELP_DISABLED", "Hints have been switched off for you by your parent. Re-read the explanation and have a go.");
         if (!session.Activities.Any(a => a.QuestionId == questionId)) throw new NotFoundException("Question", questionId);
         return await _db.Questions.Where(q => q.Id == questionId).Select(q => q.Hint).FirstOrDefaultAsync(ct)
             ?? "Re-read the explanation above and break the question into smaller steps.";
@@ -715,7 +717,8 @@ public class StudySessionService : IStudySessionService
         return new StudySessionDto(s.Id, s.Type.ToString(), s.Status.ToString(), s.AttemptNumber, s.StudentId, s.SubjectId, subject.Name, subject.ColourHex,
             s.TopicId, topic, s.SubTopicId, subTopic, s.LessonId, sessionTitle, estimated, s.PassThresholdPercent,
             s.StartedAt, s.PausedAt, s.CompletedAt, s.LastActivityAt, progress, current, activities, ProgressService.ParseJson(s.ClientStateJson),
-            IsAssessment(s), s.TimeLimitMinutes, s.Status == StudySessionStatus.Active ? SecondsRemaining(s) : null);
+            IsAssessment(s), s.TimeLimitMinutes, s.Status == StudySessionStatus.Active ? SecondsRemaining(s) : null,
+            await _db.Students.Where(x => x.Id == s.StudentId).Select(x => new HelpOptionsDto(x.AllowHints, x.AllowExplainDifferently, x.AllowExamples)).FirstOrDefaultAsync(ct));
     }
 
     /// <summary>Renders a question for the client without revealing answers. Choice and ordering options are shuffled deterministically per session (marking is by option id).</summary>

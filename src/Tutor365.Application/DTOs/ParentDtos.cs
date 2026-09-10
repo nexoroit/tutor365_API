@@ -54,7 +54,11 @@ public record ChildDetailDto(
     DateOnly? DateOfBirth,
     string? SchoolName,
     StudyScheduleDto Schedule,
-    IReadOnlyList<SubjectSettingDto> Subjects);
+    IReadOnlyList<SubjectSettingDto> Subjects,
+    HelpOptionsDto HelpOptions);
+
+/// <summary>One weekday of the study schedule. Sessions/Minutes are 0 when the day is off.</summary>
+public record DayScheduleDto(string Day, bool Active, int Sessions, int Minutes);
 
 public record StudyScheduleDto(
     int SessionsPerDay,
@@ -62,14 +66,24 @@ public record StudyScheduleDto(
     IReadOnlyList<string> ActiveDays,
     TimeOnly? PreferredStartTime,
     bool AutoPlanEnabled,
-    int WeeklyMinutes);
+    int WeeklyMinutes,
+    IReadOnlyList<DayScheduleDto> Days,
+    int WeeklySessions);
 
+/// <summary>Set Days for a per-weekday plan (Monday..Sunday; sessions 1-6, minutes 20-120; Active=false switches the day off). The legacy fields still work as defaults for days without an entry.</summary>
 public record UpdateStudyScheduleRequest(
     int? SessionsPerDay,
     int? SessionMinutes,
     IReadOnlyList<string>? ActiveDays,
     TimeOnly? PreferredStartTime,
-    bool? AutoPlanEnabled);
+    bool? AutoPlanEnabled,
+    IReadOnlyList<DayScheduleInput>? Days = null);
+
+public record DayScheduleInput(string Day, bool Active, int Sessions, int Minutes);
+
+/// <summary>Which in-lesson help a student may use; set by the parent.</summary>
+public record HelpOptionsDto(bool Hints, bool ExplainDifferently, bool Examples);
+public record UpdateHelpOptionsRequest(bool? Hints, bool? ExplainDifferently, bool? Examples);
 
 public record SubjectSettingDto(
     Guid SubjectId,

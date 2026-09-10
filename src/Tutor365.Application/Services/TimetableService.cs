@@ -7,7 +7,7 @@ using Tutor365.Domain.Enums;
 namespace Tutor365.Application.Services;
 
 public record SubjectAllocation(Guid SubjectId, string SubjectName, string? ColourHex, int SlotsPerWeek, decimal Weight, int LessonsRemaining, decimal RequiredLessonsPerWeek, int ReviewsDue, string Rationale);
-public record WeeklyTimetableDto(DateOnly WeekStart, int YearNumber, DateOnly TargetDate, int WeeksRemaining, int SlotsPerWeek, int SessionMinutes, IReadOnlyList<string> ActiveDays, IReadOnlyList<SubjectAllocation> Subjects);
+public record WeeklyTimetableDto(DateOnly WeekStart, int YearNumber, DateOnly TargetDate, int WeeksRemaining, int SlotsPerWeek, int SessionMinutes, IReadOnlyList<string> ActiveDays, IReadOnlyList<SubjectAllocation> Subjects, int WeeklyMinutes = 0);
 
 public interface ITimetableService
 {
@@ -44,7 +44,7 @@ public class TimetableService : ITimetableService
         var student = await _db.Students.Include(s => s.YearGroup).Include(s => s.Schedule).FirstAsync(s => s.Id == studentId, ct);
         var schedule = student.Schedule ?? new Domain.Entities.StudySchedule { StudentId = studentId };
         var activeDays = Enum.GetValues<DaysOfWeek>().Where(d => d is not (DaysOfWeek.None or DaysOfWeek.Weekdays or DaysOfWeek.All) && schedule.ActiveDays.HasFlag(d)).ToList();
-        var slotsPerWeek = schedule.SessionsPerDay * activeDays.Count;
+        var slotsPerWeek = schedule.WeeklySessions;
         var target = await GetTargetDateAsync(student.YearGroup.Number, ct);
         var weeksRemaining = Math.Max(1, (int)Math.Ceiling((target.DayNumber - weekStart.DayNumber) / 7.0));
 
@@ -88,7 +88,7 @@ public class TimetableService : ITimetableService
 
         var list = rows.Select(r => new SubjectAllocation(r.S.SubjectId, r.S.Name, r.S.Colour, allocations.GetValueOrDefault(r.S.SubjectId), r.Weight, r.Remaining, Math.Round(r.Required, 2), r.Reviews, r.Why))
             .OrderByDescending(a => a.SlotsPerWeek).ThenByDescending(a => a.Weight).ToList();
-        return new WeeklyTimetableDto(weekStart, student.YearGroup.Number, target, weeksRemaining, slotsPerWeek, schedule.SessionMinutes, activeDays.Select(d => d.ToString()).ToList(), list);
+        return new WeeklyTimetableDto(weekStart, student.YearGroup.Number, target, weeksRemaining, slotsPerWeek, schedule.SessionMinutes, activeDays.Select(d => d.ToString()).ToList(), list, schedule.WeeklyMinutes);
     }
 
     private record StudentSubjectSettingView(Guid SubjectId, string Name, string? Colour, int Priority, int TargetGrade);

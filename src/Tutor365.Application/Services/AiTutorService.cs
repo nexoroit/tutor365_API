@@ -46,6 +46,10 @@ public class AiTutorService : IAiTutorService
                 throw new BusinessRuleException("AI_DAILY_LIMIT", $"You've used today's {cfg.DailyMessageLimit} tutor messages. Use the hints and explanations in the lesson, and try again tomorrow.");
         }
         var student = await _db.Students.Include(s => s.User).Include(s => s.YearGroup).Include(s => s.ExamBoard).FirstAsync(s => s.Id == studentId, ct);
+        // Parents can switch individual help buttons off per child.
+        if (intent == "hint" && !student.AllowHints) throw new BusinessRuleException("HELP_DISABLED", "Hints have been switched off for you by your parent.");
+        if (intent == "explain" && !student.AllowExplainDifferently) throw new BusinessRuleException("HELP_DISABLED", "\"Explain differently\" has been switched off for you by your parent.");
+        if (intent is "example" or "easier" or "harder" && !student.AllowExamples) throw new BusinessRuleException("HELP_DISABLED", "Worked examples have been switched off for you by your parent.");
 
         StudySession? session = null;
         if (request.SessionId.HasValue)

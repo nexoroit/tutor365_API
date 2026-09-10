@@ -40,9 +40,16 @@ public class UpdateStudyScheduleRequestValidator : AbstractValidator<UpdateStudy
     public UpdateStudyScheduleRequestValidator()
     {
         RuleFor(x => x.SessionsPerDay).InclusiveBetween(1, 6).When(x => x.SessionsPerDay.HasValue);
-        RuleFor(x => x.SessionMinutes).InclusiveBetween(15, 120).When(x => x.SessionMinutes.HasValue);
+        RuleFor(x => x.SessionMinutes).InclusiveBetween(20, 120).When(x => x.SessionMinutes.HasValue);
         RuleForEach(x => x.ActiveDays).Must(d => Days.Contains(d, StringComparer.OrdinalIgnoreCase))
             .WithMessage("ActiveDays must contain day names (Monday..Sunday).");
+        RuleForEach(x => x.Days).ChildRules(d =>
+        {
+            d.RuleFor(x => x.Day).Must(v => Days.Contains(v, StringComparer.OrdinalIgnoreCase)).WithMessage("Day must be Monday..Sunday.");
+            d.RuleFor(x => x.Sessions).InclusiveBetween(1, 6).When(x => x.Active).WithMessage("Sessions per day must be between 1 and 6.");
+            d.RuleFor(x => x.Minutes).InclusiveBetween(20, 120).When(x => x.Active).WithMessage("Minutes per session must be between 20 and 120.");
+        }).When(x => x.Days != null);
+        RuleFor(x => x.Days).Must(days => days!.Any(d => d.Active)).When(x => x.Days != null && x.Days.Count > 0).WithMessage("At least one study day must be active.");
     }
 }
 

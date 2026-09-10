@@ -22,6 +22,9 @@ public class StudentConfig : IEntityTypeConfiguration<Student>
         b.ToTable("Students");
         b.HasIndex(x => x.UserId).IsUnique();
         b.Property(x => x.SchoolName).HasMaxLength(200);
+        b.Property(x => x.AllowHints).HasDefaultValue(true);
+        b.Property(x => x.AllowExplainDifferently).HasDefaultValue(true);
+        b.Property(x => x.AllowExamples).HasDefaultValue(true);
         b.HasOne(x => x.User).WithOne(u => u.Student).HasForeignKey<Student>(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
         b.HasOne(x => x.YearGroup).WithMany().HasForeignKey(x => x.YearGroupId).OnDelete(DeleteBehavior.Restrict);
         b.HasOne(x => x.ExamBoard).WithMany().HasForeignKey(x => x.ExamBoardId).OnDelete(DeleteBehavior.Restrict);
@@ -59,5 +62,8 @@ public class StudyScheduleConfig : IEntityTypeConfiguration<StudySchedule>
     {
         b.ToTable("StudySchedules");
         b.HasIndex(x => x.StudentId).IsUnique();
+        b.Property(x => x.DayPlansJson).HasMaxLength(1000);
+        b.Ignore(x => x.WeeklyMinutes);
+        b.Ignore(x => x.WeeklySessions);
     }
 }

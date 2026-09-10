@@ -122,7 +122,9 @@ public record StudySessionDto(
     bool IsAssessment = false,
     int? TimeLimitMinutes = null,
     /// <summary>Seconds left before auto-submit (assessments only).</summary>
-    int? SecondsRemaining = null);
+    int? SecondsRemaining = null,
+    /// <summary>Parent-controlled help buttons for this student.</summary>
+    HelpOptionsDto? HelpOptions = null);
 
 public record SessionSummaryDto(
     Guid Id,
